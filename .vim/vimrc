@@ -1,0 +1,77 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                                   VIMRC CONFIGS                              
+"                                                                               
+" From:   @marcosrdac (Marcos Reinan de Assis Conceição)                   
+" E-mail: marcosreinanac@gmail.com                                            
+" GitHub: marcosrdac                                                       
+"                                                                              
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Not accepting old version configs
+set nocompatible         "be IMproved
+set hidden               "why??
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" VUNDLE CONFIGS
+""""""""""""""""
+
+" Calling  Vundle
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#begin()
+
+" Vundle's plugin list:
+    Plugin 'gmarik/vundle.vim'                   " Vundle
+    Plugin 'The-NERD-tree'                       " Tree of files
+    "Plugin 'python-mode/python-mode'                    " Python scripting
+    Plugin 'nvie/vim-flake8'                     " Python PEP rules checker
+    Plugin 'mattn/emmet-vim'                     " HTML typing
+    Plugin 'JamshedVesuna/vim-markdown-preview'  " Markdown previewer
+    Plugin 'tpope/vim-fugitive'                  " GitHub integration
+    Plugin 'tpope/vim-surround'                  " Marking helper
+    Plugin 'scrooloose/syntastic'                " Syntax checker
+    Plugin 'taglist.vim'                         " Side window for helping to code
+    Plugin 'delimitMate.vim'                     " Auto closing the stuff you open
+
+" Ending Vundle
+call vundle#end()
+filetype plugin indent on
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" OTHER SETTINGS
+"""""""""""""""""
+" Default theme
+"colorscheme 256-jungle_
+
+" Showing line number; To disable type: set nonumber
+set number
+
+" Setting on mouse cursor in VIM
+set mouse=a
+
+" Making a link between OS' and VIM's clipboard space  (+ or *)
+" I don't know the difference between the two commands bellow...
+":set clipboard=unnamed
+set clipboard=unnamedplus
+
+" Using case isensitive on searches (no good...)
+"set ic
+
+" Editing from where you were
+au BufReadPost * if line("'\"") > 0 | if line("'\"") <= line("$") | exe("norm '\"") | else | exe "norm $" | endif | endif
+
+" Calling normal mode with 'jj', while in insert mode
+imap jj <esc>
+" imap +-
+
+" Saving with <F1>
+nmap <F1> :w<CR>
+imap <F1> <C-o>:w<CR>
+
+
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+
+" Always show statusline
+set laststatus=2
+
+" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256

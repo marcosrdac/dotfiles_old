@@ -1,0 +1,111 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    96
+Xft.antialias:              false
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+!-------------------------------------------------------------------------------
+! URxvt settings
+! Colours lifted from Solarized (http://ethanschoonover.com/solarized)
+! More info at:
+! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
+!-------------------------------------------------------------------------------
+
+!URxvt.depth:                32  ! 32 bits, cracks w3m images
+URxvt.geometry:             90x30
+URxvt.transparent:          true
+URxvt.shading:              30
+URxvt.fading:               0
+! URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            8192
+URxvt.internalBorder:       0
+URxvt.lineSpace:            -1
+
+! Fonts
+URxvt.allow_bold:           True
+URxvt*font:     xft:Ubuntu Mono derivative Powerline:size=12
+!URxvt*font:     xft:Symbol Neu Powerline:size=10
+
+! Fix font space
+URxvt*letterSpace: -1
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher,keyboard-select,selection-to-clipboard,paste_clipboard,font-size
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          qutebrowser
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.C-k:      font-size:increase
+URxvt.keysym.C-j:      font-size:decrease
+URxvt.keysym.C-equal:  font-size:reset
+
+! disabling Ctrl+Shift "ISO 14755 mode" message
+URxvt.keysym.Control-Shift-ISO_Left_Tab: \033} 
+URxvt*iso14755: False 
+URxvt*iso14755_52: FalseURxvt.iso14755_52: False
+
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #aaaaaa
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+
+! Extentions
+
+
+
+*background: #000000
+*foreground: #aaaaaa
+
+!!*fading: 40
+*fadeColor: #00ff00
+*cursorColor: #00ff00
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+
+!! black dark/light
+*color0:  #000000
+*color8:  #222222
+
+!! red dark/light
+*color1:  #aa0000
+*color9:  #ff2222
+
+!! green dark/light
+*color2:  #00aa00
+*color10: #22ff22
+
+!! yellow dark/light
+*color3:  #aaaa00
+*color11: #ffff00
+
+!! blue dark/light
+*color4:  #0000aa
+*color12: #2222ff
+
+!! magenta dark/light
+*color5:  #aa00aa
+*color13: #ff22ff
+
+!! cyan dark/light
+*color6:  #00aaaa
+*color14: #22ffff
+
+!! white dark/light
+*color7:  #aaaaaa
+*color15: #ffffff
