@@ -1,5 +1,26 @@
 #!/bin/bash
 
+# icons:
+# clouds: pure|up|down
+# ||
+drop_icon=
 status=$(dropbox status)
-echo $status
+status=${status##*"
+"}
+status=${status/Up to date}
+status=${status/Syncing.../}
+status=${status/Indexing/}
+status=${status/Uploading/}
+status=${status/Downloading/}
+status=${status/"Dropbox isn't running!"/}
+status=${status/"Starting..."/}
+status=${status/...}  # …
+
+echo $drop_icon" "$status
+
+case $BLOCK_BUTTON in
+  3) urxvt -e ranger ~/Dropbox ;;  # right click, mute/unmute
+  4) dropbox start ;; # scroll up, increase
+  5) dropbox stop ;; # scroll down, decrease
+esac
 

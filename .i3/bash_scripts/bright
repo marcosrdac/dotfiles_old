@@ -1,3 +1,10 @@
 #!/bin/bash
 
 echo $(xbacklight -get | cut --delimiter=. -f1)%
+
+case $BLOCK_BUTTON in
+#  3) amixer -q -D $MIXER sset $SCONTROL $(capability) toggle ;;  # right click, mute/unmute
+  4) xbacklight -inc 10 ;; # scroll up, increase
+  5) xbacklight -dec 10 ;; # scroll down, decrease
+esac
+

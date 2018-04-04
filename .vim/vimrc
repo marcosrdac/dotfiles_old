@@ -16,7 +16,7 @@ set hidden               "why??
 
 " Calling  Vundle
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/vundle.vim/
 call vundle#begin()
 
 " Vundle's plugin list:

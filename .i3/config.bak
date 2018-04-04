@@ -94,7 +94,7 @@ set $ws7 "7:🗖"
 set $ws8 "8:🗖"
 set $ws9 "9:🗖"
 # music
-set $ws10 "10:"
+set $ws10 "10:🎜"
 
 
 # switch to workspace
@@ -183,13 +183,14 @@ bindsym Mod1+o mode "open"
 # PUT TOGGLE
 
 
-set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
-set $text-color          #f3f4f5
-set $inactive-text-color #676E7D
-set $urgent-bg-color     #E53935
+set $bg-color 	         #42273a
+set $inactive-bg-color   #823f58
+set $text-color          #91a9e2
+set $inactive-text-color #D2C0A7
+set $urgent-bg-color     #cb5f8a
+set $urgent-text-color   #42273a
 
-hide_edge_borders horizontal
+#hide_edge_borders horizontal
 
 
 # window colors
@@ -197,7 +198,7 @@ hide_edge_borders horizontal
 client.focused          $bg-color           $bg-color          $text-color          $bg-color
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $bg-color
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $bg-color
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $bg-color
+client.urgent           $urgent-bg-color    $urgent-bg-color   $urgent-text-color   $bg-color
 
 #hide_edge_borders both
 

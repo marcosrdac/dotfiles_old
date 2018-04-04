@@ -27,6 +27,7 @@ command=/usr/share/i3blocks/$BLOCK_NAME
 separator_block_width=15
 separator=false
 markup=none
+color=#91a9e2
 
 
 #[mediaplayer]
@@ -39,20 +40,6 @@ markup=none
 label=🎜
 command=~/.i3/bash_scripts/cmus
 interval=1
-
-
-#dropbox
-[dropbox]
-#label=
-#command=dropbox status
-command=~/.i3/bash_scripts/dropbox
-interval=5
-#border=#1990B7
-#border_top=0
-#border_right=0
-#border_left=0
-separator_block_width=9
-#border_bottom=2
 
 
 ## Network interface monitoring
@@ -81,21 +68,34 @@ interval=10
 #interval=5
 
 
-#[weather]
-#command=~/.i3/bash_scripts/weather "Salvador"
-#interval=1800
-#separator=true
-##border=#1990B7
-##border_top=0
-##border_right=0
-##border_left=0
-#separator_block_width=9
-##border_bottom=2
+#dropbox
+[dropbox]
+label=
+#command=dropbox status
+command=~/.i3/bash_scripts/dropbox
+interval=5
+#border=#1990B7
+#border_top=0
+#border_right=0
+#border_left=0
+separator_block_width=9
+#border_bottom=2
+
+[weather]
+command=~/.i3/bash_scripts/weather "Salvador"
+interval=1800
+separator=true
+#border=#1990B7
+#border_top=0
+#border_right=0
+#border_left=0
+separator_block_width=9
+#border_bottom=2
 
 
-#[mail]
-#command=echo " $(sh ~/.i3/bash_scripts/gmailscript)"
-#interval=100
+[mail]
+command=echo " $(sh ~/.i3/bash_scripts/gmailscript)"
+interval=100
 
 
 # Brightness indicator
@@ -112,7 +112,6 @@ interval=1
 # See the script for details.
 [volume]
 label=
-command=~/.i3/bash_scripts/volume
 #instance=Master
 interval=1
 #markup=pango
@@ -145,16 +144,13 @@ interval=30
 #border_bottom=2
 
 
-# Date
+# Date Time
 # 📅🗓📆⌚
-[date]
-command=date '+ %Y%m%d'
+[time]
+command=date '+ %Y%m%d  %H%M%S'
 interval=1
 
-# Time
-[time]
-command=date '+ %H%M%S'
-interval=1
+
 
 
 ## Memory usage

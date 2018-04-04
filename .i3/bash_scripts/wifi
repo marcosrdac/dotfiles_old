@@ -30,18 +30,21 @@ INTERFACE="${BLOCK_INSTANCE:-wlan0}"
 QUALITY=$(grep $INTERFACE /proc/net/wireless | awk '{ print int($3 * 100 / 70) }')
 
 #------------------------------------------------------------------------
-echo  $(iw dev wlp3s0 link | grep SSID | cut -d " " -f 2-) $QUALITY%  # full text
+
+name=$(iw dev wlp3s0 link | grep SSID | cut -d " " -f 2-)
+# …
+echo  ${name:0:3}~ $QUALITY%  # full text
 echo  $QUALITY%  # short text
 
 # color
-if   [[ $QUALITY -ge 80 ]]; then
-    echo "#00FF00"
-elif [[ $QUALITY -lt 80 ]]; then
-    echo "#AAFF00"
+if [[ $QUALITY -lt 40 ]]; then
+    echo "#FF0000"
 elif [[ $QUALITY -lt 60 ]]; then
     echo "#FFAA00"
-elif [[ $QUALITY -lt 40 ]]; then
-    echo "#FF0000"
+elif [[ $QUALITY -lt 80 ]]; then
+    echo "#AAFF00"
+elif   [[ $QUALITY -ge 80 ]]; then
+    echo "#00FF00"
 fi
 
 
