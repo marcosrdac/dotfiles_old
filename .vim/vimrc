@@ -36,11 +36,17 @@ call vundle#begin()
 call vundle#end()
 filetype plugin indent on
 
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " OTHER SETTINGS
 """""""""""""""""
 " Default theme
-"colorscheme 256-jungle_
+" colorscheme 256-jungle
 
 " Showing line number; To disable type: set nonumber
 set number

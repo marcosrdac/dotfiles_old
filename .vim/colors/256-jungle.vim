@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer:	Piotr Husiatyński <phusiatynski@gmail.com>
 
-set background=dark
+set background=default  " dark
 set t_Co=256
 let g:colors_name="256-jungle_"
 

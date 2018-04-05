@@ -7,12 +7,15 @@ drop_icon=
 status=$(dropbox status)
 status=${status##*"
 "}
+status=${status% (*}
 status=${status/Up to date}
+status=${status/Connecting.../}
 status=${status/Syncing.../}
 status=${status/Indexing/}
 status=${status/Uploading/}
 status=${status/Downloading/}
 status=${status/"Dropbox isn't running!"/}
+status=${status/"Starting..."/}
 status=${status/"Starting..."/}
 status=${status/...}  # …
 

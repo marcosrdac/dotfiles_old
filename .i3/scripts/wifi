@@ -31,20 +31,20 @@ QUALITY=$(grep $INTERFACE /proc/net/wireless | awk '{ print int($3 * 100 / 70) }
 
 #------------------------------------------------------------------------
 
-name=$(iw dev wlp3s0 link | grep SSID | cut -d " " -f 2-)
+set $(iw dev wlp3s0 link | grep SSID | cut -d " " -f 2-)
 # …
-echo  ${name:0:3}~ $QUALITY%  # full text
+echo  $1 $QUALITY%  # full text
 echo  $QUALITY%  # short text
 
 # color
 if [[ $QUALITY -lt 40 ]]; then
-    echo "#FF0000"
+    echo "#B85C8C"
 elif [[ $QUALITY -lt 60 ]]; then
-    echo "#FFAA00"
+    echo "#FDB3BD"
 elif [[ $QUALITY -lt 80 ]]; then
-    echo "#AAFF00"
+    echo "#B9CEFA"
 elif   [[ $QUALITY -ge 80 ]]; then
-    echo "#00FF00"
+    echo "#FDF8F1"
 fi
 
 

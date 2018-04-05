@@ -13,11 +13,11 @@ current=$(cmus-remote -Q 2> /dev/null | grep position | cut -d ' ' -f2-)
 artist=$(cmus-remote -Q 2> /dev/null | grep ' artist ' | cut -d ' ' -f3-)
 song=$(cmus-remote -Q 2> /dev/null | grep title | cut -d ' ' -f3-)
 if [[ "$stat" != "" && "$artist" != "" && "$stat" != "paused" ]]; then
-  echo "$artist - $song $current / $duration"
-  echo "$song"
+  echo "🎜 $artist - $song $current / $duration"
+  echo "🎜 $song"
   if [[ "$stat" == "playing" ]]; then
-    echo "#00ff00"
+    echo "#B9CEFA"
   else
-    echo "#ff0000"
+    echo "#FDB3BD"
   fi
 fi

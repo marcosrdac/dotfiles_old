@@ -2,8 +2,12 @@
 # https://i3wm.org/docs/userguide.html 
 
 
-font pango:Ubuntu Mono 12
+font pango:Ubuntu Mono 11
 #font pango:Symbol Neu Powerline 11
+
+
+#exec --no-startup-id exec today todaysNasaPicAsBg
+exec --no-startup-id exec feh --bg-fill ~/.i3/bg
 
 
 # setting hjkl
@@ -157,7 +161,7 @@ mode "resize" {
         bindsym Mod1+Left   resize shrink width 2 px or 2 ppt
         bindsym Mod1+Down   resize grow height 2 px or 2 ppt
         bindsym Mod1+Up     resize shrink height 2 px or 2 ppt
-		bindsym Mod1+Right  resize grow width 2 px or 2 ppt
+	bindsym Mod1+Right  resize grow width 2 px or 2 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
@@ -183,11 +187,12 @@ bindsym Mod1+o mode "open"
 # PUT TOGGLE
 
 
-set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
-set $text-color          #f3f4f5
-set $inactive-text-color #676E7D
-set $urgent-bg-color     #E53935
+set $bg-color 	         #2e1c29
+# before: 42283a
+set $inactive-bg-color   #663e59
+set $text-color          #fdf8f1
+set $inactive-text-color #d0bfa7
+set $urgent-bg-color     #7bf67b
 
 hide_edge_borders horizontal
 
@@ -240,9 +245,9 @@ for_window [class="^.*"] border pixel 0
 # program start keybindings
 
 # start dmenu
-bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
+#bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
 #bindsym Mod1+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 300 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" #-font "System San Francisco Display 18"
-#bindsym Mod1+d exec dmenu_run  # not so cool
+bindsym Mod1+d exec dmenu_run #-bg "$bg-color"  # not so cool
 
 # start a terminal
 bindsym Mod1+Return exec --no-startup-id urxvt
@@ -288,7 +293,4 @@ bindsym XF86AudioNext  exec playerctl next
 bindsym XF86AudioPrev  exec playerctl previous
 
 
-#exec workon py35; python3 -e ~/nasa-background-downloader.py
-exec --no-startup-id exec today todaysNasaPicAsBg
-exec --no-startup-id exec feh --bg-fill ~/.i3/bg
 exec --no-startup-id dropbox start

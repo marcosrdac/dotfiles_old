@@ -64,11 +64,8 @@ URxvt.cursorUnderline:      false
 URxvt.pointerBlank:         true
 
 
-! Extentions
-
-
-
-*background: #000000
+!*background: #2e1c29
+*background: #FFFFFF
 *foreground: #aaaaaa
 
 !!*fading: 40
@@ -83,28 +80,29 @@ URxvt.pointerBlank:         true
 *color8:  #222222
 
 !! red dark/light
-*color1:  #aa0000
-*color9:  #ff2222
+*color1:  #d64c74
+*color9:  #a43a59
 
 !! green dark/light
-*color2:  #00aa00
-*color10: #22ff22
+*color2:  #376334
+!58b058
+*color10: #7bf67b
 
 !! yellow dark/light
 *color3:  #aaaa00
 *color11: #ffff00
 
 !! blue dark/light
-*color4:  #0000aa
-*color12: #2222ff
+*color4:  #7187c0
+*color12: #b9cefa
 
 !! magenta dark/light
 *color5:  #aa00aa
 *color13: #ff22ff
 
 !! cyan dark/light
-*color6:  #00aaaa
-*color14: #22ffff
+*color6:  #91a2c4
+*color14: #b9cefa
 
 !! white dark/light
 *color7:  #aaaaaa
