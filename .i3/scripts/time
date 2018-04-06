@@ -1,0 +1,5 @@
+#!/bin/bash
+
+time=$(date '+ %H%M%S')
+echo "<span font='Font Awesome 5 Free Solid 11'></span>"$time
+

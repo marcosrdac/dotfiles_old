@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo $(xbacklight -get | cut --delimiter=. -f1)%
+label="<span font='Font Awesome 5 Free Solid 11'> </span>"
+echo $label$(xbacklight -get | cut --delimiter=. -f1)%
 
 case $BLOCK_BUTTON in
 #  3) amixer -q -D $MIXER sset $SCONTROL $(capability) toggle ;;  # right click, mute/unmute

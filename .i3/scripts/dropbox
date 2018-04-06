@@ -1,25 +1,22 @@
 #!/bin/bash
 
-# icons:
-# clouds: pure|up|down
-# ||
-drop_icon=
+label="<span font='Font Awesome 5 Free Solid 11'></span>"
+
 status=$(dropbox status)
 status=${status##*"
 "}
 status=${status% (*}
 status=${status/Up to date}
-status=${status/Connecting.../}
-status=${status/Syncing.../}
-status=${status/Indexing/}
-status=${status/Uploading/}
-status=${status/Downloading/}
-status=${status/"Dropbox isn't running!"/}
-status=${status/"Starting..."/}
-status=${status/"Starting..."/}
+status=${status/Connecting.../"<span font='Font Awesome 5 Free Solid 11'></span>"}
+status=${status/Syncing.../"<span font='Font Awesome 5 Free Solid 11'></span>"}
+status=${status/Indexing/"<span font='Font Awesome 5 Free Solid 11'></span>"}
+status=${status/Uploading/"<span font='Font Awesome 5 Free Solid 11'></span>"}
+status=${status/Downloading/"<span font='Font Awesome 5 Free Solid 11'></span>"}
+status=${status/"Dropbox isn't running!"/"<span font='Font Awesome 5 Free Solid 11'> </span>"}
+status=${status/"Starting..."/"<span font='Font Awesome 5 Free Solid 11'></span>"}
 status=${status/...}  # …
 
-echo $drop_icon" "$status
+echo $label$status
 
 case $BLOCK_BUTTON in
   3) urxvt -e ranger ~/Dropbox ;;  # right click, mute/unmute

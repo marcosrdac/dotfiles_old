@@ -5,14 +5,23 @@ rename bg.jpg
 help
 cd 
 rename
-
 rename 
 rename bg
 wq
 shell 
 find f
 find 
-delete
 rename Macintosh Plusjj
 rename Macintosh Plus
 rename リサフランク420 / 現代のコンピュ
+rename 2018-04-04-001948_1366x768_scrot.png
+search 01
+delete
+search scrot
+search filelis
+mkdir 
+open_with h
+
+q
+search 58
+rename ativador_satbox.cfg

@@ -1,7 +1,8 @@
+add Music_/
+clear
 q
+add files/Músicas/
 colorscheme myTheme
 add Music/
-clear
-add files/Músicas/
 add ~/files/sound/
 w

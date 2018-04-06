@@ -2,6 +2,7 @@
 # https://i3wm.org/docs/userguide.html 
 
 
+#font pango:Font Awesome 5 Free Solid 11
 font pango:Ubuntu Mono 11
 #font pango:Symbol Neu Powerline 11
 
