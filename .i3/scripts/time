@@ -1,5 +1,10 @@
 #!/bin/bash
 
-time=$(date '+ %H%M%S')
-echo "<span font='Font Awesome 5 Free Solid 11'></span>"$time
 
+date_label="<span font='Font Awesome 5 Free Solid 11'></span>"
+date=$(date '+%Y%m%d')
+time_label="<span font='Font Awesome 5 Free Solid 11'></span>"
+time=$(date '+%H%M%S')
+echo "$date_label $date $time_label $time"
+echo "$date_label $date $time_label $time"
+#  calendar |  calendar-alt

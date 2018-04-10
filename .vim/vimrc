@@ -22,14 +22,14 @@ call vundle#begin()
 " Vundle's plugin list:
     Plugin 'gmarik/vundle.vim'                   " Vundle
     Plugin 'The-NERD-tree'                       " Tree of files
-    "Plugin 'python-mode/python-mode'                    " Python scripting
+    "Plugin 'python-mode/python-mode'             " Python scripting
     Plugin 'nvie/vim-flake8'                     " Python PEP rules checker
     Plugin 'mattn/emmet-vim'                     " HTML typing
-    Plugin 'JamshedVesuna/vim-markdown-preview'  " Markdown previewer
+    "Plugin 'JamshedVesuna/vim-markdown-preview'  " Markdown previewer
     Plugin 'tpope/vim-fugitive'                  " GitHub integration
     Plugin 'tpope/vim-surround'                  " Marking helper
     Plugin 'scrooloose/syntastic'                " Syntax checker
-    Plugin 'taglist.vim'                         " Side window for helping to code
+    "Plugin 'taglist.vim'                         " Side window for helping to code
     Plugin 'delimitMate.vim'                     " Auto closing the stuff you open
 
 " Ending Vundle
@@ -46,7 +46,7 @@ filetype plugin indent on
 " OTHER SETTINGS
 """""""""""""""""
 " Default theme
-" colorscheme 256-jungle
+"colorscheme 256-jungle
 
 " Showing line number; To disable type: set nonumber
 set number
@@ -55,8 +55,7 @@ set number
 set mouse=a
 
 " Making a link between OS' and VIM's clipboard space  (+ or *)
-" I don't know the difference between the two commands bellow...
-":set clipboard=unnamed
+" For clipboard persistency bug, remembere to use parcelline!
 set clipboard=unnamedplus
 
 " Using case isensitive on searches (no good...)

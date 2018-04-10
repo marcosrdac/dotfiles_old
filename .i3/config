@@ -3,12 +3,8 @@
 
 
 #font pango:Font Awesome 5 Free Solid 11
-font pango:Ubuntu Mono 11
+font pango:Ubuntu Mono Derivative Powerline 11
 #font pango:Symbol Neu Powerline 11
-
-
-#exec --no-startup-id exec today todaysNasaPicAsBg
-exec --no-startup-id exec feh --bg-fill ~/.i3/bg
 
 
 # setting hjkl
@@ -85,21 +81,21 @@ bindsym Mod1+p focus parent
 # workspaces
 #
 # editing
-set $ws1 "1:"
+set $ws1 "1:<span font='Font Awesome 5 Free Solid 11'></span>"
 # files
-set $ws2 "2:"
+set $ws2 "2:<span font='Font Awesome 5 Free Solid 11'></span>"
 # browser
-set $ws3 "3:"
+set $ws3 "3:<span font='Font Awesome 5 Free Solid 11'></span>"
 # messaging #
-set $ws4 "4:"
+set $ws4 "4:<span font='Font Awesome 5 Free Solid 11'></span>"
 # image editing
-set $ws5 "5:"
-set $ws6 "6:"
-set $ws7 "7:🗖"
-set $ws8 "8:🗖"
-set $ws9 "9:🗖"
+set $ws5 "5:<span font='Font Awesome 5 Free Solid 11'></span>"
+set $ws6 "6:<span font='Font Awesome 5 Free Solid 11'></span>"
+set $ws7 "7:<span font='Font Awesome 5 Free Solid 11'>🗖</span>"
+set $ws8 "8:<span font='Font Awesome 5 Free Solid 11'>🗖</span>"
+set $ws9 "9:<span font='Font Awesome 5 Free Solid 11'>🗖</span>"
 # music
-set $ws10 "10:"
+set $ws10 "10:<span font='Font Awesome 5 Free Solid 11'></span>"
 
 
 # switch to workspace
@@ -293,5 +289,7 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext  exec playerctl next
 bindsym XF86AudioPrev  exec playerctl previous
 
-
+exec --no-startup-id redshift -l -12.98:-36.52
+exec --no-startup-id parcelite -n
+exec --no-startup-id exec feh --bg-fill ~/.i3/bg
 exec --no-startup-id dropbox start

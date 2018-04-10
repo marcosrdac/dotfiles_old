@@ -16,7 +16,6 @@ rename Macintosh Plus
 rename リサフランク420 / 現代のコンピュ
 rename 2018-04-04-001948_1366x768_scrot.png
 search 01
-delete
 search scrot
 search filelis
 mkdir 
@@ -25,3 +24,12 @@ open_with h
 q
 search 58
 rename ativador_satbox.cfg
+rename PTBRGOT 4-01.srt
+search twin
+search p
+search gim
+mkdir gimprev
+open_with 0
+open_with r
+open_with 1
+delete

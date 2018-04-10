@@ -1,5 +1,0 @@
-#!/bin/bash
-
-date=$(date '+ %Y%m%d')
-echo "<span font='Font Awesome 5 Free Solid 11'></span>"$date
-
