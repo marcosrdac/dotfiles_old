@@ -17,6 +17,7 @@ remaining="$(acpi | sed 's/.*\([0-9][0-9]\):\([0-9][0-9]\):\([0-9][0-9]\).*/\1\2
 if [[ "${BATTERY_STATE}" = "Full" ]]; then
   label="<span font='Font Awesome 5 Free Solid 11'></span>"
   sign=""
+  remaining=""
 else
   sign="<span font='Font Awesome 5 Free Solid 11'></span>"
   if [[ $BATTERY_POWER -lt 20 ]]; then
@@ -31,7 +32,6 @@ else
     label="<span font='Font Awesome 5 Free Solid 11'></span>"
   fi
 fi
-
 
   echo "$label ${BATTERY_POWER}% $sign $remaining"
   echo "$label ${BATTERY_POWER}%"

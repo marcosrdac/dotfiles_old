@@ -1,11 +1,5 @@
-w
-:q
-rename 20180329.jpg
-rename bg.jpg
-help
 cd 
 rename
-rename 
 rename bg
 wq
 shell 
@@ -20,7 +14,6 @@ search scrot
 search filelis
 mkdir 
 open_with h
-
 q
 search 58
 rename ativador_satbox.cfg
@@ -29,7 +22,29 @@ search twin
 search p
 search gim
 mkdir gimprev
-open_with 0
 open_with r
+rename 62a66cdb-b7b7-4ca6-898f-c75dfb5705b1.jpg
+rename 
+rename 612dda3c-e519-4445-a4c6-abb5e4ae41c2.jpg
+open_with jjjk
+open_with 11
+search eage
+search cao
+
+search cap
+search mbri
+open_with 0
+search pro
+find fgg
+find n
+find m
+find sem
+find dow
+open_with 14
+search zip
+find fonts
+open_with 3
+open_with 2
 open_with 1
 delete
+open_with 
