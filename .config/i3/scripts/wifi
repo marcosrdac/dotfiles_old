@@ -16,13 +16,13 @@ echo $label$QUALITY%  # short text
 
 # color
 if [[ $QUALITY -lt 40 ]]; then
-    echo "#B85C8C"
+    echo "#991510"
 elif [[ $QUALITY -lt 60 ]]; then
-    echo "#FDB3BD"
-elif [[ $QUALITY -lt 80 ]]; then
-    echo "#B9CEFA"
-elif   [[ $QUALITY -ge 80 ]]; then
-    echo "#FDF8F1"
+    echo "#c66c14"
+#elif [[ $QUALITY -lt 80 ]]; then
+#    echo "#B9CEFA"
+#elif   [[ $QUALITY -ge 85 ]]; then
+#    echo "#e0e0e0"
 fi
 
 

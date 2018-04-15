@@ -1,0 +1,15 @@
+#!/bin/bash
+font=Ubuntu Mono derivative Powerline
+size=10
+bg_color="#454545"
+urgent_bg_color="#688b34"
+choices="Logout\nSuspend\nShutdown\nReboot"
+chosen=$(echo -e "$choices" | dmenu -fn $font-$size -nb $bg_color -sb $urgent_bg_color -i -p "What do you want do do?")
+chosen_lower=$(echo $chosen | sed 's/\([A-Z]\)/\L\1/g')
+
+case "$chosen" in
+  Logout)   i3-msg exit ;;
+  Suspend)  sudo systemctl suspend ;;
+  Shutdown) sudo shutdown -h now ;;
+  Reboot)   sudo reboot ;;
+esac

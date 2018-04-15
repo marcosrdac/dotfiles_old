@@ -20,7 +20,7 @@ STEP="${1:-5%}"
 capability="$(amixer -D $MIXER get $SCONTROL | sed -n "s/  Capabilities:.*cvolume.*/Capture/p")"
 # return "Capture" if it's a capture device
 
-volume="$(amixer -D $MIXER get $SCONTROL ${capability})"
+volume="$(amixer -M -D $MIXER get $SCONTROL ${capability})"
 
 label="<span font='Font Awesome 5 Free Solid 11'> </span>"
 volume="${volume%]*}"

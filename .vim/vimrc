@@ -26,6 +26,8 @@ call vundle#begin()
     Plugin 'nvie/vim-flake8'                     " Python PEP rules checker
     Plugin 'mattn/emmet-vim'                     " HTML typing
     "Plugin 'JamshedVesuna/vim-markdown-preview'  " Markdown previewer
+    "Plugin 'ying17zi/vim-live-latex-preview'     " Latex previewer 
+    Plugin 'LaTeX-Box-Team/LaTeX-Box'            " Facilities in editing Latex
     Plugin 'tpope/vim-fugitive'                  " GitHub integration
     Plugin 'tpope/vim-surround'                  " Marking helper
     Plugin 'scrooloose/syntastic'                " Syntax checker

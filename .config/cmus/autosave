@@ -52,6 +52,8 @@ set dsp.ao.wav_counter=1
 set dsp.ao.wav_dir=/home/marcosrdac
 set dsp.jack.resampling_quality=2
 set dsp.jack.server_name=
+set dsp.roar.role=
+set dsp.roar.server=
 set follow=false
 set format_current= %a - %l -%3n. %t%= %y 
 set format_playlist= %-21%a %3n. %t%= %y %d %{?X!=0?%3X ?    }

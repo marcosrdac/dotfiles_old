@@ -18,7 +18,7 @@ Xft.hintstyle:              hintslight
 !URxvt.depth:                32  ! 32 bits, cracks w3m images
 URxvt.geometry:             90x30
 URxvt.transparent:          true
-URxvt.shading:              20
+URxvt.shading:              10
 URxvt.fading:               0
 ! URxvt.urgentOnBell:         true
 ! URxvt.visualBell:           true
@@ -64,46 +64,44 @@ URxvt.cursorUnderline:      false
 URxvt.pointerBlank:         true
 
 
-!*background: #2e1c29
 *background: #FFFFFF
 *foreground: #aaaaaa
 
 !!*fading: 40
 *fadeColor: #00ff00
-*cursorColor: #00ff00
+*cursorColor: #e0e0e0
 *pointerColorBackground: #586e75
 *pointerColorForeground: #93a1a1
 
 
 !! black dark/light
-*color0:  #000000
-*color8:  #222222
+*color0:  #454545
+*color8:  #848484
 
 !! red dark/light
-*color1:  #d64c74
-*color9:  #a43a59
+*color1:  #991510
+*color9:  #996361
 
 !! green dark/light
-*color2:  #376334
-!58b058
-*color10: #7bf67b
+*color2:  #0e8a20
+*color10: #628a68
 
 !! yellow dark/light
-*color3:  #aaaa00
-*color11: #ffff00
+*color3:  #c66c14
+*color11: #c69667
 
 !! blue dark/light
-*color4:  #7187c0
-*color12: #b9cefa
+*color4:  #b9cefa
+*color12: #616493
 
 !! magenta dark/light
-*color5:  #aa00aa
-*color13: #ff22ff
+*color5:  #870f96
+*color13: #927196
 
 !! cyan dark/light
-*color6:  #91a2c4
-*color14: #b9cefa
+*color6:  #1358ba
+*color14: #6d8dba
 
 !! white dark/light
-*color7:  #aaaaaa
-*color15: #ffffff
+*color7:  #b8b8b8
+*color15: #e0e0e0

@@ -1,0 +1,254 @@
+# i3 config file (v4)
+
+
+#--- style ---#
+# font definitions
+set $font Ubuntu Mono derivative Powerline
+set $size 11
+# color definitions
+#set $bg_color 	         #2e1c29
+#set $inactive_bg_color   #663e59
+#set $text_color          #fdf8f1
+#set $inactive_text_color #d0bfa7
+#set $urgent_bg_color     #7bf67b
+set $bg_color 	         #454545
+set $inactive_bg_color   #4a4a4a
+set $text_color          #e0e0e0
+set $inactive_text_color #848484
+set $urgent_bg_color     #688b34
+# gaps
+hide_edge_borders both
+for_window [class="^.*"] border pixel 0
+gaps inner 8
+gaps outer 4
+
+#--- starting ---#
+# setting the background
+#   NECESSARY: feh
+#exec --no-startup-id exec feh --bg-fill ~/.config/i3/bg
+exec --no-startup-id exec ~/.fehbg
+# redshift for the sake of your eyes
+exec --no-startup-id redshift -l -12.98:-36.52
+# parcelite for clipboard's persistency bug
+exec --no-startup-id parcelite -n
+# setting up touchpad
+exec --no-startup-id synclient VertEdgeScroll=0 HorizTwoFingerScroll=1
+# starting dropbox
+exec --no-startup-id dropbox start
+
+
+# general settings
+set $mod Mod1
+set $term urxvt
+set $browser --no-startup-id qutebrowser
+
+
+#--- screen ---#
+set $incbr --no-startup-id xbacklight -inc 5
+set $decbr --no-startup-id xbacklight -dec 5
+
+
+#--- audio ---#
+# alsa/amixer
+set $inc --no-startup-id amixer sset Master 2%+
+set $biginc --no-startup-id amixer sset Master 5%+
+set $dec --no-startup-id amixer sset Master 2%-
+set $bigdec --no-startup-id amixer sset Master 5%-
+set $mute --no-startup-id amixer sset Master toggle
+set $truemute --no-startup-id amixer sset Master mute
+
+
+#--- music ---#
+# cmus
+set $music cmus
+set $pause --no-startup-id cmus-remote -u
+set $next --no-startup-id cmus-remote -n
+set $prev --no-startup-id cmus-remote -r
+set $lilfor --no-startup-id cmus-remote -k +10
+set $bigfor --no-startup-id cmus-remote -k +120
+set $lilbak --no-startup-id cmus-remote -k -10
+set $bigbak --no-startup-id cmus-remote -k -120
+set $beg --no-startup-id cmus-remote -k 00:00:00
+
+
+
+#--- window managing ---#
+# setting hjkl
+set $left  h
+set $down  j
+set $up    k
+set $right l
+# killing focused window
+bindsym $mod+Shift+q kill
+# changing focus hjkl
+bindsym $mod+$down  focus down
+bindsym $mod+$up    focus up
+bindsym $mod+$left  focus left
+bindsym $mod+$right focus right
+# focus floating windows|tiling
+bindsym $mod+backslash focus mode_toggle
+# moving focused window hjkl
+bindsym $mod+Shift+$left  move left
+bindsym $mod+Shift+$down  move down
+bindsym $mod+Shift+$up    move up
+bindsym $mod+Shift+$right move right
+# resizing window arrow keys
+bindsym $mod+Ctrl+$left  resize shrink width 2 px or 2 ppt
+bindsym $mod+Ctrl+$down  resize grow height 2 px or 2 ppt
+bindsym $mod+Ctrl+$up    resize shrink height 2 px or 2 ppt
+bindsym $mod+Ctrl+$right resize grow width 2 px or 2 ppt
+# layout and modes
+bindsym $mod+s     split toggle
+bindsym $mod+f     fullscreen toggle
+bindsym $mod+space floating toggle
+
+
+#--- workspaces ---#
+# setting workspaces
+set $ws1  "1:<span font='Font Awesome 5 Free Solid 11'></span>"
+set $ws2  "2:<span font='Font Awesome 5 Free Solid 11'></span>"
+set $ws3  "3:<span font='Font Awesome 5 Free Solid 11'></span>"
+set $ws4  "4:<span font='Font Awesome 5 Free Solid 11'></span>"
+set $ws5  "5:<span font='Font Awesome 5 Free Solid 11'></span>"
+set $ws6  "6:<span font='Font Awesome 5 Free Solid 11'></span>"
+set $ws7  "7:<span font='Font Awesome 5 Free Solid 11'>🗖</span>"
+set $ws8  "8:<span font='Font Awesome 5 Free Solid 11'>🗖</span>"
+set $ws9  "9:<span font='Font Awesome 5 Free Solid 11'>🗖</span>"
+set $ws10 "10:<span font='Font Awesome 5 Free Solid 11'></span>"
+workspace $ws5 gaps inner 0
+workspace $ws5 gaps outer 0
+workspace $ws6 gaps inner 0
+workspace $ws6 gaps outer 0
+# switching back and forth
+bindsym $mod+Tab   workspace back_and_forth
+# switching between workspaces
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+# show scratchpad
+bindsym $mod+minus scratchpad show
+# move to scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+
+#--- windows startup ---#
+# use xprop to identify windows
+# cmus
+for_window [title="^cmus v\d\.\d\.\d"] move workspace $ws10
+# gimp [set "single window mode"]
+for_window [class="Gimp"] move workspace $ws5
+for_window [title="GIMP Startup"] move workspace $ws5
+#for_window [window_role="gimp-image-window"] floating disable, move right
+#for_window [window_role="gimp-dock"] floating disable, move right, resize shrink width 15 px or 15ppt
+#for_window [window_role="gimp-toolbox"] floating disable, move left, resize shrink width 25 px or 25ppt
+for_window [window_role="gimp-toolbox-color-dialog"] floating enable
+# steam
+# https://github.com/ValveSoftware/steam-for-linux/issues/1040
+for_window [class="^Steam$" title="^Friends$"] floating enable
+for_window [class="^Steam$" title="Steam - News"] floating enable
+for_window [class="^Steam$" title=".* - Chat"] floating enable
+for_window [class="^Steam$" title="^Settings$"] floating enable
+for_window [class="^Steam$" title=".* - event started"] floating enable
+for_window [class="^Steam$" title=".* CD key"] floating enable
+for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^Steam Keyboard$"] floating enable
+
+
+#--- keybindings ---#
+
+# test
+bindsym $mod+x exec /usr/bin/dmenu_run $dmenu_config
+
+# common softwares
+bindsym $mod+Return exec $term
+bindsym $mod+v      exec $term -e vim
+bindsym $mod+n      exec $term -e ranger
+bindsym $mod+m      exec $term -e $music
+bindsym $mod+b      exec --no-startup-id qutebrowser
+bindsym $mod+a [instance="math"] scratchpad show; [instance="math"] move position center
+
+# system managing
+#   NECESSARY:
+#     -      $ sudo visudo
+#     - add  %sudo ALL = NOPASSWD: /sbin/shutdown, /sbin/poweroff, /sbin/halt, /sbin/reboot
+bindsym Ctrl+Escape exec ~/.config/i3/scripts/system
+# put below in system
+bindsym	$mod+Shift+x exec --no-startup-id i3lock --color "$bg_color" 
+
+# start dmenu
+bindsym $mod+d exec dmenu_run -fn "$font"-"$size" -nb "$bg_color" -sb "$urgent_bg_color"  # finish it  # not so cool
+
+# i3
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+c reload  # never used it
+
+# printscreen
+bindsym --release Print      exec --no-startup-id scrot -e 'mv $f ~/Pictures'
+bindsym --release $mod+Print exec --no-startup-id scrot -u -e 'mv $f ~/Pictures'
+
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp   exec $incbr # increase screen brightness
+bindsym XF86MonBrightnessDown exec $decbr # decrease screen brightness
+
+# Media player controls
+bindsym XF86AudioPlay           exec $pause
+bindsym XF86AudioNext           exec $next
+bindsym XF86AudioPrev           exec $prev
+bindsym XF86AudioMute           exec $mute
+bindsym XF86AudioLowerVolume    exec $bigdec
+bindsym XF86AudioRaiseVolume    exec $biginc
+
+# stuff to be tested
+#bindsym XF86Explorer            exec urxvt -e ranger /
+#bindsym XF86HomePage            exec urxvt -e ranger ~/
+#bindsym XF86Calculator          exec $term -e python3 -q
+#bindsym $mod+bracketleft 	exec $lilbak
+#bindsym $mod+Shift+bracketleft 	exec $bigbak
+#bindsym $mod+bracketright 	exec $lilfor
+#bindsym $mod+Shift+bracketright exec $bigfor
+
+
+#--- setting font, colors and bar ---#
+# font
+font pango:$font $size
+# color
+#                       border              background         text                 indicator
+client.focused          $bg_color           $bg_color          $text_color          $bg_color
+client.unfocused        $inactive_bg_color  $inactive_bg_color $inactive_text_color $bg_color
+client.focused_inactive $inactive_bg_color  $inactive_bg_color $inactive_text_color $bg_color
+client.urgent           $urgent_bg_color    $urgent_bg_color   $text_color          $bg_color
+bar {
+	status_command i3blocks -c ~/.config/i3/i3blocks.conf
+        font pango:$font $size
+	separator_symbol " "
+	position top
+        tray_output primary
+	colors {
+		background $bg_color
+	    	separator $text_color
+		#                  border             background         text
+		focused_workspace  $bg_color          $bg_color          $text_color
+		inactive_workspace $inactive_bg_color $inactive_bg_color $inactive_text_color
+		urgent_workspace   $urgent_bg_color   $urgent_bg_color   $text_color
+		}
+}

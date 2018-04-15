@@ -1,0 +1,23 @@
+#!/bin/bash
+choices="Logout\nSuspend\nShutdown\nReboot"
+chosen=$(echo -e "$choices" | dmenu $1 -i -p "What do you want do do?")
+chosen_lower=$(echo $chosen | sed 's/\([A-Z]\)/\L\1/g')
+if [ ! -z chosen ]
+then
+  echo $chosen
+  sure=$(echo -e "No\nYes" | dmenu $1 -i -p "Are you sure you want to $chosen_lower?")
+  if [ sure == "Yes" ]
+  then
+    case "$chosen" in
+      Logout)   echo "yes" ;;   #   i3-msg exit ;;
+      Suspend)  sudo systemctl suspend ;;
+      Shutdown) sudo systemctl poweroff ;;
+      Reboot)   sudo systemctl reboot ;;
+    esac
+  fi
+fi
+#i3exit lock, mode "default"
+#i3exit logout, mode "default"
+#i3exit suspend, mode "default"
+#i3exit hibernate, mode "default"
+#i3exit reboot, mode "default"
