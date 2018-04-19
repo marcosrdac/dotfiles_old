@@ -1,0 +1,8 @@
+#!/bin/bash
+loc=$(cat ~/.fehbg) 
+loc=${loc##*
+}
+loc=$(echo $loc | sed "s/.*'\(.*\).*'/\1/")
+wal -i /path/to/image.png 
+$(wal -g -i "$loc" -o ~/.config/i3/scripts/qutebrowser_reload.py)
+$(wal-steam -w)

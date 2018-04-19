@@ -15,15 +15,15 @@ echo $label$1 $QUALITY%  # full text
 echo $label$QUALITY%  # short text
 
 # color
-if [[ $QUALITY -lt 40 ]]; then
-    echo "#991510"
-elif [[ $QUALITY -lt 60 ]]; then
-    echo "#c66c14"
+#if [[ $QUALITY -lt 40 ]]; then
+#    echo "#991510"
+#elif [[ $QUALITY -lt 60 ]]; then
+#    echo "#c66c14"
 #elif [[ $QUALITY -lt 80 ]]; then
 #    echo "#B9CEFA"
 #elif   [[ $QUALITY -ge 85 ]]; then
 #    echo "#e0e0e0"
-fi
+#fi
 
 
 case $BLOCK_BUTTON in

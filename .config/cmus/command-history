@@ -1,8 +1,16 @@
 q
+add Music/
+clear 
+clear
+:q
+colorscheme blue
+qy
+fset 90s=date>=1990&date<2000
+colorscheme green
+add Desktop/AsusSoundRecorder/
+add Desktop/
 w
 add Music_/
-clear
 add files/Músicas/
 colorscheme myTheme
-add Music/
 add ~/files/sound/

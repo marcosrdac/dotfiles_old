@@ -25,9 +25,10 @@ call vundle#begin()
     "Plugin 'python-mode/python-mode'             " Python scripting
     Plugin 'nvie/vim-flake8'                     " Python PEP rules checker
     Plugin 'mattn/emmet-vim'                     " HTML typing
+    Plugin 'vim-latex/vim-latex'                 " Latex
     "Plugin 'JamshedVesuna/vim-markdown-preview'  " Markdown previewer
     "Plugin 'ying17zi/vim-live-latex-preview'     " Latex previewer 
-    Plugin 'LaTeX-Box-Team/LaTeX-Box'            " Facilities in editing Latex
+    "Plugin 'LaTeX-Box-Team/LaTeX-Box'            " Facilities in editing Latex
     Plugin 'tpope/vim-fugitive'                  " GitHub integration
     Plugin 'tpope/vim-surround'                  " Marking helper
     Plugin 'scrooloose/syntastic'                " Syntax checker
@@ -67,18 +68,22 @@ set clipboard=unnamedplus
 au BufReadPost * if line("'\"") > 0 | if line("'\"") <= line("$") | exe("norm '\"") | else | exe "norm $" | endif | endif
 
 " Calling normal mode with 'jj', while in insert mode
-imap jj <esc>
-" imap +-
+"imap jj <esc>
 
 " Saving with <F1>
 nmap <F1> :w<CR>
 imap <F1> <C-o>:w<CR>
 
+" Mappings
+" imap +-
 
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+
+"set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 
 " Always show statusline
-set laststatus=2
+"set laststatus=2
 
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
-set t_Co=256
+"set t_Co=256
+
+

@@ -3,5 +3,5 @@
 
 config_version: 2
 settings:
-  url.default_page:
-    global: https://start.duckduckgo.com/
+  tabs.title.format:
+    global: '{index} {title}'

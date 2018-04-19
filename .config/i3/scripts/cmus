@@ -13,10 +13,10 @@ label="<span font='Font Awesome 5 Free Solid 11'> </span>"
 if [[ "$stat" != "" && "$artist" != "" && "$stat" != "paused" ]]; then
   echo $label"$artist - $song $current / $duration"
   echo $label"$song"
-  if [[ "$stat" == "playing" ]]; then
-    echo "#B9CEFA"
-  else
-    echo "#FDB3BD"
-  fi
+  #if [[ "$stat" == "playing" ]]; then
+  #  echo #colorok
+  #else
+  #  echo #colornotok
+  #fi
 fi
 

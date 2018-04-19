@@ -1,15 +1,15 @@
 #!/bin/bash
-font=Ubuntu Mono derivative Powerline
-size=10
-bg_color="#454545"
-urgent_bg_color="#688b34"
-choices="Logout\nSuspend\nShutdown\nReboot"
-chosen=$(echo -e "$choices" | dmenu -fn $font-$size -nb $bg_color -sb $urgent_bg_color -i -p "What do you want do do?")
-chosen_lower=$(echo $chosen | sed 's/\([A-Z]\)/\L\1/g')
+font=$1
+size=$2
+bg=$3
+fg=$4
+choices="lock\nsuspend\nlogout\nshutdown\nreboot"
+chosen=$(echo -e "$choices" | dmenu -nb "$bg" -nf "$fg" -sb "$fg" -sf $bg -i -p "power menu")
 
 case "$chosen" in
-  Logout)   i3-msg exit ;;
-  Suspend)  sudo systemctl suspend ;;
-  Shutdown) sudo shutdown -h now ;;
-  Reboot)   sudo reboot ;;
+  lock)     i3lock --color "$bg" ;;
+  suspend)  sudo systemctl suspend ;;
+  logout)   i3-msg exit ;;
+  shutdown) sudo shutdown -h now ;;
+  reboot)   sudo reboot ;;
 esac
