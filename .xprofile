@@ -1,0 +1,5 @@
+# this code will run when X is started before you log in (i.e. when using lightdm)
+
+setxkbmap -layout br -option caps:swapescape
+xinput --set-prop "ELAN0501:01 04F3:3060 Touchpad" "libinput Tapping Enabled" 1
+dunst_start &

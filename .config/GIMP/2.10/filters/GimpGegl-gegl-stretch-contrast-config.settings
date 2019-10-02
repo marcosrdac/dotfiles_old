@@ -1,0 +1,12 @@
+# settings
+
+(GimpGegl-gegl-stretch-contrast-config "2019-01-25 19:33:24"
+    (time 1548444804)
+    (keep-colors yes)
+    (perceptual yes))
+(GimpGegl-gegl-stretch-contrast-config "2018-10-23 18:43:41"
+    (time 1540320221)
+    (keep-colors no)
+    (perceptual yes))
+
+# end of settings

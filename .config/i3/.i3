@@ -1,1 +1,0 @@
-/home/marcosrdac/Dropbox/Apps/i3/.i3

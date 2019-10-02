@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/way_trees.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0A0E11",
+        "foreground": "#fffff3",
+        "cursor": "#fffff3"
+    },
+    "colors": {
+        "color0": "#0A0E11",
+        "color1": "#93936F",
+        "color2": "#5E6794",
+        "color3": "#B7C660",
+        "color4": "#3C4C85",
+        "color5": "#A5A195",
+        "color6": "#7B83A1",
+        "color7": "#e0dfcd",
+        "color8": "#1c2731",
+        "color9": "#cfcf7f",
+        "color10": "#6a7bd0",
+        "color11": "#fbff69",
+        "color12": "#415bb9",
+        "color13": "#eadbad",
+        "color14": "#8d9fe3",
+        "color15": "#fffff3"
+    }
+}

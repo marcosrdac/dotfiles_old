@@ -1,0 +1,10 @@
+# settings
+
+(GimpGegl-gegl-stress-config "2018-10-23 18:45:00"
+    (time 1540320300)
+    (radius 1000)
+    (samples 12)
+    (iterations 21)
+    (enhance-shadows no))
+
+# end of settings

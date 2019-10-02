@@ -1,0 +1,83 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+# stopwatch 
+# sandwatch 
+label=""
+fg=$background
+bg=$foreground
+sp=" "
+full_text=""
+short_text=""
+
+filename=pomodoro_end
+pomodoro_time=25*60
+break_time=5*60
+touch /tmp/$filename
+pomodoro_end=$(cat /tmp/$filename)
+now=$(date '+%s')
+p=3600
+pomodoro=$(( $pomodoro_end-$now ))
+
+if [ "$pomodoro" -gt "0" ]
+then
+    rest=$(( $pomodoro*$p/60/60 ))
+    pomodoro_hour=$(( $rest/$p ))
+    rest=$(( ($rest-$pomodoro_hour*$p)*60 ))
+    pomodoro_min=$(( $rest/$p ))
+    pomodoro_sec=$(( ($rest-$pomodoro_min*$p)*60/$p ))
+
+    if [ "${#pomodoro_hour}" -lt "2" ]
+        then
+            pomodoro_hour="0"$pomodoro_hour
+    fi
+    if [ "${#pomodoro_min}" -lt "2" ]
+        then
+            pomodoro_min="0"$pomodoro_min
+    fi
+    if [ "${#pomodoro_sec}" -lt "2" ]
+        then
+            pomodoro_sec="0"$pomodoro_sec
+    fi
+    remaining=$pomodoro_hour$pomodoro_min$pomodoro_sec
+#    fg=$foreground
+#    bg=$background
+    fg=$background
+    bg=$foreground
+    psp=" "
+    full_text="<span background=\""$bg"\" foreground=\""$fg"\">$psp<span font=\""$symbol_font_name"\">$label</span> $remaining$psp</span>"
+    echo $full_text
+    echo
+#else
+#    remaining=None
+#    fg=$background
+#    bg=$foreground
+fi
+
+
+#if [[ "$bg" = "$foreground" ]]
+#then
+#    psp=" "
+#else
+#    psp=""
+#fi
+
+#full_text="<span background=\""$bg"\" foreground=\""$fg"\">$psp<span font=\""$symbol_font_name"\">$label</span> $remaining$psp</span>"
+#echo $full_text
+
+if [ "$pomodoro" -eq "0" ]
+then
+    nohup mpv --really-quiet ~/bin/resources/bleep_high.wav &>/dev/null &
+fi
+
+
+case $BLOCK_BUTTON in
+    1) echo $((now+break_time)) > /tmp/$filename ;;     # left click
+    3) echo $((now+pomodoro_time)) > /tmp/$filename ;;  # right click
+    4) echo $((pomodoro_end+5*60)) > /tmp/$filename ;;  # scroll
+    5) echo $((pomodoro_end-5*60)) > /tmp/$filename ;;  # scroll
+esac
+

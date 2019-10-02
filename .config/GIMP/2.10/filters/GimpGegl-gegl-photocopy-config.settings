@@ -1,0 +1,10 @@
+# settings
+
+(GimpGegl-gegl-photocopy-config "2019-05-30 12:40:17"
+    (time 1559230817)
+    (mask-radius 10.000000)
+    (sharpness 0.500000)
+    (black 0.200000)
+    (white 0.200000))
+
+# end of settings

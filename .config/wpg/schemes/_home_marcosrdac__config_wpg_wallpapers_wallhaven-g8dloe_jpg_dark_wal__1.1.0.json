@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/wallhaven-g8dloe.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f0d09",
+        "foreground": "#ffffe9",
+        "cursor": "#ffffe9"
+    },
+    "colors": {
+        "color0": "#0f0d09",
+        "color1": "#97613D",
+        "color2": "#6B664B",
+        "color3": "#DDB06E",
+        "color4": "#8E7252",
+        "color5": "#A28F6C",
+        "color6": "#7B8366",
+        "color7": "#ebe2c6",
+        "color8": "#2e281b",
+        "color9": "#d27b41",
+        "color10": "#968c55",
+        "color11": "#ffe879",
+        "color12": "#c7955c",
+        "color13": "#e4bf7a",
+        "color14": "#a6b975",
+        "color15": "#ffffe9"
+    }
+}

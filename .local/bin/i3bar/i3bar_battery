@@ -1,0 +1,79 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import symbol font
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+
+battery=0
+battery_info=$(acpi -b | grep "Battery ${battery}")
+battery_state=$(echo "${battery_info}" | grep -wo "Full\|Charging\|Discharging\|Unknown")
+battery_power=$(echo "${battery_info}" | grep -o '[0-9]\+%' | tr -d '%')
+urgent_value=2
+
+
+label=""
+fg=$background
+bg=$foreground
+sign=""
+sp=""
+lsp=""
+remaining=""
+
+if [ "${battery_state}" != "Full" ] && [ "${battery_state}" != "Unknown" ]
+then
+  #sign=""
+  sp=""
+  lsp=" "
+  # collonned timer
+  #remaining="$(acpi | sed 's/.*\([0-9][0-9]:[0-9][0-9]:[0-9][0-9]\).*/\1/')"
+
+  # not colonned timer
+  remaining="$(acpi | sed 's/.*\([0-9][0-9]\):\([0-9][0-9]\):\([0-9][0-9]\).*/\1\2\3/')"
+
+  if [[ $battery_power -lt 20 ]]; then
+    label=""
+  elif [[ $battery_power -lt 45 ]]; then
+    label=""
+  elif [[ $battery_power -lt 70 ]]; then
+    label=""
+  elif [[ $battery_power -lt 95 ]]; then
+    label=""
+  elif [[ $battery_power -ge 95 ]]; then
+    label=""
+  fi
+
+  if [[ $battery_power -lt 15 ]] && [[ "${battery_state}" = "Discharging" ]]
+  then
+    fg=$foreground
+    bg=$background
+    sp=" "
+  fi
+fi
+
+
+if [[ $battery_state != "Full" ]]
+then
+  full_text="<span background=\""$fg"\" foreground=\""$bg"\">$sp<span font=\""$symbol_font_name"\">$label</span> "${battery_power}"$sp</span>"
+  short_text="<span background=\""$fg"\" foreground=\""$bg"\">$sp<span font=\""$symbol_font_name"\">$label</span> "${battery_power}"$sp</span>"
+else
+  full_text=""
+  short_text=""
+fi
+
+
+echo $full_text
+echo $short_text
+
+
+if [[ "${battery_power}" -le "${urgent_value}" ]]
+then
+  exit 33
+fi
+
+
+case $BLOCK_BUTTON in
+  1) notify-send "$label Battery" "State:\t\t${battery_state}\nTime remaining:\t$remaining" ;;
+  3) $TERMINAL -e nmtui ;;
+esac

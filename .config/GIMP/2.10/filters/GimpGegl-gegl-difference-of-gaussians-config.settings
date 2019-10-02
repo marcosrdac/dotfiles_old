@@ -1,0 +1,24 @@
+# settings
+
+(GimpGegl-gegl-difference-of-gaussians-config "2019-02-17 08:53:29"
+    (time 1550393609)
+    (radius1 1.096000)
+    (radius2 27.121000))
+(GimpGegl-gegl-difference-of-gaussians-config "2019-02-17 08:50:20"
+    (time 1550393420)
+    (radius1 15.599000)
+    (radius2 5.238000))
+(GimpGegl-gegl-difference-of-gaussians-config "2019-01-07 15:40:45"
+    (time 1546875645)
+    (radius1 1.000000)
+    (radius2 2.000000))
+(GimpGegl-gegl-difference-of-gaussians-config "2018-07-08 10:46:02"
+    (time 1531046762)
+    (radius1 6.583000)
+    (radius2 21.725000))
+(GimpGegl-gegl-difference-of-gaussians-config "2018-07-08 10:37:42"
+    (time 1531046262)
+    (radius1 3.081000)
+    (radius2 30.995000))
+
+# end of settings

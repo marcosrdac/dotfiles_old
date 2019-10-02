@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/city_little.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a050d",
+        "foreground": "#d3ffff",
+        "cursor": "#d3ffff"
+    },
+    "colors": {
+        "color0": "#0a050d",
+        "color1": "#9F5A47",
+        "color2": "#2A4E66",
+        "color3": "#C9A65C",
+        "color4": "#3F7189",
+        "color5": "#94758E",
+        "color6": "#5B5A62",
+        "color7": "#a0ccd2",
+        "color8": "#261132",
+        "color9": "#dd6c4d",
+        "color10": "#2d678d",
+        "color11": "#ffde64",
+        "color12": "#4497bf",
+        "color13": "#d186c3",
+        "color14": "#6d688b",
+        "color15": "#d3ffff"
+    }
+}

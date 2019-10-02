@@ -1,0 +1,44 @@
+#!/bin/sh
+
+myname="$0"
+fetchcmd=curl
+filter=cat
+hostarg=""
+eval cast=\${$#}
+
+
+args=$(getopt fih $*)
+if [ $? -ne 0 ]; then
+	echo "Usage: $myname [-fih] linktorss" >& 2
+	exit 1
+fi
+
+set -- $args
+while [ "$1" != -- ]; do
+	case "$1" in
+		-f) fetchcmd=cat ;;
+		-i)
+			if tail -r /dev/null > /dev/null 2>&1; then
+				filter="tail -r"
+			elif tac /dev/null > /dev/null 2>&1; then
+				filter=tac
+			else
+				echo "Don't know how to reverse order!"
+				exit 1
+			fi
+			;;
+		-h)
+			hostarg="--host=$3"
+			;;
+	esac
+	shift
+done
+shift
+
+if [ $# -lt 3 ]; then
+	$fetchcmd $cast|grep "<enclosure url"|sed "s/^.*url=//"|cut -d'"' -f2|$filter|mpc $hostarg add
+else
+	echo $0 $1 $2 $3 $4 $5
+	echo "Usage: $myname [-fih] linktorss" >&2
+	exit 1
+fi

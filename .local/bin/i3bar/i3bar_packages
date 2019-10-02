@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+
+label=""
+bg=$background
+fg=$foreground
+sp=""
+
+
+upgradable=$(pacman -Qu | grep -v "\[ignored\]" | wc -l | sed -e "s/^0$//g")
+
+
+if test "$upgradable" -gt 0
+then
+  full_text="<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font_desc=\""$symbol_font_name"\" font_size=\""medium"\">$label</span> "$upgradable"$sp</span>"
+  short_text="<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font_desc=\""$symbol_font_name"\" font_size=\""medium"\">$label</span> "$upgradable"$sp</span>"
+
+  echo "$full_text"
+  echo "$tiny_text"
+fi
+
+
+
+
+# events
+case $BLOCK_BUTTON in
+  1) notify-send "Packages to update" "$(/usr/bin/pacman -Qu)" ;;
+  3) $TERMINAL -e $AURMANAGER -Syu
+     pkill -RTMIN+14 i3blocks ;;
+esac

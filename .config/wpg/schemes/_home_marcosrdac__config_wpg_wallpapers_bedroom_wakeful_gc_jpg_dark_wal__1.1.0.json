@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/bedroom_wakeful_gc.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#321a1a",
+        "foreground": "#ffffe4",
+        "cursor": "#ffffe4"
+    },
+    "colors": {
+        "color0": "#321a1a",
+        "color1": "#CF7153",
+        "color2": "#A2635E",
+        "color3": "#ECB969",
+        "color4": "#E49D69",
+        "color5": "#857B98",
+        "color6": "#E8AD91",
+        "color7": "#f3dec5",
+        "color8": "#532a2a",
+        "color9": "#ff8959",
+        "color10": "#e37269",
+        "color11": "#fff572",
+        "color12": "#ffc872",
+        "color13": "#a78ed7",
+        "color14": "#ffd8a4",
+        "color15": "#ffffe4"
+    }
+}

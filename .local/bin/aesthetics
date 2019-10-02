@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# importing font
+font="$(xrdb -query | awk '$1~/^*font:$/ {$1=""; print $0}')"
+font_name="$(xrdb -query | awk '$1~/^*font_name:$/ {$1=""; print $0}')"
+font_size="$(xrdb -query | awk '$1~/^*font_size:$/ {$1=""; print $0}')"
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+symbol_font_size="$(xrdb -query | awk '$1~/^*symbol_font_size:$/ {$1=""; print $0}')"
+
+#export font_name=$font_name
+#export symbol_font_name=$symbol_font_name
+#export font_size=$font_size
+#export foreground=$foreground
+#export background=$background
+#export urgent=$urgent
+
+echo font_name        $font_name
+echo symbol_font_name $symbol_font_name
+echo font_size        $font_size
+echo foreground       $foreground
+echo background       $background
+echo urgent           $urgent
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"

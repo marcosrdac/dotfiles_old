@@ -1,0 +1,12 @@
+#!/bin/sh
+
+choices="i3_restart\ntoggle i3 bar\nsource .xprofile\nsource .Xresources"
+chosen=$(echo -e "$choices" | menu -p "system menu:")
+
+
+case "$chosen" in
+  i3_restart) i3-msg restart ;;
+  "toggle i3 bar") sh i3_bar_toggle ;;
+  "source .xprofile") source .xprofile ;;
+  "source .Xresources") source .xprofile ;;
+esac

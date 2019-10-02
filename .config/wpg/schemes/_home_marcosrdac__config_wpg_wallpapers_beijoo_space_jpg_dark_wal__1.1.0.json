@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/beijoo_space.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#060C0A",
+        "foreground": "#f8ffd2",
+        "cursor": "#f8ffd2"
+    },
+    "colors": {
+        "color0": "#060C0A",
+        "color1": "#4D7149",
+        "color2": "#678B3A",
+        "color3": "#679751",
+        "color4": "#2C534D",
+        "color5": "#4C6C50",
+        "color6": "#366454",
+        "color7": "#bbd09f",
+        "color8": "#152e26",
+        "color9": "#5a9e52",
+        "color10": "#87c13e",
+        "color11": "#80d35a",
+        "color12": "#307469",
+        "color13": "#56985f",
+        "color14": "#3c8c70",
+        "color15": "#f8ffd2"
+    }
+}

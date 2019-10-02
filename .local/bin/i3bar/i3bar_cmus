@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+
+label=""
+sp=""
+
+stat=$(cmus-remote -Q 2> /dev/null | grep status | cut -d ' ' -f2-)
+duration=$(cmus-remote -Q 2> /dev/null | grep duration | cut -d ' ' -f2-)
+current=$(cmus-remote -Q 2> /dev/null | grep position | cut -d ' ' -f2-)
+artist=$(cmus-remote -Q 2> /dev/null | grep ' artist ' | cut -d ' ' -f3-)
+song=$(cmus-remote -Q 2> /dev/null | grep title | cut -d ' ' -f3-)
+
+if [[ "$stat" != "" && "$artist" != "" && "$stat" != "paused" ]]; then
+    if [[ "$stat" == "playing" ]]; then
+        fg=$foreground
+        bg=$background
+    else
+        sp=" "
+        fg=$background
+        bg=$foreground
+    fi
+    echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $artist - $song$sp</span>"
+    echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $song$sp</span>"
+fi
+case $BLOCK_BUTTON in
+    #1) echo $((now+break_time)) > /tmp/$filename ;;     # left click
+    3) i3-msg [instance="dropdown_music_player"] scratchpad show, move position center ;;  # right click
+    #4) echo $((pomodoro_end+5*60)) > /tmp/$filename ;;  # scroll
+    #5) echo $((pomodoro_end-5*60)) > /tmp/$filename ;;  # scroll
+esac
+

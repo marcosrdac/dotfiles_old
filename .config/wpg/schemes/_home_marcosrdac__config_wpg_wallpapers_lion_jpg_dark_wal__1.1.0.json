@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/lion.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#040502",
+        "foreground": "#ffffed",
+        "cursor": "#ffffed"
+    },
+    "colors": {
+        "color0": "#040502",
+        "color1": "#8D7051",
+        "color2": "#947A60",
+        "color3": "#C6A177",
+        "color4": "#797E87",
+        "color5": "#AEA091",
+        "color6": "#A98D6D",
+        "color7": "#ddd0c0",
+        "color8": "#212d0c",
+        "color9": "#c5925a",
+        "color10": "#d09e6c",
+        "color11": "#ffd286",
+        "color12": "#8c9fc0",
+        "color13": "#f6d0a7",
+        "color14": "#edb87b",
+        "color15": "#ffffed"
+    }
+}

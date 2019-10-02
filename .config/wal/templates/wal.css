@@ -1,0 +1,1699 @@
+* {{
+  border-color: {foreground} !important;
+}}
+a {{
+  color: {color4} !important;
+}}
+a:visited {{
+  color: {color12} !important;
+}}
+body {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+html {{
+  background-color: {foreground} !important;
+}}
+input,
+textarea {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+blockquote,
+pre {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.post-actions {{
+  background-color: {foreground} !important;
+}}
+.textarea-wrapper {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.search--adv {{
+  background-color: {foreground} !important;
+}}
+.search__autocomplete > .acp-wrap {{
+  background-color: {foreground} !important;
+}}
+.search__autocomplete > .acp-wrap > .acp--highlight {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.search__autocomplete > .acp-wrap strong {{
+  color: {background} !important;
+}}
+.site-wrapper > #header_wrapper {{
+  background-color: {foreground} !important;
+}}
+.site-wrapper > #header_wrapper > #header {{
+  background-color: {foreground} !important;
+}}
+.search--header {{
+  background-color: {foreground} !important;
+}}
+.zci {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.tile--info {{
+  background-color: {foreground} !important;
+}}
+.tile--info__expand {{
+  background-color: {foreground} !important;
+}}
+.tile--c {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.module__text {{
+  color: {background} !important;
+}}
+.about-info-box__heading {{
+  color: {background} !important;
+}}
+.result.highlight {{
+  background-color: {foreground} !important;
+}}
+.result__snippet {{
+  color: {background} !important;
+}}
+.result__snippet b {{
+  color: {background} !important;
+}}
+.btn--top {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.btn--top:hover {{
+  background-color: {foreground} !important;
+}}
+.result--sep--hr:before {{
+  background-color: {foreground} !important;
+}}
+* {{
+  border-color: {foreground} !important;
+}}
+.news .alert .pull-info {{
+  background-color: #ebe4cf !important;
+}}
+.link-gray-dark,
+.text-gray-dark {{
+  color: {background} !important;
+}}
+.bg-white {{
+  background-color: {foreground} !important;
+}}
+.border {{
+  border-color: {foreground} !important;
+}}
+.breadcrumb .repo-root.js-repo-root a {{
+  color: {color4} !important;
+}}
+.breadcrumb strong.final-path {{
+  color: {background} !important;
+}}
+button.ajax-pagination-btn {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+button.ajax-pagination-btn:hover {{
+  background-color: {foreground} !important;
+}}
+.comment-reactions .btn-link {{
+  color: {background} !important;
+}}
+.comment-reactions .user-has-reacted {{
+  background-color: {foreground} !important;
+}}
+.text-gray-dark {{
+  color: {background} !important;
+}}
+.contrib-number {{
+  color: {background} !important;
+}}
+.counter {{
+  background-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.diffstat-bar {{
+  color: {background} !important;
+}}
+.file-header {{
+  background-color: {foreground} !important;
+}}
+.file-history-tease .participation {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.file-history-tease .participation .quickstat strong {{
+  color: {background} !important;
+}}
+.file-history-tease .participation a {{
+  color: {foreground} !important;
+}}
+.file-history-tease .author a {{
+  color: {background} !important;
+}}
+.file-history-tease-header {{
+  background-color: {foreground} !important;
+}}
+.file-info-divider {{
+  background-color: {foreground} !important;
+}}
+.file-wrap {{
+  color: {background} !important;
+}}
+.file-wrap * {{
+  background-color: transparent !important;
+}}
+.filter-bar {{
+  background-color: #ebe4cf !important;
+}}
+a.filter-item,
+.filter-item {{
+  color: {background} !important;
+}}
+a.filter-item.selected,
+.filter-item.selected {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+a.filter-item:hover,
+.filter-item:hover {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.flash {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.gh-header-number {{
+  color: {foreground} !important;
+}}
+.ellipsis-expander,
+.hidden-text-expander a {{
+  background-color: {foreground} !important;
+}}
+.issue-meta {{
+  color: {foreground} !important;
+}}
+.issues-listing a {{
+  color: {background} !important;
+}}
+.muted-link {{
+  color: {background} !important;
+}}
+.new-user-avatar-cta {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+  color: {background} !important;
+}}
+.overall-summary {{
+  border-color: {foreground} !important;
+}}
+.pinned-repo-item.border {{
+  border-color: {foreground} !important;
+}}
+.progress-bar {{
+  background-color: {foreground} !important;
+}}
+.simple-box {{
+  background-color: {foreground} !important;
+}}
+.social-count {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+  color: {background} !important;
+}}
+.scope-badge {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.stats-switcher-wrapper {{
+  background-color: {foreground} !important;
+}}
+.stats-switcher-wrapper .numbers-summary li a {{
+  color: {background} !important;
+}}
+.table-list-header-toggle .btn-link {{
+  color: {foreground} !important;
+}}
+.table-list-header-toggle .btn-link.selected {{
+  color: {background} !important;
+}}
+.text-emphasized {{
+  color: {background} !important;
+}}
+.text-diff-added {{
+  color: {color2} !important;
+}}
+.text-diff-deleted {{
+  color: {color1} !important;
+}}
+.avatar,
+.timeline-comment-avatar {{
+  filter: opacity(75%);
+}}
+.blob-code {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.blob-code-addition {{
+  background-color: rgba(232,255,77,0.1) !important;
+}}
+.blob-code-addition .x {{
+  background-color: #647300 !important;
+  color: #b1bec2 !important;
+}}
+.blob-code-deletion {{
+  background-color: rgba(220,50,47,0.2) !important;
+}}
+.blob-code-deletion .x {{
+  background-color: #721513 !important;
+  color: #b1bec2 !important;
+}}
+.blob-code-hunk {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.blob-code-inner {{
+  color: {background} !important;
+}}
+.blob-num {{
+  background-color: {foreground} !important;
+  color: {foreground} !important;
+}}
+.file {{
+  color: {background} !important;
+}}
+.form-control {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.pl-c {{
+  color: {foreground} !important;
+}}
+.pl-c1 {{
+  color: {color4} !important;
+}}
+.pl-e {{
+  color: {color3} !important;
+}}
+.pl-en {{
+  color: {color4} !important;
+}}
+.pl-k {{
+  color: {color2} !important;
+  font-weight: bold !important;
+}}
+.pl-pds {{
+  color: {color6} !important;
+}}
+.pl-s {{
+  color: {color6} !important;
+}}
+.pl-smi {{
+  color: {background} !important;
+}}
+.pl-v {{
+  color: {color2} !important;
+  font-weight: bold !important;
+}}
+.pl-mi1 {{
+  color: {color2} !important;
+  background-color: transparent !important;
+}}
+.pl-md {{
+  color: {color1} !important;
+  background-color: transparent !important;
+}}
+.border-bottom,
+.border-top {{
+  border-color: {foreground} !important;
+}}
+.boxed-group * {{
+  border-color: {foreground} !important;
+}}
+.boxed-group article {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.boxed-group > h3 {{
+  background-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.more-repos {{
+  background-color: #e9e1c8 !important;
+  box-shadow: inset 0 1px 0 {foreground} !important;
+}}
+.boxed-group-inner {{
+  background-color: {foreground} !important;
+}}
+.branch-action-body {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.branch-action-body div {{
+  border-color: {foreground} !important;
+}}
+.branch-action-state-clean .branch-action-icon {{
+  background-color: {color2} !important;
+}}
+.branch-action-state-dirty .branch-action-icon,
+.branch-action-state-unstable .branch-action-icon,
+.branch-action-state-unknown .branch-action-icon {{
+  background-color: {color3} !important;
+  color: #fff !important;
+}}
+.text-shadow-light,
+.branch-group-name,
+.branch-summary {{
+  color: {background} !important;
+  text-shadow: none !important;
+}}
+.branch-a-b-count .meter {{
+  background-color: {color3} !important;
+}}
+.more-branches,
+.branch-group-heading,
+.branch-infobar,
+.branch-name {{
+  border-color: {foreground} !important;
+  background-color: {foreground} !important;
+}}
+.State,
+.State:visited {{
+  color: #fff !important;
+}}
+.State--red {{
+  background-color: {color1} !important;
+  color: {foreground} !important;
+}}
+.State--green {{
+  background-color: {color2} !important;
+  color: {foreground} !important;
+}}
+.select-menu-filters {{
+  background-color: #ebe4cf !important;
+  color: {background} !important;
+}}
+.js-select-menu-tab {{
+  background-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.select-menu-tabs a.selected,
+.select-menu-tab-nav.selected {{
+  background-color: {foreground} !important;
+  color: {foreground} !important;
+}}
+.signed-commit-header {{
+  background-color: {foreground} !important;
+}}
+.build-status-item {{
+  background-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.build-status-item .build-status-details {{
+  color: {color4} !important;
+}}
+.capped-card h3 {{
+  background-color: #e9e1c8 !important;
+}}
+.capped-card h3 a {{
+  color: {background} !important;
+}}
+.capped-card-content {{
+  background-color: {foreground} !important;
+}}
+.capped-list th {{
+  background-color: #ebe4cf !important;
+  color: {background} !important;
+}}
+.capped-list tr:nth-child(2n) {{
+  background-color: {foreground} !important;
+}}
+.commit,
+.commit-meta,
+.commit-icon .octicon,
+.commit-group-title .octicon-git-commit {{
+  background-color: {foreground} !important;
+}}
+.commit *,
+.commit-meta *,
+.commit-icon .octicon *,
+.commit-group-title .octicon-git-commit * {{
+  border-color: {foreground} !important;
+}}
+.commit-author {{
+  color: {background} !important;
+}}
+.commit-author-section {{
+  color: {background} !important;
+}}
+.commit-meta {{
+  color: {foreground} !important;
+}}
+.commit-meta .sha-block {{
+  color: {foreground} !important;
+}}
+.commit-meta .sha-block .sha {{
+  color: {background} !important;
+}}
+.commit-ref,
+code.commit-sha {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.commit-ref .user,
+code.commit-sha .user {{
+  color: {color6} !important;
+}}
+.commit-branches *,
+.commit-tease,
+.commit-title {{
+  background-color: rgba(0,0,142,0.2) !important;
+  border: none !important;
+}}
+.commit-branches * *,
+.commit-tease *,
+.commit-title * {{
+  color: {background} !important;
+}}
+.commit-tease-contributors {{
+  background-color: {foreground} !important;
+}}
+div.commit-branches,
+div.commit.full-commit p.commit-title,
+qul.branches-list {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+div.commit-branches *,
+div.commit.full-commit p.commit-title *,
+qul.branches-list * {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.commit-meta {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.commits-listing:before {{
+  background-color: {foreground} !important;
+}}
+.full-commit {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.full-commit * {{
+  text-shadow: none !important;
+}}
+.commit-desc pre {{
+  background-color: transparent !important;
+  color: {background} !important;
+}}
+.commit.table-list-item {{
+  border-color: {foreground} !important;
+}}
+.commit-meta.commit-author-section {{
+  background-color: transparent !important;
+  color: {background} !important;
+}}
+.table-list-cell .commit-title {{
+  background-color: transparent !important;
+  color: {background} !important;
+}}
+.completeness-indicator-success {{
+  background-color: {color2} !important;
+}}
+.completeness-indicator-problem {{
+  background-color: {color3} !important;
+  color: #fff !important;
+}}
+.copyable-terminal {{
+  background-color: {foreground} !important;
+}}
+.blankslate {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.comment-form-head.tabnav {{
+  background-color: {foreground} !important;
+}}
+.conversation-list-heading .inner {{
+  background-color: {foreground} !important;
+}}
+.discussion-item-closed .discussion-item-icon {{
+  background-color: {color1} !important;
+  color: {background} !important;
+}}
+.discussion-item-icon {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.discussion-item-icon.octicon {{
+  color: {background} !important;
+}}
+.discussion-item-entity,
+.discussion-item .renamed-was,
+.discussion-item .renamed-is {{
+  color: {background} !important;
+}}
+.discussion-timeline:before {{
+  background-color: {foreground} !important;
+}}
+.discussion-timeline-actions {{
+  background-color: {foreground} !important;
+}}
+.drag-and-drop {{
+  background-color: {foreground} !important;
+}}
+.new-discussion-timeline .closed-banner {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.timeline-comment {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.timeline-comment-header {{
+  background-color: {foreground} !important;
+}}
+.timeline-comment-wrapper {{
+  border-color: {foreground} !important;
+}}
+.donut-chart > .pending {{
+  fill: {color3} !important;
+}}
+.dropdown-divider {{
+  background-color: {foreground} !important;
+}}
+.dropdown-item {{
+  color: {background} !important;
+}}
+.dropdown-item:hover {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.dropdown-menu {{
+  background-color: #e9e1c8 !important;
+  color: {background} !important;
+  border-color: {foreground} !important;
+}}
+.files * {{
+  color: {background} !important;
+}}
+.files tbody tr {{
+  border-color: {foreground} !important;
+}}
+.files tbody tr:nth-child(even) {{
+  background-color: #fcf3da !important;
+}}
+.files tbody tr:nth-child(odd) {{
+  background-color: {foreground} !important;
+}}
+.files tbody tr:hover * {{
+  background-color: #e9e1c8 !important;
+}}
+.btn {{
+  background-image: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+  border-color: {foreground} !important;
+  color: {background} !important;
+}}
+.btn:hover {{
+  background-color: #ebe4cf !important;
+}}
+.btn-primary,
+.issues-listing .btn-primary {{
+  background-color: {color2} !important;
+  background-image: linear-gradient({color2}, #424d00) !important;
+  color: #000 !important;
+  filter: opacity(62.5%);
+}}
+.entry-title a {{
+  color: {color4} !important;
+}}
+.Header {{
+  background-color: #ebe4cf !important;
+  border-bottom-color: {foreground} !important;
+}}
+.Header a {{
+  color: {background} !important;
+}}
+.lang {{
+  color: {background} !important;
+}}
+.reponav-item,
+.pagehead-tabs-item {{
+  background-color: {foreground} !important;
+  border-color: transparent !important;
+  color: {background} !important;
+}}
+.reponav-item:visited,
+.pagehead-tabs-item:visited {{
+  color: {background} !important;
+}}
+.reponav-item.selected,
+.pagehead-tabs-item.selected {{
+  background-color: {foreground} !important;
+  border-color: {color1} #e9e1c8 transparent !important;
+}}
+.site-footer-links * {{
+  color: {background} !important;
+}}
+.Box-row--focus-gray.navigation-focus {{
+  background-color: #ebe4cf !important;
+  color: {background} !important;
+}}
+.js-directory-link {{
+  color: {color4} !important;
+}}
+.js-site-search-form input,
+.js-chromeless-input-container {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+a.label {{
+  color: #000 !important;
+  filter: opacity(75%);
+}}
+.notifications-list a {{
+  color: {background} !important;
+}}
+.notifications-list li {{
+  background-color: {foreground} !important;
+}}
+.octicon-repo {{
+  color: {foreground} !important;
+}}
+.type-icon-state-closed {{
+  color: rgba(202,0,0,0.65) !important;
+}}
+.type-icon-state-merged {{
+  color: {color12} !important;
+}}
+.type-icon-state-open {{
+  color: rgba(68,103,0,0.65) !important;
+}}
+.octicon-alert {{
+  color: #fff !important;
+}}
+.octicon-x {{
+  color: {color1} !important;
+}}
+.octicon-check {{
+  color: {color2} !important;
+}}
+.octicon-primitive-dot {{
+  color: {color3} !important;
+}}
+.octicon-clippy {{
+  color: {background} !important;
+}}
+.octicon-diff {{
+  color: #fff !important;
+}}
+.octicon-markdown {{
+  color: {foreground} !important;
+}}
+.orghead {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+  border-bottom: 0px !important;
+  color: {background} !important;
+}}
+.org-name {{
+  color: {background} !important;
+}}
+.pagehead.orghead {{
+  background-color: {foreground} !important;
+}}
+.outline-box-highlighted {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.pagination .current {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.pagination .disabled {{
+  background-color: {foreground} !important;
+  color: {foreground} !important;
+}}
+.pagination .disabled:hover {{
+  background-color: {foreground} !important;
+}}
+.pagination .gap {{
+  background-color: {foreground} !important;
+  color: {foreground} !important;
+}}
+.pagination a {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+  color: {background} !important;
+}}
+.pagination a:hover {{
+  background-color: {foreground} !important;
+  color: {foreground} !important;
+}}
+.empty-cell,
+.diffbar {{
+  background-color: {foreground} !important;
+}}
+.merge-status-item {{
+  background-color: #e9e1c8 !important;
+}}
+.merge-message {{
+  background-color: #ebe4cf !important;
+}}
+.pr-toolbar {{
+  background-color: {foreground} !important;
+}}
+.review-thread-reply {{
+  background-color: {foreground} !important;
+}}
+.review-thread-reply .inline-comment-form {{
+  background-color: {foreground} !important;
+}}
+.merged.octicon,
+.octicon-git-merge {{
+  color: {color12} !important;
+}}
+.uploaded-files {{
+  background-color: {foreground} !important;
+}}
+.upload-progress {{
+  background-color: {foreground} !important;
+  box-shadow: 1px 0px 0px {foreground} inset;
+}}
+#readme .plain {{
+  background-color: {foreground} !important;
+}}
+.markdown-body,
+.markdown-body table * {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+  color: {background} !important;
+}}
+.markdown-body a,
+.markdown-body table * a {{
+  color: {color4} !important;
+}}
+.markdown-body code,
+.markdown-body table * code,
+.markdown-body pre,
+.markdown-body table * pre {{
+  background-color: {foreground} !important;
+}}
+.markdown-body hr,
+.markdown-body table * hr {{
+  background-color: {foreground} !important;
+}}
+.markdown-body img,
+.markdown-body table * img {{
+  background-color: {foreground} !important;
+}}
+.task-list-item.hovered {{
+  background-color: {foreground} !important;
+}}
+.range-editor {{
+  background-color: {foreground} !important;
+}}
+.compare-pr-placeholder {{
+  background-color: #ebe4cf !important;
+}}
+ul.comparison-list > li.title {{
+  background-color: #e9e1c8 !important;
+}}
+ul.comparison-list {{
+  background-color: #ebe4cf !important;
+}}
+.repository-description {{
+  color: {background} !important;
+}}
+.repository-meta .edit-repository-meta label {{
+  color: {background} !important;
+}}
+.pagehead.repohead {{
+  background-color: {foreground} !important;
+}}
+.repository-content .RecentBranches {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.repohead-details-container a {{
+  color: {background} !important;
+}}
+.select-menu-modal {{
+  border-color: {background} !important;
+}}
+.select-menu-modal * {{
+  color: {background} !important;
+}}
+.select-menu-header,
+.select-menu-header * {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+  text-shadow: none !important;
+}}
+.select-menu-item {{
+  background-color: {foreground} !important;
+}}
+.select-menu-item.navigation-focus,
+.select-menu-item.navigation-focus.selected,
+.select-menu-item.navigation-focus.select-menu-action,
+.select-menu-item-text.navigation-focus {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.repository-sidebar {{
+  background-color: {foreground} !important;
+}}
+.thread-subscription-status {{
+  background-color: {foreground} !important;
+}}
+.sunken-menu {{
+  background-image: linear-gradient(to right, {foreground} 0%, {foreground} 8px) !important;
+  box-shadow: 1px 0px 0px {foreground} inset;
+}}
+.sunken-menu:before {{
+  background-image: linear-gradient({foreground}, transparent) !important;
+}}
+.sunken-menu:after {{
+  background-image: linear-gradient(transparent, {foreground}) !important;
+}}
+.sunken-menu-item {{
+  border-color: {foreground} !important;
+}}
+.sunken-menu-item.selected {{
+  background-color: {foreground} !important;
+  border-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.sunken-menu-item.selected:after {{
+  background-color: {color9} !important;
+}}
+.sunken-menu-separator:before {{
+  background-image: linear-gradient(to right, {foreground} 70%, {foreground} 100%) !important;
+}}
+.state {{
+  color: {background} !important;
+}}
+.state-closed {{
+  background-color: {color1} !important;
+}}
+.state-open {{
+  background-color: {color2} !important;
+}}
+.subnav-item {{
+  color: {background} !important;
+}}
+.subnav-item:hover {{
+  background-color: #ebe4cf !important;
+}}
+.subnav-item:visited {{
+  color: {background} !important;
+}}
+.subnav-item.selected {{
+  background-color: {foreground} !important;
+}}
+.subnav-links a:hover {{
+  background-color: {foreground} !important;
+}}
+.subnav-search input {{
+  border-color: {foreground} !important;
+}}
+.right .tabnav-extra {{
+  color: {foreground} !important;
+}}
+a.tabnav-tab,
+.tabnav-tab {{
+  border-color: transparent !important;
+  color: {foreground} !important;
+}}
+a.tabnav-tab.selected,
+.tabnav-tab.selected {{
+  background-color: {foreground} !important;
+  background-image: linear-gradient({foreground}, {foreground}) !important;
+  border-color: {foreground} !important;
+  color: {background} !important;
+}}
+.table-list tr,
+.table-list li {{
+  background-color: {foreground} !important;
+}}
+.table-list tr:hover,
+.table-list li:hover {{
+  background-color: #e9e1c8 !important;
+}}
+.table-list-header {{
+  background-color: {foreground} !important;
+}}
+.text-pending {{
+  color: {color3} !important;
+}}
+.text-pending .octicon-primitive-dot {{
+  color: {color3} !important;
+}}
+.text-red {{
+  color: {color1} !important;
+}}
+.timeline-commits .commit-meta {{
+  background-color: {foreground} !important;
+}}
+.timeline-commits .commit-meta .commit-id {{
+  color: {foreground} !important;
+}}
+.topic-tag.topic-tag-link {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.underline-nav-item {{
+  color: {background} !important;
+}}
+.underline-nav-item.selected {{
+  border-bottom-color: {color1} !important;
+  color: {background} !important;
+}}
+.user-profile-nav {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.user-profile-sticky-bar:after {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+}}
+.graphs .area {{
+  fill: {color2};
+}}
+.summary-stats li .num {{
+  color: {background} !important;
+}}
+.viz {{
+  background-color: #ebe4cf !important;
+}}
+.facebox-popup {{
+  color: {background} !important;
+  background-color: {foreground} !important;
+}}
+.facebox-popup .octicon {{
+  color: #fff !important;
+}}
+.facebox-popup .owner-select-target {{
+  color: {background} !important;
+  background-color: {foreground} !important;
+}}
+.facebox-popup .owner-select-target:hover {{
+  background-color: {foreground} !important;
+}}
+.suggester {{
+  background-color: #e9e1c8 !important;
+}}
+.suggester li.navigation-focus {{
+  background-color: {foreground} !important;
+}}
+.menu {{
+  background-color: {foreground} !important;
+}}
+.menu-item.selected {{
+  background-color: #e9e1c8 !important;
+}}
+.menu-item:hover {{
+  background-color: {foreground} !important;
+}}
+.Box {{
+  background-color: {foreground} !important;
+}}
+.Box-header {{
+  background-color: {foreground} !important;
+}}
+svg > * text {{
+  color: {background} !important;
+  fill: {background} !important;
+}}
+.insertions {{
+  color: {color2} !important;
+}}
+.deletions {{
+  color: {color1} !important;
+}}
+.sfbgg {{
+  background-color: {foreground} !important;
+}}
+.sbib_a {{
+  background: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+input#lst-ib,
+#sb_ifc0.sbib_b,
+#gs_taif0 {{
+  background: transparent !important;
+}}
+#lst-ib,
+.sbsb_a {{
+  background-color: {foreground} !important;
+}}
+.kpbb {{
+  background-image: linear-gradient(to bottom, #59a9e1, {color4}) !important;
+}}
+#hdtbSum {{
+  background-color: {foreground} !important;
+}}
+#hdtbMenus.hdtb-td-o {{
+  background-color: {foreground} !important;
+}}
+#hdtb-tls.hdtb-tl {{
+  background-image: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+#hdtb-tls.hdtb-tl.hdtb-tl-sel {{
+  background-image: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+#abar_button_opt.ab_button {{
+  background: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+#appbar {{
+  background-color: {foreground} !important;
+}}
+cite {{
+  color: {color2} !important;
+}}
+.ab_dropdown {{
+  background-color: {foreground} !important;
+}}
+div.crp {{
+  background-color: {foreground} !important;
+}}
+#fbar {{
+  background-color: {foreground} !important;
+}}
+tr.Even {{
+  background-color: {foreground} !important;
+}}
+.BigQuote {{
+  background-color: {foreground} !important;
+  color: {color9} !important;
+}}
+.Cat1HL {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.Cat2HL {{
+  background-color: #e9e1c8 !important;
+}}
+.Cat3HL {{
+  background-color: #ebe4cf !important;
+}}
+.FeatureByline {{
+  background-color: {foreground} !important;
+  border: none !important;
+}}
+.Headline {{
+  background-color: #e9e1c8 !important;
+}}
+.QuotedText {{
+  color: {color12} !important;
+}}
+DIV.GAByline {{
+  background-color: {foreground} !important;
+  border: none !important;
+}}
+table.OddEven tr:nth-child(even) {{
+  background-color: #fcf3da !important;
+}}
+table.OddEven tr:nth-child(odd) {{
+  background-color: {foreground} !important;
+}}
+DIV.CommentBox {{
+  border-color: {foreground} !important;
+}}
+DIV.CommentBox P.CommentTitle {{
+  background-color: #e9e1c8 !important;
+}}
+#menu,
+.topnav-container {{
+  background-color: {foreground} !important;
+}}
+.navmenu ul {{
+  background-color: {foreground} !important;
+}}
+body * {{
+  border-color: #e9e1c8 !important;
+}}
+#content {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+#mw-head,
+#mw-panel {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+#mw-head div.portal,
+#mw-panel div.portal {{
+  background-image: none !important;
+}}
+#mw-head {{
+  background-color: {foreground} !important;
+  background-image: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+#mw-panel,
+#p-logo {{
+  background-image: linear-gradient(to right, {foreground}, {foreground}) !important;
+}}
+div.vectorTabs {{
+  background-image: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+div.vectorTabs ul {{
+  background-image: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+div.vectorTabs ul li {{
+  background-color: {foreground} !important;
+  background-image: none !important;
+  padding: 0px 1px 0px 1px !important;
+}}
+div.vectorTabs span {{
+  background-color: {foreground} !important;
+  background-image: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+div.vectorTabs li.selected,
+div.vectorTabs li.selected span {{
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, {foreground}, {foreground}) !important;
+}}
+.mw-wiki-logo {{
+  filter: opacity(50%);
+}}
+div#simpleSearch #searchInput {{
+  background-color: {foreground} !important;
+  padding: 0.05em 0px 0.2em 0.2em !important;
+}}
+.ambox,
+.infobox,
+#toc,
+#toctitle,
+.toclevel-1 {{
+  background-color: {foreground} !important;
+  border-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.catlinks {{
+  background-color: {foreground} !important;
+  border-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.navbox {{
+  background-color: {foreground} !important;
+  border-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.navbox .th,
+.navbox .navbox-title {{
+  background-color: #e9e1c8 !important;
+}}
+.navbox-abovebelow,
+th.navbox-group,
+.navbox-subgroup,
+.navbox-title {{
+  background-color: #ebe4cf !important;
+}}
+.navbox-even {{
+  background-color: {foreground} !important;
+}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {{
+  border-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+code {{
+  background-color: #e9e1c8 !important;
+  border-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+div.thumbinner {{
+  background-color: {foreground} !important;
+  border-color: #e9e1c8 !important;
+}}
+img {{
+  filter: opacity(75%);
+}}
+img.thumbimage {{
+  border-color: #e9e1c8 !important;
+}}
+.mw-body .external {{
+  opacity: 0.5 !important;
+}}
+table.wikitable {{
+  background-color: {foreground} !important;
+  border-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+table.wikitable > * > tr > th {{
+  background-color: {foreground} !important;
+}}
+table {{
+  background-color: {foreground} !important;
+}}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table,
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table {{
+  background-color: {color9} !important;
+}}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) a,
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) a {{
+  color: #000 !important;
+}}
+#hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2),
+#hnmain > tbody:nth-child(1) > tr:nth-child(2) {{
+  background-color: {foreground} !important;
+}}
+#hnmain > tbody:nth-child(1) > tr:nth-child(2) {{
+  background-color: {foreground} !important;
+}}
+.title a {{
+  color: {background} !important;
+}}
+.title a:visited {{
+  color: {foreground} !important;
+}}
+a.storylink {{
+  color: {background} !important;
+  font-weight: bold;
+}}
+.sitestr {{
+  color: {color4} !important;
+}}
+#hnmain > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {{
+  background-color: {foreground} !important;
+}}
+#hnmain .comhead {{
+  color: {background} !important;
+}}
+#hnmain .c00 {{
+  color: {background} !important;
+}}
+#hnmain a.hnuser {{
+  color: {color3} !important;
+}}
+#hnmain span.age a {{
+  color: {foreground} !important;
+}}
+.cdd {{
+  color: rgba(202,0,0,0.65) !important;
+}}
+.comment i {{
+  color: {foreground} !important;
+}}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) {{
+  background-color: {foreground} !important;
+}}
+#hnmain > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {{
+  background-color: {color9} !important;
+}}
+div#page div#header {{
+  background-color: {foreground} !important;
+}}
+div#page div#header a {{
+  color: {color12} !important;
+}}
+.post {{
+  background-color: {foreground} !important;
+}}
+.post * {{
+  overflow: auto !important;
+}}
+.post h2 {{
+  background-color: {foreground} !important;
+}}
+.post h2 a {{
+  color: {background} !important;
+}}
+.post div.entry {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.post div.entry blockquote {{
+  background-color: {foreground} !important;
+}}
+.post div.entry kbd {{
+  background-color: {foreground} !important;
+  border-color: {foreground} !important;
+  box-shadow: none !important;
+  color: {background} !important;
+  text-shadow: 0px 1px 0px #000 !important;
+}}
+.post pre.mode-line {{
+  overflow: visible !important;
+}}
+#sr-header-area {{
+  background-color: {foreground} !important;
+}}
+#sr-header-area .srdrop .selected {{
+  color: {background} !important;
+}}
+#sr-header-area #sr-more-link {{
+  background-color: {foreground} !important;
+}}
+.link.promotedlink.promoted {{
+  background-color: {foreground} !important;
+}}
+.link .usertext .md {{
+  background-color: {foreground} !important;
+}}
+.linkinfo {{
+  background-color: {foreground} !important;
+}}
+.linklisting .odd {{
+  background-color: {foreground} !important;
+}}
+.thing .title {{
+  color: {background} !important;
+}}
+div.md {{
+  color: {background} !important;
+}}
+body.comment {{
+  background-color: {foreground} !important;
+}}
+.commentarea > .usertext {{
+  background-color: {foreground} !important;
+}}
+.commentarea .menuarea {{
+  background-color: {foreground} !important;
+}}
+.comments-page .panestack-title {{
+  background-color: {foreground} !important;
+}}
+.listing-chooser {{
+  background-color: {foreground} !important;
+}}
+.listing-chooser .intro {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.listing-chooser .grippy {{
+  background-color: {foreground} !important;
+}}
+.listing-chooser .grippy:after {{
+  border-right: none !important;
+}}
+.listing-chooser li {{
+  background-color: {foreground} !important;
+}}
+.listing-chooser li.selected {{
+  background-color: {foreground} !important;
+  box-shadow: none;
+}}
+.listing-chooser li a {{
+  color: {background} !important;
+}}
+.listing-chooser li a .description {{
+  color: {background} !important;
+}}
+.titlebox {{
+  background-color: {foreground} !important;
+}}
+.titlebox form.toggle {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.side .usertext-body .md {{
+  background-color: {foreground} !important;
+}}
+.side {{
+  background-color: {foreground} !important;
+}}
+.sidebox .spacer {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.tabmenu li a {{
+  background-color: {foreground} !important;
+}}
+#header-bottom-right {{
+  background-color: {foreground} !important;
+}}
+.morelink .nub {{
+  background-color: {foreground} !important;
+}}
+* {{
+  border-color: {foreground} !important;
+}}
+a {{
+  color: {color4} !important;
+}}
+a:visited {{
+  color: {color12} !important;
+}}
+body {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+html {{
+  background-color: {foreground} !important;
+}}
+input,
+textarea {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+tr:hover,
+blockquote,
+pre {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+#toolMenu li {{
+  background-color: {foreground} !important;
+}}
+.navPanel,
+.navIntraTool {{
+  background-color: {foreground} !important;
+}}
+.instruction,
+.sakaiCopyrightInfo {{
+  color: {background} !important;
+}}
+.listHier th {{
+  background-color: #e9e1c8 !important;
+}}
+ul.makeMenu {{
+  background-color: #e9e1c8 !important;
+  border: 1px solid #e9e1c8 !important;
+}}
+tr.external {{
+  background-color: #e9e1c8 !important;
+}}
+hr {{
+  background-color: #e9e1c8 !important;
+  color: #e9e1c8 !important;
+}}
+.bounty-indicator,
+.bounty-indicator-tab {{
+  background-color: {color12} !important;
+}}
+.bottom-notice {{
+  background-color: {foreground} !important;
+}}
+.comments-link {{
+  color: {color2} !important;
+}}
+.page-numbers {{
+  background-color: {color2} !important;
+  color: {background} !important;
+}}
+.page-numbers.current {{
+  background-color: {color9} !important;
+  color: {foreground} !important;
+}}
+.post-menu a {{
+  color: {color12} !important;
+}}
+.question-status {{
+  background-color: {foreground} !important;
+}}
+pre code {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+pre code .atn {{
+  color: {color4} !important;
+}}
+pre code .atv {{
+  color: {color6} !important;
+}}
+pre code .com {{
+  color: {foreground} !important;
+}}
+pre code .kwd {{
+  color: {color2} !important;
+}}
+pre code .lit {{
+  color: {color5} !important;
+}}
+pre code .pln,
+pre code .pun {{
+  color: {background} !important;
+}}
+pre code .str {{
+  color: {color6} !important;
+}}
+pre code .tag {{
+  color: {color2} !important;
+}}
+pre code .typ {{
+  color: {color3} !important;
+}}
+#footer {{
+  background-color: #ebe4cf !important;
+  color: {background} !important;
+}}
+#footer #footer-sites th {{
+  color: {background} !important;
+}}
+.top-footer-links a {{
+  color: {color2} !important;
+}}
+.so-header {{
+  background-color: #e9e1c8 !important;
+  color: {background} !important;
+}}
+.so-header a {{
+  color: {color2} !important;
+}}
+.so-header .navigation .-list .-item :hover {{
+  background-color: {color2} !important;
+  color: {background} !important;
+}}
+.topbar-dialog {{
+  background-color: {foreground} !important;
+  box-shadow: {foreground} 5px 5px 5px;
+}}
+.topbar-dialog .current-site-container {{
+  background-color: {foreground} !important;
+}}
+.topbar-dialog .header {{
+  background-color: {foreground} !important;
+}}
+.topbar-dialog .header a {{
+  color: {background} !important;
+}}
+.topbar-dialog .site-link {{
+  color: {background} !important;
+}}
+#header {{
+  background-color: #e9e1c8 !important;
+}}
+#question-header .question-hyperlink {{
+  color: {background} !important;
+}}
+#hlogo a {{
+  filter: opacity(75%);
+}}
+.new-post-activity {{
+  background-color: {foreground} !important;
+}}
+.tagged-interesting {{
+  background-color: #e9e1c8 !important;
+}}
+div.answered-accepted {{
+  background-color: {color2} !important;
+  color: {background} !important;
+}}
+div.answered-accepted .mini-counts {{
+  background-color: {color2} !important;
+  color: {background} !important;
+}}
+.answered .mini-counts span {{
+  color: {color2} !important;
+}}
+.unanswered .mini-counts span {{
+  color: {background} !important;
+}}
+#hot-network-questions a {{
+  color: {color6} !important;
+}}
+#hot-network-questions h4 a.js-gps-track {{
+  color: {background} !important;
+}}
+#sidebar .community-bulletin .bulletin-item-content a {{
+  color: {background} !important;
+}}
+#sidebar .module.community-bulletin {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+#sidebar .question-hyperlink {{
+  color: {color6} !important;
+}}
+.newuser {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.label-key {{
+  color: {background} !important;
+}}
+.label-key b {{
+  color: {background} !important;
+}}
+#h-chat-link {{
+  color: {background} !important;
+}}
+.ad502-room {{
+  background-color: {foreground} !important;
+  box-shadow: {foreground} 0px 1px 3px;
+  color: {background} !important;
+}}
+#tabs a {{
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, {foreground}, {foreground});
+  color: {background} !important;
+}}
+#tabs a.youarehere {{
+  background-image: linear-gradient(to bottom, {color9}, {foreground});
+  color: {background} !important;
+}}
+.post-tag {{
+  background-color: {foreground} !important;
+  color: {foreground} !important;
+}}
+.post-tag::before {{
+  background-color: {foreground} !important;
+}}
+a.comment-user.owner {{
+  background-color: {color2} !important;
+  color: {background} !important;
+}}
+.post-signature {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+.post-signature a {{
+  color: {color6} !important;
+}}
+.post-signature.owner .user-info .user-details a {{
+  color: {color2} !important;
+}}
+.post-signature span.relativetime {{
+  color: {background} !important;
+}}
+.vote {{
+  background-color: {foreground} !important;
+}}
+.vote .star-off {{
+  filter: opacity(75%);
+}}
+.vote .star-on {{
+  filter: opacity(50%) !important;
+}}
+.vote .vote-down-off,
+.vote .vote-up-off {{
+  filter: opacity(50%);
+}}
+.answer-votes {{
+  background-color: {foreground} !important;
+  color: {foreground} !important;
+}}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/wallhaven-kwdjvm.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#09080d",
+        "foreground": "#fbc3ff",
+        "cursor": "#fbc3ff"
+    },
+    "colors": {
+        "color0": "#09080d",
+        "color1": "#93332D",
+        "color2": "#A95135",
+        "color3": "#D58D6B",
+        "color4": "#582F90",
+        "color5": "#A85F4F",
+        "color6": "#C2633E",
+        "color7": "#b990bd",
+        "color8": "#1e1a2c",
+        "color9": "#cb372d",
+        "color10": "#ea6136",
+        "color11": "#ffaf76",
+        "color12": "#7030c7",
+        "color13": "#ea7156",
+        "color14": "#ff793f",
+        "color15": "#fbc3ff"
+    }
+}

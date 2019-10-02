@@ -1,295 +1,395 @@
 # i3 config file (v4)
-# https://i3wm.org/docs/userguide.html 
 
 
-font pango:Ubuntu Mono 12
-#font pango:Symbol Neu Powerline 11
+#--- style ---#
+# font
+set_from_resource $font_name font_name  monospace
+set_from_resource $font_size font_size  12
+# colors
+set_from_resource $fg foreground        #ffffff
+set_from_resource $bg background 	#000000
+set_from_resource $ur color2     	#ff0000
+# gaps
+default_border pixel 3
+default_floating_border pixel 5
+hide_edge_borders smart
+#smart_borders no_gaps
+set $inner 8
+set $outer 4
+gaps inner $inner
+gaps outer $outer
+
+#--- general settings ---#
+set $mod   Mod1
+set $mod_r ISO_Level3_Shift
+set $sup   Super
+set $sup_r Super_R
+set $menu  Menu
+set $term st
+set $screenshots_folder ~/pictures/screenshots
+  # if $term = urxvt, use -name instead of -n
+set $mail neomutt
+set $browser qutebrowser
+set $other_browser firefox
+set $filebrowser vifm_ueberzug
+set $calc_python "/home/marcosrdac/.virtualenvs/m/bin/python"
+set $calculator $calc_python -i -c 'import numpy as np; from numpy import *'
+set $calendar calcurse
+set $music ncmpcpp
 
 
+#--- starting ---#
+# background setting
+exec --no-startup-id ~/.fehbg
+# border settings
+#for_window [tiling] border pixel 3  # not working, don't know why
+#for_window [floating] border pixel 5
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
+# scratchpad windows
+#   TIPS: screen_dimensions 1366x768
+for_window [instance="dropdown_terminal"] floating enable
+for_window [instance="dropdown_terminal"] border pixel 0
+for_window [instance="dropdown_terminal"] floating enable move position 0px 22px
+for_window [instance="dropdown_terminal"] resize set 1366 px 200 px
+for_window [instance="dropdown_terminal"] move scratchpad
+for_window [instance="dropdown_calculator"] floating enable
+for_window [instance="dropdown_calculator"] border pixel 5
+for_window [instance="dropdown_calculator"] resize set 683 384
+for_window [instance="dropdown_calculator"] move scratchpad
+for_window [instance="dropdown_music_player"] floating enable
+for_window [instance="dropdown_music_player"] border pixel 5
+for_window [instance="dropdown_music_player"] resize set 844 474
+for_window [instance="dropdown_music_player"] move scratchpad
+for_window [instance="dropdown_mail"] floating enable
+for_window [instance="dropdown_mail"] border pixel 5
+for_window [instance="dropdown_mail"] resize set 844 474
+for_window [instance="dropdown_mail"] move scratchpad
+#for_window [instance="dropdown_file_browser"] floating enable
+#for_window [instance="dropdown_file_browser"] border pixel 5
+#for_window [instance="dropdown_file_browser"] resize set 844 474
+#for_window [instance="dropdown_file_browser"] move scratchpad
+#for_window [instance="dropdown_calendar"] floating enable
+#for_window [instance="dropdown_calendar"] border pixel 5
+#for_window [instance="dropdown_calendar"] resize set 844 474
+#for_window [instance="dropdown_calendar"] move scratchpad
+#
+# scratchpad windows start
+exec --no-startup-id $term -n dropdown_terminal -e tmux new-session -t dropdown
+#exec_always --no-startup-id $term -n dropdown_terminal -e tmux new-session -t dropdown
+#exec --no-startup-id cd ~/.virtualenvs/m/lib/python3.6/site-packages/; $term -n dropdown_calculator -e python -q
+#exec --no-startup-id $term -n dropdown_calculator -e python -i -c "from math import *"
+exec_always --no-startup-id $term -n dropdown_calculator -e python -i -c 'from numpy import *; import numpy as np'
+exec --no-startup-id $term -n dropdown_music_player -e $music
+#exec_always --no-startup-id $term -n dropdown_music_player -e $music
+exec --no-startup-id $term -n dropdown_mail -e $mail
+#exec_always --no-startup-id $term -n dropdown_mail -e $mail
+#exec $term -n dropdown_file_browser -e $filebrowser
+#exec $term -n dropdown_calendar -e $calendar
+
+# starting dunst
+exec --no-startup-id dunst_start
+# starting mpd
+exec --no-startup-id mpd
+# starting compton (not using anymore)
+#exec --no-startup-id compton
+# redshift for the sake of your eyes
+exec --no-startup-id redshift -l -12.98:-36.52
+# parcelite for Ubuntu's clipboard's persistency bug
+#exec_always --no-startup-id parcelite -n
+# hiding mouse cursor
+exec --no-startup-id unclutter -idle 1 -root
+# starting dropbox
+exec --no-startup-id dropbox start
+
+
+#--- screen ---#
+set $incbr --no-startup-id "brightnessctl set +5%; pkill -RTMIN+10 i3blocks"
+set $decbr --no-startup-id "brightnessctl set 5%-; pkill -RTMIN+10 i3blocks"
+#set $incbr --no-startup-id "xbacklight -steps 1 -inc 5; pkill -RTMIN+10 i3blocks"
+#set $decbr --no-startup-id "xbacklight -steps 1 -dec 5; pkill -RTMIN+10 i3blocks"
+
+
+#--- audio ---#
+set $inc --no-startup-id "pamixer --allow-boost -i 2;    pkill -SIGRTMIN+8 i3blocks"
+set $biginc --no-startup-id "pamixer --allow-boost -i 5; pkill -SIGRTMIN+8 i3blocks"
+set $dec --no-startup-id "pamixer --allow-boost -d 2;    pkill -SIGRTMIN+8 i3blocks"
+set $bigdec --no-startup-id "pamixer --allow-boost -d 5; pkill -SIGRTMIN+8 i3blocks"
+set $mute --no-startup-id "pamixer --allow-boost -t;     pkill -SIGRTMIN+8 i3blocks"
+set $truemute --no-startup-id "pamixer --allow-boost -m; pkill -SIGRTMIN+8 i3blocks"
+
+
+#--- music ---#
+# mpd
+set $pause --no-startup-id  mpc toggle
+set $stop --no-startup-id   mpc stop  # not configured
+set $next --no-startup-id   mpc next
+set $prev --no-startup-id   mpc prev
+set $lilbak --no-startup-id mpc seek -10
+set $lilfor --no-startup-id mpc seek +10
+set $bigbak --no-startup-id mpc seek -120
+set $bigfor --no-startup-id mpc seek +120
+set $beg --no-startup-id    mpc seek 00:00:00
+
+
+
+#--- window managing ---#
 # setting hjkl
 set $left  h
 set $down  j
 set $up    k
 set $right l
+# killing focused window
+bindsym $mod+Shift+q kill
+# allow mouse following focus
+focus_follows_mouse no
+focus_on_window_activation urgent
+# none smart
+# changing focus hjkl
+bindsym $mod+$down  focus down
+bindsym $mod+$up    focus up
+bindsym $mod+$left  focus left
+bindsym $mod+$right focus right
+# focus floating windows|tiling
+bindsym $mod+backslash focus mode_toggle
+# moving focused window hjkl
+bindsym $mod+Shift+$left  move left
+bindsym $mod+Shift+$down  move down
+bindsym $mod+Shift+$up    move up
+bindsym $mod+Shift+$right move right
+# resizing window
+# different values only because URXVT is problematic :P
+bindsym $mod+Ctrl+$left  resize shrink width  8 px or 8 ppt
+bindsym $mod+Ctrl+$down  resize grow   height 8 px or 8 ppt
+bindsym $mod+Ctrl+$up    resize shrink height 8 px or 8 ppt
+bindsym $mod+Ctrl+$right resize grow   width  8 px or 8 ppt
+# layout and modes
+bindsym $mod+t     layout toggle all
+bindsym $mod+s     split toggle
+bindsym $mod+f     fullscreen toggle
+bindsym $mod+space floating toggle
+
+# LOOK AT THEEEESE!
+#bindsym $mod+s              layout stacking
+#bindsym $mod+shift+s        split h; split v; layout stacking
+#bindsym $mod+w              layout tabbed
+#bindsym $mod+shift+w        split h; split v; layout tabbed
 
 
-# change focus hjkl
-bindsym Mod1+$left  focus left
-bindsym Mod1+$down  focus down
-bindsym Mod1+$up    focus up
-bindsym Mod1+$right focus right
-
-# change focus arrow keys
-bindsym Mod1+Left  focus left
-bindsym Mod1+Down  focus down
-bindsym Mod1+Up    focus up
-bindsym Mod1+Right focus right
-
-
-# move focused window hjkl
-bindsym Mod1+Shift+$left  move left
-bindsym Mod1+Shift+$down  move down
-bindsym Mod1+Shift+$up    move up
-bindsym Mod1+Shift+$right move right
-
-# move focused window arrow keys
-bindsym Mod1+Shift+Left  move left
-bindsym Mod1+Shift+Down  move down
-bindsym Mod1+Shift+Up    move up
-bindsym Mod1+Shift+Right move right
-
-
-# kill focused window
-bindsym Mod1+Shift+q kill
-
-
-# change containter layout
-bindsym Mod1+s layout stacking
-bindsym Mod1+w layout tabbed
-bindsym Mod1+e layout toggle split
-
-# split mode change horizontal|split|toggle
-bindsym Mod1+t     split toggle
-
-# fullscreen mode
-bindsym Mod1+f     fullscreen toggle
-
-# toggle tiling / floating
-bindsym Mod1+space floating toggle
-
-
-# change focus between tiling / floating windows
-bindsym Mod1+Tab focus mode_toggle
-
-
-# focus the parent|child container  LOOK FOR TOGGLE
-bindsym Mod1+p focus parent
-#bindsym Mod1+r focus child
-
-
-# icons
-# 
-# - text editing
-#    
-# - home
-#   
-# - files
-#   
-
-
-# workspaces
+#--- workspaces ---#
+# setting workspaces
+#   for fancy icons...
+#     "1:<span font='Font Awesome 5 Free Solid 11'></span>"
+#     Symbols: 🗖
 #
-# editing
-set $ws1 "1:"
-# files
-set $ws2 "2:"
-# browser
-set $ws3 "3:"
-# messaging #
-set $ws4 "4:"
-# image editing
-set $ws5 "5:"
-set $ws6 "6:"
-set $ws7 "7:🗖"
-set $ws8 "8:🗖"
-set $ws9 "9:🗖"
-# music
-set $ws10 "10:🎜"
-
-
-# switch to workspace
-bindsym Mod1+1 workspace $ws1
-bindsym Mod1+2 workspace $ws2
-bindsym Mod1+3 workspace $ws3
-bindsym Mod1+4 workspace $ws4
-bindsym Mod1+5 workspace $ws5
-bindsym Mod1+6 workspace $ws6
-bindsym Mod1+7 workspace $ws7
-bindsym Mod1+8 workspace $ws8
-bindsym Mod1+9 workspace $ws9
-bindsym Mod1+0 workspace $ws10
-# show scratchpad
-bindsym Mod1+minus scratchpad show
-
+#	read this when you can:
+#	https://i3wm.org/docs/layout-saving.html
+#
+set $ws1  " 1 "
+set $ws2  " 2 "
+set $ws3  " 3 "
+set $ws4  " 4 "
+set $ws5  " 5 "
+set $ws6  " 6 "
+set $ws7  " 7 "
+set $ws8  " 8 "
+set $ws9  " 9 "
+set $ws10 " 10 "
+workspace $ws5 gaps inner 0
+workspace $ws5 gaps outer 0
+workspace $ws6 gaps inner 0
+workspace $ws6 gaps outer 0
+# switching back and forth
+bindsym $mod+Tab   workspace back_and_forth
+# switching between workspaces
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
 # move focused container to workspace
-bindsym Mod1+Shift+1 move container to workspace $ws1
-bindsym Mod1+Shift+2 move container to workspace $ws2
-bindsym Mod1+Shift+3 move container to workspace $ws3
-bindsym Mod1+Shift+4 move container to workspace $ws4
-bindsym Mod1+Shift+5 move container to workspace $ws5
-bindsym Mod1+Shift+6 move container to workspace $ws6
-bindsym Mod1+Shift+7 move container to workspace $ws7
-bindsym Mod1+Shift+8 move container to workspace $ws8
-bindsym Mod1+Shift+9 move container to workspace $ws9
-bindsym Mod1+Shift+0 move container to workspace $ws10
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+# show scratchpad
+bindsym $mod+minus scratchpad show
 # move to scratchpad
-bindsym Mod1+Shift+minus move scratchpad
+bindsym $mod+Shift+minus move scratchpad
+# switching window roles
+bindsym Ctrl+$mod+1 exec xdotool getactivewindow set_window --role "1" windowunmap windowmap
+bindsym Ctrl+$mod+2 exec xdotool getactivewindow set_window --role "2" windowunmap windowmap
+bindsym Ctrl+$mod+3 exec xdotool getactivewindow set_window --role "3" windowunmap windowmap
+bindsym Ctrl+$mod+4 exec xdotool getactivewindow set_window --role "4" windowunmap windowmap
+bindsym Ctrl+$mod+5 exec xdotool getactivewindow set_window --role "5" windowunmap windowmap
+bindsym Ctrl+$mod+6 exec xdotool getactivewindow set_window --role "6" windowunmap windowmap
+bindsym Ctrl+$mod+7 exec xdotool getactivewindow set_window --role "7" windowunmap windowmap
+bindsym Ctrl+$mod+8 exec xdotool getactivewindow set_window --role "8" windowunmap windowmap
+bindsym Ctrl+$mod+9 exec xdotool getactivewindow set_window --role "9" windowunmap windowmap
+bindsym Ctrl+$mod+0 exec xdotool getactivewindow set_window --role "0" windowunmap windowmap
+# save layout
+bindsym Ctrl+Shift+$mod+0 exec i3-save-tree --workspace " 3 " > ~/.config/i3/trees/$(date "+%Y%m%d%H%M%S").json  # temporary
+# append layout
+bindsym Ctrl+Shift+$mod+1 append_layout "~/.config/i3/trees/12.json"
+bindsym Ctrl+Shift+$mod+2 append_layout "~/.config/i3/trees/right_main.json"
 
 
-# Programs stuff
-# xprop ...
-
-# Cmus
-for_window [title="^cmus v2.7.1"] move workspace $ws10
-
-# GIMP Stuff
-for_window [title="GIMP Startup"] move workspace $ws5
+#--- windows startup ---#
+# floating during fullscreen [smart|ignore|leave_fullscreen]
+popup_during_fullscreen smart
+#no_focus [class=".*"]   ###############
+# xprop
+for_window [title="^Event Tester"] floating enable
+# shared terminals
+for_window [instance="tmux_data_show"] move workspace $ws10
+# mpv
+#  webcamming
+for_window [title="video[0-9]+ - mpv"] floating enable, border pixel 5, sticky enable
+no_focus   [title="video[0-9]+ - mpv"]
+# gimp [set "single window mode"]
 for_window [class="Gimp"] move workspace $ws5
-#for_window [window_role="gimp-dock"] floating disable, resize shrink width 30 px or 30 ppt
+for_window [title="GIMP Startup"] move workspace $ws5
+#for_window [window_role="gimp-image-window"] floating disable, move right
+#for_window [window_role="gimp-dock"] floating disable, move right, resize shrink width 15 px or 15ppt
+#for_window [window_role="gimp-toolbox"] floating disable, move left, resize shrink width 25 px or 25ppt
 for_window [window_role="gimp-toolbox-color-dialog"] floating enable
-#for_window [window_role="gimp-toolbox"] floating disable, resize grow width 50 px or 5 0ppt
+# steam
+# https://github.com/ValveSoftware/steam-for-linux/issues/1040
+for_window [class="^Steam$"] border pixel 3
+for_window [class="^Steam$" title="^Friends$"] floating enable
+for_window [class="^Steam$" title="Steam - News"] floating enable
+for_window [class="^Steam$" title=".* - Chat"] floating enable
+for_window [class="^Steam$" title="^Settings$"] floating enable
+for_window [class="^Steam$" title=".* - event started"] floating enable
+for_window [class="^Steam$" title=".* CD key"] floating enable
+for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^Steam Keyboard$"] floating enable
+# qutebrowser
+#for_window [title="qutebrowser-editor-"] floating enable
 
 
-# resize window (you can also use the mouse for that)
-mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        
-	# Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym Mod1+$left  resize shrink width 2 px or 2 ppt
-        bindsym Mod1+$down  resize grow height 2 px or 2 ppt
-        bindsym Mod1+$up    resize shrink height 2 px or 2 ppt
-        bindsym Mod1+$right resize grow width 2 px or 2 ppt
+#--- keybindings ---#
+# oppening programs
+bindsym $mod+o exec --no-startup-id dmenu_run -fn "$font_name"-"$font_size" -nb "$bg" -nf "$fg" -sb "$fg" -sf "$bg" -i -f -l 21 -p "sh:"
 
-        # same bindings, but for the arrow keys
-        bindsym Mod1+Left   resize shrink width 2 px or 2 ppt
-        bindsym Mod1+Down   resize grow height 2 px or 2 ppt
-        bindsym Mod1+Up     resize shrink height 2 px or 2 ppt
-		bindsym Mod1+Right  resize grow width 2 px or 2 ppt
-
-        # back to normal: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym Mod1+r mode "default"
-}
-
-bindsym Mod1+r mode "resize"
-
-
-mode "open" {
-	bindsym v exec --no-startup-id urxvt -e vim, mode "default"
-	bindsym d exec --no-startup-id qutebrowser https://discordapp.com/channels/@me, mode "default"
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym Mod1+o mode "default"
-}
-
-bindsym Mod1+o mode "open"
+# common softwares
+bindsym $mod+Return   exec --no-startup-id $term
+bindsym $mod+z        [instance="dropdown_terminal"] scratchpad show
+#bindsym $mod+x        [instance="dropdown_calendar"] scratchpad show, [instance="dropdown_calendar"] move position center
+bindsym $mod+x        [instance="dropdown_mail"] scratchpad show, [instance="dropdown_mail"] move position center; exec --no-startup-id "check_mail -u quiet -q -f 'INBOX,Drafts,Spam,Trash,Sent Mail'"
+bindsym $mod+Shift+x  exec --no-startup-id "check_mail -u quiet -q -f 'INBOX,Drafts,Spam,Trash,Sent Mail'"
+bindsym $mod+c        [instance="dropdown_calculator"] scratchpad show, [instance="dropdown_calculator"] move position center
+bindsym $mod+v        exec --no-startup-id $term -e nvim
+bindsym $mod+b        exec --no-startup-id $browser
+bindsym $mod+Shift+b  exec --no-startup-id $other_browser
+bindsym $mod+n        exec --no-startup-id $term -e $filebrowser
+#bindsym $mod+n        [instance="dropdown_file_browser"] scratchpad show, [instance="dropdown_file_browser"] move position center
+bindsym $mod+r        exec --no-startup-id dm_recording_menu
+#bindsym Super_L       exec --no-startup-id
+bindsym $mod+F5            exec --no-startup-id dm_display_menu
+bindsym XF86WLAN      exec --no-startup-id $term -e nmtui
+bindsym $mod+m        [instance="dropdown_music_player"] scratchpad show, [instance="dropdown_music_player"] move position center
+bindsym $mod+Shift+p  exec --no-startup-id show_clip_prim
+bindsym $mod+e        exec --no-startup-id keepmenu
+bindsym $mod+w        exec --no-startup-id toggle_webcam
 
 
 
-# PUT TOGGLE
 
 
-set $bg-color 	         #42273a
-set $inactive-bg-color   #823f58
-set $text-color          #91a9e2
-set $inactive-text-color #D2C0A7
-set $urgent-bg-color     #cb5f8a
-set $urgent-text-color   #42273a
 
-#hide_edge_borders horizontal
-
-
-# window colors
-# commands              border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          $bg-color
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $bg-color
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $bg-color
-client.urgent           $urgent-bg-color    $urgent-bg-color   $urgent-text-color   $bg-color
-
-#hide_edge_borders both
-
-# bar
-bar {
-	#status_command py3status -c ~/.13/i3status.conf
-	status_command i3blocks -c ~/.i3/i3blocks.conf
-	#status_command i3status
-        #font pango:Font Awesome 5 Free 12
-	separator_symbol " "
-	position top
-        tray_output primary
-	colors {
-		background $bg-color
-	    	separator #757575
-		#                  border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
-		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-		}
-}
+# system managing
+bindsym XF86PowerOff exec --no-startup-id dm_power_menu
+bindsym $mod+Escape exec --no-startup-id dm_useful_menu
+bindsym $mod+Caps_Lock exec keyboard_setting
+bindsym $mod+F9  exec --no-startup-id dm_mount_menu
+bindsym $mod+Shift+F9 exec --no-startup-id dm_umount_menu
 
 
-# reload|restart the configuration file
-bindsym Mod1+Shift+c reload
-bindsym Mod1+Shift+r restart
+# alarm
+bindsym $mod+p exec --no-startup-id dm_pomodoro "$font_name" "$font_size"
 
-# exit i3 (logs you out of your X session)
-bindsym Mod1+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to logout?' -b 'Yes, logout' 'i3-msg exit'"
+# stuff to be tested
+bindsym XF86Explorer            exec $term -e filebrowser /
+bindsym XF86HomePage            exec $term -e filebrowser ~/
+bindsym XF86Calculator          exec $term -n dropdown_calc -e python3 -q
 
-# lockscreen
-bindsym	Mod1+Shift+x exec --no-startup-id i3lock --color "$bg-color"
+# windows
+bindsym $mod+Shift+f gaps inner current set 0;      gaps outer current set 0
+bindsym $mod+Shift+g gaps inner current set $inner; gaps outer current set $outer
+bindsym $mod+Ctrl+Shift+f bar mode hide
+bindsym $mod+Ctrl+Shift+g bar mode dock
+bindsym $mod+Ctrl+f  border none
+bindsym $mod+Ctrl+g  border pixel 3
 
-# gaps
-gaps inner 8
-gaps outer 4
-for_window [class="^.*"] border pixel 0
-
-
-# program start keybindings
-
-# start dmenu
-bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
-#bindsym Mod1+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 300 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" #-font "System San Francisco Display 18"
-#bindsym Mod1+d exec dmenu_run  # not so cool
-
-# start a terminal
-bindsym Mod1+Return exec --no-startup-id urxvt
-
-# start vim
-bindsym Mod1+v exec urxvt -e vim
-
-# start ranger
-bindsym Mod1+n exec urxvt -e ranger
-
-# start ranger
-bindsym Mod1+m exec urxvt -e cmus
-
-# start browser
-bindsym Mod1+b exec --no-startup-id qutebrowser
-
-# start discord in browser
-bindsym Mod1+> exec --no-startup-id qutebrowser https://discordapp.com/channels/@me
 
 # printscreen
-bindsym --release Print       exec --no-startup-id scrot -e 'mv $f ~/Pictures'
-bindsym --release Shift+Print exec --no-startup-id scrot -s
-bindsym --release Ctri+Print  exec --no-startup-id scrot -u
+bindsym --release Print            exec --no-startup-id scrot '%Y%m%d%H%M%S_screenshot_$wx$h.png'    -e 'mv $f $screenshots_folder && xclip -selection clipboard -t image/png -i $screenshots_folder/$f && notify-send "Screenshot taken" "location: $screenshots_folder/$f\n\nImage copied to clipboard."'
+bindsym --release Shift+Print      exec --no-startup-id scrot '%Y%m%d%H%M%S_sliceshot_$wx$h.png'  -s -e 'mv $f $screenshots_folder && xclip -selection clipboard -t image/png -i $screenshots_folder/$f && notify-send "Sliceshot taken" "location: $screenshots_folder/$f\n\nImage copied to clipboard."'
+bindsym --release Ctrl+Shift+Print exec --no-startup-id scrot '%Y%m%d%H%M%S_windowshot_$wx$h.png' -u -e 'mv $f $screenshots_folder && xclip -selection clipboard -t image/png -i $screenshots_folder/$f && notify-send "Windowshot taken" "location: $screenshots_folder/$f\n\nImage copied to clipboard."'
 
-
-# volume and brightness control buttons on
-# (packages needed xbacklight alsa-utils pulseaudio)
-
-# Pulse Audio controls
-
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute        exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp   exec --no-startup-id xbacklight -inc 5 # increase screen brightness
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 # decrease screen brightness
+bindsym XF86MonBrightnessUp   exec $incbr
+bindsym XF86MonBrightnessDown exec $decbr
 
 # Media player controls
-bindsym XF86AudioPlay  exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext  exec playerctl next
-bindsym XF86AudioPrev  exec playerctl previous
+bindsym XF86AudioPlay        exec $pause
+bindsym XF86AudioStop        exec $stop
+bindsym XF86AudioNext        exec $next
+bindsym XF86AudioPrev        exec $prev
+bindsym XF86AudioMute        exec $mute
+bindsym XF86AudioLowerVolume exec $bigdec
+bindsym XF86AudioRaiseVolume exec $biginc
+
+# Temporary
+#bindsym $mod+d exec --no-startup-id /home/marcosrdac/bin/test_dunst
 
 
-#exec workon py35; python3 -e ~/nasa-background-downloader.py
-exec --no-startup-id exec today todaysNasaPicAsBg
-exec --no-startup-id exec feh --bg-fill ~/.i3/bg
-exec --no-startup-id dropbox start
+#--- setting font, colors and bar ---#
+# font
+font pango:$font_name $font_size
+
+
+# child_border: window borders; border: title border (not used in i3gaps)
+# class                 border  backgr. text indic. child_border
+client.focused          $fg     $bg     $fg  $ur    $fg
+client.focused_inactive $bg     $bg     $fg  $ur    $ur
+client.unfocused        $bg     $bg     $fg  $bg    $bg
+client.urgent           $ur     $ur     $fg  $bg    $bg
+client.placeholder      $bg     $bg     $fg  $bg    $bg
+
+client.background       $bg
+
+
+bar {
+	id bar-0
+	status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
+        font pango:$font_name $font_size
+	#height 25
+	separator_symbol " "
+	position top
+        #tray_output primary
+        tray_output none
+	colors {
+		background $bg
+	    	separator $fg
+		#                  border             background         text
+		focused_workspace  $bg                $fg                $bg
+		inactive_workspace $bg                $bg                $fg
+		urgent_workspace   $bg                $ur                $bg
+		}
+}

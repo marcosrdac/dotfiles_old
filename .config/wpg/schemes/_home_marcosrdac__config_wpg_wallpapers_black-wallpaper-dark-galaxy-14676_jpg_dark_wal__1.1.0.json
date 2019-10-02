@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/black-wallpaper-dark-galaxy-14676.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1d233a",
+        "foreground": "#ffffd1",
+        "cursor": "#ffffd1"
+    },
+    "colors": {
+        "color0": "#1d233a",
+        "color1": "#ab5245",
+        "color2": "#93a253",
+        "color3": "#ea8546",
+        "color4": "#606751",
+        "color5": "#c07246",
+        "color6": "#89724d",
+        "color7": "#e9d5a2",
+        "color8": "#2d365b",
+        "color9": "#ed5e4a",
+        "color10": "#c8e25b",
+        "color11": "#ffa847",
+        "color12": "#81915d",
+        "color13": "#ff8f49",
+        "color14": "#bf9756",
+        "color15": "#ffffd1"
+    }
+}

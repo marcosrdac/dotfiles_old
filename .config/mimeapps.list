@@ -1,0 +1,13 @@
+[Default Applications]
+x-scheme-handler/http=browser.desktop;
+x-scheme-handler/https=browser.desktop;
+x-scheme-handler/mailto=mail.desktop;
+x-scheme-handler/magnet=torrent.desktop;
+application/x-bittorrent=torrent.desktop;
+application/rss+xml=rss.desktop;
+application/pdf=pdf.desktop;
+image/png=img.desktop;
+image/jpeg=img.desktop;
+image/gif=img.desktop;
+text/plain=text.desktop;
+text/x-shellscript=text.desktop;

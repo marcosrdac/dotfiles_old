@@ -1,0 +1,22 @@
+#!/bin/bash
+max="$(cat /sys/class/backlight/*/max_brightness)"
+bright="$(cat /sys/class/backlight/*/brightness)"
+percent=$((100 * bright / max))
+step=$1
+step=$((step*max/100))
+
+
+if [ "$((bright+step))" -le "$max" ] && [ "$((bright+step))" -ge 1 ]
+	then
+	echo $((bright+step)) | sudo tee /sys/class/backlight/intel_backlight/brightness # scroll up, increase
+else
+	if [ "$((bright+step))" -gt "$max" ]
+	then 
+		echo $max | sudo tee /sys/class/backlight/intel_backlight/brightness # scroll up, increase
+	else
+        if [ "$((bright+step))" -lt 1 ]
+        then
+            echo $((max/100)) | sudo tee /sys/class/backlight/intel_backlight/brightness # scroll down, decrease
+        fi
+    fi
+fi

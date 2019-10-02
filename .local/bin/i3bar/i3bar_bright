@@ -1,0 +1,61 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import symbol font
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+label=""
+
+case $BLOCK_BUTTON in
+# 4) xbacklight -inc 10 & ;; # scroll up, increase
+# 5) xbacklight -dec 10 & ;; # scroll down, decrease
+ 4) brightnessctl -q set +10% & ;; # scroll up, increase
+ 5) brightnessctl -q set 10%- & ;; # scroll down, decrease
+esac
+
+# xbacklight
+#bright=$(xbacklight -get | cut --delimiter=. -f1)
+#full_text="<span foreground=\""$foreground"\"><span font=\""$symbol_font_name"\">$label</span> ${bright}</span>"
+# brightnessctl
+bright=$(brightnessctl -m | awk -F ',' '{print $4}')
+bright=${bright%\%*}
+full_text="<span foreground=\""$foreground"\"><span font=\""$symbol_font_name"\">$label</span> ${bright}</span>"
+
+short_text=$full_text
+
+
+echo $full_text
+echo $short_text
+
+
+
+
+
+# working directly (xbacklight doesn't work here for some reason)
+#max="$(cat /sys/class/backlight/*/max_brightness)"
+#bright="$(cat /sys/class/backlight/*/brightness)"
+#percent=$((100 * bright / max))
+#full_text="<span foreground=\""$foreground"\"><span font=\""$symbol_font_name"\">$label</span> ${percent}</span>"
+#short_text=$full_text
+#step=5
+#step=$((step*max/100))
+#
+#echo $full_text
+#echo $short_text
+#
+#case $BLOCK_BUTTON in
+#    4)  if [ "$((bright+step))" -le "$max" ]
+#        then
+#            echo $((bright+step)) | sudo tee /sys/class/backlight/intel_backlight/brightness # scroll up, increase
+#        else
+#            echo $max | sudo tee /sys/class/backlight/intel_backlight/brightness # scroll up, increase
+#        fi ;;
+#    5)  if [ "$((bright-step))" -gt 1 ]
+#        then
+#            echo $((bright-step)) | sudo tee /sys/class/backlight/intel_backlight/brightness # scroll down, decrease
+#        else
+#            echo $((max/100)) | sudo tee /sys/class/backlight/intel_backlight/brightness # scroll down, decrease
+#        fi ;;
+#
+#esac

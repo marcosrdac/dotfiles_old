@@ -1,8 +1,0 @@
-git clone git://github.com/vivien/i3blocks
-cd i3blocks
-make clean debug # or make clean all
-make install
-
-# ou aquele famoso:
-
-sudo apt install i3blocks

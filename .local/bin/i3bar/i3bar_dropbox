@@ -1,0 +1,45 @@
+#!/bin/sh
+
+foreground="$(xrdb -query | grep ^'*foreground' | awk '{$1=""; print $NF}')"
+background="$(xrdb -query | grep ^'*background' | awk '{$1=""; print $NF}')"
+urgent="$(xrdb -query | grep ^'*color3' | awk '{$1=""; print $NF}')"
+symbol_font_name="$(xrdb -query | grep ^'*symbol_font_name' | awk '{$1=""; print $0}')"
+
+label=""
+fg=$foreground
+bg=$background
+sp=""
+
+status=$(dropbox-cli status)
+
+if ! [[ $status = *"Up to date"* ]]
+then
+    if [[ $status = *"Uploading"* ]]
+    then
+        label=
+    elif [[ $status = *"Downloading"* ]]
+    then
+        label=
+    elif [[ $status = *"Syncing"* ]]
+    then
+        label=
+    #elif [[ $status = "Dropbox isn't running!" ]]
+    #then
+    else
+        fg=$background
+        bg=$urgent
+        sp=" "
+        label=
+    fi
+fi
+
+
+echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font_desc=\""$symbol_font_name"\" font_size=\""medium"\">$label</span>$full_text$sp</span>"
+echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font_desc=\""$symbol_font_name"\" font_size=\""medium"\">$label</span>$short_text$sp</span>"
+
+case $BLOCK_BUTTON in
+  1) notify-send "Dropbox" "$(dropbox-cli status)" ;;  # left click
+  3) $TERMINAL -e vifm ~/Dropbox ;;  # right click
+  4) dropbox start ;;  # scroll up
+  5) dropbox stop ;;  # scroll down
+esac

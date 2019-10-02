@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/wallpapers/vaporwave/60793_photo_manipulation_vaporwave.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#242131",
+        "foreground": "#ffe1ff",
+        "cursor": "#ffe1ff"
+    },
+    "colors": {
+        "color0": "#242131",
+        "color1": "#9150AD",
+        "color2": "#7148A7",
+        "color3": "#9159CB",
+        "color4": "#454FAD",
+        "color5": "#A660CE",
+        "color6": "#6C58C5",
+        "color7": "#dab0de",
+        "color8": "#39354f",
+        "color9": "#c357f1",
+        "color10": "#904ee8",
+        "color11": "#bc60ff",
+        "color12": "#4959f0",
+        "color13": "#dd69ff",
+        "color14": "#805fff",
+        "color15": "#ffe1ff"
+    }
+}

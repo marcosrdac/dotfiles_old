@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/bridge_pink_blue_peaceful_wakening_gc.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#100f11",
+        "foreground": "#f7e4ff",
+        "cursor": "#f7e4ff"
+    },
+    "colors": {
+        "color0": "#100f11",
+        "color1": "#CF7998",
+        "color2": "#EE98B1",
+        "color3": "#C7A6AB",
+        "color4": "#9078D7",
+        "color5": "#C57EC3",
+        "color6": "#A37392",
+        "color7": "#cbbce7",
+        "color8": "#29262b",
+        "color9": "#ff88bf",
+        "color10": "#ffacdb",
+        "color11": "#ffc0cd",
+        "color12": "#b086ff",
+        "color13": "#ff8eff",
+        "color14": "#e583c3",
+        "color15": "#f7e4ff"
+    }
+}

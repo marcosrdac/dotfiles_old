@@ -1,0 +1,22 @@
+#!/bin/sh
+
+choices="pomodoro\nbreak\nhard break"
+chosen=$(echo -e "$choices" | menu -p 'set alarm:')
+pomodoro=$((25*60))
+break=$((5*60))
+hard_break=$((30*60))
+
+if [[ $chosen != "" ]]
+then
+    case "$chosen" in
+        "pomodoro") interval=pomodoro;;
+        "break")  interval=break;;
+        "hard break") interval=hard_break;;
+        *) interval=$((chosen)) ;;
+    esac
+
+    filename=pomodoro_end
+    pomodoro_end=$(cat /tmp/$filename)  # scroll
+    now=$(date '+%s')
+    echo $((now+interval)) > /tmp/$filename
+fi

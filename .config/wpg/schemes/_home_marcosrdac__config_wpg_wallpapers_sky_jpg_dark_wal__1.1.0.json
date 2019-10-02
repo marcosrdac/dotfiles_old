@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/sky.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0c0c",
+        "foreground": "#fffaf9",
+        "cursor": "#fffaf9"
+    },
+    "colors": {
+        "color0": "#0c0c0c",
+        "color1": "#867969",
+        "color2": "#6C6D6D",
+        "color3": "#9E8C74",
+        "color4": "#5D6268",
+        "color5": "#807E85",
+        "color6": "#787784",
+        "color7": "#c3bfbe",
+        "color8": "#252525",
+        "color9": "#bd9e79",
+        "color10": "#7e9b9b",
+        "color11": "#dfb885",
+        "color12": "#6c7e93",
+        "color13": "#9f93bd",
+        "color14": "#8e8abb",
+        "color15": "#fffaf9"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/aforestation-dirt-road.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#013e4c",
+        "foreground": "#f5c7c7",
+        "cursor": "#f5c7c7"
+    },
+    "colors": {
+        "color0": "#013e4c",
+        "color1": "#d67754",
+        "color2": "#7c965d",
+        "color3": "#de9e6a",
+        "color4": "#5d7252",
+        "color5": "#b39064",
+        "color6": "#a27d54",
+        "color7": "#f0e7b2",
+        "color8": "#01667c",
+        "color9": "#e1955d",
+        "color10": "#a0cf69",
+        "color11": "#e6d778",
+        "color12": "#76a15b",
+        "color13": "#e6c16e",
+        "color14": "#e19c61",
+        "color15": "#f5c7c7"
+    }
+}

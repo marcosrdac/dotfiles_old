@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/wallhaven-vgeevp.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#160e08",
+        "foreground": "#fffbf0",
+        "cursor": "#fffbf0"
+    },
+    "colors": {
+        "color0": "#160e08",
+        "color1": "#A19324",
+        "color2": "#6D8D17",
+        "color3": "#DA9D1F",
+        "color4": "#586AA1",
+        "color5": "#DD9C5D",
+        "color6": "#C1A456",
+        "color7": "#dfd0c7",
+        "color8": "#3b2514",
+        "color9": "#dec921",
+        "color10": "#92c213",
+        "color11": "#ffd117",
+        "color12": "#6281e1",
+        "color13": "#ffca64",
+        "color14": "#ffdd5d",
+        "color15": "#fffbf0"
+    }
+}

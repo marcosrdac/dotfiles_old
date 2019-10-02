@@ -1,0 +1,8 @@
+text/html; elinks -dump %s; nametemplate=%s.html; copiousoutput
+text/html; /usr/bin/qutebrowser %s >/dev/null 2>&1; needsterminal
+#text/html; pandoc -f html -t markdown; copiousoutput; compose=vim %s
+application/vnd.openxmlformats-officedocument.wordprocessingml.document;libreoffice %s
+application/vnd.openxmlformats-officedocument.wordprocessingml.template;libreoffice %s
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;libreoffice %s
+application/vnd.openxmlformats-officedocument.spreadsheetml.template;libreoffice %s
+application/vnd.openxmlformats-officedocument.presentationml.presentation;libreoffice %s

@@ -1,0 +1,32 @@
+# settings
+
+(GimpGegl-gegl-gaussian-blur-config "2019-07-03 20:52:42"
+    (time 1562197962)
+    (std-dev-x 38.820000)
+    (std-dev-y 38.820000)
+    (filter auto)
+    (abyss-policy clamp)
+    (clip-extent yes))
+(GimpGegl-gegl-gaussian-blur-config "2019-05-30 20:36:46"
+    (time 1559259406)
+    (std-dev-x 47.870000)
+    (std-dev-y 47.870000)
+    (filter auto)
+    (abyss-policy clamp)
+    (clip-extent yes))
+(GimpGegl-gegl-gaussian-blur-config "2019-02-17 05:53:03"
+    (time 1550393583)
+    (std-dev-x 1.500000)
+    (std-dev-y 1.500000)
+    (filter auto)
+    (abyss-policy clamp)
+    (clip-extent yes))
+(GimpGegl-gegl-gaussian-blur-config "2019-01-25 16:38:49"
+    (time 1548445129)
+    (std-dev-x 1.160000)
+    (std-dev-y 1.160000)
+    (filter auto)
+    (abyss-policy clamp)
+    (clip-extent yes))
+
+# end of settings

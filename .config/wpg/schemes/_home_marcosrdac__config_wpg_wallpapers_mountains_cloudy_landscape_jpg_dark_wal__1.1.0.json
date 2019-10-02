@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/mountains_cloudy_landscape.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#181416",
+        "foreground": "#f9ffff",
+        "cursor": "#f9ffff"
+    },
+    "colors": {
+        "color0": "#181416",
+        "color1": "#CCAFB4",
+        "color2": "#C7BACA",
+        "color3": "#F9D9AC",
+        "color4": "#B6A6BA",
+        "color5": "#A493AA",
+        "color6": "#B8B1C9",
+        "color7": "#d2dadc",
+        "color8": "#332a2f",
+        "color9": "#ffcad9",
+        "color10": "#ffd8ff",
+        "color11": "#ffffb6",
+        "color12": "#fac1ff",
+        "color13": "#dfaaf1",
+        "color14": "#e4cdff",
+        "color15": "#f9ffff"
+    }
+}

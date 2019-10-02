@@ -1,0 +1,3 @@
+*/10 * * * * export HOME="/home/marcosrdac/" && $HOME/bin/check_mail -u quiet -q -f 'INBOX,Drafts,Spam,Trash,Sent Mail,Notes'
+5 */7 * * * export HOME="/home/marcosrdac/" && $HOME/bin/check_mail -u quiet
+17 */2 * * *  export HOME="/home/marcosrdac/" && $HOME/bin/podcast2playlist/rss2playlist

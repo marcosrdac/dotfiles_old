@@ -1,0 +1,16 @@
+#!/bin/bash
+
+clear
+
+CONTADOR=1
+sleep 2
+while [  $CONTADOR -le 100 ]; do
+  echo $CONTADOR
+  sleep 1
+  echo "vaai!"
+  sleep 2
+  echo "relaaaxa...
+"
+  sleep 1
+ let CONTADOR=CONTADOR+1;
+done

@@ -1,0 +1,18 @@
+#!/bin/sh
+# modified from Luke Smith's
+
+pgrep -x dmenu && exit
+
+drives="$(lsblk -rpo "name,type,size,mountpoint" | awk '$4==""{printf "%s (%s)\n",$1,$3}')"
+[ -z "$drives" ] && exit 1
+chosen="$(echo "$drives" | menu -p "mount drive:" | awk '{print $1}')"
+[ -z "$chosen" ] && exit 1
+sudo -A mount "$chosen" && exit 0
+
+mp="$(find /mnt /media /mount /home -type d -maxdepth 5 2>/dev/null | menu -p "type in mount point.")"
+[ "$mp" = "" ] && exit 1
+if [ ! -d "$mp" ]; then
+	mkdiryn=$(printf "no\\nyes" | menu -p "$mp does not exist. Create it?")
+	[ "$mkdiryn" = "yes" ] && sudo -A mkdir -p "$mp"
+fi
+sudo -A mount "$chosen" "$mp" && pgrep -x dunst && notify-send "$chosen mounted to $mp."

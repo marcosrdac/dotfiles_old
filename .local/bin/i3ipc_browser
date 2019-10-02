@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+
+import i3ipc
+
+tag = 'tickets'
+site = 'https://myproblemprovider.io/handcrafted/problems_for_me'
+class_browsers = {'Firefox', 'google_chrome', 'Surf', 'Iceweasel', 'chromium',
+        'Chromium', 'opera', 'konqueror'}
+
+def mark_when_new_browser_window(self, event):
+    con = event.container
+    if con.window_class not in class_browsers:
+        return
+    con.command('mark {}'.format(tag))
+    exit(0)
+
+i3 = i3ipc.Connection()
+marked = i3.get_tree().find_marked(tag)
+try:
+    marked[0].command('focus')
+    exit(0)
+except IndexError:
+    i3.on('window::new', mark_when_new_browser_window)
+    i3.command('exec x-www-browser --new-window {}'.format(site))
+    i3.main()

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/wallhaven-j897lplp.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0D1B2D",
+        "foreground": "#ffecff",
+        "cursor": "#ffecff"
+    },
+    "colors": {
+        "color0": "#0D1B2D",
+        "color1": "#BF5B76",
+        "color2": "#B4718B",
+        "color3": "#C9728F",
+        "color4": "#646D8D",
+        "color5": "#D47FA0",
+        "color6": "#916E87",
+        "color7": "#d4b8c6",
+        "color8": "#173254",
+        "color9": "#ff6390",
+        "color10": "#fd7fb0",
+        "color11": "#ff7fb3",
+        "color12": "#7284c6",
+        "color13": "#ff8fcb",
+        "color14": "#cd7eb6",
+        "color15": "#ffecff"
+    }
+}

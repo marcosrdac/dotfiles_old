@@ -1,0 +1,20 @@
+#!/bin/bash
+
+pidof dunst && killall dunst
+
+font_name="$(xrdb -query | grep ^'*font_name' | awk '{$1=""; print $0}')"
+font_size="$(xrdb -query | grep ^'*font_size' | awk '{$1=""; print $0}')"
+
+nohup dunst -fn "$font_name $font_size" &>/dev/null &
+
+
+#source "${HOME}/.cache/wal/colors.sh"
+#
+#/usr/bin/dunst \
+#    -lb "${color0:-#F0F0F0}" \
+#    -nb "${color0:-#F0F0F0}" \
+#    -cb "${color0:-#F0F0F0}" \
+#    -lf "${color15:=#000000}" \
+#    -bf "${color15:=#000000}" \
+#    -cf "${color15:=#000000}" \
+#    -nf "${color15:=#000000}"

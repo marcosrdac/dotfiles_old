@@ -1,0 +1,30 @@
+# .BACKUP
+.BACKUP
+
+# .cache
+.cache/
+
+# .cache
+.config/keepassx/keepassx2.ini
+.config/keepassx/marcosrdac.kdbx
+.config/keepmenu/config.ini
+.config/newsboat/history.search
+.config/newsboat/history.cmdline
+.config/nvim/.netrwhist
+.config/ranger/history
+.config/stardict/history
+
+# ~/
+.calcurse
+# offlineimap?? --------------- look for safety here
+.offlineimaprc
+
+# ignore all logs
+/*.log
+
+# History files
+/.*history
+
+# look later
+.fonts/Envy Code R PR7/*
+#looked till fontin

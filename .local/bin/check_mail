@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#if test ! -f $HOME/.offlineimap/main.lock
+if test ! $(pidof -x offlineimap)
+then
+    offlineimap $* #-u quiet
+    #sudo -u $USER DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send "E-mail updated!"
+#else
+    #sudo -u $USER DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send "Alreay updating e-mail..."
+fi

@@ -1,0 +1,105 @@
+#!/usr/bin/env sh
+
+#
+# Shell common aliases and customizations
+#
+
+
+## COMMAND CONFIGURATION
+
+# Completion for existing commands
+alias ls='ls -h --color=auto'
+alias mkdir='mkdir -v'
+alias rmdir='rmdir -v'
+alias cp="cp -i"
+alias mv="mv -iv"
+alias free='free -h'
+alias df='df -h'
+
+alias ffmpeg='ffmpeg -hide_banner'
+alias ffprobe='ffprobe -hide_banner'
+alias ffplay='ffplay -hide_banner'
+
+
+# ALIASES
+
+# Frequent mistakes
+alias please=sudo
+
+# Shortcuts for commonly used commands
+alias ll="ls -l"
+alias la="ls -la"
+alias s='sudo -s -E'
+alias x='startx; logout'
+alias nx='nvidia-xrun; logout'
+
+alias v='nvim'
+alias n='vifm_ueberzug'
+
+# For programs that think $HOME is a reasonable place to put their junk
+# and don't allow the user to change those questionable choices
+alias adb='HOME=$JUNKHOME adb'
+alias audacity='HOME=$JUNKHOME audacity'
+alias binwalk='HOME=$JUNKHOME binwalk' # Should use .config according to the GitHub code though
+alias cabal='HOME=$JUNKHOME cabal' # TODO May have options but last time I tried it it crashed
+alias cmake='HOME=$JUNKHOME cmake'
+alias ddd='HOME=$JUNKHOME ddd'
+alias ghidra='HOME=$JUNKHOME ghidra'
+alias itch='HOME=$JUNKHOME itch'
+alias vd='HOME=$JUNKHOME vd'
+alias wpa_cli='HOME=$JUNKHOME wpa_cli'
+# TODO Maybe we can do something about node-gyp
+
+alias bower='bower --config.storage.packages=~/.cache/bower/packages --config.storage.registry=~/.cache/bower/registry --config.storage.links=~/.cache/bower/links'
+alias gdb='gdb -x $HOME/.config/gdbinit'
+alias iftop='iftop -c $HOME/.config/iftoprc'
+alias lmms='lmms --config $HOME/.config/lmmsrc.xml'
+alias tmux='tmux -f $HOME/.config/tmux/tmux.conf'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# TODO ruby's gem when I find a use for it
+
+# FUNCTIONS
+trysource() {
+    if [ -f "$1" ]
+    then
+        . "$1"
+    else
+        return 1
+    fi
+}
+
+# python virtualenvwrapper
+#source /usr/bin/virtualenvwrapper.sh  # slows terminal start
+trysource "/usr/bin/virtualenvwrapper_lazy.sh"
+
+_i_prefer() { # executables...
+    for candidate in "$@"
+    do
+        if [ -x "$(command -v "$candidate")" ]
+        then
+            choice="$candidate"
+            break
+        fi
+    done
+    if [ -z "$choice" ]
+    then
+        return
+    fi
+    for candidate in "$@"
+    do
+        if [ "$candidate" != "$choice" ]
+        then
+            alias "$candidate"="$choice"
+        fi
+    done
+}
+
+_i_prefer v nvim vim vi
+_i_prefer gopass pass
+_i_prefer wakeonlan wol
+_i_prefer neomutt mutt
+unset _i_prefer

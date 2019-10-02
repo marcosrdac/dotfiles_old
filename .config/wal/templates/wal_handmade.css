@@ -1,0 +1,7 @@
+body {{
+  background-color: {foreground} !important;
+  color: {background} !important;
+}}
+html {{
+  background-color: {foreground} !important;
+}}

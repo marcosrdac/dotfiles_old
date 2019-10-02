@@ -1,0 +1,33 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+
+label=""
+
+
+step=5
+case $BLOCK_BUTTON in
+  4) pamixer --allow-boost -i $step ;;
+  5) pamixer --allow-boost -d $step ;;
+esac
+
+
+muted="$(pamixer --get-mute)"
+if [ $muted = "true" ]
+then
+  volume=""
+else
+  volume="$(pamixer --get-volume)"
+fi
+
+
+full_text="<span foreground=\""$foreground"\"><span font=\""$symbol_font_name"\">$label</span> "$volume"</span>"
+short_text=$full_text
+
+
+echo $full_text
+echo $short_text

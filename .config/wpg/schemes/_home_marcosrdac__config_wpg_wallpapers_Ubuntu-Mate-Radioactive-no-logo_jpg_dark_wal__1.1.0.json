@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/Ubuntu-Mate-Radioactive-no-logo.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#050908",
+        "foreground": "#e3ffd5",
+        "cursor": "#e3ffd5"
+    },
+    "colors": {
+        "color0": "#050908",
+        "color1": "#4B6A49",
+        "color2": "#649450",
+        "color3": "#6B8B3A",
+        "color4": "#2C524D",
+        "color5": "#4D7248",
+        "color6": "#376450",
+        "color7": "#aac29f",
+        "color8": "#152a25",
+        "color9": "#579553",
+        "color10": "#7bcf59",
+        "color11": "#8dc13e",
+        "color12": "#31726a",
+        "color13": "#5aa051",
+        "color14": "#3d8c69",
+        "color15": "#e3ffd5"
+    }
+}

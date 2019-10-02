@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/bridge4.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#020408",
+        "foreground": "#ffe3e3",
+        "cursor": "#ffe3e3"
+    },
+    "colors": {
+        "color0": "#020408",
+        "color1": "#7d634f",
+        "color2": "#5f4d4d",
+        "color3": "#a38e58",
+        "color4": "#4b3d3d",
+        "color5": "#796363",
+        "color6": "#433737",
+        "color7": "#d3adad",
+        "color8": "#081633",
+        "color9": "#af7e59",
+        "color10": "#865858",
+        "color11": "#e4bf62",
+        "color12": "#6a4646",
+        "color13": "#ab7272",
+        "color14": "#5e3f3f",
+        "color15": "#ffe3e3"
+    }
+}

@@ -1,0 +1,55 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+fg=$foreground
+bg=$background
+
+label=""
+sp=""
+
+playing_info=$(mpc current) # please make it better at seccond echo
+playing_info=${playing_info:0:80}
+if ! [ -z $playing_info ]
+then
+    little_playing_info=${playing_info##*/}
+    little_playing_info=${little_playing_info%\.mp3*}
+    little_playing_info=${little_playing_info%\.wav*}
+    little_playing_info=${little_playing_info%\.flac*}
+    echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $playing_info$sp</span>"
+    echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $little_playing_info$sp</span>"
+fi
+
+# does not work if & or ' in song name
+#artist=$(ncmpcpp --current-song={%a} -q)
+##notify-send "Artist" "$artist"
+#song=$(ncmpcpp --current-song={%t} -q)
+##song="The Fun Machine Took A Shit & Died"
+##notify-send "Song" "$song"
+##if (test -z "$artist") && (test -z $song)
+#echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $song - $artist$sp</span>"
+#echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $song$sp</span>"
+
+#if [[ "$stat" != "" && "$artist" != "" && "$stat" != "paused" ]]; then
+#    if [[ "$stat" == "playing" ]]; then
+#        fg=$foreground
+#        bg=$background
+#    else
+#        sp=" "
+#        fg=$background
+#        bg=$foreground
+#    fi
+#    echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $artist - $song$sp</span>"
+#    echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $song$sp</span>"
+#fi
+
+case $BLOCK_BUTTON in
+    #1) echo $((now+break_time)) > /tmp/$filename ;;     # left click
+    3) i3-msg [instance="dropdown_music_player"] scratchpad show, move position center ;;  # right click
+    #4) echo $((pomodoro_end+5*60)) > /tmp/$filename ;;  # scroll
+    #5) echo $((pomodoro_end-5*60)) > /tmp/$filename ;;  # scroll
+esac
+

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/wallhaven-lmdrxr.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#030405",
+        "foreground": "#fffefd",
+        "cursor": "#fffefd"
+    },
+    "colors": {
+        "color0": "#030405",
+        "color1": "#847D84",
+        "color2": "#CFAE99",
+        "color3": "#C69776",
+        "color4": "#5A6F8B",
+        "color5": "#A59A97",
+        "color6": "#6D8EA2",
+        "color7": "#dbd9d8",
+        "color8": "#131c26",
+        "color9": "#bc91bc",
+        "color10": "#ffddaf",
+        "color11": "#ffc084",
+        "color12": "#668ec3",
+        "color13": "#eabcaf",
+        "color14": "#7cbce4",
+        "color15": "#fffefd"
+    }
+}

@@ -1,0 +1,9 @@
+# settings
+
+(GimpGegl-gegl-edge-sobel-config "2019-05-14 19:56:52"
+    (time 1557874612)
+    (horizontal yes)
+    (vertical yes)
+    (keep-sign yes))
+
+# end of settings

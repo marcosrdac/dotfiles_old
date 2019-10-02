@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+
+label=" "
+fg="$foreground"
+bg="$background"
+
+
+full_text="<span background=\""$bg"\" foreground=\""$fg"\"><span font=\""$font"\">$label</span></span>"
+short_text="<span background=\""$bg"\" foreground=\""$fg"\"><span font=\""$font"\">$label</span></span>"
+
+echo "$full_text"
+echo "$short_text"
+
+
+case $BLOCK_BUTTON in
+  3) sleep .5 && dm_power_menu ;;
+esac

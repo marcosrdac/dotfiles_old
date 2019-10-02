@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/20180330.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a0a0a",
+        "foreground": "#fff8ff",
+        "cursor": "#fff8ff"
+    },
+    "colors": {
+        "color0": "#0a0a0a",
+        "color1": "#96797B",
+        "color2": "#5A5160",
+        "color3": "#504F6D",
+        "color4": "#485FA3",
+        "color5": "#917595",
+        "color6": "#666891",
+        "color7": "#c7bfc9",
+        "color8": "#232323",
+        "color9": "#d48b90",
+        "color10": "#775d88",
+        "color11": "#5c5a99",
+        "color12": "#4e73e3",
+        "color13": "#c986d2",
+        "color14": "#7478cc",
+        "color15": "#fff8ff"
+    }
+}

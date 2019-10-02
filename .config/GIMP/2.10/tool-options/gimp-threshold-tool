@@ -1,0 +1,5 @@
+# GIMP gimp-threshold-tool options
+
+(histogram-scale logarithmic)
+
+# end of gimp-threshold-tool options

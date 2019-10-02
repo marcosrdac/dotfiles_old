@@ -1,7 +1,0 @@
-#!/bin/bash
-choices="Logout\nSuspend\nShutdown\nReboot"
-font=$1
-size=$2
-bg=$3
-fg=$4
-chosen=$(echo $choices | dmenu -nb "$bg" -nf "$fg" -sb "$fg" -sf $bg -i)

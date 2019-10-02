@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/wallpapers/home/coffe.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#171212",
+        "foreground": "#fffaee",
+        "cursor": "#fffaee"
+    },
+    "colors": {
+        "color0": "#171212",
+        "color1": "#9B562B",
+        "color2": "#B16F49",
+        "color3": "#D19267",
+        "color4": "#7E7D83",
+        "color5": "#AFAAAF",
+        "color6": "#818181",
+        "color7": "#e6d4ca",
+        "color8": "#332727",
+        "color9": "#d66c2a",
+        "color10": "#f68b4e",
+        "color11": "#ffb971",
+        "color12": "#9891ba",
+        "color13": "#f9c6f9",
+        "color14": "#b89797",
+        "color15": "#fffaee"
+    }
+}

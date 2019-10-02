@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+
+label=''
+date=$(date '+%Y%m%d')
+tiny_date=$(date '+%m%d')
+full_text="<span foreground=\""$foreground"\"><span font=\""$symbol_font_name"\">$label</span> "$date"</span>"
+tiny_text="<span foreground=\""$foreground"\"><span font=\""$symbol_font_name"\">$label</span> "$tiny_date"</span>"
+
+echo "$full_text"
+echo "$tiny_text"
+
+case $BLOCK_BUTTON in
+  1) notify-send "Calendar" "$(cal -n 2 -w)" ;;
+  #1) notify-send "Calendar" "$(cal)" ;;
+  #3) echo $date | xclip -i -selection "clipboard" -f | xclip -i -selection "primary" ;;
+esac

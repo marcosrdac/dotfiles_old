@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/wallhaven-kwlex1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#01161C",
+        "foreground": "#fffff1",
+        "cursor": "#fffff1"
+    },
+    "colors": {
+        "color0": "#01161C",
+        "color1": "#90796C",
+        "color2": "#276067",
+        "color3": "#C7A970",
+        "color4": "#2A6F8C",
+        "color5": "#596A62",
+        "color6": "#5D9199",
+        "color7": "#dbd6c5",
+        "color8": "#013c4e",
+        "color9": "#cb987c",
+        "color10": "#29848f",
+        "color11": "#ffe17d",
+        "color12": "#2a95c1",
+        "color13": "#679680",
+        "color14": "#68c8d6",
+        "color15": "#fffff1"
+    }
+}

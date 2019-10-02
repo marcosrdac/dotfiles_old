@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+
+end_with=" "
+
+label=""
+time=$(date '+%H%M%S')
+tiny_time=$(date '+%H%M')
+full_text="<span foreground=\""$foreground"\"><span font=\""$symbol_font_name"\">$label</span> "$time"$end_with</span>"
+tiny_text="<span foreground=\""$foreground"\"><span font=\""$symbol_font_name"\">$label</span> "$tiny_time"$end_with</span>"
+
+echo "$full_text"
+echo "$tiny_text"
+
+
+# Events
+
+filename=pomodoro_end
+interval=$((5*60))
+now=$(date '+%s')
+
+case $BLOCK_BUTTON in
+  #3) echo "$(date '+%Y%m%d%H%M%S')" | xclip -i -selection "clipboard" -f | xclip -i -selection "primary" ;;
+  4)  pomodoro_end=$(cat /tmp/$filename)  # scroll
+    if [[ $pomodoro_end < $now ]]
+    then
+      echo $((now+interval)) > /tmp/$filename
+    else
+      echo $((pomodoro_end+interval)) > /tmp/$filename
+    fi ;;
+  5)  pomodoro_end=$(cat /tmp/$filename)
+    if [[ $pomodoro_end < $now ]]
+    then
+      echo $((now-interval)) > /tmp/$filename
+    else
+      echo $((pomodoro_end-interval)) > /tmp/$filename
+    fi ;;
+esac

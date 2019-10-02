@@ -1,0 +1,33 @@
+#!/bin/sh
+
+font='Font Awesome 5 Free Solid 11'
+foreground=$(xrdb -query | grep ^'*foreground' | awk '{print $NF}')
+label=""
+
+state=$(nmcli -g STATE g)
+
+if [[ $state == "connected" ]]
+then
+    ssid="$(nmcli -g "IN-USE,SSID" dev wifi | grep "\*.*")"  # specification sems to slow the program
+    ssid="${ssid:2}"
+    signal="$(nmcli -g "IN-USE,SIGNAL" dev wifi | grep "\*.*")"
+    signal=" ${signal:2}"
+else
+    ssid="None"
+    signal=""
+fi
+
+set $ssid
+
+full_text="<span foreground=\""$foreground"\"><span font=\""$font"\">$label</span> $signal</span>"
+short_text="<span foreground=\""$foreground"\"><span font=\""$font"\">$label</span> $signal</span>"
+
+
+echo $full_text
+echo $short_text
+
+
+case $BLOCK_BUTTON in
+  1) notify-send "Wi-Fi" "SSID:\t$*" ;;  # not working
+  3) $TERMINAL -e nmtui ;;
+esac

@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+# Import the fonts
+symbol_font_name="$(xrdb -query | awk '$1~/^*symbol_font_name:$/ {$1=""; print $0}')"
+
+
+#list=$(transmission-remote -l | grep %)
+#nt=$(( $(echo transmission-remote | wc -l) - 1))
+#
+#if test $nt -gt 1
+#then
+#    full_text=$(echo $list |
+#        sed " # This first sed command is to ensure a desirable order with sort
+#        s/.*Stopped.*/A/g;
+#        s/.*Seeding.*/Z/g;
+#        s/.*100%.*/N/g;
+#        s/.*Idle.*/B/g;
+#        s/.*Uploading.*/L/g;
+#        s/.*%.*/M/g" | sort -h | uniq -c)
+#    full_text=$(echo $full_text | sed " # Now we replace the standin letters with icons.
+#                    s/A/🛑/g;
+#                    s/B/⌛️/g;
+#                    s/L/🔼/g;
+#                    s/M/🔽/g;
+#                    s/N/✅/g;
+#                    s/Z/🌱/g" | awk '{print $2, $1}' | sed -e "s/ $//g")
+#
+#    echo $full_text
+#    echo $full_text
+#fi
+#
+#
+#case $BLOCK_BUTTON in
+#    1) $TERMINAL -e transmission-remote-cli ;;
+#    3) pgrep -x dunst >/dev/null && notify-send "Torrent module" "🛑: paused
+#⏳: idle (seeds needed)
+#🔼: uploading (unfinished)
+#🔽: downloading
+#✅: done
+#🌱: done and seeding" ;;
+#esac

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/wallpapers/serenity/black-wallpaper-dark-galaxy-14676.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121520",
+        "foreground": "#fffcd0",
+        "cursor": "#fffcd0"
+    },
+    "colors": {
+        "color0": "#121520",
+        "color1": "#C77744",
+        "color2": "#7A844C",
+        "color3": "#9E6443",
+        "color4": "#4B4F44",
+        "color5": "#8C493F",
+        "color6": "#6C5D45",
+        "color7": "#cabd9c",
+        "color8": "#232940",
+        "color9": "#ff9646",
+        "color10": "#a7b955",
+        "color11": "#dc7d48",
+        "color12": "#64704e",
+        "color13": "#c35544",
+        "color14": "#977b4e",
+        "color15": "#fffcd0"
+    }
+}

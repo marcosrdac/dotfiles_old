@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#010101",
+        "foreground": "#ffffd3",
+        "cursor": "#ffffd3"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#7c9067",
+        "color2": "#5d7751",
+        "color3": "#a1ad7e",
+        "color4": "#506d5f",
+        "color5": "#647e5d",
+        "color6": "#95a178",
+        "color7": "#c0c99f",
+        "color8": "#1a1a1a",
+        "color9": "#a1cb75",
+        "color10": "#74a75c",
+        "color11": "#daf490",
+        "color12": "#5b997b",
+        "color13": "#79b16a",
+        "color14": "#c9e389",
+        "color15": "#ffffd3"
+    }
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+time=$(date '+%s')
+
+$TERMINAL -n tmux_my_pc     -e tmux new-session -s my_pc_$time &
+$TERMINAL -n tmux_data_show -e tmux new-session -t my_pc_$time -s data_show_$time &

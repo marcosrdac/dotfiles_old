@@ -1,0 +1,26 @@
+#!/bin/bash
+
+foreground="$(xrdb -query | grep ^'*foreground' | awk '{$1=""; print $NF}')"
+background="$(xrdb -query | grep ^'*background' | awk '{$1=""; print $NF}')"
+symbol_font_name="$(xrdb -query | grep ^'*symbol_font_name' | awk '{$1=""; print $0}')"
+fg=$foreground
+bg=$background
+
+label=""
+sp=""
+
+
+playing_info=$(youtube-dl -e $1)
+if ! test -z $playing_info
+then
+    echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $playing_info$sp</span>"
+    echo "<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font=\""$symbol_font_name"\">$label</span> $playing_info$sp</span>"
+fi
+
+case $BLOCK_BUTTON in
+    #1) echo $((now+break_time)) > /tmp/$filename ;;     # left click
+    3) i3-msg [instance="dropdown_music_player"] scratchpad show, move position center ;;  # right click
+    #4) echo $((pomodoro_end+5*60)) > /tmp/$filename ;;  # scroll
+    #5) echo $((pomodoro_end-5*60)) > /tmp/$filename ;;  # scroll
+esac
+

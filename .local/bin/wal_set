@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ \( -L "$1" \) ]
+then
+    file=$(readlink $1)
+else
+    file=$1
+fi
+
+i3-msg '[instance="dropdown_terminal"] scratchpad show'
+i3-msg '[instance="dropdown_calculator"] scratchpad show, move absolute position center'
+i3-msg '[instance="dropdown_music_player"] scratchpad show, move absolute position center'
+i3-msg '[instance="dropdown_mail"] scratchpad show, move absolute position center'
+wpg -a $file
+wpg -A $file
+wpg -s $file
+i3-msg '[instance="dropdown_.*"] move to scratchpad'
+dunst_start
+killall i3bar
+i3-msg reload
+i3-msg exec "i3bar --bar_id=bar-0"
+qutebrowser_reload.py
+wal-steam -w
+notify-send "New theme set!"
