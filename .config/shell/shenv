@@ -80,7 +80,7 @@ prependpath() {
 
 prependpath "$HOME/.local/bin"
 prependpath "$HOME/.local/bin/i3bar"
-prependpath "$HOME/.local/bin/dmenu"
+prependpath "$HOME/.local/bin/menu"
 appendpath "$HOME/.local/bin/podcast2playlist"
 
 # python virtualenvwrapper

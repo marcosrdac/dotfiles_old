@@ -5,13 +5,10 @@
 .cache/
 
 # .cache
-.config/keepassx/keepassx2.ini
 .config/keepassx/marcosrdac.kdbx
-.config/keepmenu/config.ini
 .config/newsboat/history.search
 .config/newsboat/history.cmdline
 .config/nvim/.netrwhist
-.config/ranger/history
 .config/stardict/history
 
 # ~/

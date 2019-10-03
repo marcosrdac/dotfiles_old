@@ -433,12 +433,6 @@ d/home/marcosrdac/wallpapers/favorites
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/.local
-	share
-3
-D/home/marcosrdac/Dropbox
-	.config
-1
 D/home/marcosrdac/Dropbox/.config
 	..
 0
@@ -730,9 +724,15 @@ D/home/marcosrdac
 D/home/marcosrdac/.local
 	share
 3
+D/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+16
 D/home/marcosrdac
-	.gtkrc-2.0
-26
+	.dotfiles
+0
+D/home/marcosrdac/.dotfiles
+	.gitignore
+8
 D
 
 # Command line history (oldest to newest):
@@ -839,8 +839,6 @@ D
 
 # Search history (oldest to newest):
 /session
-/st
-/rea
 /xses
 /X
 /wjjjw
@@ -926,7 +924,6 @@ D
 /fonts
 /tri
 /git
-/dot
 /keep
 /conf
 /cach
@@ -940,7 +937,8 @@ D
 /loca
 /con
 /gtl
-/gtk
+/dot
+/giti
 
 # Prompt history (oldest to newest):
 prbef
@@ -1047,7 +1045,7 @@ p.gitignore_
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.gtkrc-2.0
+""/home/marcosrdac/.local/share/Trash/005_.python_history
 
 # Directory stack (oldest to newest):
 

@@ -8,6 +8,6 @@ tls_nocertcheck
 account main
 from marcosrdac@gmail.com
 user marcosrdac@gmail.com
-passwordeval  "gpg --quiet --for-your-eyes-only --no-tty --decrypt ~/.config/mutt/credentials/msmtp_credentials.gpg"
+passwordeval  "gpg --quiet --for-your-eyes-only --no-tty --decrypt ~/.dotfiles/.config/msmtp/credentials/msmtp_credentials.gpg"
 host smtp.gmail.com
 port 587
