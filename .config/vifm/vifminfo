@@ -433,27 +433,6 @@ d/home/marcosrdac/wallpapers/favorites
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/Dropbox/.config
-	..
-0
-D/home/marcosrdac/Dropbox
-	dotfiles
-9
-D/home/marcosrdac/Dropbox/dotfiles
-	.cache
-2
-D/home/marcosrdac
-	.cache
-0
-D/home/marcosrdac/.cache
-	terminal
-25
-D/home/marcosrdac/.config
-	Xresources
-4
-D/home/marcosrdac
-	.local
-1
 D/home/marcosrdac/.local
 	bin
 1
@@ -732,7 +711,28 @@ D/home/marcosrdac
 0
 D/home/marcosrdac/.dotfiles
 	.gitignore
-8
+11
+D/home/marcosrdac/.config
+	vim
+38
+D/home/marcosrdac/.config/vim
+	colors
+2
+D/home/marcosrdac/.config/vim/colors
+	..
+0
+D/home/marcosrdac/.config/vim
+	colors
+2
+D/home/marcosrdac/.config
+	nvim
+27
+D/home/marcosrdac/.config/nvim
+	colors
+2
+D/home/marcosrdac/.config/nvim/colors
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -838,7 +838,6 @@ D
 :q
 
 # Search history (oldest to newest):
-/session
 /xses
 /X
 /wjjjw
@@ -859,7 +858,6 @@ D
 /off
 /mai
 /cron
-/vim
 /nvi
 /alia
 /pro
@@ -939,6 +937,7 @@ D
 /gtl
 /dot
 /giti
+/vim
 
 # Prompt history (oldest to newest):
 prbef
@@ -1045,7 +1044,571 @@ p.gitignore_
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/005_.python_history
+""/home/marcosrdac/.local/share/Trash/001_0x7A69_dark.vim
+""/home/marcosrdac/.local/share/Trash/001_3dglasses.vim
+""/home/marcosrdac/.local/share/Trash/001_256-grayvim.vim
+""/home/marcosrdac/.local/share/Trash/001_256-jungle.vim
+""/home/marcosrdac/.local/share/Trash/001_BlackSea.vim
+""/home/marcosrdac/.local/share/Trash/001_C64.vim
+""/home/marcosrdac/.local/share/Trash/001_Chasing_Logic.vim
+""/home/marcosrdac/.local/share/Trash/001_ChocolateLiquor.vim
+""/home/marcosrdac/.local/share/Trash/001_ChocolatePapaya.vim
+""/home/marcosrdac/.local/share/Trash/001_CodeFactoryv3.vim
+""/home/marcosrdac/.local/share/Trash/001_DevC++.vim
+""/home/marcosrdac/.local/share/Trash/001_Monokai-chris.vim
+""/home/marcosrdac/.local/share/Trash/001_Monokai.vim
+""/home/marcosrdac/.local/share/Trash/001_MountainDew.vim
+""/home/marcosrdac/.local/share/Trash/001_PapayaWhip.vim
+""/home/marcosrdac/.local/share/Trash/001_SlateDark.vim
+""/home/marcosrdac/.local/share/Trash/001_Tomorrow-Night-Blue.vim
+""/home/marcosrdac/.local/share/Trash/001_Tomorrow-Night-Bright.vim
+""/home/marcosrdac/.local/share/Trash/001_Tomorrow-Night-Eighties.vim
+""/home/marcosrdac/.local/share/Trash/001_Tomorrow-Night.vim
+""/home/marcosrdac/.local/share/Trash/001_Tomorrow.vim
+""/home/marcosrdac/.local/share/Trash/001_abra.vim
+""/home/marcosrdac/.local/share/Trash/001_adam.vim
+""/home/marcosrdac/.local/share/Trash/001_adaryn.vim
+""/home/marcosrdac/.local/share/Trash/001_adobe.vim
+""/home/marcosrdac/.local/share/Trash/001_adrian.vim
+""/home/marcosrdac/.local/share/Trash/001_advantage.vim
+""/home/marcosrdac/.local/share/Trash/001_af.vim
+""/home/marcosrdac/.local/share/Trash/001_aiseered.vim
+""/home/marcosrdac/.local/share/Trash/001_anotherdark.vim
+""/home/marcosrdac/.local/share/Trash/001_ansi_blows.vim
+""/home/marcosrdac/.local/share/Trash/001_apprentice.vim
+""/home/marcosrdac/.local/share/Trash/001_aqua.vim
+""/home/marcosrdac/.local/share/Trash/001_ashen.vim
+""/home/marcosrdac/.local/share/Trash/001_asmanian_blood.vim
+""/home/marcosrdac/.local/share/Trash/001_astronaut.vim
+""/home/marcosrdac/.local/share/Trash/001_asu1dark.vim
+""/home/marcosrdac/.local/share/Trash/001_atom.vim
+""/home/marcosrdac/.local/share/Trash/001_automation.vim
+""/home/marcosrdac/.local/share/Trash/001_autumn.vim
+""/home/marcosrdac/.local/share/Trash/001_autumnleaf.vim
+""/home/marcosrdac/.local/share/Trash/001_babymate256.vim
+""/home/marcosrdac/.local/share/Trash/001_badwolf.vim
+""/home/marcosrdac/.local/share/Trash/001_base16-atelierdune.vim
+""/home/marcosrdac/.local/share/Trash/001_basic.vim
+""/home/marcosrdac/.local/share/Trash/001_bayQua.vim
+""/home/marcosrdac/.local/share/Trash/001_baycomb.vim
+""/home/marcosrdac/.local/share/Trash/001_bclear.vim
+""/home/marcosrdac/.local/share/Trash/001_beachcomber.vim
+""/home/marcosrdac/.local/share/Trash/001_beauty256.vim
+""/home/marcosrdac/.local/share/Trash/001_bensday.vim
+""/home/marcosrdac/.local/share/Trash/001_billw.vim
+""/home/marcosrdac/.local/share/Trash/001_biogoo.vim
+""/home/marcosrdac/.local/share/Trash/001_black_angus.vim
+""/home/marcosrdac/.local/share/Trash/001_blackbeauty.vim
+""/home/marcosrdac/.local/share/Trash/001_blackboard.vim
+""/home/marcosrdac/.local/share/Trash/001_blackdust.vim
+""/home/marcosrdac/.local/share/Trash/001_blacklight.vim
+""/home/marcosrdac/.local/share/Trash/001_blazer.vim
+""/home/marcosrdac/.local/share/Trash/001_blink.vim
+""/home/marcosrdac/.local/share/Trash/001_blue.vim
+""/home/marcosrdac/.local/share/Trash/001_bluechia.vim
+""/home/marcosrdac/.local/share/Trash/001_bluedrake.vim
+""/home/marcosrdac/.local/share/Trash/001_bluegreen.vim
+""/home/marcosrdac/.local/share/Trash/001_blueprint.vim
+""/home/marcosrdac/.local/share/Trash/001_blueshift.vim
+""/home/marcosrdac/.local/share/Trash/001_bluez.vim
+""/home/marcosrdac/.local/share/Trash/001_blugrine.vim
+""/home/marcosrdac/.local/share/Trash/001_bmichaelsen.vim
+""/home/marcosrdac/.local/share/Trash/001_bocau.vim
+""/home/marcosrdac/.local/share/Trash/001_bog.vim
+""/home/marcosrdac/.local/share/Trash/001_borland.vim
+""/home/marcosrdac/.local/share/Trash/001_breeze.vim
+""/home/marcosrdac/.local/share/Trash/001_brookstream.vim
+""/home/marcosrdac/.local/share/Trash/001_brown.vim
+""/home/marcosrdac/.local/share/Trash/001_bubblegum.vim
+""/home/marcosrdac/.local/share/Trash/001_burnttoast256.vim
+""/home/marcosrdac/.local/share/Trash/001_busierbee.vim
+""/home/marcosrdac/.local/share/Trash/001_busybee.vim
+""/home/marcosrdac/.local/share/Trash/001_buttercream.vim
+""/home/marcosrdac/.local/share/Trash/001_bvemu.vim
+""/home/marcosrdac/.local/share/Trash/001_bw.vim
+""/home/marcosrdac/.local/share/Trash/001_c.vim
+""/home/marcosrdac/.local/share/Trash/001_cake16.vim
+""/home/marcosrdac/.local/share/Trash/001_calmar256-light.vim
+""/home/marcosrdac/.local/share/Trash/001_camo.vim
+""/home/marcosrdac/.local/share/Trash/001_campfire.vim
+""/home/marcosrdac/.local/share/Trash/001_candy.vim
+""/home/marcosrdac/.local/share/Trash/001_candycode.vim
+""/home/marcosrdac/.local/share/Trash/001_candyman.vim
+""/home/marcosrdac/.local/share/Trash/001_caramel.vim
+""/home/marcosrdac/.local/share/Trash/001_carrot.vim
+""/home/marcosrdac/.local/share/Trash/001_carvedwood.vim
+""/home/marcosrdac/.local/share/Trash/001_carvedwoodcool.vim
+""/home/marcosrdac/.local/share/Trash/001_cascadia.vim
+""/home/marcosrdac/.local/share/Trash/001_chance-of-storm.vim
+""/home/marcosrdac/.local/share/Trash/001_charged-256.vim
+""/home/marcosrdac/.local/share/Trash/001_charon.vim
+""/home/marcosrdac/.local/share/Trash/001_chela_light.vim
+""/home/marcosrdac/.local/share/Trash/001_chlordane.vim
+""/home/marcosrdac/.local/share/Trash/001_chocolate.vim
+""/home/marcosrdac/.local/share/Trash/001_chrysoprase.vim
+""/home/marcosrdac/.local/share/Trash/001_ciscoacl.vim
+""/home/marcosrdac/.local/share/Trash/001_clarity.vim
+""/home/marcosrdac/.local/share/Trash/001_cleanphp.vim
+""/home/marcosrdac/.local/share/Trash/001_cleanroom.vim
+""/home/marcosrdac/.local/share/Trash/001_clearance.vim
+""/home/marcosrdac/.local/share/Trash/001_cloudy.vim
+""/home/marcosrdac/.local/share/Trash/001_clue.vim
+""/home/marcosrdac/.local/share/Trash/001_cobalt.vim
+""/home/marcosrdac/.local/share/Trash/001_cobaltish.vim
+""/home/marcosrdac/.local/share/Trash/001_codeblocks_dark.vim
+""/home/marcosrdac/.local/share/Trash/001_codeburn.vim
+""/home/marcosrdac/.local/share/Trash/001_codeschool.vim
+""/home/marcosrdac/.local/share/Trash/001_coffee.vim
+""/home/marcosrdac/.local/share/Trash/001_coldgreen.vim
+""/home/marcosrdac/.local/share/Trash/001_colorer.vim
+""/home/marcosrdac/.local/share/Trash/001_colorful.vim
+""/home/marcosrdac/.local/share/Trash/001_colorful256.vim
+""/home/marcosrdac/.local/share/Trash/001_colorscheme_template.vim
+""/home/marcosrdac/.local/share/Trash/001_colorzone.vim
+""/home/marcosrdac/.local/share/Trash/001_contrasty.vim
+""/home/marcosrdac/.local/share/Trash/001_cool.vim
+""/home/marcosrdac/.local/share/Trash/001_corn.vim
+""/home/marcosrdac/.local/share/Trash/001_corporation.vim
+""/home/marcosrdac/.local/share/Trash/001_cthulhian.vim
+""/home/marcosrdac/.local/share/Trash/001_custom.vim
+""/home/marcosrdac/.local/share/Trash/001_d8g_01.vim
+""/home/marcosrdac/.local/share/Trash/001_d8g_02.vim
+""/home/marcosrdac/.local/share/Trash/001_d8g_03.vim
+""/home/marcosrdac/.local/share/Trash/001_d8g_04.vim
+""/home/marcosrdac/.local/share/Trash/001_dante.vim
+""/home/marcosrdac/.local/share/Trash/001_dark-ruby.vim
+""/home/marcosrdac/.local/share/Trash/001_darkBlue.vim
+""/home/marcosrdac/.local/share/Trash/001_darkZ.vim
+""/home/marcosrdac/.local/share/Trash/001_darkblack.vim
+""/home/marcosrdac/.local/share/Trash/001_darkblue2.vim
+""/home/marcosrdac/.local/share/Trash/001_darkbone.vim
+""/home/marcosrdac/.local/share/Trash/001_darkburn.vim
+""/home/marcosrdac/.local/share/Trash/001_darkdot.vim
+""/home/marcosrdac/.local/share/Trash/001_darkeclipse.vim
+""/home/marcosrdac/.local/share/Trash/001_darker-robin.vim
+""/home/marcosrdac/.local/share/Trash/001_darkerdesert.vim
+""/home/marcosrdac/.local/share/Trash/001_darkocean.vim
+""/home/marcosrdac/.local/share/Trash/001_darkrobot.vim
+""/home/marcosrdac/.local/share/Trash/001_darkroom.vim
+""/home/marcosrdac/.local/share/Trash/001_darkslategray.vim
+""/home/marcosrdac/.local/share/Trash/001_darkspectrum.vim
+""/home/marcosrdac/.local/share/Trash/001_darktango.vim
+""/home/marcosrdac/.local/share/Trash/001_darkzen.vim
+""/home/marcosrdac/.local/share/Trash/001_darth.vim
+""/home/marcosrdac/.local/share/Trash/001_dawn.vim
+""/home/marcosrdac/.local/share/Trash/001_delek.vim
+""/home/marcosrdac/.local/share/Trash/001_delphi.vim
+""/home/marcosrdac/.local/share/Trash/001_denim.vim
+""/home/marcosrdac/.local/share/Trash/001_derefined.vim
+""/home/marcosrdac/.local/share/Trash/001_desert.vim
+""/home/marcosrdac/.local/share/Trash/001_desert256.vim
+""/home/marcosrdac/.local/share/Trash/001_desert256v2.vim
+""/home/marcosrdac/.local/share/Trash/001_desertEx.vim
+""/home/marcosrdac/.local/share/Trash/001_desertedocean.vim
+""/home/marcosrdac/.local/share/Trash/001_desertedoceanburnt.vim
+""/home/marcosrdac/.local/share/Trash/001_detailed.vim
+""/home/marcosrdac/.local/share/Trash/001_devbox-dark-256.vim
+""/home/marcosrdac/.local/share/Trash/001_deveiate.vim
+""/home/marcosrdac/.local/share/Trash/001_developer.vim
+""/home/marcosrdac/.local/share/Trash/001_disciple.vim
+""/home/marcosrdac/.local/share/Trash/001_distinguished.vim
+""/home/marcosrdac/.local/share/Trash/001_django.vim
+""/home/marcosrdac/.local/share/Trash/001_donbass.vim
+""/home/marcosrdac/.local/share/Trash/001_doorhinge.vim
+""/home/marcosrdac/.local/share/Trash/001_doriath.vim
+""/home/marcosrdac/.local/share/Trash/001_dual.vim
+""/home/marcosrdac/.local/share/Trash/001_dull.vim
+""/home/marcosrdac/.local/share/Trash/001_dusk.vim
+""/home/marcosrdac/.local/share/Trash/001_earendel.vim
+""/home/marcosrdac/.local/share/Trash/001_earth.vim
+""/home/marcosrdac/.local/share/Trash/001_earthburn.vim
+""/home/marcosrdac/.local/share/Trash/001_eclipse.vim
+""/home/marcosrdac/.local/share/Trash/001_eclm_wombat.vim
+""/home/marcosrdac/.local/share/Trash/001_ecostation.vim
+""/home/marcosrdac/.local/share/Trash/001_editplus.vim
+""/home/marcosrdac/.local/share/Trash/001_edo_sea.vim
+""/home/marcosrdac/.local/share/Trash/001_ego.vim
+""/home/marcosrdac/.local/share/Trash/001_ekinivim.vim
+""/home/marcosrdac/.local/share/Trash/001_ekvoli.vim
+""/home/marcosrdac/.local/share/Trash/001_elda.vim
+""/home/marcosrdac/.local/share/Trash/001_elise.vim
+""/home/marcosrdac/.local/share/Trash/001_elisex.vim
+""/home/marcosrdac/.local/share/Trash/001_elrodeo.vim
+""/home/marcosrdac/.local/share/Trash/001_emacs.vim
+""/home/marcosrdac/.local/share/Trash/001_enzyme.vim
+""/home/marcosrdac/.local/share/Trash/001_evening_2.vim
+""/home/marcosrdac/.local/share/Trash/001_far.vim
+""/home/marcosrdac/.local/share/Trash/001_felipec.vim
+""/home/marcosrdac/.local/share/Trash/001_fine_blue.vim
+""/home/marcosrdac/.local/share/Trash/001_flatcolor.vim
+""/home/marcosrdac/.local/share/Trash/001_flatland.vim
+""/home/marcosrdac/.local/share/Trash/001_flatlandia.vim
+""/home/marcosrdac/.local/share/Trash/001_flattr.vim
+""/home/marcosrdac/.local/share/Trash/001_flatui.vim
+""/home/marcosrdac/.local/share/Trash/001_fnaqevan.vim
+""/home/marcosrdac/.local/share/Trash/001_fog.vim
+""/home/marcosrdac/.local/share/Trash/001_fokus.vim
+""/home/marcosrdac/.local/share/Trash/001_forneus.vim
+""/home/marcosrdac/.local/share/Trash/001_freya.vim
+""/home/marcosrdac/.local/share/Trash/001_frood.vim
+""/home/marcosrdac/.local/share/Trash/001_fruidle.vim
+""/home/marcosrdac/.local/share/Trash/001_fruit.vim
+""/home/marcosrdac/.local/share/Trash/001_fruity.vim
+""/home/marcosrdac/.local/share/Trash/001_fu.vim
+""/home/marcosrdac/.local/share/Trash/001_gardener.vim
+""/home/marcosrdac/.local/share/Trash/001_gemcolors.vim
+""/home/marcosrdac/.local/share/Trash/001_gentooish.vim
+""/home/marcosrdac/.local/share/Trash/001_getafe.vim
+""/home/marcosrdac/.local/share/Trash/001_getfresh.vim
+""/home/marcosrdac/.local/share/Trash/001_github.vim
+""/home/marcosrdac/.local/share/Trash/001_gobo.vim
+""/home/marcosrdac/.local/share/Trash/001_golded.vim
+""/home/marcosrdac/.local/share/Trash/001_golden.vim
+""/home/marcosrdac/.local/share/Trash/001_google.vim
+""/home/marcosrdac/.local/share/Trash/001_gor.vim
+""/home/marcosrdac/.local/share/Trash/001_gotham.vim
+""/home/marcosrdac/.local/share/Trash/001_gotham256.vim
+""/home/marcosrdac/.local/share/Trash/001_gothic.vim
+""/home/marcosrdac/.local/share/Trash/001_grape.vim
+""/home/marcosrdac/.local/share/Trash/001_gravity.vim
+""/home/marcosrdac/.local/share/Trash/001_graywh.vim
+""/home/marcosrdac/.local/share/Trash/001_grb256.vim
+""/home/marcosrdac/.local/share/Trash/001_greens.vim
+""/home/marcosrdac/.local/share/Trash/001_greenvision.vim
+""/home/marcosrdac/.local/share/Trash/001_grey2.vim
+""/home/marcosrdac/.local/share/Trash/001_greyblue.vim
+""/home/marcosrdac/.local/share/Trash/001_grishin.vim
+""/home/marcosrdac/.local/share/Trash/001_gruvbox.vim
+""/home/marcosrdac/.local/share/Trash/001_guardian.vim
+""/home/marcosrdac/.local/share/Trash/001_guepardo.vim
+""/home/marcosrdac/.local/share/Trash/001_h80.vim
+""/home/marcosrdac/.local/share/Trash/001_habiLight.vim
+""/home/marcosrdac/.local/share/Trash/001_heliotrope.vim
+""/home/marcosrdac/.local/share/Trash/001_hemisu.vim
+""/home/marcosrdac/.local/share/Trash/001_herald.vim
+""/home/marcosrdac/.local/share/Trash/001_herokudoc-gvim.vim
+""/home/marcosrdac/.local/share/Trash/001_herokudoc.vim
+""/home/marcosrdac/.local/share/Trash/001_holokai.vim
+""/home/marcosrdac/.local/share/Trash/001_hornet.vim
+""/home/marcosrdac/.local/share/Trash/001_hybrid-light.vim
+""/home/marcosrdac/.local/share/Trash/001_hybrid.vim
+""/home/marcosrdac/.local/share/Trash/001_iangenzo.vim
+""/home/marcosrdac/.local/share/Trash/001_ibmedit.vim
+""/home/marcosrdac/.local/share/Trash/001_icansee.vim
+""/home/marcosrdac/.local/share/Trash/001_iceberg.vim
+""/home/marcosrdac/.local/share/Trash/001_impact.vim
+""/home/marcosrdac/.local/share/Trash/001_impactG.vim
+""/home/marcosrdac/.local/share/Trash/001_industrial.vim
+""/home/marcosrdac/.local/share/Trash/001_industry.vim
+""/home/marcosrdac/.local/share/Trash/001_ingretu.vim
+""/home/marcosrdac/.local/share/Trash/001_inkpot.vim
+""/home/marcosrdac/.local/share/Trash/001_ir_black.vim
+""/home/marcosrdac/.local/share/Trash/001_ironman.vim
+""/home/marcosrdac/.local/share/Trash/001_jammy.vim
+""/home/marcosrdac/.local/share/Trash/001_jelleybeans.vim
+""/home/marcosrdac/.local/share/Trash/001_jellybeans.vim
+""/home/marcosrdac/.local/share/Trash/001_jellyx.vim
+""/home/marcosrdac/.local/share/Trash/001_jhdark.vim
+""/home/marcosrdac/.local/share/Trash/001_jhlight.vim
+""/home/marcosrdac/.local/share/Trash/001_jiks.vim
+""/home/marcosrdac/.local/share/Trash/001_kalisi.vim
+""/home/marcosrdac/.local/share/Trash/001_kalt.vim
+""/home/marcosrdac/.local/share/Trash/001_kaltex.vim
+""/home/marcosrdac/.local/share/Trash/001_kate.vim
+""/home/marcosrdac/.local/share/Trash/001_kellys.vim
+""/home/marcosrdac/.local/share/Trash/001_khaki.vim
+""/home/marcosrdac/.local/share/Trash/001_kib_darktango.vim
+""/home/marcosrdac/.local/share/Trash/001_kib_plastic.vim
+""/home/marcosrdac/.local/share/Trash/001_kiss.vim
+""/home/marcosrdac/.local/share/Trash/001_kkruby.vim
+""/home/marcosrdac/.local/share/Trash/001_kolor.vim
+""/home/marcosrdac/.local/share/Trash/001_kruby.vim
+""/home/marcosrdac/.local/share/Trash/001_kyle.vim
+""/home/marcosrdac/.local/share/Trash/001_landscape.vim
+""/home/marcosrdac/.local/share/Trash/001_last256.vim
+""/home/marcosrdac/.local/share/Trash/001_lazarus.vim
+""/home/marcosrdac/.local/share/Trash/001_legiblelight.vim
+""/home/marcosrdac/.local/share/Trash/001_leglight2.vim
+""/home/marcosrdac/.local/share/Trash/001_leo.vim
+""/home/marcosrdac/.local/share/Trash/001_less.vim
+""/home/marcosrdac/.local/share/Trash/001_lettuce.vim
+""/home/marcosrdac/.local/share/Trash/001_leya.vim
+""/home/marcosrdac/.local/share/Trash/001_light.styl
+""/home/marcosrdac/.local/share/Trash/001_lightcolors.vim
+""/home/marcosrdac/.local/share/Trash/001_lilac.vim
+""/home/marcosrdac/.local/share/Trash/001_lilydjwg_dark.vim
+""/home/marcosrdac/.local/share/Trash/001_lilydjwg_green.vim
+""/home/marcosrdac/.local/share/Trash/001_lilypink.vim
+""/home/marcosrdac/.local/share/Trash/001_lingodirector.vim
+""/home/marcosrdac/.local/share/Trash/001_liquidcarbon.vim
+""/home/marcosrdac/.local/share/Trash/001_literal_tango.vim
+""/home/marcosrdac/.local/share/Trash/001_lizard.vim
+""/home/marcosrdac/.local/share/Trash/001_lizard256.vim
+""/home/marcosrdac/.local/share/Trash/001_lodestone.vim
+""/home/marcosrdac/.local/share/Trash/001_louver.vim
+""/home/marcosrdac/.local/share/Trash/001_lucius.vim
+""/home/marcosrdac/.local/share/Trash/001_luinnar.vim
+""/home/marcosrdac/.local/share/Trash/001_luna.vim
+""/home/marcosrdac/.local/share/Trash/001_mac_classic.vim
+""/home/marcosrdac/.local/share/Trash/001_made_of_code.vim
+""/home/marcosrdac/.local/share/Trash/001_mango.vim
+""/home/marcosrdac/.local/share/Trash/001_manuscript.vim
+""/home/marcosrdac/.local/share/Trash/001_manxome.vim
+""/home/marcosrdac/.local/share/Trash/001_marklar.vim
+""/home/marcosrdac/.local/share/Trash/001_maroloccio.vim
+""/home/marcosrdac/.local/share/Trash/001_mars.vim
+""/home/marcosrdac/.local/share/Trash/001_martin_krischik.vim
+""/home/marcosrdac/.local/share/Trash/001_matrix.vim
+""/home/marcosrdac/.local/share/Trash/001_mayansmoke.vim
+""/home/marcosrdac/.local/share/Trash/001_mdark.vim
+""/home/marcosrdac/.local/share/Trash/001_mellow.vim
+""/home/marcosrdac/.local/share/Trash/001_metacosm.vim
+""/home/marcosrdac/.local/share/Trash/001_midnight.vim
+""/home/marcosrdac/.local/share/Trash/001_midnight2.vim
+""/home/marcosrdac/.local/share/Trash/001_miko.vim
+""/home/marcosrdac/.local/share/Trash/001_mint.vim
+""/home/marcosrdac/.local/share/Trash/001_mizore.vim
+""/home/marcosrdac/.local/share/Trash/001_mod_tcsoft.vim
+""/home/marcosrdac/.local/share/Trash/001_molokai.vim
+""/home/marcosrdac/.local/share/Trash/001_monokain.vim
+""/home/marcosrdac/.local/share/Trash/001_montz.vim
+""/home/marcosrdac/.local/share/Trash/001_mophiaDark.vim
+""/home/marcosrdac/.local/share/Trash/001_mophiaSmoke.vim
+""/home/marcosrdac/.local/share/Trash/001_mopkai.vim
+""/home/marcosrdac/.local/share/Trash/001_moria.vim
+""/home/marcosrdac/.local/share/Trash/001_moss.vim
+""/home/marcosrdac/.local/share/Trash/001_motus.vim
+""/home/marcosrdac/.local/share/Trash/001_mrkn256.vim
+""/home/marcosrdac/.local/share/Trash/001_mrpink.vim
+""/home/marcosrdac/.local/share/Trash/001_mud.vim
+""/home/marcosrdac/.local/share/Trash/001_muon.vim
+""/home/marcosrdac/.local/share/Trash/001_mustang.vim
+""/home/marcosrdac/.local/share/Trash/001_native.vim
+""/home/marcosrdac/.local/share/Trash/001_nature.vim
+""/home/marcosrdac/.local/share/Trash/001_navajo-night.vim
+""/home/marcosrdac/.local/share/Trash/001_navajo.vim
+""/home/marcosrdac/.local/share/Trash/001_nazca.vim
+""/home/marcosrdac/.local/share/Trash/001_nedit.vim
+""/home/marcosrdac/.local/share/Trash/001_nedit2.vim
+""/home/marcosrdac/.local/share/Trash/001_nefertiti.vim
+""/home/marcosrdac/.local/share/Trash/001_neon.vim
+""/home/marcosrdac/.local/share/Trash/001_nerv-ous.vim
+""/home/marcosrdac/.local/share/Trash/001_neutron.vim
+""/home/marcosrdac/.local/share/Trash/001_neverland-darker.vim
+""/home/marcosrdac/.local/share/Trash/001_neverland.vim
+""/home/marcosrdac/.local/share/Trash/001_neverland2-darker.vim
+""/home/marcosrdac/.local/share/Trash/001_neverland2.vim
+""/home/marcosrdac/.local/share/Trash/001_neverness.vim
+""/home/marcosrdac/.local/share/Trash/001_nevfn.vim
+""/home/marcosrdac/.local/share/Trash/001_newspaper.vim
+""/home/marcosrdac/.local/share/Trash/001_newsprint.vim
+""/home/marcosrdac/.local/share/Trash/001_nicotine.vim
+""/home/marcosrdac/.local/share/Trash/001_night.vim
+""/home/marcosrdac/.local/share/Trash/001_nightVision.vim
+""/home/marcosrdac/.local/share/Trash/001_night_vision.vim
+""/home/marcosrdac/.local/share/Trash/001_nightflight.vim
+""/home/marcosrdac/.local/share/Trash/001_nightflight2.vim
+""/home/marcosrdac/.local/share/Trash/001_nightshimmer.vim
+""/home/marcosrdac/.local/share/Trash/001_nightsky.vim
+""/home/marcosrdac/.local/share/Trash/001_nightwish.vim
+""/home/marcosrdac/.local/share/Trash/001_no_quarter.vim
+""/home/marcosrdac/.local/share/Trash/001_northland.vim
+""/home/marcosrdac/.local/share/Trash/001_northsky.vim
+""/home/marcosrdac/.local/share/Trash/001_norwaytoday.vim
+""/home/marcosrdac/.local/share/Trash/001_nour.vim
+""/home/marcosrdac/.local/share/Trash/001_nuvola.vim
+""/home/marcosrdac/.local/share/Trash/001_obsidian.vim
+""/home/marcosrdac/.local/share/Trash/001_obsidian2.vim
+""/home/marcosrdac/.local/share/Trash/001_oceanblack.vim
+""/home/marcosrdac/.local/share/Trash/001_oceanblack256.vim
+""/home/marcosrdac/.local/share/Trash/001_oceandeep.vim
+""/home/marcosrdac/.local/share/Trash/001_oceanlight.vim
+""/home/marcosrdac/.local/share/Trash/001_olive.vim
+""/home/marcosrdac/.local/share/Trash/001_orange.vim
+""/home/marcosrdac/.local/share/Trash/001_osx_like.vim
+""/home/marcosrdac/.local/share/Trash/001_otaku.vim
+""/home/marcosrdac/.local/share/Trash/001_pacific.vim
+""/home/marcosrdac/.local/share/Trash/001_paintbox.vim
+""/home/marcosrdac/.local/share/Trash/001_peaksea.vim
+""/home/marcosrdac/.local/share/Trash/001_pencil.vim
+""/home/marcosrdac/.local/share/Trash/001_peppers.vim
+""/home/marcosrdac/.local/share/Trash/001_perfect.vim
+""/home/marcosrdac/.local/share/Trash/001_pf_earth.vim
+""/home/marcosrdac/.local/share/Trash/001_phd.vim
+""/home/marcosrdac/.local/share/Trash/001_phphaxor.vim
+""/home/marcosrdac/.local/share/Trash/001_phpx.vim
+""/home/marcosrdac/.local/share/Trash/001_pic.vim
+""/home/marcosrdac/.local/share/Trash/001_pink.vim
+""/home/marcosrdac/.local/share/Trash/001_playroom.vim
+""/home/marcosrdac/.local/share/Trash/001_pleasant.vim
+""/home/marcosrdac/.local/share/Trash/001_potts.vim
+""/home/marcosrdac/.local/share/Trash/001_print_bw.vim
+""/home/marcosrdac/.local/share/Trash/001_prmths.vim
+""/home/marcosrdac/.local/share/Trash/001_professional.vim
+""/home/marcosrdac/.local/share/Trash/001_proton.vim
+""/home/marcosrdac/.local/share/Trash/001_pspad.vim
+""/home/marcosrdac/.local/share/Trash/001_psql.vim
+""/home/marcosrdac/.local/share/Trash/001_putty.vim
+""/home/marcosrdac/.local/share/Trash/001_pw.vim
+""/home/marcosrdac/.local/share/Trash/001_pyte.vim
+""/home/marcosrdac/.local/share/Trash/001_python.vim
+""/home/marcosrdac/.local/share/Trash/001_quagmire.vim
+""/home/marcosrdac/.local/share/Trash/001_radicalgoodspeed.vim
+""/home/marcosrdac/.local/share/Trash/001_railscasts.vim
+""/home/marcosrdac/.local/share/Trash/001_rainbow_fine_blue.vim
+""/home/marcosrdac/.local/share/Trash/001_rainbow_fruit.vim
+""/home/marcosrdac/.local/share/Trash/001_rainbow_neon.vim
+""/home/marcosrdac/.local/share/Trash/001_random.vim
+""/home/marcosrdac/.local/share/Trash/001_rastafari.vim
+""/home/marcosrdac/.local/share/Trash/001_rcg_gui.vim
+""/home/marcosrdac/.local/share/Trash/001_rcg_term.vim
+""/home/marcosrdac/.local/share/Trash/001_rdark-terminal.vim
+""/home/marcosrdac/.local/share/Trash/001_rdark.vim
+""/home/marcosrdac/.local/share/Trash/001_redblack.vim
+""/home/marcosrdac/.local/share/Trash/001_redstring.vim
+""/home/marcosrdac/.local/share/Trash/001_refactor.vim
+""/home/marcosrdac/.local/share/Trash/001_relaxedgreen.vim
+""/home/marcosrdac/.local/share/Trash/001_reliable.vim
+""/home/marcosrdac/.local/share/Trash/001_reloaded.vim
+""/home/marcosrdac/.local/share/Trash/001_revolutions.vim
+""/home/marcosrdac/.local/share/Trash/001_robinhood.vim
+""/home/marcosrdac/.local/share/Trash/001_rootwater.vim
+""/home/marcosrdac/.local/share/Trash/001_rtl.vim
+""/home/marcosrdac/.local/share/Trash/001_sand.vim
+""/home/marcosrdac/.local/share/Trash/001_satori.vim
+""/home/marcosrdac/.local/share/Trash/001_saturn.vim
+""/home/marcosrdac/.local/share/Trash/001_scala.vim
+""/home/marcosrdac/.local/share/Trash/001_scite.vim
+""/home/marcosrdac/.local/share/Trash/001_sea.vim
+""/home/marcosrdac/.local/share/Trash/001_sean.vim
+""/home/marcosrdac/.local/share/Trash/001_seashell.vim
+""/home/marcosrdac/.local/share/Trash/001_selenitic.vim
+""/home/marcosrdac/.local/share/Trash/001_seoul.vim
+""/home/marcosrdac/.local/share/Trash/001_seoul256-light.vim
+""/home/marcosrdac/.local/share/Trash/001_seoul256.vim
+""/home/marcosrdac/.local/share/Trash/001_settlemyer.vim
+""/home/marcosrdac/.local/share/Trash/001_sexy-railscasts.vim
+""/home/marcosrdac/.local/share/Trash/001_sf.vim
+""/home/marcosrdac/.local/share/Trash/001_shadesofamber.vim
+""/home/marcosrdac/.local/share/Trash/001_shobogenzo.vim
+""/home/marcosrdac/.local/share/Trash/001_sienna.vim
+""/home/marcosrdac/.local/share/Trash/001_sift.vim
+""/home/marcosrdac/.local/share/Trash/001_silent.vim
+""/home/marcosrdac/.local/share/Trash/001_simple256.vim
+""/home/marcosrdac/.local/share/Trash/001_simple_b.vim
+""/home/marcosrdac/.local/share/Trash/001_simpleandfriendly.vim
+""/home/marcosrdac/.local/share/Trash/001_simplewhite.vim
+""/home/marcosrdac/.local/share/Trash/001_skittles_berry.vim
+""/home/marcosrdac/.local/share/Trash/001_skittles_dark.vim
+""/home/marcosrdac/.local/share/Trash/001_smp.vim
+""/home/marcosrdac/.local/share/Trash/001_smyck.vim
+""/home/marcosrdac/.local/share/Trash/001_softblue.vim
+""/home/marcosrdac/.local/share/Trash/001_softbluev2.vim
+""/home/marcosrdac/.local/share/Trash/001_softlight.vim
+""/home/marcosrdac/.local/share/Trash/001_sol-term.vim
+""/home/marcosrdac/.local/share/Trash/001_sol.vim
+""/home/marcosrdac/.local/share/Trash/001_solarized.vim
+""/home/marcosrdac/.local/share/Trash/001_sonofobsidian.vim
+""/home/marcosrdac/.local/share/Trash/001_sonoma.vim
+""/home/marcosrdac/.local/share/Trash/001_sorcerer.vim
+""/home/marcosrdac/.local/share/Trash/001_soso.vim
+""/home/marcosrdac/.local/share/Trash/001_southernlights.vim
+""/home/marcosrdac/.local/share/Trash/001_southwest-fog.vim
+""/home/marcosrdac/.local/share/Trash/001_spectro.vim
+""/home/marcosrdac/.local/share/Trash/000_spiderhawk.vim
+""/home/marcosrdac/.local/share/Trash/001_spring.vim
+""/home/marcosrdac/.local/share/Trash/001_stackoverflow.vim
+""/home/marcosrdac/.local/share/Trash/001_stingray.vim
+""/home/marcosrdac/.local/share/Trash/001_strange.vim
+""/home/marcosrdac/.local/share/Trash/001_strawimodo.vim
+""/home/marcosrdac/.local/share/Trash/001_summerfruit.vim
+""/home/marcosrdac/.local/share/Trash/001_summerfruit256.vim
+""/home/marcosrdac/.local/share/Trash/001_surveyor.vim
+""/home/marcosrdac/.local/share/Trash/001_swamplight.vim
+""/home/marcosrdac/.local/share/Trash/001_symfony.vim
+""/home/marcosrdac/.local/share/Trash/001_synic.vim
+""/home/marcosrdac/.local/share/Trash/001_tabula.vim
+""/home/marcosrdac/.local/share/Trash/001_tango-desert.vim
+""/home/marcosrdac/.local/share/Trash/001_tango-morning.vim
+""/home/marcosrdac/.local/share/Trash/001_tango.vim
+""/home/marcosrdac/.local/share/Trash/001_tango2.vim
+""/home/marcosrdac/.local/share/Trash/001_tangoX.vim
+""/home/marcosrdac/.local/share/Trash/001_tangoshady.vim
+""/home/marcosrdac/.local/share/Trash/001_taqua.vim
+""/home/marcosrdac/.local/share/Trash/001_tchaba.vim
+""/home/marcosrdac/.local/share/Trash/001_tchaba2.vim
+""/home/marcosrdac/.local/share/Trash/001_tcsoft.vim
+""/home/marcosrdac/.local/share/Trash/001_telstar.vim
+""/home/marcosrdac/.local/share/Trash/001_tesla.vim
+""/home/marcosrdac/.local/share/Trash/001_tetragrammaton.vim
+""/home/marcosrdac/.local/share/Trash/001_textmate16.vim
+""/home/marcosrdac/.local/share/Trash/001_thegoodluck.vim
+""/home/marcosrdac/.local/share/Trash/001_thestars.vim
+""/home/marcosrdac/.local/share/Trash/001_thor.vim
+""/home/marcosrdac/.local/share/Trash/001_tibet.vim
+""/home/marcosrdac/.local/share/Trash/001_tidy.vim
+""/home/marcosrdac/.local/share/Trash/001_tir_black.vim
+""/home/marcosrdac/.local/share/Trash/001_tolerable.vim
+""/home/marcosrdac/.local/share/Trash/001_tomatosoup.vim
+""/home/marcosrdac/.local/share/Trash/001_tony_light.vim
+""/home/marcosrdac/.local/share/Trash/001_toothpik.vim
+""/home/marcosrdac/.local/share/Trash/001_torte.vim
+""/home/marcosrdac/.local/share/Trash/001_transparent.vim
+""/home/marcosrdac/.local/share/Trash/001_trivial256.vim
+""/home/marcosrdac/.local/share/Trash/001_trogdor.vim
+""/home/marcosrdac/.local/share/Trash/001_turbo.vim
+""/home/marcosrdac/.local/share/Trash/001_tutticolori.vim
+""/home/marcosrdac/.local/share/Trash/001_twilight.vim
+""/home/marcosrdac/.local/share/Trash/001_twilight256.vim
+""/home/marcosrdac/.local/share/Trash/001_twitchy.vim
+""/home/marcosrdac/.local/share/Trash/001_two2tango.vim
+""/home/marcosrdac/.local/share/Trash/001_ubloh.vim
+""/home/marcosrdac/.local/share/Trash/001_umber-green.vim
+""/home/marcosrdac/.local/share/Trash/001_understated.vim
+""/home/marcosrdac/.local/share/Trash/001_underwater-mod.vim
+""/home/marcosrdac/.local/share/Trash/001_underwater.vim
+""/home/marcosrdac/.local/share/Trash/001_up.vim
+""/home/marcosrdac/.local/share/Trash/001_vanzan_color.vim
+""/home/marcosrdac/.local/share/Trash/001_vc.vim
+""/home/marcosrdac/.local/share/Trash/001_vcbc.vim
+""/home/marcosrdac/.local/share/Trash/001_vexorian.vim
+""/home/marcosrdac/.local/share/Trash/001_vibrantink.vim
+""/home/marcosrdac/.local/share/Trash/001_vilight.vim
+""/home/marcosrdac/.local/share/Trash/001_visualstudio.vim
+""/home/marcosrdac/.local/share/Trash/001_vividchalk.vim
+""/home/marcosrdac/.local/share/Trash/001_vj.vim
+""/home/marcosrdac/.local/share/Trash/001_void.vim
+""/home/marcosrdac/.local/share/Trash/001_vydark.vim
+""/home/marcosrdac/.local/share/Trash/001_vylight.vim
+""/home/marcosrdac/.local/share/Trash/001_wal.vim
+""/home/marcosrdac/.local/share/Trash/001_wargrey.vim
+""/home/marcosrdac/.local/share/Trash/001_warm_grey.vim
+""/home/marcosrdac/.local/share/Trash/001_watermark.vim
+""/home/marcosrdac/.local/share/Trash/001_whitebox.vim
+""/home/marcosrdac/.local/share/Trash/001_whitedust.vim
+""/home/marcosrdac/.local/share/Trash/001_widower.vim
+""/home/marcosrdac/.local/share/Trash/001_win9xblueback.vim
+""/home/marcosrdac/.local/share/Trash/001_winter.vim
+""/home/marcosrdac/.local/share/Trash/001_wintersday.vim
+""/home/marcosrdac/.local/share/Trash/001_wombat.vim
+""/home/marcosrdac/.local/share/Trash/001_wombat256.vim
+""/home/marcosrdac/.local/share/Trash/001_wombat256i.vim
+""/home/marcosrdac/.local/share/Trash/001_wombat256mod.vim
+""/home/marcosrdac/.local/share/Trash/001_wood.vim
+""/home/marcosrdac/.local/share/Trash/001_wuye.vim
+""/home/marcosrdac/.local/share/Trash/001_xemacs.vim
+""/home/marcosrdac/.local/share/Trash/001_xian.vim
+""/home/marcosrdac/.local/share/Trash/001_xmaslights.vim
+""/home/marcosrdac/.local/share/Trash/001_xoria256.vim
+""/home/marcosrdac/.local/share/Trash/001_xterm16.vim
+""/home/marcosrdac/.local/share/Trash/001_yaml.vim
+""/home/marcosrdac/.local/share/Trash/001_yeller.vim
+""/home/marcosrdac/.local/share/Trash/001_zazen.vim
+""/home/marcosrdac/.local/share/Trash/001_zen.vim
+""/home/marcosrdac/.local/share/Trash/001_zenburn.vim
+""/home/marcosrdac/.local/share/Trash/001_zenesque.vim
+""/home/marcosrdac/.local/share/Trash/001_zephyr.vim
+""/home/marcosrdac/.local/share/Trash/001_zmrok.vim
 
 # Directory stack (oldest to newest):
 
@@ -5196,6 +5759,2264 @@ t/home/marcosrdac/.local/share/Trash/000_gtk3.20
 	/home/marcosrdac/.config/wpg/templates/gtk3.20
 t/home/marcosrdac/.local/share/Trash/000_gtk3.20.base
 	/home/marcosrdac/.config/wpg/templates/gtk3.20.base
+t/home/marcosrdac/.local/share/Trash/000_0x7A69_dark.vim
+	/home/marcosrdac/.config/vim/colors/0x7A69_dark.vim
+t/home/marcosrdac/.local/share/Trash/000_3dglasses.vim
+	/home/marcosrdac/.config/vim/colors/3dglasses.vim
+t/home/marcosrdac/.local/share/Trash/000_256-grayvim.vim
+	/home/marcosrdac/.config/vim/colors/256-grayvim.vim
+t/home/marcosrdac/.local/share/Trash/000_256-jungle.vim
+	/home/marcosrdac/.config/vim/colors/256-jungle.vim
+t/home/marcosrdac/.local/share/Trash/000_BlackSea.vim
+	/home/marcosrdac/.config/vim/colors/BlackSea.vim
+t/home/marcosrdac/.local/share/Trash/000_C64.vim
+	/home/marcosrdac/.config/vim/colors/C64.vim
+t/home/marcosrdac/.local/share/Trash/000_Chasing_Logic.vim
+	/home/marcosrdac/.config/vim/colors/Chasing_Logic.vim
+t/home/marcosrdac/.local/share/Trash/000_ChocolateLiquor.vim
+	/home/marcosrdac/.config/vim/colors/ChocolateLiquor.vim
+t/home/marcosrdac/.local/share/Trash/000_ChocolatePapaya.vim
+	/home/marcosrdac/.config/vim/colors/ChocolatePapaya.vim
+t/home/marcosrdac/.local/share/Trash/000_CodeFactoryv3.vim
+	/home/marcosrdac/.config/vim/colors/CodeFactoryv3.vim
+t/home/marcosrdac/.local/share/Trash/000_DevC++.vim
+	/home/marcosrdac/.config/vim/colors/DevC++.vim
+t/home/marcosrdac/.local/share/Trash/000_Monokai-chris.vim
+	/home/marcosrdac/.config/vim/colors/Monokai-chris.vim
+t/home/marcosrdac/.local/share/Trash/000_Monokai.vim
+	/home/marcosrdac/.config/vim/colors/Monokai.vim
+t/home/marcosrdac/.local/share/Trash/000_MountainDew.vim
+	/home/marcosrdac/.config/vim/colors/MountainDew.vim
+t/home/marcosrdac/.local/share/Trash/000_PapayaWhip.vim
+	/home/marcosrdac/.config/vim/colors/PapayaWhip.vim
+t/home/marcosrdac/.local/share/Trash/000_SlateDark.vim
+	/home/marcosrdac/.config/vim/colors/SlateDark.vim
+t/home/marcosrdac/.local/share/Trash/000_Tomorrow-Night-Blue.vim
+	/home/marcosrdac/.config/vim/colors/Tomorrow-Night-Blue.vim
+t/home/marcosrdac/.local/share/Trash/000_Tomorrow-Night-Bright.vim
+	/home/marcosrdac/.config/vim/colors/Tomorrow-Night-Bright.vim
+t/home/marcosrdac/.local/share/Trash/000_Tomorrow-Night-Eighties.vim
+	/home/marcosrdac/.config/vim/colors/Tomorrow-Night-Eighties.vim
+t/home/marcosrdac/.local/share/Trash/000_Tomorrow-Night.vim
+	/home/marcosrdac/.config/vim/colors/Tomorrow-Night.vim
+t/home/marcosrdac/.local/share/Trash/000_Tomorrow.vim
+	/home/marcosrdac/.config/vim/colors/Tomorrow.vim
+t/home/marcosrdac/.local/share/Trash/000_abra.vim
+	/home/marcosrdac/.config/vim/colors/abra.vim
+t/home/marcosrdac/.local/share/Trash/000_adam.vim
+	/home/marcosrdac/.config/vim/colors/adam.vim
+t/home/marcosrdac/.local/share/Trash/000_adaryn.vim
+	/home/marcosrdac/.config/vim/colors/adaryn.vim
+t/home/marcosrdac/.local/share/Trash/000_adobe.vim
+	/home/marcosrdac/.config/vim/colors/adobe.vim
+t/home/marcosrdac/.local/share/Trash/000_adrian.vim
+	/home/marcosrdac/.config/vim/colors/adrian.vim
+t/home/marcosrdac/.local/share/Trash/000_advantage.vim
+	/home/marcosrdac/.config/vim/colors/advantage.vim
+t/home/marcosrdac/.local/share/Trash/000_af.vim
+	/home/marcosrdac/.config/vim/colors/af.vim
+t/home/marcosrdac/.local/share/Trash/000_aiseered.vim
+	/home/marcosrdac/.config/vim/colors/aiseered.vim
+t/home/marcosrdac/.local/share/Trash/000_anotherdark.vim
+	/home/marcosrdac/.config/vim/colors/anotherdark.vim
+t/home/marcosrdac/.local/share/Trash/000_ansi_blows.vim
+	/home/marcosrdac/.config/vim/colors/ansi_blows.vim
+t/home/marcosrdac/.local/share/Trash/000_apprentice.vim
+	/home/marcosrdac/.config/vim/colors/apprentice.vim
+t/home/marcosrdac/.local/share/Trash/000_aqua.vim
+	/home/marcosrdac/.config/vim/colors/aqua.vim
+t/home/marcosrdac/.local/share/Trash/000_ashen.vim
+	/home/marcosrdac/.config/vim/colors/ashen.vim
+t/home/marcosrdac/.local/share/Trash/000_asmanian_blood.vim
+	/home/marcosrdac/.config/vim/colors/asmanian_blood.vim
+t/home/marcosrdac/.local/share/Trash/000_astronaut.vim
+	/home/marcosrdac/.config/vim/colors/astronaut.vim
+t/home/marcosrdac/.local/share/Trash/000_asu1dark.vim
+	/home/marcosrdac/.config/vim/colors/asu1dark.vim
+t/home/marcosrdac/.local/share/Trash/000_atom.vim
+	/home/marcosrdac/.config/vim/colors/atom.vim
+t/home/marcosrdac/.local/share/Trash/000_automation.vim
+	/home/marcosrdac/.config/vim/colors/automation.vim
+t/home/marcosrdac/.local/share/Trash/000_autumn.vim
+	/home/marcosrdac/.config/vim/colors/autumn.vim
+t/home/marcosrdac/.local/share/Trash/000_autumnleaf.vim
+	/home/marcosrdac/.config/vim/colors/autumnleaf.vim
+t/home/marcosrdac/.local/share/Trash/000_babymate256.vim
+	/home/marcosrdac/.config/vim/colors/babymate256.vim
+t/home/marcosrdac/.local/share/Trash/000_badwolf.vim
+	/home/marcosrdac/.config/vim/colors/badwolf.vim
+t/home/marcosrdac/.local/share/Trash/000_base16-atelierdune.vim
+	/home/marcosrdac/.config/vim/colors/base16-atelierdune.vim
+t/home/marcosrdac/.local/share/Trash/000_basic.vim
+	/home/marcosrdac/.config/vim/colors/basic.vim
+t/home/marcosrdac/.local/share/Trash/000_bayQua.vim
+	/home/marcosrdac/.config/vim/colors/bayQua.vim
+t/home/marcosrdac/.local/share/Trash/000_baycomb.vim
+	/home/marcosrdac/.config/vim/colors/baycomb.vim
+t/home/marcosrdac/.local/share/Trash/000_bclear.vim
+	/home/marcosrdac/.config/vim/colors/bclear.vim
+t/home/marcosrdac/.local/share/Trash/000_beachcomber.vim
+	/home/marcosrdac/.config/vim/colors/beachcomber.vim
+t/home/marcosrdac/.local/share/Trash/000_beauty256.vim
+	/home/marcosrdac/.config/vim/colors/beauty256.vim
+t/home/marcosrdac/.local/share/Trash/000_bensday.vim
+	/home/marcosrdac/.config/vim/colors/bensday.vim
+t/home/marcosrdac/.local/share/Trash/000_billw.vim
+	/home/marcosrdac/.config/vim/colors/billw.vim
+t/home/marcosrdac/.local/share/Trash/000_biogoo.vim
+	/home/marcosrdac/.config/vim/colors/biogoo.vim
+t/home/marcosrdac/.local/share/Trash/000_black_angus.vim
+	/home/marcosrdac/.config/vim/colors/black_angus.vim
+t/home/marcosrdac/.local/share/Trash/000_blackbeauty.vim
+	/home/marcosrdac/.config/vim/colors/blackbeauty.vim
+t/home/marcosrdac/.local/share/Trash/000_blackboard.vim
+	/home/marcosrdac/.config/vim/colors/blackboard.vim
+t/home/marcosrdac/.local/share/Trash/000_blackdust.vim
+	/home/marcosrdac/.config/vim/colors/blackdust.vim
+t/home/marcosrdac/.local/share/Trash/000_blacklight.vim
+	/home/marcosrdac/.config/vim/colors/blacklight.vim
+t/home/marcosrdac/.local/share/Trash/000_blazer.vim
+	/home/marcosrdac/.config/vim/colors/blazer.vim
+t/home/marcosrdac/.local/share/Trash/000_blink.vim
+	/home/marcosrdac/.config/vim/colors/blink.vim
+t/home/marcosrdac/.local/share/Trash/000_blue.vim
+	/home/marcosrdac/.config/vim/colors/blue.vim
+t/home/marcosrdac/.local/share/Trash/000_bluechia.vim
+	/home/marcosrdac/.config/vim/colors/bluechia.vim
+t/home/marcosrdac/.local/share/Trash/000_bluedrake.vim
+	/home/marcosrdac/.config/vim/colors/bluedrake.vim
+t/home/marcosrdac/.local/share/Trash/000_bluegreen.vim
+	/home/marcosrdac/.config/vim/colors/bluegreen.vim
+t/home/marcosrdac/.local/share/Trash/000_blueprint.vim
+	/home/marcosrdac/.config/vim/colors/blueprint.vim
+t/home/marcosrdac/.local/share/Trash/000_blueshift.vim
+	/home/marcosrdac/.config/vim/colors/blueshift.vim
+t/home/marcosrdac/.local/share/Trash/000_bluez.vim
+	/home/marcosrdac/.config/vim/colors/bluez.vim
+t/home/marcosrdac/.local/share/Trash/000_blugrine.vim
+	/home/marcosrdac/.config/vim/colors/blugrine.vim
+t/home/marcosrdac/.local/share/Trash/000_bmichaelsen.vim
+	/home/marcosrdac/.config/vim/colors/bmichaelsen.vim
+t/home/marcosrdac/.local/share/Trash/000_bocau.vim
+	/home/marcosrdac/.config/vim/colors/bocau.vim
+t/home/marcosrdac/.local/share/Trash/000_bog.vim
+	/home/marcosrdac/.config/vim/colors/bog.vim
+t/home/marcosrdac/.local/share/Trash/000_borland.vim
+	/home/marcosrdac/.config/vim/colors/borland.vim
+t/home/marcosrdac/.local/share/Trash/000_breeze.vim
+	/home/marcosrdac/.config/vim/colors/breeze.vim
+t/home/marcosrdac/.local/share/Trash/000_brookstream.vim
+	/home/marcosrdac/.config/vim/colors/brookstream.vim
+t/home/marcosrdac/.local/share/Trash/000_brown.vim
+	/home/marcosrdac/.config/vim/colors/brown.vim
+t/home/marcosrdac/.local/share/Trash/000_bubblegum.vim
+	/home/marcosrdac/.config/vim/colors/bubblegum.vim
+t/home/marcosrdac/.local/share/Trash/000_burnttoast256.vim
+	/home/marcosrdac/.config/vim/colors/burnttoast256.vim
+t/home/marcosrdac/.local/share/Trash/000_busierbee.vim
+	/home/marcosrdac/.config/vim/colors/busierbee.vim
+t/home/marcosrdac/.local/share/Trash/000_busybee.vim
+	/home/marcosrdac/.config/vim/colors/busybee.vim
+t/home/marcosrdac/.local/share/Trash/000_buttercream.vim
+	/home/marcosrdac/.config/vim/colors/buttercream.vim
+t/home/marcosrdac/.local/share/Trash/000_bvemu.vim
+	/home/marcosrdac/.config/vim/colors/bvemu.vim
+t/home/marcosrdac/.local/share/Trash/000_bw.vim
+	/home/marcosrdac/.config/vim/colors/bw.vim
+t/home/marcosrdac/.local/share/Trash/000_c.vim
+	/home/marcosrdac/.config/vim/colors/c.vim
+t/home/marcosrdac/.local/share/Trash/000_cake16.vim
+	/home/marcosrdac/.config/vim/colors/cake16.vim
+t/home/marcosrdac/.local/share/Trash/000_calmar256-light.vim
+	/home/marcosrdac/.config/vim/colors/calmar256-light.vim
+t/home/marcosrdac/.local/share/Trash/000_camo.vim
+	/home/marcosrdac/.config/vim/colors/camo.vim
+t/home/marcosrdac/.local/share/Trash/000_campfire.vim
+	/home/marcosrdac/.config/vim/colors/campfire.vim
+t/home/marcosrdac/.local/share/Trash/000_candy.vim
+	/home/marcosrdac/.config/vim/colors/candy.vim
+t/home/marcosrdac/.local/share/Trash/000_candycode.vim
+	/home/marcosrdac/.config/vim/colors/candycode.vim
+t/home/marcosrdac/.local/share/Trash/000_candyman.vim
+	/home/marcosrdac/.config/vim/colors/candyman.vim
+t/home/marcosrdac/.local/share/Trash/000_caramel.vim
+	/home/marcosrdac/.config/vim/colors/caramel.vim
+t/home/marcosrdac/.local/share/Trash/000_carrot.vim
+	/home/marcosrdac/.config/vim/colors/carrot.vim
+t/home/marcosrdac/.local/share/Trash/000_carvedwood.vim
+	/home/marcosrdac/.config/vim/colors/carvedwood.vim
+t/home/marcosrdac/.local/share/Trash/000_carvedwoodcool.vim
+	/home/marcosrdac/.config/vim/colors/carvedwoodcool.vim
+t/home/marcosrdac/.local/share/Trash/000_cascadia.vim
+	/home/marcosrdac/.config/vim/colors/cascadia.vim
+t/home/marcosrdac/.local/share/Trash/000_chance-of-storm.vim
+	/home/marcosrdac/.config/vim/colors/chance-of-storm.vim
+t/home/marcosrdac/.local/share/Trash/000_charged-256.vim
+	/home/marcosrdac/.config/vim/colors/charged-256.vim
+t/home/marcosrdac/.local/share/Trash/000_charon.vim
+	/home/marcosrdac/.config/vim/colors/charon.vim
+t/home/marcosrdac/.local/share/Trash/000_chela_light.vim
+	/home/marcosrdac/.config/vim/colors/chela_light.vim
+t/home/marcosrdac/.local/share/Trash/000_chlordane.vim
+	/home/marcosrdac/.config/vim/colors/chlordane.vim
+t/home/marcosrdac/.local/share/Trash/000_chocolate.vim
+	/home/marcosrdac/.config/vim/colors/chocolate.vim
+t/home/marcosrdac/.local/share/Trash/000_chrysoprase.vim
+	/home/marcosrdac/.config/vim/colors/chrysoprase.vim
+t/home/marcosrdac/.local/share/Trash/000_ciscoacl.vim
+	/home/marcosrdac/.config/vim/colors/ciscoacl.vim
+t/home/marcosrdac/.local/share/Trash/000_clarity.vim
+	/home/marcosrdac/.config/vim/colors/clarity.vim
+t/home/marcosrdac/.local/share/Trash/000_cleanphp.vim
+	/home/marcosrdac/.config/vim/colors/cleanphp.vim
+t/home/marcosrdac/.local/share/Trash/000_cleanroom.vim
+	/home/marcosrdac/.config/vim/colors/cleanroom.vim
+t/home/marcosrdac/.local/share/Trash/000_clearance.vim
+	/home/marcosrdac/.config/vim/colors/clearance.vim
+t/home/marcosrdac/.local/share/Trash/000_cloudy.vim
+	/home/marcosrdac/.config/vim/colors/cloudy.vim
+t/home/marcosrdac/.local/share/Trash/000_clue.vim
+	/home/marcosrdac/.config/vim/colors/clue.vim
+t/home/marcosrdac/.local/share/Trash/000_cobalt.vim
+	/home/marcosrdac/.config/vim/colors/cobalt.vim
+t/home/marcosrdac/.local/share/Trash/000_cobaltish.vim
+	/home/marcosrdac/.config/vim/colors/cobaltish.vim
+t/home/marcosrdac/.local/share/Trash/000_codeblocks_dark.vim
+	/home/marcosrdac/.config/vim/colors/codeblocks_dark.vim
+t/home/marcosrdac/.local/share/Trash/000_codeburn.vim
+	/home/marcosrdac/.config/vim/colors/codeburn.vim
+t/home/marcosrdac/.local/share/Trash/000_codeschool.vim
+	/home/marcosrdac/.config/vim/colors/codeschool.vim
+t/home/marcosrdac/.local/share/Trash/000_coffee.vim
+	/home/marcosrdac/.config/vim/colors/coffee.vim
+t/home/marcosrdac/.local/share/Trash/000_coldgreen.vim
+	/home/marcosrdac/.config/vim/colors/coldgreen.vim
+t/home/marcosrdac/.local/share/Trash/000_colorer.vim
+	/home/marcosrdac/.config/vim/colors/colorer.vim
+t/home/marcosrdac/.local/share/Trash/000_colorful.vim
+	/home/marcosrdac/.config/vim/colors/colorful.vim
+t/home/marcosrdac/.local/share/Trash/000_colorful256.vim
+	/home/marcosrdac/.config/vim/colors/colorful256.vim
+t/home/marcosrdac/.local/share/Trash/000_colorscheme_template.vim
+	/home/marcosrdac/.config/vim/colors/colorscheme_template.vim
+t/home/marcosrdac/.local/share/Trash/000_colorzone.vim
+	/home/marcosrdac/.config/vim/colors/colorzone.vim
+t/home/marcosrdac/.local/share/Trash/000_contrasty.vim
+	/home/marcosrdac/.config/vim/colors/contrasty.vim
+t/home/marcosrdac/.local/share/Trash/000_cool.vim
+	/home/marcosrdac/.config/vim/colors/cool.vim
+t/home/marcosrdac/.local/share/Trash/000_corn.vim
+	/home/marcosrdac/.config/vim/colors/corn.vim
+t/home/marcosrdac/.local/share/Trash/000_corporation.vim
+	/home/marcosrdac/.config/vim/colors/corporation.vim
+t/home/marcosrdac/.local/share/Trash/000_cthulhian.vim
+	/home/marcosrdac/.config/vim/colors/cthulhian.vim
+t/home/marcosrdac/.local/share/Trash/000_custom.vim
+	/home/marcosrdac/.config/vim/colors/custom.vim
+t/home/marcosrdac/.local/share/Trash/000_d8g_01.vim
+	/home/marcosrdac/.config/vim/colors/d8g_01.vim
+t/home/marcosrdac/.local/share/Trash/000_d8g_02.vim
+	/home/marcosrdac/.config/vim/colors/d8g_02.vim
+t/home/marcosrdac/.local/share/Trash/000_d8g_03.vim
+	/home/marcosrdac/.config/vim/colors/d8g_03.vim
+t/home/marcosrdac/.local/share/Trash/000_d8g_04.vim
+	/home/marcosrdac/.config/vim/colors/d8g_04.vim
+t/home/marcosrdac/.local/share/Trash/000_dante.vim
+	/home/marcosrdac/.config/vim/colors/dante.vim
+t/home/marcosrdac/.local/share/Trash/000_dark-ruby.vim
+	/home/marcosrdac/.config/vim/colors/dark-ruby.vim
+t/home/marcosrdac/.local/share/Trash/000_darkBlue.vim
+	/home/marcosrdac/.config/vim/colors/darkBlue.vim
+t/home/marcosrdac/.local/share/Trash/000_darkZ.vim
+	/home/marcosrdac/.config/vim/colors/darkZ.vim
+t/home/marcosrdac/.local/share/Trash/000_darkblack.vim
+	/home/marcosrdac/.config/vim/colors/darkblack.vim
+t/home/marcosrdac/.local/share/Trash/000_darkblue2.vim
+	/home/marcosrdac/.config/vim/colors/darkblue2.vim
+t/home/marcosrdac/.local/share/Trash/000_darkbone.vim
+	/home/marcosrdac/.config/vim/colors/darkbone.vim
+t/home/marcosrdac/.local/share/Trash/000_darkburn.vim
+	/home/marcosrdac/.config/vim/colors/darkburn.vim
+t/home/marcosrdac/.local/share/Trash/000_darkdot.vim
+	/home/marcosrdac/.config/vim/colors/darkdot.vim
+t/home/marcosrdac/.local/share/Trash/000_darkeclipse.vim
+	/home/marcosrdac/.config/vim/colors/darkeclipse.vim
+t/home/marcosrdac/.local/share/Trash/000_darker-robin.vim
+	/home/marcosrdac/.config/vim/colors/darker-robin.vim
+t/home/marcosrdac/.local/share/Trash/000_darkerdesert.vim
+	/home/marcosrdac/.config/vim/colors/darkerdesert.vim
+t/home/marcosrdac/.local/share/Trash/000_darkocean.vim
+	/home/marcosrdac/.config/vim/colors/darkocean.vim
+t/home/marcosrdac/.local/share/Trash/000_darkrobot.vim
+	/home/marcosrdac/.config/vim/colors/darkrobot.vim
+t/home/marcosrdac/.local/share/Trash/000_darkroom.vim
+	/home/marcosrdac/.config/vim/colors/darkroom.vim
+t/home/marcosrdac/.local/share/Trash/000_darkslategray.vim
+	/home/marcosrdac/.config/vim/colors/darkslategray.vim
+t/home/marcosrdac/.local/share/Trash/000_darkspectrum.vim
+	/home/marcosrdac/.config/vim/colors/darkspectrum.vim
+t/home/marcosrdac/.local/share/Trash/000_darktango.vim
+	/home/marcosrdac/.config/vim/colors/darktango.vim
+t/home/marcosrdac/.local/share/Trash/000_darkzen.vim
+	/home/marcosrdac/.config/vim/colors/darkzen.vim
+t/home/marcosrdac/.local/share/Trash/000_darth.vim
+	/home/marcosrdac/.config/vim/colors/darth.vim
+t/home/marcosrdac/.local/share/Trash/000_dawn.vim
+	/home/marcosrdac/.config/vim/colors/dawn.vim
+t/home/marcosrdac/.local/share/Trash/000_delek.vim
+	/home/marcosrdac/.config/vim/colors/delek.vim
+t/home/marcosrdac/.local/share/Trash/000_delphi.vim
+	/home/marcosrdac/.config/vim/colors/delphi.vim
+t/home/marcosrdac/.local/share/Trash/000_denim.vim
+	/home/marcosrdac/.config/vim/colors/denim.vim
+t/home/marcosrdac/.local/share/Trash/000_derefined.vim
+	/home/marcosrdac/.config/vim/colors/derefined.vim
+t/home/marcosrdac/.local/share/Trash/000_desert.vim
+	/home/marcosrdac/.config/vim/colors/desert.vim
+t/home/marcosrdac/.local/share/Trash/000_desert256.vim
+	/home/marcosrdac/.config/vim/colors/desert256.vim
+t/home/marcosrdac/.local/share/Trash/000_desert256v2.vim
+	/home/marcosrdac/.config/vim/colors/desert256v2.vim
+t/home/marcosrdac/.local/share/Trash/000_desertEx.vim
+	/home/marcosrdac/.config/vim/colors/desertEx.vim
+t/home/marcosrdac/.local/share/Trash/000_desertedocean.vim
+	/home/marcosrdac/.config/vim/colors/desertedocean.vim
+t/home/marcosrdac/.local/share/Trash/000_desertedoceanburnt.vim
+	/home/marcosrdac/.config/vim/colors/desertedoceanburnt.vim
+t/home/marcosrdac/.local/share/Trash/000_detailed.vim
+	/home/marcosrdac/.config/vim/colors/detailed.vim
+t/home/marcosrdac/.local/share/Trash/000_devbox-dark-256.vim
+	/home/marcosrdac/.config/vim/colors/devbox-dark-256.vim
+t/home/marcosrdac/.local/share/Trash/000_deveiate.vim
+	/home/marcosrdac/.config/vim/colors/deveiate.vim
+t/home/marcosrdac/.local/share/Trash/000_developer.vim
+	/home/marcosrdac/.config/vim/colors/developer.vim
+t/home/marcosrdac/.local/share/Trash/000_disciple.vim
+	/home/marcosrdac/.config/vim/colors/disciple.vim
+t/home/marcosrdac/.local/share/Trash/000_distinguished.vim
+	/home/marcosrdac/.config/vim/colors/distinguished.vim
+t/home/marcosrdac/.local/share/Trash/000_django.vim
+	/home/marcosrdac/.config/vim/colors/django.vim
+t/home/marcosrdac/.local/share/Trash/000_donbass.vim
+	/home/marcosrdac/.config/vim/colors/donbass.vim
+t/home/marcosrdac/.local/share/Trash/000_doorhinge.vim
+	/home/marcosrdac/.config/vim/colors/doorhinge.vim
+t/home/marcosrdac/.local/share/Trash/000_doriath.vim
+	/home/marcosrdac/.config/vim/colors/doriath.vim
+t/home/marcosrdac/.local/share/Trash/000_dual.vim
+	/home/marcosrdac/.config/vim/colors/dual.vim
+t/home/marcosrdac/.local/share/Trash/000_dull.vim
+	/home/marcosrdac/.config/vim/colors/dull.vim
+t/home/marcosrdac/.local/share/Trash/000_dusk.vim
+	/home/marcosrdac/.config/vim/colors/dusk.vim
+t/home/marcosrdac/.local/share/Trash/000_earendel.vim
+	/home/marcosrdac/.config/vim/colors/earendel.vim
+t/home/marcosrdac/.local/share/Trash/000_earth.vim
+	/home/marcosrdac/.config/vim/colors/earth.vim
+t/home/marcosrdac/.local/share/Trash/000_earthburn.vim
+	/home/marcosrdac/.config/vim/colors/earthburn.vim
+t/home/marcosrdac/.local/share/Trash/000_eclipse.vim
+	/home/marcosrdac/.config/vim/colors/eclipse.vim
+t/home/marcosrdac/.local/share/Trash/000_eclm_wombat.vim
+	/home/marcosrdac/.config/vim/colors/eclm_wombat.vim
+t/home/marcosrdac/.local/share/Trash/000_ecostation.vim
+	/home/marcosrdac/.config/vim/colors/ecostation.vim
+t/home/marcosrdac/.local/share/Trash/000_editplus.vim
+	/home/marcosrdac/.config/vim/colors/editplus.vim
+t/home/marcosrdac/.local/share/Trash/000_edo_sea.vim
+	/home/marcosrdac/.config/vim/colors/edo_sea.vim
+t/home/marcosrdac/.local/share/Trash/000_ego.vim
+	/home/marcosrdac/.config/vim/colors/ego.vim
+t/home/marcosrdac/.local/share/Trash/000_ekinivim.vim
+	/home/marcosrdac/.config/vim/colors/ekinivim.vim
+t/home/marcosrdac/.local/share/Trash/000_ekvoli.vim
+	/home/marcosrdac/.config/vim/colors/ekvoli.vim
+t/home/marcosrdac/.local/share/Trash/000_elda.vim
+	/home/marcosrdac/.config/vim/colors/elda.vim
+t/home/marcosrdac/.local/share/Trash/000_elise.vim
+	/home/marcosrdac/.config/vim/colors/elise.vim
+t/home/marcosrdac/.local/share/Trash/000_elisex.vim
+	/home/marcosrdac/.config/vim/colors/elisex.vim
+t/home/marcosrdac/.local/share/Trash/000_elrodeo.vim
+	/home/marcosrdac/.config/vim/colors/elrodeo.vim
+t/home/marcosrdac/.local/share/Trash/000_emacs.vim
+	/home/marcosrdac/.config/vim/colors/emacs.vim
+t/home/marcosrdac/.local/share/Trash/000_enzyme.vim
+	/home/marcosrdac/.config/vim/colors/enzyme.vim
+t/home/marcosrdac/.local/share/Trash/000_evening_2.vim
+	/home/marcosrdac/.config/vim/colors/evening_2.vim
+t/home/marcosrdac/.local/share/Trash/000_far.vim
+	/home/marcosrdac/.config/vim/colors/far.vim
+t/home/marcosrdac/.local/share/Trash/000_felipec.vim
+	/home/marcosrdac/.config/vim/colors/felipec.vim
+t/home/marcosrdac/.local/share/Trash/000_fine_blue.vim
+	/home/marcosrdac/.config/vim/colors/fine_blue.vim
+t/home/marcosrdac/.local/share/Trash/000_flatcolor.vim
+	/home/marcosrdac/.config/vim/colors/flatcolor.vim
+t/home/marcosrdac/.local/share/Trash/000_flatland.vim
+	/home/marcosrdac/.config/vim/colors/flatland.vim
+t/home/marcosrdac/.local/share/Trash/000_flatlandia.vim
+	/home/marcosrdac/.config/vim/colors/flatlandia.vim
+t/home/marcosrdac/.local/share/Trash/000_flattr.vim
+	/home/marcosrdac/.config/vim/colors/flattr.vim
+t/home/marcosrdac/.local/share/Trash/000_flatui.vim
+	/home/marcosrdac/.config/vim/colors/flatui.vim
+t/home/marcosrdac/.local/share/Trash/000_fnaqevan.vim
+	/home/marcosrdac/.config/vim/colors/fnaqevan.vim
+t/home/marcosrdac/.local/share/Trash/000_fog.vim
+	/home/marcosrdac/.config/vim/colors/fog.vim
+t/home/marcosrdac/.local/share/Trash/000_fokus.vim
+	/home/marcosrdac/.config/vim/colors/fokus.vim
+t/home/marcosrdac/.local/share/Trash/000_forneus.vim
+	/home/marcosrdac/.config/vim/colors/forneus.vim
+t/home/marcosrdac/.local/share/Trash/000_freya.vim
+	/home/marcosrdac/.config/vim/colors/freya.vim
+t/home/marcosrdac/.local/share/Trash/000_frood.vim
+	/home/marcosrdac/.config/vim/colors/frood.vim
+t/home/marcosrdac/.local/share/Trash/000_fruidle.vim
+	/home/marcosrdac/.config/vim/colors/fruidle.vim
+t/home/marcosrdac/.local/share/Trash/000_fruit.vim
+	/home/marcosrdac/.config/vim/colors/fruit.vim
+t/home/marcosrdac/.local/share/Trash/000_fruity.vim
+	/home/marcosrdac/.config/vim/colors/fruity.vim
+t/home/marcosrdac/.local/share/Trash/000_fu.vim
+	/home/marcosrdac/.config/vim/colors/fu.vim
+t/home/marcosrdac/.local/share/Trash/000_gardener.vim
+	/home/marcosrdac/.config/vim/colors/gardener.vim
+t/home/marcosrdac/.local/share/Trash/000_gemcolors.vim
+	/home/marcosrdac/.config/vim/colors/gemcolors.vim
+t/home/marcosrdac/.local/share/Trash/000_gentooish.vim
+	/home/marcosrdac/.config/vim/colors/gentooish.vim
+t/home/marcosrdac/.local/share/Trash/000_getafe.vim
+	/home/marcosrdac/.config/vim/colors/getafe.vim
+t/home/marcosrdac/.local/share/Trash/000_getfresh.vim
+	/home/marcosrdac/.config/vim/colors/getfresh.vim
+t/home/marcosrdac/.local/share/Trash/000_github.vim
+	/home/marcosrdac/.config/vim/colors/github.vim
+t/home/marcosrdac/.local/share/Trash/000_gobo.vim
+	/home/marcosrdac/.config/vim/colors/gobo.vim
+t/home/marcosrdac/.local/share/Trash/000_golded.vim
+	/home/marcosrdac/.config/vim/colors/golded.vim
+t/home/marcosrdac/.local/share/Trash/000_golden.vim
+	/home/marcosrdac/.config/vim/colors/golden.vim
+t/home/marcosrdac/.local/share/Trash/000_google.vim
+	/home/marcosrdac/.config/vim/colors/google.vim
+t/home/marcosrdac/.local/share/Trash/000_gor.vim
+	/home/marcosrdac/.config/vim/colors/gor.vim
+t/home/marcosrdac/.local/share/Trash/000_gotham.vim
+	/home/marcosrdac/.config/vim/colors/gotham.vim
+t/home/marcosrdac/.local/share/Trash/000_gotham256.vim
+	/home/marcosrdac/.config/vim/colors/gotham256.vim
+t/home/marcosrdac/.local/share/Trash/000_gothic.vim
+	/home/marcosrdac/.config/vim/colors/gothic.vim
+t/home/marcosrdac/.local/share/Trash/000_grape.vim
+	/home/marcosrdac/.config/vim/colors/grape.vim
+t/home/marcosrdac/.local/share/Trash/000_gravity.vim
+	/home/marcosrdac/.config/vim/colors/gravity.vim
+t/home/marcosrdac/.local/share/Trash/000_graywh.vim
+	/home/marcosrdac/.config/vim/colors/graywh.vim
+t/home/marcosrdac/.local/share/Trash/000_grb256.vim
+	/home/marcosrdac/.config/vim/colors/grb256.vim
+t/home/marcosrdac/.local/share/Trash/000_greens.vim
+	/home/marcosrdac/.config/vim/colors/greens.vim
+t/home/marcosrdac/.local/share/Trash/000_greenvision.vim
+	/home/marcosrdac/.config/vim/colors/greenvision.vim
+t/home/marcosrdac/.local/share/Trash/000_grey2.vim
+	/home/marcosrdac/.config/vim/colors/grey2.vim
+t/home/marcosrdac/.local/share/Trash/000_greyblue.vim
+	/home/marcosrdac/.config/vim/colors/greyblue.vim
+t/home/marcosrdac/.local/share/Trash/000_grishin.vim
+	/home/marcosrdac/.config/vim/colors/grishin.vim
+t/home/marcosrdac/.local/share/Trash/000_gruvbox.vim
+	/home/marcosrdac/.config/vim/colors/gruvbox.vim
+t/home/marcosrdac/.local/share/Trash/000_guardian.vim
+	/home/marcosrdac/.config/vim/colors/guardian.vim
+t/home/marcosrdac/.local/share/Trash/000_guepardo.vim
+	/home/marcosrdac/.config/vim/colors/guepardo.vim
+t/home/marcosrdac/.local/share/Trash/000_h80.vim
+	/home/marcosrdac/.config/vim/colors/h80.vim
+t/home/marcosrdac/.local/share/Trash/000_habiLight.vim
+	/home/marcosrdac/.config/vim/colors/habiLight.vim
+t/home/marcosrdac/.local/share/Trash/000_heliotrope.vim
+	/home/marcosrdac/.config/vim/colors/heliotrope.vim
+t/home/marcosrdac/.local/share/Trash/000_hemisu.vim
+	/home/marcosrdac/.config/vim/colors/hemisu.vim
+t/home/marcosrdac/.local/share/Trash/000_herald.vim
+	/home/marcosrdac/.config/vim/colors/herald.vim
+t/home/marcosrdac/.local/share/Trash/000_herokudoc-gvim.vim
+	/home/marcosrdac/.config/vim/colors/herokudoc-gvim.vim
+t/home/marcosrdac/.local/share/Trash/000_herokudoc.vim
+	/home/marcosrdac/.config/vim/colors/herokudoc.vim
+t/home/marcosrdac/.local/share/Trash/000_holokai.vim
+	/home/marcosrdac/.config/vim/colors/holokai.vim
+t/home/marcosrdac/.local/share/Trash/000_hornet.vim
+	/home/marcosrdac/.config/vim/colors/hornet.vim
+t/home/marcosrdac/.local/share/Trash/000_hybrid-light.vim
+	/home/marcosrdac/.config/vim/colors/hybrid-light.vim
+t/home/marcosrdac/.local/share/Trash/000_hybrid.vim
+	/home/marcosrdac/.config/vim/colors/hybrid.vim
+t/home/marcosrdac/.local/share/Trash/000_iangenzo.vim
+	/home/marcosrdac/.config/vim/colors/iangenzo.vim
+t/home/marcosrdac/.local/share/Trash/000_ibmedit.vim
+	/home/marcosrdac/.config/vim/colors/ibmedit.vim
+t/home/marcosrdac/.local/share/Trash/000_icansee.vim
+	/home/marcosrdac/.config/vim/colors/icansee.vim
+t/home/marcosrdac/.local/share/Trash/000_iceberg.vim
+	/home/marcosrdac/.config/vim/colors/iceberg.vim
+t/home/marcosrdac/.local/share/Trash/000_impact.vim
+	/home/marcosrdac/.config/vim/colors/impact.vim
+t/home/marcosrdac/.local/share/Trash/000_impactG.vim
+	/home/marcosrdac/.config/vim/colors/impactG.vim
+t/home/marcosrdac/.local/share/Trash/000_industrial.vim
+	/home/marcosrdac/.config/vim/colors/industrial.vim
+t/home/marcosrdac/.local/share/Trash/000_industry.vim
+	/home/marcosrdac/.config/vim/colors/industry.vim
+t/home/marcosrdac/.local/share/Trash/000_ingretu.vim
+	/home/marcosrdac/.config/vim/colors/ingretu.vim
+t/home/marcosrdac/.local/share/Trash/000_inkpot.vim
+	/home/marcosrdac/.config/vim/colors/inkpot.vim
+t/home/marcosrdac/.local/share/Trash/000_ir_black.vim
+	/home/marcosrdac/.config/vim/colors/ir_black.vim
+t/home/marcosrdac/.local/share/Trash/000_ironman.vim
+	/home/marcosrdac/.config/vim/colors/ironman.vim
+t/home/marcosrdac/.local/share/Trash/000_jammy.vim
+	/home/marcosrdac/.config/vim/colors/jammy.vim
+t/home/marcosrdac/.local/share/Trash/000_jelleybeans.vim
+	/home/marcosrdac/.config/vim/colors/jelleybeans.vim
+t/home/marcosrdac/.local/share/Trash/000_jellybeans.vim
+	/home/marcosrdac/.config/vim/colors/jellybeans.vim
+t/home/marcosrdac/.local/share/Trash/000_jellyx.vim
+	/home/marcosrdac/.config/vim/colors/jellyx.vim
+t/home/marcosrdac/.local/share/Trash/000_jhdark.vim
+	/home/marcosrdac/.config/vim/colors/jhdark.vim
+t/home/marcosrdac/.local/share/Trash/000_jhlight.vim
+	/home/marcosrdac/.config/vim/colors/jhlight.vim
+t/home/marcosrdac/.local/share/Trash/000_jiks.vim
+	/home/marcosrdac/.config/vim/colors/jiks.vim
+t/home/marcosrdac/.local/share/Trash/000_kalisi.vim
+	/home/marcosrdac/.config/vim/colors/kalisi.vim
+t/home/marcosrdac/.local/share/Trash/000_kalt.vim
+	/home/marcosrdac/.config/vim/colors/kalt.vim
+t/home/marcosrdac/.local/share/Trash/000_kaltex.vim
+	/home/marcosrdac/.config/vim/colors/kaltex.vim
+t/home/marcosrdac/.local/share/Trash/000_kate.vim
+	/home/marcosrdac/.config/vim/colors/kate.vim
+t/home/marcosrdac/.local/share/Trash/000_kellys.vim
+	/home/marcosrdac/.config/vim/colors/kellys.vim
+t/home/marcosrdac/.local/share/Trash/000_khaki.vim
+	/home/marcosrdac/.config/vim/colors/khaki.vim
+t/home/marcosrdac/.local/share/Trash/000_kib_darktango.vim
+	/home/marcosrdac/.config/vim/colors/kib_darktango.vim
+t/home/marcosrdac/.local/share/Trash/000_kib_plastic.vim
+	/home/marcosrdac/.config/vim/colors/kib_plastic.vim
+t/home/marcosrdac/.local/share/Trash/000_kiss.vim
+	/home/marcosrdac/.config/vim/colors/kiss.vim
+t/home/marcosrdac/.local/share/Trash/000_kkruby.vim
+	/home/marcosrdac/.config/vim/colors/kkruby.vim
+t/home/marcosrdac/.local/share/Trash/000_kolor.vim
+	/home/marcosrdac/.config/vim/colors/kolor.vim
+t/home/marcosrdac/.local/share/Trash/000_kruby.vim
+	/home/marcosrdac/.config/vim/colors/kruby.vim
+t/home/marcosrdac/.local/share/Trash/000_kyle.vim
+	/home/marcosrdac/.config/vim/colors/kyle.vim
+t/home/marcosrdac/.local/share/Trash/000_landscape.vim
+	/home/marcosrdac/.config/vim/colors/landscape.vim
+t/home/marcosrdac/.local/share/Trash/000_last256.vim
+	/home/marcosrdac/.config/vim/colors/last256.vim
+t/home/marcosrdac/.local/share/Trash/000_lazarus.vim
+	/home/marcosrdac/.config/vim/colors/lazarus.vim
+t/home/marcosrdac/.local/share/Trash/000_legiblelight.vim
+	/home/marcosrdac/.config/vim/colors/legiblelight.vim
+t/home/marcosrdac/.local/share/Trash/000_leglight2.vim
+	/home/marcosrdac/.config/vim/colors/leglight2.vim
+t/home/marcosrdac/.local/share/Trash/000_leo.vim
+	/home/marcosrdac/.config/vim/colors/leo.vim
+t/home/marcosrdac/.local/share/Trash/000_less.vim
+	/home/marcosrdac/.config/vim/colors/less.vim
+t/home/marcosrdac/.local/share/Trash/000_lettuce.vim
+	/home/marcosrdac/.config/vim/colors/lettuce.vim
+t/home/marcosrdac/.local/share/Trash/000_leya.vim
+	/home/marcosrdac/.config/vim/colors/leya.vim
+t/home/marcosrdac/.local/share/Trash/000_light.styl
+	/home/marcosrdac/.config/vim/colors/light.styl
+t/home/marcosrdac/.local/share/Trash/000_lightcolors.vim
+	/home/marcosrdac/.config/vim/colors/lightcolors.vim
+t/home/marcosrdac/.local/share/Trash/000_lilac.vim
+	/home/marcosrdac/.config/vim/colors/lilac.vim
+t/home/marcosrdac/.local/share/Trash/000_lilydjwg_dark.vim
+	/home/marcosrdac/.config/vim/colors/lilydjwg_dark.vim
+t/home/marcosrdac/.local/share/Trash/000_lilydjwg_green.vim
+	/home/marcosrdac/.config/vim/colors/lilydjwg_green.vim
+t/home/marcosrdac/.local/share/Trash/000_lilypink.vim
+	/home/marcosrdac/.config/vim/colors/lilypink.vim
+t/home/marcosrdac/.local/share/Trash/000_lingodirector.vim
+	/home/marcosrdac/.config/vim/colors/lingodirector.vim
+t/home/marcosrdac/.local/share/Trash/000_liquidcarbon.vim
+	/home/marcosrdac/.config/vim/colors/liquidcarbon.vim
+t/home/marcosrdac/.local/share/Trash/000_literal_tango.vim
+	/home/marcosrdac/.config/vim/colors/literal_tango.vim
+t/home/marcosrdac/.local/share/Trash/000_lizard.vim
+	/home/marcosrdac/.config/vim/colors/lizard.vim
+t/home/marcosrdac/.local/share/Trash/000_lizard256.vim
+	/home/marcosrdac/.config/vim/colors/lizard256.vim
+t/home/marcosrdac/.local/share/Trash/000_lodestone.vim
+	/home/marcosrdac/.config/vim/colors/lodestone.vim
+t/home/marcosrdac/.local/share/Trash/000_louver.vim
+	/home/marcosrdac/.config/vim/colors/louver.vim
+t/home/marcosrdac/.local/share/Trash/000_lucius.vim
+	/home/marcosrdac/.config/vim/colors/lucius.vim
+t/home/marcosrdac/.local/share/Trash/000_luinnar.vim
+	/home/marcosrdac/.config/vim/colors/luinnar.vim
+t/home/marcosrdac/.local/share/Trash/000_luna.vim
+	/home/marcosrdac/.config/vim/colors/luna.vim
+t/home/marcosrdac/.local/share/Trash/000_mac_classic.vim
+	/home/marcosrdac/.config/vim/colors/mac_classic.vim
+t/home/marcosrdac/.local/share/Trash/000_made_of_code.vim
+	/home/marcosrdac/.config/vim/colors/made_of_code.vim
+t/home/marcosrdac/.local/share/Trash/000_mango.vim
+	/home/marcosrdac/.config/vim/colors/mango.vim
+t/home/marcosrdac/.local/share/Trash/000_manuscript.vim
+	/home/marcosrdac/.config/vim/colors/manuscript.vim
+t/home/marcosrdac/.local/share/Trash/000_manxome.vim
+	/home/marcosrdac/.config/vim/colors/manxome.vim
+t/home/marcosrdac/.local/share/Trash/000_marklar.vim
+	/home/marcosrdac/.config/vim/colors/marklar.vim
+t/home/marcosrdac/.local/share/Trash/000_maroloccio.vim
+	/home/marcosrdac/.config/vim/colors/maroloccio.vim
+t/home/marcosrdac/.local/share/Trash/000_mars.vim
+	/home/marcosrdac/.config/vim/colors/mars.vim
+t/home/marcosrdac/.local/share/Trash/000_martin_krischik.vim
+	/home/marcosrdac/.config/vim/colors/martin_krischik.vim
+t/home/marcosrdac/.local/share/Trash/000_matrix.vim
+	/home/marcosrdac/.config/vim/colors/matrix.vim
+t/home/marcosrdac/.local/share/Trash/000_mayansmoke.vim
+	/home/marcosrdac/.config/vim/colors/mayansmoke.vim
+t/home/marcosrdac/.local/share/Trash/000_mdark.vim
+	/home/marcosrdac/.config/vim/colors/mdark.vim
+t/home/marcosrdac/.local/share/Trash/000_mellow.vim
+	/home/marcosrdac/.config/vim/colors/mellow.vim
+t/home/marcosrdac/.local/share/Trash/000_metacosm.vim
+	/home/marcosrdac/.config/vim/colors/metacosm.vim
+t/home/marcosrdac/.local/share/Trash/000_midnight.vim
+	/home/marcosrdac/.config/vim/colors/midnight.vim
+t/home/marcosrdac/.local/share/Trash/000_midnight2.vim
+	/home/marcosrdac/.config/vim/colors/midnight2.vim
+t/home/marcosrdac/.local/share/Trash/000_miko.vim
+	/home/marcosrdac/.config/vim/colors/miko.vim
+t/home/marcosrdac/.local/share/Trash/000_mint.vim
+	/home/marcosrdac/.config/vim/colors/mint.vim
+t/home/marcosrdac/.local/share/Trash/000_mizore.vim
+	/home/marcosrdac/.config/vim/colors/mizore.vim
+t/home/marcosrdac/.local/share/Trash/000_mod_tcsoft.vim
+	/home/marcosrdac/.config/vim/colors/mod_tcsoft.vim
+t/home/marcosrdac/.local/share/Trash/000_molokai.vim
+	/home/marcosrdac/.config/vim/colors/molokai.vim
+t/home/marcosrdac/.local/share/Trash/000_monokain.vim
+	/home/marcosrdac/.config/vim/colors/monokain.vim
+t/home/marcosrdac/.local/share/Trash/000_montz.vim
+	/home/marcosrdac/.config/vim/colors/montz.vim
+t/home/marcosrdac/.local/share/Trash/000_mophiaDark.vim
+	/home/marcosrdac/.config/vim/colors/mophiaDark.vim
+t/home/marcosrdac/.local/share/Trash/000_mophiaSmoke.vim
+	/home/marcosrdac/.config/vim/colors/mophiaSmoke.vim
+t/home/marcosrdac/.local/share/Trash/000_mopkai.vim
+	/home/marcosrdac/.config/vim/colors/mopkai.vim
+t/home/marcosrdac/.local/share/Trash/000_moria.vim
+	/home/marcosrdac/.config/vim/colors/moria.vim
+t/home/marcosrdac/.local/share/Trash/000_moss.vim
+	/home/marcosrdac/.config/vim/colors/moss.vim
+t/home/marcosrdac/.local/share/Trash/000_motus.vim
+	/home/marcosrdac/.config/vim/colors/motus.vim
+t/home/marcosrdac/.local/share/Trash/000_mrkn256.vim
+	/home/marcosrdac/.config/vim/colors/mrkn256.vim
+t/home/marcosrdac/.local/share/Trash/000_mrpink.vim
+	/home/marcosrdac/.config/vim/colors/mrpink.vim
+t/home/marcosrdac/.local/share/Trash/000_mud.vim
+	/home/marcosrdac/.config/vim/colors/mud.vim
+t/home/marcosrdac/.local/share/Trash/000_muon.vim
+	/home/marcosrdac/.config/vim/colors/muon.vim
+t/home/marcosrdac/.local/share/Trash/000_mustang.vim
+	/home/marcosrdac/.config/vim/colors/mustang.vim
+t/home/marcosrdac/.local/share/Trash/000_native.vim
+	/home/marcosrdac/.config/vim/colors/native.vim
+t/home/marcosrdac/.local/share/Trash/000_nature.vim
+	/home/marcosrdac/.config/vim/colors/nature.vim
+t/home/marcosrdac/.local/share/Trash/000_navajo-night.vim
+	/home/marcosrdac/.config/vim/colors/navajo-night.vim
+t/home/marcosrdac/.local/share/Trash/000_navajo.vim
+	/home/marcosrdac/.config/vim/colors/navajo.vim
+t/home/marcosrdac/.local/share/Trash/000_nazca.vim
+	/home/marcosrdac/.config/vim/colors/nazca.vim
+t/home/marcosrdac/.local/share/Trash/000_nedit.vim
+	/home/marcosrdac/.config/vim/colors/nedit.vim
+t/home/marcosrdac/.local/share/Trash/000_nedit2.vim
+	/home/marcosrdac/.config/vim/colors/nedit2.vim
+t/home/marcosrdac/.local/share/Trash/000_nefertiti.vim
+	/home/marcosrdac/.config/vim/colors/nefertiti.vim
+t/home/marcosrdac/.local/share/Trash/000_neon.vim
+	/home/marcosrdac/.config/vim/colors/neon.vim
+t/home/marcosrdac/.local/share/Trash/000_nerv-ous.vim
+	/home/marcosrdac/.config/vim/colors/nerv-ous.vim
+t/home/marcosrdac/.local/share/Trash/000_neutron.vim
+	/home/marcosrdac/.config/vim/colors/neutron.vim
+t/home/marcosrdac/.local/share/Trash/000_neverland-darker.vim
+	/home/marcosrdac/.config/vim/colors/neverland-darker.vim
+t/home/marcosrdac/.local/share/Trash/000_neverland.vim
+	/home/marcosrdac/.config/vim/colors/neverland.vim
+t/home/marcosrdac/.local/share/Trash/000_neverland2-darker.vim
+	/home/marcosrdac/.config/vim/colors/neverland2-darker.vim
+t/home/marcosrdac/.local/share/Trash/000_neverland2.vim
+	/home/marcosrdac/.config/vim/colors/neverland2.vim
+t/home/marcosrdac/.local/share/Trash/000_neverness.vim
+	/home/marcosrdac/.config/vim/colors/neverness.vim
+t/home/marcosrdac/.local/share/Trash/000_nevfn.vim
+	/home/marcosrdac/.config/vim/colors/nevfn.vim
+t/home/marcosrdac/.local/share/Trash/000_newspaper.vim
+	/home/marcosrdac/.config/vim/colors/newspaper.vim
+t/home/marcosrdac/.local/share/Trash/000_newsprint.vim
+	/home/marcosrdac/.config/vim/colors/newsprint.vim
+t/home/marcosrdac/.local/share/Trash/000_nicotine.vim
+	/home/marcosrdac/.config/vim/colors/nicotine.vim
+t/home/marcosrdac/.local/share/Trash/000_night.vim
+	/home/marcosrdac/.config/vim/colors/night.vim
+t/home/marcosrdac/.local/share/Trash/000_nightVision.vim
+	/home/marcosrdac/.config/vim/colors/nightVision.vim
+t/home/marcosrdac/.local/share/Trash/000_night_vision.vim
+	/home/marcosrdac/.config/vim/colors/night_vision.vim
+t/home/marcosrdac/.local/share/Trash/000_nightflight.vim
+	/home/marcosrdac/.config/vim/colors/nightflight.vim
+t/home/marcosrdac/.local/share/Trash/000_nightflight2.vim
+	/home/marcosrdac/.config/vim/colors/nightflight2.vim
+t/home/marcosrdac/.local/share/Trash/000_nightshimmer.vim
+	/home/marcosrdac/.config/vim/colors/nightshimmer.vim
+t/home/marcosrdac/.local/share/Trash/000_nightsky.vim
+	/home/marcosrdac/.config/vim/colors/nightsky.vim
+t/home/marcosrdac/.local/share/Trash/000_nightwish.vim
+	/home/marcosrdac/.config/vim/colors/nightwish.vim
+t/home/marcosrdac/.local/share/Trash/000_no_quarter.vim
+	/home/marcosrdac/.config/vim/colors/no_quarter.vim
+t/home/marcosrdac/.local/share/Trash/000_northland.vim
+	/home/marcosrdac/.config/vim/colors/northland.vim
+t/home/marcosrdac/.local/share/Trash/000_northsky.vim
+	/home/marcosrdac/.config/vim/colors/northsky.vim
+t/home/marcosrdac/.local/share/Trash/000_norwaytoday.vim
+	/home/marcosrdac/.config/vim/colors/norwaytoday.vim
+t/home/marcosrdac/.local/share/Trash/000_nour.vim
+	/home/marcosrdac/.config/vim/colors/nour.vim
+t/home/marcosrdac/.local/share/Trash/000_nuvola.vim
+	/home/marcosrdac/.config/vim/colors/nuvola.vim
+t/home/marcosrdac/.local/share/Trash/000_obsidian.vim
+	/home/marcosrdac/.config/vim/colors/obsidian.vim
+t/home/marcosrdac/.local/share/Trash/000_obsidian2.vim
+	/home/marcosrdac/.config/vim/colors/obsidian2.vim
+t/home/marcosrdac/.local/share/Trash/000_oceanblack.vim
+	/home/marcosrdac/.config/vim/colors/oceanblack.vim
+t/home/marcosrdac/.local/share/Trash/000_oceanblack256.vim
+	/home/marcosrdac/.config/vim/colors/oceanblack256.vim
+t/home/marcosrdac/.local/share/Trash/000_oceandeep.vim
+	/home/marcosrdac/.config/vim/colors/oceandeep.vim
+t/home/marcosrdac/.local/share/Trash/000_oceanlight.vim
+	/home/marcosrdac/.config/vim/colors/oceanlight.vim
+t/home/marcosrdac/.local/share/Trash/000_olive.vim
+	/home/marcosrdac/.config/vim/colors/olive.vim
+t/home/marcosrdac/.local/share/Trash/000_orange.vim
+	/home/marcosrdac/.config/vim/colors/orange.vim
+t/home/marcosrdac/.local/share/Trash/000_osx_like.vim
+	/home/marcosrdac/.config/vim/colors/osx_like.vim
+t/home/marcosrdac/.local/share/Trash/000_otaku.vim
+	/home/marcosrdac/.config/vim/colors/otaku.vim
+t/home/marcosrdac/.local/share/Trash/000_pacific.vim
+	/home/marcosrdac/.config/vim/colors/pacific.vim
+t/home/marcosrdac/.local/share/Trash/000_paintbox.vim
+	/home/marcosrdac/.config/vim/colors/paintbox.vim
+t/home/marcosrdac/.local/share/Trash/000_peaksea.vim
+	/home/marcosrdac/.config/vim/colors/peaksea.vim
+t/home/marcosrdac/.local/share/Trash/000_pencil.vim
+	/home/marcosrdac/.config/vim/colors/pencil.vim
+t/home/marcosrdac/.local/share/Trash/000_peppers.vim
+	/home/marcosrdac/.config/vim/colors/peppers.vim
+t/home/marcosrdac/.local/share/Trash/000_perfect.vim
+	/home/marcosrdac/.config/vim/colors/perfect.vim
+t/home/marcosrdac/.local/share/Trash/000_pf_earth.vim
+	/home/marcosrdac/.config/vim/colors/pf_earth.vim
+t/home/marcosrdac/.local/share/Trash/000_phd.vim
+	/home/marcosrdac/.config/vim/colors/phd.vim
+t/home/marcosrdac/.local/share/Trash/000_phphaxor.vim
+	/home/marcosrdac/.config/vim/colors/phphaxor.vim
+t/home/marcosrdac/.local/share/Trash/000_phpx.vim
+	/home/marcosrdac/.config/vim/colors/phpx.vim
+t/home/marcosrdac/.local/share/Trash/000_pic.vim
+	/home/marcosrdac/.config/vim/colors/pic.vim
+t/home/marcosrdac/.local/share/Trash/000_pink.vim
+	/home/marcosrdac/.config/vim/colors/pink.vim
+t/home/marcosrdac/.local/share/Trash/000_playroom.vim
+	/home/marcosrdac/.config/vim/colors/playroom.vim
+t/home/marcosrdac/.local/share/Trash/000_pleasant.vim
+	/home/marcosrdac/.config/vim/colors/pleasant.vim
+t/home/marcosrdac/.local/share/Trash/000_potts.vim
+	/home/marcosrdac/.config/vim/colors/potts.vim
+t/home/marcosrdac/.local/share/Trash/000_print_bw.vim
+	/home/marcosrdac/.config/vim/colors/print_bw.vim
+t/home/marcosrdac/.local/share/Trash/000_prmths.vim
+	/home/marcosrdac/.config/vim/colors/prmths.vim
+t/home/marcosrdac/.local/share/Trash/000_professional.vim
+	/home/marcosrdac/.config/vim/colors/professional.vim
+t/home/marcosrdac/.local/share/Trash/000_proton.vim
+	/home/marcosrdac/.config/vim/colors/proton.vim
+t/home/marcosrdac/.local/share/Trash/000_pspad.vim
+	/home/marcosrdac/.config/vim/colors/pspad.vim
+t/home/marcosrdac/.local/share/Trash/000_psql.vim
+	/home/marcosrdac/.config/vim/colors/psql.vim
+t/home/marcosrdac/.local/share/Trash/000_putty.vim
+	/home/marcosrdac/.config/vim/colors/putty.vim
+t/home/marcosrdac/.local/share/Trash/000_pw.vim
+	/home/marcosrdac/.config/vim/colors/pw.vim
+t/home/marcosrdac/.local/share/Trash/000_pyte.vim
+	/home/marcosrdac/.config/vim/colors/pyte.vim
+t/home/marcosrdac/.local/share/Trash/000_python.vim
+	/home/marcosrdac/.config/vim/colors/python.vim
+t/home/marcosrdac/.local/share/Trash/000_quagmire.vim
+	/home/marcosrdac/.config/vim/colors/quagmire.vim
+t/home/marcosrdac/.local/share/Trash/000_radicalgoodspeed.vim
+	/home/marcosrdac/.config/vim/colors/radicalgoodspeed.vim
+t/home/marcosrdac/.local/share/Trash/000_railscasts.vim
+	/home/marcosrdac/.config/vim/colors/railscasts.vim
+t/home/marcosrdac/.local/share/Trash/000_rainbow_fine_blue.vim
+	/home/marcosrdac/.config/vim/colors/rainbow_fine_blue.vim
+t/home/marcosrdac/.local/share/Trash/000_rainbow_fruit.vim
+	/home/marcosrdac/.config/vim/colors/rainbow_fruit.vim
+t/home/marcosrdac/.local/share/Trash/000_rainbow_neon.vim
+	/home/marcosrdac/.config/vim/colors/rainbow_neon.vim
+t/home/marcosrdac/.local/share/Trash/000_random.vim
+	/home/marcosrdac/.config/vim/colors/random.vim
+t/home/marcosrdac/.local/share/Trash/000_rastafari.vim
+	/home/marcosrdac/.config/vim/colors/rastafari.vim
+t/home/marcosrdac/.local/share/Trash/000_rcg_gui.vim
+	/home/marcosrdac/.config/vim/colors/rcg_gui.vim
+t/home/marcosrdac/.local/share/Trash/000_rcg_term.vim
+	/home/marcosrdac/.config/vim/colors/rcg_term.vim
+t/home/marcosrdac/.local/share/Trash/000_rdark-terminal.vim
+	/home/marcosrdac/.config/vim/colors/rdark-terminal.vim
+t/home/marcosrdac/.local/share/Trash/000_rdark.vim
+	/home/marcosrdac/.config/vim/colors/rdark.vim
+t/home/marcosrdac/.local/share/Trash/000_redblack.vim
+	/home/marcosrdac/.config/vim/colors/redblack.vim
+t/home/marcosrdac/.local/share/Trash/000_redstring.vim
+	/home/marcosrdac/.config/vim/colors/redstring.vim
+t/home/marcosrdac/.local/share/Trash/000_refactor.vim
+	/home/marcosrdac/.config/vim/colors/refactor.vim
+t/home/marcosrdac/.local/share/Trash/000_relaxedgreen.vim
+	/home/marcosrdac/.config/vim/colors/relaxedgreen.vim
+t/home/marcosrdac/.local/share/Trash/000_reliable.vim
+	/home/marcosrdac/.config/vim/colors/reliable.vim
+t/home/marcosrdac/.local/share/Trash/000_reloaded.vim
+	/home/marcosrdac/.config/vim/colors/reloaded.vim
+t/home/marcosrdac/.local/share/Trash/000_revolutions.vim
+	/home/marcosrdac/.config/vim/colors/revolutions.vim
+t/home/marcosrdac/.local/share/Trash/000_robinhood.vim
+	/home/marcosrdac/.config/vim/colors/robinhood.vim
+t/home/marcosrdac/.local/share/Trash/000_rootwater.vim
+	/home/marcosrdac/.config/vim/colors/rootwater.vim
+t/home/marcosrdac/.local/share/Trash/000_rtl.vim
+	/home/marcosrdac/.config/vim/colors/rtl.vim
+t/home/marcosrdac/.local/share/Trash/000_sand.vim
+	/home/marcosrdac/.config/vim/colors/sand.vim
+t/home/marcosrdac/.local/share/Trash/000_satori.vim
+	/home/marcosrdac/.config/vim/colors/satori.vim
+t/home/marcosrdac/.local/share/Trash/000_saturn.vim
+	/home/marcosrdac/.config/vim/colors/saturn.vim
+t/home/marcosrdac/.local/share/Trash/000_scala.vim
+	/home/marcosrdac/.config/vim/colors/scala.vim
+t/home/marcosrdac/.local/share/Trash/000_scite.vim
+	/home/marcosrdac/.config/vim/colors/scite.vim
+t/home/marcosrdac/.local/share/Trash/000_sea.vim
+	/home/marcosrdac/.config/vim/colors/sea.vim
+t/home/marcosrdac/.local/share/Trash/000_sean.vim
+	/home/marcosrdac/.config/vim/colors/sean.vim
+t/home/marcosrdac/.local/share/Trash/000_seashell.vim
+	/home/marcosrdac/.config/vim/colors/seashell.vim
+t/home/marcosrdac/.local/share/Trash/000_selenitic.vim
+	/home/marcosrdac/.config/vim/colors/selenitic.vim
+t/home/marcosrdac/.local/share/Trash/000_seoul.vim
+	/home/marcosrdac/.config/vim/colors/seoul.vim
+t/home/marcosrdac/.local/share/Trash/000_seoul256-light.vim
+	/home/marcosrdac/.config/vim/colors/seoul256-light.vim
+t/home/marcosrdac/.local/share/Trash/000_seoul256.vim
+	/home/marcosrdac/.config/vim/colors/seoul256.vim
+t/home/marcosrdac/.local/share/Trash/000_settlemyer.vim
+	/home/marcosrdac/.config/vim/colors/settlemyer.vim
+t/home/marcosrdac/.local/share/Trash/000_sexy-railscasts.vim
+	/home/marcosrdac/.config/vim/colors/sexy-railscasts.vim
+t/home/marcosrdac/.local/share/Trash/000_sf.vim
+	/home/marcosrdac/.config/vim/colors/sf.vim
+t/home/marcosrdac/.local/share/Trash/000_shadesofamber.vim
+	/home/marcosrdac/.config/vim/colors/shadesofamber.vim
+t/home/marcosrdac/.local/share/Trash/000_shobogenzo.vim
+	/home/marcosrdac/.config/vim/colors/shobogenzo.vim
+t/home/marcosrdac/.local/share/Trash/000_sienna.vim
+	/home/marcosrdac/.config/vim/colors/sienna.vim
+t/home/marcosrdac/.local/share/Trash/000_sift.vim
+	/home/marcosrdac/.config/vim/colors/sift.vim
+t/home/marcosrdac/.local/share/Trash/000_silent.vim
+	/home/marcosrdac/.config/vim/colors/silent.vim
+t/home/marcosrdac/.local/share/Trash/000_simple256.vim
+	/home/marcosrdac/.config/vim/colors/simple256.vim
+t/home/marcosrdac/.local/share/Trash/000_simple_b.vim
+	/home/marcosrdac/.config/vim/colors/simple_b.vim
+t/home/marcosrdac/.local/share/Trash/000_simpleandfriendly.vim
+	/home/marcosrdac/.config/vim/colors/simpleandfriendly.vim
+t/home/marcosrdac/.local/share/Trash/000_simplewhite.vim
+	/home/marcosrdac/.config/vim/colors/simplewhite.vim
+t/home/marcosrdac/.local/share/Trash/000_skittles_berry.vim
+	/home/marcosrdac/.config/vim/colors/skittles_berry.vim
+t/home/marcosrdac/.local/share/Trash/000_skittles_dark.vim
+	/home/marcosrdac/.config/vim/colors/skittles_dark.vim
+t/home/marcosrdac/.local/share/Trash/000_smp.vim
+	/home/marcosrdac/.config/vim/colors/smp.vim
+t/home/marcosrdac/.local/share/Trash/000_smyck.vim
+	/home/marcosrdac/.config/vim/colors/smyck.vim
+t/home/marcosrdac/.local/share/Trash/000_softblue.vim
+	/home/marcosrdac/.config/vim/colors/softblue.vim
+t/home/marcosrdac/.local/share/Trash/000_softbluev2.vim
+	/home/marcosrdac/.config/vim/colors/softbluev2.vim
+t/home/marcosrdac/.local/share/Trash/000_softlight.vim
+	/home/marcosrdac/.config/vim/colors/softlight.vim
+t/home/marcosrdac/.local/share/Trash/000_sol-term.vim
+	/home/marcosrdac/.config/vim/colors/sol-term.vim
+t/home/marcosrdac/.local/share/Trash/000_sol.vim
+	/home/marcosrdac/.config/vim/colors/sol.vim
+t/home/marcosrdac/.local/share/Trash/000_solarized.vim
+	/home/marcosrdac/.config/vim/colors/solarized.vim
+t/home/marcosrdac/.local/share/Trash/000_sonofobsidian.vim
+	/home/marcosrdac/.config/vim/colors/sonofobsidian.vim
+t/home/marcosrdac/.local/share/Trash/000_sonoma.vim
+	/home/marcosrdac/.config/vim/colors/sonoma.vim
+t/home/marcosrdac/.local/share/Trash/000_sorcerer.vim
+	/home/marcosrdac/.config/vim/colors/sorcerer.vim
+t/home/marcosrdac/.local/share/Trash/000_soso.vim
+	/home/marcosrdac/.config/vim/colors/soso.vim
+t/home/marcosrdac/.local/share/Trash/000_southernlights.vim
+	/home/marcosrdac/.config/vim/colors/southernlights.vim
+t/home/marcosrdac/.local/share/Trash/000_southwest-fog.vim
+	/home/marcosrdac/.config/vim/colors/southwest-fog.vim
+t/home/marcosrdac/.local/share/Trash/000_spectro.vim
+	/home/marcosrdac/.config/vim/colors/spectro.vim
+t/home/marcosrdac/.local/share/Trash/000_spring.vim
+	/home/marcosrdac/.config/vim/colors/spring.vim
+t/home/marcosrdac/.local/share/Trash/000_stackoverflow.vim
+	/home/marcosrdac/.config/vim/colors/stackoverflow.vim
+t/home/marcosrdac/.local/share/Trash/000_stingray.vim
+	/home/marcosrdac/.config/vim/colors/stingray.vim
+t/home/marcosrdac/.local/share/Trash/000_strange.vim
+	/home/marcosrdac/.config/vim/colors/strange.vim
+t/home/marcosrdac/.local/share/Trash/000_strawimodo.vim
+	/home/marcosrdac/.config/vim/colors/strawimodo.vim
+t/home/marcosrdac/.local/share/Trash/000_summerfruit.vim
+	/home/marcosrdac/.config/vim/colors/summerfruit.vim
+t/home/marcosrdac/.local/share/Trash/000_summerfruit256.vim
+	/home/marcosrdac/.config/vim/colors/summerfruit256.vim
+t/home/marcosrdac/.local/share/Trash/000_surveyor.vim
+	/home/marcosrdac/.config/vim/colors/surveyor.vim
+t/home/marcosrdac/.local/share/Trash/000_swamplight.vim
+	/home/marcosrdac/.config/vim/colors/swamplight.vim
+t/home/marcosrdac/.local/share/Trash/000_symfony.vim
+	/home/marcosrdac/.config/vim/colors/symfony.vim
+t/home/marcosrdac/.local/share/Trash/000_synic.vim
+	/home/marcosrdac/.config/vim/colors/synic.vim
+t/home/marcosrdac/.local/share/Trash/000_tabula.vim
+	/home/marcosrdac/.config/vim/colors/tabula.vim
+t/home/marcosrdac/.local/share/Trash/000_tango-desert.vim
+	/home/marcosrdac/.config/vim/colors/tango-desert.vim
+t/home/marcosrdac/.local/share/Trash/000_tango-morning.vim
+	/home/marcosrdac/.config/vim/colors/tango-morning.vim
+t/home/marcosrdac/.local/share/Trash/000_tango.vim
+	/home/marcosrdac/.config/vim/colors/tango.vim
+t/home/marcosrdac/.local/share/Trash/000_tango2.vim
+	/home/marcosrdac/.config/vim/colors/tango2.vim
+t/home/marcosrdac/.local/share/Trash/000_tangoX.vim
+	/home/marcosrdac/.config/vim/colors/tangoX.vim
+t/home/marcosrdac/.local/share/Trash/000_tangoshady.vim
+	/home/marcosrdac/.config/vim/colors/tangoshady.vim
+t/home/marcosrdac/.local/share/Trash/000_taqua.vim
+	/home/marcosrdac/.config/vim/colors/taqua.vim
+t/home/marcosrdac/.local/share/Trash/000_tchaba.vim
+	/home/marcosrdac/.config/vim/colors/tchaba.vim
+t/home/marcosrdac/.local/share/Trash/000_tchaba2.vim
+	/home/marcosrdac/.config/vim/colors/tchaba2.vim
+t/home/marcosrdac/.local/share/Trash/000_tcsoft.vim
+	/home/marcosrdac/.config/vim/colors/tcsoft.vim
+t/home/marcosrdac/.local/share/Trash/000_telstar.vim
+	/home/marcosrdac/.config/vim/colors/telstar.vim
+t/home/marcosrdac/.local/share/Trash/000_tesla.vim
+	/home/marcosrdac/.config/vim/colors/tesla.vim
+t/home/marcosrdac/.local/share/Trash/000_tetragrammaton.vim
+	/home/marcosrdac/.config/vim/colors/tetragrammaton.vim
+t/home/marcosrdac/.local/share/Trash/000_textmate16.vim
+	/home/marcosrdac/.config/vim/colors/textmate16.vim
+t/home/marcosrdac/.local/share/Trash/000_thegoodluck.vim
+	/home/marcosrdac/.config/vim/colors/thegoodluck.vim
+t/home/marcosrdac/.local/share/Trash/000_thestars.vim
+	/home/marcosrdac/.config/vim/colors/thestars.vim
+t/home/marcosrdac/.local/share/Trash/000_thor.vim
+	/home/marcosrdac/.config/vim/colors/thor.vim
+t/home/marcosrdac/.local/share/Trash/000_tibet.vim
+	/home/marcosrdac/.config/vim/colors/tibet.vim
+t/home/marcosrdac/.local/share/Trash/000_tidy.vim
+	/home/marcosrdac/.config/vim/colors/tidy.vim
+t/home/marcosrdac/.local/share/Trash/000_tir_black.vim
+	/home/marcosrdac/.config/vim/colors/tir_black.vim
+t/home/marcosrdac/.local/share/Trash/000_tolerable.vim
+	/home/marcosrdac/.config/vim/colors/tolerable.vim
+t/home/marcosrdac/.local/share/Trash/000_tomatosoup.vim
+	/home/marcosrdac/.config/vim/colors/tomatosoup.vim
+t/home/marcosrdac/.local/share/Trash/000_tony_light.vim
+	/home/marcosrdac/.config/vim/colors/tony_light.vim
+t/home/marcosrdac/.local/share/Trash/000_toothpik.vim
+	/home/marcosrdac/.config/vim/colors/toothpik.vim
+t/home/marcosrdac/.local/share/Trash/000_torte.vim
+	/home/marcosrdac/.config/vim/colors/torte.vim
+t/home/marcosrdac/.local/share/Trash/000_transparent.vim
+	/home/marcosrdac/.config/vim/colors/transparent.vim
+t/home/marcosrdac/.local/share/Trash/000_trivial256.vim
+	/home/marcosrdac/.config/vim/colors/trivial256.vim
+t/home/marcosrdac/.local/share/Trash/000_trogdor.vim
+	/home/marcosrdac/.config/vim/colors/trogdor.vim
+t/home/marcosrdac/.local/share/Trash/000_turbo.vim
+	/home/marcosrdac/.config/vim/colors/turbo.vim
+t/home/marcosrdac/.local/share/Trash/000_tutticolori.vim
+	/home/marcosrdac/.config/vim/colors/tutticolori.vim
+t/home/marcosrdac/.local/share/Trash/000_twilight.vim
+	/home/marcosrdac/.config/vim/colors/twilight.vim
+t/home/marcosrdac/.local/share/Trash/000_twilight256.vim
+	/home/marcosrdac/.config/vim/colors/twilight256.vim
+t/home/marcosrdac/.local/share/Trash/000_twitchy.vim
+	/home/marcosrdac/.config/vim/colors/twitchy.vim
+t/home/marcosrdac/.local/share/Trash/000_two2tango.vim
+	/home/marcosrdac/.config/vim/colors/two2tango.vim
+t/home/marcosrdac/.local/share/Trash/000_ubloh.vim
+	/home/marcosrdac/.config/vim/colors/ubloh.vim
+t/home/marcosrdac/.local/share/Trash/000_umber-green.vim
+	/home/marcosrdac/.config/vim/colors/umber-green.vim
+t/home/marcosrdac/.local/share/Trash/000_understated.vim
+	/home/marcosrdac/.config/vim/colors/understated.vim
+t/home/marcosrdac/.local/share/Trash/000_underwater-mod.vim
+	/home/marcosrdac/.config/vim/colors/underwater-mod.vim
+t/home/marcosrdac/.local/share/Trash/000_underwater.vim
+	/home/marcosrdac/.config/vim/colors/underwater.vim
+t/home/marcosrdac/.local/share/Trash/000_up.vim
+	/home/marcosrdac/.config/vim/colors/up.vim
+t/home/marcosrdac/.local/share/Trash/000_vanzan_color.vim
+	/home/marcosrdac/.config/vim/colors/vanzan_color.vim
+t/home/marcosrdac/.local/share/Trash/000_vc.vim
+	/home/marcosrdac/.config/vim/colors/vc.vim
+t/home/marcosrdac/.local/share/Trash/000_vcbc.vim
+	/home/marcosrdac/.config/vim/colors/vcbc.vim
+t/home/marcosrdac/.local/share/Trash/000_vexorian.vim
+	/home/marcosrdac/.config/vim/colors/vexorian.vim
+t/home/marcosrdac/.local/share/Trash/000_vibrantink.vim
+	/home/marcosrdac/.config/vim/colors/vibrantink.vim
+t/home/marcosrdac/.local/share/Trash/000_vilight.vim
+	/home/marcosrdac/.config/vim/colors/vilight.vim
+t/home/marcosrdac/.local/share/Trash/000_visualstudio.vim
+	/home/marcosrdac/.config/vim/colors/visualstudio.vim
+t/home/marcosrdac/.local/share/Trash/000_vividchalk.vim
+	/home/marcosrdac/.config/vim/colors/vividchalk.vim
+t/home/marcosrdac/.local/share/Trash/000_vj.vim
+	/home/marcosrdac/.config/vim/colors/vj.vim
+t/home/marcosrdac/.local/share/Trash/000_void.vim
+	/home/marcosrdac/.config/vim/colors/void.vim
+t/home/marcosrdac/.local/share/Trash/000_vydark.vim
+	/home/marcosrdac/.config/vim/colors/vydark.vim
+t/home/marcosrdac/.local/share/Trash/000_vylight.vim
+	/home/marcosrdac/.config/vim/colors/vylight.vim
+t/home/marcosrdac/.local/share/Trash/000_wal.vim
+	/home/marcosrdac/.config/vim/colors/wal.vim
+t/home/marcosrdac/.local/share/Trash/000_wargrey.vim
+	/home/marcosrdac/.config/vim/colors/wargrey.vim
+t/home/marcosrdac/.local/share/Trash/000_warm_grey.vim
+	/home/marcosrdac/.config/vim/colors/warm_grey.vim
+t/home/marcosrdac/.local/share/Trash/000_watermark.vim
+	/home/marcosrdac/.config/vim/colors/watermark.vim
+t/home/marcosrdac/.local/share/Trash/000_whitebox.vim
+	/home/marcosrdac/.config/vim/colors/whitebox.vim
+t/home/marcosrdac/.local/share/Trash/000_whitedust.vim
+	/home/marcosrdac/.config/vim/colors/whitedust.vim
+t/home/marcosrdac/.local/share/Trash/000_widower.vim
+	/home/marcosrdac/.config/vim/colors/widower.vim
+t/home/marcosrdac/.local/share/Trash/000_win9xblueback.vim
+	/home/marcosrdac/.config/vim/colors/win9xblueback.vim
+t/home/marcosrdac/.local/share/Trash/000_winter.vim
+	/home/marcosrdac/.config/vim/colors/winter.vim
+t/home/marcosrdac/.local/share/Trash/000_wintersday.vim
+	/home/marcosrdac/.config/vim/colors/wintersday.vim
+t/home/marcosrdac/.local/share/Trash/000_wombat.vim
+	/home/marcosrdac/.config/vim/colors/wombat.vim
+t/home/marcosrdac/.local/share/Trash/000_wombat256.vim
+	/home/marcosrdac/.config/vim/colors/wombat256.vim
+t/home/marcosrdac/.local/share/Trash/000_wombat256i.vim
+	/home/marcosrdac/.config/vim/colors/wombat256i.vim
+t/home/marcosrdac/.local/share/Trash/000_wombat256mod.vim
+	/home/marcosrdac/.config/vim/colors/wombat256mod.vim
+t/home/marcosrdac/.local/share/Trash/000_wood.vim
+	/home/marcosrdac/.config/vim/colors/wood.vim
+t/home/marcosrdac/.local/share/Trash/000_wuye.vim
+	/home/marcosrdac/.config/vim/colors/wuye.vim
+t/home/marcosrdac/.local/share/Trash/000_xemacs.vim
+	/home/marcosrdac/.config/vim/colors/xemacs.vim
+t/home/marcosrdac/.local/share/Trash/000_xian.vim
+	/home/marcosrdac/.config/vim/colors/xian.vim
+t/home/marcosrdac/.local/share/Trash/000_xmaslights.vim
+	/home/marcosrdac/.config/vim/colors/xmaslights.vim
+t/home/marcosrdac/.local/share/Trash/000_xoria256.vim
+	/home/marcosrdac/.config/vim/colors/xoria256.vim
+t/home/marcosrdac/.local/share/Trash/000_xterm16.vim
+	/home/marcosrdac/.config/vim/colors/xterm16.vim
+t/home/marcosrdac/.local/share/Trash/000_yaml.vim
+	/home/marcosrdac/.config/vim/colors/yaml.vim
+t/home/marcosrdac/.local/share/Trash/000_yeller.vim
+	/home/marcosrdac/.config/vim/colors/yeller.vim
+t/home/marcosrdac/.local/share/Trash/000_zazen.vim
+	/home/marcosrdac/.config/vim/colors/zazen.vim
+t/home/marcosrdac/.local/share/Trash/000_zen.vim
+	/home/marcosrdac/.config/vim/colors/zen.vim
+t/home/marcosrdac/.local/share/Trash/000_zenburn.vim
+	/home/marcosrdac/.config/vim/colors/zenburn.vim
+t/home/marcosrdac/.local/share/Trash/000_zenesque.vim
+	/home/marcosrdac/.config/vim/colors/zenesque.vim
+t/home/marcosrdac/.local/share/Trash/000_zephyr.vim
+	/home/marcosrdac/.config/vim/colors/zephyr.vim
+t/home/marcosrdac/.local/share/Trash/000_zmrok.vim
+	/home/marcosrdac/.config/vim/colors/zmrok.vim
+t/home/marcosrdac/.local/share/Trash/001_0x7A69_dark.vim
+	/home/marcosrdac/.config/nvim/colors/0x7A69_dark.vim
+t/home/marcosrdac/.local/share/Trash/001_3dglasses.vim
+	/home/marcosrdac/.config/nvim/colors/3dglasses.vim
+t/home/marcosrdac/.local/share/Trash/001_256-grayvim.vim
+	/home/marcosrdac/.config/nvim/colors/256-grayvim.vim
+t/home/marcosrdac/.local/share/Trash/001_256-jungle.vim
+	/home/marcosrdac/.config/nvim/colors/256-jungle.vim
+t/home/marcosrdac/.local/share/Trash/001_BlackSea.vim
+	/home/marcosrdac/.config/nvim/colors/BlackSea.vim
+t/home/marcosrdac/.local/share/Trash/001_C64.vim
+	/home/marcosrdac/.config/nvim/colors/C64.vim
+t/home/marcosrdac/.local/share/Trash/001_Chasing_Logic.vim
+	/home/marcosrdac/.config/nvim/colors/Chasing_Logic.vim
+t/home/marcosrdac/.local/share/Trash/001_ChocolateLiquor.vim
+	/home/marcosrdac/.config/nvim/colors/ChocolateLiquor.vim
+t/home/marcosrdac/.local/share/Trash/001_ChocolatePapaya.vim
+	/home/marcosrdac/.config/nvim/colors/ChocolatePapaya.vim
+t/home/marcosrdac/.local/share/Trash/001_CodeFactoryv3.vim
+	/home/marcosrdac/.config/nvim/colors/CodeFactoryv3.vim
+t/home/marcosrdac/.local/share/Trash/001_DevC++.vim
+	/home/marcosrdac/.config/nvim/colors/DevC++.vim
+t/home/marcosrdac/.local/share/Trash/001_Monokai-chris.vim
+	/home/marcosrdac/.config/nvim/colors/Monokai-chris.vim
+t/home/marcosrdac/.local/share/Trash/001_Monokai.vim
+	/home/marcosrdac/.config/nvim/colors/Monokai.vim
+t/home/marcosrdac/.local/share/Trash/001_MountainDew.vim
+	/home/marcosrdac/.config/nvim/colors/MountainDew.vim
+t/home/marcosrdac/.local/share/Trash/001_PapayaWhip.vim
+	/home/marcosrdac/.config/nvim/colors/PapayaWhip.vim
+t/home/marcosrdac/.local/share/Trash/001_SlateDark.vim
+	/home/marcosrdac/.config/nvim/colors/SlateDark.vim
+t/home/marcosrdac/.local/share/Trash/001_Tomorrow-Night-Blue.vim
+	/home/marcosrdac/.config/nvim/colors/Tomorrow-Night-Blue.vim
+t/home/marcosrdac/.local/share/Trash/001_Tomorrow-Night-Bright.vim
+	/home/marcosrdac/.config/nvim/colors/Tomorrow-Night-Bright.vim
+t/home/marcosrdac/.local/share/Trash/001_Tomorrow-Night-Eighties.vim
+	/home/marcosrdac/.config/nvim/colors/Tomorrow-Night-Eighties.vim
+t/home/marcosrdac/.local/share/Trash/001_Tomorrow-Night.vim
+	/home/marcosrdac/.config/nvim/colors/Tomorrow-Night.vim
+t/home/marcosrdac/.local/share/Trash/001_Tomorrow.vim
+	/home/marcosrdac/.config/nvim/colors/Tomorrow.vim
+t/home/marcosrdac/.local/share/Trash/001_abra.vim
+	/home/marcosrdac/.config/nvim/colors/abra.vim
+t/home/marcosrdac/.local/share/Trash/001_adam.vim
+	/home/marcosrdac/.config/nvim/colors/adam.vim
+t/home/marcosrdac/.local/share/Trash/001_adaryn.vim
+	/home/marcosrdac/.config/nvim/colors/adaryn.vim
+t/home/marcosrdac/.local/share/Trash/001_adobe.vim
+	/home/marcosrdac/.config/nvim/colors/adobe.vim
+t/home/marcosrdac/.local/share/Trash/001_adrian.vim
+	/home/marcosrdac/.config/nvim/colors/adrian.vim
+t/home/marcosrdac/.local/share/Trash/001_advantage.vim
+	/home/marcosrdac/.config/nvim/colors/advantage.vim
+t/home/marcosrdac/.local/share/Trash/001_af.vim
+	/home/marcosrdac/.config/nvim/colors/af.vim
+t/home/marcosrdac/.local/share/Trash/001_aiseered.vim
+	/home/marcosrdac/.config/nvim/colors/aiseered.vim
+t/home/marcosrdac/.local/share/Trash/001_anotherdark.vim
+	/home/marcosrdac/.config/nvim/colors/anotherdark.vim
+t/home/marcosrdac/.local/share/Trash/001_ansi_blows.vim
+	/home/marcosrdac/.config/nvim/colors/ansi_blows.vim
+t/home/marcosrdac/.local/share/Trash/001_apprentice.vim
+	/home/marcosrdac/.config/nvim/colors/apprentice.vim
+t/home/marcosrdac/.local/share/Trash/001_aqua.vim
+	/home/marcosrdac/.config/nvim/colors/aqua.vim
+t/home/marcosrdac/.local/share/Trash/001_ashen.vim
+	/home/marcosrdac/.config/nvim/colors/ashen.vim
+t/home/marcosrdac/.local/share/Trash/001_asmanian_blood.vim
+	/home/marcosrdac/.config/nvim/colors/asmanian_blood.vim
+t/home/marcosrdac/.local/share/Trash/001_astronaut.vim
+	/home/marcosrdac/.config/nvim/colors/astronaut.vim
+t/home/marcosrdac/.local/share/Trash/001_asu1dark.vim
+	/home/marcosrdac/.config/nvim/colors/asu1dark.vim
+t/home/marcosrdac/.local/share/Trash/001_atom.vim
+	/home/marcosrdac/.config/nvim/colors/atom.vim
+t/home/marcosrdac/.local/share/Trash/001_automation.vim
+	/home/marcosrdac/.config/nvim/colors/automation.vim
+t/home/marcosrdac/.local/share/Trash/001_autumn.vim
+	/home/marcosrdac/.config/nvim/colors/autumn.vim
+t/home/marcosrdac/.local/share/Trash/001_autumnleaf.vim
+	/home/marcosrdac/.config/nvim/colors/autumnleaf.vim
+t/home/marcosrdac/.local/share/Trash/001_babymate256.vim
+	/home/marcosrdac/.config/nvim/colors/babymate256.vim
+t/home/marcosrdac/.local/share/Trash/001_badwolf.vim
+	/home/marcosrdac/.config/nvim/colors/badwolf.vim
+t/home/marcosrdac/.local/share/Trash/001_base16-atelierdune.vim
+	/home/marcosrdac/.config/nvim/colors/base16-atelierdune.vim
+t/home/marcosrdac/.local/share/Trash/001_basic.vim
+	/home/marcosrdac/.config/nvim/colors/basic.vim
+t/home/marcosrdac/.local/share/Trash/001_bayQua.vim
+	/home/marcosrdac/.config/nvim/colors/bayQua.vim
+t/home/marcosrdac/.local/share/Trash/001_baycomb.vim
+	/home/marcosrdac/.config/nvim/colors/baycomb.vim
+t/home/marcosrdac/.local/share/Trash/001_bclear.vim
+	/home/marcosrdac/.config/nvim/colors/bclear.vim
+t/home/marcosrdac/.local/share/Trash/001_beachcomber.vim
+	/home/marcosrdac/.config/nvim/colors/beachcomber.vim
+t/home/marcosrdac/.local/share/Trash/001_beauty256.vim
+	/home/marcosrdac/.config/nvim/colors/beauty256.vim
+t/home/marcosrdac/.local/share/Trash/001_bensday.vim
+	/home/marcosrdac/.config/nvim/colors/bensday.vim
+t/home/marcosrdac/.local/share/Trash/001_billw.vim
+	/home/marcosrdac/.config/nvim/colors/billw.vim
+t/home/marcosrdac/.local/share/Trash/001_biogoo.vim
+	/home/marcosrdac/.config/nvim/colors/biogoo.vim
+t/home/marcosrdac/.local/share/Trash/001_black_angus.vim
+	/home/marcosrdac/.config/nvim/colors/black_angus.vim
+t/home/marcosrdac/.local/share/Trash/001_blackbeauty.vim
+	/home/marcosrdac/.config/nvim/colors/blackbeauty.vim
+t/home/marcosrdac/.local/share/Trash/001_blackboard.vim
+	/home/marcosrdac/.config/nvim/colors/blackboard.vim
+t/home/marcosrdac/.local/share/Trash/001_blackdust.vim
+	/home/marcosrdac/.config/nvim/colors/blackdust.vim
+t/home/marcosrdac/.local/share/Trash/001_blacklight.vim
+	/home/marcosrdac/.config/nvim/colors/blacklight.vim
+t/home/marcosrdac/.local/share/Trash/001_blazer.vim
+	/home/marcosrdac/.config/nvim/colors/blazer.vim
+t/home/marcosrdac/.local/share/Trash/001_blink.vim
+	/home/marcosrdac/.config/nvim/colors/blink.vim
+t/home/marcosrdac/.local/share/Trash/001_blue.vim
+	/home/marcosrdac/.config/nvim/colors/blue.vim
+t/home/marcosrdac/.local/share/Trash/001_bluechia.vim
+	/home/marcosrdac/.config/nvim/colors/bluechia.vim
+t/home/marcosrdac/.local/share/Trash/001_bluedrake.vim
+	/home/marcosrdac/.config/nvim/colors/bluedrake.vim
+t/home/marcosrdac/.local/share/Trash/001_bluegreen.vim
+	/home/marcosrdac/.config/nvim/colors/bluegreen.vim
+t/home/marcosrdac/.local/share/Trash/001_blueprint.vim
+	/home/marcosrdac/.config/nvim/colors/blueprint.vim
+t/home/marcosrdac/.local/share/Trash/001_blueshift.vim
+	/home/marcosrdac/.config/nvim/colors/blueshift.vim
+t/home/marcosrdac/.local/share/Trash/001_bluez.vim
+	/home/marcosrdac/.config/nvim/colors/bluez.vim
+t/home/marcosrdac/.local/share/Trash/001_blugrine.vim
+	/home/marcosrdac/.config/nvim/colors/blugrine.vim
+t/home/marcosrdac/.local/share/Trash/001_bmichaelsen.vim
+	/home/marcosrdac/.config/nvim/colors/bmichaelsen.vim
+t/home/marcosrdac/.local/share/Trash/001_bocau.vim
+	/home/marcosrdac/.config/nvim/colors/bocau.vim
+t/home/marcosrdac/.local/share/Trash/001_bog.vim
+	/home/marcosrdac/.config/nvim/colors/bog.vim
+t/home/marcosrdac/.local/share/Trash/001_borland.vim
+	/home/marcosrdac/.config/nvim/colors/borland.vim
+t/home/marcosrdac/.local/share/Trash/001_breeze.vim
+	/home/marcosrdac/.config/nvim/colors/breeze.vim
+t/home/marcosrdac/.local/share/Trash/001_brookstream.vim
+	/home/marcosrdac/.config/nvim/colors/brookstream.vim
+t/home/marcosrdac/.local/share/Trash/001_brown.vim
+	/home/marcosrdac/.config/nvim/colors/brown.vim
+t/home/marcosrdac/.local/share/Trash/001_bubblegum.vim
+	/home/marcosrdac/.config/nvim/colors/bubblegum.vim
+t/home/marcosrdac/.local/share/Trash/001_burnttoast256.vim
+	/home/marcosrdac/.config/nvim/colors/burnttoast256.vim
+t/home/marcosrdac/.local/share/Trash/001_busierbee.vim
+	/home/marcosrdac/.config/nvim/colors/busierbee.vim
+t/home/marcosrdac/.local/share/Trash/001_busybee.vim
+	/home/marcosrdac/.config/nvim/colors/busybee.vim
+t/home/marcosrdac/.local/share/Trash/001_buttercream.vim
+	/home/marcosrdac/.config/nvim/colors/buttercream.vim
+t/home/marcosrdac/.local/share/Trash/001_bvemu.vim
+	/home/marcosrdac/.config/nvim/colors/bvemu.vim
+t/home/marcosrdac/.local/share/Trash/001_bw.vim
+	/home/marcosrdac/.config/nvim/colors/bw.vim
+t/home/marcosrdac/.local/share/Trash/001_c.vim
+	/home/marcosrdac/.config/nvim/colors/c.vim
+t/home/marcosrdac/.local/share/Trash/001_cake16.vim
+	/home/marcosrdac/.config/nvim/colors/cake16.vim
+t/home/marcosrdac/.local/share/Trash/001_calmar256-light.vim
+	/home/marcosrdac/.config/nvim/colors/calmar256-light.vim
+t/home/marcosrdac/.local/share/Trash/001_camo.vim
+	/home/marcosrdac/.config/nvim/colors/camo.vim
+t/home/marcosrdac/.local/share/Trash/001_campfire.vim
+	/home/marcosrdac/.config/nvim/colors/campfire.vim
+t/home/marcosrdac/.local/share/Trash/001_candy.vim
+	/home/marcosrdac/.config/nvim/colors/candy.vim
+t/home/marcosrdac/.local/share/Trash/001_candycode.vim
+	/home/marcosrdac/.config/nvim/colors/candycode.vim
+t/home/marcosrdac/.local/share/Trash/001_candyman.vim
+	/home/marcosrdac/.config/nvim/colors/candyman.vim
+t/home/marcosrdac/.local/share/Trash/001_caramel.vim
+	/home/marcosrdac/.config/nvim/colors/caramel.vim
+t/home/marcosrdac/.local/share/Trash/001_carrot.vim
+	/home/marcosrdac/.config/nvim/colors/carrot.vim
+t/home/marcosrdac/.local/share/Trash/001_carvedwood.vim
+	/home/marcosrdac/.config/nvim/colors/carvedwood.vim
+t/home/marcosrdac/.local/share/Trash/001_carvedwoodcool.vim
+	/home/marcosrdac/.config/nvim/colors/carvedwoodcool.vim
+t/home/marcosrdac/.local/share/Trash/001_cascadia.vim
+	/home/marcosrdac/.config/nvim/colors/cascadia.vim
+t/home/marcosrdac/.local/share/Trash/001_chance-of-storm.vim
+	/home/marcosrdac/.config/nvim/colors/chance-of-storm.vim
+t/home/marcosrdac/.local/share/Trash/001_charged-256.vim
+	/home/marcosrdac/.config/nvim/colors/charged-256.vim
+t/home/marcosrdac/.local/share/Trash/001_charon.vim
+	/home/marcosrdac/.config/nvim/colors/charon.vim
+t/home/marcosrdac/.local/share/Trash/001_chela_light.vim
+	/home/marcosrdac/.config/nvim/colors/chela_light.vim
+t/home/marcosrdac/.local/share/Trash/001_chlordane.vim
+	/home/marcosrdac/.config/nvim/colors/chlordane.vim
+t/home/marcosrdac/.local/share/Trash/001_chocolate.vim
+	/home/marcosrdac/.config/nvim/colors/chocolate.vim
+t/home/marcosrdac/.local/share/Trash/001_chrysoprase.vim
+	/home/marcosrdac/.config/nvim/colors/chrysoprase.vim
+t/home/marcosrdac/.local/share/Trash/001_ciscoacl.vim
+	/home/marcosrdac/.config/nvim/colors/ciscoacl.vim
+t/home/marcosrdac/.local/share/Trash/001_clarity.vim
+	/home/marcosrdac/.config/nvim/colors/clarity.vim
+t/home/marcosrdac/.local/share/Trash/001_cleanphp.vim
+	/home/marcosrdac/.config/nvim/colors/cleanphp.vim
+t/home/marcosrdac/.local/share/Trash/001_cleanroom.vim
+	/home/marcosrdac/.config/nvim/colors/cleanroom.vim
+t/home/marcosrdac/.local/share/Trash/001_clearance.vim
+	/home/marcosrdac/.config/nvim/colors/clearance.vim
+t/home/marcosrdac/.local/share/Trash/001_cloudy.vim
+	/home/marcosrdac/.config/nvim/colors/cloudy.vim
+t/home/marcosrdac/.local/share/Trash/001_clue.vim
+	/home/marcosrdac/.config/nvim/colors/clue.vim
+t/home/marcosrdac/.local/share/Trash/001_cobalt.vim
+	/home/marcosrdac/.config/nvim/colors/cobalt.vim
+t/home/marcosrdac/.local/share/Trash/001_cobaltish.vim
+	/home/marcosrdac/.config/nvim/colors/cobaltish.vim
+t/home/marcosrdac/.local/share/Trash/001_codeblocks_dark.vim
+	/home/marcosrdac/.config/nvim/colors/codeblocks_dark.vim
+t/home/marcosrdac/.local/share/Trash/001_codeburn.vim
+	/home/marcosrdac/.config/nvim/colors/codeburn.vim
+t/home/marcosrdac/.local/share/Trash/001_codeschool.vim
+	/home/marcosrdac/.config/nvim/colors/codeschool.vim
+t/home/marcosrdac/.local/share/Trash/001_coffee.vim
+	/home/marcosrdac/.config/nvim/colors/coffee.vim
+t/home/marcosrdac/.local/share/Trash/001_coldgreen.vim
+	/home/marcosrdac/.config/nvim/colors/coldgreen.vim
+t/home/marcosrdac/.local/share/Trash/001_colorer.vim
+	/home/marcosrdac/.config/nvim/colors/colorer.vim
+t/home/marcosrdac/.local/share/Trash/001_colorful.vim
+	/home/marcosrdac/.config/nvim/colors/colorful.vim
+t/home/marcosrdac/.local/share/Trash/001_colorful256.vim
+	/home/marcosrdac/.config/nvim/colors/colorful256.vim
+t/home/marcosrdac/.local/share/Trash/001_colorscheme_template.vim
+	/home/marcosrdac/.config/nvim/colors/colorscheme_template.vim
+t/home/marcosrdac/.local/share/Trash/001_colorzone.vim
+	/home/marcosrdac/.config/nvim/colors/colorzone.vim
+t/home/marcosrdac/.local/share/Trash/001_contrasty.vim
+	/home/marcosrdac/.config/nvim/colors/contrasty.vim
+t/home/marcosrdac/.local/share/Trash/001_cool.vim
+	/home/marcosrdac/.config/nvim/colors/cool.vim
+t/home/marcosrdac/.local/share/Trash/001_corn.vim
+	/home/marcosrdac/.config/nvim/colors/corn.vim
+t/home/marcosrdac/.local/share/Trash/001_corporation.vim
+	/home/marcosrdac/.config/nvim/colors/corporation.vim
+t/home/marcosrdac/.local/share/Trash/001_cthulhian.vim
+	/home/marcosrdac/.config/nvim/colors/cthulhian.vim
+t/home/marcosrdac/.local/share/Trash/001_custom.vim
+	/home/marcosrdac/.config/nvim/colors/custom.vim
+t/home/marcosrdac/.local/share/Trash/001_d8g_01.vim
+	/home/marcosrdac/.config/nvim/colors/d8g_01.vim
+t/home/marcosrdac/.local/share/Trash/001_d8g_02.vim
+	/home/marcosrdac/.config/nvim/colors/d8g_02.vim
+t/home/marcosrdac/.local/share/Trash/001_d8g_03.vim
+	/home/marcosrdac/.config/nvim/colors/d8g_03.vim
+t/home/marcosrdac/.local/share/Trash/001_d8g_04.vim
+	/home/marcosrdac/.config/nvim/colors/d8g_04.vim
+t/home/marcosrdac/.local/share/Trash/001_dante.vim
+	/home/marcosrdac/.config/nvim/colors/dante.vim
+t/home/marcosrdac/.local/share/Trash/001_dark-ruby.vim
+	/home/marcosrdac/.config/nvim/colors/dark-ruby.vim
+t/home/marcosrdac/.local/share/Trash/001_darkBlue.vim
+	/home/marcosrdac/.config/nvim/colors/darkBlue.vim
+t/home/marcosrdac/.local/share/Trash/001_darkZ.vim
+	/home/marcosrdac/.config/nvim/colors/darkZ.vim
+t/home/marcosrdac/.local/share/Trash/001_darkblack.vim
+	/home/marcosrdac/.config/nvim/colors/darkblack.vim
+t/home/marcosrdac/.local/share/Trash/001_darkblue2.vim
+	/home/marcosrdac/.config/nvim/colors/darkblue2.vim
+t/home/marcosrdac/.local/share/Trash/001_darkbone.vim
+	/home/marcosrdac/.config/nvim/colors/darkbone.vim
+t/home/marcosrdac/.local/share/Trash/001_darkburn.vim
+	/home/marcosrdac/.config/nvim/colors/darkburn.vim
+t/home/marcosrdac/.local/share/Trash/001_darkdot.vim
+	/home/marcosrdac/.config/nvim/colors/darkdot.vim
+t/home/marcosrdac/.local/share/Trash/001_darkeclipse.vim
+	/home/marcosrdac/.config/nvim/colors/darkeclipse.vim
+t/home/marcosrdac/.local/share/Trash/001_darker-robin.vim
+	/home/marcosrdac/.config/nvim/colors/darker-robin.vim
+t/home/marcosrdac/.local/share/Trash/001_darkerdesert.vim
+	/home/marcosrdac/.config/nvim/colors/darkerdesert.vim
+t/home/marcosrdac/.local/share/Trash/001_darkocean.vim
+	/home/marcosrdac/.config/nvim/colors/darkocean.vim
+t/home/marcosrdac/.local/share/Trash/001_darkrobot.vim
+	/home/marcosrdac/.config/nvim/colors/darkrobot.vim
+t/home/marcosrdac/.local/share/Trash/001_darkroom.vim
+	/home/marcosrdac/.config/nvim/colors/darkroom.vim
+t/home/marcosrdac/.local/share/Trash/001_darkslategray.vim
+	/home/marcosrdac/.config/nvim/colors/darkslategray.vim
+t/home/marcosrdac/.local/share/Trash/001_darkspectrum.vim
+	/home/marcosrdac/.config/nvim/colors/darkspectrum.vim
+t/home/marcosrdac/.local/share/Trash/001_darktango.vim
+	/home/marcosrdac/.config/nvim/colors/darktango.vim
+t/home/marcosrdac/.local/share/Trash/001_darkzen.vim
+	/home/marcosrdac/.config/nvim/colors/darkzen.vim
+t/home/marcosrdac/.local/share/Trash/001_darth.vim
+	/home/marcosrdac/.config/nvim/colors/darth.vim
+t/home/marcosrdac/.local/share/Trash/001_dawn.vim
+	/home/marcosrdac/.config/nvim/colors/dawn.vim
+t/home/marcosrdac/.local/share/Trash/001_delek.vim
+	/home/marcosrdac/.config/nvim/colors/delek.vim
+t/home/marcosrdac/.local/share/Trash/001_delphi.vim
+	/home/marcosrdac/.config/nvim/colors/delphi.vim
+t/home/marcosrdac/.local/share/Trash/001_denim.vim
+	/home/marcosrdac/.config/nvim/colors/denim.vim
+t/home/marcosrdac/.local/share/Trash/001_derefined.vim
+	/home/marcosrdac/.config/nvim/colors/derefined.vim
+t/home/marcosrdac/.local/share/Trash/001_desert.vim
+	/home/marcosrdac/.config/nvim/colors/desert.vim
+t/home/marcosrdac/.local/share/Trash/001_desert256.vim
+	/home/marcosrdac/.config/nvim/colors/desert256.vim
+t/home/marcosrdac/.local/share/Trash/001_desert256v2.vim
+	/home/marcosrdac/.config/nvim/colors/desert256v2.vim
+t/home/marcosrdac/.local/share/Trash/001_desertEx.vim
+	/home/marcosrdac/.config/nvim/colors/desertEx.vim
+t/home/marcosrdac/.local/share/Trash/001_desertedocean.vim
+	/home/marcosrdac/.config/nvim/colors/desertedocean.vim
+t/home/marcosrdac/.local/share/Trash/001_desertedoceanburnt.vim
+	/home/marcosrdac/.config/nvim/colors/desertedoceanburnt.vim
+t/home/marcosrdac/.local/share/Trash/001_detailed.vim
+	/home/marcosrdac/.config/nvim/colors/detailed.vim
+t/home/marcosrdac/.local/share/Trash/001_devbox-dark-256.vim
+	/home/marcosrdac/.config/nvim/colors/devbox-dark-256.vim
+t/home/marcosrdac/.local/share/Trash/001_deveiate.vim
+	/home/marcosrdac/.config/nvim/colors/deveiate.vim
+t/home/marcosrdac/.local/share/Trash/001_developer.vim
+	/home/marcosrdac/.config/nvim/colors/developer.vim
+t/home/marcosrdac/.local/share/Trash/001_disciple.vim
+	/home/marcosrdac/.config/nvim/colors/disciple.vim
+t/home/marcosrdac/.local/share/Trash/001_distinguished.vim
+	/home/marcosrdac/.config/nvim/colors/distinguished.vim
+t/home/marcosrdac/.local/share/Trash/001_django.vim
+	/home/marcosrdac/.config/nvim/colors/django.vim
+t/home/marcosrdac/.local/share/Trash/001_donbass.vim
+	/home/marcosrdac/.config/nvim/colors/donbass.vim
+t/home/marcosrdac/.local/share/Trash/001_doorhinge.vim
+	/home/marcosrdac/.config/nvim/colors/doorhinge.vim
+t/home/marcosrdac/.local/share/Trash/001_doriath.vim
+	/home/marcosrdac/.config/nvim/colors/doriath.vim
+t/home/marcosrdac/.local/share/Trash/001_dual.vim
+	/home/marcosrdac/.config/nvim/colors/dual.vim
+t/home/marcosrdac/.local/share/Trash/001_dull.vim
+	/home/marcosrdac/.config/nvim/colors/dull.vim
+t/home/marcosrdac/.local/share/Trash/001_dusk.vim
+	/home/marcosrdac/.config/nvim/colors/dusk.vim
+t/home/marcosrdac/.local/share/Trash/001_earendel.vim
+	/home/marcosrdac/.config/nvim/colors/earendel.vim
+t/home/marcosrdac/.local/share/Trash/001_earth.vim
+	/home/marcosrdac/.config/nvim/colors/earth.vim
+t/home/marcosrdac/.local/share/Trash/001_earthburn.vim
+	/home/marcosrdac/.config/nvim/colors/earthburn.vim
+t/home/marcosrdac/.local/share/Trash/001_eclipse.vim
+	/home/marcosrdac/.config/nvim/colors/eclipse.vim
+t/home/marcosrdac/.local/share/Trash/001_eclm_wombat.vim
+	/home/marcosrdac/.config/nvim/colors/eclm_wombat.vim
+t/home/marcosrdac/.local/share/Trash/001_ecostation.vim
+	/home/marcosrdac/.config/nvim/colors/ecostation.vim
+t/home/marcosrdac/.local/share/Trash/001_editplus.vim
+	/home/marcosrdac/.config/nvim/colors/editplus.vim
+t/home/marcosrdac/.local/share/Trash/001_edo_sea.vim
+	/home/marcosrdac/.config/nvim/colors/edo_sea.vim
+t/home/marcosrdac/.local/share/Trash/001_ego.vim
+	/home/marcosrdac/.config/nvim/colors/ego.vim
+t/home/marcosrdac/.local/share/Trash/001_ekinivim.vim
+	/home/marcosrdac/.config/nvim/colors/ekinivim.vim
+t/home/marcosrdac/.local/share/Trash/001_ekvoli.vim
+	/home/marcosrdac/.config/nvim/colors/ekvoli.vim
+t/home/marcosrdac/.local/share/Trash/001_elda.vim
+	/home/marcosrdac/.config/nvim/colors/elda.vim
+t/home/marcosrdac/.local/share/Trash/001_elise.vim
+	/home/marcosrdac/.config/nvim/colors/elise.vim
+t/home/marcosrdac/.local/share/Trash/001_elisex.vim
+	/home/marcosrdac/.config/nvim/colors/elisex.vim
+t/home/marcosrdac/.local/share/Trash/001_elrodeo.vim
+	/home/marcosrdac/.config/nvim/colors/elrodeo.vim
+t/home/marcosrdac/.local/share/Trash/001_emacs.vim
+	/home/marcosrdac/.config/nvim/colors/emacs.vim
+t/home/marcosrdac/.local/share/Trash/001_enzyme.vim
+	/home/marcosrdac/.config/nvim/colors/enzyme.vim
+t/home/marcosrdac/.local/share/Trash/001_evening_2.vim
+	/home/marcosrdac/.config/nvim/colors/evening_2.vim
+t/home/marcosrdac/.local/share/Trash/001_far.vim
+	/home/marcosrdac/.config/nvim/colors/far.vim
+t/home/marcosrdac/.local/share/Trash/001_felipec.vim
+	/home/marcosrdac/.config/nvim/colors/felipec.vim
+t/home/marcosrdac/.local/share/Trash/001_fine_blue.vim
+	/home/marcosrdac/.config/nvim/colors/fine_blue.vim
+t/home/marcosrdac/.local/share/Trash/001_flatcolor.vim
+	/home/marcosrdac/.config/nvim/colors/flatcolor.vim
+t/home/marcosrdac/.local/share/Trash/001_flatland.vim
+	/home/marcosrdac/.config/nvim/colors/flatland.vim
+t/home/marcosrdac/.local/share/Trash/001_flatlandia.vim
+	/home/marcosrdac/.config/nvim/colors/flatlandia.vim
+t/home/marcosrdac/.local/share/Trash/001_flattr.vim
+	/home/marcosrdac/.config/nvim/colors/flattr.vim
+t/home/marcosrdac/.local/share/Trash/001_flatui.vim
+	/home/marcosrdac/.config/nvim/colors/flatui.vim
+t/home/marcosrdac/.local/share/Trash/001_fnaqevan.vim
+	/home/marcosrdac/.config/nvim/colors/fnaqevan.vim
+t/home/marcosrdac/.local/share/Trash/001_fog.vim
+	/home/marcosrdac/.config/nvim/colors/fog.vim
+t/home/marcosrdac/.local/share/Trash/001_fokus.vim
+	/home/marcosrdac/.config/nvim/colors/fokus.vim
+t/home/marcosrdac/.local/share/Trash/001_forneus.vim
+	/home/marcosrdac/.config/nvim/colors/forneus.vim
+t/home/marcosrdac/.local/share/Trash/001_freya.vim
+	/home/marcosrdac/.config/nvim/colors/freya.vim
+t/home/marcosrdac/.local/share/Trash/001_frood.vim
+	/home/marcosrdac/.config/nvim/colors/frood.vim
+t/home/marcosrdac/.local/share/Trash/001_fruidle.vim
+	/home/marcosrdac/.config/nvim/colors/fruidle.vim
+t/home/marcosrdac/.local/share/Trash/001_fruit.vim
+	/home/marcosrdac/.config/nvim/colors/fruit.vim
+t/home/marcosrdac/.local/share/Trash/001_fruity.vim
+	/home/marcosrdac/.config/nvim/colors/fruity.vim
+t/home/marcosrdac/.local/share/Trash/001_fu.vim
+	/home/marcosrdac/.config/nvim/colors/fu.vim
+t/home/marcosrdac/.local/share/Trash/001_gardener.vim
+	/home/marcosrdac/.config/nvim/colors/gardener.vim
+t/home/marcosrdac/.local/share/Trash/001_gemcolors.vim
+	/home/marcosrdac/.config/nvim/colors/gemcolors.vim
+t/home/marcosrdac/.local/share/Trash/001_gentooish.vim
+	/home/marcosrdac/.config/nvim/colors/gentooish.vim
+t/home/marcosrdac/.local/share/Trash/001_getafe.vim
+	/home/marcosrdac/.config/nvim/colors/getafe.vim
+t/home/marcosrdac/.local/share/Trash/001_getfresh.vim
+	/home/marcosrdac/.config/nvim/colors/getfresh.vim
+t/home/marcosrdac/.local/share/Trash/001_github.vim
+	/home/marcosrdac/.config/nvim/colors/github.vim
+t/home/marcosrdac/.local/share/Trash/001_gobo.vim
+	/home/marcosrdac/.config/nvim/colors/gobo.vim
+t/home/marcosrdac/.local/share/Trash/001_golded.vim
+	/home/marcosrdac/.config/nvim/colors/golded.vim
+t/home/marcosrdac/.local/share/Trash/001_golden.vim
+	/home/marcosrdac/.config/nvim/colors/golden.vim
+t/home/marcosrdac/.local/share/Trash/001_google.vim
+	/home/marcosrdac/.config/nvim/colors/google.vim
+t/home/marcosrdac/.local/share/Trash/001_gor.vim
+	/home/marcosrdac/.config/nvim/colors/gor.vim
+t/home/marcosrdac/.local/share/Trash/001_gotham.vim
+	/home/marcosrdac/.config/nvim/colors/gotham.vim
+t/home/marcosrdac/.local/share/Trash/001_gotham256.vim
+	/home/marcosrdac/.config/nvim/colors/gotham256.vim
+t/home/marcosrdac/.local/share/Trash/001_gothic.vim
+	/home/marcosrdac/.config/nvim/colors/gothic.vim
+t/home/marcosrdac/.local/share/Trash/001_grape.vim
+	/home/marcosrdac/.config/nvim/colors/grape.vim
+t/home/marcosrdac/.local/share/Trash/001_gravity.vim
+	/home/marcosrdac/.config/nvim/colors/gravity.vim
+t/home/marcosrdac/.local/share/Trash/001_graywh.vim
+	/home/marcosrdac/.config/nvim/colors/graywh.vim
+t/home/marcosrdac/.local/share/Trash/001_grb256.vim
+	/home/marcosrdac/.config/nvim/colors/grb256.vim
+t/home/marcosrdac/.local/share/Trash/001_greens.vim
+	/home/marcosrdac/.config/nvim/colors/greens.vim
+t/home/marcosrdac/.local/share/Trash/001_greenvision.vim
+	/home/marcosrdac/.config/nvim/colors/greenvision.vim
+t/home/marcosrdac/.local/share/Trash/001_grey2.vim
+	/home/marcosrdac/.config/nvim/colors/grey2.vim
+t/home/marcosrdac/.local/share/Trash/001_greyblue.vim
+	/home/marcosrdac/.config/nvim/colors/greyblue.vim
+t/home/marcosrdac/.local/share/Trash/001_grishin.vim
+	/home/marcosrdac/.config/nvim/colors/grishin.vim
+t/home/marcosrdac/.local/share/Trash/001_gruvbox.vim
+	/home/marcosrdac/.config/nvim/colors/gruvbox.vim
+t/home/marcosrdac/.local/share/Trash/001_guardian.vim
+	/home/marcosrdac/.config/nvim/colors/guardian.vim
+t/home/marcosrdac/.local/share/Trash/001_guepardo.vim
+	/home/marcosrdac/.config/nvim/colors/guepardo.vim
+t/home/marcosrdac/.local/share/Trash/001_h80.vim
+	/home/marcosrdac/.config/nvim/colors/h80.vim
+t/home/marcosrdac/.local/share/Trash/001_habiLight.vim
+	/home/marcosrdac/.config/nvim/colors/habiLight.vim
+t/home/marcosrdac/.local/share/Trash/001_heliotrope.vim
+	/home/marcosrdac/.config/nvim/colors/heliotrope.vim
+t/home/marcosrdac/.local/share/Trash/001_hemisu.vim
+	/home/marcosrdac/.config/nvim/colors/hemisu.vim
+t/home/marcosrdac/.local/share/Trash/001_herald.vim
+	/home/marcosrdac/.config/nvim/colors/herald.vim
+t/home/marcosrdac/.local/share/Trash/001_herokudoc-gvim.vim
+	/home/marcosrdac/.config/nvim/colors/herokudoc-gvim.vim
+t/home/marcosrdac/.local/share/Trash/001_herokudoc.vim
+	/home/marcosrdac/.config/nvim/colors/herokudoc.vim
+t/home/marcosrdac/.local/share/Trash/001_holokai.vim
+	/home/marcosrdac/.config/nvim/colors/holokai.vim
+t/home/marcosrdac/.local/share/Trash/001_hornet.vim
+	/home/marcosrdac/.config/nvim/colors/hornet.vim
+t/home/marcosrdac/.local/share/Trash/001_hybrid-light.vim
+	/home/marcosrdac/.config/nvim/colors/hybrid-light.vim
+t/home/marcosrdac/.local/share/Trash/001_hybrid.vim
+	/home/marcosrdac/.config/nvim/colors/hybrid.vim
+t/home/marcosrdac/.local/share/Trash/001_iangenzo.vim
+	/home/marcosrdac/.config/nvim/colors/iangenzo.vim
+t/home/marcosrdac/.local/share/Trash/001_ibmedit.vim
+	/home/marcosrdac/.config/nvim/colors/ibmedit.vim
+t/home/marcosrdac/.local/share/Trash/001_icansee.vim
+	/home/marcosrdac/.config/nvim/colors/icansee.vim
+t/home/marcosrdac/.local/share/Trash/001_iceberg.vim
+	/home/marcosrdac/.config/nvim/colors/iceberg.vim
+t/home/marcosrdac/.local/share/Trash/001_impact.vim
+	/home/marcosrdac/.config/nvim/colors/impact.vim
+t/home/marcosrdac/.local/share/Trash/001_impactG.vim
+	/home/marcosrdac/.config/nvim/colors/impactG.vim
+t/home/marcosrdac/.local/share/Trash/001_industrial.vim
+	/home/marcosrdac/.config/nvim/colors/industrial.vim
+t/home/marcosrdac/.local/share/Trash/001_industry.vim
+	/home/marcosrdac/.config/nvim/colors/industry.vim
+t/home/marcosrdac/.local/share/Trash/001_ingretu.vim
+	/home/marcosrdac/.config/nvim/colors/ingretu.vim
+t/home/marcosrdac/.local/share/Trash/001_inkpot.vim
+	/home/marcosrdac/.config/nvim/colors/inkpot.vim
+t/home/marcosrdac/.local/share/Trash/001_ir_black.vim
+	/home/marcosrdac/.config/nvim/colors/ir_black.vim
+t/home/marcosrdac/.local/share/Trash/001_ironman.vim
+	/home/marcosrdac/.config/nvim/colors/ironman.vim
+t/home/marcosrdac/.local/share/Trash/001_jammy.vim
+	/home/marcosrdac/.config/nvim/colors/jammy.vim
+t/home/marcosrdac/.local/share/Trash/001_jelleybeans.vim
+	/home/marcosrdac/.config/nvim/colors/jelleybeans.vim
+t/home/marcosrdac/.local/share/Trash/001_jellybeans.vim
+	/home/marcosrdac/.config/nvim/colors/jellybeans.vim
+t/home/marcosrdac/.local/share/Trash/001_jellyx.vim
+	/home/marcosrdac/.config/nvim/colors/jellyx.vim
+t/home/marcosrdac/.local/share/Trash/001_jhdark.vim
+	/home/marcosrdac/.config/nvim/colors/jhdark.vim
+t/home/marcosrdac/.local/share/Trash/001_jhlight.vim
+	/home/marcosrdac/.config/nvim/colors/jhlight.vim
+t/home/marcosrdac/.local/share/Trash/001_jiks.vim
+	/home/marcosrdac/.config/nvim/colors/jiks.vim
+t/home/marcosrdac/.local/share/Trash/001_kalisi.vim
+	/home/marcosrdac/.config/nvim/colors/kalisi.vim
+t/home/marcosrdac/.local/share/Trash/001_kalt.vim
+	/home/marcosrdac/.config/nvim/colors/kalt.vim
+t/home/marcosrdac/.local/share/Trash/001_kaltex.vim
+	/home/marcosrdac/.config/nvim/colors/kaltex.vim
+t/home/marcosrdac/.local/share/Trash/001_kate.vim
+	/home/marcosrdac/.config/nvim/colors/kate.vim
+t/home/marcosrdac/.local/share/Trash/001_kellys.vim
+	/home/marcosrdac/.config/nvim/colors/kellys.vim
+t/home/marcosrdac/.local/share/Trash/001_khaki.vim
+	/home/marcosrdac/.config/nvim/colors/khaki.vim
+t/home/marcosrdac/.local/share/Trash/001_kib_darktango.vim
+	/home/marcosrdac/.config/nvim/colors/kib_darktango.vim
+t/home/marcosrdac/.local/share/Trash/001_kib_plastic.vim
+	/home/marcosrdac/.config/nvim/colors/kib_plastic.vim
+t/home/marcosrdac/.local/share/Trash/001_kiss.vim
+	/home/marcosrdac/.config/nvim/colors/kiss.vim
+t/home/marcosrdac/.local/share/Trash/001_kkruby.vim
+	/home/marcosrdac/.config/nvim/colors/kkruby.vim
+t/home/marcosrdac/.local/share/Trash/001_kolor.vim
+	/home/marcosrdac/.config/nvim/colors/kolor.vim
+t/home/marcosrdac/.local/share/Trash/001_kruby.vim
+	/home/marcosrdac/.config/nvim/colors/kruby.vim
+t/home/marcosrdac/.local/share/Trash/001_kyle.vim
+	/home/marcosrdac/.config/nvim/colors/kyle.vim
+t/home/marcosrdac/.local/share/Trash/001_landscape.vim
+	/home/marcosrdac/.config/nvim/colors/landscape.vim
+t/home/marcosrdac/.local/share/Trash/001_last256.vim
+	/home/marcosrdac/.config/nvim/colors/last256.vim
+t/home/marcosrdac/.local/share/Trash/001_lazarus.vim
+	/home/marcosrdac/.config/nvim/colors/lazarus.vim
+t/home/marcosrdac/.local/share/Trash/001_legiblelight.vim
+	/home/marcosrdac/.config/nvim/colors/legiblelight.vim
+t/home/marcosrdac/.local/share/Trash/001_leglight2.vim
+	/home/marcosrdac/.config/nvim/colors/leglight2.vim
+t/home/marcosrdac/.local/share/Trash/001_leo.vim
+	/home/marcosrdac/.config/nvim/colors/leo.vim
+t/home/marcosrdac/.local/share/Trash/001_less.vim
+	/home/marcosrdac/.config/nvim/colors/less.vim
+t/home/marcosrdac/.local/share/Trash/001_lettuce.vim
+	/home/marcosrdac/.config/nvim/colors/lettuce.vim
+t/home/marcosrdac/.local/share/Trash/001_leya.vim
+	/home/marcosrdac/.config/nvim/colors/leya.vim
+t/home/marcosrdac/.local/share/Trash/001_light.styl
+	/home/marcosrdac/.config/nvim/colors/light.styl
+t/home/marcosrdac/.local/share/Trash/001_lightcolors.vim
+	/home/marcosrdac/.config/nvim/colors/lightcolors.vim
+t/home/marcosrdac/.local/share/Trash/001_lilac.vim
+	/home/marcosrdac/.config/nvim/colors/lilac.vim
+t/home/marcosrdac/.local/share/Trash/001_lilydjwg_dark.vim
+	/home/marcosrdac/.config/nvim/colors/lilydjwg_dark.vim
+t/home/marcosrdac/.local/share/Trash/001_lilydjwg_green.vim
+	/home/marcosrdac/.config/nvim/colors/lilydjwg_green.vim
+t/home/marcosrdac/.local/share/Trash/001_lilypink.vim
+	/home/marcosrdac/.config/nvim/colors/lilypink.vim
+t/home/marcosrdac/.local/share/Trash/001_lingodirector.vim
+	/home/marcosrdac/.config/nvim/colors/lingodirector.vim
+t/home/marcosrdac/.local/share/Trash/001_liquidcarbon.vim
+	/home/marcosrdac/.config/nvim/colors/liquidcarbon.vim
+t/home/marcosrdac/.local/share/Trash/001_literal_tango.vim
+	/home/marcosrdac/.config/nvim/colors/literal_tango.vim
+t/home/marcosrdac/.local/share/Trash/001_lizard.vim
+	/home/marcosrdac/.config/nvim/colors/lizard.vim
+t/home/marcosrdac/.local/share/Trash/001_lizard256.vim
+	/home/marcosrdac/.config/nvim/colors/lizard256.vim
+t/home/marcosrdac/.local/share/Trash/001_lodestone.vim
+	/home/marcosrdac/.config/nvim/colors/lodestone.vim
+t/home/marcosrdac/.local/share/Trash/001_louver.vim
+	/home/marcosrdac/.config/nvim/colors/louver.vim
+t/home/marcosrdac/.local/share/Trash/001_lucius.vim
+	/home/marcosrdac/.config/nvim/colors/lucius.vim
+t/home/marcosrdac/.local/share/Trash/001_luinnar.vim
+	/home/marcosrdac/.config/nvim/colors/luinnar.vim
+t/home/marcosrdac/.local/share/Trash/001_luna.vim
+	/home/marcosrdac/.config/nvim/colors/luna.vim
+t/home/marcosrdac/.local/share/Trash/001_mac_classic.vim
+	/home/marcosrdac/.config/nvim/colors/mac_classic.vim
+t/home/marcosrdac/.local/share/Trash/001_made_of_code.vim
+	/home/marcosrdac/.config/nvim/colors/made_of_code.vim
+t/home/marcosrdac/.local/share/Trash/001_mango.vim
+	/home/marcosrdac/.config/nvim/colors/mango.vim
+t/home/marcosrdac/.local/share/Trash/001_manuscript.vim
+	/home/marcosrdac/.config/nvim/colors/manuscript.vim
+t/home/marcosrdac/.local/share/Trash/001_manxome.vim
+	/home/marcosrdac/.config/nvim/colors/manxome.vim
+t/home/marcosrdac/.local/share/Trash/001_marklar.vim
+	/home/marcosrdac/.config/nvim/colors/marklar.vim
+t/home/marcosrdac/.local/share/Trash/001_maroloccio.vim
+	/home/marcosrdac/.config/nvim/colors/maroloccio.vim
+t/home/marcosrdac/.local/share/Trash/001_mars.vim
+	/home/marcosrdac/.config/nvim/colors/mars.vim
+t/home/marcosrdac/.local/share/Trash/001_martin_krischik.vim
+	/home/marcosrdac/.config/nvim/colors/martin_krischik.vim
+t/home/marcosrdac/.local/share/Trash/001_matrix.vim
+	/home/marcosrdac/.config/nvim/colors/matrix.vim
+t/home/marcosrdac/.local/share/Trash/001_mayansmoke.vim
+	/home/marcosrdac/.config/nvim/colors/mayansmoke.vim
+t/home/marcosrdac/.local/share/Trash/001_mdark.vim
+	/home/marcosrdac/.config/nvim/colors/mdark.vim
+t/home/marcosrdac/.local/share/Trash/001_mellow.vim
+	/home/marcosrdac/.config/nvim/colors/mellow.vim
+t/home/marcosrdac/.local/share/Trash/001_metacosm.vim
+	/home/marcosrdac/.config/nvim/colors/metacosm.vim
+t/home/marcosrdac/.local/share/Trash/001_midnight.vim
+	/home/marcosrdac/.config/nvim/colors/midnight.vim
+t/home/marcosrdac/.local/share/Trash/001_midnight2.vim
+	/home/marcosrdac/.config/nvim/colors/midnight2.vim
+t/home/marcosrdac/.local/share/Trash/001_miko.vim
+	/home/marcosrdac/.config/nvim/colors/miko.vim
+t/home/marcosrdac/.local/share/Trash/001_mint.vim
+	/home/marcosrdac/.config/nvim/colors/mint.vim
+t/home/marcosrdac/.local/share/Trash/001_mizore.vim
+	/home/marcosrdac/.config/nvim/colors/mizore.vim
+t/home/marcosrdac/.local/share/Trash/001_mod_tcsoft.vim
+	/home/marcosrdac/.config/nvim/colors/mod_tcsoft.vim
+t/home/marcosrdac/.local/share/Trash/001_molokai.vim
+	/home/marcosrdac/.config/nvim/colors/molokai.vim
+t/home/marcosrdac/.local/share/Trash/001_monokain.vim
+	/home/marcosrdac/.config/nvim/colors/monokain.vim
+t/home/marcosrdac/.local/share/Trash/001_montz.vim
+	/home/marcosrdac/.config/nvim/colors/montz.vim
+t/home/marcosrdac/.local/share/Trash/001_mophiaDark.vim
+	/home/marcosrdac/.config/nvim/colors/mophiaDark.vim
+t/home/marcosrdac/.local/share/Trash/001_mophiaSmoke.vim
+	/home/marcosrdac/.config/nvim/colors/mophiaSmoke.vim
+t/home/marcosrdac/.local/share/Trash/001_mopkai.vim
+	/home/marcosrdac/.config/nvim/colors/mopkai.vim
+t/home/marcosrdac/.local/share/Trash/001_moria.vim
+	/home/marcosrdac/.config/nvim/colors/moria.vim
+t/home/marcosrdac/.local/share/Trash/001_moss.vim
+	/home/marcosrdac/.config/nvim/colors/moss.vim
+t/home/marcosrdac/.local/share/Trash/001_motus.vim
+	/home/marcosrdac/.config/nvim/colors/motus.vim
+t/home/marcosrdac/.local/share/Trash/001_mrkn256.vim
+	/home/marcosrdac/.config/nvim/colors/mrkn256.vim
+t/home/marcosrdac/.local/share/Trash/001_mrpink.vim
+	/home/marcosrdac/.config/nvim/colors/mrpink.vim
+t/home/marcosrdac/.local/share/Trash/001_mud.vim
+	/home/marcosrdac/.config/nvim/colors/mud.vim
+t/home/marcosrdac/.local/share/Trash/001_muon.vim
+	/home/marcosrdac/.config/nvim/colors/muon.vim
+t/home/marcosrdac/.local/share/Trash/001_mustang.vim
+	/home/marcosrdac/.config/nvim/colors/mustang.vim
+t/home/marcosrdac/.local/share/Trash/001_native.vim
+	/home/marcosrdac/.config/nvim/colors/native.vim
+t/home/marcosrdac/.local/share/Trash/001_nature.vim
+	/home/marcosrdac/.config/nvim/colors/nature.vim
+t/home/marcosrdac/.local/share/Trash/001_navajo-night.vim
+	/home/marcosrdac/.config/nvim/colors/navajo-night.vim
+t/home/marcosrdac/.local/share/Trash/001_navajo.vim
+	/home/marcosrdac/.config/nvim/colors/navajo.vim
+t/home/marcosrdac/.local/share/Trash/001_nazca.vim
+	/home/marcosrdac/.config/nvim/colors/nazca.vim
+t/home/marcosrdac/.local/share/Trash/001_nedit.vim
+	/home/marcosrdac/.config/nvim/colors/nedit.vim
+t/home/marcosrdac/.local/share/Trash/001_nedit2.vim
+	/home/marcosrdac/.config/nvim/colors/nedit2.vim
+t/home/marcosrdac/.local/share/Trash/001_nefertiti.vim
+	/home/marcosrdac/.config/nvim/colors/nefertiti.vim
+t/home/marcosrdac/.local/share/Trash/001_neon.vim
+	/home/marcosrdac/.config/nvim/colors/neon.vim
+t/home/marcosrdac/.local/share/Trash/001_nerv-ous.vim
+	/home/marcosrdac/.config/nvim/colors/nerv-ous.vim
+t/home/marcosrdac/.local/share/Trash/001_neutron.vim
+	/home/marcosrdac/.config/nvim/colors/neutron.vim
+t/home/marcosrdac/.local/share/Trash/001_neverland-darker.vim
+	/home/marcosrdac/.config/nvim/colors/neverland-darker.vim
+t/home/marcosrdac/.local/share/Trash/001_neverland.vim
+	/home/marcosrdac/.config/nvim/colors/neverland.vim
+t/home/marcosrdac/.local/share/Trash/001_neverland2-darker.vim
+	/home/marcosrdac/.config/nvim/colors/neverland2-darker.vim
+t/home/marcosrdac/.local/share/Trash/001_neverland2.vim
+	/home/marcosrdac/.config/nvim/colors/neverland2.vim
+t/home/marcosrdac/.local/share/Trash/001_neverness.vim
+	/home/marcosrdac/.config/nvim/colors/neverness.vim
+t/home/marcosrdac/.local/share/Trash/001_nevfn.vim
+	/home/marcosrdac/.config/nvim/colors/nevfn.vim
+t/home/marcosrdac/.local/share/Trash/001_newspaper.vim
+	/home/marcosrdac/.config/nvim/colors/newspaper.vim
+t/home/marcosrdac/.local/share/Trash/001_newsprint.vim
+	/home/marcosrdac/.config/nvim/colors/newsprint.vim
+t/home/marcosrdac/.local/share/Trash/001_nicotine.vim
+	/home/marcosrdac/.config/nvim/colors/nicotine.vim
+t/home/marcosrdac/.local/share/Trash/001_night.vim
+	/home/marcosrdac/.config/nvim/colors/night.vim
+t/home/marcosrdac/.local/share/Trash/001_nightVision.vim
+	/home/marcosrdac/.config/nvim/colors/nightVision.vim
+t/home/marcosrdac/.local/share/Trash/001_night_vision.vim
+	/home/marcosrdac/.config/nvim/colors/night_vision.vim
+t/home/marcosrdac/.local/share/Trash/001_nightflight.vim
+	/home/marcosrdac/.config/nvim/colors/nightflight.vim
+t/home/marcosrdac/.local/share/Trash/001_nightflight2.vim
+	/home/marcosrdac/.config/nvim/colors/nightflight2.vim
+t/home/marcosrdac/.local/share/Trash/001_nightshimmer.vim
+	/home/marcosrdac/.config/nvim/colors/nightshimmer.vim
+t/home/marcosrdac/.local/share/Trash/001_nightsky.vim
+	/home/marcosrdac/.config/nvim/colors/nightsky.vim
+t/home/marcosrdac/.local/share/Trash/001_nightwish.vim
+	/home/marcosrdac/.config/nvim/colors/nightwish.vim
+t/home/marcosrdac/.local/share/Trash/001_no_quarter.vim
+	/home/marcosrdac/.config/nvim/colors/no_quarter.vim
+t/home/marcosrdac/.local/share/Trash/001_northland.vim
+	/home/marcosrdac/.config/nvim/colors/northland.vim
+t/home/marcosrdac/.local/share/Trash/001_northsky.vim
+	/home/marcosrdac/.config/nvim/colors/northsky.vim
+t/home/marcosrdac/.local/share/Trash/001_norwaytoday.vim
+	/home/marcosrdac/.config/nvim/colors/norwaytoday.vim
+t/home/marcosrdac/.local/share/Trash/001_nour.vim
+	/home/marcosrdac/.config/nvim/colors/nour.vim
+t/home/marcosrdac/.local/share/Trash/001_nuvola.vim
+	/home/marcosrdac/.config/nvim/colors/nuvola.vim
+t/home/marcosrdac/.local/share/Trash/001_obsidian.vim
+	/home/marcosrdac/.config/nvim/colors/obsidian.vim
+t/home/marcosrdac/.local/share/Trash/001_obsidian2.vim
+	/home/marcosrdac/.config/nvim/colors/obsidian2.vim
+t/home/marcosrdac/.local/share/Trash/001_oceanblack.vim
+	/home/marcosrdac/.config/nvim/colors/oceanblack.vim
+t/home/marcosrdac/.local/share/Trash/001_oceanblack256.vim
+	/home/marcosrdac/.config/nvim/colors/oceanblack256.vim
+t/home/marcosrdac/.local/share/Trash/001_oceandeep.vim
+	/home/marcosrdac/.config/nvim/colors/oceandeep.vim
+t/home/marcosrdac/.local/share/Trash/001_oceanlight.vim
+	/home/marcosrdac/.config/nvim/colors/oceanlight.vim
+t/home/marcosrdac/.local/share/Trash/001_olive.vim
+	/home/marcosrdac/.config/nvim/colors/olive.vim
+t/home/marcosrdac/.local/share/Trash/001_orange.vim
+	/home/marcosrdac/.config/nvim/colors/orange.vim
+t/home/marcosrdac/.local/share/Trash/001_osx_like.vim
+	/home/marcosrdac/.config/nvim/colors/osx_like.vim
+t/home/marcosrdac/.local/share/Trash/001_otaku.vim
+	/home/marcosrdac/.config/nvim/colors/otaku.vim
+t/home/marcosrdac/.local/share/Trash/001_pacific.vim
+	/home/marcosrdac/.config/nvim/colors/pacific.vim
+t/home/marcosrdac/.local/share/Trash/001_paintbox.vim
+	/home/marcosrdac/.config/nvim/colors/paintbox.vim
+t/home/marcosrdac/.local/share/Trash/001_peaksea.vim
+	/home/marcosrdac/.config/nvim/colors/peaksea.vim
+t/home/marcosrdac/.local/share/Trash/001_pencil.vim
+	/home/marcosrdac/.config/nvim/colors/pencil.vim
+t/home/marcosrdac/.local/share/Trash/001_peppers.vim
+	/home/marcosrdac/.config/nvim/colors/peppers.vim
+t/home/marcosrdac/.local/share/Trash/001_perfect.vim
+	/home/marcosrdac/.config/nvim/colors/perfect.vim
+t/home/marcosrdac/.local/share/Trash/001_pf_earth.vim
+	/home/marcosrdac/.config/nvim/colors/pf_earth.vim
+t/home/marcosrdac/.local/share/Trash/001_phd.vim
+	/home/marcosrdac/.config/nvim/colors/phd.vim
+t/home/marcosrdac/.local/share/Trash/001_phphaxor.vim
+	/home/marcosrdac/.config/nvim/colors/phphaxor.vim
+t/home/marcosrdac/.local/share/Trash/001_phpx.vim
+	/home/marcosrdac/.config/nvim/colors/phpx.vim
+t/home/marcosrdac/.local/share/Trash/001_pic.vim
+	/home/marcosrdac/.config/nvim/colors/pic.vim
+t/home/marcosrdac/.local/share/Trash/001_pink.vim
+	/home/marcosrdac/.config/nvim/colors/pink.vim
+t/home/marcosrdac/.local/share/Trash/001_playroom.vim
+	/home/marcosrdac/.config/nvim/colors/playroom.vim
+t/home/marcosrdac/.local/share/Trash/001_pleasant.vim
+	/home/marcosrdac/.config/nvim/colors/pleasant.vim
+t/home/marcosrdac/.local/share/Trash/001_potts.vim
+	/home/marcosrdac/.config/nvim/colors/potts.vim
+t/home/marcosrdac/.local/share/Trash/001_print_bw.vim
+	/home/marcosrdac/.config/nvim/colors/print_bw.vim
+t/home/marcosrdac/.local/share/Trash/001_prmths.vim
+	/home/marcosrdac/.config/nvim/colors/prmths.vim
+t/home/marcosrdac/.local/share/Trash/001_professional.vim
+	/home/marcosrdac/.config/nvim/colors/professional.vim
+t/home/marcosrdac/.local/share/Trash/001_proton.vim
+	/home/marcosrdac/.config/nvim/colors/proton.vim
+t/home/marcosrdac/.local/share/Trash/001_pspad.vim
+	/home/marcosrdac/.config/nvim/colors/pspad.vim
+t/home/marcosrdac/.local/share/Trash/001_psql.vim
+	/home/marcosrdac/.config/nvim/colors/psql.vim
+t/home/marcosrdac/.local/share/Trash/001_putty.vim
+	/home/marcosrdac/.config/nvim/colors/putty.vim
+t/home/marcosrdac/.local/share/Trash/001_pw.vim
+	/home/marcosrdac/.config/nvim/colors/pw.vim
+t/home/marcosrdac/.local/share/Trash/001_pyte.vim
+	/home/marcosrdac/.config/nvim/colors/pyte.vim
+t/home/marcosrdac/.local/share/Trash/001_python.vim
+	/home/marcosrdac/.config/nvim/colors/python.vim
+t/home/marcosrdac/.local/share/Trash/001_quagmire.vim
+	/home/marcosrdac/.config/nvim/colors/quagmire.vim
+t/home/marcosrdac/.local/share/Trash/001_radicalgoodspeed.vim
+	/home/marcosrdac/.config/nvim/colors/radicalgoodspeed.vim
+t/home/marcosrdac/.local/share/Trash/001_railscasts.vim
+	/home/marcosrdac/.config/nvim/colors/railscasts.vim
+t/home/marcosrdac/.local/share/Trash/001_rainbow_fine_blue.vim
+	/home/marcosrdac/.config/nvim/colors/rainbow_fine_blue.vim
+t/home/marcosrdac/.local/share/Trash/001_rainbow_fruit.vim
+	/home/marcosrdac/.config/nvim/colors/rainbow_fruit.vim
+t/home/marcosrdac/.local/share/Trash/001_rainbow_neon.vim
+	/home/marcosrdac/.config/nvim/colors/rainbow_neon.vim
+t/home/marcosrdac/.local/share/Trash/001_random.vim
+	/home/marcosrdac/.config/nvim/colors/random.vim
+t/home/marcosrdac/.local/share/Trash/001_rastafari.vim
+	/home/marcosrdac/.config/nvim/colors/rastafari.vim
+t/home/marcosrdac/.local/share/Trash/001_rcg_gui.vim
+	/home/marcosrdac/.config/nvim/colors/rcg_gui.vim
+t/home/marcosrdac/.local/share/Trash/001_rcg_term.vim
+	/home/marcosrdac/.config/nvim/colors/rcg_term.vim
+t/home/marcosrdac/.local/share/Trash/001_rdark-terminal.vim
+	/home/marcosrdac/.config/nvim/colors/rdark-terminal.vim
+t/home/marcosrdac/.local/share/Trash/001_rdark.vim
+	/home/marcosrdac/.config/nvim/colors/rdark.vim
+t/home/marcosrdac/.local/share/Trash/001_redblack.vim
+	/home/marcosrdac/.config/nvim/colors/redblack.vim
+t/home/marcosrdac/.local/share/Trash/001_redstring.vim
+	/home/marcosrdac/.config/nvim/colors/redstring.vim
+t/home/marcosrdac/.local/share/Trash/001_refactor.vim
+	/home/marcosrdac/.config/nvim/colors/refactor.vim
+t/home/marcosrdac/.local/share/Trash/001_relaxedgreen.vim
+	/home/marcosrdac/.config/nvim/colors/relaxedgreen.vim
+t/home/marcosrdac/.local/share/Trash/001_reliable.vim
+	/home/marcosrdac/.config/nvim/colors/reliable.vim
+t/home/marcosrdac/.local/share/Trash/001_reloaded.vim
+	/home/marcosrdac/.config/nvim/colors/reloaded.vim
+t/home/marcosrdac/.local/share/Trash/001_revolutions.vim
+	/home/marcosrdac/.config/nvim/colors/revolutions.vim
+t/home/marcosrdac/.local/share/Trash/001_robinhood.vim
+	/home/marcosrdac/.config/nvim/colors/robinhood.vim
+t/home/marcosrdac/.local/share/Trash/001_rootwater.vim
+	/home/marcosrdac/.config/nvim/colors/rootwater.vim
+t/home/marcosrdac/.local/share/Trash/001_rtl.vim
+	/home/marcosrdac/.config/nvim/colors/rtl.vim
+t/home/marcosrdac/.local/share/Trash/001_sand.vim
+	/home/marcosrdac/.config/nvim/colors/sand.vim
+t/home/marcosrdac/.local/share/Trash/001_satori.vim
+	/home/marcosrdac/.config/nvim/colors/satori.vim
+t/home/marcosrdac/.local/share/Trash/001_saturn.vim
+	/home/marcosrdac/.config/nvim/colors/saturn.vim
+t/home/marcosrdac/.local/share/Trash/001_scala.vim
+	/home/marcosrdac/.config/nvim/colors/scala.vim
+t/home/marcosrdac/.local/share/Trash/001_scite.vim
+	/home/marcosrdac/.config/nvim/colors/scite.vim
+t/home/marcosrdac/.local/share/Trash/001_sea.vim
+	/home/marcosrdac/.config/nvim/colors/sea.vim
+t/home/marcosrdac/.local/share/Trash/001_sean.vim
+	/home/marcosrdac/.config/nvim/colors/sean.vim
+t/home/marcosrdac/.local/share/Trash/001_seashell.vim
+	/home/marcosrdac/.config/nvim/colors/seashell.vim
+t/home/marcosrdac/.local/share/Trash/001_selenitic.vim
+	/home/marcosrdac/.config/nvim/colors/selenitic.vim
+t/home/marcosrdac/.local/share/Trash/001_seoul.vim
+	/home/marcosrdac/.config/nvim/colors/seoul.vim
+t/home/marcosrdac/.local/share/Trash/001_seoul256-light.vim
+	/home/marcosrdac/.config/nvim/colors/seoul256-light.vim
+t/home/marcosrdac/.local/share/Trash/001_seoul256.vim
+	/home/marcosrdac/.config/nvim/colors/seoul256.vim
+t/home/marcosrdac/.local/share/Trash/001_settlemyer.vim
+	/home/marcosrdac/.config/nvim/colors/settlemyer.vim
+t/home/marcosrdac/.local/share/Trash/001_sexy-railscasts.vim
+	/home/marcosrdac/.config/nvim/colors/sexy-railscasts.vim
+t/home/marcosrdac/.local/share/Trash/001_sf.vim
+	/home/marcosrdac/.config/nvim/colors/sf.vim
+t/home/marcosrdac/.local/share/Trash/001_shadesofamber.vim
+	/home/marcosrdac/.config/nvim/colors/shadesofamber.vim
+t/home/marcosrdac/.local/share/Trash/001_shobogenzo.vim
+	/home/marcosrdac/.config/nvim/colors/shobogenzo.vim
+t/home/marcosrdac/.local/share/Trash/001_sienna.vim
+	/home/marcosrdac/.config/nvim/colors/sienna.vim
+t/home/marcosrdac/.local/share/Trash/001_sift.vim
+	/home/marcosrdac/.config/nvim/colors/sift.vim
+t/home/marcosrdac/.local/share/Trash/001_silent.vim
+	/home/marcosrdac/.config/nvim/colors/silent.vim
+t/home/marcosrdac/.local/share/Trash/001_simple256.vim
+	/home/marcosrdac/.config/nvim/colors/simple256.vim
+t/home/marcosrdac/.local/share/Trash/001_simple_b.vim
+	/home/marcosrdac/.config/nvim/colors/simple_b.vim
+t/home/marcosrdac/.local/share/Trash/001_simpleandfriendly.vim
+	/home/marcosrdac/.config/nvim/colors/simpleandfriendly.vim
+t/home/marcosrdac/.local/share/Trash/001_simplewhite.vim
+	/home/marcosrdac/.config/nvim/colors/simplewhite.vim
+t/home/marcosrdac/.local/share/Trash/001_skittles_berry.vim
+	/home/marcosrdac/.config/nvim/colors/skittles_berry.vim
+t/home/marcosrdac/.local/share/Trash/001_skittles_dark.vim
+	/home/marcosrdac/.config/nvim/colors/skittles_dark.vim
+t/home/marcosrdac/.local/share/Trash/001_smp.vim
+	/home/marcosrdac/.config/nvim/colors/smp.vim
+t/home/marcosrdac/.local/share/Trash/001_smyck.vim
+	/home/marcosrdac/.config/nvim/colors/smyck.vim
+t/home/marcosrdac/.local/share/Trash/001_softblue.vim
+	/home/marcosrdac/.config/nvim/colors/softblue.vim
+t/home/marcosrdac/.local/share/Trash/001_softbluev2.vim
+	/home/marcosrdac/.config/nvim/colors/softbluev2.vim
+t/home/marcosrdac/.local/share/Trash/001_softlight.vim
+	/home/marcosrdac/.config/nvim/colors/softlight.vim
+t/home/marcosrdac/.local/share/Trash/001_sol-term.vim
+	/home/marcosrdac/.config/nvim/colors/sol-term.vim
+t/home/marcosrdac/.local/share/Trash/001_sol.vim
+	/home/marcosrdac/.config/nvim/colors/sol.vim
+t/home/marcosrdac/.local/share/Trash/001_solarized.vim
+	/home/marcosrdac/.config/nvim/colors/solarized.vim
+t/home/marcosrdac/.local/share/Trash/001_sonofobsidian.vim
+	/home/marcosrdac/.config/nvim/colors/sonofobsidian.vim
+t/home/marcosrdac/.local/share/Trash/001_sonoma.vim
+	/home/marcosrdac/.config/nvim/colors/sonoma.vim
+t/home/marcosrdac/.local/share/Trash/001_sorcerer.vim
+	/home/marcosrdac/.config/nvim/colors/sorcerer.vim
+t/home/marcosrdac/.local/share/Trash/001_soso.vim
+	/home/marcosrdac/.config/nvim/colors/soso.vim
+t/home/marcosrdac/.local/share/Trash/001_southernlights.vim
+	/home/marcosrdac/.config/nvim/colors/southernlights.vim
+t/home/marcosrdac/.local/share/Trash/001_southwest-fog.vim
+	/home/marcosrdac/.config/nvim/colors/southwest-fog.vim
+t/home/marcosrdac/.local/share/Trash/001_spectro.vim
+	/home/marcosrdac/.config/nvim/colors/spectro.vim
+t/home/marcosrdac/.local/share/Trash/000_spiderhawk.vim
+	/home/marcosrdac/.config/nvim/colors/spiderhawk.vim
+t/home/marcosrdac/.local/share/Trash/001_spring.vim
+	/home/marcosrdac/.config/nvim/colors/spring.vim
+t/home/marcosrdac/.local/share/Trash/001_stackoverflow.vim
+	/home/marcosrdac/.config/nvim/colors/stackoverflow.vim
+t/home/marcosrdac/.local/share/Trash/001_stingray.vim
+	/home/marcosrdac/.config/nvim/colors/stingray.vim
+t/home/marcosrdac/.local/share/Trash/001_strange.vim
+	/home/marcosrdac/.config/nvim/colors/strange.vim
+t/home/marcosrdac/.local/share/Trash/001_strawimodo.vim
+	/home/marcosrdac/.config/nvim/colors/strawimodo.vim
+t/home/marcosrdac/.local/share/Trash/001_summerfruit.vim
+	/home/marcosrdac/.config/nvim/colors/summerfruit.vim
+t/home/marcosrdac/.local/share/Trash/001_summerfruit256.vim
+	/home/marcosrdac/.config/nvim/colors/summerfruit256.vim
+t/home/marcosrdac/.local/share/Trash/001_surveyor.vim
+	/home/marcosrdac/.config/nvim/colors/surveyor.vim
+t/home/marcosrdac/.local/share/Trash/001_swamplight.vim
+	/home/marcosrdac/.config/nvim/colors/swamplight.vim
+t/home/marcosrdac/.local/share/Trash/001_symfony.vim
+	/home/marcosrdac/.config/nvim/colors/symfony.vim
+t/home/marcosrdac/.local/share/Trash/001_synic.vim
+	/home/marcosrdac/.config/nvim/colors/synic.vim
+t/home/marcosrdac/.local/share/Trash/001_tabula.vim
+	/home/marcosrdac/.config/nvim/colors/tabula.vim
+t/home/marcosrdac/.local/share/Trash/001_tango-desert.vim
+	/home/marcosrdac/.config/nvim/colors/tango-desert.vim
+t/home/marcosrdac/.local/share/Trash/001_tango-morning.vim
+	/home/marcosrdac/.config/nvim/colors/tango-morning.vim
+t/home/marcosrdac/.local/share/Trash/001_tango.vim
+	/home/marcosrdac/.config/nvim/colors/tango.vim
+t/home/marcosrdac/.local/share/Trash/001_tango2.vim
+	/home/marcosrdac/.config/nvim/colors/tango2.vim
+t/home/marcosrdac/.local/share/Trash/001_tangoX.vim
+	/home/marcosrdac/.config/nvim/colors/tangoX.vim
+t/home/marcosrdac/.local/share/Trash/001_tangoshady.vim
+	/home/marcosrdac/.config/nvim/colors/tangoshady.vim
+t/home/marcosrdac/.local/share/Trash/001_taqua.vim
+	/home/marcosrdac/.config/nvim/colors/taqua.vim
+t/home/marcosrdac/.local/share/Trash/001_tchaba.vim
+	/home/marcosrdac/.config/nvim/colors/tchaba.vim
+t/home/marcosrdac/.local/share/Trash/001_tchaba2.vim
+	/home/marcosrdac/.config/nvim/colors/tchaba2.vim
+t/home/marcosrdac/.local/share/Trash/001_tcsoft.vim
+	/home/marcosrdac/.config/nvim/colors/tcsoft.vim
+t/home/marcosrdac/.local/share/Trash/001_telstar.vim
+	/home/marcosrdac/.config/nvim/colors/telstar.vim
+t/home/marcosrdac/.local/share/Trash/001_tesla.vim
+	/home/marcosrdac/.config/nvim/colors/tesla.vim
+t/home/marcosrdac/.local/share/Trash/001_tetragrammaton.vim
+	/home/marcosrdac/.config/nvim/colors/tetragrammaton.vim
+t/home/marcosrdac/.local/share/Trash/001_textmate16.vim
+	/home/marcosrdac/.config/nvim/colors/textmate16.vim
+t/home/marcosrdac/.local/share/Trash/001_thegoodluck.vim
+	/home/marcosrdac/.config/nvim/colors/thegoodluck.vim
+t/home/marcosrdac/.local/share/Trash/001_thestars.vim
+	/home/marcosrdac/.config/nvim/colors/thestars.vim
+t/home/marcosrdac/.local/share/Trash/001_thor.vim
+	/home/marcosrdac/.config/nvim/colors/thor.vim
+t/home/marcosrdac/.local/share/Trash/001_tibet.vim
+	/home/marcosrdac/.config/nvim/colors/tibet.vim
+t/home/marcosrdac/.local/share/Trash/001_tidy.vim
+	/home/marcosrdac/.config/nvim/colors/tidy.vim
+t/home/marcosrdac/.local/share/Trash/001_tir_black.vim
+	/home/marcosrdac/.config/nvim/colors/tir_black.vim
+t/home/marcosrdac/.local/share/Trash/001_tolerable.vim
+	/home/marcosrdac/.config/nvim/colors/tolerable.vim
+t/home/marcosrdac/.local/share/Trash/001_tomatosoup.vim
+	/home/marcosrdac/.config/nvim/colors/tomatosoup.vim
+t/home/marcosrdac/.local/share/Trash/001_tony_light.vim
+	/home/marcosrdac/.config/nvim/colors/tony_light.vim
+t/home/marcosrdac/.local/share/Trash/001_toothpik.vim
+	/home/marcosrdac/.config/nvim/colors/toothpik.vim
+t/home/marcosrdac/.local/share/Trash/001_torte.vim
+	/home/marcosrdac/.config/nvim/colors/torte.vim
+t/home/marcosrdac/.local/share/Trash/001_transparent.vim
+	/home/marcosrdac/.config/nvim/colors/transparent.vim
+t/home/marcosrdac/.local/share/Trash/001_trivial256.vim
+	/home/marcosrdac/.config/nvim/colors/trivial256.vim
+t/home/marcosrdac/.local/share/Trash/001_trogdor.vim
+	/home/marcosrdac/.config/nvim/colors/trogdor.vim
+t/home/marcosrdac/.local/share/Trash/001_turbo.vim
+	/home/marcosrdac/.config/nvim/colors/turbo.vim
+t/home/marcosrdac/.local/share/Trash/001_tutticolori.vim
+	/home/marcosrdac/.config/nvim/colors/tutticolori.vim
+t/home/marcosrdac/.local/share/Trash/001_twilight.vim
+	/home/marcosrdac/.config/nvim/colors/twilight.vim
+t/home/marcosrdac/.local/share/Trash/001_twilight256.vim
+	/home/marcosrdac/.config/nvim/colors/twilight256.vim
+t/home/marcosrdac/.local/share/Trash/001_twitchy.vim
+	/home/marcosrdac/.config/nvim/colors/twitchy.vim
+t/home/marcosrdac/.local/share/Trash/001_two2tango.vim
+	/home/marcosrdac/.config/nvim/colors/two2tango.vim
+t/home/marcosrdac/.local/share/Trash/001_ubloh.vim
+	/home/marcosrdac/.config/nvim/colors/ubloh.vim
+t/home/marcosrdac/.local/share/Trash/001_umber-green.vim
+	/home/marcosrdac/.config/nvim/colors/umber-green.vim
+t/home/marcosrdac/.local/share/Trash/001_understated.vim
+	/home/marcosrdac/.config/nvim/colors/understated.vim
+t/home/marcosrdac/.local/share/Trash/001_underwater-mod.vim
+	/home/marcosrdac/.config/nvim/colors/underwater-mod.vim
+t/home/marcosrdac/.local/share/Trash/001_underwater.vim
+	/home/marcosrdac/.config/nvim/colors/underwater.vim
+t/home/marcosrdac/.local/share/Trash/001_up.vim
+	/home/marcosrdac/.config/nvim/colors/up.vim
+t/home/marcosrdac/.local/share/Trash/001_vanzan_color.vim
+	/home/marcosrdac/.config/nvim/colors/vanzan_color.vim
+t/home/marcosrdac/.local/share/Trash/001_vc.vim
+	/home/marcosrdac/.config/nvim/colors/vc.vim
+t/home/marcosrdac/.local/share/Trash/001_vcbc.vim
+	/home/marcosrdac/.config/nvim/colors/vcbc.vim
+t/home/marcosrdac/.local/share/Trash/001_vexorian.vim
+	/home/marcosrdac/.config/nvim/colors/vexorian.vim
+t/home/marcosrdac/.local/share/Trash/001_vibrantink.vim
+	/home/marcosrdac/.config/nvim/colors/vibrantink.vim
+t/home/marcosrdac/.local/share/Trash/001_vilight.vim
+	/home/marcosrdac/.config/nvim/colors/vilight.vim
+t/home/marcosrdac/.local/share/Trash/001_visualstudio.vim
+	/home/marcosrdac/.config/nvim/colors/visualstudio.vim
+t/home/marcosrdac/.local/share/Trash/001_vividchalk.vim
+	/home/marcosrdac/.config/nvim/colors/vividchalk.vim
+t/home/marcosrdac/.local/share/Trash/001_vj.vim
+	/home/marcosrdac/.config/nvim/colors/vj.vim
+t/home/marcosrdac/.local/share/Trash/001_void.vim
+	/home/marcosrdac/.config/nvim/colors/void.vim
+t/home/marcosrdac/.local/share/Trash/001_vydark.vim
+	/home/marcosrdac/.config/nvim/colors/vydark.vim
+t/home/marcosrdac/.local/share/Trash/001_vylight.vim
+	/home/marcosrdac/.config/nvim/colors/vylight.vim
+t/home/marcosrdac/.local/share/Trash/001_wal.vim
+	/home/marcosrdac/.config/nvim/colors/wal.vim
+t/home/marcosrdac/.local/share/Trash/001_wargrey.vim
+	/home/marcosrdac/.config/nvim/colors/wargrey.vim
+t/home/marcosrdac/.local/share/Trash/001_warm_grey.vim
+	/home/marcosrdac/.config/nvim/colors/warm_grey.vim
+t/home/marcosrdac/.local/share/Trash/001_watermark.vim
+	/home/marcosrdac/.config/nvim/colors/watermark.vim
+t/home/marcosrdac/.local/share/Trash/001_whitebox.vim
+	/home/marcosrdac/.config/nvim/colors/whitebox.vim
+t/home/marcosrdac/.local/share/Trash/001_whitedust.vim
+	/home/marcosrdac/.config/nvim/colors/whitedust.vim
+t/home/marcosrdac/.local/share/Trash/001_widower.vim
+	/home/marcosrdac/.config/nvim/colors/widower.vim
+t/home/marcosrdac/.local/share/Trash/001_win9xblueback.vim
+	/home/marcosrdac/.config/nvim/colors/win9xblueback.vim
+t/home/marcosrdac/.local/share/Trash/001_winter.vim
+	/home/marcosrdac/.config/nvim/colors/winter.vim
+t/home/marcosrdac/.local/share/Trash/001_wintersday.vim
+	/home/marcosrdac/.config/nvim/colors/wintersday.vim
+t/home/marcosrdac/.local/share/Trash/001_wombat.vim
+	/home/marcosrdac/.config/nvim/colors/wombat.vim
+t/home/marcosrdac/.local/share/Trash/001_wombat256.vim
+	/home/marcosrdac/.config/nvim/colors/wombat256.vim
+t/home/marcosrdac/.local/share/Trash/001_wombat256i.vim
+	/home/marcosrdac/.config/nvim/colors/wombat256i.vim
+t/home/marcosrdac/.local/share/Trash/001_wombat256mod.vim
+	/home/marcosrdac/.config/nvim/colors/wombat256mod.vim
+t/home/marcosrdac/.local/share/Trash/001_wood.vim
+	/home/marcosrdac/.config/nvim/colors/wood.vim
+t/home/marcosrdac/.local/share/Trash/001_wuye.vim
+	/home/marcosrdac/.config/nvim/colors/wuye.vim
+t/home/marcosrdac/.local/share/Trash/001_xemacs.vim
+	/home/marcosrdac/.config/nvim/colors/xemacs.vim
+t/home/marcosrdac/.local/share/Trash/001_xian.vim
+	/home/marcosrdac/.config/nvim/colors/xian.vim
+t/home/marcosrdac/.local/share/Trash/001_xmaslights.vim
+	/home/marcosrdac/.config/nvim/colors/xmaslights.vim
+t/home/marcosrdac/.local/share/Trash/001_xoria256.vim
+	/home/marcosrdac/.config/nvim/colors/xoria256.vim
+t/home/marcosrdac/.local/share/Trash/001_xterm16.vim
+	/home/marcosrdac/.config/nvim/colors/xterm16.vim
+t/home/marcosrdac/.local/share/Trash/001_yaml.vim
+	/home/marcosrdac/.config/nvim/colors/yaml.vim
+t/home/marcosrdac/.local/share/Trash/001_yeller.vim
+	/home/marcosrdac/.config/nvim/colors/yeller.vim
+t/home/marcosrdac/.local/share/Trash/001_zazen.vim
+	/home/marcosrdac/.config/nvim/colors/zazen.vim
+t/home/marcosrdac/.local/share/Trash/001_zen.vim
+	/home/marcosrdac/.config/nvim/colors/zen.vim
+t/home/marcosrdac/.local/share/Trash/001_zenburn.vim
+	/home/marcosrdac/.config/nvim/colors/zenburn.vim
+t/home/marcosrdac/.local/share/Trash/001_zenesque.vim
+	/home/marcosrdac/.config/nvim/colors/zenesque.vim
+t/home/marcosrdac/.local/share/Trash/001_zephyr.vim
+	/home/marcosrdac/.config/nvim/colors/zephyr.vim
+t/home/marcosrdac/.local/share/Trash/001_zmrok.vim
+	/home/marcosrdac/.config/nvim/colors/zmrok.vim
 
 # State:
 f
