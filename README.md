@@ -46,7 +46,7 @@ ACTION=="change", SUBSYSTEM=="backlight", RUN+="/usr/bin/chgrp video /sys/class/
 ACTION=="change", SUBSYSTEM=="backlight", RUN+="/usr/bin/chmod g+w /sys/class/backlight/%k/brightness"
 ```
 
-And add your user to the video group, so that you can use brightnessctl:
+And add your user to the video group, so that you can use brightnessctl (it's the secure way):
 
 ```shell
 sudo usermod -a -G video $USER

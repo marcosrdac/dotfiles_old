@@ -105,3 +105,4 @@ firefox trydactyl https://github.com/tridactyl/tridactyl
 icons home moving share https://unix.stackexchange.com/questions/404955/is-there-a-home-directory-location-for-overriding-icons
 defaults xdg path https://wiki.archlinux.org/index.php/XDG_Base_Directory
 github marcosrdac https://github.com/marcosrdac
+stow dotfiles https://www.gnu.org/software/stow/

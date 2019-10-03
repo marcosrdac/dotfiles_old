@@ -1,7 +1,7 @@
 # GIMP user context
 
-(tool "gimp-eraser-tool")
-(paint-info "gimp-eraser")
+(tool "gimp-operation-tool")
+(paint-info "gimp-paintbrush")
 (foreground (color-rgb 1.000000 1.000000 1.000000))
 (background (color-rgb 0.000000 0.000000 0.000000))
 (brush "2. Hardness 100")
@@ -9,7 +9,7 @@
 (mybrush "Standard")
 (pattern "Slate")
 (gradient "Abstract 1")
-(palette "sgf")
+(palette "[house_backyard_homey] (imported)-5")
 (font "URW Gothic")
 (tool-preset "Core Pointer")
 

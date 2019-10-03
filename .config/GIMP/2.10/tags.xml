@@ -1181,7 +1181,16 @@
   <resource identifier="gimp-palette-color-history" checksum="9e029edc2458284cfa8f2ab5d0afc09a">
   </resource>
 
+  <resource identifier="${gimp_dir}/palettes/[dog_boy_rosed_eyes_sunset]-(imported)-3.gpl" checksum="e097a9d1eb0b4fb14e8f4d26fb16fb25">
+  </resource>
+
+  <resource identifier="${gimp_dir}/palettes/[house_backyard_homey]-(imported)-5.gpl" checksum="22d30931617162bc1cb04e427a88adcf">
+  </resource>
+
   <resource identifier="${gimp_dir}/palettes/sgf.gpl" checksum="cbb8e2e9aa240323a904ddb3865d5e7b">
+  </resource>
+
+  <resource identifier="${gimp_dir}/palettes/Untitled.gpl" checksum="(null)">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1388,9 +1397,6 @@
   <resource identifier="Alien Mushrooms" checksum="(null)">
   </resource>
 
-  <resource identifier="Andale Mono" checksum="(null)">
-  </resource>
-
   <resource identifier="AurulentSansMono Nerd Font" checksum="(null)">
   </resource>
 
@@ -1526,12 +1532,6 @@
   <resource identifier="D050000L" checksum="(null)">
   </resource>
 
-  <resource identifier="Datel Replay" checksum="(null)">
-  </resource>
-
-  <resource identifier="Datel Tribute" checksum="(null)">
-  </resource>
-
   <resource identifier="DEC Terminal" checksum="(null)">
   </resource>
 
@@ -1616,9 +1616,6 @@
   <resource identifier="DroidSansMono NF" checksum="(null)">
   </resource>
 
-  <resource identifier="Envy Code B 10pt" checksum="(null)">
-  </resource>
-
   <resource identifier="Envy Code R" checksum="(null)">
   </resource>
 
@@ -1655,9 +1652,6 @@
   <resource identifier="Fira Mono Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Fixedsys Excelsior 3.01," checksum="(null)">
-  </resource>
-
   <resource identifier="Font Awesome 5 Brands" checksum="(null)">
   </resource>
 
@@ -1665,9 +1659,6 @@
   </resource>
 
   <resource identifier="Font Awesome 5 Free" checksum="(null)">
-  </resource>
-
-  <resource identifier="FontForge ProggyTinySZ Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Fontin Bold" checksum="(null)">
@@ -2867,132 +2858,6 @@
   <resource identifier="Press Style Serif" checksum="(null)">
   </resource>
 
-  <resource identifier="ProgCleanCo" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyClean" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanCP" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanCP.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyClean.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanSZ" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanSZBP" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanSZBP.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanSZCP" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanSZCP.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanSZ.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyClean Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanTT" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanTT CE" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanTTSZ" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCleanTTSZBP" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyCrossed" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyDotted" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySmall" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySmall.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySmall Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySmallTT" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySquare" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySquareBP" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySquare.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySquareSZ" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySquareSZ.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySquare Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySquareTT" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggySquareTTSZ" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyTiny" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyTinyBP" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyTiny.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyTinySZ" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyTinySZ.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyTiny Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyTinyTT" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyTinyTTSZ" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProggyVector" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProgSmallCo" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProgSquareCo" checksum="(null)">
-  </resource>
-
-  <resource identifier="ProgTinyCo" checksum="(null)">
-  </resource>
-
   <resource identifier="PUNKBABE" checksum="(null)">
   </resource>
 
@@ -3222,18 +3087,6 @@
   </resource>
 
   <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="WebbyCaps" checksum="(null)">
-  </resource>
-
-  <resource identifier="WebbyCaps.pcf" checksum="(null)">
-  </resource>
-
-  <resource identifier="WebbySmall" checksum="(null)">
-  </resource>
-
-  <resource identifier="WebbySmall.pcf" checksum="(null)">
   </resource>
 
   <resource identifier="Z003 Medium Italic" checksum="(null)">

@@ -11,8 +11,8 @@
     (size 1342 722))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 687 34)
-    (size 661 716)
+    (position 0 22)
+    (size 1366 746)
     (open-on-exit)
     (aux-info
         (left-docks-width "58")
@@ -23,7 +23,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 0)
+            (current-page 2)
             (dockable "gimp-tool-options"
                 (tab-style preview)
                 (aux-info
@@ -41,7 +41,7 @@
                 (aux-info
                     (show-button-bar "true")
                     (edit-active "true")
-                    (current-data "sgf")
+                    (current-data "[house_backyard_homey] (imported)-5")
                     (zoom-factor "3.90")))
             (dockable "gimp-brush-grid"
                 (tab-style preview)
@@ -134,11 +134,11 @@
     (position 227 179))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 772 82)
-    (size 385 540))
+    (position 767 77)
+    (size 398 554))
 (session-info "toplevel"
     (factory-entry "gimp-palette-import-dialog")
-    (position 740 30)
+    (position 730 20)
     (size 608 449))
 (session-info "toplevel"
     (factory-entry "gimp-brightness-contrast-tool-dialog")
@@ -183,7 +183,7 @@
     (position 468 254))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-location-dialog")
-    (position 110 48))
+    (position 80 18))
 (session-info "toplevel"
     (factory-entry "gimp-action-search-dialog")
     (position 1144 593)

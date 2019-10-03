@@ -5,7 +5,7 @@
 (brush "2. Hardness 100")
 (dynamics "Dynamics Off")
 (pattern "Slate")
-(palette "sgf")
+(palette "[house_backyard_homey] (imported)-5")
 (brush-size 32.000000)
 (brush-force 0.733000)
 
