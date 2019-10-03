@@ -1,11 +1,11 @@
 # GIMP action-history
 
-(history-item "tools-size-increase" 5)
+(history-item "file-quit" 5)
+(history-item "tools-size-increase" 4)
 (history-item "edit-clear" 0)
 (history-item "tools-size-decrease" 4)
 (history-item "edit-copy" 0)
-(history-item "edit-paste" 0)
-(history-item "file-quit" 1)
+(history-item "edit-paste" 1)
 (history-item "tools-rect-select" 3)
 (history-item "tools-bucket-fill" 1)
 (history-item "select-none" 1)

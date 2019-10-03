@@ -123,253 +123,13 @@
 # TUI:
 ar
 q0
-v1
+v2
 ov
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/Dropbox
-	dotfiles
-9
-d/home/marcosrdac/Dropbox/dotfiles
-	.local
-7
-d/home/marcosrdac/Dropbox/dotfiles/.local
-	share
-2
-d/home/marcosrdac/Dropbox/dotfiles/.local/share
-	themes
-4
-d/home/marcosrdac/Dropbox/dotfiles/.local/share/themes
-	..
-0
-d/home/marcosrdac/Dropbox/dotfiles/.local/share
-	themes
-4
-d/home/marcosrdac/Dropbox/dotfiles/.local
-	share
-2
-d/home/marcosrdac
-	.dmrc
-23
-d/home/marcosrdac/.config
-	shell
-20
-d/home/marcosrdac/.config/shell
-	shenv
-7
-d/home/marcosrdac/.local
-	share
-3
-d/home/marcosrdac/projects
-	site
-37
-d/home/marcosrdac/projects/site
-	marcosrdac.github.io
-3
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	maker.py
-8
-d/home/marcosrdac
-	tmp
-12
-d/home/marcosrdac/tmp
-	ggs
-4
-d/home/marcosrdac/projects
-	student_chapter
-37
-d/home/marcosrdac/projects/student_chapter
-	semana_de_geofisica
-5
-d/home/marcosrdac/projects/student_chapter/semana_de_geofisica
-	2019
-2
-d/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019
-	..
-0
-d/home/marcosrdac
-	.fehbg
-28
-d/home/marcosrdac/Dropbox
-	dotfiles
-9
-d/home/marcosrdac/Dropbox/dotfiles/.config
-	mimeapps.list
-38
-d/home/marcosrdac/Dropbox/dotfiles
-	..
-0
-d/home/marcosrdac/.config
-	shell
-24
-d/home/marcosrdac/.config/shell
-	..
-0
-d/home/marcosrdac
-	.fehbg
-28
-d/home/marcosrdac/.local
-	share
-3
-d/home/marcosrdac/.local/share
-	applications
-3
-d/home/marcosrdac/.local/share/applications
-	..
-0
-d/home/marcosrdac/.local/share
-	applications
-3
-d/home/marcosrdac/.local
-	share
-3
-d/home/marcosrdac
-	.local
-0
-d/home/marcosrdac/Dropbox/dotfiles/.config
-	dunst
-6
-d/home/marcosrdac/Dropbox/dotfiles/.config/dunst
-	dunstrc
-1
-d/home/marcosrdac/Dropbox/dotfiles/.config
-	dunst
-6
-d/home/marcosrdac/Dropbox/dotfiles/.config/dunst
-	dunstrc_modify
-3
-d/home/marcosrdac/Dropbox/dotfiles/.config
-	i3
-8
-d/home/marcosrdac/Dropbox/dotfiles
-	.calcurse
-4
-d/home/marcosrdac/Dropbox/dotfiles/.calcurse
-	..
-0
-d/home/marcosrdac/Dropbox/dotfiles
-	.calcurse
-4
-d/home/marcosrdac
-	.local
-6
-d/home/marcosrdac/.local
-	share
-3
-d/home/marcosrdac
-	.themes
-10
-d/home/marcosrdac/.themes
-	FlatColor
-1
-d/home/marcosrdac
-	databases-incognito
-16
-d/home/marcosrdac/databases-incognito
-	0
-1
-d/home/marcosrdac/databases-incognito/0
-	..
-0
-d/home/marcosrdac/databases-incognito
-	0
-1
-d/home/marcosrdac
-	.icons
-5
-d/home/marcosrdac/.icons
-	default
-1
-d/home/marcosrdac/.icons/default
-	index.theme
-1
-d/home/marcosrdac/.icons
-	default
-1
-d/home/marcosrdac
-	.mozilla
-7
-d/home/marcosrdac/.mozilla
-	..
-0
-d/home/marcosrdac
-	Dropbox_
-2
-d/home/marcosrdac/Dropbox_
-	..
-0
-d/home/marcosrdac
-	Dropbox_
-2
-d/home/marcosrdac/.config
-	htop
-15
-d/home/marcosrdac/.config/htop
-	htoprc
-1
-d/home/marcosrdac/.config
-	htop
-15
-d/home/marcosrdac
-	..
-0
-d/home
-	marcosrdac
-2
-d/home/marcosrdac
-	..
-0
-d/home
-	marcosrdac
-2
-d/home/marcosrdac/projects/nex
-	merg_dina
-9
-d/home/marcosrdac/.config
-	i3
-15
-d/home/marcosrdac/Dropbox/dotfiles/.config
-	..
-0
-d/
-	mnt
-9
-d/mnt
-	fd1
-1
-d/mnt/fd1
-	Lost.Highway.1997.srt
-2
-d/mnt
-	fd1
-1
-d/mnt/fd1
-	swotsimulator
-2
-d/mnt/fd1/swotsimulator
-	..
-0
-d/mnt/fd1
-	swotsimulator
-2
-d/mnt
-	fd1
-1
-d/mnt/fd1
-	..
-0
-d/mnt
-	fd1
-1
-d/mnt/fd1
-	..
-0
-d/mnt
-	fd2
-2
 d/mnt/fd2
 	..
 0
@@ -428,314 +188,555 @@ d/home/marcosrdac/tmp
 	fonts
 3
 d/home/marcosrdac/tmp/fonts
+	Datel Tribute.zip
+3
+d/home/marcosrdac
+	dotfiles
+7
+d/home/marcosrdac/dotfiles
+	.BACKUP
+1
+d/home/marcosrdac
+	dotfiles
+16
+d/home/marcosrdac/dotfiles
+	.BACKUP
+1
+d/home/marcosrdac
+	.dotfiles
+3
+d/home/marcosrdac/.dotfiles
+	.config
+3
+d/home/marcosrdac/documents
 	..
 0
+d/home/marcosrdac/Dropbox
+	dotfiles
+9
+d/home/marcosrdac/Dropbox/dotfiles
+	.calcurse
+3
+d/home/marcosrdac/Dropbox
+	dotfiles
+9
+d/home/marcosrdac/Dropbox/dotfiles
+	.icons
+5
+d/home/marcosrdac/Dropbox
+	dotfiles
+9
+d/home/marcosrdac/Dropbox/dotfiles
+	.icons
+5
+d/home/marcosrdac/Dropbox
+	dotfiles
+9
+d/home/marcosrdac/Dropbox/dotfiles
+	.calcurse
+3
+d/home/marcosrdac
+	.dotfiles
+3
+d/home/marcosrdac/.dotfiles
+	.config
+3
+d/home/marcosrdac/.dotfiles/.config
+	..
+0
+d/home/marcosrdac/.dotfiles
+	.BACKUP
+1
+d/home/marcosrdac/.dotfiles/.BACKUP
+	.config
+2
+d/home/marcosrdac/.dotfiles/.BACKUP/.config
+	cmus
+1
+d/home/marcosrdac/.dotfiles/.BACKUP/.config/cmus
+	..
+0
+d/home/marcosrdac/.dotfiles/.BACKUP/.config
+	cmus
+1
+d/home/marcosrdac/.dotfiles/.BACKUP
+	.config
+2
+d/home/marcosrdac/.dotfiles
+	.config
+3
+d/home/marcosrdac/.dotfiles/.config
+	keepassx
+8
+d/home/marcosrdac/.dotfiles/.config/keepassx
+	..
+0
+d/home/marcosrdac/.dotfiles/.config
+	keepmenu
+9
+d/home/marcosrdac/.dotfiles/.config/keepmenu
+	..
+0
+d/home/marcosrdac/.dotfiles/.config
+	keepmenu
+9
+d/home/marcosrdac/.dotfiles
+	.cache
+2
+d/home/marcosrdac/.dotfiles/.cache
+	python
+1
+d/home/marcosrdac/.dotfiles/.cache/python
+	..
+0
+d/home/marcosrdac/.dotfiles/.cache
+	python
+1
+d/home/marcosrdac/.dotfiles
+	.cache
+2
+d/home/marcosrdac/.dotfiles/.cache
+	python
+1
+d/home/marcosrdac/.dotfiles/.cache/python
+	..
+0
+d/home/marcosrdac/.dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/.dotfiles
+	.config
+3
+d/home/marcosrdac/.dotfiles/.config
+	pythonstartup.py
+33
+d/home/marcosrdac/.dotfiles
+	.icons
+5
+d/home/marcosrdac/.dotfiles/.icons
+	flattrcolor-dark
+4
+d/home/marcosrdac/.dotfiles
+	.local
+6
+d/home/marcosrdac/.dotfiles/.local
+	share
+2
+d/home/marcosrdac/.dotfiles/.local/share
+	themes
+4
+d/home/marcosrdac/.dotfiles/.local/share/themes
+	color_other
+2
+d/home/marcosrdac
+	.local
+6
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	dmenu
+1
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	dmenu
+1
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac
+	.local
+6
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	dmenu
+1
+d/home/marcosrdac/.local
+	share
+3
+d/home/marcosrdac/.local/share
+	Trash
+2
+d/home/marcosrdac
+	.local
+6
+d/home/marcosrdac/.local
+	share
+3
+d/home/marcosrdac/.local/share
+	vifm
+14
+d/home/marcosrdac/.local
+	share
+3
+d/home/marcosrdac
+	.local
+6
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	i3bar
+2
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac
+	trash
+22
+d/home/marcosrdac/trash
+	..
+0
+d/home/marcosrdac
+	trash
+22
+d/home/marcosrdac/trash
+	..
+0
+d/home/marcosrdac
+	wallpapers
+23
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	cibernetic_relief_vaporwave.jpg
+6
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac
+	wallpapers
+23
+d/home/marcosrdac/wallpapers
+	.ipynb_checkpoints
+1
+d/home/marcosrdac
+	.local
+6
+d/home/marcosrdac/.local
+	share
+3
+d/home/marcosrdac/.local/share
+	vifm
+14
+d/home/marcosrdac/wallpapers
+	favorites
+3
+d/home/marcosrdac/wallpapers/favorites
+	cibernetic_relief_vaporwave.jpg
+6
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	schemegen
-11
-D/home/marcosrdac/Dropbox/dotfiles/.config/schemegen
-	coloranalyze_cie2000.py
-4
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	shell
-10
-D/home/marcosrdac/Dropbox/dotfiles/.config/shell
-	commonrc
-6
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	smplayer
-11
-D/home/marcosrdac/Dropbox/dotfiles/.config/smplayer
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	st
-10
-D/home/marcosrdac/Dropbox/dotfiles/.config/st
-	x.o
-11
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	stardict
-11
-D/home/marcosrdac/Dropbox/dotfiles/.config/stardict
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	stardict
-11
-D/home/marcosrdac/Dropbox/dotfiles/.config/stardict
-	history
-2
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	schemegen
-19
-D/home/marcosrdac/.config
-	shell
-34
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	transmission-daemon
-25
-D/home/marcosrdac/Dropbox/dotfiles/.config/transmission-daemon
-	settings.json.bak
-6
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	urlscan
-26
-D/home/marcosrdac/Dropbox/dotfiles/.config/urlscan
-	config.json
-1
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	vifm
-27
-D/home/marcosrdac/Dropbox/dotfiles/.config/vifm
-	vifmrc
-5
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	wal
-13
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal
-	cache
-1
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal/cache
-	schemes
-1
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal/cache/schemes
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal/cache
-	schemes
-1
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal
-	colorschemes
-2
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal/colorschemes
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal
-	templates
+D/home/marcosrdac/.local
+	share
 3
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal/templates
-	colors
-2
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal
-	templates
-3
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	wal_steam
-13
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal_steam
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	wal_steam
-13
-D/home/marcosrdac/Dropbox/dotfiles/.config/wal_steam
-	wal_steam.conf
+D/home/marcosrdac/Dropbox
+	.config
 1
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	wpg
-13
-D/home/marcosrdac/Dropbox/dotfiles/.config/wpg
+D/home/marcosrdac/Dropbox/.config
 	..
 0
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	wpg
-13
-D/home/marcosrdac/Dropbox/dotfiles/.config/wpg
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	zathura
-13
-D/home/marcosrdac/Dropbox/dotfiles/.config/zathura
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	zsh
-13
-D/home/marcosrdac/Dropbox/dotfiles/.config/zsh
-	.zcompdump
-1
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	pythonstartup.py
-13
+D/home/marcosrdac/Dropbox
+	dotfiles
+9
 D/home/marcosrdac/Dropbox/dotfiles
 	.cache
 2
-D/home/marcosrdac/.config
-	shell
-34
-D/home/marcosrdac
-	.config
-2
-D/home/marcosrdac/.config
-	shell
-34
 D/home/marcosrdac
 	.cache
-1
+0
 D/home/marcosrdac/.cache
-	..
-0
+	terminal
+25
+D/home/marcosrdac/.config
+	Xresources
+4
 D/home/marcosrdac
-	.cache
+	.local
 1
-D/home
-	marcosrdac
+D/home/marcosrdac/.local
+	bin
+1
+D/home/marcosrdac/.local/bin
+	..
+0
+D/home/marcosrdac/.local
+	share
 3
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	pythonstartup.py
-34
-D/home/marcosrdac/Dropbox/dotfiles
-	.BACKUP
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP
-	.config
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	i3
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/i3
-	config.bak
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	i3
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles
-	.config
-4
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	podcast2playlist
-24
-D/home/marcosrdac/Dropbox/dotfiles/.config/podcast2playlist
-	README.md
-2
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	podcast2playlist
-24
-D/home/marcosrdac/Dropbox/dotfiles
-	.config
-4
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	shell
-21
-D/home/marcosrdac/Dropbox/dotfiles
-	.BACKUP
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP
-	.config
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	i3
-4
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/i3
-	config.bak
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	cmus
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP
-	.config
-1
-D/home/marcosrdac/Dropbox/dotfiles
-	.config
-4
-D/home/marcosrdac/Dropbox/dotfiles/.config
-	shell
-13
-D/home/marcosrdac/Dropbox/dotfiles
-	.BACKUP
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP
-	.config
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	cmus
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/cmus
-	playlists
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/cmus/playlists
-	default
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/cmus
-	playlist.pl
-8
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	compton
-2
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/compton
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	dwm
-3
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/dwm
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	dwm
-2
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/dwm
-	util.h
-13
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	parcellite
-5
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/parcellite
-	parcelliterc
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	ranger
-6
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/ranger
-	colorschemes
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/ranger/colorschemes
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/ranger
-	colorschemes
-1
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/ranger/colorschemes
-	..
-0
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/ranger
-	scope.sh
+D/home/marcosrdac/.local/share
+	icons
 7
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	mopidy
-4
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/mopidy
-	mopidy.conf
-3
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config
-	mopidy
-4
-D/home/marcosrdac/Dropbox/dotfiles/.BACKUP
-	.config
-1
-D/home/marcosrdac/Dropbox/dotfiles
-	.calcurse
+D/home/marcosrdac/.local/share/icons
+	..
+0
+D/home/marcosrdac/.local/share
+	mail
+7
+D/home/marcosrdac/.local
+	share
 3
 D/home/marcosrdac
-	.cache
+	.local
+1
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac
+	.local
+1
+D/home/marcosrdac/.local
+	bin
+1
+D/home/marcosrdac/.local/bin
+	..
+0
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/.local/share
+	mail
+7
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac
+	.virtualenvs
+8
+D/home/marcosrdac/.virtualenvs
+	get_env_details
+2
+D/home/marcosrdac
+	.virtualenvs
+8
+D/home/marcosrdac/.virtualenvs
+	get_env_details
+2
+D/home/marcosrdac
+	.local
+3
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/.local/share
+	themes
+12
+D/home/marcosrdac/.local/share/themes
+	..
+0
+D/home/marcosrdac/.local/share
+	vifm
+12
+D/home/marcosrdac
+	.mozilla
+4
+D/home/marcosrdac/.mozilla
+	..
+0
+D/home/marcosrdac
+	.local
+4
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/.local/share
+	themes
+13
+D/home/marcosrdac/.local/share/themes
+	
+13
+D/home/marcosrdac/.local/share
+	..
+0
+D/home/marcosrdac
+	.local
+4
+D/home/marcosrdac/.config
+	wpg
+37
+D/home/marcosrdac/.config/wpg
+	templates
+3
+D/home/marcosrdac/.config/wpg/templates
+	gtk2.base
+2
+D/home/marcosrdac/.config/wpg
+	samples
+1
+D/home/marcosrdac/.config/wpg/samples
+	..
+0
+D/home/marcosrdac/.config/wpg
+	samples
 1
 D/home/marcosrdac/.config
-	shell
+	InSilmaril
+2
+D/home/marcosrdac/.config/InSilmaril
+	..
+0
+D/home/marcosrdac/.config
+	InSilmaril
+2
+D/home/marcosrdac
+	.local
 5
-D/home/marcosrdac/.config/shell
-	shenv
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac
+	.local
 5
+D/home/marcosrdac/.local
+	bin
+1
+D/home/marcosrdac/.local/bin
+	wal_set
+27
+D/home/marcosrdac
+	.local
+5
+D/home/marcosrdac/.local
+	bin
+1
+D/home/marcosrdac
+	.local
+5
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/.local/share
+	themes
+13
+D/home/marcosrdac/.local/share/themes
+	FlatColor
+1
+D/home/marcosrdac/.local/share/themes/FlatColor
+	gtk-2.0
+1
+D/home/marcosrdac/.local/share/themes/FlatColor/gtk-2.0
+	gtkrc.base
+2
+D/home/marcosrdac/.local/share/themes/FlatColor
+	gtk-3.0
+2
+D/home/marcosrdac/.local/share/themes/FlatColor/gtk-3.0
+	..
+0
+D/home/marcosrdac/.local/share/themes/FlatColor
+	gtk-3.0
+2
+D/home/marcosrdac/.local/share/themes/FlatColor/gtk-3.0
+	..
+0
+D/home/marcosrdac/.local/share/themes/FlatColor
+	gtk-3.20
+3
+D/home/marcosrdac/.local/share/themes/FlatColor/gtk-3.20
+	..
+0
+D/home/marcosrdac/.local/share/themes/FlatColor
+	gtk-3.20
+3
+D/home/marcosrdac/.local/share/themes/FlatColor/gtk-3.20
+	..
+0
+D/home/marcosrdac/.local/share/themes/FlatColor
+	unity
+5
+D/home/marcosrdac/.local/share/themes/FlatColor/unity
+	..
+0
+D/home/marcosrdac/.local/share/themes/FlatColor
+	xfce-notify-4.0
+6
+D/home/marcosrdac/.local/share/themes/FlatColor/xfce-notify-4.0
+	..
+0
+D/home/marcosrdac/.local/share/themes/FlatColor
+	xfce-notify-4.0
+6
+D/home/marcosrdac/.local/share/themes/FlatColor/xfce-notify-4.0
+	gtkrc
+1
+D/home/marcosrdac/.local/share/themes/FlatColor
+	index.theme
+8
+D/home/marcosrdac/.local/share/themes
+	color_other
+2
+D/home/marcosrdac/.local/share/themes/color_other
+	..
+0
+D/home/marcosrdac/.local/share/themes
+	color_other
+2
+D/home/marcosrdac/.local/share
+	themes
+13
+D/home/marcosrdac/.local/share/themes
+	FlatColor
+1
+D/home/marcosrdac/.local/share/themes/FlatColor
+	index.theme
+8
+D/home/marcosrdac/.local/share/themes
+	FlatColor
+1
+D/home/marcosrdac/.local/share
+	themes
+13
+D/home/marcosrdac/.local/share/themes
+	color_other
+2
+D/home/marcosrdac/wallpapers
+	favorites
+3
+D/home/marcosrdac/wallpapers/favorites
+	dog_boy_rosed_eyes_sunset.jpg
+7
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac
+	.dotfiles
+1
+D/home/marcosrdac/.dotfiles
+	.local
+6
+D/home/marcosrdac/.dotfiles/.local
+	bin
+1
+D/home/marcosrdac/.dotfiles/.local/bin
+	dmenu
+1
+D/home/marcosrdac/.dotfiles/.local
+	share
+2
+D/home/marcosrdac/.dotfiles
+	.config
+3
+D/home/marcosrdac/.dotfiles/.config
+	..
+0
+D/home/marcosrdac
+	documents
+13
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac
+	.gtkrc-2.0
+26
 D
 
 # Command line history (oldest to newest):
+:!./maker.py
 :python maker.py
 :rum
 :!./sender.sh correções em "about"
@@ -816,6 +817,7 @@ D
 :sort
 :sort 
 :touch 
+:wq
 :enpty
 :empty
 :mkdir 
@@ -833,20 +835,19 @@ D
 :mkdir Envy Code B
 :mkdir "Envy Code B"
 :mkdir Datei Tribute
-:wq
 :q
-:mkdir .config
 
 # Search history (oldest to newest):
+/session
+/st
+/rea
 /xses
 /X
 /wjjjw
 /xse
-/cach
 /Xa
 /Xau
 /Xini
-/conf
 /xre
 /oiaaa
 /prof
@@ -876,9 +877,6 @@ D
 /start
 /star
 /xpro
-/wpg
-/the
-/theme
 /gim
 /seman
 /logo
@@ -894,8 +892,6 @@ D
 /.con
 /mime
 /app
-/dot
-/con
 /qute
 /ranger
 /wal
@@ -929,18 +925,24 @@ D
 /mega
 /fonts
 /tri
-/cac
+/git
+/dot
+/keep
+/conf
+/cach
+/gt
+/theme
+/ico
+/the
+/wpg
+/tgh
+/ite
 /loca
-/gi
-/pyt
-/python
-/cache
-/ter
-/BAC
-/tran
+/con
+/gtl
+/gtk
 
 # Prompt history (oldest to newest):
-prev_brasileira_de_ensino_de_fisica
 prbef
 pstrain_gauges
 pgauges
@@ -1040,11 +1042,12 @@ ptorrent.desktop
 pmovies
 pdm_mount_menu_
 pDatei Tribute
+p.gitignore_
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_tagged
+""/home/marcosrdac/.gtkrc-2.0
 
 # Directory stack (oldest to newest):
 
@@ -4909,6 +4912,46 @@ t/home/marcosrdac/.local/share/Trash/001_.arduino15
 	/home/marcosrdac/Dropbox/dotfiles/.arduino15
 t/home/marcosrdac/.local/share/Trash/000_.git
 	/home/marcosrdac/Dropbox/dotfiles/.git
+t/home/marcosrdac/.local/share/Trash/000_vim-keyboard.png
+	/home/marcosrdac/Dropbox/dotfiles/vim-keyboard.png
+t/home/marcosrdac/.local/share/Trash/001_.config
+	/home/marcosrdac/dotfiles/.config
+t/home/marcosrdac/.local/share/Trash/000_.fonts
+	/home/marcosrdac/dotfiles/.fonts
+t/home/marcosrdac/.local/share/Trash/003_.icons
+	/home/marcosrdac/dotfiles/.icons
+t/home/marcosrdac/.local/share/Trash/003_.themes
+	/home/marcosrdac/dotfiles/.themes
+t/home/marcosrdac/.local/share/Trash/000_.urxvt
+	/home/marcosrdac/dotfiles/.urxvt
+t/home/marcosrdac/.local/share/Trash/000_.vim
+	/home/marcosrdac/dotfiles/.vim
+t/home/marcosrdac/.local/share/Trash/000_Wallpapers
+	/home/marcosrdac/dotfiles/Wallpapers
+t/home/marcosrdac/.local/share/Trash/000_.Xresources
+	/home/marcosrdac/dotfiles/.Xresources
+t/home/marcosrdac/.local/share/Trash/000_.bashrc
+	/home/marcosrdac/dotfiles/.bashrc
+t/home/marcosrdac/.local/share/Trash/000_.fehbg
+	/home/marcosrdac/dotfiles/.fehbg
+t/home/marcosrdac/.local/share/Trash/000_.xinitrc
+	/home/marcosrdac/dotfiles/.xinitrc
+t/home/marcosrdac/.local/share/Trash/001_README.md
+	/home/marcosrdac/dotfiles/README.md
+t/home/marcosrdac/.local/share/Trash/000_chrome-bookmarks.html
+	/home/marcosrdac/dotfiles/chrome-bookmarks.html
+t/home/marcosrdac/.local/share/Trash/000_i3-gaps-install
+	/home/marcosrdac/dotfiles/i3-gaps-install
+t/home/marcosrdac/.local/share/Trash/000_i3-userguide.md
+	/home/marcosrdac/dotfiles/i3-userguide.md
+t/home/marcosrdac/.local/share/Trash/000_i3blocks-install
+	/home/marcosrdac/dotfiles/i3blocks-install
+t/home/marcosrdac/.local/share/Trash/000_laverna-physics-note.json
+	/home/marcosrdac/dotfiles/laverna-physics-note.json
+t/home/marcosrdac/.local/share/Trash/000_lightdmgreeterimage.jpg
+	/home/marcosrdac/dotfiles/lightdmgreeterimage.jpg
+t/home/marcosrdac/.local/share/Trash/001_vim-keyboard.png
+	/home/marcosrdac/dotfiles/vim-keyboard.png
 t/home/marcosrdac/.local/share/Trash/000_python
 	/home/marcosrdac/.local/share/python
 t/home/marcosrdac/.local/share/Trash/000_autosave (Marcos Reinan de Assis Conceição's conflicted copy 2019-04-16)
@@ -5025,11 +5068,141 @@ t/home/marcosrdac/.local/share/Trash/000_compton
 	/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/compton
 t/home/marcosrdac/.local/share/Trash/000_tagged
 	/home/marcosrdac/Dropbox/dotfiles/.BACKUP/.config/ranger/tagged
+t/home/marcosrdac/.local/share/Trash/000_marcosrdac.kdbx
+	/home/marcosrdac/Dropbox/dotfiles/.config/keepassx/marcosrdac.kdbx
+t/home/marcosrdac/.local/share/Trash/001_marcosrdac.kdbx
+	/home/marcosrdac/.config/keepassx/marcosrdac.kdbx
+t/home/marcosrdac/.local/share/Trash/000_podcasts_rss.bak
+	/home/marcosrdac/Dropbox/dotfiles/.config/mpd/podcasts_rss.bak
+t/home/marcosrdac/.local/share/Trash/001_.git
+	/home/marcosrdac/Dropbox/dotfiles/.config/podcast2playlist/.git
+t/home/marcosrdac/.local/share/Trash/000_README.md
+	/home/marcosrdac/Dropbox/dotfiles/.config/podcast2playlist/README.md
+t/home/marcosrdac/.local/share/Trash/000_m3u.xsl
+	/home/marcosrdac/Dropbox/dotfiles/.config/podcast2playlist/m3u.xsl
+t/home/marcosrdac/.local/share/Trash/000_pls.xsl
+	/home/marcosrdac/Dropbox/dotfiles/.config/podcast2playlist/pls.xsl
+t/home/marcosrdac/.local/share/Trash/000_rss2playlist.sh
+	/home/marcosrdac/Dropbox/dotfiles/.config/podcast2playlist/rss2playlist.sh
+t/home/marcosrdac/.local/share/Trash/000_rssfeeds.txt
+	/home/marcosrdac/Dropbox/dotfiles/.config/podcast2playlist/rssfeeds.txt
+t/home/marcosrdac/.local/share/Trash/000_volumio.xsl
+	/home/marcosrdac/Dropbox/dotfiles/.config/podcast2playlist/volumio.xsl
+t/home/marcosrdac/.local/share/Trash/000_0wallhaven-757181
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/0wallhaven-757181
+t/home/marcosrdac/.local/share/Trash/000_60793_photo_manipulation_vaporwave
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/60793_photo_manipulation_vaporwave
+t/home/marcosrdac/.local/share/Trash/000_158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd.reduced
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd.reduced
+t/home/marcosrdac/.local/share/Trash/000_862674
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/862674
+t/home/marcosrdac/.local/share/Trash/000_20180329
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/20180329
+t/home/marcosrdac/.local/share/Trash/000_aforestation-dirt-road
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/aforestation-dirt-road
+t/home/marcosrdac/.local/share/Trash/000_astronomy-astrophotography-constellation-517884
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/astronomy-astrophotography-constellation-517884
+t/home/marcosrdac/.local/share/Trash/000_beach
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/beach
+t/home/marcosrdac/.local/share/Trash/000_beach2
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/beach2
+t/home/marcosrdac/.local/share/Trash/000_beijoo_space
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/beijoo_space
+t/home/marcosrdac/.local/share/Trash/000_beijoo_space2
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/beijoo_space2
+t/home/marcosrdac/.local/share/Trash/000_black-wallpaper-dark-galaxy-14676
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/black-wallpaper-dark-galaxy-14676
+t/home/marcosrdac/.local/share/Trash/000_black-wallpaper-dark-galaxy-14676.reduced
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/black-wallpaper-dark-galaxy-14676.reduced
+t/home/marcosrdac/.local/share/Trash/000_bridge-colorful-colourful-32239_gud_morning
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/bridge-colorful-colourful-32239_gud_morning
+t/home/marcosrdac/.local/share/Trash/000_bridge4
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/bridge4
+t/home/marcosrdac/.local/share/Trash/000_bridge_pink_blue_peaceful_wakening_gc
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/bridge_pink_blue_peaceful_wakening_gc
+t/home/marcosrdac/.local/share/Trash/000_dog_boy_rosed_eyes_sunset
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/dog_boy_rosed_eyes_sunset
+t/home/marcosrdac/.local/share/Trash/000_house_backyard
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/house_backyard
+t/home/marcosrdac/.local/share/Trash/000_low_contrast_forest
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/low_contrast_forest
+t/home/marcosrdac/.local/share/Trash/000_oroboros_urgence_gc
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/oroboros_urgence_gc
+t/home/marcosrdac/.local/share/Trash/000_red_room.reduced
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/red_room.reduced
+t/home/marcosrdac/.local/share/Trash/000_sunset
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/sunset
+t/home/marcosrdac/.local/share/Trash/000_vader_leia_luke
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/vader_leia_luke
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-695354
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-695354
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-697777
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-697777
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-698246
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-698246
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-698247
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-698247
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-698247.reduced
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-698247.reduced
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-714811.reduced
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-714811.reduced
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-768102
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-768102
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-769763
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-769763
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-769763.reduced
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/schemes/generated/wallhaven-769763.reduced
+t/home/marcosrdac/.local/share/Trash/000_schemegen_theme.json
+	/home/marcosrdac/Dropbox/dotfiles/.config/schemegen/configs/schemegen_theme.json
+t/home/marcosrdac/.local/share/Trash/000_backups
+	/home/marcosrdac/Dropbox/dotfiles/.local/bin/backups
+t/home/marcosrdac/.local/share/Trash/000_.newsboat
+	/home/marcosrdac/Dropbox/dotfiles/.newsboat
+t/home/marcosrdac/.local/share/Trash/000_face.jpg
+	/home/marcosrdac/Dropbox/dotfiles/face.jpg
+t/home/marcosrdac/.local/share/Trash/000_used_packages.md
+	/home/marcosrdac/Dropbox/dotfiles/used_packages.md
+t/home/marcosrdac/.local/share/Trash/000_beijoo_space2.jpg
+	/home/marcosrdac/Dropbox/dotfiles/.config/wpg/wallpapers/beijoo_space2.jpg
+t/home/marcosrdac/.local/share/Trash/001_wallhaven-773878.png
+	/home/marcosrdac/Dropbox/dotfiles/.config/wpg/wallpapers/wallhaven-773878.png
+t/home/marcosrdac/.local/share/Trash/001_wallhaven-nre337.jpg
+	/home/marcosrdac/Dropbox/dotfiles/.config/wpg/wallpapers/wallhaven-nre337.jpg
+t/home/marcosrdac/.local/share/Trash/000_.gitignore_
+	/home/marcosrdac/dotfiles/.gitignore_
+t/home/marcosrdac/.local/share/Trash/002_.git
+	/home/marcosrdac/.dotfiles/.local/bin/dmenu/.git
+t/home/marcosrdac/.local/share/Trash/003_.git
+	/home/marcosrdac/.dotfiles/.local/bin/surf/.git
+t/home/marcosrdac/.local/share/Trash/000_dd
+	/home/marcosrdac/dd
+t/home/marcosrdac/.local/share/Trash/000_dg
+	/home/marcosrdac/dg
+t/home/marcosrdac/.local/share/Trash/000_gtk3 (archlinux's conflicted copy 2019-09-29) (archlinux's conflicted copy 2019-09-29) (archlinux's conflicted copy 2019-09-30).20
+	/home/marcosrdac/.config/wpg/templates/gtk3 (archlinux's conflicted copy 2019-09-29) (archlinux's conflicted copy 2019-09-29) (archlinux's conflicted copy 2019-09-30).20
+t/home/marcosrdac/.local/share/Trash/000_gtk3 (archlinux's conflicted copy 2019-09-29) (archlinux's conflicted copy 2019-09-29).20
+	/home/marcosrdac/.config/wpg/templates/gtk3 (archlinux's conflicted copy 2019-09-29) (archlinux's conflicted copy 2019-09-29).20
+t/home/marcosrdac/.local/share/Trash/000_gtk3 (archlinux's conflicted copy 2019-09-29).20
+	/home/marcosrdac/.config/wpg/templates/gtk3 (archlinux's conflicted copy 2019-09-29).20
+t/home/marcosrdac/.local/share/Trash/000_gtk3 (archlinux's conflicted copy 2019-10-01).0
+	/home/marcosrdac/.config/wpg/templates/gtk3 (archlinux's conflicted copy 2019-10-01).0
+t/home/marcosrdac/.local/share/Trash/000_gtk2 (archlinux's conflicted copy 2019-10-01)
+	/home/marcosrdac/.config/wpg/templates/gtk2 (archlinux's conflicted copy 2019-10-01)
+t/home/marcosrdac/.local/share/Trash/000_gtk2.base
+	/home/marcosrdac/.config/wpg/templates/gtk2.base
+t/home/marcosrdac/.local/share/Trash/000_gtk3.0
+	/home/marcosrdac/.config/wpg/templates/gtk3.0
+t/home/marcosrdac/.local/share/Trash/000_gtk3.0.base
+	/home/marcosrdac/.config/wpg/templates/gtk3.0.base
+t/home/marcosrdac/.local/share/Trash/000_gtk3.20
+	/home/marcosrdac/.config/wpg/templates/gtk3.20
+t/home/marcosrdac/.local/share/Trash/000_gtk3.20.base
+	/home/marcosrdac/.config/wpg/templates/gtk3.20.base
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

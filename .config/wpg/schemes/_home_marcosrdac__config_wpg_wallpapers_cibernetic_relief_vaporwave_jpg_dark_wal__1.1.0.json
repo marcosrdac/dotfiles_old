@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/cibernetic_relief_vaporwave.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#110c2d",
+        "foreground": "#fffde4",
+        "cursor": "#fffde4"
+    },
+    "colors": {
+        "color0": "#110c2d",
+        "color1": "#990EAF",
+        "color2": "#CA07DA",
+        "color3": "#CC62BA",
+        "color4": "#4426A8",
+        "color5": "#D404E7",
+        "color6": "#B20ACB",
+        "color7": "#ead3be",
+        "color8": "#1f1655",
+        "color9": "#cf05ef",
+        "color10": "#ff01ff",
+        "color11": "#ff6bfe",
+        "color12": "#5123e7",
+        "color13": "#ff01ff",
+        "color14": "#f001ff",
+        "color15": "#fffde4"
+    }
+}
