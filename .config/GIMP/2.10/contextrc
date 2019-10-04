@@ -9,7 +9,7 @@
 (mybrush "Standard")
 (pattern "Slate")
 (gradient "Abstract 1")
-(palette "[house_backyard_homey] (imported)-5")
+(palette "Grays")
 (font "URW Gothic")
 (tool-preset "Core Pointer")
 

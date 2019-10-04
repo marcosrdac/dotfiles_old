@@ -41,7 +41,7 @@
                 (aux-info
                     (show-button-bar "true")
                     (edit-active "true")
-                    (current-data "[house_backyard_homey] (imported)-5")
+                    (current-data "Grays")
                     (zoom-factor "3.90")))
             (dockable "gimp-brush-grid"
                 (tab-style preview)
