@@ -130,33 +130,6 @@ l2
 r8,2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/.local/share
-	vifm
-14
-d/home/marcosrdac/wallpapers/favorites
-	dog_boy_rosed_eyes_sunset.jpg
-7
-d/home/marcosrdac/wallpapers
-	favorites
-3
-d/home/marcosrdac/wallpapers/favorites
-	beach_pastel.jpg
-1
-d/home/marcosrdac/wallpapers
-	favorites
-3
-d/home/marcosrdac/wallpapers/favorites
-	beach_pastel.jpg
-1
-d/home/marcosrdac/wallpapers
-	cyberpunk
-2
-d/home/marcosrdac/wallpapers/cyberpunk
-	wallhaven-698247.jpg
-2
-d/home/marcosrdac/wallpapers
-	favorites
-3
 d/home/marcosrdac/wallpapers/favorites
 	beach_pastel.jpg
 1
@@ -428,155 +401,38 @@ d/home/marcosrdac/.cache
 	wal
 29
 d/home/marcosrdac/.cache/wal
-	blank_page_modify.html
+	..
+0
+d/home/marcosrdac/.cache
+	wal
+29
+d/home/marcosrdac
+	.cache
+1
+d/home
+	marcosrdac
+3
+d/home/marcosrdac
+	.dotfiles
+3
+d/home/marcosrdac/.dotfiles
+	.config
 2
+d/home/marcosrdac/.dotfiles/.config
+	keepassx
+8
+d/home/marcosrdac/.dotfiles/.config/keepassx
+	keepassx2.ini
+2
+d/home/marcosrdac/.dotfiles/.config
+	keepmenu
+9
+d/home/marcosrdac/.dotfiles/.config/keepmenu
+	config.ini
+1
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config
-	nvim
-11
-D/home/marcosrdac/.config/nvim
-	wpgtk.vim
-5
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	autoload
-2
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline/colorscheme
-	..
-0
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim/wpgtk.vim/colors
-	wpgtkAlt.vim
-2
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim
-	colors
-6
-D/home/marcosrdac/.config/nvim/colors
-	wpgtk.vim
-1
-D/home/marcosrdac/.config/nvim
-	wpgtk.vim
-5
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	tags
-5
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	airline
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload/airline/themes
-	wpgtk.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim
-	colors
-6
-D/home/marcosrdac/.config/nvim/colors
-	wpgtkAlt.vim
-3
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload
-	airline
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload/airline/themes
-	wpgtk.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload
-	plug.vim
-1
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	plug.vim
-1
-D/home/marcosrdac/.config/nvim
-	ftplugin
-2
-D/home/marcosrdac/.config/nvim/ftplugin
-	..
-0
 D/home/marcosrdac/.config/nvim
 	plugged
 3
@@ -733,10 +589,153 @@ D/home/marcosrdac
 D/home/marcosrdac/tmp
 	20190924002959_screencast.mkv
 22
+D/home/marcosrdac
+	.dotfiles
+17
+D/home/marcosrdac/.dotfiles
+	.gitignore
+16
+D/home/marcosrdac/Dropbox
+	dotfiles
+4
+D/home/marcosrdac/Dropbox/dotfiles
+	.offlineimaprc
+5
+D/home/marcosrdac/Dropbox
+	documents
+3
+D/home/marcosrdac/Dropbox/documents
+	todo
+19
+D/home/marcosrdac/Dropbox
+	apps
+2
+D/home/marcosrdac/Dropbox/apps
+	CursorMWithJoystick
+1
+D/home/marcosrdac/Dropbox/apps/CursorMWithJoystick
+	..
+0
+D/home/marcosrdac/Dropbox/apps
+	..
+0
+D/home/marcosrdac/Dropbox
+	printing
+7
+D/home/marcosrdac/Dropbox/printing
+	..
+0
+D/home/marcosrdac/Dropbox
+	projects
+8
+D/home/marcosrdac/Dropbox/projects
+	linux_learning
+38
+D/home/marcosrdac/Dropbox/projects/linux_learning
+	ubuntu
+2
+D/home/marcosrdac/Dropbox/projects/linux_learning/ubuntu
+	CursorMWithJoystick
+1
+D/home/marcosrdac/Dropbox/projects/linux_learning
+	ubuntu
+2
+D/home/marcosrdac/Dropbox/projects
+	linux_learning
+38
+D/home/marcosrdac/Dropbox
+	projects
+8
+D/home/marcosrdac
+	mnt
+13
+D/home
+	marcosrdac
+1
+D/
+	dev
+9
+D/home/marcosrdac
+	mnt
+13
+D/home
+	marcosrdac
+1
+D/
+	run
+7
+D/run
+	media
+11
+D/run/media
+	marcosrdac
+1
+D/run/media/marcosrdac
+	fs1
+1
+D/run/media/marcosrdac/fs1
+	test
+1
+D/run/media/marcosrdac
+	..
+0
+D/run/media
+	marcosrdac
+1
+D/run
+	media
+11
+D/
+	media
+13
+D/media
+	fd1
+1
+D/media/fd1
+	test
+1
+D/media
+	..
+0
+D/
+	media
+13
+D/media
+	fd2
+2
+D/media/fd2
+	..
+0
+D/media
+	fd1
+1
+D/media/fd1
+	..
+0
+D/media
+	fd1
+1
+D/media/fd1
+	..
+0
+D/media
+	fd1
+1
+D/media/fd1
+	..
+0
+D/media
+	fd1
+1
+D/home/marcosrdac/.config/i3
+	config
+4
+D/home/marcosrdac
+	todo.md
+13
 D
 
 # Command line history (oldest to newest):
-:!python maker.py
 :split
 :touch .castgetrc
 :mkdir hermut
@@ -824,22 +823,21 @@ D
 :touch torrent.desktop
 :touch
 :mkdir fd1
-:touch test
 :touch teste
 :mkdir Envy Code B
 :mkdir "Envy Code B"
 :mkdir Datei Tribute
-:q
 :!readlink %
 :!readlink %c
 :k
 :empty
 :mkdir gaming
 :sort
+:mkdir mnt
+:touch test
+:q
 
 # Search history (oldest to newest):
-/news
-/tras
 /off
 /mai
 /cron
@@ -876,7 +874,6 @@ D
 /kk
 /duns
 /calc
-/media
 /meda
 /mdn
 /mou
@@ -893,7 +890,6 @@ D
 /fot
 /f
 /mnt
-/med
 /moun
 /dev
 /run
@@ -938,11 +934,12 @@ D
 /qute
 /blan
 /dot
+/linu
+/ru
+/med
+/media
 
 # Prompt history (oldest to newest):
-pstrain_gauges
-pgauges
-psub_dipole
 pdipole
 pcontin_input
 pdipole_output
@@ -1040,11 +1037,13 @@ pdm_mount_menu_
 pDatei Tribute
 p.gitignore_
 pmsgs
+plinker.sh
+pDropboxz
+ptest
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.cache/wal/blank_page_modify.html
 
 # Directory stack (oldest to newest):
 
@@ -1089,6 +1088,8 @@ t/home/marcosrdac/.local/share/Trash/000_Envy Code R PR7
 	/home/marcosrdac/.dotfiles/.local/share/fonts/Envy Code R PR7
 t/home/marcosrdac/.local/share/Trash/001_Envy Code R PR7
 	/home/marcosrdac/.dotfiles/.local/share/fonts/Envy Code R PR7/Envy Code R PR7
+t/home/marcosrdac/.local/share/Trash/000_*
+	/home/marcosrdac/.dotfiles/.config/keepmenu/*
 
 # State:
 f

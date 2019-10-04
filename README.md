@@ -40,16 +40,16 @@ I also give permissions for me to shutdown my PC without password, putting the n
 ```
 
 Set udev rules for backlight in the file "/etc/udev/rules.d/90-backlight.rules":
-```
+```shell
 SUBSYSTEM==“backlight”, ACTION==“add”,
-ACTION=="change", SUBSYSTEM=="backlight", RUN+="/usr/bin/chgrp video /sys/class/backlight/%k/brightness"
+ACTION=="change", SUBSYSTEM=="backlight", RUN+="/usr/bin/chgrp wheel /sys/class/backlight/%k/brightness"
 ACTION=="change", SUBSYSTEM=="backlight", RUN+="/usr/bin/chmod g+w /sys/class/backlight/%k/brightness"
 ```
 
-And add your user to the video group, so that you can use brightnessctl (it's the secure way):
-
+If you want external drives automounting, use:
 ```shell
-sudo usermod -a -G video $USER
+systemctl enable devmon@$USER
+systemctl start devmon@$USER
 ```
 
 
@@ -62,6 +62,7 @@ There are programs that I need Installed in order for my configs to work correct
 
 ```
 mlocate
+udevil
 zsh zsh-syntax-highlighting
 feh
 xorg xorg-server xorg-xinit xorg-apps
