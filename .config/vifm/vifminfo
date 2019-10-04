@@ -10,9 +10,9 @@
 	..
 1556747808
 'D
-	/home/marcosrdac/Dropbox
-	dotfiles
-1554495754
+	/home/marcosrdac/.dotfiles
+	.gitignore
+1570209598
 'H
 	/home/marcosrdac/
 	..
@@ -56,7 +56,7 @@
 'd
 	/home/marcosrdac/documents
 	..
-1554820535
+1570209610
 'f
 	/home/marcosrdac/.fonts
 	..
@@ -121,7 +121,7 @@
 # Bookmarks:
 
 # TUI:
-ar
+al
 q0
 v1
 ov
@@ -130,114 +130,6 @@ l2
 r8,2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/wallpapers/favorites
-	beach_pastel.jpg
-1
-d/home/marcosrdac/wallpapers
-	home
-4
-d/home/marcosrdac/wallpapers/home
-	house_backyard.png
-1
-d/home/marcosrdac/wallpapers
-	home
-4
-d/home/marcosrdac/wallpapers/home
-	..
-0
-d/home/marcosrdac/wallpapers
-	favorites
-3
-d/home/marcosrdac/wallpapers/favorites
-	highway_coconut_trees_vaporwave.jpg
-4
-d/home/marcosrdac/wallpapers
-	star_wars
-8
-d/home/marcosrdac/documents
-	whatsapp
-21
-d/home/marcosrdac/documents/whatsapp
-	msgstore
-2
-d/home/marcosrdac/documents/whatsapp/msgstore
-	..
-0
-d/home/marcosrdac/documents/whatsapp
-	20190320
-1
-d/home/marcosrdac/documents/whatsapp/20190320
-	..
-0
-d/home/marcosrdac/documents/whatsapp
-	msgstore
-2
-d/home/marcosrdac/documents/whatsapp/msgstore
-	messages_20190304.csv
-1
-d/home/marcosrdac/documents/whatsapp
-	20190320
-1
-d/home/marcosrdac/documents/whatsapp/20190320
-	como_era_doce
-7
-d/home/marcosrdac/documents/whatsapp
-	msgstore
-2
-d/home/marcosrdac/documents/whatsapp/msgstore
-	messages_20190304.csv
-1
-d/home/marcosrdac/documents/whatsapp
-	msgstore
-2
-d/home/marcosrdac/documents/whatsapp/msgstore
-	messages_20190304.csv
-1
-d/home/marcosrdac/documents/whatsapp
-	msgstore
-2
-d/home/marcosrdac/documents/whatsapp/msgstore
-	msgstore_20190304.db
-2
-d/home/marcosrdac/documents/whatsapp
-	20190320
-1
-d/home/marcosrdac/documents/whatsapp/20190320
-	Amanda Olívia.csv
-1
-d/home/marcosrdac/documents/whatsapp
-	20190320
-1
-d/home/marcosrdac/documents/whatsapp/20190320
-	Amanda Olívia.csv
-1
-d/home/marcosrdac/documents/whatsapp
-	20190320
-1
-d/home/marcosrdac/documents/whatsapp/20190320
-	erasertretas
-7
-d/home/marcosrdac/documents/whatsapp
-	msgs
-1
-d/home/marcosrdac/documents/whatsapp/msgs
-	..
-0
-d/home/marcosrdac/documents/whatsapp
-	msgs
-1
-d/home/marcosrdac/documents
-	vital_logs
-20
-d/home/marcosrdac/documents/vital_logs
-	..
-0
-d/home/marcosrdac/documents
-	whatsapp
-21
-d/home/marcosrdac/documents/whatsapp
-	README.md
-2
 d/home/marcosrdac/Dropbox
 	dotfiles
 8
@@ -403,15 +295,6 @@ d/home/marcosrdac/.cache
 d/home/marcosrdac/.cache/wal
 	..
 0
-d/home/marcosrdac/.cache
-	wal
-29
-d/home/marcosrdac
-	.cache
-1
-d/home
-	marcosrdac
-3
 d/home/marcosrdac
 	.dotfiles
 3
@@ -422,17 +305,269 @@ d/home/marcosrdac/.dotfiles/.config
 	keepassx
 8
 d/home/marcosrdac/.dotfiles/.config/keepassx
-	keepassx2.ini
-2
+	marcosrdac.kdbx
+3
 d/home/marcosrdac/.dotfiles/.config
 	keepmenu
 9
 d/home/marcosrdac/.dotfiles/.config/keepmenu
 	config.ini
 1
+d/home/marcosrdac/.dotfiles/.config
+	keepassx
+8
+d/home/marcosrdac/.dotfiles/.config/keepassx
+	marcosrdac.kdbx
+2
+d/home/marcosrdac/.dotfiles/.config
+	keepassx
+8
+d/home/marcosrdac/.dotfiles
+	.config
+2
+d/home/marcosrdac/.dotfiles/.config
+	keepassx
+8
+d/home/marcosrdac/.dotfiles/.config/keepassx
+	keepassx2.ini
+1
+d/home/marcosrdac/.dotfiles/.config
+	keepmenu
+9
+d/home/marcosrdac/.dotfiles/.config/keepmenu
+	config.ini
+1
+d/home/marcosrdac/.dotfiles/.config
+	lmms
+10
+d/home/marcosrdac/.config
+	libreoffice
+6
+d/home/marcosrdac/.config/libreoffice
+	..
+0
+d/home/marcosrdac/.config
+	keepmenu
+5
+d/home/marcosrdac/.config/keepmenu
+	..
+0
+d/home/marcosrdac/.config
+	keepmenu
+5
+d/home/marcosrdac/.config/keepmenu
+	config.ini
+1
+d/home/marcosrdac/.config
+	keepmenu
+12
+d/home/marcosrdac
+	.config
+2
+d/home
+	marcosrdac
+3
+d/
+	media
+9
+d/media
+	sdc-usb-Kingston_DataTra
+1
+d/media/sdc-usb-Kingston_DataTra
+	Lost.Highway.1997.mkv
+1
+d/media
+	sdc-usb-Kingston_DataTra
+1
+d/
+	media
+9
+d/media
+	sdc-usb-Kingston_DataTra
+1
+d/media/sdc-usb-Kingston_DataTra
+	Lost.Highway.1997.mkv
+1
+d/media
+	sdc-usb-Kingston_DataTra
+1
+d/media/sdc-usb-Kingston_DataTra
+	Lost.Highway.1997.mkv
+1
+d/media
+	sdc-usb-Kingston_DataTra
+1
+d/
+	media
+9
+d/media
+	sdc1-usb-Multiple_Card_Re
+1
+d/media/sdc1-usb-Multiple_Card_Re
+	swotsimulator
+2
+d/media/sdc1-usb-Multiple_Card_Re/swotsimulator
+	..
+0
+d/media/sdc1-usb-Multiple_Card_Re
+	System Volume Information
+1
+d/media/sdc1-usb-Multiple_Card_Re/System Volume Information
+	..
+0
+d/media/sdc1-usb-Multiple_Card_Re
+	System Volume Information
+1
+d/media
+	sdc1-usb-Multiple_Card_Re
+1
+d/
+	media
+9
+d/media
+	sdc1-usb-Multiple_Card_Re
+1
+d/media/sdc1-usb-Multiple_Card_Re
+	swotsimulator
+2
 d
 
 # Right window history (oldest to newest):
+D/home/marcosrdac/.config/nvim/wpgtk.vim
+	autoload
+2
+D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload
+	lightline
+2
+D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline
+	colorscheme
+1
+D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline/colorscheme
+	..
+0
+D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline
+	colorscheme
+1
+D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload
+	lightline
+2
+D/home/marcosrdac/.config/nvim/wpgtk.vim
+	colors
+3
+D/home/marcosrdac/.config/nvim/wpgtk.vim/colors
+	wpgtkAlt.vim
+2
+D/home/marcosrdac/.config/nvim/wpgtk.vim
+	colors
+3
+D/home/marcosrdac/.config/nvim
+	colors
+6
+D/home/marcosrdac/.config/nvim/colors
+	wpgtk.vim
+1
+D/home/marcosrdac/.config/nvim
+	wpgtk.vim
+5
+D/home/marcosrdac/.config/nvim/wpgtk.vim
+	tags
+5
+D/home/marcosrdac/.config/nvim
+	autoload
+1
+D/home/marcosrdac/.config/nvim/autoload
+	airline
+1
+D/home/marcosrdac/.config/nvim/autoload/airline
+	themes
+1
+D/home/marcosrdac/.config/nvim/autoload/airline/themes
+	wpgtk.vim
+1
+D/home/marcosrdac/.config/nvim/autoload/airline
+	themes
+1
+D/home/marcosrdac/.config/nvim/autoload
+	lightline
+2
+D/home/marcosrdac/.config/nvim/autoload/lightline
+	colorscheme
+1
+D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
+	wal.vim
+1
+D/home/marcosrdac/.config/nvim/autoload/lightline
+	colorscheme
+1
+D/home/marcosrdac/.config/nvim/autoload
+	lightline
+2
+D/home/marcosrdac/.config/nvim
+	colors
+6
+D/home/marcosrdac/.config/nvim/colors
+	wpgtkAlt.vim
+3
+D/home/marcosrdac/.config/nvim
+	autoload
+1
+D/home/marcosrdac/.config/nvim/autoload
+	lightline
+2
+D/home/marcosrdac/.config/nvim/autoload/lightline
+	colorscheme
+1
+D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
+	wal.vim
+1
+D/home/marcosrdac/.config/nvim/autoload/lightline
+	colorscheme
+1
+D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
+	wal.vim
+1
+D/home/marcosrdac/.config/nvim/autoload/lightline
+	colorscheme
+1
+D/home/marcosrdac/.config/nvim/autoload
+	airline
+1
+D/home/marcosrdac/.config/nvim/autoload/airline
+	themes
+1
+D/home/marcosrdac/.config/nvim/autoload/airline/themes
+	wpgtk.vim
+1
+D/home/marcosrdac/.config/nvim/autoload/airline
+	themes
+1
+D/home/marcosrdac/.config/nvim/autoload
+	lightline
+2
+D/home/marcosrdac/.config/nvim
+	autoload
+1
+D/home/marcosrdac/.config/nvim/autoload
+	lightline
+2
+D/home/marcosrdac/.config/nvim/autoload/lightline
+	colorscheme
+1
+D/home/marcosrdac/.config/nvim/autoload
+	plug.vim
+1
+D/home/marcosrdac/.config/nvim
+	autoload
+1
+D/home/marcosrdac/.config/nvim/autoload
+	plug.vim
+1
+D/home/marcosrdac/.config/nvim
+	ftplugin
+2
+D/home/marcosrdac/.config/nvim/ftplugin
+	..
+0
 D/home/marcosrdac/.config/nvim
 	plugged
 3
@@ -589,153 +724,19 @@ D/home/marcosrdac
 D/home/marcosrdac/tmp
 	20190924002959_screencast.mkv
 22
-D/home/marcosrdac
-	.dotfiles
-17
-D/home/marcosrdac/.dotfiles
-	.gitignore
-16
+D/home/marcosrdac/.config/i3
+	trees
+1
 D/home/marcosrdac/Dropbox
 	dotfiles
-4
-D/home/marcosrdac/Dropbox/dotfiles
-	.offlineimaprc
-5
-D/home/marcosrdac/Dropbox
-	documents
 3
-D/home/marcosrdac/Dropbox/documents
-	todo
-19
-D/home/marcosrdac/Dropbox
-	apps
-2
-D/home/marcosrdac/Dropbox/apps
-	CursorMWithJoystick
-1
-D/home/marcosrdac/Dropbox/apps/CursorMWithJoystick
-	..
-0
-D/home/marcosrdac/Dropbox/apps
-	..
-0
-D/home/marcosrdac/Dropbox
-	printing
-7
-D/home/marcosrdac/Dropbox/printing
-	..
-0
-D/home/marcosrdac/Dropbox
-	projects
-8
-D/home/marcosrdac/Dropbox/projects
-	linux_learning
-38
-D/home/marcosrdac/Dropbox/projects/linux_learning
-	ubuntu
-2
-D/home/marcosrdac/Dropbox/projects/linux_learning/ubuntu
-	CursorMWithJoystick
-1
-D/home/marcosrdac/Dropbox/projects/linux_learning
-	ubuntu
-2
-D/home/marcosrdac/Dropbox/projects
-	linux_learning
-38
-D/home/marcosrdac/Dropbox
-	projects
-8
-D/home/marcosrdac
-	mnt
-13
-D/home
-	marcosrdac
-1
-D/
-	dev
-9
-D/home/marcosrdac
-	mnt
-13
-D/home
-	marcosrdac
-1
-D/
-	run
-7
-D/run
-	media
-11
-D/run/media
-	marcosrdac
-1
-D/run/media/marcosrdac
-	fs1
-1
-D/run/media/marcosrdac/fs1
-	test
-1
-D/run/media/marcosrdac
-	..
-0
-D/run/media
-	marcosrdac
-1
-D/run
-	media
-11
-D/
-	media
-13
-D/media
-	fd1
-1
-D/media/fd1
-	test
-1
-D/media
-	..
-0
-D/
-	media
-13
-D/media
-	fd2
-2
-D/media/fd2
-	..
-0
-D/media
-	fd1
-1
-D/media/fd1
-	..
-0
-D/media
-	fd1
-1
-D/media/fd1
-	..
-0
-D/media
-	fd1
-1
-D/media/fd1
-	..
-0
-D/media
-	fd1
-1
-D/home/marcosrdac/.config/i3
-	config
-4
-D/home/marcosrdac
-	todo.md
-13
+D/home/marcosrdac/Dropbox/dotfiles
+	.local
+3
 D
 
 # Command line history (oldest to newest):
+:!python maker.py
 :split
 :touch .castgetrc
 :mkdir hermut
@@ -823,6 +824,7 @@ D
 :touch torrent.desktop
 :touch
 :mkdir fd1
+:touch test
 :touch teste
 :mkdir Envy Code B
 :mkdir "Envy Code B"
@@ -833,11 +835,11 @@ D
 :empty
 :mkdir gaming
 :sort
-:mkdir mnt
-:touch test
 :q
 
 # Search history (oldest to newest):
+/news
+/tras
 /off
 /mai
 /cron
@@ -890,6 +892,7 @@ D
 /fot
 /f
 /mnt
+/med
 /moun
 /dev
 /run
@@ -934,12 +937,12 @@ D
 /qute
 /blan
 /dot
-/linu
-/ru
-/med
 /media
 
 # Prompt history (oldest to newest):
+pstrain_gauges
+pgauges
+psub_dipole
 pdipole
 pcontin_input
 pdipole_output
@@ -1037,9 +1040,6 @@ pdm_mount_menu_
 pDatei Tribute
 p.gitignore_
 pmsgs
-plinker.sh
-pDropboxz
-ptest
 
 # Local filter history (oldest to newest):
 
@@ -1088,8 +1088,36 @@ t/home/marcosrdac/.local/share/Trash/000_Envy Code R PR7
 	/home/marcosrdac/.dotfiles/.local/share/fonts/Envy Code R PR7
 t/home/marcosrdac/.local/share/Trash/001_Envy Code R PR7
 	/home/marcosrdac/.dotfiles/.local/share/fonts/Envy Code R PR7/Envy Code R PR7
+t/home/marcosrdac/.local/share/Trash/000_cmus
+	/home/marcosrdac/.config/cmus
+t/home/marcosrdac/.local/share/Trash/001_compton
+	/home/marcosrdac/.config/compton
+t/home/marcosrdac/.local/share/Trash/000_dmenu
+	/home/marcosrdac/.config/dmenu
+t/home/marcosrdac/.local/share/Trash/000_dwm
+	/home/marcosrdac/.config/dwm
+t/home/marcosrdac/.local/share/Trash/000_mopidy
+	/home/marcosrdac/.config/mopidy
+t/home/marcosrdac/.local/share/Trash/000_parcellite
+	/home/marcosrdac/.config/parcellite
+t/home/marcosrdac/.local/share/Trash/000_pythonstartup.py
+	/home/marcosrdac/.config/pythonstartup.py
+t/home/marcosrdac/.local/share/Trash/000_ranger
+	/home/marcosrdac/.config/ranger
+t/home/marcosrdac/.local/share/Trash/001_st
+	/home/marcosrdac/.config/st
+t/home/marcosrdac/.local/share/Trash/001_surf
+	/home/marcosrdac/.config/surf
+t/home/marcosrdac/.local/share/Trash/001_zsh
+	/home/marcosrdac/.config/zsh
 t/home/marcosrdac/.local/share/Trash/000_*
 	/home/marcosrdac/.dotfiles/.config/keepmenu/*
+t/home/marcosrdac/.local/share/Trash/000_dm_mount_menu_
+	/home/marcosrdac/.local/bin/menu/dm_mount_menu_
+t/home/marcosrdac/.local/share/Trash/000_mnt
+	/home/marcosrdac/mnt
+t/home/marcosrdac/.local/share/Trash/001_test
+	/media/sdc-usb-Kingston_DataTra/test
 
 # State:
 f
@@ -1098,6 +1126,6 @@ i1
 [F
 F
 I1
-].1
+].0
 ]F
 s0
