@@ -282,7 +282,7 @@ for_window [title="^Steam Keyboard$"] floating enable
 
 #--- keybindings ---#
 # oppening programs
-bindsym $mod+o exec --no-startup-id dmenu_run -h 20 -y 2 -fn "$font_name"-"$font_size" -nb "$bg" -nf "$fg" -sb "$fg" -sf "$bg" -i -f -l 15 -p "sh:"
+bindsym $mod+o exec --no-startup-id dmenu_run -h 20 -y 22 -fn "$font_name"-"$font_size" -nb "$bg" -nf "$fg" -sb "$fg" -sf "$bg" -i -f -l 15 -p "sh:"
 # common softwares
 bindsym $mod+Return   exec --no-startup-id $term
 bindsym $mod+z        [instance="dropdown_terminal"] scratchpad show
@@ -302,6 +302,8 @@ bindsym XF86WLAN      exec --no-startup-id $term -e nmtui
 bindsym $mod+m        [instance="dropdown_music_player"] scratchpad show, [instance="dropdown_music_player"] move position center
 bindsym $mod+Shift+p  exec --no-startup-id show_clip_prim
 bindsym $mod+e        exec --no-startup-id keepmenu
+#bindsym $mod+Shift+e        exec --no-startup-id keepmenu diff config
+bindsym $mod+Shift+e        exec --no-startup-id keepassx2
 bindsym $mod+w        exec --no-startup-id toggle_webcam
 bindsym $mod+Shift+w  exec --no-startup-id toggle_webcam_gaps
 

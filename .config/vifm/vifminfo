@@ -130,33 +130,6 @@ l2
 r8,2
 
 # Left window history (oldest to newest):
-d/media/sdc1-usb-Multiple_Card_Re/System Volume Information
-	..
-0
-d/media/sdc1-usb-Multiple_Card_Re
-	System Volume Information
-1
-d/media
-	sdc1-usb-Multiple_Card_Re
-1
-d/
-	media
-9
-d/media
-	sdc1-usb-Multiple_Card_Re
-1
-d/media/sdc1-usb-Multiple_Card_Re
-	swotsimulator
-2
-d/media
-	..
-0
-d/
-	media
-9
-d/media
-	..
-0
 d/home/marcosrdac
 	movies
 6
@@ -430,6 +403,33 @@ d/home/marcosrdac/movies/whiplash_(2014)
 d/home/marcosrdac/movies
 	adaptation_(2002)
 1
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.config
+	schemegen
+19
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	dmenu
+0
+d/home/marcosrdac/.local/bin/dmenu
+	..
+0
+d/home/marcosrdac/.local/bin
+	menu
+2
+d/home/marcosrdac/.local/bin/menu
+	menu
+8
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	bridge_pink_blue_peaceful_wakening_gc.jpg
+2
 d
 
 # Right window history (oldest to newest):
@@ -911,7 +911,6 @@ D
 /loca
 /con
 /gtl
-/dm
 /RE
 /wpg
 /dog
@@ -938,9 +937,9 @@ D
 /togg
 /torr
 /movi
+/dm
 
 # Prompt history (oldest to newest):
-pbatons.md
 pindex
 pindex_.html
 playout__
@@ -1040,6 +1039,7 @@ pblue_velvet_(1986)
 peternal_sunshine_of_the_spotless_mind_(2004)_eng.srt
 pMulholland.Dr (2001)
 pThe Worlds End [2013] 1080p BluRay AAC x264-ETRG
+pmenu
 
 # Local filter history (oldest to newest):
 

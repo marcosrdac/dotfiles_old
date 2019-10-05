@@ -4,4 +4,4 @@
 . "${HOME}/.cache/wal/colors.sh"
 
 # call dmenu with custom settings
-dmenu -h 18 -y 2 -l 15 -i -fn "$(xrdb -query | awk '$1~/^*font:$/{$1=""; print $0}')" -nb "$background" -nf "$foreground" -sb "$foreground" -sf "$background" "$@"
+dmenu -h 18 -y 22 -l 15 -i -fn "$(xrdb -query | awk '$1~/^*font:$/{$1=""; print $0}')" -nb "$background" -nf "$foreground" -sb "$foreground" -sf "$background" "$@"
