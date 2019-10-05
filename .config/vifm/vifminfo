@@ -22,9 +22,9 @@
 	packages_instalation.md
 1569538207
 'M
-	/home/marcosrdac/.offlineimap
+	/media
 	..
-1555053627
+1570211065
 'P
 	/home/marcosrdac/Dropbox/pictures
 	..
@@ -78,9 +78,9 @@
 	share
 1569459599
 'm
-	/home/marcosrdac
-	.audacity-data
-1569413372
+	/media
+	..
+1570211061
 'o
 	/home/marcosrdac/.offlineimap
 	..
@@ -122,296 +122,14 @@
 
 # TUI:
 al
-q0
-v1
+q1
+v2
 ov
 m-1
 l2
 r8,2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/Dropbox
-	dotfiles
-8
-d/home/marcosrdac
-	Dropbox
-13
-d/home/marcosrdac/Dropbox
-	Sent files
-4
-d/home/marcosrdac/Dropbox/Sent files
-	msgstore20190801.db.crypt12
-1
-d/home/marcosrdac/Dropbox
-	Sent files
-4
-d/home/marcosrdac/Dropbox/Sent files
-	msgstore20190801.db.crypt12
-1
-d/home/marcosrdac/Dropbox
-	Sent files
-4
-d/home/marcosrdac/Dropbox/Sent files
-	msgstore20190801.db.crypt12
-1
-d/home/marcosrdac/Dropbox
-	apps
-4
-d/home/marcosrdac/Dropbox/apps
-	Terraria
-2
-d/home/marcosrdac/Dropbox/apps/Terraria
-	..
-0
-d/home/marcosrdac/Dropbox/apps
-	keepassx
-3
-d/home/marcosrdac/Dropbox/apps/keepassx
-	.keepassx
-1
-d/home/marcosrdac/Dropbox/apps
-	lmms
-3
-d/home/marcosrdac/Dropbox
-	apps
-4
-d/home/marcosrdac/.config
-	keepassx
-17
-d/home/marcosrdac/.config/keepassx
-	marcosrdac.kdbx
-3
-d/home/marcosrdac/.config
-	keepassx
-17
-d/home/marcosrdac
-	.config
-2
-d/home/marcosrdac/Dropbox
-	gaming
-6
-d/home/marcosrdac/Dropbox/gaming
-	.zsnes
-1
-d/home/marcosrdac/Dropbox
-	apps
-2
-d/home/marcosrdac/Dropbox/apps
-	CursorMWithJoystick
-1
-d/home/marcosrdac/Dropbox/apps/CursorMWithJoystick
-	remote - How can a gamepad control THE mouse_ - Ask Ubuntu_files
-1
-d/home/marcosrdac/Dropbox/apps/CursorMWithJoystick/remote - How can a gamepad control THE mouse_ - Ask Ubuntu_files
-	..
-0
-d/home/marcosrdac/Dropbox/apps/CursorMWithJoystick
-	mouse.ini
-4
-d/home/marcosrdac/Dropbox/apps
-	lmms
-3
-d/home/marcosrdac/Dropbox/apps/lmms
-	presets
-1
-d/home/marcosrdac/Dropbox/apps/lmms/presets
-	..
-0
-d/home/marcosrdac/Dropbox/apps/lmms
-	projects
-2
-d/home/marcosrdac/Dropbox/apps/lmms/projects
-	..
-0
-d/home/marcosrdac/Dropbox/apps/lmms
-	samples
-3
-d/home/marcosrdac/Dropbox/apps/lmms/samples
-	..
-0
-d/home/marcosrdac/Dropbox/apps/lmms
-	samples
-3
-d/home/marcosrdac/Dropbox/apps
-	notesappse
-3
-d/home/marcosrdac/Dropbox/apps/notesappse
-	..
-0
-d/home/marcosrdac/Dropbox/apps
-	notesappse
-3
-d/home/marcosrdac/Dropbox/apps/notesappse
-	aHR0cHM6Ly93d3cuaXN0b2NrcGhvdG8uY29tL3Jlc291cmNlcy9pbWFnZXMvUGhvdG9GVExQL2ltZ183NTkyOTM5NS5qcGc=.jpg
-2
-d/home/marcosrdac/Dropbox/apps
-	podcast_feed
-3
-d/home/marcosrdac/Dropbox/apps/podcast_feed
-	PodcastAddict_export_20180424_171237.opml
-1
-d/home/marcosrdac/Dropbox/apps
-	marcosxwalter.sg4
-3
-d/home/marcosrdac/documents
-	chess
-4
-d/home/marcosrdac/documents/chess
-	walter.md
-3
-d/home/marcosrdac
-	.dotfiles
-3
-d/home/marcosrdac/.dotfiles
-	.git
-3
-d/home/marcosrdac/.local
-	share
-3
-d/home/marcosrdac/.config
-	shell
-34
-d/home/marcosrdac
-	.cache
-1
-d/home/marcosrdac/.cache
-	..
-0
-d/home/marcosrdac/.config
-	wal
-39
-d/home/marcosrdac/.config/wal
-	cache
-1
-d/home/marcosrdac/.config/wal/cache
-	qutebrowser_colors.yml
-28
-d/home/marcosrdac
-	.cache
-1
-d/home/marcosrdac/.cache
-	wal
-29
-d/home/marcosrdac/.cache/wal
-	..
-0
-d/home/marcosrdac
-	.dotfiles
-3
-d/home/marcosrdac/.dotfiles
-	.config
-2
-d/home/marcosrdac/.dotfiles/.config
-	keepassx
-8
-d/home/marcosrdac/.dotfiles/.config/keepassx
-	marcosrdac.kdbx
-3
-d/home/marcosrdac/.dotfiles/.config
-	keepmenu
-9
-d/home/marcosrdac/.dotfiles/.config/keepmenu
-	config.ini
-1
-d/home/marcosrdac/.dotfiles/.config
-	keepassx
-8
-d/home/marcosrdac/.dotfiles/.config/keepassx
-	marcosrdac.kdbx
-2
-d/home/marcosrdac/.dotfiles/.config
-	keepassx
-8
-d/home/marcosrdac/.dotfiles
-	.config
-2
-d/home/marcosrdac/.dotfiles/.config
-	keepassx
-8
-d/home/marcosrdac/.dotfiles/.config/keepassx
-	keepassx2.ini
-1
-d/home/marcosrdac/.dotfiles/.config
-	keepmenu
-9
-d/home/marcosrdac/.dotfiles/.config/keepmenu
-	config.ini
-1
-d/home/marcosrdac/.dotfiles/.config
-	lmms
-10
-d/home/marcosrdac/.config
-	libreoffice
-6
-d/home/marcosrdac/.config/libreoffice
-	..
-0
-d/home/marcosrdac/.config
-	keepmenu
-5
-d/home/marcosrdac/.config/keepmenu
-	..
-0
-d/home/marcosrdac/.config
-	keepmenu
-5
-d/home/marcosrdac/.config/keepmenu
-	config.ini
-1
-d/home/marcosrdac/.config
-	keepmenu
-12
-d/home/marcosrdac
-	.config
-2
-d/home
-	marcosrdac
-3
-d/
-	media
-9
-d/media
-	sdc-usb-Kingston_DataTra
-1
-d/media/sdc-usb-Kingston_DataTra
-	Lost.Highway.1997.mkv
-1
-d/media
-	sdc-usb-Kingston_DataTra
-1
-d/
-	media
-9
-d/media
-	sdc-usb-Kingston_DataTra
-1
-d/media/sdc-usb-Kingston_DataTra
-	Lost.Highway.1997.mkv
-1
-d/media
-	sdc-usb-Kingston_DataTra
-1
-d/media/sdc-usb-Kingston_DataTra
-	Lost.Highway.1997.mkv
-1
-d/media
-	sdc-usb-Kingston_DataTra
-1
-d/
-	media
-9
-d/media
-	sdc1-usb-Multiple_Card_Re
-1
-d/media/sdc1-usb-Multiple_Card_Re
-	swotsimulator
-2
-d/media/sdc1-usb-Multiple_Card_Re/swotsimulator
-	..
-0
-d/media/sdc1-usb-Multiple_Card_Re
-	System Volume Information
-1
 d/media/sdc1-usb-Multiple_Card_Re/System Volume Information
 	..
 0
@@ -430,6 +148,288 @@ d/media
 d/media/sdc1-usb-Multiple_Card_Re
 	swotsimulator
 2
+d/media
+	..
+0
+d/
+	media
+9
+d/media
+	..
+0
+d/home/marcosrdac
+	movies
+6
+d/home/marcosrdac/.dotfiles
+	.gitignore
+11
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	toggle_webcam_gaps
+27
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac
+	series
+9
+d/home/marcosrdac/series
+	twin_peaks
+2
+d/home/marcosrdac/series/twin_peaks
+	TPS01E01.mkv
+4
+d/home/marcosrdac/.config
+	shell
+28
+d/home/marcosrdac/.config/shell
+	shrc
+5
+d/home/marcosrdac/.local
+	share
+3
+d/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+23
+d/home/marcosrdac
+	test
+14
+d/home/marcosrdac/tmp
+	torrents
+15
+d/home/marcosrdac/tmp/torrents
+	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio
+1
+d/home/marcosrdac/tmp/torrents/Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio
+	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
+1
+d/home/marcosrdac/tmp/torrents
+	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio
+1
+d/home/marcosrdac/tmp
+	torrents
+15
+d/home/marcosrdac
+	movies
+6
+d/home/marcosrdac/movies
+	coraline_e_o_mundo_secreto_(2009)
+3
+d/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
+	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
+1
+d/home/marcosrdac/movies
+	coraline_e_o_mundo_secreto_(2009)
+3
+d/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
+	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
+1
+d/home/marcosrdac/movies
+	coraline_e_o_mundo_secreto_(2009)
+3
+d/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
+	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
+1
+d/home/marcosrdac/movies
+	coraline_(2009)
+3
+d/home/marcosrdac/movies/coraline_(2009)
+	..
+0
+d/home/marcosrdac/movies
+	coraline_(2009)
+3
+d/home/marcosrdac/movies/coraline_(2009)
+	coraline_(2009).mkv
+1
+d/home/marcosrdac/movies
+	blue_velvet_(1986)
+2
+d/home/marcosrdac/movies/blue_velvet_(1986)
+	blue_velvet_(1986).mp4
+2
+d/home/marcosrdac/movies
+	blue_velvet_(1986)
+2
+d/home/marcosrdac/movies/blue_velvet_(1986)
+	blue_velvet_(1986).srt
+2
+d/home/marcosrdac/movies
+	adaptation_(2002)
+1
+d/home/marcosrdac/movies/adaptation_(2002)
+	adaptation_(2002).mkv
+1
+d/home/marcosrdac/movies
+	eraserhead_(1977)
+4
+d/home/marcosrdac/movies/eraserhead_(1977)
+	eraserhead_(1977)_eng.srt
+3
+d/home/marcosrdac/movies
+	eraserhead_(1977)
+4
+d/home/marcosrdac/movies/eraserhead_(1977)
+	eraserhead_(1977)_eng.srt
+3
+d/home/marcosrdac/movies
+	eternal_sunshine_of_the_spotless_mind_(2004)
+5
+d/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)
+	eternal_sunshine_of_the_spotless_mind_(2004)_eng.srt
+3
+d/home/marcosrdac/movies
+	inland_empire_(2006)
+7
+d/home/marcosrdac/movies/inland_empire_(2006)
+	Other
+1
+d/home/marcosrdac/movies
+	inland_empire_(2006)
+7
+d/home/marcosrdac/movies/inland_empire_(2006)
+	inland_empire_(2006).srt
+2
+d/home/marcosrdac/movies
+	l_ecume_des_jours_(2013)
+8
+d/home/marcosrdac/movies/l_ecume_des_jours_(2013)
+	..
+0
+d/home/marcosrdac/movies
+	looper_(2012)
+9
+d/home/marcosrdac/movies/looper_(2012)
+	looper_(2012).srt
+2
+d/home/marcosrdac/movies
+	lost_highway_(1997)
+10
+d/home/marcosrdac/movies/lost_highway_(1997)
+	lost_highway_(1997).mkv
+1
+d/home/marcosrdac/movies
+	mad_max_fury_road_(2015)
+11
+d/home/marcosrdac/movies/mad_max_fury_road_(2015)
+	blade_runner_2049_(2017)
+1
+d/home/marcosrdac/movies
+	mad_max_fury_road_(2015)
+11
+d/home/marcosrdac/movies/mad_max_fury_road_(2015)
+	blade_runner_2049_(2017)
+1
+d/home/marcosrdac/movies
+	mad_max_fury_road_(2015)
+11
+d/home/marcosrdac
+	movies
+6
+d/home/marcosrdac/movies
+	mad_max_fury_road_(2015)
+11
+d/home/marcosrdac/movies/mad_max_fury_road_(2015)
+	blade_runner_2049_(2017)
+1
+d/home/marcosrdac/movies/mad_max_fury_road_(2015)/blade_runner_2049_(2017)
+	..
+0
+d/home/marcosrdac/movies/mad_max_fury_road_(2015)
+	Mad Max Fury Road 2015 1080p WEB-DL x264 AC3-JYK.mkv
+1
+d/home/marcosrdac/movies
+	blade_runner_2049_(2017)
+2
+d/home/marcosrdac/movies/blade_runner_2049_(2017)
+	Blade Runner 2049 20172.srt
+3
+d/home/marcosrdac/movies
+	blade_runner_2049_(2017)
+2
+d/home/marcosrdac/movies/blade_runner_2049_(2017)
+	Blade Runner 2049 20172.srt
+3
+d/home/marcosrdac/movies
+	mother!_(2017)
+14
+d/home/marcosrdac/movies/mother!_(2017)
+	mother!_(2017).mkv
+1
+d/home/marcosrdac/movies
+	mulholland_dr._(2001)
+16
+d/home/marcosrdac/movies/mulholland_dr._(2001)
+	mulholland_dr._(2001).mp4
+1
+d/home/marcosrdac/movies
+	primer_(2004)
+17
+d/home/marcosrdac/movies/primer_(2004)
+	..
+0
+d/home/marcosrdac/movies
+	primer_(2004)
+17
+d/home/marcosrdac/movies/primer_(2004)
+	primer_(2004).mkv
+1
+d/home/marcosrdac/movies
+	przypadek_(1987)
+18
+d/home/marcosrdac/movies/przypadek_(1987)
+	przypadek.avi
+1
+d/home/marcosrdac/movies
+	rabbits_(2002)
+19
+d/home/marcosrdac/movies/rabbits_(2002)
+	rabbits.srt
+2
+d/home/marcosrdac/movies
+	rubber_(2010)
+20
+d/home/marcosrdac/movies/rubber_(2010)
+	rubber_(2010).mkv
+1
+d/home/marcosrdac/movies
+	submarine_(2010)
+21
+d/home/marcosrdac/movies/submarine_(2010)
+	..
+0
+d/home/marcosrdac/movies
+	the_breakfast_club_(1985)
+22
+d/home/marcosrdac/movies/the_breakfast_club_(1985)
+	..
+0
+d/home/marcosrdac/movies
+	the_worlds_end_(2013)
+23
+d/home/marcosrdac/movies/the_worlds_end_(2013)
+	The Worlds End [2013] 1080p BluRay AAC x264-ETRG.srt
+2
+d/home/marcosrdac/movies
+	the_worlds_end_(2013)
+23
+d/home/marcosrdac/movies/the_worlds_end_(2013)
+	the_worlds_end_(2013).srt
+2
+d/home/marcosrdac/movies
+	whiplash_(2014)
+24
+d/home/marcosrdac/movies/whiplash_(2014)
+	whiplash_(2014).srt
+2
+d/home/marcosrdac/movies
+	adaptation_(2002)
+1
 d
 
 # Right window history (oldest to newest):
@@ -731,12 +731,11 @@ D/home/marcosrdac/Dropbox
 	dotfiles
 3
 D/home/marcosrdac/Dropbox/dotfiles
-	.local
-3
+	..
+0
 D
 
 # Command line history (oldest to newest):
-:!python maker.py
 :split
 :touch .castgetrc
 :mkdir hermut
@@ -793,7 +792,6 @@ D
 :touch torrent.md
 :mkdir po
 :mkdir rss
-:!mpv %
 :!mpv %c
 :h
 :play
@@ -835,11 +833,11 @@ D
 :empty
 :mkdir gaming
 :sort
+:!mpv %
 :q
+:c
 
 # Search history (oldest to newest):
-/news
-/tras
 /off
 /mai
 /cron
@@ -881,7 +879,6 @@ D
 /mou
 /mov
 /los
-/torr
 /uf
 /ufb
 /l
@@ -938,17 +935,11 @@ D
 /blan
 /dot
 /media
+/togg
+/torr
+/movi
 
 # Prompt history (oldest to newest):
-pstrain_gauges
-pgauges
-psub_dipole
-pdipole
-pcontin_input
-pdipole_output
-pcon
-pACNE.md
-p20170430 ACNE.md
 pbatons.md
 pindex
 pindex_.html
@@ -1040,10 +1031,21 @@ pdm_mount_menu_
 pDatei Tribute
 p.gitignore_
 pmsgs
+ptoggle_webcam_gaps
+pcoraline_e_o_mundo_secreto_(2009)
+pCoraline e o Mundo Secreto (2009)
+pcoraline_(2009)
+pBlue.Velvet.1986)
+pblue_velvet_(1986)
+peternal_sunshine_of_the_spotless_mind_(2004)_eng.srt
+pMulholland.Dr (2001)
+pThe Worlds End [2013] 1080p BluRay AAC x264-ETRG
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/marcosrdac/.local/share/Trash/000_the.world.s.end.(6731867).nfo
+""/home/marcosrdac/.local/share/Trash/000_the.worlds.end.(2013).pob.1cd.(6731867).zip
 
 # Directory stack (oldest to newest):
 
@@ -1118,11 +1120,69 @@ t/home/marcosrdac/.local/share/Trash/000_mnt
 	/home/marcosrdac/mnt
 t/home/marcosrdac/.local/share/Trash/001_test
 	/media/sdc-usb-Kingston_DataTra/test
+t/home/marcosrdac/.local/share/Trash/000_programs.md
+	/home/marcosrdac/programs.md
+t/home/marcosrdac/.local/share/Trash/000_#Fan Page.txt
+	/home/marcosrdac/tmp/torrents/Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio/#Fan Page.txt
+t/home/marcosrdac/.local/share/Trash/000_img.jpg
+	/home/marcosrdac/tmp/torrents/Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio/img.jpg
+t/home/marcosrdac/.local/share/Trash/000_i.nfo
+	/home/marcosrdac/movies/blue_velvet_(1986)/i.nfo
+t/home/marcosrdac/.local/share/Trash/000_eraserhead.(5118234).nfo
+	/home/marcosrdac/movies/eraserhead_(1977)/eraserhead.(5118234).nfo
+t/home/marcosrdac/.local/share/Trash/000_eraserhead.(1977).pob.1cd.(5118234).zip
+	/home/marcosrdac/movies/eraserhead_(1977)/eraserhead.(1977).pob.1cd.(5118234).zip
+t/home/marcosrdac/.local/share/Trash/000_eternal.sunshine.of.the.spotless.(7810331).nfo
+	/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)/eternal.sunshine.of.the.spotless.(7810331).nfo
+t/home/marcosrdac/.local/share/Trash/000_eternal.sunshine.of.the.spotless.mind..pob.1cd..zip
+	/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)/eternal.sunshine.of.the.spotless.mind..pob.1cd..zip
+t/home/marcosrdac/.local/share/Trash/000_WWW.YIFY-TORRENTS.COM.jpg
+	/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)/WWW.YIFY-TORRENTS.COM.jpg
+t/home/marcosrdac/.local/share/Trash/000_eternal_sunshine_of_the_spotless_mind_(2004)
+	/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)/eternal_sunshine_of_the_spotless_mind_(2004)
+t/home/marcosrdac/.local/share/Trash/000_Other
+	/home/marcosrdac/movies/inland_empire_(2006)/Other
+t/home/marcosrdac/.local/share/Trash/001_WWW.YIFY-TORRENTS.COM.jpg
+	/home/marcosrdac/movies/inland_empire_(2006)/WWW.YIFY-TORRENTS.COM.jpg
+t/home/marcosrdac/.local/share/Trash/000_Looper.2012.BluRay.720p.x264.YIFY.srt
+	/home/marcosrdac/movies/looper_(2012)/Looper.2012.BluRay.720p.x264.YIFY.srt
+t/home/marcosrdac/.local/share/Trash/002_WWW.YIFY-TORRENTS.COM.jpg
+	/home/marcosrdac/movies/looper_(2012)/WWW.YIFY-TORRENTS.COM.jpg
+t/home/marcosrdac/.local/share/Trash/000_looper.(2012).pob.1cd.(4864508).zip
+	/home/marcosrdac/movies/looper_(2012)/looper.(2012).pob.1cd.(4864508).zip
+t/home/marcosrdac/.local/share/Trash/000_looper.(2012).pob.1cd.(4994843).zip
+	/home/marcosrdac/movies/looper_(2012)/looper.(2012).pob.1cd.(4994843).zip
+t/home/marcosrdac/.local/share/Trash/000_ECLiPSE.txt
+	/home/marcosrdac/movies/blade_runner_2049_(2017)/ECLiPSE.txt
+t/home/marcosrdac/.local/share/Trash/000_Read Me.txt
+	/home/marcosrdac/movies/blade_runner_2049_(2017)/Read Me.txt
+t/home/marcosrdac/.local/share/Trash/000_blade.runner.2049.(2017).pob.1cd.(7203155).zip
+	/home/marcosrdac/movies/blade_runner_2049_(2017)/blade.runner.2049.(2017).pob.1cd.(7203155).zip
+t/home/marcosrdac/.local/share/Trash/000_blade.runner.2049.(7203155).nfo
+	/home/marcosrdac/movies/blade_runner_2049_(2017)/blade.runner.2049.(7203155).nfo
+t/home/marcosrdac/.local/share/Trash/000_Mother!.2017.720p.WEB-DL.H264.AC3-EVO.nfo
+	/home/marcosrdac/movies/mother!_(2017)/Mother!.2017.720p.WEB-DL.H264.AC3-EVO.nfo
+t/home/marcosrdac/.local/share/Trash/000_mother.(2017).pob.1cd.(7181415).zip
+	/home/marcosrdac/movies/mother!_(2017)/mother.(2017).pob.1cd.(7181415).zip
+t/home/marcosrdac/.local/share/Trash/000_mother.(7181415).nfo
+	/home/marcosrdac/movies/mother!_(2017)/mother.(7181415).nfo
+t/home/marcosrdac/.local/share/Trash/000_WWW.YTS.TO.jpg
+	/home/marcosrdac/movies/mulholland_dr._(2001)/WWW.YTS.TO.jpg
+t/home/marcosrdac/.local/share/Trash/000_mulholland.dr.(7313172).nfo
+	/home/marcosrdac/movies/mulholland_dr._(2001)/mulholland.dr.(7313172).nfo
+t/home/marcosrdac/.local/share/Trash/000_Primer 2004 720p WEB-DL DD5.1 H.264-IY.nfo
+	/home/marcosrdac/movies/primer_(2004)/Primer 2004 720p WEB-DL DD5.1 H.264-IY.nfo
+t/home/marcosrdac/.local/share/Trash/000_11min
+	/home/marcosrdac/movies/przypadek_(1987)/11min
+t/home/marcosrdac/.local/share/Trash/000_the.world.s.end.(6731867).nfo
+	/home/marcosrdac/movies/the_worlds_end_(2013)/the.world.s.end.(6731867).nfo
+t/home/marcosrdac/.local/share/Trash/000_the.worlds.end.(2013).pob.1cd.(6731867).zip
+	/home/marcosrdac/movies/the_worlds_end_(2013)/the.worlds.end.(2013).pob.1cd.(6731867).zip
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1

@@ -303,6 +303,7 @@ bindsym $mod+m        [instance="dropdown_music_player"] scratchpad show, [insta
 bindsym $mod+Shift+p  exec --no-startup-id show_clip_prim
 bindsym $mod+e        exec --no-startup-id keepmenu
 bindsym $mod+w        exec --no-startup-id toggle_webcam
+bindsym $mod+Shift+w  exec --no-startup-id toggle_webcam_gaps
 
 
 
