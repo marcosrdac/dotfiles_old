@@ -122,143 +122,14 @@
 
 # TUI:
 al
-q1
-v2
+q0
+v1
 ov
 m-1
 l2
 r8,2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac
-	movies
-6
-d/home/marcosrdac/.dotfiles
-	.gitignore
-11
-d/home/marcosrdac/.config/i3
-	config
-3
-d/home/marcosrdac/.local
-	bin
-1
-d/home/marcosrdac/.local/bin
-	toggle_webcam_gaps
-27
-d/home/marcosrdac/.config/i3
-	config
-3
-d/home/marcosrdac
-	series
-9
-d/home/marcosrdac/series
-	twin_peaks
-2
-d/home/marcosrdac/series/twin_peaks
-	TPS01E01.mkv
-4
-d/home/marcosrdac/.config
-	shell
-28
-d/home/marcosrdac/.config/shell
-	shrc
-5
-d/home/marcosrdac/.local
-	share
-3
-d/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-23
-d/home/marcosrdac
-	test
-14
-d/home/marcosrdac/tmp
-	torrents
-15
-d/home/marcosrdac/tmp/torrents
-	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio
-1
-d/home/marcosrdac/tmp/torrents/Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio
-	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
-1
-d/home/marcosrdac/tmp/torrents
-	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio
-1
-d/home/marcosrdac/tmp
-	torrents
-15
-d/home/marcosrdac
-	movies
-6
-d/home/marcosrdac/movies
-	coraline_e_o_mundo_secreto_(2009)
-3
-d/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
-	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
-1
-d/home/marcosrdac/movies
-	coraline_e_o_mundo_secreto_(2009)
-3
-d/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
-	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
-1
-d/home/marcosrdac/movies
-	coraline_e_o_mundo_secreto_(2009)
-3
-d/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
-	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
-1
-d/home/marcosrdac/movies
-	coraline_(2009)
-3
-d/home/marcosrdac/movies/coraline_(2009)
-	..
-0
-d/home/marcosrdac/movies
-	coraline_(2009)
-3
-d/home/marcosrdac/movies/coraline_(2009)
-	coraline_(2009).mkv
-1
-d/home/marcosrdac/movies
-	blue_velvet_(1986)
-2
-d/home/marcosrdac/movies/blue_velvet_(1986)
-	blue_velvet_(1986).mp4
-2
-d/home/marcosrdac/movies
-	blue_velvet_(1986)
-2
-d/home/marcosrdac/movies/blue_velvet_(1986)
-	blue_velvet_(1986).srt
-2
-d/home/marcosrdac/movies
-	adaptation_(2002)
-1
-d/home/marcosrdac/movies/adaptation_(2002)
-	adaptation_(2002).mkv
-1
-d/home/marcosrdac/movies
-	eraserhead_(1977)
-4
-d/home/marcosrdac/movies/eraserhead_(1977)
-	eraserhead_(1977)_eng.srt
-3
-d/home/marcosrdac/movies
-	eraserhead_(1977)
-4
-d/home/marcosrdac/movies/eraserhead_(1977)
-	eraserhead_(1977)_eng.srt
-3
-d/home/marcosrdac/movies
-	eternal_sunshine_of_the_spotless_mind_(2004)
-5
-d/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)
-	eternal_sunshine_of_the_spotless_mind_(2004)_eng.srt
-3
-d/home/marcosrdac/movies
-	inland_empire_(2006)
-7
 d/home/marcosrdac/movies/inland_empire_(2006)
 	Other
 1
@@ -430,99 +301,138 @@ d/home/marcosrdac/wallpapers
 d/home/marcosrdac/wallpapers/favorites
 	bridge_pink_blue_peaceful_wakening_gc.jpg
 2
+d/home/marcosrdac/documents
+	..
+0
+d/home/marcosrdac/.dotfiles
+	.config
+2
+d/home/marcosrdac/.dotfiles/.config
+	keepmenu
+9
+d/home/marcosrdac/.dotfiles/.config/keepmenu
+	config.ini
+1
+d/home/marcosrdac/.dotfiles/.config
+	keepassx
+8
+d/home/marcosrdac/.dotfiles/.config/keepassx
+	marcosrdac.kdbx
+2
+d/home/marcosrdac/tmp
+	torrents
+15
+d/home/marcosrdac
+	movies
+12
+d/home/marcosrdac/movies
+	coraline_(2009)
+4
+d/home/marcosrdac/movies/coraline_(2009)
+	coraline_(2009).mkv
+1
+d/home/marcosrdac/movies
+	coraline_(2009)
+4
+d/home/marcosrdac/.config
+	mimeapps.list
+37
+d/home/marcosrdac
+	.viminfo
+30
+d/home/marcosrdac/.config
+	pulse
+17
+d/home/marcosrdac/.config/pulse
+	fa81b656bc5a4b0ba9314b08655a0ed7-default-source
+4
+d/home/marcosrdac/.config
+	shell
+23
+d/home/marcosrdac
+	.viminfo
+30
+d/home/marcosrdac/.config
+	shell
+23
+d/home/marcosrdac
+	.cache
+0
+d/home/marcosrdac/.cache
+	thumbnails
+26
+d/home/marcosrdac/.dotfiles
+	.git
+3
+d/home/marcosrdac
+	Dropbox
+13
+d/home/marcosrdac/Dropbox
+	documents
+3
+d/home/marcosrdac/Dropbox/documents
+	..
+0
+d/home/marcosrdac/Dropbox
+	dotfiles
+4
+d/home/marcosrdac/Dropbox/dotfiles
+	.cache
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles
+	.cache
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache/python
+	..
+0
+d/home/marcosrdac
+	.cache
+0
+d/home/marcosrdac/.cache
+	python
+23
+d/home/marcosrdac
+	tmp
+11
+d/home/marcosrdac/.config
+	shell
+23
+d/home/marcosrdac/wallpapers
+	wallhaven-p2533e.jpg
+23
+d/home/marcosrdac/.config
+	shell
+23
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	st
+5
+d/home/marcosrdac/.local/bin/st
+	config.h
+11
+d/home/marcosrdac/.config
+	pythonstartup.py
+37
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	menu
+3
+d/home/marcosrdac/.local/bin/menu
+	menu
+8
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	autoload
-2
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline/colorscheme
-	..
-0
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/wpgtk.vim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim/wpgtk.vim/colors
-	wpgtkAlt.vim
-2
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim
-	colors
-6
-D/home/marcosrdac/.config/nvim/colors
-	wpgtk.vim
-1
-D/home/marcosrdac/.config/nvim
-	wpgtk.vim
-5
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	tags
-5
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	airline
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload/airline/themes
-	wpgtk.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim
-	colors
-6
-D/home/marcosrdac/.config/nvim/colors
-	wpgtkAlt.vim
-3
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
 D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
 	wal.vim
 1
@@ -733,6 +643,96 @@ D/home/marcosrdac/Dropbox
 D/home/marcosrdac/Dropbox/dotfiles
 	..
 0
+D/home/marcosrdac
+	tmp
+4
+D/home/marcosrdac/tmp
+	20190924002959_screencast.mkv
+22
+D/media
+	..
+0
+D/
+	media
+13
+D/media
+	sdc-usb-Kingston_DataTra
+1
+D/media/sdc-usb-Kingston_DataTra
+	coraline_(2009)
+1
+D/media
+	..
+0
+D/home/marcosrdac/.dotfiles
+	.gitignore
+16
+D/home/marcosrdac
+	..
+0
+D/home/marcosrdac/.dotfiles
+	.gitignore
+16
+D/home/marcosrdac/documents
+	..
+0
+D/home/marcosrdac
+	Dropbox
+25
+D/home/marcosrdac/Dropbox
+	apps
+2
+D/home/marcosrdac/Dropbox/apps
+	..
+0
+D/home/marcosrdac/Dropbox
+	apps
+2
+D/home/marcosrdac
+	Dropbox
+25
+D/home/marcosrdac/.config
+	newsboat
+23
+D/home/marcosrdac/.config/newsboat
+	urls
+5
+D/home/marcosrdac
+	.dmrc
+20
+D/home/marcosrdac/.config
+	Xauthority
+36
+D/home/marcosrdac
+	.dotfiles
+9
+D/home/marcosrdac/.dotfiles
+	.config
+4
+D/home/marcosrdac/.dotfiles/.config
+	GIMP
+1
+D/home/marcosrdac
+	.dotfiles
+17
+D/home/marcosrdac/.dotfiles
+	.cache
+3
+D/home/marcosrdac/.dotfiles/.cache
+	python
+1
+D/home/marcosrdac/.dotfiles/.cache/python
+	python_history
+1
+D/home/marcosrdac/.dotfiles/.cache
+	terminal
+2
+D/home/marcosrdac/.dotfiles/.cache/terminal
+	..
+0
+D/home/marcosrdac/.dotfiles/.cache
+	terminal
+2
 D
 
 # Command line history (oldest to newest):
@@ -838,20 +838,6 @@ D
 :c
 
 # Search history (oldest to newest):
-/off
-/mai
-/cron
-/vim
-/nvi
-/alia
-//vi
-/vif
-/mais
-/var
-/usr
-/xsessi
-/sess
-/linux
 /packa
 /start
 /star
@@ -863,7 +849,6 @@ D
 /she
 /site
 /stud
-/tm
 /c
 /msm
 /xini
@@ -877,14 +862,12 @@ D
 /meda
 /mdn
 /mou
-/mov
 /los
 /uf
 /ufb
 /l
 /co
 /hto
-/x
 /xres
 /fot
 /f
@@ -900,7 +883,6 @@ D
 /tri
 /git
 /keep
-/conf
 /cach
 /gt
 /theme
@@ -909,7 +891,6 @@ D
 /tgh
 /ite
 /loca
-/con
 /gtl
 /RE
 /wpg
@@ -923,25 +904,42 @@ D
 /rapo
 /sq
 /cry
-/kee
 /chess
 /gami
 /nvim
 /colo
-/cache
 /wal
 /qute
 /blan
-/dot
 /media
 /togg
 /torr
 /movi
 /dm
+/con
+/conf
+/kee
+/tm
+/mov
+/cora
+/dro
+/news
+/hist
+/pyth
+/pytho
+/ter
+/dit
+/dot
+/drop
+/cache
+/teste
+/xinit
+/nvidi
+/urx
+/x
+/h
 
 # Prompt history (oldest to newest):
-pindex
-pindex_.html
 playout__
 playout_
 playout_.html
@@ -1014,7 +1012,6 @@ p.xprofile
 pgtk2
 p.themes_
 p.themes
-pconfig
 p.msmtprc_
 p.msmtprc
 p_.msmtprc
@@ -1040,12 +1037,14 @@ peternal_sunshine_of_the_spotless_mind_(2004)_eng.srt
 pMulholland.Dr (2001)
 pThe Worlds End [2013] 1080p BluRay AAC x264-ETRG
 pmenu
+pconfig_
+pconfig__
+pconfig
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_the.world.s.end.(6731867).nfo
-""/home/marcosrdac/.local/share/Trash/000_the.worlds.end.(2013).pob.1cd.(6731867).zip
+""/home/marcosrdac/.local/share/Trash/000_testeeee
 
 # Directory stack (oldest to newest):
 
@@ -1178,6 +1177,24 @@ t/home/marcosrdac/.local/share/Trash/000_the.world.s.end.(6731867).nfo
 	/home/marcosrdac/movies/the_worlds_end_(2013)/the.world.s.end.(6731867).nfo
 t/home/marcosrdac/.local/share/Trash/000_the.worlds.end.(2013).pob.1cd.(6731867).zip
 	/home/marcosrdac/movies/the_worlds_end_(2013)/the.worlds.end.(2013).pob.1cd.(6731867).zip
+t/home/marcosrdac/.local/share/Trash/000_.gshist
+	/home/marcosrdac/.gshist
+t/home/marcosrdac/.local/share/Trash/001_.python_history
+	/home/marcosrdac/.python_history
+t/home/marcosrdac/.local/share/Trash/000_nvidiaxrun_log
+	/home/marcosrdac/nvidiaxrun_log
+t/home/marcosrdac/.local/share/Trash/001_python
+	/home/marcosrdac/.cache/python
+t/home/marcosrdac/.local/share/Trash/000_linker.sh
+	/home/marcosrdac/.dotfiles/.cache/linker.sh
+t/home/marcosrdac/.local/share/Trash/001_apps
+	/home/marcosrdac/Dropbox/apps
+t/home/marcosrdac/.local/share/Trash/001_wallhaven-695431.jpg
+	/home/marcosrdac/Dropbox/pictures/wallpapers/wallhaven-695431.jpg
+t/home/marcosrdac/.local/share/Trash/000_wallhaven-695354.png_wal_sample.png
+	/home/marcosrdac/Dropbox/pictures/wallpapers/wallhaven-695354.png_wal_sample.png
+t/home/marcosrdac/.local/share/Trash/000_testeeee
+	/home/marcosrdac/testeeee
 
 # State:
 f

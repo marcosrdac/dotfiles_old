@@ -282,7 +282,7 @@ for_window [title="^Steam Keyboard$"] floating enable
 
 #--- keybindings ---#
 # oppening programs
-bindsym $mod+o exec --no-startup-id dmenu_run -h 20 -y 22 -fn "$font_name"-"$font_size" -nb "$bg" -nf "$fg" -sb "$fg" -sf "$bg" -i -f -l 15 -p "sh:"
+bindsym $mod+o exec --no-startup-id dmenu_run -f -i  -b -l 15 -fn "$font_name"-"$font_size" -nb "$bg" -nf "$fg" -sb "$fg" -sf "$bg" -p "sh:"
 # common softwares
 bindsym $mod+Return   exec --no-startup-id $term
 bindsym $mod+z        [instance="dropdown_terminal"] scratchpad show
