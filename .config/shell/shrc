@@ -30,8 +30,8 @@ alias please=sudo
 alias ll="ls -l"
 alias la="ls -la"
 alias s='sudo -s -E'
-alias x='startx; logout'
-alias nx='nvidia-xrun; logout'
+alias x='startx && clear'
+alias nx='nvidia-xrun && clear'
 
 alias v='nvim'
 alias n='vifm_ueberzug'

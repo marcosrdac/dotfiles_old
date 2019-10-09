@@ -134,7 +134,7 @@
     (position 227 179))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 767 77)
+    (position 757 67)
     (size 398 554))
 (session-info "toplevel"
     (factory-entry "gimp-palette-import-dialog")

@@ -14,9 +14,9 @@
 	.gitignore
 1570209598
 'H
-	/home/marcosrdac/
-	..
-1568375661
+	/mnt/hdd
+	MEGA
+1570395160
 'L
 	/home/marcosrdac/projects/linux_learning
 	packages_instalation.md
@@ -46,13 +46,13 @@
 	audios
 1561254757
 'b
-	/home/marcosrdac/bin/
+	/home/marcosrdac/.local/bin/
 	..
-1569928120
+1570488378
 'c
 	/home/marcosrdac/.config
 	shell
-1569459740
+1570488537
 'd
 	/home/marcosrdac/documents
 	..
@@ -130,231 +130,6 @@ l2
 r8,2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/movies/inland_empire_(2006)
-	Other
-1
-d/home/marcosrdac/movies
-	inland_empire_(2006)
-7
-d/home/marcosrdac/movies/inland_empire_(2006)
-	inland_empire_(2006).srt
-2
-d/home/marcosrdac/movies
-	l_ecume_des_jours_(2013)
-8
-d/home/marcosrdac/movies/l_ecume_des_jours_(2013)
-	..
-0
-d/home/marcosrdac/movies
-	looper_(2012)
-9
-d/home/marcosrdac/movies/looper_(2012)
-	looper_(2012).srt
-2
-d/home/marcosrdac/movies
-	lost_highway_(1997)
-10
-d/home/marcosrdac/movies/lost_highway_(1997)
-	lost_highway_(1997).mkv
-1
-d/home/marcosrdac/movies
-	mad_max_fury_road_(2015)
-11
-d/home/marcosrdac/movies/mad_max_fury_road_(2015)
-	blade_runner_2049_(2017)
-1
-d/home/marcosrdac/movies
-	mad_max_fury_road_(2015)
-11
-d/home/marcosrdac/movies/mad_max_fury_road_(2015)
-	blade_runner_2049_(2017)
-1
-d/home/marcosrdac/movies
-	mad_max_fury_road_(2015)
-11
-d/home/marcosrdac
-	movies
-6
-d/home/marcosrdac/movies
-	mad_max_fury_road_(2015)
-11
-d/home/marcosrdac/movies/mad_max_fury_road_(2015)
-	blade_runner_2049_(2017)
-1
-d/home/marcosrdac/movies/mad_max_fury_road_(2015)/blade_runner_2049_(2017)
-	..
-0
-d/home/marcosrdac/movies/mad_max_fury_road_(2015)
-	Mad Max Fury Road 2015 1080p WEB-DL x264 AC3-JYK.mkv
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-2
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 20172.srt
-3
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-2
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 20172.srt
-3
-d/home/marcosrdac/movies
-	mother!_(2017)
-14
-d/home/marcosrdac/movies/mother!_(2017)
-	mother!_(2017).mkv
-1
-d/home/marcosrdac/movies
-	mulholland_dr._(2001)
-16
-d/home/marcosrdac/movies/mulholland_dr._(2001)
-	mulholland_dr._(2001).mp4
-1
-d/home/marcosrdac/movies
-	primer_(2004)
-17
-d/home/marcosrdac/movies/primer_(2004)
-	..
-0
-d/home/marcosrdac/movies
-	primer_(2004)
-17
-d/home/marcosrdac/movies/primer_(2004)
-	primer_(2004).mkv
-1
-d/home/marcosrdac/movies
-	przypadek_(1987)
-18
-d/home/marcosrdac/movies/przypadek_(1987)
-	przypadek.avi
-1
-d/home/marcosrdac/movies
-	rabbits_(2002)
-19
-d/home/marcosrdac/movies/rabbits_(2002)
-	rabbits.srt
-2
-d/home/marcosrdac/movies
-	rubber_(2010)
-20
-d/home/marcosrdac/movies/rubber_(2010)
-	rubber_(2010).mkv
-1
-d/home/marcosrdac/movies
-	submarine_(2010)
-21
-d/home/marcosrdac/movies/submarine_(2010)
-	..
-0
-d/home/marcosrdac/movies
-	the_breakfast_club_(1985)
-22
-d/home/marcosrdac/movies/the_breakfast_club_(1985)
-	..
-0
-d/home/marcosrdac/movies
-	the_worlds_end_(2013)
-23
-d/home/marcosrdac/movies/the_worlds_end_(2013)
-	The Worlds End [2013] 1080p BluRay AAC x264-ETRG.srt
-2
-d/home/marcosrdac/movies
-	the_worlds_end_(2013)
-23
-d/home/marcosrdac/movies/the_worlds_end_(2013)
-	the_worlds_end_(2013).srt
-2
-d/home/marcosrdac/movies
-	whiplash_(2014)
-24
-d/home/marcosrdac/movies/whiplash_(2014)
-	whiplash_(2014).srt
-2
-d/home/marcosrdac/movies
-	adaptation_(2002)
-1
-d/home/marcosrdac/.config/i3
-	config
-3
-d/home/marcosrdac/.config
-	schemegen
-19
-d/home/marcosrdac/.local
-	bin
-1
-d/home/marcosrdac/.local/bin
-	dmenu
-0
-d/home/marcosrdac/.local/bin/dmenu
-	..
-0
-d/home/marcosrdac/.local/bin
-	menu
-2
-d/home/marcosrdac/.local/bin/menu
-	menu
-8
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	bridge_pink_blue_peaceful_wakening_gc.jpg
-2
-d/home/marcosrdac/documents
-	..
-0
-d/home/marcosrdac/.dotfiles
-	.config
-2
-d/home/marcosrdac/.dotfiles/.config
-	keepmenu
-9
-d/home/marcosrdac/.dotfiles/.config/keepmenu
-	config.ini
-1
-d/home/marcosrdac/.dotfiles/.config
-	keepassx
-8
-d/home/marcosrdac/.dotfiles/.config/keepassx
-	marcosrdac.kdbx
-2
-d/home/marcosrdac/tmp
-	torrents
-15
-d/home/marcosrdac
-	movies
-12
-d/home/marcosrdac/movies
-	coraline_(2009)
-4
-d/home/marcosrdac/movies/coraline_(2009)
-	coraline_(2009).mkv
-1
-d/home/marcosrdac/movies
-	coraline_(2009)
-4
-d/home/marcosrdac/.config
-	mimeapps.list
-37
-d/home/marcosrdac
-	.viminfo
-30
-d/home/marcosrdac/.config
-	pulse
-17
-d/home/marcosrdac/.config/pulse
-	fa81b656bc5a4b0ba9314b08655a0ed7-default-source
-4
-d/home/marcosrdac/.config
-	shell
-23
-d/home/marcosrdac
-	.viminfo
-30
-d/home/marcosrdac/.config
-	shell
-23
 d/home/marcosrdac
 	.cache
 0
@@ -420,325 +195,547 @@ d/home/marcosrdac/.local/bin/st
 11
 d/home/marcosrdac/.config
 	pythonstartup.py
-37
-d/home/marcosrdac/.local
-	bin
-1
-d/home/marcosrdac/.local/bin
-	menu
+36
+d/home/marcosrdac/.config/i3
+	config
 3
-d/home/marcosrdac/.local/bin/menu
-	menu
+d/home/marcosrdac
+	tmp
+11
+d/home/marcosrdac/tmp
+	torrents
+15
+d/home/marcosrdac
+	.dotfiles
+3
+d/home/marcosrdac/.dotfiles
+	.git
+3
+d/home/marcosrdac
+	movies
+20
+d/home/marcosrdac/movies
+	coraline_(2009)
+4
+d/home/marcosrdac/movies/coraline_(2009)
+	coraline_(2009).mkv
+1
+d/home/marcosrdac/tmp
+	KY-019_5v_relay_module[arduinomodules.info]
+1
+d/home/marcosrdac/tmp/KY-019_5v_relay_module[arduinomodules.info]
+	..
+0
+d/home/marcosrdac/tmp
+	cryptingTool
+2
+d/home/marcosrdac/tmp/cryptingTool
+	..
+0
+d/home/marcosrdac/tmp
+	20190924001626_screencast.mkv
+23
+d/home/marcosrdac
+	movies
+20
+d/home/marcosrdac/movies
+	adaptation_(2002)
+1
+d/home/marcosrdac/movies/adaptation_(2002)
+	adaptation_(2002).mkv
+1
+d/home/marcosrdac/movies
+	adaptation_(2002)
+1
+d/home/marcosrdac
+	movies
+20
+d/home/marcosrdac/movies
+	adaptation_(2002)
+1
+d/home/marcosrdac/movies/adaptation_(2002)
+	adaptation_(2002).mkv
+1
+d/home/marcosrdac/movies
+	adaptation_(2002)
+1
+d/home/marcosrdac
+	movies
+20
+d/home/marcosrdac/movies
+	adaptation_(2002)
+1
+d/home/marcosrdac/movies/adaptation_(2002)
+	adaptation_(2002).srt
+2
+d/home/marcosrdac/movies
+	eraserhead_(1977)
+5
+d/home/marcosrdac/movies/eraserhead_(1977)
+	eraserhead_(1977).mp4
+1
+d/home/marcosrdac/movies
+	eternal_sunshine_of_the_spotless_mind_(2004)
+6
+d/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)
+	eternal_sunshine_of_the_spotless_mind_(2004)_eng.srt
+3
+d/home/marcosrdac/movies
+	eternal_sunshine_of_the_spotless_mind_(2004)
+6
+d/home/marcosrdac
+	movies
+20
+d/home
+	marcosrdac
+3
+d/
+	home
+5
+d/home/marcosrdac
+	dm
+33
+d/media
+	..
+0
+d/
+	media
+9
+d/home/marcosrdac
+	MEGA
+4
+d/home/marcosrdac/MEGA
+	..
+0
+d/home/marcosrdac
+	MEGA
+4
+d/home/marcosrdac/MEGA
+	videos
 8
+d/home/marcosrdac/MEGA/videos
+	..
+0
+d/home/marcosrdac/MEGA
+	videos
+8
+d/home/marcosrdac
+	MEGA
+4
+d/home/marcosrdac/MEGA
+	videos
+8
+d/home/marcosrdac/MEGA/videos
+	201807231749_escrevendo_artigo.mp4
+6
+d/home/marcosrdac/MEGA
+	languages
+6
+d/home/marcosrdac/MEGA/languages
+	..
+0
+d/home/marcosrdac/MEGA
+	jake
+5
+d/home/marcosrdac/MEGA/jake
+	..
+0
+d/home/marcosrdac/MEGA
+	ifba
+4
+d/home/marcosrdac/MEGA/ifba
+	Materiais
+1
+d/home/marcosrdac/MEGA
+	ifba
+4
+d/home/marcosrdac
+	Dropbox
+10
+d/home/marcosrdac/Dropbox
+	pictures
+5
+d/home/marcosrdac/Dropbox/pictures
+	..
+0
+d/home/marcosrdac/Dropbox
+	printing
+6
+d/home/marcosrdac/Dropbox/printing
+	..
+0
+d/home/marcosrdac/Dropbox
+	projects
+7
+d/home/marcosrdac/Dropbox/projects
+	..
+0
+d/home/marcosrdac/Dropbox
+	software
+8
+d/home/marcosrdac
+	.virtual_machines
+8
+d/home/marcosrdac/.local
+	share
+3
+d/home/marcosrdac/.dotfiles
+	.local
+5
+d/home/marcosrdac/.dotfiles/.local
+	share
+2
+d/home/marcosrdac/.dotfiles/.local/share
+	..
+0
+d/home/marcosrdac/.config
+	pythonstartup.py
+36
+d/home/marcosrdac/Dropbox/pictures/screenshots
+	..
+0
+d/home/marcosrdac/.config
+	shell
+19
+d/home/marcosrdac/.config/shell
+	shenv
+7
+d/home/marcosrdac/.local
+	share
+3
+d/home/marcosrdac/.config
+	shell
+19
+d/home/marcosrdac
+	.virtual_machines
+8
+d/home/marcosrdac/.config
+	shell
+19
+d/home/marcosrdac
+	.virtual_machines
+8
+d/home/marcosrdac/projects/linux_learning
+	ssh.md
+8
+d/home/marcosrdac
+	.ssh
+5
+d/home/marcosrdac/.ssh
+	known_hosts
+1
+d/home/marcosrdac
+	.ssh
+4
+d/home/marcosrdac/.ssh
+	known_hosts
+3
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/.config/nvim/autoload/lightline/colorscheme
-	wal.vim
+D/mnt
+	hdd
 1
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload
-	airline
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload/airline/themes
-	wpgtk.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/autoload/lightline
-	colorscheme
-1
-D/home/marcosrdac/.config/nvim/autoload
-	plug.vim
-1
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	plug.vim
-1
-D/home/marcosrdac/.config/nvim
-	ftplugin
-2
-D/home/marcosrdac/.config/nvim/ftplugin
-	..
-0
-D/home/marcosrdac/.config/nvim
-	plugged
-3
-D/home/marcosrdac/.config/nvim/plugged
-	..
-0
-D/home/marcosrdac/.config/nvim
-	plugged
-3
-D/home/marcosrdac/.config/nvim/plugged
-	..
-0
-D/home/marcosrdac/.config/nvim
-	spell
+D/mnt/hdd
+	.virtual_machines
 4
-D/home/marcosrdac/.config/nvim/spell
-	..
-0
-D/home/marcosrdac/.config/nvim
-	wpgtk.vim
-5
-D/home/marcosrdac/.config/nvim/wpgtk.vim
-	tags
-5
-D/home/marcosrdac/.config/nvim
-	colors
-5
-D/home/marcosrdac/.config/nvim/colors
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/colors/wal.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim/colors/wal.vim/colors
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/colors/wal.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim/colors
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/colors/wal.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim/colors/wal.vim/colors
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/colors/wal.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim/colors
-	..
-0
-D/home/marcosrdac/.config/nvim
-	wal.vim
-5
-D/home/marcosrdac/.config/nvim/wal.vim
-	autoload
-2
-D/home/marcosrdac/.config/nvim/wal.vim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/wal.vim
-	autoload
-2
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	airline
-1
-D/home/marcosrdac/.config/nvim
-	colors
-6
-D/home/marcosrdac/.config/nvim/colors
-	..
-0
-D/home/marcosrdac/.config/nvim
-	wal.vim
-5
-D/home/marcosrdac/.config/nvim/wal.vim
-	autoload
-2
-D/home/marcosrdac/.config/nvim/wal.vim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/wal.vim
-	autoload
-2
-D/home/marcosrdac/.config/nvim/wal.vim/autoload
-	lightline
-2
-D/home/marcosrdac/.config/nvim/wal.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim/wal.vim/colors
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/wal.vim
-	colors
-3
-D/home/marcosrdac/.config/nvim
-	colors
-6
-D/home/marcosrdac/.config/nvim/colors
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim
-	wal.vim
-5
-D/home/marcosrdac/.config/nvim/wal.vim
-	LICENSE.md
-5
-D/home/marcosrdac/.config/nvim
-	colors
-5
-D/home/marcosrdac/.config/nvim/colors
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim
-	autoload
-1
-D/home/marcosrdac/.config/nvim/autoload
-	airline
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload/airline/themes
-	wal.vim
-1
-D/home/marcosrdac/.config/nvim/autoload/airline
-	themes
-1
-D/home/marcosrdac/.config/nvim/autoload
-	airline
-1
-D/home/marcosrdac/.config/nvim
-	..
-0
-D/home/marcosrdac/.config/qutebrowser
-	blank_page_modify.html
-10
 D/home/marcosrdac
-	.dotfiles
-17
+	MEGA
+5
+D/home
+	marcosrdac
+1
+D/home/marcosrdac
+	trash
+6
+D/home/marcosrdac/trash
+	..
+0
+D/home/marcosrdac
+	MEGA
+5
+D/home/marcosrdac/MEGA
+	..
+0
+D/home/marcosrdac
+	MEGA
+5
+D/home/marcosrdac/MEGA
+	..
+0
+D/home/marcosrdac
+	MEGA
+5
+D/home/marcosrdac/MEGA
+	..
+0
+D/home/marcosrdac
+	documents
+3
 D/home/marcosrdac/.dotfiles
-	README.md
-19
+	.gitignore
+16
 D/home/marcosrdac
-	udevil
-13
-D/home/marcosrdac/tmp
-	20190924002959_screencast.mkv
-22
-D/home/marcosrdac/.config/i3
-	trees
-1
+	Dropbox
+12
+D/home/marcosrdac/Dropbox
+	projects
+6
+D/home/marcosrdac/Dropbox/projects
+	..
+0
 D/home/marcosrdac/Dropbox
 	dotfiles
-3
+2
 D/home/marcosrdac/Dropbox/dotfiles
+	.BACKUP
+1
+D/home/marcosrdac/Dropbox/dotfiles/.BACKUP
 	..
 0
-D/home/marcosrdac
-	tmp
+D/home/marcosrdac/Dropbox/dotfiles
+	.cache
+2
+D/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+D/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	history_old
+2
+D/home/marcosrdac/.config/i3
+	config
 4
-D/home/marcosrdac/tmp
-	20190924002959_screencast.mkv
-22
-D/media
-	..
-0
-D/
-	media
-13
-D/media
-	sdc-usb-Kingston_DataTra
-1
-D/media/sdc-usb-Kingston_DataTra
-	coraline_(2009)
-1
-D/media
-	..
-0
-D/home/marcosrdac/.dotfiles
-	.gitignore
-16
 D/home/marcosrdac
-	..
-0
-D/home/marcosrdac/.dotfiles
-	.gitignore
-16
+	Dropbox
+12
+D/home/marcosrdac/.local
+	share
+3
 D/home/marcosrdac/documents
 	..
 0
+D/home/marcosrdac/.dotfiles
+	.local
+6
+D/home/marcosrdac/.dotfiles/.local
+	bin
+1
 D/home/marcosrdac
-	Dropbox
-25
-D/home/marcosrdac/Dropbox
-	apps
-2
-D/home/marcosrdac/Dropbox/apps
+	.dotfiles
+3
+D/home/marcosrdac/.dotfiles
+	.local
+6
+D/home/marcosrdac/.dotfiles/.local
+	bin
+1
+D/home/marcosrdac/.dotfiles/.local/bin
+	surf
+6
+D/home/marcosrdac/.dotfiles/.local
+	bin
+1
+D/home/marcosrdac/.dotfiles/.local/bin
 	..
 0
-D/home/marcosrdac/Dropbox
-	apps
-2
+D/home/marcosrdac/.dotfiles/.local
+	bin
+1
+D/home/marcosrdac/.dotfiles
+	..
+0
 D/home/marcosrdac
-	Dropbox
-25
-D/home/marcosrdac/.config
-	newsboat
-23
-D/home/marcosrdac/.config/newsboat
-	urls
-5
+	.dotfiles
+3
+D/home
+	marcosrdac
+2
+D/home/marcosrdac/.local/bin
+	dmenu
+1
+D/home/marcosrdac
+	.dotfiles
+3
+D/home/marcosrdac/.local/bin
+	dmenu
+1
+D/home/marcosrdac
+	.dotfiles
+3
+D/media
+	..
+0
 D/home/marcosrdac
 	.dmrc
-20
-D/home/marcosrdac/.config
-	Xauthority
-36
-D/home/marcosrdac
-	.dotfiles
-9
-D/home/marcosrdac/.dotfiles
-	.config
-4
-D/home/marcosrdac/.dotfiles/.config
-	GIMP
-1
-D/home/marcosrdac
-	.dotfiles
-17
-D/home/marcosrdac/.dotfiles
-	.cache
+16
+D/home/marcosrdac/.local
+	share
 3
-D/home/marcosrdac/.dotfiles/.cache
-	python
-1
-D/home/marcosrdac/.dotfiles/.cache/python
-	python_history
-1
-D/home/marcosrdac/.dotfiles/.cache
-	terminal
+D/home/marcosrdac/tmp
+	20190923195206_screencast.mkv
+24
+D/home/marcosrdac
+	.config
+3
+D/home/marcosrdac/.config
+	pythonstartup.py
+34
+D/home/marcosrdac
+	.dmrc
+15
+D/home/marcosrdac/tmp
+	20190923195206_screencast.mkv
+24
+D/home/marcosrdac
+	.config
+3
+D/home/marcosrdac/.config
+	mimeapps.list
+33
+D/home/marcosrdac/.local/bin
+	st
+5
+D/home/marcosrdac/.local/bin/st
+	config.h
+17
+D/home/marcosrdac
+	.config
+3
+D/home/marcosrdac/.config
+	mimeapps.list
+33
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac
+	.config
+3
+D/home/marcosrdac/.config
+	shell
+0
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/.local/share
+	applications
+16
+D/home/marcosrdac
+	.dotfiles
+4
+D/home/marcosrdac/.dotfiles
+	.local
+6
+D/home/marcosrdac/.dotfiles/.local
+	share
 2
-D/home/marcosrdac/.dotfiles/.cache/terminal
+D/home/marcosrdac/.dotfiles/.local/share
+	applications
+1
+D/home/marcosrdac/.dotfiles/.local/share/applications
+	mail.desktop
+1
+D/home/marcosrdac/.dotfiles/.local/share
+	applications
+1
+D/home/marcosrdac
+	dm_mpd_menu
+21
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/.config
+	shell
+7
+D/home/marcosrdac/.config/shell
+	shrc
+4
+D/home/marcosrdac/.local/bin
+	dmenu
+1
+D/home/marcosrdac/.local/bin/dmenu
+	dmenu_run
+3
+D/home/marcosrdac/.local/bin
+	menu
+3
+D/home/marcosrdac/.local/bin/menu
+	dm_power_menu
+1
+D/home/marcosrdac/Dropbox/pictures/screenshots
 	..
 0
-D/home/marcosrdac/.dotfiles/.cache
-	terminal
+D/home/marcosrdac/.config
+	shell
+7
+D/home/marcosrdac/.config/shell
+	shrc
+4
+D/home/marcosrdac
+	pictures
+1
+D/home/marcosrdac/.config/i3
+	config
+4
+D/home/marcosrdac/tmp
+	logos
+0
+D/home/marcosrdac/tmp/logos
+	..
+0
+D/home/marcosrdac
+	pictures
+1
+D/home/marcosrdac/.config
+	shell
+7
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/.local/share
+	themes
+3
+D/home/marcosrdac/.dotfiles
+	.local
+6
+D/home/marcosrdac/.dotfiles/.local
+	share
 2
+D/home/marcosrdac/.dotfiles
+	README.md
+1
+D/home/marcosrdac
+	pictures
+1
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac
+	.gitconfig
+27
+D/home/marcosrdac/documents
+	..
+0
+D/home/marcosrdac/.dotfiles
+	README.md
+19
+D/home/marcosrdac/.config
+	shell
+7
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/projects/linux_learning
+	ssh.md
+1
+D/home/marcosrdac/projects/linux_learning/ssh.md
+	..
+0
+D/home/marcosrdac/projects/linux_learning
+	ssh.md
+7
 D
 
 # Command line history (oldest to newest):
-:split
-:touch .castgetrc
-:mkdir hermut
 :touch podcasts.html
 :mkdir playlists
 :mkdir teste
@@ -834,27 +831,18 @@ D
 :mkdir gaming
 :sort
 :!mpv %
-:q
 :c
+:mkdir ssh.md
+:y
+:touch ssh.md
+:q
 
 # Search history (oldest to newest):
-/packa
-/start
-/star
-/xpro
-/gim
-/seman
-/logo
-/feh
-/she
-/site
-/stud
 /c
 /msm
 /xini
 /.con
 /mime
-/app
 /ranger
 /kk
 /duns
@@ -878,10 +866,8 @@ D
 /run
 /mn
 /sha
-/mega
 /fonts
 /tri
-/git
 /keep
 /cach
 /gt
@@ -890,7 +876,6 @@ D
 /the
 /tgh
 /ite
-/loca
 /gtl
 /RE
 /wpg
@@ -914,23 +899,15 @@ D
 /media
 /togg
 /torr
-/movi
-/dm
 /con
-/conf
 /kee
-/tm
 /mov
 /cora
-/dro
 /news
 /hist
 /pyth
-/pytho
 /ter
 /dit
-/dot
-/drop
 /cache
 /teste
 /xinit
@@ -938,8 +915,32 @@ D
 /urx
 /x
 /h
+/movi
+/'
+/mega
+/drop
+/jout
+/tm
+/abou
+/vir
+/dro[
+/dro
+/dot
+/confi
+/she
+/pytho
+/k
+/conf
+/app
+/dm
+/menu
+/logo
+/loca
+/git
+/ssh
 
 # Prompt history (oldest to newest):
+pssh
 playout__
 playout_
 playout_.html
@@ -1044,7 +1045,8 @@ pconfig
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_testeeee
+""/home/marcosrdac/.local/share/Trash/000_key
+""/home/marcosrdac/.local/share/Trash/000_key.pub
 
 # Directory stack (oldest to newest):
 
@@ -1195,11 +1197,39 @@ t/home/marcosrdac/.local/share/Trash/000_wallhaven-695354.png_wal_sample.png
 	/home/marcosrdac/Dropbox/pictures/wallpapers/wallhaven-695354.png_wal_sample.png
 t/home/marcosrdac/.local/share/Trash/000_testeeee
 	/home/marcosrdac/testeeee
+t/home/marcosrdac/.local/share/Trash/000_20190924001626_screencast.mkv
+	/home/marcosrdac/20190924001626_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_databases-incognito
+	/home/marcosrdac/databases-incognito
+t/home/marcosrdac/.local/share/Trash/000_fd2
+	/mnt/fd2
+t/home/marcosrdac/.local/share/Trash/000_history (archlinux's conflicted copy 2019-10-06)
+	/home/marcosrdac/Dropbox/dotfiles/.cache/terminal/history (archlinux's conflicted copy 2019-10-06)
+t/home/marcosrdac/.local/share/Trash/000_applications
+	/home/marcosrdac/.local/share/applications
+t/home/marcosrdac/.local/share/Trash/001_.gitignore
+	/home/marcosrdac/.gitignore
+t/home/marcosrdac/.local/share/Trash/000_ssh.md
+	/home/marcosrdac/projects/linux_learning/ssh.md
+t/home/marcosrdac/.local/share/Trash/001_ssh
+	/home/marcosrdac/.config/ssh
+t/home/marcosrdac/.local/share/Trash/001_ssh.pub
+	/home/marcosrdac/.config/ssh.pub
+t/home/marcosrdac/.local/share/Trash/000_.ssh
+	/home/marcosrdac/.ssh
+t/home/marcosrdac/.local/share/Trash/000_key
+	/home/marcosrdac/.ssh/key
+t/home/marcosrdac/.local/share/Trash/000_key.pub
+	/home/marcosrdac/.ssh/key.pub
+t/home/marcosrdac/.local/share/Trash/003_ssh
+	/home/marcosrdac/ssh
+t/home/marcosrdac/.local/share/Trash/000_known_hosts
+	/home/marcosrdac/.ssh/known_hosts
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

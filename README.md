@@ -6,7 +6,7 @@ Here are the configuration files for my Arch Linux build. Currently I save this 
 git clone https://github.com/marcosrdac/dotfiles ~/.dotfiles
 ```
 
-and basically symlink all the files to their places inside ~/ (what is really easy to do from *vifm*, so I don't believe I'm ever going to script for that). There are also some symlinks I make in order for my GTK2 themes to work (I hate to have to make this extra step):
+and basically symlink all the files to their places inside ~/ (what is really easy to do from *vifm*, so I don't believe I'm ever going to make script for that). There are also some symlinks I make in order for my GTK2 themes to work (I hate to have to make this extra step):
 
 ```shell
 ln -s ~/.local/share/themes ~/.themes

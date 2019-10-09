@@ -14,8 +14,8 @@ default_border pixel 3
 default_floating_border pixel 5
 hide_edge_borders smart
 #smart_borders no_gaps
-set $inner 8
-set $outer 4
+set $inner 10
+set $outer 3
 gaps inner $inner
 gaps outer $outer
 
@@ -93,7 +93,7 @@ exec --no-startup-id mpd
 # starting compton (not using anymore)
 #exec --no-startup-id compton
 # redshift for the sake of your eyes
-exec --no-startup-id redshift -l -12.98:-36.52
+exec --no-startup-id pkill -x redshift >/dev/null; redshift -l -12.98:-36.52
 # parcelite for Ubuntu's clipboard's persistency bug
 #exec_always --no-startup-id parcelite -n
 # hiding mouse cursor

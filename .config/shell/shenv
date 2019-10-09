@@ -15,7 +15,7 @@ export READER="zathura"
 
 # Program-specific
 
-# my scripts
+# my preferences
 export AURMANAGER="yay"
 #export PODCASTS_RSS_FILE="$HOME/.config/mpd/podcasts_rss"
 
