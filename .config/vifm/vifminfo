@@ -130,33 +130,6 @@ l2
 r8,2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac
-	.cache
-0
-d/home/marcosrdac/.cache
-	thumbnails
-26
-d/home/marcosrdac/.dotfiles
-	.git
-3
-d/home/marcosrdac
-	Dropbox
-13
-d/home/marcosrdac/Dropbox
-	documents
-3
-d/home/marcosrdac/Dropbox/documents
-	..
-0
-d/home/marcosrdac/Dropbox
-	dotfiles
-4
-d/home/marcosrdac/Dropbox/dotfiles
-	.cache
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	python
-1
 d/home/marcosrdac/Dropbox/dotfiles
 	.cache
 2
@@ -430,6 +403,33 @@ d/home/marcosrdac
 d/home/marcosrdac/.ssh
 	known_hosts
 3
+d/home/marcosrdac
+	Dropbox
+9
+d/home/marcosrdac/Dropbox
+	documents
+2
+d/home/marcosrdac/Dropbox/documents
+	..
+0
+d/home/marcosrdac/Dropbox
+	dotfiles
+3
+d/home/marcosrdac/Dropbox/dotfiles
+	.config
+3
+d/home/marcosrdac/Dropbox/dotfiles/.config
+	keepassx
+1
+d/home/marcosrdac/Dropbox/dotfiles
+	.cache
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles
+	linker.sh
+6
 d
 
 # Right window history (oldest to newest):
@@ -838,7 +838,6 @@ D
 :q
 
 # Search history (oldest to newest):
-/c
 /msm
 /xini
 /.con
@@ -925,7 +924,6 @@ D
 /vir
 /dro[
 /dro
-/dot
 /confi
 /she
 /pytho
@@ -938,9 +936,10 @@ D
 /loca
 /git
 /ssh
+/Dro
+/dot
 
 # Prompt history (oldest to newest):
-pssh
 playout__
 playout_
 playout_.html

@@ -3,7 +3,13 @@
 Here are the configuration files for my Arch Linux build. Currently I save this directory in "~/.dotfiles" and, when rebuilding my system, just send to a terminal:
 
 ```shell
-git clone https://github.com/marcosrdac/dotfiles ~/.dotfiles
+git clone https://github.com/marcosrdac/dotfiles $HOME/.dotfiles
+```
+
+or, better, for ssh cloning (remember to create your SSH keys and add them to GitHub!):
+
+```shell
+git clone git@github.com:marcosrdac/dotfiles.git $HOME/.dotfiles
 ```
 
 and basically symlink all the files to their places inside ~/ (what is really easy to do from *vifm*, so I don't believe I'm ever going to make script for that). There are also some symlinks I make in order for my GTK2 themes to work (I hate to have to make this extra step):
@@ -73,6 +79,7 @@ i3 i3blocks perl-anyevent-i3
 compton unclutter redshift scrot acpi brightnessctl mpv
 libnotify dunst
 wget curl git
+openssh
 xclip xsel xdotool
 zip unzip unrar
 texlive
