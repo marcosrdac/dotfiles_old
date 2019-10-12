@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/red_glass_apparatus_in_blue_rain.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0D1730",
+        "foreground": "#ffc1ff",
+        "cursor": "#ffc1ff"
+    },
+    "colors": {
+        "color0": "#0D1730",
+        "color1": "#CF072C",
+        "color2": "#0B3592",
+        "color3": "#A0255E",
+        "color4": "#3354C5",
+        "color5": "#E6095D",
+        "color6": "#1B489D",
+        "color7": "#d691c6",
+        "color8": "#172957",
+        "color9": "#ff0134",
+        "color10": "#0340c8",
+        "color11": "#dc2379",
+        "color12": "#3264ff",
+        "color13": "#ff0176",
+        "color14": "#1759d8",
+        "color15": "#ffc1ff"
+    }
+}

@@ -1,5 +1,15 @@
 # settings
 
+(GimpGegl-gegl-pixelize-config "2019-10-09 14:53:12"
+    (time 1570643592)
+    (norm square)
+    (size-x 10)
+    (size-y 10)
+    (offset-x 0)
+    (offset-y 0)
+    (ratio-x 1.000000)
+    (ratio-y 1.000000)
+    (background (color-rgba 1.000000 1.000000 1.000000 1.000000)))
 (GimpGegl-gegl-pixelize-config "2019-07-03 20:50:02"
     (time 1562197802)
     (norm square)
@@ -10,7 +20,7 @@
     (ratio-x 1.000000)
     (ratio-y 1.000000)
     (background (color-rgba 1.000000 1.000000 1.000000 1.000000)))
-(GimpGegl-gegl-pixelize-config "2019-01-07 12:46:53"
+(GimpGegl-gegl-pixelize-config "2019-01-07 13:46:53"
     (time 1546876013)
     (norm square)
     (size-x 7)

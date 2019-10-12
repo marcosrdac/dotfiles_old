@@ -2,3 +2,5 @@
 
 source ~/.config/shell/shenv
 source ~/.config/shell/commonenv
+
+clear

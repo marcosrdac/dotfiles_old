@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/train_in_forest.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0A1408",
+        "foreground": "#eaf3f8",
+        "cursor": "#eaf3f8"
+    },
+    "colors": {
+        "color0": "#0A1408",
+        "color1": "#917251",
+        "color2": "#6D8A42",
+        "color3": "#B3AD47",
+        "color4": "#384D49",
+        "color5": "#9D9B5E",
+        "color6": "#5A625A",
+        "color7": "#b0b7bb",
+        "color8": "#1b3815",
+        "color9": "#cb945a",
+        "color10": "#90c048",
+        "color11": "#f8ef4c",
+        "color12": "#406c64",
+        "color13": "#dcd869",
+        "color14": "#688b68",
+        "color15": "#eaf3f8"
+    }
+}

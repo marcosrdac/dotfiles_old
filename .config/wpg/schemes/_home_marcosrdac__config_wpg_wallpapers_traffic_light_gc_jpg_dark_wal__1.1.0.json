@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/traffic_light_gc.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#081216",
+        "foreground": "#deffff",
+        "cursor": "#deffff"
+    },
+    "colors": {
+        "color0": "#081216",
+        "color1": "#B54244",
+        "color2": "#185061",
+        "color3": "#E8AC5A",
+        "color4": "#1F728A",
+        "color5": "#B67A81",
+        "color6": "#2D9BAD",
+        "color7": "#a8c6ca",
+        "color8": "#14303b",
+        "color9": "#fb4548",
+        "color10": "#176c86",
+        "color11": "#ffe260",
+        "color12": "#1d9abe",
+        "color13": "#ff8a98",
+        "color14": "#2cd3ef",
+        "color15": "#deffff"
+    }
+}

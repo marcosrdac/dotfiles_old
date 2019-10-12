@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/boats_happy_sunrise.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0B2A21",
+        "foreground": "#effcff",
+        "cursor": "#effcff"
+    },
+    "colors": {
+        "color0": "#0B2A21",
+        "color1": "#BFBFAB",
+        "color2": "#649298",
+        "color3": "#DECFA3",
+        "color4": "#3E728C",
+        "color5": "#A0A89D",
+        "color6": "#5B95BE",
+        "color7": "#c4cfde",
+        "color8": "#145240",
+        "color9": "#ffffc6",
+        "color10": "#71cad5",
+        "color11": "#ffffba",
+        "color12": "#4398c3",
+        "color13": "#c6efb7",
+        "color14": "#64c4ff",
+        "color15": "#effcff"
+    }
+}

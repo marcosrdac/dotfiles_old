@@ -10,7 +10,7 @@ export PAGER=less
 export TERMINAL="st"
 export BROWSER="qutebrowser"
 export TRUEBROWSER="qutebrowser"
-export MAIL="$HOME/.local/share/mail/main"
+export MAIL="$HOME/.local/share/mail/main"  # mutt
 export READER="zathura"
 
 # Program-specific

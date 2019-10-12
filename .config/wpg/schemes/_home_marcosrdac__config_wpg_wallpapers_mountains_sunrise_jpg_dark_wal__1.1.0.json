@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/mountains_sunrise.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#061D3E",
+        "foreground": "#fffff5",
+        "cursor": "#fffff5"
+    },
+    "colors": {
+        "color0": "#061D3E",
+        "color1": "#DE9975",
+        "color2": "#D5B390",
+        "color3": "#E9B081",
+        "color4": "#7B7883",
+        "color5": "#948485",
+        "color6": "#B8B9B7",
+        "color7": "#dad4cb",
+        "color8": "#09326c",
+        "color9": "#ffbf82",
+        "color10": "#ffe9a4",
+        "color11": "#ffe290",
+        "color12": "#988bba",
+        "color13": "#d2999d",
+        "color14": "#efffd6",
+        "color15": "#fffff5"
+    }
+}

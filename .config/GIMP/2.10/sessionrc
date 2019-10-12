@@ -23,7 +23,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 2)
+            (current-page 0)
             (dockable "gimp-tool-options"
                 (tab-style preview)
                 (aux-info
@@ -183,7 +183,7 @@
     (position 468 254))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-location-dialog")
-    (position 80 18))
+    (position 60 0))
 (session-info "toplevel"
     (factory-entry "gimp-action-search-dialog")
     (position 1144 593)

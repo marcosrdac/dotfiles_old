@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/nebula_orange_green.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0a0b",
+        "foreground": "#e0fff9",
+        "cursor": "#e0fff9"
+    },
+    "colors": {
+        "color0": "#0c0a0b",
+        "color1": "#9B5D2B",
+        "color2": "#659471",
+        "color3": "#B29F52",
+        "color4": "#54625B",
+        "color5": "#9A7146",
+        "color6": "#7DC27C",
+        "color7": "#a9c7bc",
+        "color8": "#272024",
+        "color9": "#d6772a",
+        "color10": "#73d08b",
+        "color11": "#f8d859",
+        "color12": "#618b76",
+        "color13": "#d6934c",
+        "color14": "#8eff8c",
+        "color15": "#e0fff9"
+    }
+}

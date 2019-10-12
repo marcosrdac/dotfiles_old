@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/lonely_city_sunset.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#071E2C",
+        "foreground": "#fffbea",
+        "cursor": "#fffbea"
+    },
+    "colors": {
+        "color0": "#071E2C",
+        "color1": "#C67754",
+        "color2": "#B38877",
+        "color3": "#DD9C6B",
+        "color4": "#817985",
+        "color5": "#AD918A",
+        "color6": "#CF936F",
+        "color7": "#e0ccbe",
+        "color8": "#0d3b57",
+        "color9": "#ff935a",
+        "color10": "#fca887",
+        "color11": "#ffc775",
+        "color12": "#ad8cbd",
+        "color13": "#f5b09f",
+        "color14": "#ffb97b",
+        "color15": "#fffbea"
+    }
+}

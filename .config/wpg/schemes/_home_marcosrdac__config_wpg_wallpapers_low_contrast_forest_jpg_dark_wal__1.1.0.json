@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/low_contrast_forest.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#03333C",
+        "foreground": "#ffffee",
+        "cursor": "#ffffee"
+    },
+    "colors": {
+        "color0": "#03333C",
+        "color1": "#C07C63",
+        "color2": "#778468",
+        "color3": "#C79C7A",
+        "color4": "#5D6558",
+        "color5": "#A18B6F",
+        "color6": "#8E7761",
+        "color7": "#dfd4c4",
+        "color8": "#045b6c",
+        "color9": "#ff986d",
+        "color10": "#9bba77",
+        "color11": "#ffc889",
+        "color12": "#768f66",
+        "color13": "#e2b67e",
+        "color14": "#c89a6e",
+        "color15": "#ffffee"
+    }
+}

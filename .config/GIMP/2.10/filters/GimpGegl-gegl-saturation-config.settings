@@ -1,5 +1,8 @@
 # settings
 
+(GimpGegl-gegl-saturation-config "2019-10-09 11:35:42"
+    (time 1570631742)
+    (scale 1.313000))
 (GimpGegl-gegl-saturation-config "2019-09-26 22:28:40"
     (time 1569547720)
     (scale 0.000000))
