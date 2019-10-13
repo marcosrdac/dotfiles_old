@@ -74,11 +74,11 @@ for_window [instance="dropdown_mail"] move scratchpad
 #for_window [instance="dropdown_calendar"] move scratchpad
 #
 # scratchpad windows start
-exec_always --no-startup-id $term -n dropdown_terminal -e tmux new-session -t dropdown
+exec --no-startup-id $term -n dropdown_terminal -e tmux new-session -t dropdown
 #exec_always --no-startup-id $term -n dropdown_terminal -e tmux new-session -t dropdown
 #exec --no-startup-id cd ~/.virtualenvs/m/lib/python3.6/site-packages/; $term -n dropdown_calculator -e python -q
 #exec --no-startup-id $term -n dropdown_calculator -e python -i -c "from math import *"
-exec_always --no-startup-id $term -n dropdown_calculator -e $calc_python -i -c 'import numpy as np; from numpy import *'
+exec --no-startup-id $term -n dropdown_calculator -e $calc_python -i -c 'import numpy as np; from numpy import *'
 exec --no-startup-id $term -n dropdown_music_player -e $music
 #exec_always --no-startup-id $term -n dropdown_music_player -e $music
 exec --no-startup-id $term -n dropdown_mail -e $mail

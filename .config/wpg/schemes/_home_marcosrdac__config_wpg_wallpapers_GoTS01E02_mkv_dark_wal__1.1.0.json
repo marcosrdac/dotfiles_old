@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/GoTS01E02.mkv",
+    "alpha": "100",
+
+    "special": {
+        "background": "#2b353c",
+        "foreground": "#e6e8e8",
+        "cursor": "#e6e8e8"
+    },
+    "colors": {
+        "color0": "#2b353c",
+        "color1": "#ba964c",
+        "color2": "#0eb40e",
+        "color3": "#be9604",
+        "color4": "#5fa98f",
+        "color5": "#79aa00",
+        "color6": "#00acb3",
+        "color7": "#abacac",
+        "color8": "#3f4e59",
+        "color9": "#ffc851",
+        "color10": "#05f605",
+        "color11": "#fbc501",
+        "color12": "#6aecbe",
+        "color13": "#9cdc01",
+        "color14": "#01dee7",
+        "color15": "#e6e8e8"
+    }
+}

@@ -15,8 +15,8 @@
 1570209598
 'H
 	/mnt/hdd
-	MEGA
-1570395160
+	..
+1570880328
 'L
 	/home/marcosrdac/projects/linux_learning
 	packages_instalation.md
@@ -125,323 +125,317 @@ b/home/marcosrdac/wallpapers/
 
 # TUI:
 al
-q1
-v2
+q0
+v1
 ov
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/documents/audios
-	batidaDeFunk.m4a
+d/mnt/hdd/MEGA
+	books
 3
-d/home/marcosrdac/documents
-	bolsa_fisica
-2
-d/home/marcosrdac/documents/bolsa_fisica
-	..
-0
-d/home/marcosrdac/documents
-	bolsa_oceano
+d/mnt/hdd/MEGA/books
+	calc D.pdf
+17
+d/mnt/hdd/MEGA
+	books
 3
-d/home/marcosrdac/documents/bolsa_oceano
-	comprovante_bb.pdf
-2
-d/home/marcosrdac/documents
-	chess
-4
-d/home/marcosrdac/documents/chess
-	walter.md
-3
-d/home/marcosrdac/documents
-	chessdata
-5
-d/home/marcosrdac/documents/chessdata
-	index
+d/mnt/hdd
+	audios
+7
+d/mnt/hdd/audios
+	music
 1
-d/home/marcosrdac/documents/chessdata/index
-	..
-0
-d/home/marcosrdac/documents/chessdata
-	bundesliga2000.pgn
-2
-d/home/marcosrdac/documents
-	congresso_sbgf
-5
-d/home/marcosrdac/documents/congresso_sbgf
-	not_accepted_paper.pdf
+d/mnt/hdd/audios/music
+	Ave Sangria - Ave Sangria (1975) (goestricolor)
 1
-d/home/marcosrdac/documents
-	IMG-20181019-WA0002.jpg
-25
-d/home/marcosrdac/wallpapers
-	favorites
+d/mnt/hdd/audios/music/Ave Sangria - Ave Sangria (1975) (goestricolor)
+	01. Dois Navegantes.mp3
+1
+d/mnt/hdd/audios/music
+	Ave Sangria - Ave Sangria (1975) (goestricolor)
+1
+d/mnt/hdd/audios/music/Ave Sangria - Ave Sangria (1975) (goestricolor)
+	01. Dois Navegantes.mp3
+1
+d/mnt/hdd/audios/music
+	Ave Sangria - Ave Sangria (1975) (goestricolor)
+1
+d/mnt/hdd/audios
+	music
+1
+d/mnt/hdd/audios/music
+	Ave Sangria - Ave Sangria (1975) (goestricolor)
+1
+d/mnt/hdd/audios/music/Ave Sangria - Ave Sangria (1975) (goestricolor)
+	01. Dois Navegantes.mp3
+1
+d/mnt/hdd/audios/music
+	Ave Sangria - Ave Sangria (1975) (goestricolor)
+1
+d/mnt/hdd/audios
+	playlists
+2
+d/mnt/hdd/audios/playlists
+	A Voz de Delirium.m3u
+2
+d/mnt/hdd/audios
+	playlists
+2
+d/mnt/hdd
+	backups
+8
+d/mnt/hdd/backups
+	Dropbox
+1
+d/mnt/hdd/backups/Dropbox
+	.zsnes
 3
-d/home/marcosrdac/wallpapers/favorites
-	jupyter_brown_turbulence.jpg
-10
-d/home/marcosrdac/wallpapers
-	loneliness
-4
-d/home/marcosrdac/wallpapers/loneliness
+d/mnt/hdd/backups/Dropbox/.zsnes
 	..
 0
-d/home/marcosrdac/wallpapers
-	favorites
+d/mnt/hdd/backups/Dropbox
+	.zsnes
 3
-d/home/marcosrdac/wallpapers/favorites
-	jupyter_brown_turbulence.jpg
+d/mnt/hdd/backups
+	Dropbox
+1
+d/mnt/hdd
+	movies
+9
+d/mnt/hdd/movies
+	eraserhead_(1977)
+5
+d/mnt/hdd/movies/eraserhead_(1977)
+	eraserhead_(1977).mp4
+1
+d/mnt/hdd/movies
+	eraserhead_(1977)
+5
+d/mnt/hdd/movies/eraserhead_(1977)
+	eraserhead_(1977).mp4
+1
+d/mnt/hdd/movies
+	get_out_(2017)
+7
+d/mnt/hdd/movies/get_out_(2017)
+	..
+0
+d/mnt/hdd/movies
+	inland_empire_(2006)
+8
+d/mnt/hdd
+	series
 10
+d/mnt/hdd/series
+	game_of_thrones
+1
+d/mnt/hdd/series/game_of_thrones
+	GoTS01
+1
+d/mnt/hdd/series/game_of_thrones/GoTS01
+	GoTS01E01.mkv
+1
+d/mnt/hdd/series/game_of_thrones
+	GoTS01
+1
+d/mnt/hdd/series
+	twin_peaks
+2
+d/mnt/hdd/series/twin_peaks
+	TPS01E01.mkv
+4
+d/mnt/hdd/series
+	twin_peaks
+2
+d/mnt/hdd/series/twin_peaks
+	TPS01E01.mkv
+4
 d/home/marcosrdac/wallpapers
 	favorites
 3
 d/home/marcosrdac/wallpapers/favorites
 	astronaut_with_coloured_jellyfish_completion.jpg
+4
+d/home/marcosrdac
+	.cache
 1
 d/home/marcosrdac/wallpapers
 	favorites
 3
-d/home/marcosrdac/wallpapers/favorites
-	GM_space.jpg
-1
-d/home/marcosrdac/wallpapers
-	dark_multicoloured_abstract.jpg
-10
+d/home/marcosrdac/books
+	Calculo - James Stewart - 7 Edicao - Volume 2.pdf
+3
 d/home/marcosrdac
-	wallpapers
+	series
+10
+d/home/marcosrdac/series
+	game_of_thrones
+1
+d/home/marcosrdac/series/game_of_thrones
+	GoTS01
+1
+d/home/marcosrdac/series/game_of_thrones/GoTS01
+	GoTS01E10.srt
+20
+d/home/marcosrdac/projects/linux_learning
+	user_management_and_permissions.md
+36
+d/home/marcosrdac
+	git
 13
-d/home/marcosrdac/wallpapers
-	gimp
+d/home/marcosrdac/projects
+	enem
+20
+d/
+	etc
 4
-d/home/marcosrdac/wallpapers/gimp
-	deleting_text_in_img.xcf
-2
-d/home/marcosrdac/wallpapers
-	_studies
-1
-d/home/marcosrdac/wallpapers/_studies
-	future.md
+d/home/marcosrdac/projects
+	potenciais
+37
+d/home/marcosrdac/projects/potenciais
+	3_rtp
 4
-d/home/marcosrdac/wallpapers
-	_studies
+d/home/marcosrdac/projects/potenciais/3_rtp
+	old_pics
 1
-d/home/marcosrdac/wallpapers/_studies
-	gimp
+d/home/marcosrdac/projects/potenciais/3_rtp/old_pics
+	rtp_md-14_mi-51.png
+4
+d/home/marcosrdac/projects/potenciais/3_rtp
+	45anomaly3d
 1
-d/home/marcosrdac/wallpapers/_studies/gimp
-	deleting_text_in_img.xcf
+d/home/marcosrdac/projects/potenciais
+	2_facmag_fail
+3
+d/home/marcosrdac/projects
+	potential_methods_processing
+37
+d/home/marcosrdac/projects/potential_methods_processing
+	README.md
+8
+d/home/marcosrdac/projects
+	accoustic_wave_modelling
 2
-d/home/marcosrdac/wallpapers/_studies
-	gimp
-1
-d/home/marcosrdac/wallpapers
-	favorites
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
 3
-d/home/marcosrdac/wallpapers/favorites
-	strawberries_grapes_herbs_in_table_dark_lonely_homey.jpg
-24
-d/home/marcosrdac/wallpapers
-	useful
-5
-d/home/marcosrdac/wallpapers/useful
-	future_city_super_hq.jpg
-2
-d/home/marcosrdac/wallpapers
-	favorites
-3
-d/home/marcosrdac/wallpapers/favorites
-	strawberries_grapes_herbs_in_table_dark_lonely_homey.jpg
-24
-d/home/marcosrdac/wallpapers
-	useful
-5
-d/home/marcosrdac/wallpapers/useful
-	Ubuntu-Mate-Radioactive-no-logo.jpg
-1
-d/home/marcosrdac/wallpapers
-	favorites
-3
-d/home/marcosrdac/wallpapers/favorites
-	helix_nebula_gc.jpg
-10
-d/home/marcosrdac/wallpapers
-	favorites
-0
-d/home/marcosrdac/wallpapers/favorites
-	windows_95.png
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
+	wave_modeling.py
 30
-d/home/marcosrdac/wallpapers
-	arara_azul_brazil_total_gc.jpg
+d/home/marcosrdac/projects
+	crypting_tool
+15
+d/home/marcosrdac/projects/crypting_tool
+	README.md
+2
+d/home/marcosrdac/projects
+	basic_downloader
+10
+d/home/marcosrdac/projects/basic_downloader
+	..
+0
+d/media
+	..
 0
 d/home/marcosrdac
-	wallpapers
-12
-d/home/marcosrdac/wallpapers
-	arara_azul_brazil_total_gc.jpg
-6
-d/home/marcosrdac
-	wallpapers
-12
-d/home/marcosrdac/wallpapers
-	favorites
+	git
+14
+d/mnt/hdd
+	MEGA
+1
+d/mnt/hdd/MEGA
+	videos
+7
+d/mnt/hdd/MEGA/videos
+	exdropbox
+1
+d/mnt/hdd/MEGA/videos/exdropbox
+	Webcam
+1
+d/mnt/hdd/MEGA/videos
+	g
+2
+d/mnt/hdd/MEGA/videos/g
+	t_video5145886564575871045.mp4
+2
+d/mnt/hdd/MEGA/videos
+	me
 3
-d/home/marcosrdac
-	wallpapers
-12
-d/home/marcosrdac/wallpapers
-	favorites
-3
-d/home/marcosrdac
-	wallpapers
-12
-d/home/marcosrdac/wallpapers
-	favorites
-3
+d/mnt/hdd/MEGA/videos/me
+	meditation.mp4
+4
+d/mnt/hdd/MEGA/videos
+	screencasts
+4
+d/mnt/hdd/MEGA/videos/screencasts
+	20190425162012_screencast.mkv
+7
+d/mnt/hdd/MEGA/videos
+	youtube
+5
+d/mnt/hdd/MEGA/videos/youtube
+	Jordan Peterson's Ultimate Advice for Students and College Grads - STOP WASTING TIME-wsNzAuYDgy0.mkv
+2
+d/mnt/hdd/MEGA/videos
+	screencasts
+4
+d/mnt/hdd/MEGA/videos/screencasts
+	20190425162012_screencast.mkv
+7
+d/mnt/hdd/MEGA/videos
+	exdropbox
+1
+d/mnt/hdd/MEGA/videos/exdropbox
+	Webcam
+1
+d/mnt/hdd/MEGA/videos/exdropbox/Webcam
+	2018-05-10-123835.webm
+5
 d/home/marcosrdac/.config/i3
 	config
 3
 d/home/marcosrdac/.config
-	i3
-15
-d/home/marcosrdac
-	wallpapers
-12
-d/home/marcosrdac/wallpapers
-	twin_peaks
-3
-d/home/marcosrdac/wallpapers/twin_peaks
-	Urlw6Mg-twin-peaks-wallpaper.png
-4
-d/home/marcosrdac/wallpapers
-	twin_peaks
-3
-d/home/marcosrdac/wallpapers/twin_peaks
-	255635-download-twin-peaks-wallpaper-1920x1080-for-retina.jpg
+	i3blocks
+16
+d/home/marcosrdac/.config/i3blocks
+	i3blocks.conf
 1
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	lonely_city_sunset.jpg
-22
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	wolf_eye_clean_blue.jpg
-37
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac
-	wallpapers
-12
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	wolf_eye_clean_blue.jpg
-37
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	mountains_bluish_minecraft_like.jpg
-15
 d/home/marcosrdac/.config
-	wpg
-36
-d/home/marcosrdac/.config/wpg
-	wallpapers
-4
-d/home/marcosrdac/.config/wpg/wallpapers
-	IgZV1xe-twin-peaks-wallpaper.jpg
-9
-d/home/marcosrdac/.config/wpg
-	wallpapers
-4
-d/home/marcosrdac/.config/wpg/wallpapers
-	IgZV1xe-twin-peaks-wallpaper.jpg
-9
-d/home/marcosrdac/.config/wpg
-	wallpapers
-4
-d/home/marcosrdac/.config/wpg/wallpapers
-	..
-0
-d/home/marcosrdac/.config/wpg
-	templates
+	cron
+8
+d/home/marcosrdac/.config/cron
+	user.cron
+2
+d/home/marcosrdac/.config/i3
+	config
 3
-d/home/marcosrdac/.config/wpg/templates
-	gtk2
-1
-d/home/marcosrdac/.config/wpg
-	schemes
+d/home/marcosrdac/.config
+	i3blocks
+16
+d/home/marcosrdac/.config/i3blocks
+	i3blocks.conf
 2
-d/home/marcosrdac/.config/wpg/schemes
+d/home/marcosrdac/.config
+	i3blocks
+16
+d/home/marcosrdac/.local/bin
+	dmenu
+1
+d/home/marcosrdac/.local/bin/dmenu
 	..
 0
-d/home/marcosrdac/.config/wpg
-	samples
-1
-d/home/marcosrdac/.config/wpg/samples
-	..
-0
-d/home/marcosrdac/wallpapers
-	favorites
+d/home/marcosrdac/.local/bin
+	i3bar
 2
-d/home/marcosrdac/wallpapers/favorites
-	wolf_eye_clean_blue.jpg
-36
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	windows_95.png
-35
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	windows_95.png
-35
-d/home/marcosrdac/wallpapers
-	_studies
-1
-d/home/marcosrdac/wallpapers/_studies
-	reset_fav
-6
-d/home/marcosrdac/.dotfiles
-	.local
-5
-d/home/marcosrdac/.dotfiles/.local
-	share
-2
-d/home/marcosrdac/.dotfiles/.local/share
-	..
-0
-d/home/marcosrdac/.dotfiles/.local
-	bin
-1
-d/home/marcosrdac/.dotfiles/.local/bin
-	st
-5
-d/home/marcosrdac/.dotfiles/.local
-	bin
-1
-d/home/marcosrdac/.dotfiles
-	.local
-5
+d/home/marcosrdac/.local/bin/i3bar
+	i3bar_pomodoro
+9
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/tmp/ufba/terra_solida
-	terra_solida_0
-21
-D/home/marcosrdac/.config
-	cron
-0
 D/home/marcosrdac/.config/cron
 	root.cron
 1
@@ -734,16 +728,17 @@ D/home/marcosrdac/wallpapers
 	favorites
 1
 D/home/marcosrdac/wallpapers/favorites
-	low_contrast_forest.jpg
-17
+	nasa_20180329.jpg
+28
+D/home/marcosrdac/wallpapers
+	favorites
+2
+D/home/marcosrdac/wallpapers/favorites
+	..
+0
 D
 
 # Command line history (oldest to newest):
-:touch blog
-:mkdir final
-:mkdir relatorios
-:mkdir sonar true
-:touch sonar_relatorio.md
 :mkdir ruber
 :unrar %
 :!unrar %
@@ -838,29 +833,17 @@ D
 :touch 
 :touch reset_fav
 :git 
+:S
 :q
+:git
+:gi
+:!git pull
+:!mpv vim\ qrec-2018-03-06_16.04.57
 
 # Search history (oldest to newest):
-/rapo
-/sq
-/cry
-/chess
-/gami
-/nvim
-/colo
-/qute
-/blan
-/media
-/togg
-/torr
-/con
-/kee
-/mov
-/cora
-/news
-/hist
-/pyth
-/ter
+/dmen
+/m=
+/pomodo
 /dit
 /cache
 /teste
@@ -868,10 +851,8 @@ D
 /nvidi
 /urx
 /x
-/h
 /movi
 /'
-/mega
 /drop
 /jout
 /tm
@@ -884,11 +865,9 @@ D
 /k
 /conf
 /app
-/dm
 /menu
 /logo
 /loca
-/git
 /ssh
 /Dro
 /dot
@@ -899,7 +878,6 @@ D
 /test
 /per
 /terra
-/cron
 /afor
 /low
 /ouro
@@ -941,10 +919,33 @@ D
 /fav
 /color
 /wpg
+/mkv
+/boo
+/kkkk
+/ser
+/astro
+/permiss
+/git
+/poten
+/py
+/rtp
+/READ
+/wave
+/cry
+/h
+/basic
+/mega
+/vide
+/g
+/mpv
+/cron
+/dme
+//
+/dm
+/i3
+/pomo
 
 # Prompt history (oldest to newest):
-pfonts
-picons
 pthemes
 phistory_old
 pface
@@ -1043,140 +1044,13 @@ pcrab_nebula
 p000_water_drop_on_leaf
 pwater_drop_on_leaf.jpg
 preset_fav
+pplantas_casa_federacao
+pi3bar_pomodoro_new
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_0wallhaven-757181.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_20516-vaporwave-wallpaper-1920x1080-for-full-hd.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_430453main_crabmosaic_hst_big_full.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_862674.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_20180329.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_20180330.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_Bwdxvpu.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_GxYL2S2.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_IgZV1xe-twin-peaks-wallpaper.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_KErRqxp.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_Kr1TWOt.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_NPfwYz3.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_R7OKb9u.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_Ubuntu-Mate-Radioactive-no-logo.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_VWTjE39.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_apple.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_astronaut_with_coloured_jellyfish_completion.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_astronomy-astrophotography-constellation-517884.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_beach_pastel.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_beijoo_space.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_bird.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_boat_sunset.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_boats_happy_sunrise.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_bridge_pink_blue_peaceful_wakening_gc.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_bridge_red_green.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_city_little.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_colorful_tints_wallhaven-697888.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_coral_beach.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_crab_nebula.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_crater.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_dark_multicoloured_abstract.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_dog_boy_rosed_eyes_sunset.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_donnaAudreyAndShelly.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_explorer_in_forest.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_greatNorthern.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_highway_coconut_trees_vaporwave.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_highway_trees.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_hot_jellyfish_in_dark.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_house_backyard_homey.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_jupyter_brown_turbulence.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_kJ86jk9.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_lFSBoi2.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_leaves_on_branch_dark_green_tea_calm.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_lion.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_low_contrast_forest.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_mandel_space.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_mountain_fog.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_mountains_bluish_minecraft_like.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_mountains_cloudy_landscape.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_n5mkpL9-twin-peaks-wallpaper.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_pink_sunset_electric.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_raIAxwP.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_red_night_street_void_urgence.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_redroom.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_sea_aired_forest_fresh_sunday_gc.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_sky4.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_sky_20180329.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_sky_frozen.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_sky_geez_jazz_it_gc.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_ssOna58.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_star_wars_space_urgence.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_strawberries_grapes_herbs_in_table_dark_lonely_homey.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_stuffy_nebula_like_colorful.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_test.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_test2.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_tokyo_lights.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_traffic_light_gc.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_twin_peaks_red_room.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_uCrGTLP.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-0jzjwy.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-4op3km.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-6k2pdl.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-6ky7pw.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-6kym9l.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-6q3eqw.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-13gvow.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-43xvyy.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-73l66o.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-73lm99.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-73lx7v.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-83jje1.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-96geow.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-96gk91.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-132o29.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-392rjy.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-396m6v.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-456ed8.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-8396gk.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-696794.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-696795.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-698997.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-714951.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-766563.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-767605.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-767696.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-767697.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-767749.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-767757.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-769053.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-769101.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-770042.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-dgo1om.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-dgojvj.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dd6l.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dloe.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dm6e.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dxld.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-g8plx7.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-j86myy.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-kwdjvm.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-mdyqv9.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-mdyr31.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-n6kwpl.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-nmk6zm.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-oxjj1l.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-oxjvm7.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-q6m7e5.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-q6o5z5.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-q6ov1r.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-r26wom.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-vgeevp.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-vgev9l.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-yj1okk.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-ym9ggg.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wallhaven-ym9wkx.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_white_tiger_chun_lo.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_windows_95.png_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_wolf_eye_clean_blue.jpg_wal_sample.png
-""/home/marcosrdac/.local/share/Trash/000_xFMxyV3.jpg_wal_sample.png
+""/home/marcosrdac/.local/bin/i3bar/i3bar_pomodoro_
 
 # Directory stack (oldest to newest):
 
@@ -2585,11 +2459,95 @@ t/home/marcosrdac/.local/share/Trash/000_wolf_eye_clean_blue.jpg_wal_sample.png
 	/home/marcosrdac/.config/wpg/samples/wolf_eye_clean_blue.jpg_wal_sample.png
 t/home/marcosrdac/.local/share/Trash/000_xFMxyV3.jpg_wal_sample.png
 	/home/marcosrdac/.config/wpg/samples/xFMxyV3.jpg_wal_sample.png
+t/home/marcosrdac/.local/share/Trash/000_“ù˜UñQ¸ð¼XƒhþŽ-.1
+	/home/marcosrdac/books/“ù˜UñQ¸ð¼XƒhþŽ-.1
+t/home/marcosrdac/.local/share/Trash/001_“ù˜UñQ¸ð¼XƒhþŽ-.1
+	/mnt/hdd/MEGA/books/“ù˜UñQ¸ð¼XƒhþŽ-.1
+t/home/marcosrdac/.local/share/Trash/000_000_earth_in_black.jpg
+	/mnt/hdd/Trash/000_earth_in_black.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_future_city_super_hq.jpg
+	/mnt/hdd/Trash/000_future_city_super_hq.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_highway_trees.jpg
+	/mnt/hdd/Trash/000_highway_trees.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_jonni-tsay-46588566151-5d8fcc3eaf-k.jpg
+	/mnt/hdd/Trash/000_jonni-tsay-46588566151-5d8fcc3eaf-k.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_mandel_space.png
+	/mnt/hdd/Trash/000_mandel_space.png
+t/home/marcosrdac/.local/share/Trash/000_000_pebbles_in_beach_sunset.jpg
+	/mnt/hdd/Trash/000_pebbles_in_beach_sunset.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_sky4.jpg
+	/mnt/hdd/Trash/000_sky4.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_sky_frozen.jpg
+	/mnt/hdd/Trash/000_sky_frozen.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_test2.jpg
+	/mnt/hdd/Trash/000_test2.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_vaporwave_lsd_eagles.jpg
+	/mnt/hdd/Trash/000_vaporwave_lsd_eagles.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-4op3km.jpg
+	/mnt/hdd/Trash/000_wallhaven-4op3km.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-nmk6zm.jpg
+	/mnt/hdd/Trash/000_wallhaven-nmk6zm.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-oxje6l.jpg
+	/mnt/hdd/Trash/000_wallhaven-oxje6l.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-oxjvm7.jpg
+	/mnt/hdd/Trash/000_wallhaven-oxjvm7.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-q6o5z5.jpg
+	/mnt/hdd/Trash/000_wallhaven-q6o5z5.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-r26wom.jpg
+	/mnt/hdd/Trash/000_wallhaven-r26wom.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-vgev9l.jpg
+	/mnt/hdd/Trash/000_wallhaven-vgev9l.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-ym9wkx.jpg
+	/mnt/hdd/Trash/000_wallhaven-ym9wkx.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_way_trees.jpg
+	/mnt/hdd/Trash/000_way_trees.jpg
+t/home/marcosrdac/.local/share/Trash/000_000_xFMxyV3.jpg
+	/mnt/hdd/Trash/000_xFMxyV3.jpg
+t/home/marcosrdac/.local/share/Trash/000_.virtual_machines
+	/mnt/hdd/.virtual_machines
+t/home/marcosrdac/.local/share/Trash/000_stream
+	/mnt/hdd/MEGA/books/stream
+t/home/marcosrdac/.local/share/Trash/002_apple.png_wal_sample.png
+	/home/marcosrdac/wallpapers/favorites/apple.png_wal_sample.png
+t/home/marcosrdac/.local/share/Trash/000_arara_azul_brazil_total_gc.jpg_wal_sample.png
+	/home/marcosrdac/wallpapers/favorites/arara_azul_brazil_total_gc.jpg_wal_sample.png
+t/home/marcosrdac/.local/share/Trash/000_mpv.conf
+	/home/marcosrdac/.config/mpv/mpv.conf
+t/home/marcosrdac/.local/share/Trash/000_old_pics
+	/home/marcosrdac/projects/potenciais/3_rtp/old_pics
+t/home/marcosrdac/.local/share/Trash/000_potential_methods_processing
+	/home/marcosrdac/projects/potential_methods_processing
+t/home/marcosrdac/.local/share/Trash/000_datefile.md
+	/home/marcosrdac/projects/nasa-picture-bg/datefile.md
+t/home/marcosrdac/.local/share/Trash/000_bg.png
+	/home/marcosrdac/projects/nasa-picture-bg/bg.png
+t/home/marcosrdac/.local/share/Trash/000_main.py
+	/home/marcosrdac/wallpapers/favorites/main.py
+t/home/marcosrdac/.local/share/Trash/000_todays_nasa_figure.png
+	/home/marcosrdac/projects/todays_nasa_picture/todays_nasa_figure.png
+t/home/marcosrdac/.local/share/Trash/000_nasa-picture-bg
+	/home/marcosrdac/projects/nasa-picture-bg
+t/home/marcosrdac/.local/share/Trash/000_20190421070421_screencast.mkv
+	/mnt/hdd/MEGA/videos/screencasts/20190421070421_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20190424222145_screencast.mkv
+	/mnt/hdd/MEGA/videos/screencasts/20190424222145_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20190424222303_screencast.mkv
+	/mnt/hdd/MEGA/videos/screencasts/20190424222303_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20190424222353_screencast.mkv
+	/mnt/hdd/MEGA/videos/screencasts/20190424222353_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20190424224555_screencast.mkv
+	/mnt/hdd/MEGA/videos/screencasts/20190424224555_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20190424233137_screencast.mkv
+	/mnt/hdd/MEGA/videos/screencasts/20190424233137_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_i3bar_pomodoro_
+	/home/marcosrdac/.local/bin/i3bar/i3bar_pomodoro_
+t/home/marcosrdac/.local/share/Trash/000_i3bar_pomodoro_new
+	/home/marcosrdac/.local/bin/i3bar/i3bar_pomodoro_new
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1
