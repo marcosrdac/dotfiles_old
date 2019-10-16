@@ -25,8 +25,7 @@ then
     # keep blinking if times ending
     if [ $remaining -le 15 ] && [ $(($remaining % 2)) -eq 0 ]
     then
-        fg=$foreground
-        bg=$background
+        bg=$urgent
     fi
 
     # get remaining to HHMMSS

@@ -5,7 +5,7 @@ wallpaper='{wallpaper}'
 # Special
 background='{background}'
 foreground='{foreground}'
-urgent='{color3}'
+urgent='{color1}'
 cursor='{cursor}'
 
 # Colors

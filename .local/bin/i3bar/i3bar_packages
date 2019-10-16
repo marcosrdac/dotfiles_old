@@ -15,7 +15,7 @@ sp=""
 upgradable=$(pacman -Qu | grep -v "\[ignored\]" | wc -l | sed -e "s/^0$//g")
 
 
-if test "$upgradable" -gt 0
+if test $upgradable -gt 0
 then
   full_text="<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font_desc=\""$symbol_font_name"\" font_size=\""medium"\">$label</span> "$upgradable"$sp</span>"
   short_text="<span background=\""$bg"\" foreground=\""$fg"\">$sp<span font_desc=\""$symbol_font_name"\" font_size=\""medium"\">$label</span> "$upgradable"$sp</span>"
@@ -26,10 +26,9 @@ fi
 
 
 
-
 # events
 case $BLOCK_BUTTON in
   1) notify-send "Packages to update" "$(/usr/bin/pacman -Qu)" ;;
   3) $TERMINAL -e $AURMANAGER -Syu
-     pkill -RTMIN+14 i3blocks ;;
+     pkill -RTMIN+16 i3blocks ;;
 esac

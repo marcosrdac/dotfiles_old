@@ -20,7 +20,7 @@ echo "$tiny_text"
 
 # Events
 
-filename=pomodoro_end
+filename=alarm_end
 interval=$((5*60))
 now=$(date '+%s')
 
@@ -29,7 +29,7 @@ case $BLOCK_BUTTON in
   4)  pomodoro_end=$(cat /tmp/$filename)  # scroll
     if [[ $pomodoro_end < $now ]]
     then
-      echo $((now+interval)) > /tmp/$filename
+      echo $((now+interval)) > /tmp/$filename  # integrate it with dm_alarm script
     else
       echo $((pomodoro_end+interval)) > /tmp/$filename
     fi ;;

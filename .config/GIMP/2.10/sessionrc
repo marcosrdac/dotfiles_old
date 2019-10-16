@@ -113,7 +113,7 @@
     (size 1366 768))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 399 160))
+    (position 369 130))
 (session-info "toplevel"
     (factory-entry "gimp-color-balance-tool-dialog")
     (position 0 0))
@@ -183,7 +183,7 @@
     (position 468 254))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-location-dialog")
-    (position 60 0))
+    (position 55 0))
 (session-info "toplevel"
     (factory-entry "gimp-action-search-dialog")
     (position 1144 593)

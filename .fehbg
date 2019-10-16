@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/marcosrdac/.config/wpg/wallpapers/astronaut_with_coloured_jellyfish_completion.jpg' 
+feh --no-fehbg --bg-fill '/home/marcosrdac/.config/wpg/wallpapers/out.jpg' 

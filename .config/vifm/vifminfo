@@ -125,107 +125,14 @@ b/home/marcosrdac/wallpapers/
 
 # TUI:
 al
-q0
-v1
-ov
+q1
+v2
+oh
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
-d/mnt/hdd/MEGA
-	books
-3
-d/mnt/hdd/MEGA/books
-	calc D.pdf
-17
-d/mnt/hdd/MEGA
-	books
-3
-d/mnt/hdd
-	audios
-7
-d/mnt/hdd/audios
-	music
-1
-d/mnt/hdd/audios/music
-	Ave Sangria - Ave Sangria (1975) (goestricolor)
-1
-d/mnt/hdd/audios/music/Ave Sangria - Ave Sangria (1975) (goestricolor)
-	01. Dois Navegantes.mp3
-1
-d/mnt/hdd/audios/music
-	Ave Sangria - Ave Sangria (1975) (goestricolor)
-1
-d/mnt/hdd/audios/music/Ave Sangria - Ave Sangria (1975) (goestricolor)
-	01. Dois Navegantes.mp3
-1
-d/mnt/hdd/audios/music
-	Ave Sangria - Ave Sangria (1975) (goestricolor)
-1
-d/mnt/hdd/audios
-	music
-1
-d/mnt/hdd/audios/music
-	Ave Sangria - Ave Sangria (1975) (goestricolor)
-1
-d/mnt/hdd/audios/music/Ave Sangria - Ave Sangria (1975) (goestricolor)
-	01. Dois Navegantes.mp3
-1
-d/mnt/hdd/audios/music
-	Ave Sangria - Ave Sangria (1975) (goestricolor)
-1
-d/mnt/hdd/audios
-	playlists
-2
-d/mnt/hdd/audios/playlists
-	A Voz de Delirium.m3u
-2
-d/mnt/hdd/audios
-	playlists
-2
-d/mnt/hdd
-	backups
-8
-d/mnt/hdd/backups
-	Dropbox
-1
-d/mnt/hdd/backups/Dropbox
-	.zsnes
-3
-d/mnt/hdd/backups/Dropbox/.zsnes
-	..
-0
-d/mnt/hdd/backups/Dropbox
-	.zsnes
-3
-d/mnt/hdd/backups
-	Dropbox
-1
-d/mnt/hdd
-	movies
-9
-d/mnt/hdd/movies
-	eraserhead_(1977)
-5
-d/mnt/hdd/movies/eraserhead_(1977)
-	eraserhead_(1977).mp4
-1
-d/mnt/hdd/movies
-	eraserhead_(1977)
-5
-d/mnt/hdd/movies/eraserhead_(1977)
-	eraserhead_(1977).mp4
-1
-d/mnt/hdd/movies
-	get_out_(2017)
-7
-d/mnt/hdd/movies/get_out_(2017)
-	..
-0
-d/mnt/hdd/movies
-	inland_empire_(2006)
-8
 d/mnt/hdd
 	series
 10
@@ -433,6 +340,99 @@ d/home/marcosrdac/.local/bin
 d/home/marcosrdac/.local/bin/i3bar
 	i3bar_pomodoro
 9
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.local/bin
+	i3bar
+2
+d/home/marcosrdac/.local/bin/i3bar
+	i3bar_ncmpcpp
+6
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.local/bin
+	menu
+3
+d/home/marcosrdac/.local/bin/menu
+	..
+0
+d/home/marcosrdac/tmp
+	nordeste
+0
+d/home/marcosrdac/tmp/nordeste
+	com_certeza_oleo.xcf
+1
+d/home/marcosrdac/tmp
+	nordeste
+10
+d/home/marcosrdac/tmp/nordeste
+	PSD.ipynb
+1
+d/home/marcosrdac/tmp
+	nordeste
+0
+d/home/marcosrdac/tmp/nordeste
+	PSD.ipynb
+1
+d/home/marcosrdac/tmp
+	pdfs
+0
+d/home/marcosrdac/projects
+	oil_spot_determination
+20
+d/home/marcosrdac/projects/oil_spot_determination
+	nordeste
+1
+d/home/marcosrdac/projects/oil_spot_determination/nordeste
+	fds.png
+1
+d/home/marcosrdac/projects
+	oil_spot_determination
+17
+d/home/marcosrdac/projects/oil_spot_determination
+	nordeste
+1
+d/home/marcosrdac/projects/oil_spot_determination/nordeste
+	..
+0
+d/home/marcosrdac/projects/oil_spot_determination
+	nordeste
+1
+d/home/marcosrdac/Dropbox/pictures
+	screenshots
+4
+d/home/marcosrdac/Dropbox/pictures/screenshots
+	20191013204342_screenshot_1366x768.png
+17
+d/home/marcosrdac/tmp/ufba
+	perfilagem_geofisica_em_poco_aberto
+9
+d/home/marcosrdac/tmp/ufba/perfilagem_geofisica_em_poco_aberto
+	Atividade I.pdf
+1
+d/home/marcosrdac/.local/bin
+	i3bar
+2
+d/home/marcosrdac/.local/bin/i3bar
+	i3bar_packages
+8
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	_out.jpg
+0
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	four.py
+0
 d
 
 # Right window history (oldest to newest):
@@ -729,17 +729,10 @@ D/home/marcosrdac/wallpapers
 1
 D/home/marcosrdac/wallpapers/favorites
 	nasa_20180329.jpg
-28
-D/home/marcosrdac/wallpapers
-	favorites
-2
-D/home/marcosrdac/wallpapers/favorites
-	..
-0
+17
 D
 
 # Command line history (oldest to newest):
-:mkdir ruber
 :unrar %
 :!unrar %
 :!unrar -e %
@@ -787,7 +780,6 @@ D
 :mkdir Xresources
 :mk
 :sort 
-:wq
 :enpty
 :mkdir 
 :mkdir palettes
@@ -834,28 +826,15 @@ D
 :touch reset_fav
 :git 
 :S
-:q
 :git
 :gi
 :!git pull
 :!mpv vim\ qrec-2018-03-06_16.04.57
+:mkdir nordeste
+:q
+:wq
 
 # Search history (oldest to newest):
-/dmen
-/m=
-/pomodo
-/dit
-/cache
-/teste
-/xinit
-/nvidi
-/urx
-/x
-/movi
-/'
-/drop
-/jout
-/tm
 /abou
 /vir
 /dro[
@@ -942,8 +921,26 @@ D
 /dme
 //
 /dm
-/i3
 /pomo
+/npc
+/ncm
+/date
+/time
+/zip
+/norder
+/one
+/norde
+/oil
+/scre
+/perf
+/i3
+/packa
+/ou
+/mounta
+/out.
+/o
+/out
+/tes
 
 # Prompt history (oldest to newest):
 pthemes
@@ -1046,11 +1043,16 @@ pwater_drop_on_leaf.jpg
 preset_fav
 pplantas_casa_federacao
 pi3bar_pomodoro_new
+poutt
+poutt.jpg
+pout_legal
+p_out.jpg
+pfour
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/bin/i3bar/i3bar_pomodoro_
+""/home/marcosrdac/.local/share/Trash/000_out.jpg
 
 # Directory stack (oldest to newest):
 
@@ -2543,6 +2545,14 @@ t/home/marcosrdac/.local/share/Trash/000_i3bar_pomodoro_
 	/home/marcosrdac/.local/bin/i3bar/i3bar_pomodoro_
 t/home/marcosrdac/.local/share/Trash/000_i3bar_pomodoro_new
 	/home/marcosrdac/.local/bin/i3bar/i3bar_pomodoro_new
+t/home/marcosrdac/.local/share/Trash/000_OneDrive-2019-10-13.zip
+	/home/marcosrdac/tmp/nordeste/OneDrive-2019-10-13.zip
+t/home/marcosrdac/.local/share/Trash/000_Atividade I.docx
+	/home/marcosrdac/tmp/ufba/perfilagem_geofisica_em_poco_aberto/Atividade I.docx
+t/home/marcosrdac/.local/share/Trash/000_out.jpeg
+	/home/marcosrdac/wallpapers/favorites/out.jpeg
+t/home/marcosrdac/.local/share/Trash/000_out.jpg
+	/home/marcosrdac/wallpapers/favorites/out.jpg
 
 # State:
 f
