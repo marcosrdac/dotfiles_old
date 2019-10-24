@@ -77,7 +77,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 383)
+            (position 386)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
@@ -95,8 +95,8 @@
     (size 817 629))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 0 0)
-    (size 1366 768))
+    (position 673 12)
+    (size 673 736))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
     (position 0 0))
@@ -106,14 +106,14 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
     (position 0 0)
-    (size 1366 768))
+    (size 673 736))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
     (position 0 0)
-    (size 1366 768))
+    (size 673 736))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 369 130))
+    (position 354 115))
 (session-info "toplevel"
     (factory-entry "gimp-color-balance-tool-dialog")
     (position 0 0))
@@ -134,7 +134,7 @@
     (position 227 179))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 757 67)
+    (position 737 47)
     (size 398 554))
 (session-info "toplevel"
     (factory-entry "gimp-palette-import-dialog")
@@ -145,7 +145,7 @@
     (position 41 382))
 (session-info "toplevel"
     (factory-entry "gimp-levels-tool-dialog")
-    (position 904 123)
+    (position 894 113)
     (size 428 547))
 (session-info "toplevel"
     (factory-entry "gimp-palette-editor-color-dialog")
@@ -170,7 +170,7 @@
     (position 2 270))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 0 0))
+    (position 265 0))
 (session-info "toplevel"
     (factory-entry "gimp-unified-transform-tool-dialog")
     (position 0 0))
@@ -183,7 +183,7 @@
     (position 468 254))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-location-dialog")
-    (position 55 0))
+    (position 45 0))
 (session-info "toplevel"
     (factory-entry "gimp-action-search-dialog")
     (position 1144 593)

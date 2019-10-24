@@ -27,8 +27,8 @@
 1570211065
 'P
 	/home/marcosrdac/Dropbox/pictures
-	screenshots
-1571829835
+	..
+1553438597
 'T
 	/home/marcosrdac/.local/share/Trash
 	..
@@ -46,9 +46,9 @@
 	audios
 1561254757
 'b
-	/home/marcosrdac/.local/bin
-	menu
-1571759699
+	/home/marcosrdac/.local/bin/
+	..
+1570488378
 'c
 	/home/marcosrdac/.config
 	shell
@@ -64,7 +64,7 @@
 'h
 	/home/marcosrdac/
 	..
-1571614727
+1569459508
 'i
 	/home/marcosrdac/.config/i3
 	config
@@ -88,7 +88,7 @@
 'p
 	/home/marcosrdac/projects
 	..
-1571724682
+1557743091
 'q
 	/home/marcosrdac/.config/qutebrowser
 	config.py
@@ -125,317 +125,542 @@ b/home/marcosrdac/wallpapers/
 
 # TUI:
 al
-q0
-v1
-ov
+q1
+v2
+oh
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/tmp/torrents
-	moonlight_(2016)
-15
-d/home/marcosrdac/tmp/torrents/moonlight_(2016)
-	..
-0
-d/home/marcosrdac/tmp/torrents
-	moonlight_(2016)
-15
-d/home/marcosrdac/tmp/torrents/moonlight_(2016)
-	moonlight_(2016).srt
-2
-d/home/marcosrdac/tmp/torrents
-	nymphomaniac_(2013)
-16
-d/home/marcosrdac/tmp/torrents/nymphomaniac_(2013)
-	Nymphomaniac Directors Cut Vol 1 2013 - 720P ITA-ENG.mkv
-1
-d/home/marcosrdac/tmp/torrents
-	o_homem_duplo_(2006)
-17
-d/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)
-	..
-0
-d/home/marcosrdac/tmp/torrents
-	o_homem_duplo_(2006)
-17
-d/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)
-	O Homem Duplo [2006]-BluRay 720p Dual Áudio.mkv
-1
-d/home/marcosrdac/tmp/torrents
-	o_homem_duplo_(2006)
-17
-d/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)
-	O Homem Duplo [2006]-BluRay 720p Dual Áudio.mkv
-1
-d/home/marcosrdac/tmp/torrents
-	reservoir_dogs_(1992)
-18
-d/home/marcosrdac/tmp/torrents/reservoir_dogs_(1992)
-	Reservoir Dogs.1992.BluRay.1080p.x264.YIFY_.srt
-3
-d/home/marcosrdac/tmp/torrents
-	reservoir_dogs_(1992)
-18
-d/home/marcosrdac/tmp/torrents/reservoir_dogs_(1992)
-	reservoir_dogs_(1992).mp4
-1
-d/home/marcosrdac/tmp/torrents
-	reservoir_dogs_(1992)
-18
-d/home/marcosrdac/tmp/torrents/reservoir_dogs_(1992)
-	reservoir_dogs_(1992).mp4
-1
-d/home/marcosrdac/tmp/torrents
-	scott_pilgrim_vs_the_world_(2010)
-19
-d/home/marcosrdac/tmp/torrents/scott_pilgrim_vs_the_world_(2010)
-	Scott.Pilgrim.Vs.The.World.2010.BRRip.720p.x264.ACC.honchorella.(Kingdom.Release).srt
-1
-d/home/marcosrdac/tmp/torrents
-	scott_pilgrim_vs_the_world_(2010)
-19
-d/home/marcosrdac/tmp/torrents/scott_pilgrim_vs_the_world_(2010)
-	scott_pilgrim_vs_the_world_(2010).srt
-2
-d/home/marcosrdac/tmp/torrents
-	star_wars_the_last_jedi_(2017)
-20
-d/home/marcosrdac/tmp/torrents/star_wars_the_last_jedi_(2017)
-	..
-0
-d/home/marcosrdac/tmp/torrents
-	star_wars_the_last_jedi_(2017)
-20
-d/home/marcosrdac/tmp/torrents/star_wars_the_last_jedi_(2017)
-	star_wars_the_last_jedi_(2017).srt
-2
-d/home/marcosrdac/tmp/torrents
-	synecdoche_new_york_(2008)
-21
-d/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)
-	Synecdoche.New_.York_.2008.720p.BrRip_.x264.YIFY_.srt
-3
-d/home/marcosrdac/tmp/torrents
-	synecdoche_new_york_(2008)
-21
-d/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)
-	synecdoche_new_york_(2008).mp4
-1
-d/home/marcosrdac/tmp/torrents
-	the_godfather_(1972)
-22
-d/home/marcosrdac/tmp/torrents/the_godfather_(1972)
-	The.Godfather.1972.1080p.BrRip.x264.BOKUTOX.YIFY.mp4
-1
-d/home/marcosrdac/tmp/torrents
-	the_godfather_(1972)
-22
-d/home/marcosrdac/tmp/torrents/the_godfather_(1972)
-	the_godfather_(1972)_en.srt
-3
-d/home/marcosrdac/tmp/torrents
-	vertigo_(1958)
-23
-d/home/marcosrdac/tmp/torrents/vertigo_(1958)
-	Um.Corpo.Que.Cai.1958.1080p.BluRay.FORCED.srt
-1
-d/home/marcosrdac/tmp/torrents
-	vertigo_(1958)
-23
-d/home/marcosrdac/tmp/torrents/vertigo_(1958)
-	vertigo_(1958).mp4
-1
-d/home/marcosrdac/tmp/torrents
-	the_godfather_(1972)
-4
+d/home/marcosrdac/projects/linux_learning
+	user_management_and_permissions.md
+36
 d/home/marcosrdac
-	movies
-7
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
+	git
+13
+d/home/marcosrdac/projects
+	enem
+20
+d/
+	etc
 4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.srt
-2
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)_
-5
-d/home/marcosrdac/movies/blade_runner_2049_(2017)_
-	..
-0
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)_
-5
-d/home/marcosrdac/movies/blade_runner_2049_(2017)_
-	blade_runner_2049_(2017).avi
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.srt
-2
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)_
-5
-d/home/marcosrdac/movies/blade_runner_2049_(2017)_
-	blade_runner_2049_(2017).avi
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)_
-5
-d/home/marcosrdac/movies/blade_runner_2049_(2017)_
-	blade_runner_2049_(2017).avi
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.srt
-2
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.srt
-2
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 20172.srt
-3
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017_en.srt
-3
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017_en.srt
-3
-d/home/marcosrdac/movies
-	whiplash_(2014)
+d/home/marcosrdac/projects
+	potenciais
 37
-d/home/marcosrdac
-	movies
-7
-d/home/marcosrdac/movies
-	500_days_of_Summer_(2009)
-1
-d/home/marcosrdac/movies/500_days_of_Summer_(2009)
-	500_days_of_Summer_(2009).mp4
-1
-d/home/marcosrdac/movies
-	2001_a.space_odyssey_(1968)
-2
-d/home/marcosrdac/movies/2001_a.space_odyssey_(1968)
-	2001_a_space_odyssey_(1968).mp4
-1
-d/home/marcosrdac/movies
-	adaptation_(2002)
-3
-d/home/marcosrdac/movies/adaptation_(2002)
-	adaptation_(2002).srt
-2
-d/home/marcosrdac/movies
-	adaptation_(2002)
-3
-d/home/marcosrdac/movies/adaptation_(2002)
-	adaptation_(2002).mkv
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
+d/home/marcosrdac/projects/potenciais
+	3_rtp
 4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.mp4
+d/home/marcosrdac/projects/potenciais/3_rtp
+	old_pics
 1
-d/home/marcosrdac/movies
-	blue_velvet_(1986)
-5
-d/home/marcosrdac/movies/blue_velvet_(1986)
-	blue_velvet_(1986).mp4
+d/home/marcosrdac/projects/potenciais/3_rtp/old_pics
+	rtp_md-14_mi-51.png
+4
+d/home/marcosrdac/projects/potenciais/3_rtp
+	45anomaly3d
 1
-d/home/marcosrdac/movies
-	coraline_(2009)
-6
-d/home/marcosrdac/movies/coraline_(2009)
-	coraline_(2009).mkv
-1
-d/home/marcosrdac/movies
-	coraline_e_o_mundo_secreto_(2009)
-7
-d/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
-	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual Áudio.mkv
-1
-d/home/marcosrdac/movies
-	coraline_(2009)
-6
-d/home/marcosrdac/movies/coraline_(2009)
-	coraline_(2009).mkv
-1
-d/home/marcosrdac/movies
-	coraline_(2009)
-6
-d/home/marcosrdac/movies/coraline_(2009)
-	coraline_(2009).mkv
-1
-d/home/marcosrdac/movies
-	eraserhead_(1977)
-7
-d/home/marcosrdac/movies/eraserhead_(1977)
+d/home/marcosrdac/projects/potenciais
+	2_facmag_fail
+3
+d/home/marcosrdac/projects
+	potential_methods_processing
+37
+d/home/marcosrdac/projects/potential_methods_processing
+	README.md
+8
+d/home/marcosrdac/projects
+	accoustic_wave_modelling
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
+3
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
+	wave_modeling.py
+30
+d/home/marcosrdac/projects
+	crypting_tool
+15
+d/home/marcosrdac/projects/crypting_tool
+	README.md
+2
+d/home/marcosrdac/projects
+	basic_downloader
+10
+d/home/marcosrdac/projects/basic_downloader
 	..
 0
-d/home/marcosrdac/movies
-	eternal_sunshine_of_the_spotless_mind_(2004)
-8
-d/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)
-	eternal_sunshine_of_the_spotless_mind_(2004).mp4
-1
-d/home/marcosrdac/movies
-	get_out_(2017)
-9
-d/home/marcosrdac/movies/get_out_(2017)
-	get_out_(2017).mp4
-1
-d/home/marcosrdac/movies
-	inland_empire_(2006)
-10
-d/home/marcosrdac/movies/inland_empire_(2006)
-	inland_empire_(2006).mp4
-1
-d/home/marcosrdac/movies
-	interstellar_(2014)
-11
-d/home/marcosrdac/movies/interstellar_(2014)
-	interstellar_(2014).mp4
-1
-d/home/marcosrdac/movies
+d/media
 	..
+0
+d/home/marcosrdac
+	git
+14
+d/mnt/hdd
+	MEGA
+1
+d/mnt/hdd/MEGA
+	videos
+7
+d/mnt/hdd/MEGA/videos
+	exdropbox
+1
+d/mnt/hdd/MEGA/videos/exdropbox
+	Webcam
+1
+d/mnt/hdd/MEGA/videos
+	g
+2
+d/mnt/hdd/MEGA/videos/g
+	t_video5145886564575871045.mp4
+2
+d/mnt/hdd/MEGA/videos
+	me
+3
+d/mnt/hdd/MEGA/videos/me
+	meditation.mp4
+4
+d/mnt/hdd/MEGA/videos
+	screencasts
+4
+d/mnt/hdd/MEGA/videos/screencasts
+	20190425162012_screencast.mkv
+7
+d/mnt/hdd/MEGA/videos
+	youtube
+5
+d/mnt/hdd/MEGA/videos/youtube
+	Jordan Peterson's Ultimate Advice for Students and College Grads - STOP WASTING TIME-wsNzAuYDgy0.mkv
+2
+d/mnt/hdd/MEGA/videos
+	screencasts
+4
+d/mnt/hdd/MEGA/videos/screencasts
+	20190425162012_screencast.mkv
+7
+d/mnt/hdd/MEGA/videos
+	exdropbox
+1
+d/mnt/hdd/MEGA/videos/exdropbox
+	Webcam
+1
+d/mnt/hdd/MEGA/videos/exdropbox/Webcam
+	2018-05-10-123835.webm
+5
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.config
+	i3blocks
+16
+d/home/marcosrdac/.config/i3blocks
+	i3blocks.conf
+1
+d/home/marcosrdac/.config
+	cron
+8
+d/home/marcosrdac/.config/cron
+	user.cron
+2
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.config
+	i3blocks
+16
+d/home/marcosrdac/.config/i3blocks
+	i3blocks.conf
+2
+d/home/marcosrdac/.config
+	i3blocks
+16
+d/home/marcosrdac/.local/bin
+	dmenu
+1
+d/home/marcosrdac/.local/bin/dmenu
+	..
+0
+d/home/marcosrdac/.local/bin
+	i3bar
+2
+d/home/marcosrdac/.local/bin/i3bar
+	i3bar_pomodoro
+9
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.local/bin
+	i3bar
+2
+d/home/marcosrdac/.local/bin/i3bar
+	i3bar_ncmpcpp
+6
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.local/bin
+	menu
+3
+d/home/marcosrdac/.local/bin/menu
+	..
+0
+d/home/marcosrdac/tmp
+	nordeste
+0
+d/home/marcosrdac/tmp/nordeste
+	com_certeza_oleo.xcf
+1
+d/home/marcosrdac/tmp
+	nordeste
+10
+d/home/marcosrdac/tmp/nordeste
+	PSD.ipynb
+1
+d/home/marcosrdac/tmp
+	nordeste
+0
+d/home/marcosrdac/tmp/nordeste
+	PSD.ipynb
+1
+d/home/marcosrdac/tmp
+	pdfs
 0
 d/home/marcosrdac/projects
 	oil_spot_determination
-36
+20
 d/home/marcosrdac/projects/oil_spot_determination
 	nordeste
-2
+1
+d/home/marcosrdac/projects/oil_spot_determination/nordeste
+	fds.png
+1
+d/home/marcosrdac/projects
+	oil_spot_determination
+17
+d/home/marcosrdac/projects/oil_spot_determination
+	nordeste
+1
 d/home/marcosrdac/projects/oil_spot_determination/nordeste
 	..
 0
 d/home/marcosrdac/projects/oil_spot_determination
-	images
-2
-d/home/marcosrdac/projects/oil_spot_determination/images
-	subset_S1A_IW_GRDH_1SDV_20191011T075425_20191011T075450_029408_03582A_988B_Intensity_VV_db 1.bmp
+	nordeste
 1
+d/home/marcosrdac/Dropbox/pictures
+	screenshots
+4
+d/home/marcosrdac/Dropbox/pictures/screenshots
+	20191013204342_screenshot_1366x768.png
+17
+d/home/marcosrdac/tmp/ufba
+	perfilagem_geofisica_em_poco_aberto
+9
+d/home/marcosrdac/tmp/ufba/perfilagem_geofisica_em_poco_aberto
+	Atividade I.pdf
+1
+d/home/marcosrdac/.local/bin
+	i3bar
+2
+d/home/marcosrdac/.local/bin/i3bar
+	i3bar_packages
+8
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	_out.jpg
+0
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	four.py
+0
+d/home/marcosrdac/.dotfiles
+	.gitignore
+11
+d/home/marcosrdac/projects
+	oil_spot_determination
+17
+d/home/marcosrdac/tmp
+	pdfs
+0
+d/home/marcosrdac/.dotfiles
+	.git
+3
+d/home/marcosrdac/documents
+	info
+5
+d/home/marcosrdac/documents/info
+	..
+0
+d/home/marcosrdac/documents
+	todo
+14
+d/home/marcosrdac/documents/todo
+	movies_to_watch
+1
+d/home/marcosrdac/documents/todo/movies_to_watch
+	Lynch films to watch.png
+1
+d/home/marcosrdac/documents/todo
+	movies_to_watch
+1
+d/home/marcosrdac
+	movies
+0
+d/home/marcosrdac/movies
+	..
+0
+d/home/marcosrdac/.config/i3
+	config
+3
+d/home/marcosrdac/.config
+	i3blocks
+16
+d/home/marcosrdac/.config/i3blocks
+	i3blocks.conf
+2
+d/home/marcosrdac/projects/linux_learning
+	ssh.md
+14
+d/home/marcosrdac/wallpapers
+	favorites
+3
+d/home/marcosrdac/wallpapers/favorites
+	astronaut_with_coloured_jellyfish_completion.jpg
+0
 d
 
 # Right window history (oldest to newest):
+D/home/marcosrdac/.config/cron
+	root.cron
+1
+D/home/marcosrdac
+	$MAIL
+1
+D/home/marcosrdac/$MAIL
+	Spam
+3
+D/home/marcosrdac/$MAIL/Spam
+	..
+0
+D/home/marcosrdac/$MAIL
+	INBOX
+2
+D/home/marcosrdac/$MAIL/INBOX
+	cur
+1
+D/home/marcosrdac/$MAIL/INBOX/cur
+	1570630809_0.889988.archlinux,U=27896,FMD5=7e33429f656f1e6e9d79b29c3f82c57e:2,S
+1
+D/home/marcosrdac/$MAIL/INBOX
+	new
+2
+D/home/marcosrdac/$MAIL/INBOX/new
+	..
+0
+D/home/marcosrdac/$MAIL/INBOX
+	tmp
+3
+D/home/marcosrdac/$MAIL/INBOX/tmp
+	..
+0
+D/home/marcosrdac/$MAIL/INBOX
+	tmp
+3
+D/home/marcosrdac/$MAIL
+	INBOX
+2
+D/home/marcosrdac
+	$MAIL
+1
+D/home/marcosrdac/$MAIL
+	
+1
+D/home/marcosrdac
+	..
+0
+D/home/marcosrdac/.local
+	share
+3
+D/home/marcosrdac/wallpapers
+	favorites
+2
+D/home/marcosrdac/wallpapers/favorites
+	low_contrast_forest.jpg
+7
+D/home/marcosrdac/wallpapers
+	serenity
+6
+D/home/marcosrdac/wallpapers/serenity
+	uCrGTLP.jpg
+4
+D/home/marcosrdac/wallpapers
+	favorites
+2
+D/home/marcosrdac/wallpapers/favorites
+	low_contrast_forest.jpg
+7
+D/home/marcosrdac/wallpapers
+	serenity
+6
+D/home/marcosrdac/wallpapers/serenity
+	uCrGTLP.jpg
+5
+D/home/marcosrdac/wallpapers
+	serenity
+6
+D/home/marcosrdac/wallpapers/serenity
+	uCrGTLP.jpg
+4
+D/home/marcosrdac/wallpapers
+	favorites
+0
+D/home/marcosrdac/wallpapers/favorites
+	low_contrast_forest.jpg
+7
+D/home/marcosrdac/wallpapers
+	favorites
+0
+D/home/marcosrdac/wallpapers/favorites
+	dog_boy_rosed_eyes_sunset.jpg
+3
+D/home/marcosrdac/wallpapers
+	favorites
+0
+D/home/marcosrdac/wallpapers/favorites
+	red_night_street_void_urgence.jpg
+11
+D/home/marcosrdac
+	MEGA
+2
+D/home/marcosrdac/wallpapers
+	favorites
+0
+D/home/marcosrdac/wallpapers/favorites
+	bridge_pink_blue_peaceful_wakening_gc.jpg
+2
+D/home/marcosrdac/wallpapers
+	cyberpunk
+0
+D/home/marcosrdac/wallpapers/cyberpunk
+	wallhaven-698247.jpg
+2
+D/home/marcosrdac/wallpapers
+	favorites
+1
+D/home/marcosrdac/wallpapers/favorites
+	sea_aired_forest_fresh_sunday_gc.jpg
+10
+D/home/marcosrdac/wallpapers
+	cyberpunk
+0
+D/home/marcosrdac/wallpapers/cyberpunk
+	wallhaven-697777.jpg
+1
+D/home/marcosrdac/wallpapers
+	favorites
+1
+D/home/marcosrdac/wallpapers/favorites
+	sky_geez_jazz_it_gc.jpg
+11
+D/home/marcosrdac/wallpapers
+	favorites
+1
+D/home/marcosrdac/wallpapers/favorites
+	sky_geez_jazz_it_gc.jpg
+11
+D/home/marcosrdac/wallpapers
+	serenity
+5
+D/home/marcosrdac/wallpapers/serenity
+	uCrGTLP.jpg
+3
+D/home/marcosrdac/wallpapers
+	favorites
+1
+D/home/marcosrdac/wallpapers/favorites
+	jupyter_brown_turbulence.jpg
+7
+D/home/marcosrdac/wallpapers
+	cyberpunk
+0
+D/home/marcosrdac/wallpapers/cyberpunk
+	wallhaven-697777.jpg
+1
+D/home/marcosrdac/wallpapers
+	cyberpunk
+0
+D/home/marcosrdac/wallpapers/cyberpunk
+	..
+0
+D/home/marcosrdac/wallpapers
+	favorites
+1
+D/home/marcosrdac/wallpapers/favorites
+	jupyter_brown_turbulence.jpg
+7
+D/home/marcosrdac/wallpapers
+	home
+2
+D/home/marcosrdac/wallpapers/home
+	..
+0
+D/home/marcosrdac/wallpapers
+	home
+2
+D/home/marcosrdac/wallpapers/home
+	..
+0
+D/home/marcosrdac/wallpapers
+	loneliness
+2
+D/home/marcosrdac/wallpapers/loneliness
+	bridge-colorful-colourful-32239_gud_morning.jpg
+1
+D/home/marcosrdac/wallpapers
+	favorites
+1
+D/home/marcosrdac/wallpapers/favorites
+	beach_pastel.jpg
+1
+D/home/marcosrdac/wallpapers
+	peace
+3
+D/home/marcosrdac/wallpapers/peace
+	mountains_cloudy.jpg
+2
+D/home/marcosrdac/wallpapers
+	favorites
+1
+D/home/marcosrdac
+	printer
+16
+D/home/marcosrdac/projects/linux_learning
+	hdmi_audio_start
+16
+D/home/marcosrdac
+	trash
+13
+D/home/marcosrdac/.config
+	wpg
+35
+D/home/marcosrdac/.config/wpg
+	wallpapers
+4
+D/home/marcosrdac/.config/wpg/wallpapers
+	..
+0
+D/home/marcosrdac/.config/wpg
+	samples
+1
+D/home/marcosrdac/.config/wpg/samples
+	..
+0
 D/home/marcosrdac
 	databases-incognito
 5
@@ -505,240 +730,11 @@ D/home/marcosrdac/wallpapers
 D/home/marcosrdac/wallpapers/favorites
 	nasa_20180329.jpg
 17
-D/home/marcosrdac/tmp
-	A-fast-SIFT-based-method-for-copy-move-fo_2018_Future-Computing-and-Informat.pdf
-23
-D/media
-	sdc1-usb-Multiple_Card_Re
-1
-D/media/sdc1-usb-Multiple_Card_Re
-	lady_bird_(2017)
-9
-D/media
-	..
-0
-D/home/marcosrdac/documents
-	info
-5
-D/home/marcosrdac/documents/info
-	bolsa_fisica
-2
-D/home/marcosrdac/documents/info/bolsa_fisica
-	..
-0
-D/home/marcosrdac/documents/info
-	bolsa_fisica
-2
-D/home/marcosrdac/documents/info/bolsa_fisica
-	fotos_snct
-1
-D/home/marcosrdac/documents/info/bolsa_fisica/fotos_snct
-	..
-0
-D/home/marcosrdac/documents/info/bolsa_fisica
-	fotos_snct
-1
-D/home/marcosrdac/documents/info
-	bolsa_oceano
-3
-D/home/marcosrdac/documents/info/bolsa_oceano
-	declaracao_do_bolsista_ou_voluntario.doc
-3
-D/home/marcosrdac/documents/info
-	bolsa_fisica
-2
-D/home/marcosrdac/documents/info/bolsa_fisica
-	rbef_1.md
-6
-D/home/marcosrdac/documents/info
-	bolsa_fisica
-2
-D/home/marcosrdac/documents/info/bolsa_fisica
-	resumo.md
-8
-D/home/marcosrdac
-	VideoDecodeStats
-4
-D/home/marcosrdac/VideoDecodeStats
-	LOCK
-3
-D/home/marcosrdac
-	audios
-4
-D/home/marcosrdac/Dropbox/pictures
-	screenshots
-4
-D/home/marcosrdac/Dropbox/pictures/screenshots
-	..
-0
-D/home/marcosrdac/Dropbox/pictures
-	screenshots
-4
-D/home/marcosrdac/Dropbox/pictures/screenshots
-	20191023082348_screenshot_1366x768.png
-36
-D/home/marcosrdac/.config/i3
-	config
-3
-D/home/marcosrdac/.config
-	shell
-26
-D/home/marcosrdac/.config/shell
-	shenv
-4
-D/home/marcosrdac/.local
-	share
-3
-D/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-25
-D/home/marcosrdac
-	audios
-4
-D/home/marcosrdac/tmp
-	20191023100617_screencast.mkv
-24
-D/home/marcosrdac/projects
-	student_chapter
-37
-D/home/marcosrdac/projects/student_chapter
-	semana_de_geofisica
-5
-D/home/marcosrdac/projects/student_chapter/semana_de_geofisica
-	2019
-2
-D/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019
-	crachas
-1
-D/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019/crachas
-	cracha vazio.png
-7
-D/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019
-	crachas
-1
-D/home/marcosrdac/documents
-	quotes
-12
-D/home/marcosrdac/documents/quotes
-	quotes
-1
-D/home/marcosrdac/documents
-	discussions
-2
-D/home/marcosrdac/documents/discussions
-	..
-0
-D/home/marcosrdac/documents
-	discussions
-2
-D/home/marcosrdac/documents/discussions
-	twin peaks
-1
-D/home/marcosrdac/documents
-	audios
-1
-D/home/marcosrdac/documents/audios
-	julianaZanoni
-1
-D/home/marcosrdac/documents
-	games
-4
-D/home/marcosrdac/documents/games
-	chess
-1
-D/home/marcosrdac/documents/games/chess
-	..
-0
-D/home/marcosrdac/documents/games
-	chess
-1
-D/home/marcosrdac/documents
-	info
-5
-D/home/marcosrdac/documents/info
-	situations
-7
-D/home/marcosrdac/documents/info/situations
-	..
-0
-D/home/marcosrdac/documents/info
-	situations
-7
-D/home/marcosrdac/documents
-	journal
-6
-D/home/marcosrdac/documents/journal
-	..
-0
-D/home/marcosrdac/documents
-	journal
-6
-D/home/marcosrdac/documents/journal
-	20181003 pondo metas.md
-28
-D/home/marcosrdac/documents
-	personal
-10
-D/home/marcosrdac/documents/personal
-	curriculums
-3
-D/home/marcosrdac/documents/personal/curriculums
-	marcos_conceicao_cv_20192.pdf
-1
-D/home/marcosrdac/.offlineimap
-	..
-0
-D/home/marcosrdac/projects
-	python_learning
-24
-D/home/marcosrdac/projects/python_learning
-	oldDSStudies
-5
-D/home/marcosrdac/projects/python_learning/oldDSStudies
-	osNSys.py
-19
-D/home/marcosrdac/.config
-	vim
-32
-D/home/marcosrdac/.config/vim
-	vimrc
-10
-D/home/marcosrdac/documents
-	personal
-10
-D/home/marcosrdac/projects/nex
-	fichas
-4
-D/home/marcosrdac/projects/nex/fichas
-	maque_auto.pdf
-9
-D/home/marcosrdac/projects
-	oil_spot_determination
-11
-D/home/marcosrdac/projects/oil_spot_determination
-	code
-1
-D/home/marcosrdac/projects/oil_spot_determination/code
-	..
-0
-D/home/marcosrdac/.config
-	vim
-32
-D/home/marcosrdac/.config/vim
-	vimrc
-10
-D/home/marcosrdac/.config
-	nvim
-20
-D/home/marcosrdac/.config/nvim
-	init.vim
-6
-D/home/marcosrdac/tmp
-	Recent-Advances-in-Passive-Digital-Image-Security-Forensics--A_2018_Engineer.pdf
-36
 D
 
 # Command line history (oldest to newest):
+:unrar %
+:!unrar %
 :!unrar -e %
 :mkdir calculo_numerico
 :mkdir NVIDIA
@@ -785,6 +781,7 @@ D
 :mk
 :sort 
 :enpty
+:mkdir 
 :mkdir palettes
 :mkdir logos
 :!gimp 5
@@ -836,11 +833,53 @@ D
 :mkdir nordeste
 :q
 :wq
-:mkdir nymphomaniac_(2013(
-:mkdir 
-:mkdir images
 
 # Search history (oldest to newest):
+/dot
+/do
+/dro
+/ufba
+/eletroma
+/test
+/per
+/terra
+/afor
+/low
+/ouro
+/oro
+/wall*-6
+/wal.*69
+/wal.*69[E[E
+/wal.*695354
+/orob
+/cy
+/nig
+/cyb
+/sere
+/twi
+/red_roo
+/bea
+/print
+/sunse
+/jazz
+/start
+/favou
+/wal
+/trees
+/ipy
+/csv
+/wo
+/lista
+/run
+/mede
+/med
+/mnt
+/jell
+/xcf
+/md
+/\.md
+/favo
+/ubunt
 /tras
 /fav
 /color
@@ -849,7 +888,6 @@ D
 /boo
 /kkkk
 /ser
-/astro
 /permiss
 /git
 /poten
@@ -873,9 +911,11 @@ D
 /ncm
 /date
 /time
+/zip
 /norder
 /one
 /norde
+/oil
 /scre
 /perf
 /i3
@@ -886,63 +926,35 @@ D
 /o
 /out
 /tes
+/inf
 /mov
 /todo
+/movi
 /new
 /ip
 /ssh
 /wifi
-/awe
-/torre
-/500
-/por
-/2001
-/0.*.zip
-/\.nfo
-/pdf
-/zip
-/A
-/verti
-/God
-/The
-/Syn
-/Star
-/kill
-/Kill
-/melan
-/Ensaip
-/Silen
-/ensa
-/rese
-/ny
-/koe
-/jacke
-/jack
-/moonll
-/moon
-/lady
-/anti
-/nym
-/reser
-/inter
-/movi
-/inf
-/bolsa
-/congre
-/offl
-/sei
-/stude
-/per
-/pytho
-/merg
-/fichas
-/png
-/vim
-/nvim
-/2019.*zip
-/oil
+/astro
 
 # Prompt history (oldest to newest):
+ppulse_
+p.mozilla_
+p.mozilla
+p_vim
+pvim
+p.xprofile_
+p.xprofile
+pgtk2
+p.themes_
+p.themes
+p.msmtprc_
+p.msmtprc
+p_.msmtprc
+pXauthority
+p.Xauthority
+pmimeapps.list_
+p_mimeapps.list_
+p_mimeapps.list
 pmimeapps.list
 ptorrent.desktop
 pmovies
@@ -1025,29 +1037,11 @@ poutt.jpg
 pout_legal
 p_out.jpg
 pfour
-p2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_
-p2001.a.space.odyssey.(1968)
-p2001_a_space_odyssey_(1968)_
-p2001_a_space_odyssey_(1968)
-pReservoir Dogs.1992.BluRay.1080p.x264.YIFY_
-pnymphomaniac_(2013)
-p2001_a_space_odyssey_(1968)_eng
-pblade_runner_2049_(2017)
-p000000000ensaio_sobre_a_cegueira_(2008)
-pthe_godfather_(1972)_en
-pUm.Corpo.Que.Cai.1958.1080p.BluRay.FORCE
-pUm.Corpo.Que.Cai.1958.1080p.BluRay.FORCED
-pblade_runner_2049_(2017)_
-pBlade Runner 2049 2017_en
-pcracha_vazio
-pcracha_
-pmarcos_conceicao_cv_20192.pdf
-pficha_maquete.png
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_OneDrive-2019-10-24.zip
+""/home/marcosrdac/.local/share/Trash/000_out.jpg
 
 # Directory stack (oldest to newest):
 
@@ -2550,181 +2544,11 @@ t/home/marcosrdac/.local/share/Trash/000_out.jpg
 	/home/marcosrdac/wallpapers/favorites/out.jpg
 t/home/marcosrdac/.local/share/Trash/000_dotfiles
 	/home/marcosrdac/dotfiles
-t/home/marcosrdac/.local/share/Trash/000_awe
-	/home/marcosrdac/awe
-t/home/marcosrdac/.local/share/Trash/000_not_oil.png
-	/home/marcosrdac/not_oil.png
-t/home/marcosrdac/.local/share/Trash/000_oil_1.xcf
-	/home/marcosrdac/oil_1.xcf
-t/home/marcosrdac/.local/share/Trash/000_possibly_oil.png
-	/home/marcosrdac/possibly_oil.png
-t/home/marcosrdac/.local/share/Trash/000_possibly_oil.xcf
-	/home/marcosrdac/possibly_oil.xcf
-t/home/marcosrdac/.local/share/Trash/000_500.days.of.summer.(2009).pob.1cd.(3606006)(1).zip
-	/home/marcosrdac/tmp/500.days.of.summer.(2009).pob.1cd.(3606006)(1).zip
-t/home/marcosrdac/.local/share/Trash/000_2001.a.space.odyssey.(3529950).nfo
-	/home/marcosrdac/tmp/torrents/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous/2001.a.space.odyssey.(3529950).nfo
-t/home/marcosrdac/.local/share/Trash/000_2001_a_space_odyssey_(1968).zip
-	/home/marcosrdac/tmp/torrents/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous/2001_a_space_odyssey_(1968).zip
-t/home/marcosrdac/.local/share/Trash/000_0blindness.(2008).pob.1cd.(3407270).zip
-	/home/marcosrdac/tmp/torrents/0blindness.(2008).pob.1cd.(3407270).zip
-t/home/marcosrdac/.local/share/Trash/000_0interstellar.(2014).pob.1cd.(7842268).zip
-	/home/marcosrdac/tmp/torrents/0interstellar.(2014).pob.1cd.(7842268).zip
-t/home/marcosrdac/.local/share/Trash/000_0jackie.brown.(1997).pob.1cd.(7267232).zip
-	/home/marcosrdac/tmp/torrents/0jackie.brown.(1997).pob.1cd.(7267232).zip
-t/home/marcosrdac/.local/share/Trash/000_0kill.bill.vol.1.(2003).pob.1cd.(7737508).zip
-	/home/marcosrdac/tmp/torrents/0kill.bill.vol.1.(2003).pob.1cd.(7737508).zip
-t/home/marcosrdac/.local/share/Trash/000_0kill.bill.vol.2.(2004).pob.1cd.(7737509).zip
-	/home/marcosrdac/tmp/torrents/0kill.bill.vol.2.(2004).pob.1cd.(7737509).zip
-t/home/marcosrdac/.local/share/Trash/000_0koe.no.katachi.(2016).pob.1cd.(7686651).zip
-	/home/marcosrdac/tmp/torrents/0koe.no.katachi.(2016).pob.1cd.(7686651).zip
-t/home/marcosrdac/.local/share/Trash/000_0lady.bird.(2017).pob.1cd.(7737518).zip
-	/home/marcosrdac/tmp/torrents/0lady.bird.(2017).pob.1cd.(7737518).zip
-t/home/marcosrdac/.local/share/Trash/000_0melancholia.(2011).pob.1cd.(7194249).zip
-	/home/marcosrdac/tmp/torrents/0melancholia.(2011).pob.1cd.(7194249).zip
-t/home/marcosrdac/.local/share/Trash/000_0moonlight.(2016).pob.1cd.(7509469).zip
-	/home/marcosrdac/tmp/torrents/0moonlight.(2016).pob.1cd.(7509469).zip
-t/home/marcosrdac/.local/share/Trash/000_0reservoir.dogs.(1992).pob.1cd.(4708090).zip
-	/home/marcosrdac/tmp/torrents/0reservoir.dogs.(1992).pob.1cd.(4708090).zip
-t/home/marcosrdac/.local/share/Trash/000_0scott.pilgrim.vs.the.world.(2010).pob.1cd.(3942529).zip
-	/home/marcosrdac/tmp/torrents/0scott.pilgrim.vs.the.world.(2010).pob.1cd.(3942529).zip
-t/home/marcosrdac/.local/share/Trash/000_0star.wars.episode.viii.the.last.jedi.(2017).pob.1cd.(7287861).zip
-	/home/marcosrdac/tmp/torrents/0star.wars.episode.viii.the.last.jedi.(2017).pob.1cd.(7287861).zip
-t/home/marcosrdac/.local/share/Trash/000_0synecdoche.new.york.(2008).pob.1cd.(5699660).zip
-	/home/marcosrdac/tmp/torrents/0synecdoche.new.york.(2008).pob.1cd.(5699660).zip
-t/home/marcosrdac/.local/share/Trash/000_0the.godfather.(1972).pob.1cd.(7429116).zip
-	/home/marcosrdac/tmp/torrents/0the.godfather.(1972).pob.1cd.(7429116).zip
-t/home/marcosrdac/.local/share/Trash/000_0vertigo.(1958).pob.1cd.(7824051).zip
-	/home/marcosrdac/tmp/torrents/0vertigo.(1958).pob.1cd.(7824051).zip
-t/home/marcosrdac/.local/share/Trash/000_500.days.of.summer.(3606006).nfo
-	/home/marcosrdac/tmp/torrents/500.days.of.summer.(3606006).nfo
-t/home/marcosrdac/.local/share/Trash/000_blindness.(3407270).nfo
-	/home/marcosrdac/tmp/torrents/blindness.(3407270).nfo
-t/home/marcosrdac/.local/share/Trash/000_interstellar.(7842268).nfo
-	/home/marcosrdac/tmp/torrents/interstellar.(7842268).nfo
-t/home/marcosrdac/.local/share/Trash/000_jackie.brown.(7267232).nfo
-	/home/marcosrdac/tmp/torrents/jackie.brown.(7267232).nfo
-t/home/marcosrdac/.local/share/Trash/000_kill.bill.vol.1.(7737508).nfo
-	/home/marcosrdac/tmp/torrents/kill.bill.vol.1.(7737508).nfo
-t/home/marcosrdac/.local/share/Trash/000_kill.bill.vol.2.(7737509).nfo
-	/home/marcosrdac/tmp/torrents/kill.bill.vol.2.(7737509).nfo
-t/home/marcosrdac/.local/share/Trash/000_koe.no.katachi.(7686651).nfo
-	/home/marcosrdac/tmp/torrents/koe.no.katachi.(7686651).nfo
-t/home/marcosrdac/.local/share/Trash/000_lady.bird.(7737518).nfo
-	/home/marcosrdac/tmp/torrents/lady.bird.(7737518).nfo
-t/home/marcosrdac/.local/share/Trash/000_melancholia.(7194249).nfo
-	/home/marcosrdac/tmp/torrents/melancholia.(7194249).nfo
-t/home/marcosrdac/.local/share/Trash/000_moonlight.(7509469).nfo
-	/home/marcosrdac/tmp/torrents/moonlight.(7509469).nfo
-t/home/marcosrdac/.local/share/Trash/000_reservoir.dogs.(4708090).nfo
-	/home/marcosrdac/tmp/torrents/reservoir.dogs.(4708090).nfo
-t/home/marcosrdac/.local/share/Trash/000_scott.pilgrim.vs.the.world.(3942529).nfo
-	/home/marcosrdac/tmp/torrents/scott.pilgrim.vs.the.world.(3942529).nfo
-t/home/marcosrdac/.local/share/Trash/000_star.wars.episode.viii.the.last.(7287861).nfo
-	/home/marcosrdac/tmp/torrents/star.wars.episode.viii.the.last.(7287861).nfo
-t/home/marcosrdac/.local/share/Trash/000_synecdoche.new.york.(5699660).nfo
-	/home/marcosrdac/tmp/torrents/synecdoche.new.york.(5699660).nfo
-t/home/marcosrdac/.local/share/Trash/000_the.godfather.(7429116).nfo
-	/home/marcosrdac/tmp/torrents/the.godfather.(7429116).nfo
-t/home/marcosrdac/.local/share/Trash/000_vertigo.(7824051).nfo
-	/home/marcosrdac/tmp/torrents/vertigo.(7824051).nfo
-t/home/marcosrdac/.local/share/Trash/000_500.days.of.summer.(2009).pob.1cd.(3606006).zip
-	/home/marcosrdac/tmp/torrents/500.days.of.summer.(2009).pob.1cd.(3606006).zip
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_dan.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_dan.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_dut.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_dut.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_eng.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_eng.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_fin.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_fin.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_fre.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_fre.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_ger.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_ger.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_ita.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_ita.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_nor.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_nor.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_spa.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_spa.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_swe.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_swe.srt
-t/home/marcosrdac/.local/share/Trash/000_Blade Runner 2049.HDRip.XviD.AC3-EVO.nfo
-	/home/marcosrdac/tmp/torrents/blade_runner_2049_(2017)/Blade Runner 2049.HDRip.XviD.AC3-EVO.nfo
-t/home/marcosrdac/.local/share/Trash/000_sample.avi
-	/home/marcosrdac/tmp/torrents/blade_runner_2049_(2017)/sample.avi
-t/home/marcosrdac/.local/share/Trash/000_Subtitles
-	/home/marcosrdac/tmp/torrents/blade_runner_2049_(2017)/Subtitles
-t/home/marcosrdac/.local/share/Trash/000_WWW.YTS.RE.jpg
-	/home/marcosrdac/tmp/torrents/interstellar_(2014)/WWW.YTS.RE.jpg
-t/home/marcosrdac/.local/share/Trash/000_Torrent downloaded from Demonoid.com - Copy.txt
-	/home/marcosrdac/tmp/torrents/jackie_brown_(1997)/Torrent downloaded from Demonoid.com - Copy.txt
-t/home/marcosrdac/.local/share/Trash/000_AhaShare.com.txt
-	/home/marcosrdac/tmp/torrents/jackie_brown_(1997)/AhaShare.com.txt
-t/home/marcosrdac/.local/share/Trash/000_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/kill_bill_vol_1_(2003)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/001_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/kill_bill_vol_2_(2004)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/000_Downloaded from www.ETTV.tv .txt
-	/home/marcosrdac/tmp/torrents/lady_bird_(2017)/Downloaded from www.ETTV.tv .txt
-t/home/marcosrdac/.local/share/Trash/001_sample.avi
-	/home/marcosrdac/tmp/torrents/lady_bird_(2017)/sample.avi
-t/home/marcosrdac/.local/share/Trash/000_Other
-	/home/marcosrdac/tmp/torrents/melancholia_(2011)/Other
-t/home/marcosrdac/.local/share/Trash/000_Moonlight.2016.DVDScr.XVID.AC3.HQ.Hive-CM8.nfo
-	/home/marcosrdac/tmp/torrents/moonlight_(2016)/Moonlight.2016.DVDScr.XVID.AC3.HQ.Hive-CM8.nfo
-t/home/marcosrdac/.local/share/Trash/000_Torrent Downloaded From ExtraTorrent.cc.txt
-	/home/marcosrdac/tmp/torrents/moonlight_(2016)/Torrent Downloaded From ExtraTorrent.cc.txt
-t/home/marcosrdac/.local/share/Trash/002_sample.avi
-	/home/marcosrdac/tmp/torrents/moonlight_(2016)/sample.avi
-t/home/marcosrdac/.local/share/Trash/000_#IMPORTANTE, LEIA....txt
-	/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)/#IMPORTANTE, LEIA....txt
-t/home/marcosrdac/.local/share/Trash/000_capa.jpg
-	/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)/capa.jpg
-t/home/marcosrdac/.local/share/Trash/000_www.wolverdon.com.jpg
-	/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)/www.wolverdon.com.jpg
-t/home/marcosrdac/.local/share/Trash/002_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/reservoir_dogs_(1992)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/003_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/scott_pilgrim_vs_the_world_(2010)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/000_www.YTS.AM.jpg
-	/home/marcosrdac/tmp/torrents/star_wars_the_last_jedi_(2017)/www.YTS.AM.jpg
-t/home/marcosrdac/.local/share/Trash/000_RARBG.com.txt
-	/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)/RARBG.com.txt
-t/home/marcosrdac/.local/share/Trash/000_RARBG.com.mp4
-	/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)/RARBG.com.mp4
-t/home/marcosrdac/.local/share/Trash/000_synecdoche_new_york_(2008).nfo
-	/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)/synecdoche_new_york_(2008).nfo
-t/home/marcosrdac/.local/share/Trash/004_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/the_godfather_(1972)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/005_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/vertigo_(1958)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/000_blade_runner_2049_(2017)_
-	/home/marcosrdac/movies/blade_runner_2049_(2017)_
-t/home/marcosrdac/.local/share/Trash/000_coraline_e_o_mundo_secreto_(2009)
-	/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
-t/home/marcosrdac/.local/share/Trash/000_git
-	/home/marcosrdac/git
-t/home/marcosrdac/.local/share/Trash/000_MUNICIPIOS
-	/run/media/marcosrdac/30B0-F08D/MUNICIPIOS
-t/home/marcosrdac/.local/share/Trash/000_Visual Studio italics-as-bold
-	/media/Kindle/fonts/Envy Code R PR7/Visual Studio italics-as-bold
-t/home/marcosrdac/.local/share/Trash/000_android
-	/home/marcosrdac/projects/linux_learning/android
-t/home/marcosrdac/.local/share/Trash/000_VideoDecodeStats
-	/home/marcosrdac/VideoDecodeStats
-t/home/marcosrdac/.local/share/Trash/000_marcos_conceicao_cv_20192.pdf
-	/home/marcosrdac/documents/personal/curriculums/marcos_conceicao_cv_20192.pdf
-t/home/marcosrdac/.local/share/Trash/000_curriculum_vitae.pdf
-	/home/marcosrdac/documents/personal/curriculums/curriculum_vitae.pdf
-t/home/marcosrdac/.local/share/Trash/000_OneDrive-2019-10-24.zip
-	/home/marcosrdac/projects/oil_spot_determination/images/OneDrive-2019-10-24.zip
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

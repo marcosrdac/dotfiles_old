@@ -1,11 +1,57 @@
 #!/usr/bin/env sh
 
+# modified from Luke Smith's
+# Gives a dmenu prompt to mount unmounted drives.
+
 pgrep -x dmenu && exit
 
-drives="$(lsblk -nrpo "name,size,rm,fstype,mountpoint" | awk '$3=="1" && $4!="" && $5=="" {printf "%s (%s)\n", $1,$2}')"
-[ -z "$drives" ] && exit 1
+getmount() { \
+	[ -z "$chosen" ] && exit 1
+	mp="$(find $1 2>/dev/null | menu -p "type in mount point")"
+	[ "$mp" = "" ] && exit 1
 
-chosen="$(echo "$drives" | menu -p "mount drive:" | awk '{print $1}')"
-[ -z "$chosen" ] && exit 1
+	if [ ! -d "$mp" ]
+    then
+		mkdiryn=$(printf "no\\nyes" | menu -p "$mp does not exist. Create it?")
+	    [ "$mkdiryn" = "yes" ] && (mkdir -p "$mp" || sudo -A mkdir -p "$mp")
+	fi
+}
 
-udevil mount "$chosen" && pgrep -x dunst && notify-send "$chosen mounted."
+mount_usb() { \
+    chosen="$(echo "$usb_drives" | menu -p "mount drive:" | awk '{print $1}')"
+    [ -z "$chosen" ] && exit 1
+
+    udevil mount "$chosen" && pgrep -x dunst && notify-send "$chosen mounted."
+}
+
+mount_android() { \
+	chosen=$(echo "$android_drives" | menu -i -p "Which Android device?" | cut -d : -f 1)
+	getmount "$HOME/ -maxdepth 2 -type d"
+	simple-mtpfs --device "$chosen" "$mp" && notify-send "Android device mounted to $mp." || notify-send "Device not mounted" "Have you allowed the Android to be used as a storage device?"
+}
+
+ask_type() { \
+	case $(printf "USB\\nAndroid" | menu -p "Mount a USB drive or Android device?") in
+		USB) mount_usb ;;
+		Android) mount_android ;;
+	esac
+}
+
+android_drives=$(simple-mtpfs -l 2>/dev/null)
+usb_drives="$(lsblk -nrpo "name,size,rm,fstype,mountpoint" | awk '$3=="1" && $4!="" && $5=="" {printf "%s (%s)\n", $1,$2}')"
+
+if [ -z "$usb_drives" ]
+then
+	[ -z "$android_drives" ] && echo "No USB drive or Android device detected" && exit
+	echo "Android device(s) detected."
+	mount_android
+else
+	if [ -z "$android_drives" ]
+    then
+		echo "USB drive(s) detected."
+	       	mount_usb
+	else
+		echo "Mountable USB drive(s) and Android device(s) detected."
+		ask_type
+	fi
+fi

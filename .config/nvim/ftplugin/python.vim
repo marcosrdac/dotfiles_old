@@ -2,7 +2,12 @@
 nnoremap <silent> <F5> :!python3 %<CR>
 
 " Breaking lines with more colums than 79
-set textwidth=79
+"set textwidth=79
+
+" increasing readability
+"set textwidth=80
+"set colorcolumn=+1
+au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
 " Insert spaces when hitting tabs
 set expandtab

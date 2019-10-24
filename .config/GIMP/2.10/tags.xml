@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-image" checksum="e85c88e8b77ff25173ffa9e3546d9599">
+  <resource identifier="gimp-brush-clipboard-image" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-mask" checksum="92069df756a50015ad8bc1bb81c96d7e">
+  <resource identifier="gimp-brush-clipboard-mask" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -773,7 +773,7 @@
   <resource identifier="${mypaint_brushes_dir}/ramon/wet_round.myb" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="gimp-pattern-clipboard-image" checksum="b5cfa9d6c8febd618f91ac2843d50a1c">
+  <resource identifier="gimp-pattern-clipboard-image" checksum="eff9598f9f61c1dc78d842f1798c2ab8">
   </resource>
 
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">
@@ -1178,7 +1178,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="d32babebdd348d763f8cdb25b97ecefe">
+  <resource identifier="gimp-palette-color-history" checksum="708047ab7bbb7afb5dd510e106515408">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/[dog_boy_rosed_eyes_sunset]-(imported)-3.gpl" checksum="e097a9d1eb0b4fb14e8f4d26fb16fb25">
@@ -1398,6 +1398,75 @@
   </resource>
 
   <resource identifier="Andale Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Asana Math" checksum="(null)">
   </resource>
 
   <resource identifier="AurulentSansMono Nerd Font" checksum="(null)">
@@ -2066,6 +2135,78 @@
   <resource identifier="Inconsolata NF Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
   <resource identifier="Liberation Mono for Powerline" checksum="(null)">
   </resource>
 
@@ -2076,6 +2217,72 @@
   </resource>
 
   <resource identifier="Liberation Mono for Powerline Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_AMS" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Caligraphic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Caligraphic Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Fraktur" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Fraktur Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Main" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Main Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Main Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Math Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Math Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_SansSerif" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_SansSerif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_SansSerif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Script" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Size1" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Size2" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Size3" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Size4" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Typewriter" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Vector-Bold Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Vector Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Misery Loves Company" checksum="(null)">
@@ -2508,6 +2715,57 @@
   </resource>
 
   <resource identifier="Myriad Pro Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Neo Euler Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Nimbus Mono PS" checksum="(null)">
@@ -3017,6 +3275,171 @@
   <resource identifier="Standard Symbols PS" checksum="(null)">
   </resource>
 
+  <resource identifier="STIX MathJax Alphabets" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Alphabets Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Alphabets Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Alphabets Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Arrows" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Arrows Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax DoubleStruck" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax DoubleStruck Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax DoubleStruck Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax DoubleStruck Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Fraktur" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Fraktur Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Latin" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Latin Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Latin Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Latin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Main" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Main Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Main Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Main Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Marks" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Marks Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Marks Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Marks Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Misc" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Misc Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Misc Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Misc Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Monospace" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Normal, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Normal, Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Normal, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Operators" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Operators Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax SansSerif" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax SansSerif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax SansSerif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax SansSerif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Script" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Script Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Script Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Shapes" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Shapes Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Shapes Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Size1" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Size2" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Size3" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Size4" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Size5" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Symbols" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Symbols Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Variants" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Variants Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Variants Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="STIX MathJax Variants Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Tale of Hawks" checksum="(null)">
   </resource>
 
@@ -3024,6 +3447,144 @@
   </resource>
 
   <resource identifier="Terminus Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
   </resource>
 
   <resource identifier="Ubuntu" checksum="(null)">

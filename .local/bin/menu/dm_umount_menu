@@ -1,9 +1,42 @@
 #!/usr/bin/env sh
 
-drives="$(lsblk -nrpo "name,size,rm,fstype,mountpoint" | awk '$3=="1" && $5!="" {printf "%s (%s)\n", $1,$2}')"
-[ -z "$drives" ] && exit
+# Modified from Luke Smith's.
 
-chosen=$(echo "$drives" | menu -p "unmount drive:" | awk '{print $1}')
-[ -z "$chosen" ] && exit
+unmount_usb() {
+    chosen=$(echo "$usb_drives" | menu -p "unmount drive:" | awk '{print $1}')
+    [ -z "$chosen" ] && exit
 
-udevil umount "$chosen" && pgrep -x dunst && notify-send "$chosen unmounted."
+    udevil umount "$chosen" && pgrep -x dunst && notify-send "$chosen unmounted."
+	}
+
+unmount_android() { \
+	chosen=$(awk '/simple-mtpfs/ {print $2}' /etc/mtab | menu -p "device to unmount:")
+	[ -z "$chosen" ] && exit
+
+    fusermount -u "$chosen" && notify-send "$chosen unmounted."
+	}
+
+asktype() { \
+	case "$(printf "USB\\nAndroid" | menu -p "Unmount a USB drive or Android device?")" in
+		USB) unmount_usb ;;
+		Android) unmount_android ;;
+	esac
+	}
+
+usb_drives="$(lsblk -nrpo "name,size,rm,fstype,mountpoint" | awk '$3=="1" && $5!="" {printf "%s (%s)\n", $1,$2}')"
+
+if ! grep simple-mtpfs /etc/mtab
+then
+	[ -z "$usb_drives" ] && echo "No drives to unmount." &&  exit
+	echo "Unmountable USB drive detected."
+	unmount_usb
+else
+	if [ -z "$usb_drives" ]
+	then
+		echo "Unmountable Android device detected."
+	       	unmount_android
+	else
+		echo "Unmountable USB drive(s) and Android device(s) detected."
+		asktype
+	fi
+fi

@@ -1,5 +1,37 @@
 # settings
 
+(GimpGegl-gegl-median-blur-config "2019-10-24 17:41:44"
+    (time 1571949704)
+    (neighborhood circle)
+    (radius 3)
+    (percentile 50.000000)
+    (alpha-percentile 50.000000)
+    (abyss-policy clamp)
+    (high-precision no))
+(GimpGegl-gegl-median-blur-config "2019-10-23 21:33:13"
+    (time 1571877193)
+    (neighborhood circle)
+    (radius 2)
+    (percentile 38.300000)
+    (alpha-percentile 50.000000)
+    (abyss-policy clamp)
+    (high-precision no))
+(GimpGegl-gegl-median-blur-config "2019-10-23 21:31:39"
+    (time 1571877099)
+    (neighborhood circle)
+    (radius 3)
+    (percentile 80.200000)
+    (alpha-percentile 50.000000)
+    (abyss-policy clamp)
+    (high-precision no))
+(GimpGegl-gegl-median-blur-config "2019-10-23 09:29:49"
+    (time 1571833789)
+    (neighborhood circle)
+    (radius 2)
+    (percentile 17.540000)
+    (alpha-percentile 50.000000)
+    (abyss-policy clamp)
+    (high-precision no))
 (GimpGegl-gegl-median-blur-config "2019-10-07 20:46:24"
     (time 1570491984)
     (neighborhood circle)
@@ -21,14 +53,6 @@
     (neighborhood circle)
     (radius 1)
     (percentile 100.000000)
-    (alpha-percentile 50.000000)
-    (abyss-policy clamp)
-    (high-precision no))
-(GimpGegl-gegl-median-blur-config "2019-09-26 21:43:03"
-    (time 1569544983)
-    (neighborhood circle)
-    (radius 3)
-    (percentile 50.000000)
     (alpha-percentile 50.000000)
     (abyss-policy clamp)
     (high-precision no))
@@ -54,14 +78,6 @@
     (radius 2)
     (percentile 50.000000)
     (alpha-percentile 0.000000)
-    (abyss-policy clamp)
-    (high-precision no))
-(GimpGegl-gegl-median-blur-config "2018-11-06 16:26:30"
-    (time 1541528790)
-    (neighborhood circle)
-    (radius 4)
-    (percentile 50.000000)
-    (alpha-percentile 50.000000)
     (abyss-policy clamp)
     (high-precision no))
 

@@ -1,5 +1,20 @@
 # settings
 
+(GimpGegl-gimp-threshold-config "2019-10-23 21:31:06"
+    (time 1571877066)
+    (channel value)
+    (low 0.301961)
+    (high 1.000000))
+(GimpGegl-gimp-threshold-config "2019-10-23 21:28:40"
+    (time 1571876920)
+    (channel value)
+    (low 0.035294)
+    (high 1.000000))
+(GimpGegl-gimp-threshold-config "2019-10-22 19:49:41"
+    (time 1571784581)
+    (channel value)
+    (low 0.364706)
+    (high 1.000000))
 (GimpGegl-gimp-threshold-config "2019-10-07 20:45:15"
     (time 1570491915)
     (channel value)
@@ -34,21 +49,6 @@
     (time 1569546894)
     (channel value)
     (low 0.874510)
-    (high 1.000000))
-(GimpGegl-gimp-threshold-config "2019-09-26 22:11:36"
-    (time 1569546696)
-    (channel value)
-    (low 0.686275)
-    (high 1.000000))
-(GimpGegl-gimp-threshold-config "2019-09-19 22:47:27"
-    (time 1568944047)
-    (channel value)
-    (low 0.498039)
-    (high 1.000000))
-(GimpGegl-gimp-threshold-config "2019-09-19 22:34:19"
-    (time 1568943259)
-    (channel value)
-    (low 0.376471)
     (high 1.000000))
 
 # end of settings

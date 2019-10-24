@@ -1,0 +1,8 @@
+# settings
+
+(GimpGegl-gegl-gegl-config "2019-10-22 20:05:11"
+    (time 1571785511)
+    (string "gaussian-blur std-dev-x=0.3rel std-dev-y=0.3rel")
+    (error ""))
+
+# end of settings

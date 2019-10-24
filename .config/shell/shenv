@@ -14,6 +14,7 @@ export MAIL="$HOME/.local/share/mail/main"  # mutt
 export READER="zathura"
 
 # Program-specific
+export CALIBRE_USE_SYSTEM_THEME=1
 
 # my preferences
 export AURMANAGER="yay"
