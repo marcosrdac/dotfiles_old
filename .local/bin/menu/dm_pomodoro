@@ -3,7 +3,7 @@
 alarm_file=alarm_end
 
 # calls dmenu for user to set the alarm
-choices="pomodoro\nbreak\nhard break"
+choices="pomodoro\nbreak\nhard break\nasoidjas"
 chosen=$(echo -e "$choices" | menu -p 'set alarm:')
 
 # choices meaning

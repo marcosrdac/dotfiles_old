@@ -1,6 +1,6 @@
 # GIMP gimp-align-tool options
 
 (align-reference image)
-(offset-x 180.000000)
+(offset-x 180)
 
 # end of gimp-align-tool options

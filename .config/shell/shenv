@@ -13,6 +13,8 @@ export TRUEBROWSER="qutebrowser"
 export MAIL="$HOME/.local/share/mail/main"  # mutt
 export READER="zathura"
 
+export INIT=$HOME/.config/nvim/init.vim
+
 # Program-specific
 export CALIBRE_USE_SYSTEM_THEME=1
 

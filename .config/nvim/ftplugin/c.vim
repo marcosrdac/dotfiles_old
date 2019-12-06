@@ -1,3 +1,9 @@
+" compile code
+nnoremap <silent> <F5> :!g++ %<CR>
+
+" run code
+nnoremap <silent> <F6> :!./a.out<CR>
+
 " Insert spaces when hitting tabs
 set expandtab
 

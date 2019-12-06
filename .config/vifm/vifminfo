@@ -42,9 +42,9 @@
 	main
 1569857121
 'a
-	/home/marcosrdac
-	audios
-1561254757
+	/home/marcosrdac/audios
+	..
+1575125491
 'b
 	/home/marcosrdac/.local/bin
 	menu
@@ -107,8 +107,8 @@
 1569587862
 'u
 	/home/marcosrdac/tmp/ufba
-	inversao
-1561254965
+	metodos_eletromagneticos
+1573043270
 'w
 	/home/marcosrdac/downloads
 	..
@@ -125,7 +125,7 @@ b/home/marcosrdac/wallpapers/
 
 # TUI:
 al
-q0
+q1
 v1
 ov
 m-1
@@ -133,351 +133,489 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/tmp/torrents
-	moonlight_(2016)
-15
-d/home/marcosrdac/tmp/torrents/moonlight_(2016)
-	..
-0
-d/home/marcosrdac/tmp/torrents
-	moonlight_(2016)
-15
-d/home/marcosrdac/tmp/torrents/moonlight_(2016)
-	moonlight_(2016).srt
-2
-d/home/marcosrdac/tmp/torrents
-	nymphomaniac_(2013)
-16
-d/home/marcosrdac/tmp/torrents/nymphomaniac_(2013)
-	Nymphomaniac Directors Cut Vol 1 2013 - 720P ITA-ENG.mkv
-1
-d/home/marcosrdac/tmp/torrents
-	o_homem_duplo_(2006)
-17
-d/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)
-	..
-0
-d/home/marcosrdac/tmp/torrents
-	o_homem_duplo_(2006)
-17
-d/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)
-	O Homem Duplo [2006]-BluRay 720p Dual √Åudio.mkv
-1
-d/home/marcosrdac/tmp/torrents
-	o_homem_duplo_(2006)
-17
-d/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)
-	O Homem Duplo [2006]-BluRay 720p Dual √Åudio.mkv
-1
-d/home/marcosrdac/tmp/torrents
-	reservoir_dogs_(1992)
-18
-d/home/marcosrdac/tmp/torrents/reservoir_dogs_(1992)
-	Reservoir Dogs.1992.BluRay.1080p.x264.YIFY_.srt
-3
-d/home/marcosrdac/tmp/torrents
-	reservoir_dogs_(1992)
-18
-d/home/marcosrdac/tmp/torrents/reservoir_dogs_(1992)
-	reservoir_dogs_(1992).mp4
-1
-d/home/marcosrdac/tmp/torrents
-	reservoir_dogs_(1992)
-18
-d/home/marcosrdac/tmp/torrents/reservoir_dogs_(1992)
-	reservoir_dogs_(1992).mp4
-1
-d/home/marcosrdac/tmp/torrents
-	scott_pilgrim_vs_the_world_(2010)
-19
-d/home/marcosrdac/tmp/torrents/scott_pilgrim_vs_the_world_(2010)
-	Scott.Pilgrim.Vs.The.World.2010.BRRip.720p.x264.ACC.honchorella.(Kingdom.Release).srt
-1
-d/home/marcosrdac/tmp/torrents
-	scott_pilgrim_vs_the_world_(2010)
-19
-d/home/marcosrdac/tmp/torrents/scott_pilgrim_vs_the_world_(2010)
-	scott_pilgrim_vs_the_world_(2010).srt
-2
-d/home/marcosrdac/tmp/torrents
-	star_wars_the_last_jedi_(2017)
-20
-d/home/marcosrdac/tmp/torrents/star_wars_the_last_jedi_(2017)
-	..
-0
-d/home/marcosrdac/tmp/torrents
-	star_wars_the_last_jedi_(2017)
-20
-d/home/marcosrdac/tmp/torrents/star_wars_the_last_jedi_(2017)
-	star_wars_the_last_jedi_(2017).srt
-2
-d/home/marcosrdac/tmp/torrents
-	synecdoche_new_york_(2008)
-21
-d/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)
-	Synecdoche.New_.York_.2008.720p.BrRip_.x264.YIFY_.srt
-3
-d/home/marcosrdac/tmp/torrents
-	synecdoche_new_york_(2008)
-21
-d/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)
-	synecdoche_new_york_(2008).mp4
-1
-d/home/marcosrdac/tmp/torrents
-	the_godfather_(1972)
-22
-d/home/marcosrdac/tmp/torrents/the_godfather_(1972)
-	The.Godfather.1972.1080p.BrRip.x264.BOKUTOX.YIFY.mp4
-1
-d/home/marcosrdac/tmp/torrents
-	the_godfather_(1972)
-22
-d/home/marcosrdac/tmp/torrents/the_godfather_(1972)
-	the_godfather_(1972)_en.srt
-3
-d/home/marcosrdac/tmp/torrents
-	vertigo_(1958)
-23
-d/home/marcosrdac/tmp/torrents/vertigo_(1958)
-	Um.Corpo.Que.Cai.1958.1080p.BluRay.FORCED.srt
-1
-d/home/marcosrdac/tmp/torrents
-	vertigo_(1958)
-23
-d/home/marcosrdac/tmp/torrents/vertigo_(1958)
-	vertigo_(1958).mp4
-1
-d/home/marcosrdac/tmp/torrents
-	the_godfather_(1972)
-4
-d/home/marcosrdac
-	movies
-7
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.srt
-2
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)_
-5
-d/home/marcosrdac/movies/blade_runner_2049_(2017)_
-	..
-0
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)_
-5
-d/home/marcosrdac/movies/blade_runner_2049_(2017)_
-	blade_runner_2049_(2017).avi
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.srt
-2
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)_
-5
-d/home/marcosrdac/movies/blade_runner_2049_(2017)_
-	blade_runner_2049_(2017).avi
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)_
-5
-d/home/marcosrdac/movies/blade_runner_2049_(2017)_
-	blade_runner_2049_(2017).avi
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.srt
-2
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.srt
-2
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 20172.srt
-3
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017_en.srt
-3
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017_en.srt
-3
-d/home/marcosrdac/movies
-	whiplash_(2014)
-37
-d/home/marcosrdac
-	movies
-7
-d/home/marcosrdac/movies
-	500_days_of_Summer_(2009)
-1
-d/home/marcosrdac/movies/500_days_of_Summer_(2009)
-	500_days_of_Summer_(2009).mp4
-1
-d/home/marcosrdac/movies
-	2001_a.space_odyssey_(1968)
-2
-d/home/marcosrdac/movies/2001_a.space_odyssey_(1968)
-	2001_a_space_odyssey_(1968).mp4
-1
-d/home/marcosrdac/movies
-	adaptation_(2002)
-3
-d/home/marcosrdac/movies/adaptation_(2002)
-	adaptation_(2002).srt
-2
-d/home/marcosrdac/movies
-	adaptation_(2002)
-3
-d/home/marcosrdac/movies/adaptation_(2002)
-	adaptation_(2002).mkv
-1
-d/home/marcosrdac/movies
-	blade_runner_2049_(2017)
-4
-d/home/marcosrdac/movies/blade_runner_2049_(2017)
-	Blade Runner 2049 2017.mp4
-1
-d/home/marcosrdac/movies
-	blue_velvet_(1986)
-5
-d/home/marcosrdac/movies/blue_velvet_(1986)
-	blue_velvet_(1986).mp4
-1
-d/home/marcosrdac/movies
-	coraline_(2009)
-6
-d/home/marcosrdac/movies/coraline_(2009)
-	coraline_(2009).mkv
-1
-d/home/marcosrdac/movies
-	coraline_e_o_mundo_secreto_(2009)
-7
-d/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
-	Coraline e o Mundo Secreto [2009] - BluRay 1080p Dual √Åudio.mkv
-1
-d/home/marcosrdac/movies
-	coraline_(2009)
-6
-d/home/marcosrdac/movies/coraline_(2009)
-	coraline_(2009).mkv
-1
-d/home/marcosrdac/movies
-	coraline_(2009)
-6
-d/home/marcosrdac/movies/coraline_(2009)
-	coraline_(2009).mkv
-1
-d/home/marcosrdac/movies
-	eraserhead_(1977)
-7
-d/home/marcosrdac/movies/eraserhead_(1977)
-	..
-0
-d/home/marcosrdac/movies
-	eternal_sunshine_of_the_spotless_mind_(2004)
-8
-d/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)
-	eternal_sunshine_of_the_spotless_mind_(2004).mp4
-1
-d/home/marcosrdac/movies
-	get_out_(2017)
-9
-d/home/marcosrdac/movies/get_out_(2017)
-	get_out_(2017).mp4
-1
-d/home/marcosrdac/movies
-	inland_empire_(2006)
+d/home/marcosrdac/.config/vim
+	vimrc
 10
-d/home/marcosrdac/movies/inland_empire_(2006)
-	inland_empire_(2006).mp4
+d/home/marcosrdac/.config
+	nvim
+20
+d/home/marcosrdac/.config/nvim
+	init.vim
+6
+d/home/marcosrdac/tmp
+	04.Novos Pre√ßos Finais_Grupo B_Abril 2018_Res Homologat√≥ria 2.222.pdf
+0
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	..
+0
+d/home/marcosrdac/wallpapers
+	useful
+4
+d/home/marcosrdac/wallpapers/useful
+	000_wallhaven-770042.png
 1
-d/home/marcosrdac/movies
-	interstellar_(2014)
+d/home/marcosrdac/wallpapers
+	_studies
+1
+d/home/marcosrdac/wallpapers/_studies
+	colors.csv
+2
+d/home/marcosrdac/wallpapers
+	_studies
+1
+d/home/marcosrdac
+	wallpapers
+15
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	..
+0
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	GM_space.jpg
+1
+d/home/marcosrdac/wallpapers
+	twin_peaks
+3
+d/home/marcosrdac/wallpapers/twin_peaks
+	..
+0
+d/home/marcosrdac/wallpapers
+	twin_peaks
+3
+d/home/marcosrdac
+	books
+6
+d/home/marcosrdac/wallpapers
+	favorites
+2
+d/home/marcosrdac/wallpapers/favorites
+	astronaut_with_coloured_jellyfish_completion.jpg
+4
+d/home/marcosrdac/projects
+	student_chapter
+37
+d/home/marcosrdac/projects/student_chapter
+	semana_de_geofisica
+5
+d/home/marcosrdac/projects/student_chapter/semana_de_geofisica
+	2019
+2
+d/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019
+	crachas
+1
+d/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019/crachas
+	crachas_palestrante.png
+9
+d/home/marcosrdac/tmp
+	04.Novos Pre√ßos Finais_Grupo B_Abril 2018_Res Homologat√≥ria 2.222.pdf
+0
+d/home/marcosrdac/projects
+	student_chapter
+36
+d/home/marcosrdac/tmp
+	everaldo_atth_24102019 - Sheet1.pdf
+36
+d/home/marcosrdac/documents
+	info
+5
+d/home/marcosrdac/documents/info
+	whatsapp
+8
+d/home/marcosrdac/documents/info/whatsapp
+	sqpy.py
+5
+d/home/marcosrdac
+	books
+6
+d/media
+	RADAM
+2
+d/media/RADAM
+	X SGUFBA - ALUNOS
 11
-d/home/marcosrdac/movies/interstellar_(2014)
-	interstellar_(2014).mp4
-1
-d/home/marcosrdac/movies
+d/media
 	..
 0
 d/home/marcosrdac/projects
-	oil_spot_determination
-36
-d/home/marcosrdac/projects/oil_spot_determination
-	nordeste
-2
-d/home/marcosrdac/projects/oil_spot_determination/nordeste
+	gradiente
+0
+d/home/marcosrdac/projects/gradiente
+	X SGUFBA - ALUNOS
+1
+d/home/marcosrdac/projects/gradiente/X SGUFBA - ALUNOS
 	..
 0
-d/home/marcosrdac/projects/oil_spot_determination
-	images
-2
-d/home/marcosrdac/projects/oil_spot_determination/images
-	subset_S1A_IW_GRDH_1SDV_20191011T075425_20191011T075450_029408_03582A_988B_Intensity_VV_db 1.bmp
+d/home/marcosrdac/projects/gradiente
+	X SGUFBA - ALUNOS
 1
+d/home/marcosrdac/projects/gradiente/X SGUFBA - ALUNOS
+	..
+0
+d/home/marcosrdac/projects/gradiente
+	bib
+6
+d/home/marcosrdac/projects
+	gradiente
+0
+d/home/marcosrdac/projects/gradiente
+	estudo_de_caso.ipynb
+9
+d/media
+	sdc1-usb-Multiple_Card_Re
+1
+d/media/sdc1-usb-Multiple_Card_Re
+	congresso_ufba_2019_roda_com_ciencia.pdf
+19
+d/media
+	sdc-usb-Kingston_DataTra
+1
+d/media/sdc-usb-Kingston_DataTra
+	congresso_ufba_2019_roda_com_ciencia.pdf
+3
+d/media
+	..
+0
+d/home/marcosrdac/tmp
+	congresso_ufba_2019_roda_com_ciencia.pdf
+36
+d/home/marcosrdac/tmp/ufba
+	metodos_eletromagneticos
+5
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	exercicios
+2
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/exercicios
+	e07-dipolo-mag-camadas.pdf
+11
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	programa.md
+5
+d/home/marcosrdac/tmp
+	congresso_ufba_2019_roda_com_ciencia.pdf
+36
+d/home/marcosrdac
+	tmp
+14
+d/home/marcosrdac/tmp
+	congresso_ufba_2019_roda_com_ciencia.pdf
+36
+d/home/marcosrdac/tmp/ufba
+	metodos_eletromagneticos
+5
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	aulas
+1
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/aulas
+	..
+0
+d/home/marcosrdac
+	.local
+10
+d/home/marcosrdac/.local
+	..
+0
+d/home/marcosrdac
+	Desktop
+21
+d/home/marcosrdac/books
+	..
+0
+d/home/marcosrdac/tmp/ufba
+	calculo_numerico
+1
+d/home/marcosrdac/tmp/ufba/calculo_numerico
+	codes
+2
+d/home/marcosrdac/tmp/ufba/calculo_numerico/codes
+	1simpson_richardson.cpp
+1
+d/home/marcosrdac/tmp/ufba/calculo_numerico
+	codes
+2
+d/home/marcosrdac/tmp/ufba/calculo_numerico/codes
+	1simpson_richardson.cpp
+1
+d/home/marcosrdac/tmp/ufba/calculo_numerico
+	codes
+2
+d/home/marcosrdac/tmp/ufba/calculo_numerico/codes
+	jacobi_gauss-seidel.cpp
+4
+d/home/marcosrdac/tmp/ufba/calculo_numerico
+	Simulado02.pdf
+36
+d/home/marcosrdac/tmp/ufba
+	metodos_eletromagneticos
+5
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	pdf
+3
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/pdf
+	..
+0
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	aulas
+1
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/aulas
+	em14-csamt.pdf
+14
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	aulas
+1
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/aulas
+	em14-csamt.pdf
+14
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	exercicios
+2
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/exercicios
+	e07-dipolo-mag-camadas.pdf
+9
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	pdf
+3
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/pdf
+	..
+0
+d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	programa.md
+5
+d/home/marcosrdac/tmp/ufba
+	terra_solida
+12
+d/home/marcosrdac/tmp/ufba/terra_solida
+	Lista 5-FIS 138-2010.pdf
+21
+d/home/marcosrdac
+	.virtual_machines
+18
+d/home/marcosrdac/.virtual_machines
+	..
+0
+d/home/marcosrdac
+	.virtualenvs
+19
+d/home/marcosrdac/.virtualenvs
+	get_env_details
+2
+d/home/marcosrdac
+	.virtualenvs
+19
+d/home/marcosrdac/.virtualenvs
+	get_env_details
+1
+d/home/marcosrdac/.config
+	nvim
+20
+d/home/marcosrdac/.config/nvim
+	init.vim
+6
+d/home/marcosrdac
+	Dropbox
+22
+d/home/marcosrdac/.config
+	vim
+34
+d/home/marcosrdac/.config/vim
+	vimrc
+11
+d/home/marcosrdac/.config
+	nvim
+20
+d/home/marcosrdac/.config/nvim
+	init.vim
+6
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac
-	databases-incognito
+D/home/marcosrdac/projects
+	raposinha
+22
+D/home/marcosrdac/tmp/ufba
+	metodos_eletromagneticos
 5
-D/home/marcosrdac/databases-incognito
-	0
+D/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
+	aulas
 1
-D/home/marcosrdac/databases-incognito/0
-	..
-0
-D/home/marcosrdac/databases-incognito
-	0
+D/home/marcosrdac/tmp/ufba
+	calculo_numerico
 1
-D/home/marcosrdac
-	projects
-9
-D/home/marcosrdac/.local/share/Trash
-	..
-0
-D/home/marcosrdac/.local/share
-	Trash
-2
-D/home/marcosrdac/.local/share/Trash
-	..
-0
-D/home/marcosrdac/.local/share
-	Trash
-2
-D/home/marcosrdac
-	trash
+D/home/marcosrdac/tmp/ufba/calculo_numerico
+	MAT174_Aula09.pdf
+16
+D/home/marcosrdac/tmp/ufba
+	terra_solida
 12
-D/home/marcosrdac/trash
-	..
-0
-D/home/marcosrdac
-	wallpapers
-12
-D/home/marcosrdac/.local
-	share
+D/home/marcosrdac/tmp/ufba/terra_solida
+	Lista 1-FIS 138-2011.pdf
+15
+D/home/marcosrdac/tmp/ufba
+	calculo_numerico
+1
+D/home/marcosrdac/tmp/ufba/calculo_numerico
+	codes
+2
+D/home/marcosrdac/tmp/ufba/calculo_numerico/codes
+	lagrange.cpp
 3
-D/home/marcosrdac/.local/share
-	applications
+D/home/marcosrdac/tmp/ufba/calculo_numerico
+	Lista_de_Revisao
+1
+D/home/marcosrdac/tmp/ufba/calculo_numerico/Lista_de_Revisao
+	..
+0
+D/home/marcosrdac/tmp/ufba/calculo_numerico
+	Aula18.pdf
+20
+D/home/marcosrdac/.config/i3
+	config
+3
+D/home/marcosrdac/tmp
+	ExtratoMensalTD.xls
+14
+D/home/marcosrdac/.config
+	_tmux
+1
+D/home/marcosrdac/.config/_tmux
+	
+1
+D/home/marcosrdac/.config
+	tmux
+15
+D/home/marcosrdac/documents
+	info
+5
+D/home/marcosrdac/documents/info
+	..
+0
+D/home/marcosrdac/documents
+	todo
+14
+D/home/marcosrdac/documents/todo
+	play
 2
+D/home/marcosrdac/documents/todo/play
+	..
+0
+D/home/marcosrdac/documents/todo
+	play.md
+4
+D/home/marcosrdac/projects
+	latex_learning
+0
+D/home/marcosrdac/projects/latex_learning
+	templates
+4
+D/home/marcosrdac/projects/latex_learning/templates
+	minimal
+1
+D/home/marcosrdac/projects/latex_learning/templates/minimal
+	minimal.tex
+5
+D/home/marcosrdac/projects/latex_learning/templates
+	studying
+2
+D/home/marcosrdac/projects/latex_learning/templates/studying
+	studying.tex
+4
+D/home/marcosrdac/projects/latex_learning/templates
+	studying
+2
+D/home/marcosrdac/projects
+	latex_learning
+0
+D/home/marcosrdac/tmp/ufba
+	geoprocessamento_e_geoestatistica
+2
+D/home/marcosrdac/tmp/ufba/geoprocessamento_e_geoestatistica
+	report
+1
+D/home/marcosrdac/tmp/ufba/geoprocessamento_e_geoestatistica/report
+	report_gg.pdf
+3
+D/home/marcosrdac/.config/Xresources
+	main
+1
+D/home/marcosrdac/projects/nex
+	casinha
+2
+D/home/marcosrdac/projects/nex/casinha
+	casinha_bb.png
+1
+D/home/marcosrdac/projects/nex
+	relatorios
+12
+D/home/marcosrdac/projects/nex/relatorios
+	sonar
+1
+D/home/marcosrdac/projects/nex/relatorios/sonar
+	..
+0
+D/home/marcosrdac/projects/nex/relatorios
+	sonar
+1
+D/home/marcosrdac/projects/nex
+	fichas
+4
+D/home/marcosrdac/projects/nex/fichas
+	maque_auto.pdf
+9
+D/media
+	..
+0
+D/home/marcosrdac
+	audios
+5
+D/home/marcosrdac/audios
+	music
+1
+D/home/marcosrdac/audios/music
+	Beach House
+2
+D/home/marcosrdac/audios/music/Beach House
+	..
+0
+D/home/marcosrdac/audios/music
+	Boogarins ‚Äì Sombrou D√∫vida (2019)
+3
+D/home/marcosrdac/audios/music/Boogarins ‚Äì Sombrou D√∫vida (2019)
+	..
+0
+D/home/marcosrdac/audios/music
+	Boogarins ‚Äì Sombrou D√∫vida (2019)
+3
+D/home/marcosrdac/audios/music/Boogarins ‚Äì Sombrou D√∫vida (2019)
+	1 - As Chances.mp3
+1
+D/home/marcosrdac/.config
+	mpv
+4
+D/home/marcosrdac/.config/mpv
+	mpv_modify.conf
+3
+D/home/marcosrdac/.config
+	wpg
+27
+D/home/marcosrdac/.config/wpg
+	..
+0
+D/home/marcosrdac/wallpapers
+	favorites
+2
+D/home/marcosrdac/wallpapers/favorites
+	astronaut_with_coloured_jellyfish_completion.jpg
+4
+D/home/marcosrdac
+	audios
+5
 D/media
 	..
 0
@@ -488,270 +626,119 @@ D/mnt
 	hdd
 1
 D/mnt/hdd
-	Trash
-2
-D/home/marcosrdac
-	wallpapers
-12
-D/home/marcosrdac/.local
+	.local
+3
+D/mnt/hdd/.local
+	bin
+1
+D/mnt/hdd/.local/bin
+	..
+0
+D/mnt/hdd/.local
+	bin
+1
+D/mnt/hdd
+	.local
+3
+D/mnt/hdd/.local
 	share
 3
-D/home/marcosrdac/.local/share
-	Trash
+D/mnt/hdd/.local/share
+	..
+0
+D/mnt/hdd/.local
+	run
 2
-D/home/marcosrdac/wallpapers
-	favorites
+D/mnt/hdd/.local/run
+	..
+0
+D/mnt/hdd/.local
+	share
+3
+D/mnt/hdd/.local/share
+	gvfs-metadata
+12
+D/mnt/hdd/.local
+	share
+3
+D/mnt/hdd/.local/share
+	gvfs-metadata
+13
+D/mnt/hdd/.local
+	share
+3
+D/mnt/hdd
+	.local
+3
+D/mnt/hdd/.local
+	share
+3
+D/mnt/hdd
+	.Trash-1000
 1
-D/home/marcosrdac/wallpapers/favorites
-	nasa_20180329.jpg
-17
-D/home/marcosrdac/tmp
-	A-fast-SIFT-based-method-for-copy-move-fo_2018_Future-Computing-and-Informat.pdf
-23
-D/media
-	sdc1-usb-Multiple_Card_Re
+D/mnt/hdd/.Trash-1000
+	files
 1
-D/media/sdc1-usb-Multiple_Card_Re
-	lady_bird_(2017)
+D/mnt/hdd/.Trash-1000/files
+	Quick Start Guide (1)
+1
+D/mnt/hdd/.Trash-1000/files/Quick Start Guide (1)
+	cover.jpg
+2
+D/mnt/hdd/.Trash-1000/files
+	Quick Start Guide (1)
+1
+D/mnt/hdd/.Trash-1000
+	files
+1
+D/mnt/hdd
+	.vifm-Trash-0
+2
+D/mnt/hdd/.vifm-Trash-0
+	..
+0
+D/mnt/hdd
+	tmp
 9
-D/media
+D/mnt/hdd/tmp
 	..
 0
-D/home/marcosrdac/documents
-	info
-5
-D/home/marcosrdac/documents/info
-	bolsa_fisica
-2
-D/home/marcosrdac/documents/info/bolsa_fisica
-	..
-0
-D/home/marcosrdac/documents/info
-	bolsa_fisica
-2
-D/home/marcosrdac/documents/info/bolsa_fisica
-	fotos_snct
-1
-D/home/marcosrdac/documents/info/bolsa_fisica/fotos_snct
-	..
-0
-D/home/marcosrdac/documents/info/bolsa_fisica
-	fotos_snct
-1
-D/home/marcosrdac/documents/info
-	bolsa_oceano
-3
-D/home/marcosrdac/documents/info/bolsa_oceano
-	declaracao_do_bolsista_ou_voluntario.doc
-3
-D/home/marcosrdac/documents/info
-	bolsa_fisica
-2
-D/home/marcosrdac/documents/info/bolsa_fisica
-	rbef_1.md
-6
-D/home/marcosrdac/documents/info
-	bolsa_fisica
-2
-D/home/marcosrdac/documents/info/bolsa_fisica
-	resumo.md
+D/mnt/hdd
+	.vifm-Trash-1000
 8
-D/home/marcosrdac
-	VideoDecodeStats
-4
-D/home/marcosrdac/VideoDecodeStats
-	LOCK
-3
-D/home/marcosrdac
-	audios
-4
-D/home/marcosrdac/Dropbox/pictures
-	screenshots
-4
-D/home/marcosrdac/Dropbox/pictures/screenshots
+D/mnt/hdd/.vifm-Trash-1000
 	..
 0
-D/home/marcosrdac/Dropbox/pictures
-	screenshots
-4
-D/home/marcosrdac/Dropbox/pictures/screenshots
-	20191023082348_screenshot_1366x768.png
-36
-D/home/marcosrdac/.config/i3
-	config
-3
-D/home/marcosrdac/.config
-	shell
-26
-D/home/marcosrdac/.config/shell
-	shenv
-4
-D/home/marcosrdac/.local
-	share
-3
-D/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-25
-D/home/marcosrdac
-	audios
-4
-D/home/marcosrdac/tmp
-	20191023100617_screencast.mkv
-24
-D/home/marcosrdac/projects
-	student_chapter
-37
-D/home/marcosrdac/projects/student_chapter
-	semana_de_geofisica
-5
-D/home/marcosrdac/projects/student_chapter/semana_de_geofisica
-	2019
-2
-D/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019
-	crachas
-1
-D/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019/crachas
-	cracha vazio.png
-7
-D/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019
-	crachas
-1
-D/home/marcosrdac/documents
-	quotes
+D/mnt/hdd
+	tmp
+8
+D/home/marcosrdac/tmp/ufba
+	terra_solida
 12
-D/home/marcosrdac/documents/quotes
-	quotes
-1
-D/home/marcosrdac/documents
-	discussions
-2
-D/home/marcosrdac/documents/discussions
-	..
-0
-D/home/marcosrdac/documents
-	discussions
-2
-D/home/marcosrdac/documents/discussions
-	twin peaks
-1
-D/home/marcosrdac/documents
-	audios
-1
-D/home/marcosrdac/documents/audios
-	julianaZanoni
-1
-D/home/marcosrdac/documents
-	games
-4
-D/home/marcosrdac/documents/games
-	chess
-1
-D/home/marcosrdac/documents/games/chess
-	..
-0
-D/home/marcosrdac/documents/games
-	chess
-1
-D/home/marcosrdac/documents
-	info
-5
-D/home/marcosrdac/documents/info
-	situations
-7
-D/home/marcosrdac/documents/info/situations
-	..
-0
-D/home/marcosrdac/documents/info
-	situations
-7
-D/home/marcosrdac/documents
-	journal
-6
-D/home/marcosrdac/documents/journal
-	..
-0
-D/home/marcosrdac/documents
-	journal
-6
-D/home/marcosrdac/documents/journal
-	20181003 pondo metas.md
-28
-D/home/marcosrdac/documents
-	personal
-10
-D/home/marcosrdac/documents/personal
-	curriculums
+D/home/marcosrdac/tmp/ufba/terra_solida
+	0_trabalho.pdf
 3
-D/home/marcosrdac/documents/personal/curriculums
-	marcos_conceicao_cv_20192.pdf
-1
-D/home/marcosrdac/.offlineimap
-	..
-0
-D/home/marcosrdac/projects
-	python_learning
-24
-D/home/marcosrdac/projects/python_learning
-	oldDSStudies
-5
-D/home/marcosrdac/projects/python_learning/oldDSStudies
-	osNSys.py
-19
-D/home/marcosrdac/.config
-	vim
-32
-D/home/marcosrdac/.config/vim
-	vimrc
-10
-D/home/marcosrdac/documents
-	personal
-10
-D/home/marcosrdac/projects/nex
-	fichas
-4
-D/home/marcosrdac/projects/nex/fichas
-	maque_auto.pdf
+D/home/marcosrdac
+	audios
 9
-D/home/marcosrdac/projects
-	oil_spot_determination
-11
-D/home/marcosrdac/projects/oil_spot_determination
-	code
+D/home/marcosrdac/tmp/ufba
+	calculo_numerico
 1
-D/home/marcosrdac/projects/oil_spot_determination/code
+D/home/marcosrdac/tmp/ufba/calculo_numerico
+	Aula00.pdf
+3
+D/home/marcosrdac
+	mnt
+13
+D/home/marcosrdac/mnt
 	..
 0
-D/home/marcosrdac/.config
-	vim
-32
-D/home/marcosrdac/.config/vim
-	vimrc
-10
-D/home/marcosrdac/.config
-	nvim
-20
-D/home/marcosrdac/.config/nvim
-	init.vim
-6
-D/home/marcosrdac/tmp
-	Recent-Advances-in-Passive-Digital-Image-Security-Forensics--A_2018_Engineer.pdf
-36
+D/home/marcosrdac
+	.profile
+24
 D
 
 # Command line history (oldest to newest):
-:!unrar -e %
-:mkdir calculo_numerico
-:mkdir NVIDIA
-:mkdir dwm
-:mkdir bagum
-:mkdir apocalypse
-:!echo %c:p | xclip -i -selection "clipboard" -f | xclip -i -selection "primary" %i
-:unzi
-:!libreoffice %
-:mkdir dmenu
-:touch patching_files.md
-:touch pel
-:mkdir geoproc_georref
 :down
 :mkdir down
 :touch used_packages.md
@@ -771,7 +758,6 @@ D
 :h
 :play
 :!ffprobe TPS01E01.mkv
-:mkdir
 :stuff
 :touch stuff_with_username.md
 :touch .shrc
@@ -783,7 +769,6 @@ D
 :mkdir bash
 :mkdir Xresources
 :mk
-:sort 
 :enpty
 :mkdir palettes
 :mkdir logos
@@ -820,12 +805,9 @@ D
 :bmarks
 :mkdir studies
 :!unzip %
-:sort
 :mkdir useful backgrounds
 :mkdir gimp
-:empty
 :qj
-:touch 
 :touch reset_fav
 :git 
 :S
@@ -834,73 +816,31 @@ D
 :!git pull
 :!mpv vim\ qrec-2018-03-06_16.04.57
 :mkdir nordeste
-:q
 :wq
 :mkdir nymphomaniac_(2013(
-:mkdir 
 :mkdir images
+:mkdir gradiente
+:touch 
+:touch gradiente.py
+:mkdir congresso_ufba
+:t
+:mkdir
+:touch 0trabalho
+:touch lagrange.cpp
+:mkdir play
+:touch play
+:geo
+:mkdir 
+:mkdir report
+:sort
+:move
+:sort 
+:touch euler.cpp
+:touch richardson.cpp
+:empty
+:q
 
 # Search history (oldest to newest):
-/tras
-/fav
-/color
-/wpg
-/mkv
-/boo
-/kkkk
-/ser
-/astro
-/permiss
-/git
-/poten
-/py
-/rtp
-/READ
-/wave
-/cry
-/h
-/basic
-/mega
-/vide
-/g
-/mpv
-/cron
-/dme
-//
-/dm
-/pomo
-/npc
-/ncm
-/date
-/time
-/norder
-/one
-/norde
-/scre
-/perf
-/i3
-/packa
-/ou
-/mounta
-/out.
-/o
-/out
-/tes
-/mov
-/todo
-/new
-/ip
-/ssh
-/wifi
-/awe
-/torre
-/500
-/por
-/2001
-/0.*.zip
-/\.nfo
-/pdf
-/zip
 /A
 /verti
 /God
@@ -928,41 +868,81 @@ D
 /movi
 /inf
 /bolsa
-/congre
 /offl
 /sei
-/stude
 /per
 /pytho
 /merg
 /fichas
 /png
-/vim
-/nvim
 /2019.*zip
 /oil
+/minim
+/coel
+/pre
+/ju
+/wal
+/ast
+/stude
+/crono
+/evera
+/wha
+/pro
+/gradi
+/ll'M'tkjj
+/congress
+/congre
+/eletrom
+/ipt
+/sefas
+/dam
+/mai
+/rapos
+/whats
+/mail
+/on
+/pomo
+/jou
+/hosa
+/extra
+/jjj
+/deci
+/de
+/livro
+/decifr
+/Wil
+/Wilson
+/trab
+/TS
+/jaco
+/calc
+/revis
+/lista
+/tmux
+/info
+/todo
+/latex
+/geo
+/cas
+/boo
+/boogarins
+/chances
+/mpv
+/wpg
+/loca
+/poten
+/calcu
+/frica
+/fric
+/terra
+/lista 5
+/vir
+/:
+/nvi
+/vim
+/nvim
 
 # Prompt history (oldest to newest):
-pmimeapps.list
-ptorrent.desktop
-pmovies
-pdm_mount_menu_
-pDatei Tribute
-p.gitignore_
-pmsgs
-ptoggle_webcam_gaps
-pcoraline_e_o_mundo_secreto_(2009)
-pCoraline e o Mundo Secreto (2009)
-pcoraline_(2009)
-pBlue.Velvet.1986)
-pblue_velvet_(1986)
-peternal_sunshine_of_the_spotless_mind_(2004)_eng.srt
-pMulholland.Dr (2001)
-pThe Worlds End [2013] 1080p BluRay AAC x264-ETRG
-pmenu
-pconfig_
-pconfig__
-pconfig
 plink_dropbox.md
 pterra_solida_1
 plow_contrast_forest
@@ -1043,1691 +1023,45 @@ pcracha_vazio
 pcracha_
 pmarcos_conceicao_cv_20192.pdf
 pficha_maquete.png
+pPROXIMA_VEZ_densidade_px300
+pem01-fourier
+pem02-em-maxwell-intro-oplanas
+pem03-schelkunoff
+pem04-snell-fresnel
+pem05-ilimitados
+pem06-ondasplanas (1)
+pem06-ondasplanas
+p0_trabalho
+pMAT174_Aula08
+p_tmux
+pplay.md
+preport_gg
+p-_trabalho
+p0_trabalho.odt
+psimpson_richardson.cpp
+p1simpson_richardson.cpp
+plagrange_interrpol
+plagrange_interrpol.c
+plagrange_diff.cpp
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_OneDrive-2019-10-24.zip
+""/home/marcosrdac/.local/share/Trash/001_m
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-t/home/marcosrdac/.local/share/Trash/000_0wallhaven-757181.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/0wallhaven-757181.jpg
-t/home/marcosrdac/.local/share/Trash/000_20180329.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/20180329.jpg
-t/home/marcosrdac/.local/share/Trash/000_20180330.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/20180330.jpg
-t/home/marcosrdac/.local/share/Trash/000_aforestation-dirt-road.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/aforestation-dirt-road.jpg
-t/home/marcosrdac/.local/share/Trash/000_beach.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/beach.jpg
-t/home/marcosrdac/.local/share/Trash/000_beach2.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/beach2.jpg
-t/home/marcosrdac/.local/share/Trash/000_beach2.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/wallpapers/beach2.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_beach_pastel.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/beach_pastel.jpg
-t/home/marcosrdac/.local/share/Trash/000_beach_pastel_.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/beach_pastel_.jpg
-t/home/marcosrdac/.local/share/Trash/000_bedroom_wakeful_gc.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/bedroom_wakeful_gc.jpg
-t/home/marcosrdac/.local/share/Trash/000_bedroom_wakeful_modified_gc.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/bedroom_wakeful_modified_gc.jpg
-t/home/marcosrdac/.local/share/Trash/000_black-wallpaper-dark-galaxy-14676.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/black-wallpaper-dark-galaxy-14676.jpg
-t/home/marcosrdac/.local/share/Trash/000_bridge_pink_blue_peaceful_wakening_gc.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/bridge_pink_blue_peaceful_wakening_gc.jpg
-t/home/marcosrdac/.local/share/Trash/000_casual_coffee.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/casual_coffee.jpg
-t/home/marcosrdac/.local/share/Trash/000_cibernetic_relief_vaporwave.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/cibernetic_relief_vaporwave.jpg
-t/home/marcosrdac/.local/share/Trash/000_coffe.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/coffe.jpg
-t/home/marcosrdac/.local/share/Trash/000_dog_boy_rosed_eyes_sunset.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/dog_boy_rosed_eyes_sunset.jpg
-t/home/marcosrdac/.local/share/Trash/000_highway_coconut_trees_vaporwave.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/highway_coconut_trees_vaporwave.jpg
-t/home/marcosrdac/.local/share/Trash/000_highway_trees.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/highway_trees.jpg
-t/home/marcosrdac/.local/share/Trash/000_house_backyard.png
-	/home/marcosrdac/.config/wpg/wallpapers/house_backyard.png
-t/home/marcosrdac/.local/share/Trash/000_house_backyard_homey.png
-	/home/marcosrdac/.config/wpg/wallpapers/house_backyard_homey.png
-t/home/marcosrdac/.local/share/Trash/000_leaves_on_branch_dark_green_tea_calm.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/leaves_on_branch_dark_green_tea_calm.jpg
-t/home/marcosrdac/.local/share/Trash/000_lion.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/lion.jpg
-t/home/marcosrdac/.local/share/Trash/000_mountain_fog.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/mountain_fog.jpg
-t/home/marcosrdac/.local/share/Trash/000_mountains_cloudy.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/mountains_cloudy.jpg
-t/home/marcosrdac/.local/share/Trash/000_mountains_cloudy_landscape.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/mountains_cloudy_landscape.jpg
-t/home/marcosrdac/.local/share/Trash/000_pink_sunset_electric.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/pink_sunset_electric.jpg
-t/home/marcosrdac/.local/share/Trash/000_red_room.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/red_room.jpg
-t/home/marcosrdac/.local/share/Trash/000_sky_geez_jazz_it_gc.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/sky_geez_jazz_it_gc.jpg
-t/home/marcosrdac/.local/share/Trash/000_sunset3.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/sunset3.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-392rjy.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-392rjy.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-161858.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-161858.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-686572.png
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-686572.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-695354.png
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-695354.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-695431.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-695431.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-697777.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-697777.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-698246.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-698246.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-698247.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-698247.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-713786.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-713786.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-769763.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-769763.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dm6e.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-g8dm6e.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-j86myy.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-j86myy.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-j897lp.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-j897lp.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-kwdjvm.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-kwdjvm.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-kwlex1.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-kwlex1.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-lmdjpp.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-lmdjpp.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-lmdrxr.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-lmdrxr.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-mdyqv9.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-mdyqv9.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-mdyr31.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-mdyr31.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-n6kwpl.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-n6kwpl.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-nmk6zm.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-nmk6zm.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-nmwj7y.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-nmwj7y.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-oxje6l.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-oxje6l.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-oxjj1l.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-oxjj1l.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-p871k3.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-p871k3.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-p2533e.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-p2533e.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-q6m7e5.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-q6m7e5.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-q6o5z5.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-q6o5z5.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-q6ov1r.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-q6ov1r.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-r26wom.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-r26wom.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-vgev9l.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-vgev9l.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-yj1okk.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-yj1okk.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-ym9ggg.png
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-ym9ggg.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-ym9wkx.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-ym9wkx.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-zm9gvo.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-zm9gvo.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallpaper_tagger.ipynb
-	/home/marcosrdac/.config/wpg/wallpapers/wallpaper_tagger.ipynb
-t/home/marcosrdac/.local/share/Trash/000_0wallhaven-757181.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/0wallhaven-757181.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_60793_photo_manipulation_vaporwave.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/60793_photo_manipulation_vaporwave.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_430453main_crabmosaic_hst_big_full.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/430453main_crabmosaic_hst_big_full.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_862674.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/862674.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_20180329.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/20180329.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_20180330.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/20180330.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_TfIXk9l.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/TfIXk9l.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_Ubuntu-Mate-Radioactive-no-logo.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/Ubuntu-Mate-Radioactive-no-logo.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_X6h0EuY.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/X6h0EuY.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_aforestation-dirt-road.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/aforestation-dirt-road.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_astronomy-astrophotography-constellation-517884.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/astronomy-astrophotography-constellation-517884.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_astronomy-dark-nature-733475.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/astronomy-dark-nature-733475.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_beach.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/beach.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/001_beach2.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/beach2.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_beach2.jpg_wal_sample.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/beach2.jpg_wal_sample.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_beach_pastel.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/beach_pastel.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_beach_pastel_.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/beach_pastel_.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_bedroom_wakeful_gc.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/bedroom_wakeful_gc.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_bedroom_wakeful_modified_gc.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/bedroom_wakeful_modified_gc.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_beijoo_space.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/beijoo_space.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_beijoo_space2.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/beijoo_space2.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_black-wallpaper-dark-galaxy-14676.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/black-wallpaper-dark-galaxy-14676.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_black_hole.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/black_hole.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_bridge-colorful-colourful-32239_gud_morning.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/bridge-colorful-colourful-32239_gud_morning.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_bridge4.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/bridge4.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_bridge_pink_blue_peaceful_wakening_gc.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/bridge_pink_blue_peaceful_wakening_gc.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_casual_coffee.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/casual_coffee.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_cibernetic_relief_vaporwave.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/cibernetic_relief_vaporwave.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_city_little.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/city_little.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_coffe.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/coffe.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_colorful_tints_wallhaven-697888.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/colorful_tints_wallhaven-697888.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_coral_beach.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/coral_beach.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_deleting_text_in_img.xcf_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/deleting_text_in_img.xcf_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_dog_boy_rosed_eyes_sunset.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/dog_boy_rosed_eyes_sunset.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_future_city_super_hq.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/future_city_super_hq.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_highway_coconut_trees_vaporwave.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/highway_coconut_trees_vaporwave.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_highway_trees.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/highway_trees.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_house_backyard.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/house_backyard.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_house_backyard_homey.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/house_backyard_homey.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_jonni-tsay-46588566151-5d8fcc3eaf-k.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/jonni-tsay-46588566151-5d8fcc3eaf-k.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_leaves_on_branch_dark_green_tea_calm.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/leaves_on_branch_dark_green_tea_calm.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_lion.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/lion.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_mandel_space.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/mandel_space.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_mountain_fog.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/mountain_fog.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_mountains_cloudy.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/mountains_cloudy.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_mountains_cloudy_landscape.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/mountains_cloudy_landscape.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_pink_sunset_electric.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/pink_sunset_electric.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_red_room.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/red_room.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_sky.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/sky.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_sky_frozen.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/sky_frozen.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_sky_geez_jazz_it_gc.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/sky_geez_jazz_it_gc.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_sunset.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/sunset.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_sunset3.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/sunset3.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_twin_peaks_red_room.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/twin_peaks_red_room.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_vader_leia_luke.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/vader_leia_luke.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-0jzjwy.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-0jzjwy.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-4op3km.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-4op3km.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-6k2pdl.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-6k2pdl.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-6ky7pw.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-6ky7pw.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-6kym9l.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-6kym9l.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-6q3eqw.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-6q3eqw.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-13gvow.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-13gvow.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-43xvyy.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-43xvyy.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-73l66o.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-73l66o.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-73lm99.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-73lm99.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-73lx7v.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-73lx7v.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-76p7yo.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-76p7yo.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-83jje1.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-83jje1.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-96geow.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-96geow.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-96gk91.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-96gk91.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-132o29.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-132o29.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-392rjy.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-392rjy.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-456ed8.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-456ed8.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-8396gk.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-8396gk.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-161858.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-161858.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-162931.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-162931.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-686572.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-686572.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-695354.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-695354.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-695354.png_wal_sample.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-695354.png_wal_sample.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-695431.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-695431.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-695432.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-695432.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-696792.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-696792.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-696794.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-696794.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-696795.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-696795.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-697777.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-697777.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-698246.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-698246.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-698247.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-698247.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-698247.jpg_wal_sample.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-698247.jpg_wal_sample.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-698997.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-698997.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-713786.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-713786.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-713786.jpg_wal_sample.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-713786.jpg_wal_sample.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-714811.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-714811.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-714951.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-714951.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-751689.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-751689.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-762032.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-762032.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-766563.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-766563.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767105.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-767105.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767605.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-767605.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767696.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-767696.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767697.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-767697.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767749.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-767749.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767757.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-767757.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-768102.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-768102.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-769053.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-769053.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-769101.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-769101.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-769754.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-769754.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-769763.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-769763.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-770042.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-770042.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-770586.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-770586.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-773878.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-773878.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-dgo1om.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-dgo1om.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-dgojvj.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-dgojvj.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dd6l.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-g8dd6l.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dloe.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-g8dloe.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dm6e.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-g8dm6e.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dxld.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-g8dxld.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8plx7.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-g8plx7.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-j8r99y.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-j8r99y.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-j86myy.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-j86myy.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-j897lp.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-j897lp.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-j897lplp.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-j897lplp.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-kwdjvm.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-kwdjvm.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-kwlex1.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-kwlex1.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-lmdjpp.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-lmdjpp.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-lmdrxr.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-lmdrxr.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-mdyqv9.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-mdyqv9.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-mdyr31.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-mdyr31.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-n6kwpl.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-n6kwpl.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-nmk6zm.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-nmk6zm.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-nmwj7y.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-nmwj7y.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-nre337.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-nre337.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-oxje6l.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-oxje6l.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-oxjj1l.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-oxjj1l.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-oxjvm7.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-oxjvm7.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-p21m2m.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-p21m2m.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-p871k3.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-p871k3.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-p2533e.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-p2533e.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-q6m7e5.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-q6m7e5.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-q6o5z5.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-q6o5z5.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-q6ov1r.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-q6ov1r.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-r26wom.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-r26wom.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-vgeevp.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-vgeevp.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-vgev9l.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-vgev9l.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-yj1okk.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-yj1okk.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-ym9ggg.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-ym9ggg.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-ym9wkx.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-ym9wkx.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-zm9gvo.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-zm9gvo.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_way_trees.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/way_trees.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_x2Zh6eR.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/x2Zh6eR.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_TfIXk9l.jpg
-	/home/marcosrdac/wallpapers/TfIXk9l.jpg
-t/home/marcosrdac/.local/share/Trash/000_X6h0EuY.jpg
-	/home/marcosrdac/wallpapers/X6h0EuY.jpg
-t/home/marcosrdac/.local/share/Trash/000_astronomy-dark-nature-733475.jpg
-	/home/marcosrdac/wallpapers/astronomy-dark-nature-733475.jpg
-t/home/marcosrdac/.local/share/Trash/000_sunset.jpg
-	/home/marcosrdac/wallpapers/loneliness/sunset.jpg
-t/home/marcosrdac/.local/share/Trash/000_bridge-colorful-colourful-32239_gud_morning.jpg
-	/home/marcosrdac/wallpapers/loneliness/bridge-colorful-colourful-32239_gud_morning.jpg
-t/home/marcosrdac/.local/share/Trash/001_black-wallpaper-dark-galaxy-14676.jpg_wal_sample.png
-	/home/marcosrdac/wallpapers/serenity/black-wallpaper-dark-galaxy-14676.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/001_black-wallpaper-dark-galaxy-14676.jpg
-	/home/marcosrdac/wallpapers/serenity/black-wallpaper-dark-galaxy-14676.jpg
-t/home/marcosrdac/.local/share/Trash/000_uCrGTLP.jpg
-	/home/marcosrdac/wallpapers/serenity/uCrGTLP.jpg
-t/home/marcosrdac/.local/share/Trash/001_vader_leia_luke.jpg_wal_sample.png
-	/home/marcosrdac/wallpapers/star_wars/vader_leia_luke.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_star_wars_millenium_falcon.jpg
-	/home/marcosrdac/wallpapers/star_wars/star_wars_millenium_falcon.jpg
-t/home/marcosrdac/.local/share/Trash/000_vader_leia_luke.jpg
-	/home/marcosrdac/wallpapers/star_wars/vader_leia_luke.jpg
-t/home/marcosrdac/.local/share/Trash/001_red_room.jpg_wal_sample.png
-	/home/marcosrdac/wallpapers/twin_peaks/red_room.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_databases-incognito
-	/home/marcosrdac/databases-incognito
-t/home/marcosrdac/.local/share/Trash/001_60793_photo_manipulation_vaporwave.jpg_wal_sample.png
-	/home/marcosrdac/wallpapers/vaporwave/60793_photo_manipulation_vaporwave.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/001_862674.jpg_wal_sample.png
-	/home/marcosrdac/wallpapers/vaporwave/862674.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_vaporwave-skating.jpg
-	/home/marcosrdac/wallpapers/vaporwave/vaporwave-skating.jpg
-t/home/marcosrdac/.local/share/Trash/000_862674.jpg
-	/home/marcosrdac/wallpapers/vaporwave/862674.jpg
-t/home/marcosrdac/.local/share/Trash/000_60793_photo_manipulation_vaporwave.jpg
-	/home/marcosrdac/wallpapers/vaporwave/60793_photo_manipulation_vaporwave.jpg
-t/home/marcosrdac/.local/share/Trash/000_bridge2.jpg
-	/home/marcosrdac/wallpapers/wakefullness/bridge2.jpg
-t/home/marcosrdac/.local/share/Trash/000_volcano-asia.jpg
-	/home/marcosrdac/wallpapers/wakefullness/volcano-asia.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-713786.jpg_wal_sample.png
-	/home/marcosrdac/wallpapers/wallhaven-713786.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-696794.jpg
-	/home/marcosrdac/wallpapers/wallhaven-696794.jpg
-t/home/marcosrdac/.local/share/Trash/000_x2Zh6eR.png
-	/home/marcosrdac/wallpapers/x2Zh6eR.png
-t/home/marcosrdac/.local/share/Trash/000_black_hole.jpg
-	/home/marcosrdac/wallpapers/black_hole.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-76p7yo.jpg
-	/home/marcosrdac/wallpapers/wallhaven-76p7yo.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-713786.jpg
-	/home/marcosrdac/wallpapers/wallhaven-713786.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-zm9gvo.jpg
-	/home/marcosrdac/wallpapers/wallhaven-zm9gvo.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-j8r99y.jpg
-	/home/marcosrdac/wallpapers/wallhaven-j8r99y.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-nmwj7y.jpg
-	/home/marcosrdac/wallpapers/wallhaven-nmwj7y.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dloe.jpg
-	/home/marcosrdac/wallpapers/wallhaven-g8dloe.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dd6l.jpg
-	/home/marcosrdac/wallpapers/wallhaven-g8dd6l.jpg
-t/home/marcosrdac/.local/share/Trash/000_sky.jpg
-	/home/marcosrdac/wallpapers/sky.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-kwlex1.jpg
-	/home/marcosrdac/wallpapers/wallhaven-kwlex1.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767105.png
-	/home/marcosrdac/wallpapers/wallhaven-767105.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767696.jpg
-	/home/marcosrdac/wallpapers/wallhaven-767696.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-696792.jpg
-	/home/marcosrdac/wallpapers/wallhaven-696792.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-0jzjwy.jpg
-	/home/marcosrdac/wallpapers/wallhaven-0jzjwy.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-770586.jpg
-	/home/marcosrdac/wallpapers/wallhaven-770586.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-dgojvj.jpg
-	/home/marcosrdac/wallpapers/wallhaven-dgojvj.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-8396gk.jpg
-	/home/marcosrdac/wallpapers/wallhaven-8396gk.jpg
-t/home/marcosrdac/.local/share/Trash/000_Lista_de_Revisao.zip
-	/home/marcosrdac/tmp/ufba/calculo_numerico/Lista_de_Revisao.zip
-t/home/marcosrdac/.local/share/Trash/000_chessdata
-	/home/marcosrdac/documents/chessdata
-t/home/marcosrdac/.local/share/Trash/000_to_me
-	/home/marcosrdac/documents/to_me
-t/home/marcosrdac/.local/share/Trash/000_Exerc√≠cios.md~
-	/home/marcosrdac/documents/physical exercises/Exerc√≠cios.md~
-t/home/marcosrdac/.local/share/Trash/000_alongamentos.md
-	/home/marcosrdac/documents/physical exercises/alongamentos.md
-t/home/marcosrdac/.local/share/Trash/000_output.pdf
-	/home/marcosrdac/documents/salvador_card_roubado_2019/output.pdf
-t/home/marcosrdac/.local/share/Trash/000_README.md
-	/home/marcosrdac/documents/temp. activities_/README.md
-t/home/marcosrdac/.local/share/Trash/000_20191011 - Itest:wq.md
-	/home/marcosrdac/documents/temp. activities_/20191011 - Itest:wq.md
-t/home/marcosrdac/.local/share/Trash/000_id_mag.tex
-	/home/marcosrdac/documents/journal/Recordings/id_mag.tex
-t/home/marcosrdac/.local/share/Trash/000_kp.wav
-	/home/marcosrdac/documents/journal/Recordings/kp.wav
-t/home/marcosrdac/.local/share/Trash/000_Recordings
-	/home/marcosrdac/documents/journal/Recordings
-t/home/marcosrdac/.local/share/Trash/000_cirurgia.md
-	/home/marcosrdac/documents/medic/cirurgia.md
-t/home/marcosrdac/.local/share/Trash/000_messages
-	/home/marcosrdac/documents/info/messages
-t/home/marcosrdac/.local/share/Trash/000_mnt
-	/home/marcosrdac/mnt
-t/home/marcosrdac/.local/share/Trash/000_20181018 pink floyd
-	/home/marcosrdac/documents/20181018 pink floyd
-t/home/marcosrdac/.local/share/Trash/000_IMG-20190825-WA0042.jpg
-	/home/marcosrdac/documents/IMG-20190825-WA0042.jpg
-t/home/marcosrdac/.local/share/Trash/000_IMG-20190825-WA00422.jpg
-	/home/marcosrdac/documents/IMG-20190825-WA00422.jpg
-t/home/marcosrdac/.local/share/Trash/000_IMG-20190825-WA00422sqrd.jpg
-	/home/marcosrdac/documents/IMG-20190825-WA00422sqrd.jpg
-t/home/marcosrdac/.local/share/Trash/000_photos
-	/home/marcosrdac/documents/me/photos
-t/home/marcosrdac/.local/share/Trash/000_vac
-	/home/marcosrdac/documents/temp. activities_/vac
-t/home/marcosrdac/.local/share/Trash/000_new
-	/home/marcosrdac/documents/temp. activities_/new
-t/home/marcosrdac/.local/share/Trash/000_boleto_gabi.pdf
-	/home/marcosrdac/documents/boleto_gabi.pdf
-t/home/marcosrdac/.local/share/Trash/000_chess2.md
-	/home/marcosrdac/documents/games/chess/chess2.md
-t/home/marcosrdac/.local/share/Trash/000_chess1.md
-	/home/marcosrdac/documents/games/chess/chess1.md
-t/home/marcosrdac/.local/share/Trash/000_financeiro.sc
-	/home/marcosrdac/documents/financeiro.sc
-t/home/marcosrdac/.local/share/Trash/000_formating_needs.md
-	/home/marcosrdac/documents/formating_needs.md
-t/home/marcosrdac/.local/share/Trash/000_msgstore.db.crypt12
-	/home/marcosrdac/documents/msgstore.db.crypt12
-t/home/marcosrdac/.local/share/Trash/000_vivendo_do_ocio.html
-	/home/marcosrdac/documents/vivendo_do_ocio.html
-t/home/marcosrdac/.local/share/Trash/000_schedule.md
-	/home/marcosrdac/documents/schedule.md
-t/home/marcosrdac/.local/share/Trash/000_tips.md
-	/home/marcosrdac/documents/tips.md
-t/home/marcosrdac/.local/share/Trash/000_to_log.csv
-	/home/marcosrdac/documents/to_log.csv
-t/home/marcosrdac/.local/share/Trash/000_temp. activities_
-	/home/marcosrdac/documents/temp. activities_
-t/home/marcosrdac/.local/share/Trash/000_dicas.md
-	/home/marcosrdac/documents/dicas.md
-t/home/marcosrdac/.local/share/Trash/000_tickets
-	/home/marcosrdac/documents/tickets
-t/home/marcosrdac/.local/share/Trash/000_Richard J. Blakely - Potential Theory in Gravity and Magnetic Applications (Stanford-Cambridge Program).pdf
-	/home/marcosrdac/Dropbox/ufba/metodos_potenciais/Richard J. Blakely - Potential Theory in Gravity and Magnetic Applications (Stanford-Cambridge Program).pdf
-t/home/marcosrdac/.local/share/Trash/000_config_.ini
-	/home/marcosrdac/.config/keepmenu/config_.ini
-t/home/marcosrdac/.local/share/Trash/000_trash
-	/home/marcosrdac/trash
-t/home/marcosrdac/.local/share/Trash/000_future_city_super_hq.jpg
-	/home/marcosrdac/wallpapers/useful/future_city_super_hq.jpg
-t/home/marcosrdac/.local/share/Trash/000_highway_trees.jpg
-	/home/marcosrdac/wallpapers/highway_trees.jpg
-t/home/marcosrdac/.local/share/Trash/000_jonni-tsay-46588566151-5d8fcc3eaf-k.jpg
-	/home/marcosrdac/wallpapers/jonni-tsay-46588566151-5d8fcc3eaf-k.jpg
-t/home/marcosrdac/.local/share/Trash/000_mandel_space.png
-	/home/marcosrdac/wallpapers/mandel_space.png
-t/home/marcosrdac/.local/share/Trash/000_sky4.jpg
-	/home/marcosrdac/wallpapers/sky4.jpg
-t/home/marcosrdac/.local/share/Trash/000_sky_frozen.jpg
-	/home/marcosrdac/wallpapers/sky_frozen.jpg
-t/home/marcosrdac/.local/share/Trash/000_test2.jpg
-	/home/marcosrdac/wallpapers/test2.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-4op3km.jpg
-	/home/marcosrdac/wallpapers/wallhaven-4op3km.jpg
-t/home/marcosrdac/.local/share/Trash/000_xFMxyV3.jpg
-	/home/marcosrdac/wallpapers/xFMxyV3.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-ym9wkx.jpg
-	/home/marcosrdac/wallpapers/wallhaven-ym9wkx.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-vgev9l.jpg
-	/home/marcosrdac/wallpapers/wallhaven-vgev9l.jpg
-t/home/marcosrdac/.local/share/Trash/000_13-dougie-twin-peaks-coffee-vg.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/13-dougie-twin-peaks-coffee-vg.jpg
-t/home/marcosrdac/.local/share/Trash/000_13-dougie-twin-peaks-coffeect.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/13-dougie-twin-peaks-coffeect.jpg
-t/home/marcosrdac/.local/share/Trash/000_18OpxyB-twin-peaks-wallpaper.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/18OpxyB-twin-peaks-wallpaper.jpg
-t/home/marcosrdac/.local/share/Trash/000_158245-free-download-twin-peaks-wallpaper-1920x1080-large-resolution.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/158245-free-download-twin-peaks-wallpaper-1920x1080-large-resolution.jpg
-t/home/marcosrdac/.local/share/Trash/000_158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd.jpg
-t/home/marcosrdac/.local/share/Trash/000_158258-free-twin-peaks-wallpaper-1920x1080-htc.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/158258-free-twin-peaks-wallpaper-1920x1080-htc.jpg
-t/home/marcosrdac/.local/share/Trash/000_255580-full-size-twin-peaks-wallpaper-1920x1200.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/255580-full-size-twin-peaks-wallpaper-1920x1200.jpg
-t/home/marcosrdac/.local/share/Trash/000_255617-full-size-twin-peaks-wallpaper-1920x1080-retina.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/255617-full-size-twin-peaks-wallpaper-1920x1080-retina.jpg
-t/home/marcosrdac/.local/share/Trash/000_255650-twin-peaks-wallpaper-1920x1080-xiaomi.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/255650-twin-peaks-wallpaper-1920x1080-xiaomi.jpg
-t/home/marcosrdac/.local/share/Trash/000_Bwdxvpu.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/Bwdxvpu.jpg
-t/home/marcosrdac/.local/share/Trash/000_GxYL2S2.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/GxYL2S2.jpg
-t/home/marcosrdac/.local/share/Trash/000_IgZV1xe-twin-peaks-wallpaper.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/IgZV1xe-twin-peaks-wallpaper.jpg
-t/home/marcosrdac/.local/share/Trash/000_J4XOqro.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/J4XOqro.jpg
-t/home/marcosrdac/.local/share/Trash/000_Kr1TWOt.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/Kr1TWOt.jpg
-t/home/marcosrdac/.local/share/Trash/000_Kutg5Jf.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/Kutg5Jf.jpg
-t/home/marcosrdac/.local/share/Trash/000_LVF7jGv-twin-peaks-wallpaper.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/LVF7jGv-twin-peaks-wallpaper.jpg
-t/home/marcosrdac/.local/share/Trash/000_R7OKb9u.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/R7OKb9u.jpg
-t/home/marcosrdac/.local/share/Trash/000_Urlw6Mg-twin-peaks-wallpaper.png
-	/home/marcosrdac/wallpapers/twin_peaks/Urlw6Mg-twin-peaks-wallpaper.png
-t/home/marcosrdac/.local/share/Trash/000_Wp1FXLR.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/Wp1FXLR.jpg
-t/home/marcosrdac/.local/share/Trash/000_YGwaKra.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/YGwaKra.jpg
-t/home/marcosrdac/.local/share/Trash/000_donnaAudreyAndShelly.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/donnaAudreyAndShelly.jpg
-t/home/marcosrdac/.local/share/Trash/000_bird.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/bird.jpg
-t/home/marcosrdac/.local/share/Trash/000_fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2.jpg
-t/home/marcosrdac/.local/share/Trash/000_greatNorthern.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/greatNorthern.jpg
-t/home/marcosrdac/.local/share/Trash/000_kJ86jk9.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/kJ86jk9.jpg
-t/home/marcosrdac/.local/share/Trash/000_lFSBoi2.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/lFSBoi2.jpg
-t/home/marcosrdac/.local/share/Trash/000_lhP43pv.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/lhP43pv.jpg
-t/home/marcosrdac/.local/share/Trash/000_m8FoHiv.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/m8FoHiv.jpg
-t/home/marcosrdac/.local/share/Trash/000_n5mkpL9-twin-peaks-wallpaper.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/n5mkpL9-twin-peaks-wallpaper.jpg
-t/home/marcosrdac/.local/share/Trash/000_raIAxwP.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/raIAxwP.jpg
-t/home/marcosrdac/.local/share/Trash/000_redroom.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/redroom.jpg
-t/home/marcosrdac/.local/share/Trash/000_she's filled with secrets.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/she's filled with secrets.jpg
-t/home/marcosrdac/.local/share/Trash/000_ssOna58.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/ssOna58.jpg
-t/home/marcosrdac/.local/share/Trash/000_tkCUtVf.jpg
-	/home/marcosrdac/wallpapers/twin_peaks/tkCUtVf.jpg
-t/home/marcosrdac/.local/share/Trash/000_white_tiger_chun_lo_red_bg.png
-	/home/marcosrdac/wallpapers/white_tiger_chun_lo_red_bg.png
-t/home/marcosrdac/.local/share/Trash/000_stuffy_nebula_like_colorful.jpg
-	/home/marcosrdac/wallpapers/favorites/stuffy_nebula_like_colorful.jpg
-t/home/marcosrdac/.local/share/Trash/000_20516-vaporwave-wallpaper-1920x1080-for-full-hd.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/20516-vaporwave-wallpaper-1920x1080-for-full-hd.jpg
-t/home/marcosrdac/.local/share/Trash/000_430453main_crabmosaic_hst_big_full.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/430453main_crabmosaic_hst_big_full.jpg
-t/home/marcosrdac/.local/share/Trash/000_862674.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/862674.jpg
-t/home/marcosrdac/.local/share/Trash/001_Bwdxvpu.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/Bwdxvpu.jpg
-t/home/marcosrdac/.local/share/Trash/001_GxYL2S2.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/GxYL2S2.jpg
-t/home/marcosrdac/.local/share/Trash/001_IgZV1xe-twin-peaks-wallpaper.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/IgZV1xe-twin-peaks-wallpaper.jpg
-t/home/marcosrdac/.local/share/Trash/000_KErRqxp.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/KErRqxp.jpg
-t/home/marcosrdac/.local/share/Trash/001_Kr1TWOt.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/Kr1TWOt.jpg
-t/home/marcosrdac/.local/share/Trash/000_NPfwYz3.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/NPfwYz3.jpg
-t/home/marcosrdac/.local/share/Trash/001_R7OKb9u.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/R7OKb9u.jpg
-t/home/marcosrdac/.local/share/Trash/000_Ubuntu-Mate-Radioactive-no-logo.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/Ubuntu-Mate-Radioactive-no-logo.jpg
-t/home/marcosrdac/.local/share/Trash/000_VWTjE39.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/VWTjE39.jpg
-t/home/marcosrdac/.local/share/Trash/000_apple.png
-	/home/marcosrdac/.config/wpg/wallpapers/apple.png
-t/home/marcosrdac/.local/share/Trash/000_astronaut_with_coloured_jellyfish_completion.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/astronaut_with_coloured_jellyfish_completion.jpg
-t/home/marcosrdac/.local/share/Trash/000_astronomy-astrophotography-constellation-517884.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/astronomy-astrophotography-constellation-517884.jpg
-t/home/marcosrdac/.local/share/Trash/000_beijoo_space.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/beijoo_space.jpg
-t/home/marcosrdac/.local/share/Trash/001_bird.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/bird.jpg
-t/home/marcosrdac/.local/share/Trash/000_boat_sunset.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/boat_sunset.jpg
-t/home/marcosrdac/.local/share/Trash/000_boats_happy_sunrise.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/boats_happy_sunrise.jpg
-t/home/marcosrdac/.local/share/Trash/000_bridge_red_green.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/bridge_red_green.jpg
-t/home/marcosrdac/.local/share/Trash/000_city_little.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/city_little.jpg
-t/home/marcosrdac/.local/share/Trash/000_colorful_tints_wallhaven-697888.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/colorful_tints_wallhaven-697888.jpg
-t/home/marcosrdac/.local/share/Trash/000_coral_beach.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/coral_beach.jpg
-t/home/marcosrdac/.local/share/Trash/000_crab_nebula.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/crab_nebula.jpg
-t/home/marcosrdac/.local/share/Trash/000_crater.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/crater.jpg
-t/home/marcosrdac/.local/share/Trash/000_dark_multicoloured_abstract.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/dark_multicoloured_abstract.jpg
-t/home/marcosrdac/.local/share/Trash/001_donnaAudreyAndShelly.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/donnaAudreyAndShelly.jpg
-t/home/marcosrdac/.local/share/Trash/001_explorer_in_forest.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/explorer_in_forest.jpg
-t/home/marcosrdac/.local/share/Trash/001_fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2.jpg
-t/home/marcosrdac/.local/share/Trash/001_greatNorthern.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/greatNorthern.jpg
-t/home/marcosrdac/.local/share/Trash/001_hot_jellyfish_in_dark.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/hot_jellyfish_in_dark.jpg
-t/home/marcosrdac/.local/share/Trash/000_jupyter_brown_turbulence.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/jupyter_brown_turbulence.jpg
-t/home/marcosrdac/.local/share/Trash/001_kJ86jk9.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/kJ86jk9.jpg
-t/home/marcosrdac/.local/share/Trash/001_lFSBoi2.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/lFSBoi2.jpg
-t/home/marcosrdac/.local/share/Trash/000_low_contrast_forest.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/low_contrast_forest.jpg
-t/home/marcosrdac/.local/share/Trash/000_mandel_space.png
-	/home/marcosrdac/.config/wpg/wallpapers/mandel_space.png
-t/home/marcosrdac/.local/share/Trash/000_mountains_bluish_minecraft_like.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/mountains_bluish_minecraft_like.jpg
-t/home/marcosrdac/.local/share/Trash/001_n5mkpL9-twin-peaks-wallpaper.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/n5mkpL9-twin-peaks-wallpaper.jpg
-t/home/marcosrdac/.local/share/Trash/001_raIAxwP.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/raIAxwP.jpg
-t/home/marcosrdac/.local/share/Trash/000_red_night_street_void_urgence.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/red_night_street_void_urgence.jpg
-t/home/marcosrdac/.local/share/Trash/001_redroom.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/redroom.jpg
-t/home/marcosrdac/.local/share/Trash/000_sea_aired_forest_fresh_sunday_gc.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/sea_aired_forest_fresh_sunday_gc.jpg
-t/home/marcosrdac/.local/share/Trash/000_sky4.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/sky4.jpg
-t/home/marcosrdac/.local/share/Trash/000_sky_20180329.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/sky_20180329.jpg
-t/home/marcosrdac/.local/share/Trash/000_sky_frozen.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/sky_frozen.jpg
-t/home/marcosrdac/.local/share/Trash/001_ssOna58.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/ssOna58.jpg
-t/home/marcosrdac/.local/share/Trash/000_star_wars_space_urgence.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/star_wars_space_urgence.jpg
-t/home/marcosrdac/.local/share/Trash/000_strawberries_grapes_herbs_in_table_dark_lonely_homey.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/strawberries_grapes_herbs_in_table_dark_lonely_homey.jpg
-t/home/marcosrdac/.local/share/Trash/001_stuffy_nebula_like_colorful.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/stuffy_nebula_like_colorful.jpg
-t/home/marcosrdac/.local/share/Trash/001_test.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/test.jpg
-t/home/marcosrdac/.local/share/Trash/000_test2.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/test2.jpg
-t/home/marcosrdac/.local/share/Trash/000_tokyo_lights.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/tokyo_lights.jpg
-t/home/marcosrdac/.local/share/Trash/000_traffic_light_gc.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/traffic_light_gc.jpg
-t/home/marcosrdac/.local/share/Trash/000_twin_peaks_red_room.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/twin_peaks_red_room.jpg
-t/home/marcosrdac/.local/share/Trash/000_uCrGTLP.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/uCrGTLP.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-0jzjwy.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-0jzjwy.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-4op3km.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-4op3km.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-6k2pdl.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-6k2pdl.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-6ky7pw.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-6ky7pw.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-6kym9l.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-6kym9l.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-6q3eqw.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-6q3eqw.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-13gvow.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-13gvow.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-43xvyy.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-43xvyy.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-73l66o.png
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-73l66o.png
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-73lm99.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-73lm99.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-73lx7v.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-73lx7v.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-83jje1.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-83jje1.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-96geow.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-96geow.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-96gk91.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-96gk91.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-132o29.png
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-132o29.png
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-396m6v.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-396m6v.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-456ed8.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-456ed8.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-8396gk.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-8396gk.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-696794.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-696794.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-696795.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-696795.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-698997.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-698997.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-714951.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-714951.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-766563.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-766563.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-767605.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-767605.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767696.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-767696.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767697.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-767697.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767749.png
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-767749.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-767757.png
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-767757.png
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-769053.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-769053.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-769101.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-769101.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-770042.png
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-770042.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-dgo1om.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-dgo1om.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-dgojvj.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-dgojvj.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dd6l.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-g8dd6l.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dloe.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-g8dloe.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-g8dxld.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-g8dxld.jpg
-t/home/marcosrdac/.local/share/Trash/001_wallhaven-g8plx7.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-g8plx7.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-oxjvm7.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-oxjvm7.jpg
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-vgeevp.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wallhaven-vgeevp.jpg
-t/home/marcosrdac/.local/share/Trash/000_white_tiger_chun_lo.png
-	/home/marcosrdac/.config/wpg/wallpapers/white_tiger_chun_lo.png
-t/home/marcosrdac/.local/share/Trash/000_windows_95.png
-	/home/marcosrdac/.config/wpg/wallpapers/windows_95.png
-t/home/marcosrdac/.local/share/Trash/000_wolf_eye_clean_blue.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/wolf_eye_clean_blue.jpg
-t/home/marcosrdac/.local/share/Trash/000_xFMxyV3.jpg
-	/home/marcosrdac/.config/wpg/wallpapers/xFMxyV3.jpg
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_0wallhaven-757181_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_0wallhaven-757181_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_20516-vaporwave-wallpaper-1920x1080-for-full-hd_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_20516-vaporwave-wallpaper-1920x1080-for-full-hd_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_60793_photo_manipulation_vaporwave_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_60793_photo_manipulation_vaporwave_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_158246-beautiful-twin-peaks-wallpaper-1920x1080-for-full-hd_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_430453main_crabmosaic_hst_big_full_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_430453main_crabmosaic_hst_big_full_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_862674_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_862674_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_20180329_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_20180329_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_20180330_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_20180330_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_Bwdxvpu_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_Bwdxvpu_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_GxYL2S2_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_GxYL2S2_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_IgZV1xe-twin-peaks-wallpaper_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_IgZV1xe-twin-peaks-wallpaper_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_KErRqxp_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_KErRqxp_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_Kr1TWOt_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_Kr1TWOt_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_NPfwYz3_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_NPfwYz3_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_R7OKb9u_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_R7OKb9u_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_TfIXk9l_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_TfIXk9l_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_Ubuntu-Mate-Radioactive-no-logo_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_Ubuntu-Mate-Radioactive-no-logo_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_VWTjE39_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_VWTjE39_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_X6h0EuY_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_X6h0EuY_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_aforestation-dirt-road_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_aforestation-dirt-road_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_apple_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_apple_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_astronaut_with_coloured_jellyfish_completion_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_astronaut_with_coloured_jellyfish_completion_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_astronomy-astrophotography-constellation-517884_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_astronomy-astrophotography-constellation-517884_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_astronomy-dark-nature-733475_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_astronomy-dark-nature-733475_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_beach2_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_beach2_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_beach2_jpg_wal_sample_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_beach2_jpg_wal_sample_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_beach_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_beach_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_beach_pastel__jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_beach_pastel__jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_beach_pastel_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_beach_pastel_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_bedroom_wakeful_gc_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_bedroom_wakeful_gc_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_bedroom_wakeful_modified_gc_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_bedroom_wakeful_modified_gc_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_beijoo_space2_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_beijoo_space2_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_beijoo_space_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_beijoo_space_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_bird_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_bird_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_black-wallpaper-dark-galaxy-14676_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_black-wallpaper-dark-galaxy-14676_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_black_hole_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_black_hole_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_boat_sunset_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_boat_sunset_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_boats_happy_sunrise_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_boats_happy_sunrise_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_bridge-colorful-colourful-32239_gud_morning_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_bridge-colorful-colourful-32239_gud_morning_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_bridge4_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_bridge4_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_bridge_pink_blue_peaceful_wakening_gc_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_bridge_pink_blue_peaceful_wakening_gc_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_bridge_red_green_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_bridge_red_green_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_casual_coffee_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_casual_coffee_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_cibernetic_relief_vaporwave_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_cibernetic_relief_vaporwave_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_city_little_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_city_little_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_coffe_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_coffe_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_colorful_tints_wallhaven-697888_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_colorful_tints_wallhaven-697888_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_coral_beach_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_coral_beach_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_crab_nebula_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_crab_nebula_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_crater_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_crater_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_dark_multicoloured_abstract_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_dark_multicoloured_abstract_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_deleting_text_in_img_xcf_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_deleting_text_in_img_xcf_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_dog_boy_rosed_eyes_sunset_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_dog_boy_rosed_eyes_sunset_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_donnaAudreyAndShelly_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_donnaAudreyAndShelly_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_explorer_in_forest_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_explorer_in_forest_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_future_city_super_hq_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_future_city_super_hq_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_greatNorthern_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_greatNorthern_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_highway_coconut_trees_vaporwave_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_highway_coconut_trees_vaporwave_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_highway_trees_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_highway_trees_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_hot_jellyfish_in_dark_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_hot_jellyfish_in_dark_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_house_backyard_homey_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_house_backyard_homey_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_house_backyard_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_house_backyard_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_jonni-tsay-46588566151-5d8fcc3eaf-k_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_jonni-tsay-46588566151-5d8fcc3eaf-k_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_jupyter_brown_turbulence_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_jupyter_brown_turbulence_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_kJ86jk9_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_kJ86jk9_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_lFSBoi2_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_lFSBoi2_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_leaves_on_branch_dark_green_tea_calm_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_leaves_on_branch_dark_green_tea_calm_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_lion_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_lion_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_low_contrast_forest_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_low_contrast_forest_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_mandel_space_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_mandel_space_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_mountain_fog_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_mountain_fog_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_mountains_bluish_minecraft_like_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_mountains_bluish_minecraft_like_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_mountains_cloudy_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_mountains_cloudy_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_mountains_cloudy_landscape_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_mountains_cloudy_landscape_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_n5mkpL9-twin-peaks-wallpaper_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_n5mkpL9-twin-peaks-wallpaper_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_pink_sunset_electric_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_pink_sunset_electric_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_raIAxwP_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_raIAxwP_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_red_night_street_void_urgence_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_red_night_street_void_urgence_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_red_room_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_red_room_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_redroom_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_redroom_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_sea_aired_forest_fresh_sunday_gc_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_sea_aired_forest_fresh_sunday_gc_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_sky4_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_sky4_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_sky_20180329_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_sky_20180329_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_sky_frozen_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_sky_frozen_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_sky_geez_jazz_it_gc_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_sky_geez_jazz_it_gc_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_sky_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_sky_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_ssOna58_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_ssOna58_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_star_wars_space_urgence_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_star_wars_space_urgence_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_strawberries_grapes_herbs_in_table_dark_lonely_homey_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_strawberries_grapes_herbs_in_table_dark_lonely_homey_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_stuffy_nebula_like_colorful_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_stuffy_nebula_like_colorful_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_sunset3_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_sunset3_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_sunset_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_sunset_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_test2_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_test2_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_test_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_test_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_tokyo_lights_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_tokyo_lights_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_traffic_light_gc_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_traffic_light_gc_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_twin_peaks_red_room_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_twin_peaks_red_room_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_twin_peaks_red_room_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_twin_peaks_red_room_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_uCrGTLP_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_uCrGTLP_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_vader_leia_luke_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_vader_leia_luke_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-0jzjwy_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-0jzjwy_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-4op3km_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-4op3km_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-6k2pdl_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-6k2pdl_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-6ky7pw_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-6ky7pw_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-6kym9l_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-6kym9l_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-6q3eqw_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-6q3eqw_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-13gvow_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-13gvow_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-43xvyy_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-43xvyy_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-73l66o_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-73l66o_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-73lm99_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-73lm99_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-73lx7v_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-73lx7v_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-76p7yo_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-76p7yo_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-83jje1_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-83jje1_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-96geow_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-96geow_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-96gk91_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-96gk91_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-132o29_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-132o29_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-392rjy_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-392rjy_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-396m6v_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-396m6v_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-456ed8_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-456ed8_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-8396gk_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-8396gk_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-161858_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-161858_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-162931_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-162931_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-686572_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-686572_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-695354_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-695354_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-695354_png_wal_sample_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-695354_png_wal_sample_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-695431_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-695431_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-695432_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-695432_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-696792_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-696792_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-696794_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-696794_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-696795_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-696795_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-697777_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-697777_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-698246_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-698246_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-698247_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-698247_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-698247_jpg_wal_sample_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-698247_jpg_wal_sample_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-698997_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-698997_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-713786_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-713786_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-713786_jpg_wal_sample_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-713786_jpg_wal_sample_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-714811_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-714811_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-714951_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-714951_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-751689_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-751689_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-762032_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-762032_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-766563_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-766563_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-767105_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-767105_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-767605_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-767605_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-767696_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-767696_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-767697_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-767697_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-767749_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-767749_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-767757_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-767757_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-768102_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-768102_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-769053_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-769053_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-769101_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-769101_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-769754_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-769754_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-769763_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-769763_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-770042_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-770042_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-770586_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-770586_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-773878_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-773878_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-dgo1om_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-dgo1om_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-dgojvj_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-dgojvj_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-g8dd6l_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-g8dd6l_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-g8dloe_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-g8dloe_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-g8dm6e_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-g8dm6e_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-g8dxld_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-g8dxld_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-g8plx7_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-g8plx7_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-j8r99y_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-j8r99y_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-j86myy_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-j86myy_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-j897lp_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-j897lp_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-j897lplp_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-j897lplp_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-kwdjvm_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-kwdjvm_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-kwlex1_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-kwlex1_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-lmdjpp_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-lmdjpp_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-lmdrxr_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-lmdrxr_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-mdyqv9_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-mdyqv9_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-mdyr31_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-mdyr31_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-n6kwpl_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-n6kwpl_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-nmk6zm_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-nmk6zm_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-nmwj7y_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-nmwj7y_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-nre337_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-nre337_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-oxje6l_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-oxje6l_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-oxjj1l_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-oxjj1l_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-oxjvm7_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-oxjvm7_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-p21m2m_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-p21m2m_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-p871k3_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-p871k3_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-p2533e_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-p2533e_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-q6m7e5_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-q6m7e5_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-q6o5z5_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-q6o5z5_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-q6ov1r_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-q6ov1r_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-r26wom_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-r26wom_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-vgeevp_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-vgeevp_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-vgev9l_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-vgev9l_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-yj1okk_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-yj1okk_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-ym9ggg_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-ym9ggg_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-ym9wkx_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-ym9wkx_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wallhaven-zm9gvo_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wallhaven-zm9gvo_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_way_trees_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_way_trees_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_white_tiger_chun_lo_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_white_tiger_chun_lo_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_windows_95_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_windows_95_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_wolf_eye_clean_blue_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_wolf_eye_clean_blue_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_x2Zh6eR_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_x2Zh6eR_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_xFMxyV3_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_xFMxyV3_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_cyberpunk_wallhaven-698247_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_cyberpunk_wallhaven-698247_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_home_coffe_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_home_coffe_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_home_house_backyard_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_home_house_backyard_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_loneliness_beach2_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_loneliness_beach2_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_loneliness_bridge-colorful-colourful-32239_gud_morning_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_loneliness_bridge-colorful-colourful-32239_gud_morning_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_loneliness_sunset_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_loneliness_sunset_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_serenity_aforestation-dirt-road_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_serenity_aforestation-dirt-road_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_serenity_black-wallpaper-dark-galaxy-14676_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_serenity_black-wallpaper-dark-galaxy-14676_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_star_wars_vader_leia_luke_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_star_wars_vader_leia_luke_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_twin_peaks_red_room_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_twin_peaks_red_room_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_vaporwave_60793_photo_manipulation_vaporwave_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_vaporwave_60793_photo_manipulation_vaporwave_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_vaporwave_862674_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_vaporwave_862674_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_wallhaven-695354_png_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_wallhaven-695354_png_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac_wallpapers_wallhaven-713786_jpg_dark_wal__1.1.0.json
-	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac_wallpapers_wallhaven-713786_jpg_dark_wal__1.1.0.json
-t/home/marcosrdac/.local/share/Trash/000_20516-vaporwave-wallpaper-1920x1080-for-full-hd.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/20516-vaporwave-wallpaper-1920x1080-for-full-hd.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_Bwdxvpu.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/Bwdxvpu.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_GxYL2S2.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/GxYL2S2.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_IgZV1xe-twin-peaks-wallpaper.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/IgZV1xe-twin-peaks-wallpaper.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_KErRqxp.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/KErRqxp.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_Kr1TWOt.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/Kr1TWOt.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_NPfwYz3.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/NPfwYz3.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_R7OKb9u.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/R7OKb9u.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_VWTjE39.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/VWTjE39.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_apple.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/apple.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_astronaut_with_coloured_jellyfish_completion.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/astronaut_with_coloured_jellyfish_completion.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_bird.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/bird.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_boat_sunset.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/boat_sunset.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_boats_happy_sunrise.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/boats_happy_sunrise.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_bridge_red_green.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/bridge_red_green.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_crab_nebula.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/crab_nebula.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_crater.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/crater.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_dark_multicoloured_abstract.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/dark_multicoloured_abstract.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_donnaAudreyAndShelly.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/donnaAudreyAndShelly.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_explorer_in_forest.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/explorer_in_forest.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/fire-walk-with-me-watching-recommendation-videoSixteenByNineJumbo1600-v2.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_greatNorthern.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/greatNorthern.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_hot_jellyfish_in_dark.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/hot_jellyfish_in_dark.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_jupyter_brown_turbulence.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/jupyter_brown_turbulence.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_kJ86jk9.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/kJ86jk9.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_lFSBoi2.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/lFSBoi2.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_low_contrast_forest.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/low_contrast_forest.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_mountains_bluish_minecraft_like.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/mountains_bluish_minecraft_like.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_n5mkpL9-twin-peaks-wallpaper.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/n5mkpL9-twin-peaks-wallpaper.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_raIAxwP.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/raIAxwP.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_red_night_street_void_urgence.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/red_night_street_void_urgence.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_redroom.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/redroom.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_sea_aired_forest_fresh_sunday_gc.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/sea_aired_forest_fresh_sunday_gc.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_sky4.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/sky4.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_sky_20180329.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/sky_20180329.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_ssOna58.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/ssOna58.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_star_wars_space_urgence.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/star_wars_space_urgence.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_strawberries_grapes_herbs_in_table_dark_lonely_homey.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/strawberries_grapes_herbs_in_table_dark_lonely_homey.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_stuffy_nebula_like_colorful.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/stuffy_nebula_like_colorful.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_test.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/test.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_test2.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/test2.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_tokyo_lights.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/tokyo_lights.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_traffic_light_gc.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/traffic_light_gc.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_twin_peaks_red_room.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/twin_peaks_red_room.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_uCrGTLP.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/uCrGTLP.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wallhaven-396m6v.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wallhaven-396m6v.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_white_tiger_chun_lo.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/white_tiger_chun_lo.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_windows_95.png_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/windows_95.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_wolf_eye_clean_blue.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/wolf_eye_clean_blue.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_xFMxyV3.jpg_wal_sample.png
-	/home/marcosrdac/.config/wpg/samples/xFMxyV3.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_ì˘òUÒQ∏ºXÉh˛é-.1
-	/home/marcosrdac/books/ì˘òUÒQ∏ºXÉh˛é-.1
-t/home/marcosrdac/.local/share/Trash/001_ì˘òUÒQ∏ºXÉh˛é-.1
-	/mnt/hdd/MEGA/books/ì˘òUÒQ∏ºXÉh˛é-.1
-t/home/marcosrdac/.local/share/Trash/000_000_earth_in_black.jpg
-	/mnt/hdd/Trash/000_earth_in_black.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_future_city_super_hq.jpg
-	/mnt/hdd/Trash/000_future_city_super_hq.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_highway_trees.jpg
-	/mnt/hdd/Trash/000_highway_trees.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_jonni-tsay-46588566151-5d8fcc3eaf-k.jpg
-	/mnt/hdd/Trash/000_jonni-tsay-46588566151-5d8fcc3eaf-k.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_mandel_space.png
-	/mnt/hdd/Trash/000_mandel_space.png
-t/home/marcosrdac/.local/share/Trash/000_000_pebbles_in_beach_sunset.jpg
-	/mnt/hdd/Trash/000_pebbles_in_beach_sunset.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_sky4.jpg
-	/mnt/hdd/Trash/000_sky4.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_sky_frozen.jpg
-	/mnt/hdd/Trash/000_sky_frozen.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_test2.jpg
-	/mnt/hdd/Trash/000_test2.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_vaporwave_lsd_eagles.jpg
-	/mnt/hdd/Trash/000_vaporwave_lsd_eagles.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-4op3km.jpg
-	/mnt/hdd/Trash/000_wallhaven-4op3km.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-nmk6zm.jpg
-	/mnt/hdd/Trash/000_wallhaven-nmk6zm.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-oxje6l.jpg
-	/mnt/hdd/Trash/000_wallhaven-oxje6l.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-oxjvm7.jpg
-	/mnt/hdd/Trash/000_wallhaven-oxjvm7.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-q6o5z5.jpg
-	/mnt/hdd/Trash/000_wallhaven-q6o5z5.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-r26wom.jpg
-	/mnt/hdd/Trash/000_wallhaven-r26wom.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-vgev9l.jpg
-	/mnt/hdd/Trash/000_wallhaven-vgev9l.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_wallhaven-ym9wkx.jpg
-	/mnt/hdd/Trash/000_wallhaven-ym9wkx.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_way_trees.jpg
-	/mnt/hdd/Trash/000_way_trees.jpg
-t/home/marcosrdac/.local/share/Trash/000_000_xFMxyV3.jpg
-	/mnt/hdd/Trash/000_xFMxyV3.jpg
-t/home/marcosrdac/.local/share/Trash/000_.virtual_machines
-	/mnt/hdd/.virtual_machines
-t/home/marcosrdac/.local/share/Trash/000_stream
-	/mnt/hdd/MEGA/books/stream
-t/home/marcosrdac/.local/share/Trash/002_apple.png_wal_sample.png
-	/home/marcosrdac/wallpapers/favorites/apple.png_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_arara_azul_brazil_total_gc.jpg_wal_sample.png
-	/home/marcosrdac/wallpapers/favorites/arara_azul_brazil_total_gc.jpg_wal_sample.png
-t/home/marcosrdac/.local/share/Trash/000_mpv.conf
-	/home/marcosrdac/.config/mpv/mpv.conf
-t/home/marcosrdac/.local/share/Trash/000_old_pics
-	/home/marcosrdac/projects/potenciais/3_rtp/old_pics
-t/home/marcosrdac/.local/share/Trash/000_potential_methods_processing
-	/home/marcosrdac/projects/potential_methods_processing
-t/home/marcosrdac/.local/share/Trash/000_datefile.md
-	/home/marcosrdac/projects/nasa-picture-bg/datefile.md
-t/home/marcosrdac/.local/share/Trash/000_bg.png
-	/home/marcosrdac/projects/nasa-picture-bg/bg.png
-t/home/marcosrdac/.local/share/Trash/000_main.py
-	/home/marcosrdac/wallpapers/favorites/main.py
-t/home/marcosrdac/.local/share/Trash/000_todays_nasa_figure.png
-	/home/marcosrdac/projects/todays_nasa_picture/todays_nasa_figure.png
-t/home/marcosrdac/.local/share/Trash/000_nasa-picture-bg
-	/home/marcosrdac/projects/nasa-picture-bg
-t/home/marcosrdac/.local/share/Trash/000_20190421070421_screencast.mkv
-	/mnt/hdd/MEGA/videos/screencasts/20190421070421_screencast.mkv
-t/home/marcosrdac/.local/share/Trash/000_20190424222145_screencast.mkv
-	/mnt/hdd/MEGA/videos/screencasts/20190424222145_screencast.mkv
-t/home/marcosrdac/.local/share/Trash/000_20190424222303_screencast.mkv
-	/mnt/hdd/MEGA/videos/screencasts/20190424222303_screencast.mkv
-t/home/marcosrdac/.local/share/Trash/000_20190424222353_screencast.mkv
-	/mnt/hdd/MEGA/videos/screencasts/20190424222353_screencast.mkv
-t/home/marcosrdac/.local/share/Trash/000_20190424224555_screencast.mkv
-	/mnt/hdd/MEGA/videos/screencasts/20190424224555_screencast.mkv
-t/home/marcosrdac/.local/share/Trash/000_20190424233137_screencast.mkv
-	/mnt/hdd/MEGA/videos/screencasts/20190424233137_screencast.mkv
-t/home/marcosrdac/.local/share/Trash/000_i3bar_pomodoro_
-	/home/marcosrdac/.local/bin/i3bar/i3bar_pomodoro_
-t/home/marcosrdac/.local/share/Trash/000_i3bar_pomodoro_new
-	/home/marcosrdac/.local/bin/i3bar/i3bar_pomodoro_new
-t/home/marcosrdac/.local/share/Trash/000_OneDrive-2019-10-13.zip
-	/home/marcosrdac/tmp/nordeste/OneDrive-2019-10-13.zip
-t/home/marcosrdac/.local/share/Trash/000_Atividade I.docx
-	/home/marcosrdac/tmp/ufba/perfilagem_geofisica_em_poco_aberto/Atividade I.docx
-t/home/marcosrdac/.local/share/Trash/000_out.jpeg
-	/home/marcosrdac/wallpapers/favorites/out.jpeg
-t/home/marcosrdac/.local/share/Trash/000_out.jpg
-	/home/marcosrdac/wallpapers/favorites/out.jpg
-t/home/marcosrdac/.local/share/Trash/000_dotfiles
-	/home/marcosrdac/dotfiles
-t/home/marcosrdac/.local/share/Trash/000_awe
-	/home/marcosrdac/awe
-t/home/marcosrdac/.local/share/Trash/000_not_oil.png
-	/home/marcosrdac/not_oil.png
-t/home/marcosrdac/.local/share/Trash/000_oil_1.xcf
-	/home/marcosrdac/oil_1.xcf
-t/home/marcosrdac/.local/share/Trash/000_possibly_oil.png
-	/home/marcosrdac/possibly_oil.png
-t/home/marcosrdac/.local/share/Trash/000_possibly_oil.xcf
-	/home/marcosrdac/possibly_oil.xcf
-t/home/marcosrdac/.local/share/Trash/000_500.days.of.summer.(2009).pob.1cd.(3606006)(1).zip
-	/home/marcosrdac/tmp/500.days.of.summer.(2009).pob.1cd.(3606006)(1).zip
-t/home/marcosrdac/.local/share/Trash/000_2001.a.space.odyssey.(3529950).nfo
-	/home/marcosrdac/tmp/torrents/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous/2001.a.space.odyssey.(3529950).nfo
-t/home/marcosrdac/.local/share/Trash/000_2001_a_space_odyssey_(1968).zip
-	/home/marcosrdac/tmp/torrents/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous/2001_a_space_odyssey_(1968).zip
-t/home/marcosrdac/.local/share/Trash/000_0blindness.(2008).pob.1cd.(3407270).zip
-	/home/marcosrdac/tmp/torrents/0blindness.(2008).pob.1cd.(3407270).zip
-t/home/marcosrdac/.local/share/Trash/000_0interstellar.(2014).pob.1cd.(7842268).zip
-	/home/marcosrdac/tmp/torrents/0interstellar.(2014).pob.1cd.(7842268).zip
-t/home/marcosrdac/.local/share/Trash/000_0jackie.brown.(1997).pob.1cd.(7267232).zip
-	/home/marcosrdac/tmp/torrents/0jackie.brown.(1997).pob.1cd.(7267232).zip
-t/home/marcosrdac/.local/share/Trash/000_0kill.bill.vol.1.(2003).pob.1cd.(7737508).zip
-	/home/marcosrdac/tmp/torrents/0kill.bill.vol.1.(2003).pob.1cd.(7737508).zip
-t/home/marcosrdac/.local/share/Trash/000_0kill.bill.vol.2.(2004).pob.1cd.(7737509).zip
-	/home/marcosrdac/tmp/torrents/0kill.bill.vol.2.(2004).pob.1cd.(7737509).zip
-t/home/marcosrdac/.local/share/Trash/000_0koe.no.katachi.(2016).pob.1cd.(7686651).zip
-	/home/marcosrdac/tmp/torrents/0koe.no.katachi.(2016).pob.1cd.(7686651).zip
-t/home/marcosrdac/.local/share/Trash/000_0lady.bird.(2017).pob.1cd.(7737518).zip
-	/home/marcosrdac/tmp/torrents/0lady.bird.(2017).pob.1cd.(7737518).zip
-t/home/marcosrdac/.local/share/Trash/000_0melancholia.(2011).pob.1cd.(7194249).zip
-	/home/marcosrdac/tmp/torrents/0melancholia.(2011).pob.1cd.(7194249).zip
-t/home/marcosrdac/.local/share/Trash/000_0moonlight.(2016).pob.1cd.(7509469).zip
-	/home/marcosrdac/tmp/torrents/0moonlight.(2016).pob.1cd.(7509469).zip
-t/home/marcosrdac/.local/share/Trash/000_0reservoir.dogs.(1992).pob.1cd.(4708090).zip
-	/home/marcosrdac/tmp/torrents/0reservoir.dogs.(1992).pob.1cd.(4708090).zip
-t/home/marcosrdac/.local/share/Trash/000_0scott.pilgrim.vs.the.world.(2010).pob.1cd.(3942529).zip
-	/home/marcosrdac/tmp/torrents/0scott.pilgrim.vs.the.world.(2010).pob.1cd.(3942529).zip
-t/home/marcosrdac/.local/share/Trash/000_0star.wars.episode.viii.the.last.jedi.(2017).pob.1cd.(7287861).zip
-	/home/marcosrdac/tmp/torrents/0star.wars.episode.viii.the.last.jedi.(2017).pob.1cd.(7287861).zip
-t/home/marcosrdac/.local/share/Trash/000_0synecdoche.new.york.(2008).pob.1cd.(5699660).zip
-	/home/marcosrdac/tmp/torrents/0synecdoche.new.york.(2008).pob.1cd.(5699660).zip
-t/home/marcosrdac/.local/share/Trash/000_0the.godfather.(1972).pob.1cd.(7429116).zip
-	/home/marcosrdac/tmp/torrents/0the.godfather.(1972).pob.1cd.(7429116).zip
-t/home/marcosrdac/.local/share/Trash/000_0vertigo.(1958).pob.1cd.(7824051).zip
-	/home/marcosrdac/tmp/torrents/0vertigo.(1958).pob.1cd.(7824051).zip
-t/home/marcosrdac/.local/share/Trash/000_500.days.of.summer.(3606006).nfo
-	/home/marcosrdac/tmp/torrents/500.days.of.summer.(3606006).nfo
-t/home/marcosrdac/.local/share/Trash/000_blindness.(3407270).nfo
-	/home/marcosrdac/tmp/torrents/blindness.(3407270).nfo
-t/home/marcosrdac/.local/share/Trash/000_interstellar.(7842268).nfo
-	/home/marcosrdac/tmp/torrents/interstellar.(7842268).nfo
-t/home/marcosrdac/.local/share/Trash/000_jackie.brown.(7267232).nfo
-	/home/marcosrdac/tmp/torrents/jackie.brown.(7267232).nfo
-t/home/marcosrdac/.local/share/Trash/000_kill.bill.vol.1.(7737508).nfo
-	/home/marcosrdac/tmp/torrents/kill.bill.vol.1.(7737508).nfo
-t/home/marcosrdac/.local/share/Trash/000_kill.bill.vol.2.(7737509).nfo
-	/home/marcosrdac/tmp/torrents/kill.bill.vol.2.(7737509).nfo
-t/home/marcosrdac/.local/share/Trash/000_koe.no.katachi.(7686651).nfo
-	/home/marcosrdac/tmp/torrents/koe.no.katachi.(7686651).nfo
-t/home/marcosrdac/.local/share/Trash/000_lady.bird.(7737518).nfo
-	/home/marcosrdac/tmp/torrents/lady.bird.(7737518).nfo
-t/home/marcosrdac/.local/share/Trash/000_melancholia.(7194249).nfo
-	/home/marcosrdac/tmp/torrents/melancholia.(7194249).nfo
-t/home/marcosrdac/.local/share/Trash/000_moonlight.(7509469).nfo
-	/home/marcosrdac/tmp/torrents/moonlight.(7509469).nfo
-t/home/marcosrdac/.local/share/Trash/000_reservoir.dogs.(4708090).nfo
-	/home/marcosrdac/tmp/torrents/reservoir.dogs.(4708090).nfo
-t/home/marcosrdac/.local/share/Trash/000_scott.pilgrim.vs.the.world.(3942529).nfo
-	/home/marcosrdac/tmp/torrents/scott.pilgrim.vs.the.world.(3942529).nfo
-t/home/marcosrdac/.local/share/Trash/000_star.wars.episode.viii.the.last.(7287861).nfo
-	/home/marcosrdac/tmp/torrents/star.wars.episode.viii.the.last.(7287861).nfo
-t/home/marcosrdac/.local/share/Trash/000_synecdoche.new.york.(5699660).nfo
-	/home/marcosrdac/tmp/torrents/synecdoche.new.york.(5699660).nfo
-t/home/marcosrdac/.local/share/Trash/000_the.godfather.(7429116).nfo
-	/home/marcosrdac/tmp/torrents/the.godfather.(7429116).nfo
-t/home/marcosrdac/.local/share/Trash/000_vertigo.(7824051).nfo
-	/home/marcosrdac/tmp/torrents/vertigo.(7824051).nfo
-t/home/marcosrdac/.local/share/Trash/000_500.days.of.summer.(2009).pob.1cd.(3606006).zip
-	/home/marcosrdac/tmp/torrents/500.days.of.summer.(2009).pob.1cd.(3606006).zip
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_dan.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_dan.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_dut.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_dut.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_eng.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_eng.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_fin.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_fin.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_fre.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_fre.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_ger.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_ger.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_ita.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_ita.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_nor.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_nor.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_spa.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_spa.srt
-t/home/marcosrdac/.local/share/Trash/000_2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_swe.srt
-	/home/marcosrdac/tmp/torrents/2001_a.space_odyssey_(1968)/2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_swe.srt
-t/home/marcosrdac/.local/share/Trash/000_Blade Runner 2049.HDRip.XviD.AC3-EVO.nfo
-	/home/marcosrdac/tmp/torrents/blade_runner_2049_(2017)/Blade Runner 2049.HDRip.XviD.AC3-EVO.nfo
-t/home/marcosrdac/.local/share/Trash/000_sample.avi
-	/home/marcosrdac/tmp/torrents/blade_runner_2049_(2017)/sample.avi
-t/home/marcosrdac/.local/share/Trash/000_Subtitles
-	/home/marcosrdac/tmp/torrents/blade_runner_2049_(2017)/Subtitles
-t/home/marcosrdac/.local/share/Trash/000_WWW.YTS.RE.jpg
-	/home/marcosrdac/tmp/torrents/interstellar_(2014)/WWW.YTS.RE.jpg
-t/home/marcosrdac/.local/share/Trash/000_Torrent downloaded from Demonoid.com - Copy.txt
-	/home/marcosrdac/tmp/torrents/jackie_brown_(1997)/Torrent downloaded from Demonoid.com - Copy.txt
-t/home/marcosrdac/.local/share/Trash/000_AhaShare.com.txt
-	/home/marcosrdac/tmp/torrents/jackie_brown_(1997)/AhaShare.com.txt
-t/home/marcosrdac/.local/share/Trash/000_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/kill_bill_vol_1_(2003)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/001_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/kill_bill_vol_2_(2004)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/000_Downloaded from www.ETTV.tv .txt
-	/home/marcosrdac/tmp/torrents/lady_bird_(2017)/Downloaded from www.ETTV.tv .txt
-t/home/marcosrdac/.local/share/Trash/001_sample.avi
-	/home/marcosrdac/tmp/torrents/lady_bird_(2017)/sample.avi
-t/home/marcosrdac/.local/share/Trash/000_Other
-	/home/marcosrdac/tmp/torrents/melancholia_(2011)/Other
-t/home/marcosrdac/.local/share/Trash/000_Moonlight.2016.DVDScr.XVID.AC3.HQ.Hive-CM8.nfo
-	/home/marcosrdac/tmp/torrents/moonlight_(2016)/Moonlight.2016.DVDScr.XVID.AC3.HQ.Hive-CM8.nfo
-t/home/marcosrdac/.local/share/Trash/000_Torrent Downloaded From ExtraTorrent.cc.txt
-	/home/marcosrdac/tmp/torrents/moonlight_(2016)/Torrent Downloaded From ExtraTorrent.cc.txt
-t/home/marcosrdac/.local/share/Trash/002_sample.avi
-	/home/marcosrdac/tmp/torrents/moonlight_(2016)/sample.avi
-t/home/marcosrdac/.local/share/Trash/000_#IMPORTANTE, LEIA....txt
-	/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)/#IMPORTANTE, LEIA....txt
-t/home/marcosrdac/.local/share/Trash/000_capa.jpg
-	/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)/capa.jpg
-t/home/marcosrdac/.local/share/Trash/000_www.wolverdon.com.jpg
-	/home/marcosrdac/tmp/torrents/o_homem_duplo_(2006)/www.wolverdon.com.jpg
-t/home/marcosrdac/.local/share/Trash/002_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/reservoir_dogs_(1992)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/003_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/scott_pilgrim_vs_the_world_(2010)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/000_www.YTS.AM.jpg
-	/home/marcosrdac/tmp/torrents/star_wars_the_last_jedi_(2017)/www.YTS.AM.jpg
-t/home/marcosrdac/.local/share/Trash/000_RARBG.com.txt
-	/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)/RARBG.com.txt
-t/home/marcosrdac/.local/share/Trash/000_RARBG.com.mp4
-	/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)/RARBG.com.mp4
-t/home/marcosrdac/.local/share/Trash/000_synecdoche_new_york_(2008).nfo
-	/home/marcosrdac/tmp/torrents/synecdoche_new_york_(2008)/synecdoche_new_york_(2008).nfo
-t/home/marcosrdac/.local/share/Trash/004_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/the_godfather_(1972)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/005_WWW.YIFY-TORRENTS.COM.jpg
-	/home/marcosrdac/tmp/torrents/vertigo_(1958)/WWW.YIFY-TORRENTS.COM.jpg
-t/home/marcosrdac/.local/share/Trash/000_blade_runner_2049_(2017)_
-	/home/marcosrdac/movies/blade_runner_2049_(2017)_
-t/home/marcosrdac/.local/share/Trash/000_coraline_e_o_mundo_secreto_(2009)
-	/home/marcosrdac/movies/coraline_e_o_mundo_secreto_(2009)
-t/home/marcosrdac/.local/share/Trash/000_git
-	/home/marcosrdac/git
-t/home/marcosrdac/.local/share/Trash/000_MUNICIPIOS
-	/run/media/marcosrdac/30B0-F08D/MUNICIPIOS
-t/home/marcosrdac/.local/share/Trash/000_Visual Studio italics-as-bold
-	/media/Kindle/fonts/Envy Code R PR7/Visual Studio italics-as-bold
-t/home/marcosrdac/.local/share/Trash/000_android
-	/home/marcosrdac/projects/linux_learning/android
-t/home/marcosrdac/.local/share/Trash/000_VideoDecodeStats
-	/home/marcosrdac/VideoDecodeStats
-t/home/marcosrdac/.local/share/Trash/000_marcos_conceicao_cv_20192.pdf
-	/home/marcosrdac/documents/personal/curriculums/marcos_conceicao_cv_20192.pdf
-t/home/marcosrdac/.local/share/Trash/000_curriculum_vitae.pdf
-	/home/marcosrdac/documents/personal/curriculums/curriculum_vitae.pdf
-t/home/marcosrdac/.local/share/Trash/000_OneDrive-2019-10-24.zip
-	/home/marcosrdac/projects/oil_spot_determination/images/OneDrive-2019-10-24.zip
+t/home/marcosrdac/.local/share/Trash/000_m
+	/home/marcosrdac/.virtualenvs/m
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
-].1
+].0
 ]F
 s0

@@ -1,4 +1,6 @@
 ! font -----------------------------------------------------------------------
+!#define FONT_NAME Hermit
+!#define FONT_SIZE 10
 #define FONT_NAME Envy Code R
 #define FONT_SIZE 10
 !Hurmit Nerd Font     Why so buggy?

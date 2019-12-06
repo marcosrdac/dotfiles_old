@@ -1,7 +1,7 @@
 # GIMP gimp-crop-tool options
 
-(desired-fixed-size-height 0.000000)
-(desired-fixed-size-width 0.000000)
+(desired-fixed-size-height 0)
+(desired-fixed-size-width 0)
 (overridden-fixed-aspect yes)
 
 # end of gimp-crop-tool options

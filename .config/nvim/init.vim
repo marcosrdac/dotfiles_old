@@ -2,10 +2,21 @@
 
 " --- plugin management --- "
 call plug#begin('~/.vim/plugged')
-    Plug 'vim-syntastic/syntastic'  " syntax checker
+    " essential
+    Plug 'vim-syntastic/syntastic'                  " syntax checking
+    Plug 'neoclide/coc.nvim', {'branch': 'release'} " intelligent completion
+    Plug 'ctrlpvim/ctrlp.vim'                       " file fuzyfinder
+    Plug 'scrooloose/nerdcommenter'                 " (un)comments text
+
+    " NERDTree
+    Plug 'scrooloose/nerdtree'                      " file system explorer
+    Plug 'Xuyuanp/nerdtree-git-plugin'              " NERDTree git marks
+    Plug 'ryanoasis/vim-devicons'                   " file icons on NERDTree
+    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " highlights filetypes
+
+    " focused writing
     Plug 'junegunn/goyo.vim'        " center text
     Plug 'junegunn/limelight.vim'   " focused writing
-    Plug 'vifm/neovim-vifm'         " vifm
 call plug#end()
 
 
@@ -46,14 +57,14 @@ set backup
 set undofile
 
 
-" --- automation --- "
+" --- automation and plugins setup --- "
 " editing from where you were
 au BufReadPost * if line("'\"") > 0 | if line("'\"") <= line("$") | exe("norm '\"") | else | exe "norm $" | endif | endif
 " fold based on indent level and manual choices
-augroup vimrc
-  au BufReadPre * setlocal foldmethod=indent
-  au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
-augroup END
+"augroup vimrc
+"  au BufReadPre * setlocal foldmethod=indent
+"  au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
+"augroup END
 " deletes trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
 " xrdb whenever Xdefaults or Xresources are updated
@@ -67,13 +78,18 @@ autocmd BufWritePost root.cron !st -e sudo crontab %
 " generate site html files after _content files edition
 " NOT WORKING IM DOING SOMETHINS STUPID
 autocmd BufWritePost /home/marcosrdac/projects/site/marcosrdac.github.io/_content !python /home/marcosrdac/projects/site/marcosrdac.github.io/maker.py
-" file browsing with netrw
-let g:netrw_banner=0
-let g:netrw_browse_split=4
-let g:netrw_altv=1
-let g:netrw_liststyle=3
-let g:netrw_list_hide=netrw_gitignore#Hide()
-let g:netrw_list_hide.=',\(^\|\s\s\)zs\.\S\+'
+" NERDTree
+"   ignoring node modules
+let g:NERDTreeIgnore = ['^node_modules$']
+" vim-nerdtree-syntax-highlight
+"   diminishing lag
+let g:NERDTreeLimitedSyntax = 1
+"   highlighting entire line
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
+" CtrlP
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 " automating limelight plugin to follow goyo
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
@@ -87,6 +103,17 @@ ab abc abcdefghijklmnopqrstuvwxyz
 " setting leader
 let mapleader=" "
 
+
+" plugins
+"   nerdtree
+map <C-n> :NERDTreeToggle<CR>
+" NERDCommenter <c-_> means <c-/>
+nmap <c-_> <plug>NERDCommenterToggle
+vmap <c-_> <plug>NERDCommenterToggle
+"   ctrlp
+map <space>o :CtrlP<CR>
+
+
 " -- splitscreens -- "
 " splitting in i3 way
 set splitbelow splitright
@@ -95,6 +122,7 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+" remove these and add https://github.com/christoomey/vim-tmux-navigator
 
 " -- function buttons -- "
 " saving with <F1>
@@ -118,34 +146,6 @@ nnoremap f<leader><leader> <Esc>/<++><Enter>:noh<CR>"_c4l
 inoremap F<leader><leader> <Esc>?<++><Enter>:noh<CR>"_c4l
 vnoremap F<leader><leader> <Esc>?<++><Enter>:noh<CR>"_c4l
 nnoremap F<leader><leader> <Esc>?<++><Enter>:noh<CR>"_c4l
-
-" -- bracketing -- "
-"inoremap ( ()<++><Esc>4hi
-"inoremap ( ()<++><C-o>4h
-"inoremap [ []<++><Esc>4hi
-"inoremap { {}<++><Esc>4hi
-"inoremap < <><++><Esc>4hi
-"inoremap " ""<++><Esc>4hi
-"inoremap ' ''<++><Esc>4hi
-"inoremap (<Space> (
-"inoremap [<Space> [
-"inoremap {<Space> {
-"inoremap <<Space> <
-"inoremap "<Space> "
-"inoremap '<Space> '
-"inoremap () ()
-"inoremap [] []
-"inoremap {} {}
-"inoremap <> <>
-"inoremap "" ""
-"inoremap '' ''
-vnoremap s( <Esc>`>a)<Esc>`<i(<Esc><C-o>
-vnoremap s[ <Esc>`>a]<Esc>`<i[<Esc><C-o>
-vnoremap s{ <Esc>`>a}<Esc>`<i{<Esc><C-o>
-vnoremap s< <Esc>`>a><Esc>`<i<<Esc><C-o>
-vnoremap s" <Esc>`>a"<Esc>`<i"<Esc><C-o>
-vnoremap s' <Esc>`>a'<Esc>`<i'<Esc><C-o>
-
 
 " -- date stuff -- "
 inoremap ;df <++><Esc>:r !date '+\%Y\%m\%d\%H\%M\%S'<Enter>0v$h"dd"_dd?<++><Enter>v3l"dpa
