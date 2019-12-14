@@ -132,7 +132,7 @@ b/home/marcosrdac/wallpapers/
 	1570641995
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -141,12 +141,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/.local
-	share
-4
-d/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-26
 d/home/marcosrdac/tmp/ufba
 	metodos_eletromagneticos
 5
@@ -441,60 +435,15 @@ d/home/marcosrdac/.config
 d/home/marcosrdac/.config/sxhkd
 	sxhkdrc
 2
+d/home/marcosrdac/.config
+	sxhkd
+32
+d/home/marcosrdac/.config/sxhkd
+	sxhkdrc
+2
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/tmp/ufba
-	terra_solida
-12
-D/home/marcosrdac/tmp/ufba/terra_solida
-	Lista 1-FIS 138-2011.pdf
-15
-D/home/marcosrdac/tmp/ufba
-	calculo_numerico
-1
-D/home/marcosrdac/tmp/ufba/calculo_numerico
-	codes
-2
-D/home/marcosrdac/tmp/ufba/calculo_numerico/codes
-	lagrange.cpp
-3
-D/home/marcosrdac/tmp/ufba/calculo_numerico
-	Lista_de_Revisao
-1
-D/home/marcosrdac/tmp/ufba/calculo_numerico/Lista_de_Revisao
-	..
-0
-D/home/marcosrdac/tmp/ufba/calculo_numerico
-	Aula18.pdf
-20
-D/home/marcosrdac/.config/i3
-	config
-3
-D/home/marcosrdac/tmp
-	ExtratoMensalTD.xls
-14
-D/home/marcosrdac/.config
-	_tmux
-1
-D/home/marcosrdac/.config/_tmux
-	
-1
-D/home/marcosrdac/.config
-	tmux
-15
-D/home/marcosrdac/documents
-	info
-5
-D/home/marcosrdac/documents/info
-	..
-0
-D/home/marcosrdac/documents
-	todo
-14
-D/home/marcosrdac/documents/todo
-	play
-2
 D/home/marcosrdac/documents/todo/play
 	..
 0
@@ -744,10 +693,60 @@ D/home/marcosrdac/.config
 D/home/marcosrdac/.config/i3
 	config
 3
+D/home/marcosrdac/.config
+	polybar
+21
+D/home/marcosrdac/.config/polybar
+	config
+1
+D/home/marcosrdac/.config
+	Xresources
+0
+D/home/marcosrdac/.config/Xresources
+	main
+1
+D/home/marcosrdac/.config
+	Xresources
+0
+D/home/marcosrdac/.config/Xresources
+	main
+1
+D/home/marcosrdac/.config
+	polybar
+33
+D/home/marcosrdac/.config/polybar
+	config
+1
+D/home/marcosrdac/.config/i3
+	config
+3
+D/home/marcosrdac/.local/bin
+	i3bar
+2
+D/home/marcosrdac/.local/bin/i3bar
+	i3bar_date
+4
+D/home/marcosrdac/.config
+	shell
+11
+D/home/marcosrdac/.config/i3
+	config
+3
+D/home/marcosrdac/.config
+	i3blocks
+1
+D/home/marcosrdac/.config/i3blocks
+	i3blocks.conf
+2
+D/home/marcosrdac/.config
+	shell
+18
+D/home/marcosrdac/.config/Xresources
+	main
+1
 D
 
 # Command line history (oldest to newest):
-:mkdir gg
 :cumu
 :mkdir test
 :mkdir ip
@@ -850,15 +849,6 @@ D
 :q
 
 # Search history (oldest to newest):
-/poly
-/sei
-/per
-/bsp
-/pytho
-/merg
-/fichas
-/png
-/2019.*zip
 /minim
 /coel
 /pre
@@ -954,9 +944,13 @@ D
 /bi
 /i
 /i3
+/resou
+/poly
+/time
+/date
+/volum
 
 # Prompt history (oldest to newest):
-ptwin_peaks_red_room
 pwallhaven-769763
 ptraffic_light_gc.jpg
 pcrater_space

@@ -40,10 +40,12 @@ alt + shift + {h,j,k,l}
 # --- opening software --- #
 
 # terminal emulator
-alt + Return
-	$TERMINAL
-alt + o ; {_,alt + e,alt + w,alt + m}
-	{menu_run,gvim,firefox,thunderbird}
+alt + {Return,n}
+	{$TERMINAL,$FILEBROWSER}
+alt + o
+	menu_run
+#alt + o ; {_,alt + e,alt + w,alt + m}
+#	{menu_run,gvim,firefox,thunderbird}
 
 # program launcher
 #alt + o

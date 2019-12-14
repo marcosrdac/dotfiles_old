@@ -8,6 +8,7 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 export PAGER=less
 export TERMINAL="st"
+export FILEBROWSER="$TERMINAL -e vifm_ueberzug"
 export BROWSER="qutebrowser"
 export TRUEBROWSER="qutebrowser"
 export MAIL="$HOME/.local/share/mail/main"  # mutt

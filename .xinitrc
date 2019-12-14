@@ -15,4 +15,4 @@ fi
 
 [ -f /etc/xprofile ] && . /etc/xprofile
 [ -f ~/.xprofile ] && . ~/.xprofile
-[ -f ~/.xsession ] && . ~/.xsession
+[ -f ~/.xsession ] && . ~/.xsession bspwm

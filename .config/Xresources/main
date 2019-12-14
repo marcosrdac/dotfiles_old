@@ -2,7 +2,7 @@
 !#define FONT_NAME Hermit
 !#define FONT_SIZE 10
 #define FONT_NAME Envy Code R
-#define FONT_SIZE 12
+#define FONT_SIZE 10
 !Hurmit Nerd Font     Why so buggy?
 !Hermit               SO FLUFFY OPEN COOL!
 !Envy Code B 10pt     10, cool, good, best!
@@ -19,11 +19,14 @@
 
 *font_name: FONT_NAME
 *font_size: FONT_SIZE
-!*font: FONT_NAME:size=FONT_SIZE
 *font: FONT_NAME:size=FONT_SIZE:antialias=true:autohint=true
 
 *symbol_font_name: SYMBOL_FONT_NAME
 *symbol_font_size: SYMBOL_FONT_SIZE
+*symbol_font: SYMBOL_FONT_NAME:size=SYMBOL_FONT_SIZE:antialias=true:autohint=true
+
+*dpi: 100
+Xft.dpi: 100
 
 ! colors ---------------------------------------------------------------------
 #include "/home/marcosrdac/.cache/wal/colors.Xresources"
