@@ -133,14 +133,20 @@ b/home/marcosrdac/wallpapers/
 
 # TUI:
 al
-q1
-v1
+q0
+v2
 ov
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
+d/home/marcosrdac/.local
+	share
+4
+d/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+26
 d/home/marcosrdac/tmp/ufba
 	metodos_eletromagneticos
 5
@@ -433,23 +439,11 @@ d/home/marcosrdac/.config
 	sxhkd
 37
 d/home/marcosrdac/.config/sxhkd
-	sxhkdrc_example
+	sxhkdrc
 2
-d/home/marcosrdac/.config
-	bspwm
-0
-d/home/marcosrdac/.config/bspwm
-	bspwmrc
-1
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/tmp/ufba
-	calculo_numerico
-1
-D/home/marcosrdac/tmp/ufba/calculo_numerico
-	MAT174_Aula09.pdf
-16
 D/home/marcosrdac/tmp/ufba
 	terra_solida
 12
@@ -744,9 +738,16 @@ D/home/marcosrdac/.config/nvim
 D/home/marcosrdac/.config/nvim/autoload
 	plug.vim
 3
+D/home/marcosrdac/.config
+	i3
+3
+D/home/marcosrdac/.config/i3
+	config
+3
 D
 
 # Command line history (oldest to newest):
+:mkdir gg
 :cumu
 :mkdir test
 :mkdir ip
@@ -849,8 +850,10 @@ D
 :q
 
 # Search history (oldest to newest):
+/poly
 /sei
 /per
+/bsp
 /pytho
 /merg
 /fichas
@@ -948,7 +951,9 @@ D
 /kd
 /.q
 /sx
-/bsp
+/bi
+/i
+/i3
 
 # Prompt history (oldest to newest):
 ptwin_peaks_red_room
@@ -1051,6 +1056,7 @@ pautoload
 p_tmux.conf
 ptmux.conf
 p.nvidia-xinitrc
+p_sxhkdrc_example
 
 # Local filter history (oldest to newest):
 
