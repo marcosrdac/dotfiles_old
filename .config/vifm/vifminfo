@@ -13,6 +13,10 @@
 	/home/marcosrdac/.dotfiles
 	.gitignore
 1570209598
+'E
+	/etc
+	X11
+1576252104
 'H
 	/mnt/hdd
 	..
@@ -26,9 +30,9 @@
 	..
 1570211065
 'P
-	/home/marcosrdac/Dropbox/pictures
-	screenshots
-1571829835
+	/home/marcosrdac/Dropbox/pictures/screenshots
+	..
+1576204609
 'T
 	/home/marcosrdac/.local/share/Trash
 	..
@@ -57,6 +61,10 @@
 	/home/marcosrdac/documents
 	..
 1570209610
+'e
+	/etc
+	X11
+1576252095
 'f
 	/home/marcosrdac/.fonts
 	..
@@ -133,318 +141,309 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/.config/vim
-	vimrc
-10
+d/home/marcosrdac/tmp/ufba
+	metodos_eletromagneticos
+5
+d/home/marcosrdac/projects
+	site
+36
 d/home/marcosrdac/.config
-	nvim
-20
-d/home/marcosrdac/.config/nvim
-	init.vim
-6
-d/home/marcosrdac/tmp
-	04.Novos Preços Finais_Grupo B_Abril 2018_Res Homologatória 2.222.pdf
-0
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	..
-0
-d/home/marcosrdac/wallpapers
-	useful
-4
-d/home/marcosrdac/wallpapers/useful
-	000_wallhaven-770042.png
-1
-d/home/marcosrdac/wallpapers
-	_studies
-1
-d/home/marcosrdac/wallpapers/_studies
-	colors.csv
-2
-d/home/marcosrdac/wallpapers
-	_studies
-1
-d/home/marcosrdac
-	wallpapers
-15
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	..
-0
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	GM_space.jpg
-1
-d/home/marcosrdac/wallpapers
-	twin_peaks
+	shell
+17
+d/home/marcosrdac/.config/shell
+	shenv
+7
+d/home/marcosrdac/.config/i3
+	config
 3
-d/home/marcosrdac/wallpapers/twin_peaks
-	..
+d/home/marcosrdac/.config
+	i3
 0
-d/home/marcosrdac/wallpapers
-	twin_peaks
-3
 d/home/marcosrdac
-	books
-6
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	astronaut_with_coloured_jellyfish_completion.jpg
-4
-d/home/marcosrdac/projects
-	student_chapter
-37
-d/home/marcosrdac/projects/student_chapter
-	semana_de_geofisica
-5
-d/home/marcosrdac/projects/student_chapter/semana_de_geofisica
-	2019
-2
-d/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019
-	crachas
-1
-d/home/marcosrdac/projects/student_chapter/semana_de_geofisica/2019/crachas
-	crachas_palestrante.png
-9
-d/home/marcosrdac/tmp
-	04.Novos Preços Finais_Grupo B_Abril 2018_Res Homologatória 2.222.pdf
-0
-d/home/marcosrdac/projects
-	student_chapter
-36
-d/home/marcosrdac/tmp
-	everaldo_atth_24102019 - Sheet1.pdf
-36
-d/home/marcosrdac/documents
-	info
-5
-d/home/marcosrdac/documents/info
-	whatsapp
+	.xinitrc
+33
+d/home/marcosrdac/.config
+	shell
+21
+d/home/marcosrdac/.config/shell
+	shrc
 8
-d/home/marcosrdac/documents/info/whatsapp
-	sqpy.py
-5
-d/home/marcosrdac
-	books
-6
-d/media
-	RADAM
-2
-d/media/RADAM
-	X SGUFBA - ALUNOS
-11
-d/media
-	..
-0
-d/home/marcosrdac/projects
-	gradiente
-0
-d/home/marcosrdac/projects/gradiente
-	X SGUFBA - ALUNOS
-1
-d/home/marcosrdac/projects/gradiente/X SGUFBA - ALUNOS
-	..
-0
-d/home/marcosrdac/projects/gradiente
-	X SGUFBA - ALUNOS
-1
-d/home/marcosrdac/projects/gradiente/X SGUFBA - ALUNOS
-	..
-0
-d/home/marcosrdac/projects/gradiente
-	bib
-6
-d/home/marcosrdac/projects
-	gradiente
-0
-d/home/marcosrdac/projects/gradiente
-	estudo_de_caso.ipynb
-9
-d/media
-	sdc1-usb-Multiple_Card_Re
-1
-d/media/sdc1-usb-Multiple_Card_Re
-	congresso_ufba_2019_roda_com_ciencia.pdf
-19
-d/media
-	sdc-usb-Kingston_DataTra
-1
-d/media/sdc-usb-Kingston_DataTra
-	congresso_ufba_2019_roda_com_ciencia.pdf
-3
-d/media
-	..
-0
-d/home/marcosrdac/tmp
-	congresso_ufba_2019_roda_com_ciencia.pdf
-36
-d/home/marcosrdac/tmp/ufba
-	metodos_eletromagneticos
-5
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	exercicios
-2
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/exercicios
-	e07-dipolo-mag-camadas.pdf
-11
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	programa.md
-5
-d/home/marcosrdac/tmp
-	congresso_ufba_2019_roda_com_ciencia.pdf
-36
-d/home/marcosrdac
-	tmp
-14
-d/home/marcosrdac/tmp
-	congresso_ufba_2019_roda_com_ciencia.pdf
-36
-d/home/marcosrdac/tmp/ufba
-	metodos_eletromagneticos
-5
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	aulas
-1
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/aulas
-	..
-0
-d/home/marcosrdac
-	.local
-10
-d/home/marcosrdac/.local
-	..
-0
-d/home/marcosrdac
-	Desktop
+d/home/marcosrdac/.config
+	shell
 21
+d/home/marcosrdac/.config/shell
+	shrc
+8
+d/home/marcosrdac/.local/bin
+	st
+5
+d/home/marcosrdac/.local/bin/st
+	..
+0
+d/home/marcosrdac/.config
+	shell
+21
+d/home/marcosrdac/.config/shell
+	shrc
+8
+d/home/marcosrdac/.local/bin
+	menu
+3
 d/home/marcosrdac/books
+	Fowler C.M.R. - The Solid Earth_ An Introduction to Global Geophysics-Cambridge University Press.pdf
+8
+d/home/marcosrdac
+	.xinitrc
+33
+d/media
+	MULTIBOOT
+1
+d/media/MULTIBOOT
+	everaldo_atth_122019.xlsx
+20
+d/home/marcosrdac
+	MEGA
+2
+d/home/marcosrdac/MEGA
+	audios
+1
+d/home/marcosrdac/MEGA/audios
 	..
 0
-d/home/marcosrdac/tmp/ufba
-	calculo_numerico
+d/home/marcosrdac/MEGA
+	audios
 1
-d/home/marcosrdac/tmp/ufba/calculo_numerico
-	codes
+d/home/marcosrdac/MEGA/audios
+	dreams
 2
-d/home/marcosrdac/tmp/ufba/calculo_numerico/codes
-	1simpson_richardson.cpp
+d/home/marcosrdac/MEGA/audios/dreams
+	..
+0
+d/home/marcosrdac/MEGA/audios
+	dreams
+2
+d/home/marcosrdac
+	todo.md
+16
+d/home/marcosrdac/.config
+	Xauthority
+42
+d/home/marcosrdac
+	.bash_history
+37
+d/home/marcosrdac/.config
+	shell
+25
+d/home/marcosrdac/.config/shell
+	shenv
+7
+d/home/marcosrdac
+	.profile
+44
+d/home/marcosrdac/.dotfiles
+	.local
+5
+d/home/marcosrdac/.dotfiles/.local
+	share
+2
+d/home/marcosrdac/.dotfiles/.local/share
+	icons
+3
+d/home/marcosrdac/.dotfiles/.local
+	share
+2
+d/home/marcosrdac/.dotfiles
+	.cache
 1
-d/home/marcosrdac/tmp/ufba/calculo_numerico
-	codes
+d/home/marcosrdac/.dotfiles/.cache
+	history
 2
-d/home/marcosrdac/tmp/ufba/calculo_numerico/codes
-	1simpson_richardson.cpp
-1
-d/home/marcosrdac/tmp/ufba/calculo_numerico
-	codes
-2
-d/home/marcosrdac/tmp/ufba/calculo_numerico/codes
-	jacobi_gauss-seidel.cpp
+d/home/marcosrdac
+	.profile
+44
+d/
+	etc
 4
-d/home/marcosrdac/tmp/ufba/calculo_numerico
-	Simulado02.pdf
+d/etc
+	..
+0
+d/
+	etc
+4
+d/etc
+	..
+0
+d/home/marcosrdac/Dropbox/pictures
+	screenshots
+4
+d/home/marcosrdac/Dropbox/pictures/screenshots
+	urochordata_20191022021935_screenshot_1366x768.png
 36
-d/home/marcosrdac/tmp/ufba
-	metodos_eletromagneticos
-5
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	pdf
-3
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/pdf
-	..
-0
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	aulas
-1
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/aulas
-	em14-csamt.pdf
-14
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	aulas
-1
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/aulas
-	em14-csamt.pdf
-14
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	exercicios
+d/home/marcosrdac/tmp
+	A-fast-SIFT-based-method-for-copy-move-fo_2018_Future-Computing-and-Informat.pdf
+35
+d/home/marcosrdac/Dropbox/pictures/screenshots
+	20191205135723_sliceshot_636x311.png
+32
+d/home/marcosrdac
+	2019-12-13-102856_1366x768_scrot.png
+15
+d/home/marcosrdac/.local
+	share
+4
+d/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+26
+d/home/marcosrdac/.local
+	share
+4
+d/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+26
+d/home/marcosrdac
+	2019-12-13-102856_1366x768_scrot.png
+15
+d/home
+	marcosrdac
 2
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/exercicios
-	e07-dipolo-mag-camadas.pdf
-9
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	pdf
+d/
+	etc
+4
+d/etc
+	X11
+6
+d/etc/X11
+	xorg.conf.d
 3
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos/pdf
+d/etc/X11/xorg.conf.d
 	..
 0
-d/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	programa.md
-5
-d/home/marcosrdac/tmp/ufba
-	terra_solida
-12
-d/home/marcosrdac/tmp/ufba/terra_solida
-	Lista 5-FIS 138-2010.pdf
+d/etc/X11
+	nvidia-xorg.conf.d
+1
+d/etc/X11/nvidia-xorg.conf.d
+	..
+0
+d/etc/X11
+	nvidia-xorg.conf.d
+1
+d/etc/X11/nvidia-xorg.conf.d
+	30-nvidia.conf
+1
+d/home/marcosrdac
+	2019-12-13-102856_1366x768_scrot.png
+15
+d/home/marcosrdac/projects
+	site
+40
+d/home/marcosrdac/Dropbox/pictures/screenshots
+	20191113190824_screenshot_1366x768.png
+19
+d/home/marcosrdac
+	.nvidia-xinitrc
 21
+d/home/marcosrdac/.local
+	share
+4
+d/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+26
+d/home/marcosrdac/.local
+	lib
+2
+d/home/marcosrdac/documents
+	todo
+14
+d/home/marcosrdac/.dotfiles
+	.nvidia-xinitrc
+13
 d/home/marcosrdac
-	.virtual_machines
-18
-d/home/marcosrdac/.virtual_machines
+	.nvidia-xinitrc
+31
+d/home/marcosrdac/.local
+	share
+4
+d/home/marcosrdac/.config/Xresources
+	main
+1
+d/home/marcosrdac
+	.nvidia-xinitrc
+31
+d/home/marcosrdac/.config
+	shell
+26
+d/home/marcosrdac/.dotfiles
+	.config
+2
+d/home/marcosrdac/.dotfiles/.config
+	cron
+4
+d/home/marcosrdac/.config
+	sxhkd
+37
+d/home/marcosrdac/.config/sxhkd
 	..
 0
-d/home/marcosrdac
-	.virtualenvs
-19
-d/home/marcosrdac/.virtualenvs
-	get_env_details
-2
-d/home/marcosrdac
-	.virtualenvs
-19
-d/home/marcosrdac/.virtualenvs
-	get_env_details
+d/home/marcosrdac/.config
+	bspwm
+0
+d/home/marcosrdac/.config/bspwm
+	bspwmrc
 1
 d/home/marcosrdac/.config
-	nvim
-20
-d/home/marcosrdac/.config/nvim
-	init.vim
-6
-d/home/marcosrdac
-	Dropbox
-22
+	sxhkd
+37
+d/home/marcosrdac/.config/sxhkd
+	sxhkdrc
+1
 d/home/marcosrdac/.config
-	vim
+	sxhkd
+37
+d/home/marcosrdac/.config/sxhkd
+	sxhkdrc
+1
+d/home/marcosrdac/.config
+	shell
 34
-d/home/marcosrdac/.config/vim
-	vimrc
-11
+d/home/marcosrdac/.config/shell
+	shenv
+7
+d/home/marcosrdac
+	.steampid
+36
 d/home/marcosrdac/.config
-	nvim
-20
-d/home/marcosrdac/.config/nvim
-	init.vim
-6
+	bspwm
+0
+d/home/marcosrdac/.config/bspwm
+	bspwmrc
+1
+d/home/marcosrdac/.config
+	shell
+34
+d/home/marcosrdac
+	.xprofile
+39
+d/home/marcosrdac/.config
+	sxhkd
+37
+d/home/marcosrdac/.config/sxhkd
+	sxhkdrc
+1
+d/home/marcosrdac/.config
+	sxhkd
+37
+d/home/marcosrdac/.config/sxhkd
+	sxhkdrc_example
+2
+d/home/marcosrdac/.config
+	bspwm
+0
+d/home/marcosrdac/.config/bspwm
+	bspwmrc
+1
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/projects
-	raposinha
-22
-D/home/marcosrdac/tmp/ufba
-	metodos_eletromagneticos
-5
-D/home/marcosrdac/tmp/ufba/metodos_eletromagneticos
-	aulas
-1
 D/home/marcosrdac/tmp/ufba
 	calculo_numerico
 1
@@ -735,16 +734,19 @@ D/home/marcosrdac/mnt
 0
 D/home/marcosrdac
 	.profile
-24
+25
+D/home/marcosrdac/.config
+	nvim
+11
+D/home/marcosrdac/.config/nvim
+	autoload
+1
+D/home/marcosrdac/.config/nvim/autoload
+	plug.vim
+3
 D
 
 # Command line history (oldest to newest):
-:down
-:mkdir down
-:touch used_packages.md
-:touch aur
-:touch packages.md
-:mkdir .BACKUP
 :cumu
 :mkdir test
 :mkdir ip
@@ -762,9 +764,7 @@ D
 :touch stuff_with_username.md
 :touch .shrc
 :touch .aliases
-:w
 :touch .profile
-:Q
 :mkdir zsh
 :mkdir bash
 :mkdir Xresources
@@ -816,7 +816,6 @@ D
 :!git pull
 :!mpv vim\ qrec-2018-03-06_16.04.57
 :mkdir nordeste
-:wq
 :mkdir nymphomaniac_(2013(
 :mkdir images
 :mkdir gradiente
@@ -837,38 +836,19 @@ D
 :sort 
 :touch euler.cpp
 :touch richardson.cpp
+:touch test.py
+:w
 :empty
+:wq
+::q
+:Q
+:mkdir bspwm
+:mkdir sxhkd
+:touch bspwmrc
+:touch sxhkdrc
 :q
 
 # Search history (oldest to newest):
-/A
-/verti
-/God
-/The
-/Syn
-/Star
-/kill
-/Kill
-/melan
-/Ensaip
-/Silen
-/ensa
-/rese
-/ny
-/koe
-/jacke
-/jack
-/moonll
-/moon
-/lady
-/anti
-/nym
-/reser
-/inter
-/movi
-/inf
-/bolsa
-/offl
 /sei
 /per
 /pytho
@@ -876,7 +856,6 @@ D
 /fichas
 /png
 /2019.*zip
-/oil
 /minim
 /coel
 /pre
@@ -887,7 +866,6 @@ D
 /crono
 /evera
 /wha
-/pro
 /gradi
 /ll'M'tkjj
 /congress
@@ -918,9 +896,7 @@ D
 /calc
 /revis
 /lista
-/tmux
 /info
-/todo
 /latex
 /geo
 /cas
@@ -929,7 +905,6 @@ D
 /chances
 /mpv
 /wpg
-/loca
 /poten
 /calcu
 /frica
@@ -939,19 +914,43 @@ D
 /vir
 /:
 /nvi
+/oil
+/za
+/vimr
+/.vim
+/conf
+/nv
 /vim
 /nvim
+/site
+/tmu
+/tm
+/she
+/sh
+/todo
+/tmux
+/ter
+/Fow
+/xls
+/mega
+/Xa
+/loca
+/screen
+/etc
+/X11
+/nvidia
+/sxhk
+/pro
+/xsess
+/bs
+/xini
+/sk
+/kd
+/.q
+/sx
+/bsp
 
 # Prompt history (oldest to newest):
-plink_dropbox.md
-pterra_solida_1
-plow_contrast_forest
-poroboros_urgence_gc
-p/home/marcosrdac/wallpapers/favorites/red_night_street_void_urgence.jpg
-pred_night_street_void_urgence
-psea_aired_forest_fresh_sunday_gcj
-psea_aired_forest_fresh_sunday_gc
-ptwin_peaks_red_room.jpg
 ptwin_peaks_red_room
 pwallhaven-769763
 ptraffic_light_gc.jpg
@@ -1043,17 +1042,45 @@ p1simpson_richardson.cpp
 plagrange_interrpol
 plagrange_interrpol.c
 plagrange_diff.cpp
+pvim
+pinit.v
+pinit.vim
+pvimrc
+p.vim
+pautoload
+p_tmux.conf
+ptmux.conf
+p.nvidia-xinitrc
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/001_m
+""/home/marcosrdac/.dotfiles/.config/bspwm
+""/home/marcosrdac/.dotfiles/.config/sxhkd
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-t/home/marcosrdac/.local/share/Trash/000_m
-	/home/marcosrdac/.virtualenvs/m
+t/home/marcosrdac/.local/share/Trash/000_tmux-client-60494.log
+	/home/marcosrdac/tmux-client-60494.log
+t/home/marcosrdac/.local/share/Trash/000_tmux-client-78879.log
+	/home/marcosrdac/tmux-client-78879.log
+t/home/marcosrdac/.local/share/Trash/000_tmux-server-60496.log
+	/home/marcosrdac/tmux-server-60496.log
+t/home/marcosrdac/.local/share/Trash/000_tmux-server-78881.log
+	/home/marcosrdac/tmux-server-78881.log
+t/home/marcosrdac/.local/share/Trash/000_sess
+	/home/marcosrdac/sess
+t/home/marcosrdac/.local/share/Trash/000_.steampath
+	/home/marcosrdac/.steampath
+t/home/marcosrdac/.local/share/Trash/000_.themes
+	/home/marcosrdac/.themes
+t/home/marcosrdac/.local/share/Trash/000_Desktop
+	/home/marcosrdac/Desktop
+t/home/marcosrdac/.local/share/Trash/000_.Xauthority
+	/home/marcosrdac/.Xauthority
+t/home/marcosrdac/.local/share/Trash/000_2019-12-13-102845_1366x768_scrot.png
+	/home/marcosrdac/2019-12-13-102845_1366x768_scrot.png
 
 # State:
 f

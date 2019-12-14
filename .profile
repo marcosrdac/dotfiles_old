@@ -2,3 +2,4 @@
 
 . $HOME/.config/shell/shenv
 . $HOME/.config/shell/shrc
+#mpd &

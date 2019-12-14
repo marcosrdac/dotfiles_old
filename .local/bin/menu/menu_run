@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Import the colors
+. "${HOME}/.cache/wal/colors.sh"
+
+# call dmenu with custom settings
+dmenu_run -i  -b -l 15 -fn "$(xrdb -query | awk '$1~/^*font:$/{$1=""; print $0}')" -nb "$background" -nf "$foreground" -sb "$foreground" -sf "$background" "$@"

@@ -31,7 +31,7 @@ alias ll="ls -l"
 alias la="ls -la"
 alias s='sudo -s -E'
 alias x='startx'
-alias nx='nvidia-xrun && clear'
+alias nx='nvidia-xrun'
 
 alias v='nvim'
 alias n='vifm_ueberzug'

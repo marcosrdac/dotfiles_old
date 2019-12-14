@@ -1,0 +1,75 @@
+#
+# wm independent hotkeys
+#
+
+
+# --- focus/swap --- #
+
+# focus/move the node in/to the given direction
+alt + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+# focus the next/previous node in the current desktop
+alt + {p,n}
+	bspc node -f {prev,next}.local
+# focus the last node/desktop
+alt + {grave,Tab}
+	bspc {node,desktop} -f last
+# close and kill
+alt + shift + {_,ctrl + }q
+	bspc node -{c,k}
+# focus or send to the given desktop
+alt + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+# alternate between the tiled and monocle layout
+alt + f
+	bspc desktop -l next
+# swap the current node and the biggest node
+alt + g
+	bspc node -s biggest
+# expand a window by moving one of its side outward
+alt + ctrl + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0  20,top 0 -20,right  20 0}
+# contract a window by moving one of its side inward
+alt + ctrl + shift + {l,k,j,h}
+	bspc node -z {left  20 0,bottom 0 -20,top 0  20,right -20 0}
+# move a floating window
+alt + shift + {h,j,k,l}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+# --- opening software --- #
+
+# terminal emulator
+alt + Return
+	$TERMINAL
+alt + o ; {_,alt + e,alt + w,alt + m}
+	{menu_run,gvim,firefox,thunderbird}
+
+# program launcher
+#alt + o
+
+
+# make sxhkd reload its configuration files:
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+# browser
+alt + {_,shift +} b
+	{$BROWSER, firefox}
+
+# set the window state
+alt + {t,shift + t,space,m}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+# set the node flags
+alt + ctrl + {m,d,s,v}
+	bspc node -g {marked,locked,sticky,private}
+# focus the node for the given path jump
+alt + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# preselect the direction
+alt + ctrl + shift + {y,u,i,o}
+	bspc node -p {west,south,north,east}
+# preselect the ratio
+alt + ctrl + {1-9}
+	bspc node -o 0.{1-9}

@@ -16,9 +16,9 @@ tryDM() {
         parameters=''
         case $1 in
             i3|i3wm           ) executable=i3;;
+            bspwm             ) executable=bspwm;;
             dwm               ) executable=dwm;;
             awesome           ) executable=awesome;;
-            bspwm             ) executable=bspwm;;
             catwm             ) executable=catwm;;
             cinnamon          ) executable=cinnamon-session;;
             enlightenment     ) executable=enlightenment_start;;
@@ -52,6 +52,7 @@ then
 fi
 
 tryDM i3
+tryDM bspwm
 tryDM dwm
 tryDM xfce4
 tryDM mate
