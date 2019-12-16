@@ -1,0 +1,26 @@
+#!/bin/sh
+
+pidfile=/tmp/$(basename $0).pid
+echo $$ > $pidfile
+
+first_day=$(date "+%d")
+
+show_date ()
+{
+    label=$(date "+%H%M%S")
+    day=$(date "+%d")
+    if test ! $day=$first_day
+    then
+        first_day=$day
+    #kill -USR1
+    fi
+    echo $label
+}
+
+trap "rm -f $pidfile" EXIT KILL
+trap "show_date" USR1
+
+while true
+do
+    exec tail -f /dev/null & wait $!
+done

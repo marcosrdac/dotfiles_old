@@ -19,11 +19,11 @@
 
 *font_name: FONT_NAME
 *font_size: FONT_SIZE
-*font: FONT_NAME:size=FONT_SIZE:antialias=true:autohint=true
+*font: FONT_NAME:size=FONT_SIZE:antialias=true:autohint=true;2
 
 *symbol_font_name: SYMBOL_FONT_NAME
 *symbol_font_size: SYMBOL_FONT_SIZE
-*symbol_font: SYMBOL_FONT_NAME:size=SYMBOL_FONT_SIZE:antialias=true:autohint=true
+*symbol_font: SYMBOL_FONT_NAME:size=SYMBOL_FONT_SIZE:antialias=true:autohint=true;1
 
 *dpi: 100
 Xft.dpi: 100

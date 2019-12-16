@@ -84,6 +84,7 @@ prependpath() {
 }
 
 prependpath "$HOME/.local/bin"
+prependpath "$HOME/.local/bin/polybar"
 prependpath "$HOME/.local/bin/i3bar"
 prependpath "$HOME/.local/bin/menu"
 appendpath "$HOME/.local/bin/podcast2playlist"

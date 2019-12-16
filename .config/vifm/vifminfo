@@ -141,12 +141,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/tmp/ufba
-	metodos_eletromagneticos
-5
-d/home/marcosrdac/projects
-	site
-36
 d/home/marcosrdac/.config
 	shell
 17
@@ -441,57 +435,15 @@ d/home/marcosrdac/.config
 d/home/marcosrdac/.config/sxhkd
 	sxhkdrc
 2
+d/home/marcosrdac/.config
+	bspwm
+0
+d/home/marcosrdac/.config/bspwm
+	bspwmrc
+1
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/documents/todo/play
-	..
-0
-D/home/marcosrdac/documents/todo
-	play.md
-4
-D/home/marcosrdac/projects
-	latex_learning
-0
-D/home/marcosrdac/projects/latex_learning
-	templates
-4
-D/home/marcosrdac/projects/latex_learning/templates
-	minimal
-1
-D/home/marcosrdac/projects/latex_learning/templates/minimal
-	minimal.tex
-5
-D/home/marcosrdac/projects/latex_learning/templates
-	studying
-2
-D/home/marcosrdac/projects/latex_learning/templates/studying
-	studying.tex
-4
-D/home/marcosrdac/projects/latex_learning/templates
-	studying
-2
-D/home/marcosrdac/projects
-	latex_learning
-0
-D/home/marcosrdac/tmp/ufba
-	geoprocessamento_e_geoestatistica
-2
-D/home/marcosrdac/tmp/ufba/geoprocessamento_e_geoestatistica
-	report
-1
-D/home/marcosrdac/tmp/ufba/geoprocessamento_e_geoestatistica/report
-	report_gg.pdf
-3
-D/home/marcosrdac/.config/Xresources
-	main
-1
-D/home/marcosrdac/projects/nex
-	casinha
-2
-D/home/marcosrdac/projects/nex/casinha
-	casinha_bb.png
-1
 D/home/marcosrdac/projects/nex
 	relatorios
 12
@@ -739,15 +691,63 @@ D/home/marcosrdac/.config/i3blocks
 	i3blocks.conf
 2
 D/home/marcosrdac/.config
-	shell
-18
+	bspwm
+0
+D/home/marcosrdac/.config/bspwm
+	bspwmrc
+1
+D/home/marcosrdac/.config
+	polybar
+31
+D/home/marcosrdac/.config/polybar
+	config
+1
 D/home/marcosrdac/.config/Xresources
 	main
 1
+D/home/marcosrdac
+	.xprofile
+35
+D/home/marcosrdac/.config
+	bspwm
+0
+D/home/marcosrdac/.config/bspwm
+	bspwmrc
+1
+D/home/marcosrdac/.config
+	ncmpcpp
+25
+D/home/marcosrdac/.config/ncmpcpp
+	config_docs
+4
+D/home/marcosrdac/.config
+	polybar
+31
+D/home/marcosrdac
+	.config
+0
+D/home/marcosrdac/.config
+	polybar
+31
+D/home/marcosrdac/.config/polybar
+	config
+2
+D/home/marcosrdac/projects/nex
+	merg_dina
+10
+D/home/marcosrdac
+	.xsession
+28
+D/home/marcosrdac/.local/bin
+	polybar
+5
+D/home/marcosrdac/.local/bin/polybar
+	polybar_date_calendar
+3
 D
 
 # Command line history (oldest to newest):
-:cumu
+:restore
 :mkdir test
 :mkdir ip
 :touch iptables.md
@@ -768,7 +768,6 @@ D
 :mkdir zsh
 :mkdir bash
 :mkdir Xresources
-:mk
 :enpty
 :mkdir palettes
 :mkdir logos
@@ -847,12 +846,11 @@ D
 :touch bspwmrc
 :touch sxhkdrc
 :q
+:touch colors
+:mk
 
 # Search history (oldest to newest):
-/minim
-/coel
-/pre
-/ju
+/batt
 /wal
 /ast
 /stude
@@ -934,9 +932,6 @@ D
 /nvidia
 /sxhk
 /pro
-/xsess
-/bs
-/xini
 /sk
 /kd
 /.q
@@ -945,14 +940,21 @@ D
 /i
 /i3
 /resou
-/poly
 /time
 /date
 /volum
+/poly
+/bsp
+/bs
+/ncm
+/xinit
+/xprof
+/xini
+/xsess
 
 # Prompt history (oldest to newest):
-pwallhaven-769763
 ptraffic_light_gc.jpg
+ppolybar_time
 pcrater_space
 pcrater
 pjupyter_brown_turbulence
@@ -1051,12 +1053,13 @@ p_tmux.conf
 ptmux.conf
 p.nvidia-xinitrc
 p_sxhkdrc_example
+ppolybar_date
+ppolybar_date_calendar
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.dotfiles/.config/bspwm
-""/home/marcosrdac/.dotfiles/.config/sxhkd
+""/home/marcosrdac/.local/share/Trash/000_polybar_date2
 
 # Directory stack (oldest to newest):
 
@@ -1081,6 +1084,28 @@ t/home/marcosrdac/.local/share/Trash/000_.Xauthority
 	/home/marcosrdac/.Xauthority
 t/home/marcosrdac/.local/share/Trash/000_2019-12-13-102845_1366x768_scrot.png
 	/home/marcosrdac/2019-12-13-102845_1366x768_scrot.png
+t/home/marcosrdac/.local/share/Trash/000_i3bar_pomodoro
+	/home/marcosrdac/.config/i3blocks/i3bar_pomodoro
+t/home/marcosrdac/.local/share/Trash/000_i3bar_date
+	/home/marcosrdac/.config/sxhkd/i3bar_date
+t/home/marcosrdac/.local/share/Trash/000_polybar_date
+	/home/marcosrdac/.config/sxhkd/polybar_date
+t/home/marcosrdac/.local/share/Trash/000_font_awesome_5
+	/home/marcosrdac/.local/share/fonts/font_awesome_5
+t/home/marcosrdac/.local/share/Trash/000_.xinitrc
+	/home/marcosrdac/.config/bspwm/.xinitrc
+t/home/marcosrdac/.local/share/Trash/000_backlight.cpp
+	/home/marcosrdac/.local/bin/polybar/backlight.cpp
+t/home/marcosrdac/.local/share/Trash/001_polybar_bright
+	/home/marcosrdac/.local/bin/polybar/polybar_bright
+t/home/marcosrdac/.local/share/Trash/001_polybar_date
+	/home/marcosrdac/.local/bin/polybar/polybar_date
+t/home/marcosrdac/.local/share/Trash/000_polybar_bright
+	/home/marcosrdac/projects/linux_learning/polybar_bright
+t/home/marcosrdac/.local/share/Trash/000_mpc_show
+	/home/marcosrdac/.local/bin/polybar/mpc_show
+t/home/marcosrdac/.local/share/Trash/000_polybar_date2
+	/home/marcosrdac/.local/bin/polybar/polybar_date2
 
 # State:
 f

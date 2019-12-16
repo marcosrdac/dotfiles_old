@@ -2,4 +2,5 @@
 
 setxkbmap -layout br -option caps:swapescape
 xinput --set-prop "ELAN0501:01 04F3:3060 Touchpad" "libinput Tapping Enabled" 1
-dunst_start &
+xsetroot -cursor_name left_ptr
+sh $HOME/.fehbg &
