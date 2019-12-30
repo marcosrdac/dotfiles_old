@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+ids=$(xdotool search --class $1)
+echo $ids
+
+if [ "$ids" != "" ]
+then
+  for id in $ids
+  do
+    bspc node $id --flag hidden -f
+  done
+fi

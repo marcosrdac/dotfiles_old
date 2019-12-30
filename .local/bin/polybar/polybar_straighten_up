@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+remainder_file="/tmp/remainder"
+
+message="Straighten up!"
+
+[ -f $remainder_file ] && prev="$(<"$remainder_file")"
+
+trap "dm_bar_write_remainder \"$prev\"; exit 0" INT TERM
+
+dm_bar_write_remainder "$message"
+sleep 10
+
+kill -TERM $$

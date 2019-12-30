@@ -2,15 +2,15 @@
 
 clear
 
-CONTADOR=1
+COUNT=1
 sleep 2
-while [  $CONTADOR -le 100 ]; do
-  echo $CONTADOR
+while [  $COUNT -le 100 ]; do
+  echo $COUNT
   sleep 1
   echo "vaai!"
   sleep 2
   echo "relaaaxa...
 "
   sleep 1
- let CONTADOR=CONTADOR+1;
+ let COUNT=COUNT+1;
 done

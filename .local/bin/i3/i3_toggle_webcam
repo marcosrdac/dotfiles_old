@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# inner+outer+border1+border2+10
+# 8    +4    +3      +5      +10
+disp=30
+webcam=/dev/video0
+
+pkill -f /dev/video || mpv --geometry=400-+$disp-+$disp --autofit=25% --profile=low-latency --untimed av://v4l2:$webcam

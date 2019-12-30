@@ -1,77 +1,194 @@
+# marcosrdac's sxhkdrc config file
 #
-# wm independent hotkeys
-#
+# I'll probably change a lot of my keybindings when I get
+# a keyboary that contains the SUPER key :)
 
 
-# --- focus/swap --- #
+# --- focus/swap/move/resize nodes and windows --- #
 
-# focus/move the node in/to the given direction
-alt + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
+# focus the node in/to the given direction
+alt + {h,j,k,l}
+	bspc node -f {west,south,north,east}
 # focus the next/previous node in the current desktop
 alt + {p,n}
 	bspc node -f {prev,next}.local
-# focus the last node/desktop
-alt + {grave,Tab}
+# focus the last node/desktop CHANGE THE GRAVE
+alt + {apostrophe,Tab}
 	bspc {node,desktop} -f last
-# close and kill
-alt + shift + {_,ctrl + }q
-	bspc node -{c,k}
 # focus or send to the given desktop
 alt + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
-# alternate between the tiled and monocle layout
-alt + f
-	bspc desktop -l next
-# swap the current node and the biggest node
-alt + g
-	bspc node -s biggest
+# focus the node for the given path jump
+alt + v : alt + {h,j,k,l,Tab}
+	bspc node -f @{west,south,north,east,brother}
+alt + v : alt + v
+	pkill -ALRM sxhkd
+# swap node#/window
+alt + shift + {h,j,k,l}
+	bspwm_window_move {west,south,north,east} 20
+# this is going to be used when I get a better keyboard
+# (i.e. one that has the super key)
+#super + {h,j,k,l}
+#	bspwm_euclid_mover {west,south,north,east} 20
+#	bspwm_window_move {left,down,up,right} 20
+# m: send the newest marked node to the newest preselected node
+# b: swap the current node and the biggest node
+alt + shift + s; {m,b}
+	{bspc node newest.marked -n newest.!automatic, \
+	 bspc node -s biggest}
+# resize window
+#alt + ctrl + {h,j,k,l}
+#	bspwm_resize {west,south,north,east} 20
 # expand a window by moving one of its side outward
 alt + ctrl + {h,j,k,l}
-	bspc node -z {left -20 0,bottom 0  20,top 0 -20,right  20 0}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 # contract a window by moving one of its side inward
-alt + ctrl + shift + {l,k,j,h}
-	bspc node -z {left  20 0,bottom 0 -20,top 0  20,right -20 0}
-# move a floating window
-alt + shift + {h,j,k,l}
-	bspc node -v {-20 0,0 20,0 -20,20 0}
+alt + ctrl + shift + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+
+# --- misc --- #
+
+# gaps management
+#alt + r : {1-9,0}
+#	bspc config window_gap $(( 5 * {0-9} ))
+
+
+# --- modes --- #
+
+# alternate between the tiled and monocle layout
+alt + g
+	bspc desktop -l next
+# set the window state
+alt + {t,shift + t,f}
+	bspc node -t {tiled,pseudo_tiled,fullscreen}
+	# backable fullscreen with bsp query and ||
+alt + {space}
+	{bspwm_toggle_floating}
+# set the node flags
+alt + m ; + {m,l,s,p}
+	bspc node -g {marked,locked,sticky,private}
+
+
+# --- controling windows --- #
+
+# close and kill
+alt + shift + {_,ctrl + } q
+	bspc node -{c,k}
+
+
+# preselect node split ratio
+alt + s ; {1-9}
+	bspc node -o 0.{1-9}
+# preselect node split direction
+alt + s ; {h,j,k,l}
+	bspc node -p {west,south,north,east}
+# cancel preselection for the focused node/desktop
+alt + s; {_,shift + } s
+	{bspc node -p cancel  , \
+	 bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel}
 
 
 # --- opening software --- #
 
-# terminal emulator
-alt + {Return,n}
-	{$TERMINAL,$FILEBROWSER}
-alt + o
-	menu_run
-#alt + o ; {_,alt + e,alt + w,alt + m}
-#	{menu_run,gvim,firefox,thunderbird}
+## terminal emulator and aplication menu
+{_,alt + v : } alt + {Return,o}
+	{ ,pkill -ALRM sxhkd;} \
+		{$TERMINAL   , \
+		 menu_run    }
 
-# program launcher
-#alt + o
+# opeinig default software (w for window)
+{_,alt + v : } alt + w ; {v,b,shift+b,n,shift+n,m,g,k,shift+k}
+	{ ,pkill -ALRM sxhkd;} \
+	{$TERMINAL -e $EDITOR, \
+	$BROWSER,			firefox, \
+	$TERMINAL -e $FILEBROWSER,	thunar, \
+	$TERMINAL -e ncmpcpp, \
+	gimp, \
+	keepmenu, \
+	keepassx2 \
+	}
 
 
-# make sxhkd reload its configuration files:
+# --- scratchpad --- #
+# scratchpad show (z for folding)
+alt + z ; {z,x,m,c}
+	{bspwm_toggle_hidden dropdown_terminal, \
+	 bspwm_toggle_hidden dropdown_mail, \
+	 bspwm_toggle_hidden dropdown_music_player, \
+	 bspwm_toggle_hidden dropdown_calculator}
+
+
+# --- scripts --- #
+
+# notifying scripts
+alt + c ; {r,p,m}
+	{dm_bar_write_remainder, \
+	show_clip_prim, \
+	mpc_show}
+
+# running any scripts
+alt + x ; {shift+q,r,u}
+	{dm_power_menu, \
+	 dm_recording_menu, \
+	 dm_useful_menu}
+alt + x ; w ; {w,f,j;l,l;j,j;h,h;j,k;l,l;k,k;h,h;k}
+	toggle_webcam {_,full,se,se,sw,sw,ne,ne,nw,nw}
+# other scripts
+alt + {shift + g}
+	{dm_bspwm_set_monocle_gaps}
+# running any scripts
+alt + e ; {s,p,v,b}
+	{$TERMINAL -e $EDITOR ~/.config/sxhkd/sxhkdrc , \
+	 $TERMINAL -e $EDITOR ~/.config/polybar/config , \
+	 $TERMINAL -e $EDITOR ~/.config/nvim/init.vim , \
+	 $TERMINAL -e $EDITOR ~/.config/bspwm/bspwmrc}
+
+# call an useful menu
+alt + Caps_Lock
+    pkill -USR2 sxhkd; sleep .1; xdotool key Caps_Lock; setxkbmap -layout br -option caps:swapescape; sleep .1; pkill -USR2 sxhkd
+# call an useful menu
 alt + Escape
-	pkill -USR1 -x sxhkd
+    dm_useful_menu
 
-# browser
-alt + {_,shift +} b
-	{$BROWSER, firefox}
 
-# set the window state
-alt + {t,shift + t,space,m}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
-# set the node flags
-alt + ctrl + {m,d,s,v}
-	bspc node -g {marked,locked,sticky,private}
-# focus the node for the given path jump
-alt + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
+# --- almost fixed stuff --- #
 
-# preselect the direction
-alt + ctrl + shift + {y,u,i,o}
-	bspc node -p {west,south,north,east}
-# preselect the ratio
-alt + ctrl + {1-9}
-	bspc node -o 0.{1-9}
+# alt + arrows for brightness and volume
+alt + {Left,Right,Down,Up}
+	{brightnessctl s 5%-; kill -USR1 $(cat /tmp/polybar_brightness$\{XDG_VTNR\}.pid) , \
+	 brightnessctl s +5%; kill -USR1 $(cat /tmp/polybar_brightness$\{XDG_VTNR\}.pid) , \
+	 pamixer --allow-boost -d 5 , \
+	 pamixer --allow-boost -i 5}
+
+# function keys
+alt + {F9,shift + F9}
+	{dm_mount_menu, dm_umount_menu}
+
+
+# --- fixed stuff --- #
+
+# controlling audio and music
+XF86MonBrightness{Down,Up}
+	{brightnessctl s 5%-; kill -USR1 $(cat /tmp/polybar_brightness$\{XDG_VTNR\}.pid) , \
+	 brightnessctl s +5%; kill -USR1 $(cat /tmp/polybar_brightness$\{XDG_VTNR\}.pid)}
+
+# controlling audio and music
+{XF86Audio{Play,Stop,Prev,Next,Mute,LowerVolume,RaiseVolume}
+	{mpc toggle                  , \
+	 mpc stop                    , \
+	 mpc prev                    , \
+	 mpc next                    , \
+	 pamixer --allow-boost -t    , \
+	 pamixer --allow-boost -d 5  , \
+	 pamixer --allow-boost -i 5}
+
+# screenshots
+{_,shift + ,alt +} @Print
+	{scrot '%Y%m%d%H%M%S_screenshot_$wx$h.png'    -e "mv \$f $SCREENSHOTS_FOLDER && xclip -selection clipboard -t image/png -i $SCREENSHOTS_FOLDER/\$f && notify-send 'Screenshot taken' 'location: $SCREENSHOTS_FOLDER/\$f\n\nImage copied to clipboard.'" , \
+	 scrot '%Y%m%d%H%M%S_sliceshot_$wx$h.png'  -s -e "mv \$f $SCREENSHOTS_FOLDER && xclip -selection clipboard -t image/png -i $SCREENSHOTS_FOLDER/\$f && notify-send 'Sliceshot taken'  'location: $SCREENSHOTS_FOLDER/\$f\n\nImage copied to clipboard.'"  , \
+	 scrot '%Y%m%d%H%M%S_windowshot_$wx$h.png' -u -e "mv \$f $SCREENSHOTS_FOLDER && xclip -selection clipboard -t image/png -i $SCREENSHOTS_FOLDER/\$f && notify-send 'Windowshot taken' 'location: $SCREENSHOTS_FOLDER/\$f\n\nImage copied to clipboard.'" }
+
+# power button
+XF86PowerOff
+	dm_power_menu

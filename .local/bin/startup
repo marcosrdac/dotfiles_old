@@ -1,0 +1,4 @@
+#!/bin/bash
+
+dropbox-cli running && dropbox-cli start </dev/null >/dev/null 2>&1 &
+mpd </dev/null >/dev/null 2>&1 &

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Script written by Marcos Concwição (marcosrdac)
+#
+# Function: use dmenu to make user choose option easily
+
+dmenu_command=${DMENU:-'dmenu'}
+
+ask=$1
+shift
+
+[ $# -gt 1 ] && choices="$1" && shift
+
+while [ "$1" != "" ]
+do
+  choices="$choices\n$1"
+  shift
+done
+
+chosen=$(echo -e $choices | $dmenu_command -p "$ask")
+
+echo $chosen

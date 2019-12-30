@@ -1,0 +1,17 @@
+#!/bin/sh
+
+recording_pidfile=/tmp/record_tty${XDG_VTNR}.pid
+
+askrecording()
+{
+  choice=$(dm_choose "recording menu" screencast)
+  [ ! -z choice ] && record "$choice"
+}
+
+asktoend()
+{
+	response=$(dm_choose "end current recording?" no yes)
+	[ $response = yes ] && record kill
+}
+
+record recording && (asktoend && exit 0) || askrecording

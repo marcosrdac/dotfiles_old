@@ -161,8 +161,8 @@ let g:NERDTreePatternMatchHighlightFullName = 1
 " CtrlP
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 " automating limelight plugin to follow goyo
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
+"autocmd! User GoyoEnter Limelight
+"autocmd! User GoyoLeave Limelight!
 
 
 " --- dictionaries --- "

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/surreal-4295436_960_720.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#24211c",
+        "foreground": "#fffff7",
+        "cursor": "#fffff7"
+    },
+    "colors": {
+        "color0": "#24211c",
+        "color1": "#B5C9B0",
+        "color2": "#9DB09A",
+        "color3": "#CBC4A1",
+        "color4": "#95C6B4",
+        "color5": "#AFAF93",
+        "color6": "#3FC3C3",
+        "color7": "#daddd0",
+        "color8": "#403a31",
+        "color9": "#dcffcc",
+        "color10": "#bcfab2",
+        "color11": "#ffffb9",
+        "color12": "#abffef",
+        "color13": "#f8f8aa",
+        "color14": "#41ffff",
+        "color15": "#fffff7"
+    }
+}

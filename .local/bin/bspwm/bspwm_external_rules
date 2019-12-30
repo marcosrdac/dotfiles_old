@@ -1,0 +1,38 @@
+#!/usr/bin/env sh
+
+wid=$1
+class=$2
+instance=$3
+
+# Debug
+#notify-send "new window" "id: $wid\nclass: $class\ninstance: $instance\nname: $name"
+
+
+case $class in
+  Gimp) echo "desktop=^5" ;;
+
+
+  # bar pop-up calendar
+  Yad) echo "state=floating border=off" ;;
+
+
+  # dropdown terminals
+  dropdown_terminal)
+    echo "state=floating sticky=on locked=on private=on hidden=on border=off center=false rectangle=$(bspwm_golden_rectangle 0 2 0 22)" ;;
+  dropdown_calculator)
+    echo "state=floating sticky=on locked=on private=on hidden=on border=on  center=true  rectangle=$(bspwm_golden_rectangle 2 2)" ;;
+  dropdown_mail)
+    echo "state=floating sticky=on locked=on private=on hidden=on border=on  center=true  rectangle=$(bspwm_golden_rectangle 1 1)" ;;
+  dropdown_music_player)
+    echo "state=floating sticky=on locked=on private=on hidden=on border=on  center=true  rectangle=$(bspwm_golden_rectangle 1 1)" ;;
+esac
+
+
+if [ $class = "mpv" ]
+then
+  name=$(xdotool getwindowname $wid)
+  if [ "$(echo \"$name\" | grep 'video[0-9]\+ - mpv')" ]
+  then
+    echo "state=floating focus=off sticky=on locked=on border=on manage=false"
+  fi
+fi

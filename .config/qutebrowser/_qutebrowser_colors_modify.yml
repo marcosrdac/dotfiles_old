@@ -1,0 +1,122 @@
+colors:
+    statusbar:
+        caret:
+            bg: "{color0}"
+            fg: "{color7}"
+        passthrough:
+            bg: "{color0}"
+            fg: "{color7}"
+        command:
+            bg: "{color7}"
+            fg: "{color0}"
+            private:
+                bg: "white"
+                fg: "black"
+        insert:
+            bg: "{color7}"
+            fg: "{color0}"
+        normal:
+            bg: "{color0}"
+            fg: "{color7}"
+        private:
+            bg: "black"
+            fg: "white"
+        progress:
+            bg: "{color7}"
+        url:
+            fg: "{color5}"
+            error:
+                fg: "{color3}"
+            hover:
+                fg: "{color7}"
+            success:
+                http:
+                    fg: "{color7}"
+                https:
+                    fg: "{color2}"
+            warn:
+                fg: "{color3}"
+    tabs:
+        bar:
+            bg: "{color0}"
+        even:
+            fg: "{color7}"
+            bg: "{color0}"
+        odd:
+            fg: "{color7}"
+            bg: "{color0}"
+        selected:
+            even:
+                fg: "{color0}"
+                bg: "{color7}"
+            odd:
+                fg: "{color0}"
+                bg: "{color7}"
+    completion:
+        category:
+            bg: "{color7}"
+            fg: "{color0}"
+            border:
+                bottom: "{color7}"
+                top: "{color7}"
+        even:
+            bg: "{color0}"
+        odd:
+            bg: "{color0}"
+        item:
+            selected:
+                bg: "{color7}"
+                fg: "{color0}"
+                border:
+                    bottom: "{color0}"
+                    top:    "{color0}"
+        match:
+            fg: "{color2}"
+        scrollbar:
+            bg: "{color7}"
+            fg: "{color0}"
+    downloads:
+        bar:
+            bg: "{color0}"
+        error:
+            fg: "{color7}"
+            bg: "{color2}"
+        start:
+            fg: "{color7}"
+            bg: "{color0}"
+        stop:
+            fg: "{color7}"
+            bg: "{color3}"
+    hints:
+        fg: "{color7}"
+        bg: "{color0}"
+        match:
+            fg: "{color2}"
+    keyhint:
+        fg: "{color7}"
+        bg: "{color0}"
+        suffix:
+            fg: "{color3}"
+    messages:
+        error:
+            fg: "{color0}"
+            bg: "{color3}"
+            border: "{color3}"
+        info:
+            fg: "{color0}"
+            bg: "{color7}"
+            border: "{color7}"
+        warning:
+            fg: "{color7}"
+            bg: "{color3}"
+            border: "{color3}"
+    prompts:
+        fg: "{color7}"
+        bg: "{color0}"
+        border: "{color0}"
+        selected:
+            bg: "{color3}"
+    webpage:
+        bg: "{color7}"
+hints:
+    border: "1px solid {color7}"

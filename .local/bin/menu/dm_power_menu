@@ -1,13 +1,14 @@
 #!/bin/sh
 
-choices="lock\nsuspend\nlogout\nreboot\nshutdown"
+#choices="lock\nsuspend\nlogout\nreboot\nshutdown"
+choices="suspend\nlogout\nreboot\nshutdown"
 chosen=$(echo -e "$choices" | menu -p "system menu:")
 
 
 case "$chosen" in
   lock)       i3lock --color "$background" ;;
   suspend)    systemctl suspend ;;
-  logout)     i3-msg exit ;;
+  logout)     bspc quit ;;
   reboot)     reboot ;;
   shutdown)   shutdown -h now ;;
 esac

@@ -8,12 +8,15 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 export PAGER=less
 export TERMINAL="st"
-export FILEBROWSER="$TERMINAL -e vifm_ueberzug"
+export FILEBROWSER="vifm_ueberzug"
 export BROWSER="qutebrowser"
+export ALTBROWSER="firefox"
 export TRUEBROWSER="qutebrowser"
 export MAIL="$HOME/.local/share/mail/main"  # mutt
 export READER="zathura"
-#export TERM=screen-256color
+export SCREENSHOTS_FOLDER="$HOME/pictures/screenshots"
+export SXHKD_FIFO=/tmp/sxhkd-fifo
+export DMENU=menu
 
 export INIT=$HOME/.config/nvim/init.vim
 
@@ -37,6 +40,7 @@ direnv GOPATH "$HOME/.cache/go"
 export INPUTRC="$HOME/.config/inputrc"
 export LESSHISTFILE="$HOME/.cache/lesshst"
 direnv npm_config_cache "$HOME/.cache/npm"
+export XRESOURCES=$HOME/.config/Xresources/main
 export PYTHONSTARTUP="$HOME/.config/pythonstartup.py"
 export SQLITE_HISTFILE="$HOME/.cache/sqlite_history"
 export MYVIMRC="$HOME/.config/vim/vimrc"
@@ -86,6 +90,7 @@ prependpath() {
 prependpath "$HOME/.local/bin"
 prependpath "$HOME/.local/bin/polybar"
 prependpath "$HOME/.local/bin/i3bar"
+prependpath "$HOME/.local/bin/bspwm"
 prependpath "$HOME/.local/bin/menu"
 appendpath "$HOME/.local/bin/podcast2playlist"
 

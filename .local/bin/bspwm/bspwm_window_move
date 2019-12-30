@@ -1,0 +1,20 @@
+#!/bin/bash
+
+ammount=${2:-'20'}
+dir=$1
+
+# If the window is floating, move it
+if [ ! $(bspc query -N -n focused.floating) ]
+then
+  bspc node -s $dir
+else
+  case "$dir" in
+    s*|e*) sign=+ ;;
+    n*|w*) sign=- ;;
+	esac
+  case "$dir" in
+    e*|w*) relpos="$sign$ammount 0" ;;
+		n*|s*) relpos="0 $sign$ammount" ;;
+	esac
+	bspc node -v $relpos
+fi

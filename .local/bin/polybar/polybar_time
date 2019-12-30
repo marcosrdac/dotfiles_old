@@ -24,3 +24,14 @@ while true
 do
     exec tail -f /dev/null & wait $!
 done
+
+#time (                                  [130]
+#        i=0
+#        d=$(date "+%S")
+#        while [[ i -lt 3600 ]]
+#        do
+#        nd=$(date "+%S %H%M%S")
+#        test "${nd% *}" = d || echo as || echo a
+#        let i+=1
+#        done
+#)

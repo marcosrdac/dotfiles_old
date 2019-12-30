@@ -1,0 +1,3 @@
+#!/bin/sh
+response=$(mpc current -f "[Title:\t%title%[\nAlbum:\t%album%][\nArtist:\t%artist%]]|[file:\t%file%]") &&
+notify-send "Playing" "$response"

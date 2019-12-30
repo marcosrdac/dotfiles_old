@@ -1,0 +1,12 @@
+[module/brightness]
+type = custom/script
+exec = ~/.local/bin/polybar/polybar_brightness
+tail = true
+format-prefix = "%{T1}%{T-} "
+label = %output%
+format =  <label>
+scroll-up = "brightnessctl s +5%; kill -USR1 %pid%"
+scroll-down = "brightnessctl s 5%-; kill -USR1 %pid%"
+click-left = "brightnessctl s 1%; kill -USR1 %pid%"
+click-middle = "brightnessctl s 30%; kill -USR1 %pid%"
+click-right = "brightnessctl s 100%; kill -USR1 %pid%"

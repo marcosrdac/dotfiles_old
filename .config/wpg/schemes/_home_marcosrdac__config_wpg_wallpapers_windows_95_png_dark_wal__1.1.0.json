@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/windows_95.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121314",
+        "foreground": "#f3ffff",
+        "cursor": "#f3ffff"
+    },
+    "colors": {
+        "color0": "#121314",
+        "color1": "#70939A",
+        "color2": "#458588",
+        "color3": "#E3C52B",
+        "color4": "#517B87",
+        "color5": "#95758B",
+        "color6": "#3C8688",
+        "color7": "#bac7c4",
+        "color8": "#292c2e",
+        "color9": "#80cad9",
+        "color10": "#4cb9be",
+        "color11": "#ffff26",
+        "color12": "#5ba7bd",
+        "color13": "#d286bb",
+        "color14": "#41babd",
+        "color15": "#f3ffff"
+    }
+}

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-pidfile=/tmp/$(basename $0).pid
-echo $$ > $pidfile
+pidfile=/tmp/$(basename $0)${XDG_VTNR}.pid
+test -f $pidfile && kill -TERM "$(cat $pidfile)" || echo $$ > $pidfile
 
 echo_brightness ()
 {
@@ -11,7 +11,7 @@ echo_brightness ()
 
 echo_brightness
 
-trap "rm -f $pidfile" EXIT KILL
+trap "rm -f $pidfile" EXIT QUIT TERM KILL
 trap "echo_brightness" USR1
 
 

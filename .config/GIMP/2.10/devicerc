@@ -3,11 +3,11 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpColorPickerOptions"
-        (tool "gimp-color-picker-tool")
-        (foreground (color-rgb 0 0.070588238537311554 0.12156863510608673))
-        (background (color-rgb 0 0 0)))
-    (use-fg-bg yes)
+    (tool-options "GimpRectangleSelectOptions"
+        (desired-fixed-size-height 0)
+        (desired-fixed-size-width 0)
+        (tool "gimp-rect-select-tool"))
+    (use-fg-bg no)
     (use-brush no)
     (use-dynamics no)
     (use-mypaint-brush no)

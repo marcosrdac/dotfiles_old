@@ -1,3 +1,4 @@
-*/10 * * * * export HOME="/home/marcosrdac/" && $HOME/.local/bin/check_mail -u quiet -q -f 'INBOX,Drafts,Spam,Trash,Sent Mail,Notes'
-5 */7 * * * export HOME="/home/marcosrdac/" && $HOME/bin/check_mail -u quiet
-17 */2 * * *  export HOME="/home/marcosrdac/" && $HOME/bin/podcast2playlist/rss2playlist
+*/10 * * * * export HOME="/home/marcosrdac" && $HOME/.local/bin/check_mail -u quiet -q -f 'INBOX,Drafts,Spam,Trash,Sent Mail,Notes'
+5 */7 * * * export HOME="/home/marcosrdac" && $HOME/.local/bin/check_mail -u quiet
+17 */2 * * *  export HOME="/home/marcosrdac" && $HOME/.local/bin/podcast2playlist/rss2playlist
+* * * * *  export HOME="/home/marcosrdac" && $HOME/.local/bin/polybar/polybar_straighten_up

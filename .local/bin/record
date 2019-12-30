@@ -1,0 +1,169 @@
+#!/usr/bin/env sh
+
+record_folder="$HOME/tmp/recordings"
+labelfifo="/tmp/recording_label.fifo"
+
+recording_pidfile="/tmp/$(basename $0).pid"
+out_file="/tmp/$(basename $0)_filename"
+
+recording()
+{
+  [ -f $recording_pidfile ] && recording_pid=$(<$recording_pidfile) || exit 1
+  $(ps -p $recording_pid > /dev/null) && exit 0 || exit 1
+}
+
+killrecording()
+{
+  if [ -f $recording_pidfile ]
+  then
+    recording_pid=$(<$recording_pidfile)
+    kill -TERM $recording_pid
+    rm -f $recording_pidfile
+    echo "" > $labelfifo
+  else
+    message="There is no pidfile at \"$recording_pidfile\"."
+    echo "$message" && notify-send "$message"
+    exit 1
+  fi
+}
+
+
+_output_path ()
+{
+  [ -d $record_folder ] || mkdir -p $record_folder
+  echo "$record_folder/$(date '+%Y%m%d%H%M%S')_$(echo ${FUNCNAME[1]})$([ -n $1 ] && echo .$1)"
+}
+
+
+opt="screencast"
+screencast()
+{
+  extension=mkv
+  out=$(_output_path $extension)
+  echo $out > $out_file
+  ffmpeg -y \
+    -f x11grab \
+    -framerate 60 \
+    -s $(xdpyinfo | grep dimensions | awk '{print $2;}') \
+    -i :0.0 \
+    -f alsa -i default \
+    -r 30 \
+    -c:v libx264rgb -crf 0 -preset ultrafast -c:a flac \
+    $out &
+  echo $! > $recording_pidfile
+  echo " " > $labelfifo
+}
+
+
+opt="$opt\nscreencast_comp"
+screencast_comp()
+{
+  extension=mkv
+  out=$(_output_path $extension)
+  echo $out > $out_file
+  ffmpeg -y \
+    -f x11grab \
+    -framerate 60 \
+    -s $(xdpyinfo | grep dimensions | awk '{print $2;}') \
+    -i :0.0 \
+    -f alsa -ac 2 -i hw:0 -c:v libx264 -crf 23 -pix_fmt yuv420p -c:a aac -ac 2 -b:a 128k -movflags faststart \
+    $out &
+  echo $! > $recording_pidfile
+  echo " " > $labelfifo
+}
+
+
+opt="$opt\naudio"
+audio()
+{
+  extension=flac
+  out=$(_output_path $extension)
+  echo $out > $out_file
+	ffmpeg -y \
+    -f alsa -i default \
+    -c:a flac \
+    $out &
+  echo $! > $recording_pidfile
+  echo "" > $labelfifo
+}
+
+opt="$opt\nvideo"
+video()
+{
+  extension=mkv
+  out=$(_output_path $extension)
+  echo $out > $out_file
+  ffmpeg -y \
+    -f x11grab \
+    -s $(xdpyinfo | grep dimensions | awk '{print $2;}') \
+    -i :0.0 \
+    -c:v libx264 -qp 0 -r 30 \
+    $out &
+  echo $! > $recording_pidfile
+  echo "" > $labelfifo
+}
+
+opt="$opt\nwebcam_and_microphone"
+webcam_and_microphone ()
+{
+  extension=mkv
+  out=$(_output_path $extension)
+  echo $out > $out_file
+  ffmpeg -y \
+    -f v4l2 \
+    -input_format mjpeg \
+    -video_size 1920x1080 \
+    -i /dev/video0 \
+    -f alsa \
+    -i default \
+    -c:v libx264 \
+    -preset ultrafast \
+    $out &
+  echo $! > $recording_pidfile
+  echo "" > $labelfifo
+}
+
+opt="$opt\nwebcam"
+webcam ()
+{
+  extension=mkv
+  out=$(_output_path $extension)
+  echo $out > $out_file
+  ffmpeg -y \
+    -f v4l2 \
+    -input_format mjpeg \
+    -video_size 1920x1080 \
+    -i /dev/video0 \
+    -preset ultrafast \
+    $out &
+  echo $! > $recording_pidfile
+  echo "" > $labelfifo
+}
+
+
+
+
+case "$1" in
+  screencast*|video*|audio*|webcam*) $1 ;;
+
+  kill)  killrecording ;;
+
+  --options) echo -e "$opt" ;;
+  -r|--recording) recording ;;
+  -f|--get-labelfifo) echo $labelfifo ;;
+  -o|--get-out-file) echo $out_file ;;
+
+  -h|--help)
+    echo "Usage:
+    record [$(echo -ne $opt | tr '\n' '|')]: records option.
+    record kill: kills already running recording.
+
+echo Options:
+    record -r|--recording: returns logical 0 if you are already recording, 1 instead.
+    record -f|--get-labelfifo: returns fifo to which label is being sent.
+    record --options: machine readable recording options.
+    record -h|--help: display this guide."
+    ;;
+
+  *) $(basename $0) --help && exit 1 ;;
+esac
