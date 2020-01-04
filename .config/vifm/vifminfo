@@ -132,8 +132,8 @@ b/home/marcosrdac/wallpapers/
 	1570641995
 
 # TUI:
-ar
-q1
+al
+q0
 v2
 ov
 m-1
@@ -141,18 +141,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/.config/sxhkd
-	sxhkdrc
-3
-d/home/marcosrdac/.config/i3
-	config
-3
-d/home/marcosrdac/.config
-	qutebrowser
-32
-d/home/marcosrdac/.config/i3
-	config
-3
 d/home/marcosrdac/.local/bin
 	bspwm
 0
@@ -439,74 +427,23 @@ d/home/marcosrdac/.local/bin
 	polybar
 6
 d/home/marcosrdac/.local/bin/polybar
-	polybar_recording
-3
+	polybar_read_remainder
+4
+d/home/marcosrdac/.config
+	shell
+34
+d/home/marcosrdac/.local/bin
+	menu
+5
+d/home/marcosrdac/.config
+	bspwm
+0
+d/home/marcosrdac/.config/bspwm
+	bspwmrc
+1
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/.local/bin/bspwm
-	bspwm_external_rules
-2
-D/
-	tmp
-18
-D/tmp
-	toggle_webcam.pid
-27
-D/
-	tmp
-18
-D/tmp
-	toggle_webcam.pid
-27
-D/
-	tmp
-16
-D/tmp
-	vifm-ipc-vifm
-26
-D/home/marcosrdac
-	..
-0
-D/home/marcosrdac/.local/bin
-	bspwm
-1
-D/home/marcosrdac/.local/bin/bspwm
-	bspwm_monocle_gaps
-3
-D/home/marcosrdac/.config
-	bspwm
-0
-D/home/marcosrdac/.config/bspwm
-	bspwmrc
-1
-D/home/marcosrdac/.config
-	shell
-37
-D/home/marcosrdac/.local/bin
-	polybar
-2
-D/home/marcosrdac/.local/bin/polybar
-	polybar_recording
-3
-D/home/marcosrdac/.local/bin
-	menu
-2
-D/home/marcosrdac/.local/bin/menu
-	dm_recording_menu
-9
-D/home/marcosrdac/.local/bin
-	polybar
-4
-D/home/marcosrdac/.local/bin/polybar
-	polybar_recording
-3
-D/home/marcosrdac/projects/linux_learning
-	shell.md
-11
-D/home/marcosrdac/tmp
-	..
-0
 D/home/marcosrdac
 	..
 0
@@ -744,10 +681,72 @@ D/home/marcosrdac/documents
 D/home/marcosrdac/.dotfiles
 	README.md
 21
+D/home/marcosrdac/.local/bin
+	menu
+5
+D/home/marcosrdac/.local/bin/menu
+	dm_bspwm_set_monocle_gaps
+2
+D/home/marcosrdac/.local/bin
+	bspwm
+1
+D/home/marcosrdac/.local/bin/bspwm
+	bspwm_window_move
+9
+D/home/marcosrdac/wallpapers
+	favorites
+3
+D/home/marcosrdac/wallpapers/favorites
+	pebbles_in_beach_sunset.jpg
+22
+D/home/marcosrdac/.local/bin
+	bspwm
+1
+D/home/marcosrdac/.local/bin/bspwm
+	bspwm_window_move
+9
+D/home/marcosrdac/documents
+	games
+4
+D/home/marcosrdac/documents/games
+	sg
+2
+D/home/marcosrdac/documents/games/sg
+	
+2
+D/home/marcosrdac/documents/games
+	cpg
+2
+D/home/marcosrdac/documents/games/cpg
+	chupanji.pdf
+2
+D/home/marcosrdac/.config
+	shell
+37
+D/home/marcosrdac/.local/bin
+	polybar
+7
+D/home/marcosrdac/.local/bin/polybar
+	polybar_read_remainder
+4
+D/home/marcosrdac/tmp
+	shednan.pdf
+37
+D/home/marcosrdac
+	series
+12
+D/home/marcosrdac/series
+	twin_peaks
+2
+D/home/marcosrdac/series/twin_peaks
+	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+3
+D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+	TPS02E14.mkv
+19
 D
 
 # Command line history (oldest to newest):
-:mkdir rss
 :!mpv %c
 :h
 :play
@@ -847,11 +846,9 @@ D
 :touch test1
 :bspwm_toggle_floating
 :q
+:zathura %
 
 # Search history (oldest to newest):
-/volum
-/ncm
-/xinit
 /xprof
 /xsess
 /kd
@@ -916,7 +913,6 @@ D
 /l
 /tmp
 /togl
-/bsp
 /bspw
 /s
 /pow
@@ -934,7 +930,6 @@ D
 /tm
 /re
 /fifo
-/poly
 /wifi
 /scre
 /reci
@@ -949,12 +944,13 @@ D
 /ffm
 /voo
 /som
+/eu
+/mov
+/poly
+/sche
+/bsp
 
 # Prompt history (oldest to newest):
-pmountains_sunrise
-p20516-vaporwave-wa
-pvaporwave_chess_greek_statue_in_pink
-p60793_photo_manipulation_vaporwave
 pvaporwave_skating
 phighway_coconut_trees_vaporwave.jpg
 p_studies
@@ -1051,11 +1047,15 @@ p20191229105243_jamile_feliz
 pdocuments
 ptest1.md
 pbspwm_toggle_floating
+pbspwm_toggle_mode
+pbspwm_toggle_state
+pchupangi
+pchupanji
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/bin/bspwm/bspwm_toggle_floating
+""/home/marcosrdac/.local/share/Trash/000_schednan.pdf
 
 # Directory stack (oldest to newest):
 
@@ -2366,6 +2366,16 @@ t/home/marcosrdac/.local/share/Trash/000_record.pid
 	/tmp/record.pid
 t/home/marcosrdac/.local/share/Trash/000_record_filename
 	/tmp/record_filename
+t/home/marcosrdac/.local/share/Trash/000_output.pdf
+	/home/marcosrdac/output.pdf
+t/home/marcosrdac/.local/share/Trash/000_test.mkv
+	/home/marcosrdac/test.mkv
+t/home/marcosrdac/.local/share/Trash/000_chupanji.tex
+	/home/marcosrdac/documents/games/cpg/chupanji.tex
+t/home/marcosrdac/.local/share/Trash/000_schedgabi.pdf
+	/home/marcosrdac/tmp/schedgabi.pdf
+t/home/marcosrdac/.local/share/Trash/000_schednan.pdf
+	/home/marcosrdac/tmp/schednan.pdf
 
 # State:
 f

@@ -4,5 +4,5 @@ fifo="/tmp/$(basename $0)"
 remainder="/tmp/remainder"
 
 [ -p $fifo ] || mkfifo $fifo
-echo "$(cat $remainder)"
+(sleep 1 && echo "$(cat $remainder)" > $fifo) &
 tail -f $fifo

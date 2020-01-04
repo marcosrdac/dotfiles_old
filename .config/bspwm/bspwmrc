@@ -10,6 +10,7 @@ polybar standard &
 sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
+bspc config pointer_modifier mod1
 
 # --- workflow --- #
 

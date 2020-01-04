@@ -1,13 +1,13 @@
 
 /* Default color scheme */
-@define-color bg_color #0c0a0b;
-@define-color fg_color #e0fff9;
-@define-color base_color #9B5D2B;
-@define-color text_color #e0fff9;
-@define-color selected_bg_color #ab753c;
-@define-color selected_fg_color #e0fff9;
-@define-color tooltip_bg_color #0c0a0b;
-@define-color tooltip_fg_color #e0fff9;
+@define-color bg_color #131315;
+@define-color fg_color #fffdfd;
+@define-color base_color #EC9D62;
+@define-color text_color #fffdfd;
+@define-color selected_bg_color #cb9f54;
+@define-color selected_fg_color #fffdfd;
+@define-color tooltip_bg_color #131315;
+@define-color tooltip_fg_color #fffdfd;
 
 /* colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_bg_color @bg_color;
