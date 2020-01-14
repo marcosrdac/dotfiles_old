@@ -1,0 +1,28 @@
+#!/bin/bash
+
+remainder_file="/tmp/remainder"
+pidfile="/tmp/$(basename $0)"
+
+[ -f "$pidfile" ] && (kill -TERM $(<$pidfile) && rm "$pidfile" && exit 0) || echo $$ > "$pidfile"
+
+trap "polybar_write_remainder -r; exit 0" INT TERM
+
+TILL=$(dm_choose "how many exercises would you like to do?")
+
+
+COUNT=1
+sleep 2
+while [  $COUNT -le $TILL ]
+do
+  #dm_bar_write_remainder ""
+  #sleep 1
+  polybar_write_remainder -n "do it! [$COUNT]"
+  sleep 2
+  polybar_write_remainder -n "relax [$COUNT]"
+  sleep 2
+  #sleep 1
+
+  let COUNT=COUNT+1;
+done
+
+polybar_write_remainder -r

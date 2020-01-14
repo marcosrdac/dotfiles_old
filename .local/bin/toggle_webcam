@@ -18,28 +18,30 @@ bar_height=22
 mpv_width=400
 mpv_autofit=25%
 
-# geometry and position setup
-dir=${1-'se'}
-if [ $dir != full ]
-then
-  common=$(( $(bspc config window_gap) + $(bspc config border_width) ))
-  case $dir in
-    s*) dy=-$common ;;
-    n*) dy=+$(($common+$bar_height)) ;;
-  esac
-  case $dir in
-    *e) dx=-$common ;;
-    *w) dx=+$common ;;
-  esac
 
-  gnp="--geometry=$mpv_width$dx$dy --autofit=$mpv_autofit"
-else
-  gnp="--geometry=$(xrandr|grep '*'|awk -F' ' '{print $1}')"
-fi
+open_webcam ()
+{
+  # geometry and position setup
+  dir=$1
+  if [ $dir != full ]
+  then
+    common=$(( $(bspc config window_gap) + $(bspc config border_width) ))
+    case $dir in
+      s*) dy=-$common ;;
+      n*) dy=+$(($common+$bar_height)) ;;
+    esac
+    case $dir in
+      *e) dx=-$common ;;
+      *w) dx=+$common ;;
+    esac
 
-mpv $gnp --input-default-bindings=no --no-osc --demuxer-lavf-format video4linux2 --demuxer-lavf-o-set input_format=mjpeg av://v4l2:$webcam &
-echo "$!" > $pidfile
+    gnp="--geometry=$mpv_width$dx$dy --autofit=$mpv_autofit"
+  else
+    gnp="--geometry=$(xrandr|grep '*'|awk -F' ' '{print $1}')"
+  fi
 
-#mpv --geometry=400-+$disp-+$disp --autofit=25% --profile=low-latency --untimed av://v4l2:$webcam &
-#ffplay -f v4l2 -input_format mjpeg -video_size 1920x1080 -i /dev/video0 -preset ultrafast &
-#mpv --geometry=400-+$disp-+$disp --autofit=25% --no-osc --demuxer-lavf-format video4linux2 --demuxer-lavf-o-set input_format=mjpeg av://v4l2:$webcam &
+  mpv $gnp --input-default-bindings=no --no-osc --demuxer-lavf-format video4linux2 --demuxer-lavf-o-set input_format=mjpeg av://v4l2:$webcam & echo $! > $pidfile
+}
+
+
+open_webcam ${1-'se'}

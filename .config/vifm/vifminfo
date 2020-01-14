@@ -90,13 +90,13 @@
 	..
 1577641088
 'o
-	/home/marcosrdac/.offlineimap
-	..
-1554726652
+	/home/marcosrdac
+	tmp
+1578503456
 'p
 	/home/marcosrdac/projects
-	..
-1571724682
+	accoustic_wave_modelling
+1578161406
 'q
 	/home/marcosrdac/.config/qutebrowser
 	config.py
@@ -117,6 +117,10 @@
 	/home/marcosrdac/tmp/ufba
 	metodos_eletromagneticos
 1573043270
+'v
+	/home/marcosrdac/.config/nvim
+	init.vim
+1578257104
 'w
 	/home/marcosrdac/downloads
 	..
@@ -132,8 +136,8 @@ b/home/marcosrdac/wallpapers/
 	1570641995
 
 # TUI:
-al
-q0
+ar
+q1
 v2
 ov
 m-1
@@ -141,617 +145,612 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/.local/bin
-	bspwm
+d/home/marcosrdac/projects/accoustic_wave_modelling/pyver
+	seis.py
+8
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
+4
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
+	results
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	nilo
+5
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
+	..
 0
-d/home/marcosrdac/.local/bin/bspwm
-	bspwm_euclid_mover
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	nilo
+5
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
+	wave_modeling_marcos.py
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	nilo
+5
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
+	curso_protasio
 1
-d/home/marcosrdac/.local/bin
-	bspwm
-0
-d/home/marcosrdac/.config
-	bspwm
-0
-d/home/marcosrdac/.config/bspwm
-	bspwmrc
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo/curso_protasio
+	propaga
 1
-d/home/marcosrdac/.config
-	sxhkd
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo/curso_protasio/propaga
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo/curso_protasio
+	Onda_DF.pptx
+5
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
+	curso_protasio
+1
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo/curso_protasio
+	propaga_rafaela
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
+	curso_protasio
+1
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	curso_protasio
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
+	propaga
+1
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio/propaga
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
+	propaga_rafaela
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio/propaga_rafaela
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
+	propaga_rafaela
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio/propaga_rafaela
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
+	Adriano_FWI_tese.pdf
+1
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	curso_protasio
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
+	atilas.py
+4
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	nilo
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
+	curso_protasio
+1
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	old
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/old
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	curso_protasio
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
+3
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
+	atilas.py
+4
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
+3
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
+	drawv.py
+4
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	old
+5
+d/home/marcosrdac/projects/accoustic_wave_modelling/old
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	old
+5
+d/home/marcosrdac/projects/accoustic_wave_modelling/old
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	old
+5
+d/home/marcosrdac/projects/accoustic_wave_modelling/old
+	..
+0
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	old
+5
+d/home/marcosrdac/projects/accoustic_wave_modelling/old
+	wave_modelling_4.ipynb
+21
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
+3
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
+	old
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests/old
+	writer_test.mp4
+24
+d/home/marcosrdac
+	Dropbox
+2
+d/home/marcosrdac/Dropbox
+	dotfiles
+3
+d/home/marcosrdac/Dropbox/dotfiles
+	.local
+4
+d/home/marcosrdac/Dropbox/dotfiles/.local
+	..
+0
+d/home/marcosrdac/Dropbox/dotfiles
+	.cache
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	history_old
+3
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	history_old
+3
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	history_old
+3
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	history_old
+3
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	history_old
+3
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal/python
+	..
+0
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles
+	.cache
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal/python
+	python_history
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache/python
+	python_history
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	terminal
+2
+d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
+	history
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache/python
+	python_history
+1
+d/home/marcosrdac/Dropbox/dotfiles/.cache
+	python
+1
+d/home/marcosrdac/Dropbox/dotfiles
+	.offlineimaprc
+5
+d/home/marcosrdac/projects
+	accoustic_wave_modelling
+2
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
+4
+d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
+	wave_modeling.py
+31
+d/home/marcosrdac/.local/bin
+	lofi_old
+19
+d/home/marcosrdac/projects
+	python_learning
 37
-d/home/marcosrdac/.config/sxhkd
-	sxhkdrc
+d/home/marcosrdac/projects/python_learning
+	atila
 3
-d/home/marcosrdac/.config
-	bspwm
-0
-d/home/marcosrdac/.config/bspwm
-	bspwmrc
-1
-d/home/marcosrdac
-	asus
-6
-d/home/marcosrdac/asus
-	SanDisk SD card
-2
-d/home/marcosrdac/asus/SanDisk SD card
-	Android
-1
-d/home/marcosrdac/asus
-	SanDisk SD card
-2
-d/home/marcosrdac/asus/SanDisk SD card
-	Android
-1
-d/home/marcosrdac/asus/SanDisk SD card/Android
+d/home/marcosrdac/projects
 	..
 0
-d/home/marcosrdac/asus/SanDisk SD card
-	Android
-1
-d/home/marcosrdac/asus/SanDisk SD card/Android
-	data
-1
-d/home/marcosrdac/asus/SanDisk SD card
-	LOST.DIR
+d/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+27
+d/home/marcosrdac/projects
+	accoustic_wave_modelling
+4
+d/home/marcosrdac/projects/accoustic_wave_modelling
+	2d_accoustic_wave_modeling
 2
-d/home/marcosrdac/asus
-	SanDisk SD card
-2
-d/home/marcosrdac
-	asus
-6
-d/home/marcosrdac/asus
-	..
-0
-d/home/marcosrdac
-	asus
-6
-d/home/marcosrdac/asus
-	..
-0
-d/home/marcosrdac
-	asus
-6
-d/home/marcosrdac/asus
-	SanDisk SD card
-2
-d/home/marcosrdac/asus/SanDisk SD card
-	tp2
+d/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling
+	wave_modeling.py
 3
-d/home/marcosrdac/asus/SanDisk SD card/tp2
-	TPS02E08.mp4
-1
-d/home/marcosrdac/asus
-	..
-0
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	nintendo_2001.jpg
-32
-d/home/marcosrdac/.local/bin
-	bspwm
-1
-d/home/marcosrdac/.local/bin/bspwm
-	bspwm_euclid_mover
-1
-d/home/marcosrdac/.local/bin
-	dmenu
-2
-d/home/marcosrdac/.local/bin/dmenu
-	LICENSE
-3
-d/home/marcosrdac/.local/bin
-	polybar
-6
-d/home/marcosrdac/.local/bin/polybar
-	polybar_date_calendar
-2
-d/home/marcosrdac/.local/bin
-	bspwm
-1
-d/home/marcosrdac/.local/bin/bspwm
-	bspwm_toggle_hidden
+d/home/marcosrdac/projects
+	accoustic_wave_modelling
 4
 d/home/marcosrdac/.config
-	sxhkd
-37
-d/home/marcosrdac/.config/sxhkd
-	sxhkdrc
-3
-d/home/marcosrdac/.config
 	polybar
-30
+33
 d/home/marcosrdac/.config/polybar
 	config
 2
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	mountains_sunrise.jpg
-28
-d/home/marcosrdac/.config
-	shell
-34
 d/home/marcosrdac/.local/bin
-	wal_set
-37
-d/home/marcosrdac/.config
-	bspwm
-0
-d/home/marcosrdac/.config/bspwm
-	bspwmrc
-1
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	mountains_sunrise.jpg
-11
-d/home/marcosrdac/tmp
-	Auditoria de fraude.pdf
-11
-d/home/marcosrdac
-	asus
-5
-d/home/marcosrdac/tmp
-	Auditoria de fraude.pdf
-11
+	toggle_webcam
+31
 d/
-	tmp
-11
-d/tmp
-	bspwm_0_0-socket
-6
-d/home/marcosrdac/.config
-	bspwm
-7
-d/home/marcosrdac/.config/bspwm
-	bspwmrc
-1
-d/home/marcosrdac/.config
-	bspwm
-7
-d/home/marcosrdac
-	..
+	.vifm-Trash-0
 0
-d/home
-	marcosrdac
-2
-d/
-	tmp
-18
-d/tmp
-	..
-0
-d/home/marcosrdac/.local/bin
-	bspwm
-0
-d/home/marcosrdac/.local/bin/bspwm
-	bspwm_external_rules
-2
-d/home/marcosrdac/.config
-	sxhkd
-37
-d/home/marcosrdac/.config/sxhkd
-	sxhkdrc
-3
-d/home/marcosrdac/wallpapers
-	favorites
-2
-d/home/marcosrdac/wallpapers/favorites
-	nasa_20180329.jpg
-14
-d/home/marcosrdac/.config
-	shell
-34
-d/home/marcosrdac/.local/bin
-	bspwm
-0
-d/home/marcosrdac/.local/bin/bspwm
-	bspwm_external_rules
-2
-d/home/marcosrdac/.local/bin
-	dmenu
-2
-d/home/marcosrdac/.local/bin/dmenu
-	LICENSE
-3
-d/home/marcosrdac/.local/bin
-	menu
-4
-d/home/marcosrdac/.local/bin/menu
-	dm_power_menu
-6
-d/home/marcosrdac/documents
-	info
-5
-d/home/marcosrdac/documents/info
-	..
-0
-d/home/marcosrdac/documents
-	quotes
-12
-d/home/marcosrdac/documents/quotes
-	quotes.md
-1
-d/home/marcosrdac/.local/bin
-	dmenu
-2
-d/home/marcosrdac/.local/bin/dmenu
-	CONFIG_LATER.md
-2
-d/home/marcosrdac/.local/bin
-	menu
-4
-d/home/marcosrdac/.local/bin/menu
-	menu_run
-14
-d/home/marcosrdac/.config
-	sxhkd
-37
-d/home/marcosrdac/.config/sxhkd
-	sxhkdrc
-3
-d/home/marcosrdac
-	series
+d/home/marcosrdac/tmp
+	pen
 13
-d/home/marcosrdac/series
-	twin_peaks
-2
-d/home/marcosrdac/series/twin_peaks
-	TPS01E01.mkv
-4
-d/media
-	sdc-usb-F8_T5_1110000053
-1
-d/media/sdc-usb-F8_T5_1110000053
-	Raça Negra -  Ao Vivo -  Problema Meu (1).mp4
-1
-d/media
+d/home/marcosrdac/tmp/pen
 	..
 0
-d/home/marcosrdac/.config
-	shell
-34
-d/home/marcosrdac/.local/bin
-	menu
-4
-d/home/marcosrdac/.local/bin/menu
-	dm_recording_menu
-9
-d/home/marcosrdac/.local/bin
-	polybar
-6
-d/home/marcosrdac/.local/bin/polybar
-	polybar_read_remainder
-4
-d/home/marcosrdac/.config
-	shell
-34
-d/home/marcosrdac/.local/bin
-	menu
-5
-d/home/marcosrdac/.config
-	bspwm
-0
-d/home/marcosrdac/.config/bspwm
-	bspwmrc
-1
+d/home/marcosrdac/tmp
+	eage2020aivfuea.zip
+37
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac
-	..
-0
-D/
-	tmp
-11
-D/tmp
-	serverauth.JcL4RFLKGF
-10
-D/home/marcosrdac/.config/i3
-	config
-3
-D/home/marcosrdac/.config
+D/home/marcosrdac/.local/bin/menu
+	dm_bar_write_remainder
+1
+D/home/marcosrdac/.local/bin
 	polybar
-33
-D/home/marcosrdac/.config/polybar
-	config
-2
-D/home/marcosrdac/Dropbox/pictures/screenshots
-	20191228103631_windowshot_527x720.png
+8
+D/home/marcosrdac/.local/bin/polybar
+	polybar_write_remainder
+8
+D/home/marcosrdac/tmp
+	eage2020
+0
+D/home/marcosrdac/tmp/eage2020
+	eage2020.cls
+1
+D/home/marcosrdac/tmp
+	eage.zip
 36
-D/
-	tmp
-18
-D/tmp
-	serverauth.JcL4RFLKGF
-14
-D/home/marcosrdac/.local/bin
-	menu
-2
-D/home/marcosrdac/.config
-	polybar
-33
-D/home/marcosrdac/.config/polybar
-	config
-2
-D/home/marcosrdac/.config
-	polybar
-33
-D/home/marcosrdac/.local/bin
-	polybar
-4
-D/home/marcosrdac/.local/bin/polybar
-	polybar_write_recording_label
-5
-D/home/marcosrdac/.local/bin
-	record
-26
-D/home/marcosrdac/tmp
-	recordings
-13
-D/home/marcosrdac/tmp/recordings
-	20191228121929_screencast.mkv
-1
-D/home/marcosrdac/tmp
-	recordings
-13
-D/home/marcosrdac/tmp/recordings
-	..
-0
-D/home/marcosrdac/.config
-	caja
-8
-D/home/marcosrdac/.local
-	bin
-1
-D/home/marcosrdac/.local/bin
-	i3bar
-4
-D/home/marcosrdac/.local/bin/i3bar
-	i3bar_wifi
-15
-D/home/marcosrdac/tmp
-	recordings
-13
-D/home/marcosrdac/tmp/recordings
-	20191228132507_screencast.mkv
-3
-D/home/marcosrdac/.config
-	shell
-37
-D/home/marcosrdac/.local/bin
-	polybar
-7
-D/home/marcosrdac/.local/bin/polybar
-	polybar_write_recording_label
-5
-D/home/marcosrdac/.local/bin
-	menu
-5
-D/home/marcosrdac/.local/bin/menu
-	dm_pomodoro
-7
-D/home/marcosrdac/tmp
-	recordings
-13
-D/home/marcosrdac/tmp/recordings
-	..
-0
-D/home/marcosrdac/.local/bin
-	menu
-5
-D/home/marcosrdac/.local/bin/menu
-	dm_recording_menu
-9
-D/home/marcosrdac/tmp
-	recordings
-13
-D/home/marcosrdac/tmp/recordings
-	20191228150857_webcamhidef.mkv
-1
-D/home/marcosrdac/tmp
-	recordings
-13
-D/home/marcosrdac/tmp/recordings
-	..
-0
-D/home/marcosrdac/tmp
-	recordings
-13
-D/home/marcosrdac/tmp/recordings
-	..
-0
-D/home/marcosrdac/tmp
-	recordings
-11
-D/home/marcosrdac/.local/bin
-	menu
-5
-D/home/marcosrdac/.local/bin/menu
-	dm_bspwm_set_monocle_gaps
-1
-D/home/marcosrdac/projects/linux_learning
-	..
-0
-D/home/marcosrdac/.local/bin
-	toggle_webcam
-29
-D/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-27
-D/home/marcosrdac/wallpapers
-	favorites
-2
-D/home/marcosrdac/wallpapers/favorites
-	pebbles_in_beach_sunset.jpg
-22
-D/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-27
-D/home/marcosrdac/.config
-	shell
-37
-D/home/marcosrdac/.local/bin
-	toggle_webcam
-29
-D/home/marcosrdac/tmp
-	recordings
-11
-D/home/marcosrdac/tmp/recordings
-	20191229105243_jamile_feliz.mkv
-15
-D/home/marcosrdac/.local/bin
-	bspwm
-1
-D/home/marcosrdac/.local/bin/bspwm
-	bspwm_golden_rectangle
-4
-D/home/marcosrdac/tmp
-	recordings
-11
-D/home/marcosrdac/tmp/recordings
-	20191229115348_screencast.mkv
-3
-D/home/marcosrdac/.config
-	shell
-37
-D/home/marcosrdac/tmp
-	tpsubs
-17
-D/home/marcosrdac/.local/bin
-	st
-8
-D/home/marcosrdac/projects/linux_learning
-	ffmpeg.md
-15
 D/home/marcosrdac
-	..
-0
-D/home/marcosrdac/audios
-	music
+	movies
+13
+D/home/marcosrdac/movies
+	whiplash_(2014)
+37
+D/
+	opt
+12
+D/opt
+	tlauncher
+5
+D/opt/tlauncher
+	tlauncher.jar
 1
-D/home/marcosrdac/audios/music
+D/home/marcosrdac/documents
+	tmp
+13
+D/home/marcosrdac/documents/tmp
 	..
 0
+D/home/marcosrdac
+	tmp
+17
+D/home/marcosrdac/tmp
+	pen
+0
+D/home/marcosrdac/tmp/pen
+	visualization.html
+9
+D/
+	media
+10
+D/media
+	sdc1-usb-Multiple_Card_Re
+1
+D/media/sdc1-usb-Multiple_Card_Re
+	sdmo
+4
+D/media/sdc1-usb-Multiple_Card_Re/sdmo
+	image_ex.png
+8
 D/media
 	..
 0
 D/home/marcosrdac
-	documents
-7
-D/home/marcosrdac/audios
-	music
+	tmp
+17
+D/home/marcosrdac/tmp
+	pen
+0
+D/home/marcosrdac
+	Dropbox
+2
+D/home/marcosrdac/Dropbox
+	pen
+5
+D/home/marcosrdac/tmp
+	pen
+0
+D/home/marcosrdac/projects
+	accoustic_wave_modelling
+2
+D/home/marcosrdac/Dropbox/pictures/screenshots
+	urochordata_20191022021935_screenshot_1366x768.png
+36
+D/home/marcosrdac
+	Dropbox
+2
+D/home/marcosrdac/tmp
+	pen
+0
+D/
+	opt
+11
+D/opt
+	tlauncher
+6
+D/opt/tlauncher
+	tlauncher.jar
 1
-D/home/marcosrdac/audios/music
-	Boogarins – Sombrou Dúvida (2019)
+D/home/marcosrdac
+	Dropbox
+2
+D/home/marcosrdac/wallpapers
+	favorites
+2
+D/home/marcosrdac/wallpapers/favorites
+	mountains_bluish_minecraft_like.jpg
+13
+D/home/marcosrdac/tmp
+	recordings
+1
+D/home/marcosrdac/tmp/recordings
+	20200109224749_screencast.mkv
+16
+D/home/marcosrdac/.local/bin
+	minecraft
+21
+D/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+27
+D/home/marcosrdac/.local/bin
+	exchange_prim_clip
+15
+D/home/marcosrdac/wallpapers
+	favorites
+2
+D/home/marcosrdac/wallpapers/favorites
+	crater.jpg
+0
+D/home/marcosrdac/.config
+	shell
+29
+D/home/marcosrdac/tmp
+	recordings
+1
+D/home/marcosrdac/projects
+	accoustic_wave_modelling
+2
+D/home/marcosrdac/projects/accoustic_wave_modelling
+	new_tests
 3
-D/home/marcosrdac/audios/music/Boogarins – Sombrou Dúvida (2019)
-	4 - Dislexia ou Transe.mp3
-4
-D/home/marcosrdac/documents
-	personal
-10
-D/home/marcosrdac/documents/personal
+D/home/marcosrdac/projects
+	aivfuea
+3
+D/home/marcosrdac/projects/aivfuea
 	..
 0
-D/home/marcosrdac/documents
-	games
+D/home/marcosrdac/projects
+	amivfuga
 4
-D/home/marcosrdac/documents/games
-	sg
-2
-D/home/marcosrdac/documents/games/sg
-	test1.md
-1
-D/home/marcosrdac/.local/bin
-	bspwm
-1
-D/home/marcosrdac/.local/bin/bspwm
-	bspwm_window_move
+D/home/marcosrdac/projects/amivfuga
+	..
+0
+D/home/marcosrdac/projects
+	balanco_energetico
 9
+D/home/marcosrdac/books
+	Fowler C.M.R. - The Solid Earth_ An Introduction to Global Geophysics-Cambridge University Press.pdf
+8
+D/home/marcosrdac/tmp
+	pdfs
+12
+D/home/marcosrdac/tmp/pdfs
+	shell-graduate-programme-interactive-guide.pdf
+38
+D/home/marcosrdac/tmp
+	eage2020
+0
+D/home/marcosrdac/projects
+	eage2020aivfuea
+20
+D/home/marcosrdac/projects/eage2020aivfuea
+	..
+0
+D/home/marcosrdac/projects
+	aivfuea
+3
 D/home/marcosrdac/documents
-	games
+	journal
+6
+D/home/marcosrdac/documents/journal
+	new
+37
+D/home/marcosrdac
+	Dropbox
+2
+D/home/marcosrdac/documents
+	journal
+6
+D/home/marcosrdac/documents/journal
+	20180719 Pessoas são certas demais, fique tranquilo.md
+28
+D/home/marcosrdac/tmp
+	torrents
+15
+D/home/marcosrdac/tmp/torrents
+	Blade.Runner.1982.Directors.Cut.720p.BRRip.XviD.AC3-PsychoLogic
+3
+D/media
+	sdc1-usb-Multiple_Card_Re
+1
+D/media/sdc1-usb-Multiple_Card_Re
+	o auto da compadecida (2000).avi
+6
+D/media
+	testepena
+1
+D/home/marcosrdac
+	MEGA
 4
+D/home/marcosrdac/tmp
+	torrents
+15
+D/home/marcosrdac/tmp/torrents
+	the_godfather_(1972)
+5
+D/home/marcosrdac/tmp/torrents/the_godfather_(1972)
+	..
+0
+D/home/marcosrdac/tmp/torrents
+	the_godfather_(1972)
+5
+D/home/marcosrdac/tmp/torrents/the_godfather_(1972)
+	the_godfather_(1972).mp4
+1
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/.local/share
+	minecraft
+11
+D/home/marcosrdac/.local/share/minecraft
+	logs
+0
+D/home/marcosrdac/.local/share/minecraft/logs
+	2020-01-09-4.log.gz
+4
+D/home/marcosrdac/.local/share/minecraft
+	logs
+0
+D/home/marcosrdac/.local/share
+	minecraft
+11
+D/home/marcosrdac/.local/share/minecraft
+	saves
+2
+D/home/marcosrdac/.local/share/minecraft/saves
+	..
+0
+D/home/marcosrdac/.local/share/minecraft
+	saves
+2
+D/home/marcosrdac/.local/share
+	minecraft
+11
+D/home/marcosrdac/.local/share/minecraft
+	saves
+2
+D/home/marcosrdac/.local/share/minecraft/saves
+	..
+0
+D/home/marcosrdac
+	Acaso
+0
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/tmp
+	eage2020aivfuea.zip
+37
+D/home/marcosrdac/projects
+	aivfuea
+3
+D/home/marcosrdac/projects/aivfuea
+	aivfuea.pdf
+1
+D/home/marcosrdac/projects
+	aivfuea
+3
+D/home/marcosrdac
+	projects
+15
+D/home/marcosrdac/tmp
+	everaldo_atth_24102019 - Sheet1(1).pdf
+37
+D/home/marcosrdac/projects
+	eage2020aivfuea
+20
+D/home/marcosrdac/projects/eage2020aivfuea
+	eage2020aivfuea.zip
+9
+D/home/marcosrdac/projects
+	accoustic_wave_modelling
+2
+D/home/marcosrdac/documents
+	discussions
+2
 D/home/marcosrdac/.dotfiles
 	README.md
 21
-D/home/marcosrdac/.local/bin
-	menu
-5
-D/home/marcosrdac/.local/bin/menu
-	dm_bspwm_set_monocle_gaps
-2
-D/home/marcosrdac/.local/bin
-	bspwm
-1
-D/home/marcosrdac/.local/bin/bspwm
-	bspwm_window_move
-9
-D/home/marcosrdac/wallpapers
-	favorites
-3
-D/home/marcosrdac/wallpapers/favorites
-	pebbles_in_beach_sunset.jpg
-22
-D/home/marcosrdac/.local/bin
-	bspwm
-1
-D/home/marcosrdac/.local/bin/bspwm
-	bspwm_window_move
-9
-D/home/marcosrdac/documents
-	games
-4
-D/home/marcosrdac/documents/games
-	sg
-2
-D/home/marcosrdac/documents/games/sg
-	
-2
-D/home/marcosrdac/documents/games
-	cpg
-2
-D/home/marcosrdac/documents/games/cpg
-	chupanji.pdf
-2
-D/home/marcosrdac/.config
-	shell
-37
-D/home/marcosrdac/.local/bin
-	polybar
-7
-D/home/marcosrdac/.local/bin/polybar
-	polybar_read_remainder
-4
-D/home/marcosrdac/tmp
-	shednan.pdf
-37
-D/home/marcosrdac
-	series
-12
-D/home/marcosrdac/series
-	twin_peaks
-2
-D/home/marcosrdac/series/twin_peaks
-	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-3
-D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-	TPS02E14.mkv
-19
 D
 
 # Command line history (oldest to newest):
-:!mpv %c
-:h
-:play
-:!ffprobe TPS01E01.mkv
-:stuff
 :touch stuff_with_username.md
 :touch .shrc
 :touch .aliases
@@ -768,7 +767,6 @@ D
 :touch mail.desktop
 :touch text.desktop
 :touch torrent.desktop
-:touch
 :mkdir fd1
 :touch teste
 :mkdir Envy Code B
@@ -826,7 +824,6 @@ D
 :touch test.py
 :w
 :empty
-:wq
 ::q
 :Q
 :mkdir bspwm
@@ -845,63 +842,22 @@ D
 :touch 
 :touch test1
 :bspwm_toggle_floating
-:q
 :zathura %
+:mkdir podtest
+:wq
+:touch pomodoro
+:mkdir sdmo
+:mini
+:touch
+:mkdir eage2020aivfuea
+:q
 
 # Search history (oldest to newest):
-/xprof
-/xsess
-/kd
-/dev
-/nulll
-/ne
-/key
-/'
-/ke
-/profi
-/dot
-/\.mkv\.mp4
-//
-/o
-/pr
-/opa
-/login
-/log
-/\.
-/prof
-/rc
-/zs
-/linu
-/unis
-/xini
-/xpro
-/pro
 /mpd
-/start
-/startu
-/cron
-/dro
-/wals
-/awk
-/shell
-/bspwm
-/yad
-/vifm
-/i3
-/pol
-/use
-/asus
-/ser
-/srt
-/se
-/mkv.set
-/mp4|srt
-/youtu
-/drop
+/ncm
 /gtk
 /rices
 /theme
-/loca
 /the
 /ter
 /wal
@@ -909,11 +865,9 @@ D
 /flao
 /floating
 /bs
-/ex
 /l
 /tmp
 /togl
-/bspw
 /s
 /pow
 /powe
@@ -921,49 +875,88 @@ D
 /sxh
 /serie
 /poçy
-/menu
 /she
 /bri
 /fif
 /window
 /screen
-/tm
 /re
 /fifo
 /wifi
 /scre
 /reci
-/rec
-/dm
 /recor
 /ffmp
 /reco
 /packa
-/togg
 /gol
 /ffm
 /voo
 /som
 /eu
 /mov
-/poly
 /sche
 /bsp
+/mono
+/dm_
+/dm
+/stra
+/menu
+/write
+/remain
+/dmenu
+/dme
+/st
+/men
+/pel
+/bin
+/bspw
+/key
+/gif
+/dot
+/lofi
+/python
+/mat
+/togg
+/loca
+/vim
+/vifm
+/nvim
+/rema
+/poly
+/movi
+/pro
+/tm
+/media
+/pen
+/dro
+/talu
+/opt
+/rec
+/web
+/clip
+/exch
+/prim
+/ex
+/ar
+/pdf
+/cerj
+/borde
+/aiv
+/jou
+/new
+/jo
+/teste
+/muito
+/test
+/q
+/torr
+/mine
+/2ea
+/eage
+/rea
 
 # Prompt history (oldest to newest):
-pvaporwave_skating
-phighway_coconut_trees_vaporwave.jpg
-p_studies
-pnebula_orange_green
-pbridge_red_gree
-pbridge_red_green
-pboats_happy_sunrise
-pLista1_Respostas.pdf
-pMAT174_Lista1_Respostas.pdf
-pMAT174_Lista01_Respostas.pdf
-pMAT174_00
-pMAT174_Aula00.pdf
-pRevisao_C
 pLista_Pratica03.pdf
 pUbuntu-Mate-Radioactive-no-logo
 pGM_space.jpg
@@ -1051,11 +1044,24 @@ pbspwm_toggle_mode
 pbspwm_toggle_state
 pchupangi
 pchupanji
+pdm_polybar_pel
+pREADME.md
+plof
+plofi_old
+plofi
+peage
+peage.zip
+pminecraft
+pexchange_prim_clip
+pshow_prim_clip
+p20200111 - Enclausurado e envenenado
+p20200111 enclausurado_e_envenenado.md
+peage2020aivfuea
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_schednan.pdf
+""/home/marcosrdac/.local/share/Trash/000_eage2020aivfuea.zip
 
 # Directory stack (oldest to newest):
 
@@ -2290,8 +2296,6 @@ t/home/marcosrdac/.local/share/Trash/000_bspc
 	/home/marcosrdac/.local/bin/bspwm/bspc
 t/home/marcosrdac/.local/share/Trash/000_TPS02E17.mkv.mp4
 	/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E17.mkv.mp4
-t/home/marcosrdac/.local/share/Trash/000_old
-	/home/marcosrdac/wallpapers/favorites/old
 t/home/marcosrdac/.local/share/Trash/000_OPAISSO
 	/home/marcosrdac/OPAISSO
 t/home/marcosrdac/.local/share/Trash/000_151590creenshots_folder
@@ -2376,11 +2380,115 @@ t/home/marcosrdac/.local/share/Trash/000_schedgabi.pdf
 	/home/marcosrdac/tmp/schedgabi.pdf
 t/home/marcosrdac/.local/share/Trash/000_schednan.pdf
 	/home/marcosrdac/tmp/schednan.pdf
+t/home/marcosrdac/.local/share/Trash/000_polybar_write_remainder
+	/home/marcosrdac/.local/bin/polybar_write_remainder
+t/home/marcosrdac/.local/share/Trash/000_m3u.xsl
+	/home/marcosrdac/.local/bin/podcast2playlist/m3u.xsl
+t/home/marcosrdac/.local/share/Trash/000_pls.xsl
+	/home/marcosrdac/.local/bin/podcast2playlist/pls.xsl
+t/home/marcosrdac/.local/share/Trash/000_rss2playlist.sh
+	/home/marcosrdac/.local/bin/podcast2playlist/rss2playlist.sh
+t/home/marcosrdac/.local/share/Trash/000_rssfeeds.txt
+	/home/marcosrdac/.local/bin/podcast2playlist/rssfeeds.txt
+t/home/marcosrdac/.local/share/Trash/000_volumio.xsl
+	/home/marcosrdac/.local/bin/podcast2playlist/volumio.xsl
+t/home/marcosrdac/.local/share/Trash/000_.git
+	/home/marcosrdac/.local/bin/podcast2playlist/.git
+t/home/marcosrdac/.local/share/Trash/000_test.py
+	/home/marcosrdac/.local/bin/bspwm/test.py
+t/home/marcosrdac/.local/share/Trash/000_h1_100 h2_100 V1_3000 V2_4000 V3_6000 nx_200 nz_200 amll_100 amort_0.023.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/h1_100 h2_100 V1_3000 V2_4000 V3_6000 nx_200 nz_200 amll_100 amort_0.023.gif
+t/home/marcosrdac/.local/share/Trash/000_h1_100 h2_100 V1_3000 V2_4000 V3_6000 nz_200.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/h1_100 h2_100 V1_3000 V2_4000 V3_6000 nz_200.gif
+t/home/marcosrdac/.local/share/Trash/000_wave_modeling0.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/new_tests/wave_modeling0.py
+t/home/marcosrdac/.local/share/Trash/000_wave_modeling1.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/new_tests/wave_modeling1.py
+t/home/marcosrdac/.local/share/Trash/000_wave_modeling2.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/new_tests/wave_modeling2.py
+t/home/marcosrdac/.local/share/Trash/000_amort.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/amort.gif
+t/home/marcosrdac/.local/share/Trash/000_left.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/left.gif
+t/home/marcosrdac/.local/share/Trash/000_refraction_test3.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/refraction_test3.gif
+t/home/marcosrdac/.local/share/Trash/000_seis.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/seis.gif
+t/home/marcosrdac/.local/share/Trash/000_seis7.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/seis7.gif
+t/home/marcosrdac/.local/share/Trash/000_seis8.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/seis8.gif
+t/home/marcosrdac/.local/share/Trash/000_test_better_amort.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/test_better_amort.gif
+t/home/marcosrdac/.local/share/Trash/000_velocities.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/velocities.gif
+t/home/marcosrdac/.local/share/Trash/000_evodiff1n
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff1n
+t/home/marcosrdac/.local/share/Trash/000_evodiff1nn
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff1nn
+t/home/marcosrdac/.local/share/Trash/000_evodiff2
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff2
+t/home/marcosrdac/.local/share/Trash/000_evodiff2nn
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff2nn
+t/home/marcosrdac/.local/share/Trash/000_evodiff2nn_
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff2nn_
+t/home/marcosrdac/.local/share/Trash/000_mpv-shot0001.jpg
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/mpv-shot0001.jpg
+t/home/marcosrdac/.local/share/Trash/000_mpv-shot0002.jpg
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/mpv-shot0002.jpg
+t/home/marcosrdac/.local/share/Trash/000_evo_results0.md
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evo_results0.md
+t/home/marcosrdac/.local/share/Trash/000_evo_results1.md
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evo_results1.md
+t/home/marcosrdac/.local/share/Trash/000_atilas.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/atilas.py
+t/home/marcosrdac/.local/share/Trash/000___pycache__
+	/home/marcosrdac/projects/accoustic_wave_modelling/__pycache__
+t/home/marcosrdac/.local/share/Trash/000_old
+	/home/marcosrdac/projects/accoustic_wave_modelling/old
+t/home/marcosrdac/.local/share/Trash/000_python
+	/home/marcosrdac/Dropbox/dotfiles/.cache/terminal/python
+t/home/marcosrdac/.local/share/Trash/000_results
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/results
+t/home/marcosrdac/.local/share/Trash/000_drawv.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/drawv.py
+t/home/marcosrdac/.local/share/Trash/000_evodiff.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff.py
+t/home/marcosrdac/.local/share/Trash/000_norm.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/norm.py
+t/home/marcosrdac/.local/share/Trash/000_opening.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/opening.py
+t/home/marcosrdac/.local/share/Trash/000_parallelplanes.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/parallelplanes.py
+t/home/marcosrdac/.local/share/Trash/000_seis.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/seis.py
+t/home/marcosrdac/.local/share/Trash/000_show_signal.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/show_signal.py
+t/home/marcosrdac/.local/share/Trash/000_test_evodiff.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/test_evodiff.py
+t/home/marcosrdac/.local/share/Trash/000_velocities.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/velocities.py
+t/home/marcosrdac/.local/share/Trash/000_pomodoro
+	/home/marcosrdac/.local/bin/pomodoro
+t/home/marcosrdac/.local/share/Trash/000_1a90ff3a-149a-4ffe-82a0-4a3eace2b4e1
+	/home/marcosrdac/tmp/pen/1a90ff3a-149a-4ffe-82a0-4a3eace2b4e1
+t/home/marcosrdac/.local/share/Trash/000_20200110 - Enclausurada envenenada.md
+	/home/marcosrdac/documents/journal/20200110 - Enclausurada envenenada.md
+t/home/marcosrdac/.local/share/Trash/000_asd
+	/home/marcosrdac/asd
+t/home/marcosrdac/.local/share/Trash/000_abc
+	/home/marcosrdac/abc
+t/home/marcosrdac/.local/share/Trash/000_add_programs
+	/home/marcosrdac/add_programs
+t/home/marcosrdac/.local/share/Trash/001_test.py
+	/home/marcosrdac/test.py
+t/home/marcosrdac/.local/share/Trash/000_wave_modeling.py
+	/home/marcosrdac/wave_modeling.py
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

@@ -75,7 +75,7 @@ xorg xorg-server xorg-xinit xorg-apps
 lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings  # not really necessary
 alsa alsa-utils alsa-tools pulseaudio-alsa
 mpd mpc ncmpcpp
-i3 i3blocks perl-anyevent-i3
+bspwm polybar yad networkmanager-dmenu sox
 compton unclutter redshift scrot acpi brightnessctl mpv
 libnotify dunst
 wget curl git

@@ -5,9 +5,10 @@ mode=$(dm_choose 'monocle gaps' normal 16x9 4x3 tape80)
 polybar_height=22
 
 case $mode in
+  teste)   bspwm_set_monocle_gaps "$(bspc config border_width)" 22 37 ;;
   normal) bspwm_set_monocle_gaps 0 0 0 ;;
-  16x9)   bspwm_set_monocle_gaps $(bspc config border_width) 22 37 ;;
-  4x3)    bspwm_set_monocle_gaps $(bspc config border_width) 21 193 ;;
+  16x9)   bspwm_set_monocle_gaps "$(bspc config border_width)" 22 37 ;;
+  4x3)    bspwm_set_monocle_gaps "$(bspc config border_width)" 21 193 ;;
   tape80)   bspwm_set_monocle_gaps 0 0 375 ;;
   *)      bspwm_set_monocle_gaps $1 $2 $3 ;;
 esac

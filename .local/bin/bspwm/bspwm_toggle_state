@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ $(bspc query -N -n focused.tiled) ]
+if [ $(bspc query -N -n focused.$1) ]
 then
-  bspc node -t $1
-else
   bspc node -t tiled
+else
+  bspc node -t $1
 fi

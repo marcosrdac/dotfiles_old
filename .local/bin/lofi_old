@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#mpv --no-video  https://youtu.be/SmbdY5FpRwA
+
+# soundcloud
+
+# albumns
+reflekt_ep=soundcloud.com/chillhopdotcom/sets/moose-dawa-reflekt-ep
+taiga_native=soundcloud.com/chillhopdotcom/sets/kupla-taiga-native
+
+# playlists
+lofi1=soundcloud.com/chillhopdotcom/sets/lofihiphop
+lofi2=soundcloud.com/helennpham/sets/lofi-hip-hop
+lofi3=soundcloud.com/chillhopdotcom/sets/chillhop-singles
+lofi4=soundcloud.com/chillhopdotcom/sets/chillhop-essentials-winter-1
+lofi5=soundcloud.com/chillhopdotcom/sets/chillhop-summer-essentials
+lofi6=soundcloud.com/chillhopdotcom/sets/chillhop-essentials-winter
+lofi7=soundcloud.com/chillhopdotcom/sets/chillhop-essentials-fall-2017
+lofi8=soundcloud.com/chillhopdotcom/sets/philanthrope-clockwork
+lofi9=soundcloud.com/chillhopdotcom/sets/lofihiphop
+
+# best
+lofi_hip_hop_ultimate_playlist=soundcloud.com/s1xmusic/sets/lofi
+sweet_and_pure_jazz_hop=soundcloud.com/s1xmusic/sets/pure-jazz-hop
+retrowave=https://soundcloud.com/pavel-dyachenko-528910489/sets/retrowave
+vaporwave=https://soundcloud.com/pavel-dyachenko-528910489/sets/vaporwav
+zen=https://soundcloud.com/400rabbitcaptain/sets/zen
+classical_study=https://soundcloud.com/tony-tran-121/sets/classical-study
+
+url=$retrowave
+
+mpc clear
+mpc load soundcloud://url/$url
+mpc shuffle
+mpc play

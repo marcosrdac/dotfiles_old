@@ -57,6 +57,9 @@ alt + g
 # set the window state
 alt + {t,shift + t,space,f}
 	bspwm_toggle_state {tiled,pseudo_tiled,floating,fullscreen}
+# turn gaps on/off
+alt + shift + f
+	[ $(bspc config window_gap) -eq 10 ] && bspc config window_gap 0 || bspc config window_gap 10
 # set the node flags
 alt + m ; + {m,l,s,p}
 	bspc node -g {marked,locked,sticky,private}
@@ -114,15 +117,17 @@ alt + z ; {z,x,m,c}
 # --- scripts --- #
 
 # notifying scripts
-alt + c ; {r,p,m}
+alt + c ; {r,p,shift+p,m}
 	{dm_bar_write_remainder, \
-	show_clip_prim, \
+	show_prim_clip, \
+	exchange_prim_clip; show_prim_clip, \
 	mpc_show}
 
 # running any scripts
-alt + x ; {shift+q,r,u}
+alt + x ; {shift+q,r,p,u}
 	{dm_power_menu, \
 	 dm_recording_menu, \
+	 dm_polybar_pel, \
 	 dm_useful_menu}
 alt + x ; w ; {w,f,j;l,l;j,j;h,h;j,k;l,l;k,k;h,h;k}
 	toggle_webcam {_,full,se,se,sw,sw,ne,ne,nw,nw}

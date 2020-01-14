@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-fifo="/tmp/$(basename $0)"
+fifo="/tmp/$(basename $0).fifo"
 remainder="/tmp/remainder"
 
 [ -p $fifo ] || mkfifo $fifo

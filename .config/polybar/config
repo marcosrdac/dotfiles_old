@@ -95,10 +95,11 @@ exec = polybar_read_remainder
 tail = true
 label = " %output% "
 label-background = ${colors.primary}
-label-foreground = ${colors.background}
+label-foreground = ${colors.foreground}
 format = <label>
 click-left = dm_bar_write_remainder
-click-right = dm_bar_write_remainder ""
+click-middle = polybar_write_remainder -r
+click-right = polybar_write_remainder ""
 
 
 [module/xkeyboard]

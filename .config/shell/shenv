@@ -17,6 +17,7 @@ export READER="zathura"
 export SCREENSHOTS_FOLDER="$HOME/pictures/screenshots"
 export SXHKD_FIFO=/tmp/sxhkd-fifo
 export DMENU=menu
+#export MPLBACKEND=module://my_backend
 
 export INIT=$HOME/.config/nvim/init.vim
 

@@ -4,7 +4,8 @@ clear
 
 COUNT=1
 sleep 2
-while [  $COUNT -le 100 ]; do
+while [  $COUNT -le 100 ]
+do
   echo $COUNT
   sleep 1
   echo "vaai!"

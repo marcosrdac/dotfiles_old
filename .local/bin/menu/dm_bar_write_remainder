@@ -1,13 +1,3 @@
 #!/bin/sh
 
-fifo="/tmp/polybar_read_remainder"
-remainder="/tmp/remainder"
-
-setremainder()
-{
-  echo $1 > $fifo
-  echo $1 > $remainder
-}
-
-note=${1-"$(dm_choose 'write the note')"}
-setremainder "$note"
+polybar_write_remainder "$(dm_choose 'write the note')"

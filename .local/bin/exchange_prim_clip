@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+clip=$(xclip -o -selection clipboard)
+prim=$(xclip -o -selection primary)
+
+echo "$clip" | xclip -i -selection primary
+echo "$prim" | xclip -i -selection clipboard
+
+notify-send "Primary Selection and Clipboard exchanged"
