@@ -746,8 +746,8 @@ D/home/marcosrdac/documents
 	discussions
 2
 D/home/marcosrdac/.dotfiles
-	README.md
-21
+	.gitignore
+12
 D
 
 # Command line history (oldest to newest):
@@ -853,9 +853,7 @@ D
 :q
 
 # Search history (oldest to newest):
-/mpd
-/ncm
-/gtk
+/trans
 /rices
 /theme
 /the
@@ -955,6 +953,7 @@ D
 /2ea
 /eage
 /rea
+/git
 
 # Prompt history (oldest to newest):
 pLista_Pratica03.pdf
@@ -2484,6 +2483,12 @@ t/home/marcosrdac/.local/share/Trash/001_test.py
 	/home/marcosrdac/test.py
 t/home/marcosrdac/.local/share/Trash/000_wave_modeling.py
 	/home/marcosrdac/wave_modeling.py
+t/home/marcosrdac/.local/share/Trash/000_2.22 - Encontro Marcado 2017 [BluRay] [720p] [DUBLADO] COMANDOTORRENTS.COM.4bdf4d5cb9e7020b.torrent
+	/home/marcosrdac/.config/transmission-daemon/torrents/2.22 - Encontro Marcado 2017 [BluRay] [720p] [DUBLADO] COMANDOTORRENTS.COM.4bdf4d5cb9e7020b.torrent
+t/home/marcosrdac/.local/share/Trash/000_Encontro Marcado.mkv.7fed49dbac0b253f.torrent
+	/home/marcosrdac/.config/transmission-daemon/torrents/Encontro Marcado.mkv.7fed49dbac0b253f.torrent
+t/home/marcosrdac/.local/share/Trash/000_settings.json.bak
+	/home/marcosrdac/.config/transmission-daemon/settings.json.bak
 
 # State:
 f

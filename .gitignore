@@ -9,6 +9,9 @@
 .config/newsboat/history.search
 .config/newsboat/history.cmdline
 .config/nvim/.netrwhist
+.config/transmission-daemon/resume/
+.config/transmission-daemon/torrents/
+.config/transmission-daemon/dht.dat
 .config/stardict/history
 
 # ~/
