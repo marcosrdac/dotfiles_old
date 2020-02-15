@@ -11,8 +11,8 @@
     (size 1340 720))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 823 32)
-    (size 527 720)
+    (position 10 32)
+    (size 1340 720)
     (open-on-exit)
     (aux-info
         (left-docks-width "58")
@@ -77,7 +77,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 410)
+            (position 344)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
@@ -95,21 +95,21 @@
     (size 817 629))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 598 0)
+    (position 343 13)
     (size 673 736))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 823 32))
+    (position 465 203))
 (session-info "toplevel"
     (factory-entry "gimp-scale-tool-dialog")
     (position 0 0))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 0 0)
+    (position 343 13)
     (size 673 736))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 0 0)
+    (position 343 13)
     (size 673 736))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
@@ -128,13 +128,13 @@
     (position 24 140))
 (session-info "toplevel"
     (factory-entry "gimp-threshold-tool-dialog")
-    (position 0 0))
+    (position 835 143))
 (session-info "toplevel"
     (factory-entry "gimp-desaturate-tool-dialog")
     (position 227 179))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 732 42)
+    (position 841 104)
     (size 398 554))
 (session-info "toplevel"
     (factory-entry "gimp-palette-import-dialog")
@@ -142,10 +142,10 @@
     (size 608 449))
 (session-info "toplevel"
     (factory-entry "gimp-brightness-contrast-tool-dialog")
-    (position 41 382))
+    (position 495 246))
 (session-info "toplevel"
     (factory-entry "gimp-levels-tool-dialog")
-    (position 894 113)
+    (position 774 152)
     (size 428 547))
 (session-info "toplevel"
     (factory-entry "gimp-palette-editor-color-dialog")
@@ -170,7 +170,7 @@
     (position 2 270))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 185 0))
+    (position 762 227))
 (session-info "toplevel"
     (factory-entry "gimp-unified-transform-tool-dialog")
     (position 0 0))
@@ -183,7 +183,7 @@
     (position 468 254))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-location-dialog")
-    (position 40 0))
+    (position 452 319))
 (session-info "toplevel"
     (factory-entry "gimp-action-search-dialog")
     (position 1144 593)

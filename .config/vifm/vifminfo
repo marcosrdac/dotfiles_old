@@ -137,7 +137,7 @@ b/home/marcosrdac/wallpapers/
 
 # TUI:
 ar
-q1
+q0
 v2
 ov
 m-1
@@ -145,619 +145,612 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/projects/accoustic_wave_modelling/pyver
-	seis.py
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
 8
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	new_tests
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	services.md
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	style
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io/style
+	basic_layout.html
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+8
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+8
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	style
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io/style
+	basic_layout.html
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	style
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io/style
+	screen.css
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	..
+0
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20181012_pensando_conceitos.md
+9
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	services.md
+6
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	portfolio_.md
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	portfolio.md
 4
-d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
-	results
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	maker.py
+8
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	tmp
 2
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	nilo
-5
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	resources
+1
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	tmp
+2
+d/home/marcosrdac/.config/joplin/tmp
 	..
 0
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	nilo
-5
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
-	wave_modeling_marcos.py
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	nilo
-5
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
-	curso_protasio
+d/home/marcosrdac/.config/joplin
+	resources
 1
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo/curso_protasio
-	propaga
-1
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo/curso_protasio/propaga
+d/home/marcosrdac/.config/joplin/resources
 	..
 0
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo/curso_protasio
-	Onda_DF.pptx
-5
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
-	curso_protasio
-1
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo/curso_protasio
-	propaga_rafaela
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
-	curso_protasio
-1
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	curso_protasio
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
-	propaga
-1
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio/propaga
-	..
-0
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
-	propaga_rafaela
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio/propaga_rafaela
-	..
-0
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
-	propaga_rafaela
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio/propaga_rafaela
-	..
-0
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
-	Adriano_FWI_tese.pdf
-1
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	curso_protasio
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
-	..
-0
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	new_tests
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
-	atilas.py
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	edit-5bb47fc90831420a8f23a98c77170688.md
 4
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	nilo
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/nilo
-	curso_protasio
-1
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	old
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/old
-	..
-0
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	curso_protasio
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/curso_protasio
-	..
-0
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	new_tests
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	database.sqlite
 3
-d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
-	atilas.py
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	log-database.txt
+5
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	resources
+1
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	log.txt
+6
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	resources
+1
+d/home/marcosrdac/.config/joplin/resources
+	..
+0
+d/home/marcosrdac/.config/joplin
+	log-database.txt
 4
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	new_tests
-3
-d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
-	drawv.py
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	keymap.json
 4
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	old
-5
-d/home/marcosrdac/projects/accoustic_wave_modelling/old
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	resources
+1
+d/home/marcosrdac/.config/joplin-desktop/resources
+	c2818af55307431b8ec0171b46671937.png
+3
+d/home/marcosrdac/.config/joplin-desktop
+	tmp
+2
+d/home/marcosrdac/.config/joplin-desktop/tmp
 	..
 0
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	old
-5
-d/home/marcosrdac/projects/accoustic_wave_modelling/old
-	..
-0
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	old
-5
-d/home/marcosrdac/projects/accoustic_wave_modelling/old
-	..
-0
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	old
-5
-d/home/marcosrdac/projects/accoustic_wave_modelling/old
-	wave_modelling_4.ipynb
-21
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	new_tests
-3
-d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
-	old
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests/old
-	writer_test.mp4
-24
-d/home/marcosrdac
-	Dropbox
-2
-d/home/marcosrdac/Dropbox
-	dotfiles
-3
-d/home/marcosrdac/Dropbox/dotfiles
-	.local
-4
-d/home/marcosrdac/Dropbox/dotfiles/.local
-	..
-0
-d/home/marcosrdac/Dropbox/dotfiles
-	.cache
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	history_old
-3
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	history_old
-3
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	history_old
-3
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	history_old
-3
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	history_old
-3
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	python
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal/python
-	..
-0
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	python
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles
-	.cache
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	python
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal/python
-	python_history
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	python
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	python
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache/python
-	python_history
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	terminal
-2
-d/home/marcosrdac/Dropbox/dotfiles/.cache/terminal
-	history
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	python
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache/python
-	python_history
-1
-d/home/marcosrdac/Dropbox/dotfiles/.cache
-	python
-1
-d/home/marcosrdac/Dropbox/dotfiles
-	.offlineimaprc
+d/home/marcosrdac/.config/joplin-desktop
+	log-database.txt
 5
 d/home/marcosrdac/projects
 	accoustic_wave_modelling
-2
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	new_tests
+0
+d/home/marcosrdac/.config
+	Joplin
+0
+d/home/marcosrdac/.config/Joplin
+	Code Cache
+1
+d/home/marcosrdac/.config
+	Joplin
 4
-d/home/marcosrdac/projects/accoustic_wave_modelling/new_tests
-	wave_modeling.py
-31
-d/home/marcosrdac/.local/bin
-	lofi_old
-19
+d/home/marcosrdac/.config/Joplin
+	GPUCache
+2
+d/home/marcosrdac/.config/Joplin/GPUCache
+	..
+0
+d/home/marcosrdac/.config/Joplin
+	Session Storage
+3
+d/home/marcosrdac/.config/Joplin/Session Storage
+	..
+0
+d/home/marcosrdac/.config/Joplin
+	blob_storage
+4
+d/home/marcosrdac/.config/Joplin/blob_storage
+	..
+0
+d/home/marcosrdac/.config/Joplin
+	blob_storage
+4
+d/home/marcosrdac/.config
+	joplin
+30
+d/home/marcosrdac/.config/joplin
+	resources
+1
+d/home/marcosrdac/.config/joplin/resources
+	..
+0
+d/home/marcosrdac/.config/joplin
+	keymap.json
+1
+d/home/marcosrdac/.config
+	Joplin
+4
+d/home/marcosrdac/.config/Joplin
+	blob_storage
+4
+d/home/marcosrdac/.config
+	joplin
+26
+d/home/marcosrdac/.config/joplin
+	resources
+1
 d/home/marcosrdac/projects
 	python_learning
 37
 d/home/marcosrdac/projects/python_learning
+	bibs
+4
+d/home/marcosrdac/projects/python_learning/bibs
+	..
+0
+d/home/marcosrdac/projects/python_learning
 	atila
 3
-d/home/marcosrdac/projects
+d/home/marcosrdac/projects/python_learning/atila
 	..
 0
-d/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-27
-d/home/marcosrdac/projects
-	accoustic_wave_modelling
+d/home/marcosrdac/projects/python_learning
+	bibs
 4
-d/home/marcosrdac/projects/accoustic_wave_modelling
-	2d_accoustic_wave_modeling
+d/home/marcosrdac/projects/python_learning/bibs
+	cython
 2
-d/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling
-	wave_modeling.py
-3
-d/home/marcosrdac/projects
-	accoustic_wave_modelling
+d/home/marcosrdac/projects/python_learning/bibs/cython
+	hello_world
+1
+d/home/marcosrdac/projects/python_learning/bibs/cython/hello_world
+	hello.pyx
 4
-d/home/marcosrdac/.config
-	polybar
-33
-d/home/marcosrdac/.config/polybar
-	config
-2
 d/home/marcosrdac/.local/bin
-	toggle_webcam
-31
-d/
-	.vifm-Trash-0
-0
-d/home/marcosrdac/tmp
-	pen
-13
-d/home/marcosrdac/tmp/pen
-	..
-0
-d/home/marcosrdac/tmp
-	eage2020aivfuea.zip
+	menu
+5
+d/home/marcosrdac/.local/bin/menu
+	dm_useful_menu
+16
+d/home/marcosrdac/.local/bin
+	menu
+5
+d/home/marcosrdac/.config
+	nvim
+29
+d/home/marcosrdac/.config/nvim
+	init.vim
+6
+d/home/marcosrdac
+	series
 37
+d/home/marcosrdac/series
+	twin_peaks
+2
+d/home/marcosrdac/series/twin_peaks
+	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+3
+d/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+	TPS02E21.srt
+32
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/.local/bin/menu
-	dm_bar_write_remainder
-1
+D/home/marcosrdac/wallpapers
+	favorites
+3
+D/home/marcosrdac/wallpapers/favorites
+	earth_in_black.jpg
+3
 D/home/marcosrdac/.local/bin
-	polybar
-8
-D/home/marcosrdac/.local/bin/polybar
-	polybar_write_remainder
-8
-D/home/marcosrdac/tmp
-	eage2020
-0
-D/home/marcosrdac/tmp/eage2020
-	eage2020.cls
+	bspwm
 1
-D/home/marcosrdac/tmp
-	eage.zip
-36
-D/home/marcosrdac
-	movies
-13
-D/home/marcosrdac/movies
-	whiplash_(2014)
-37
-D/
-	opt
-12
-D/opt
-	tlauncher
-5
-D/opt/tlauncher
-	tlauncher.jar
-1
-D/home/marcosrdac/documents
-	tmp
-13
-D/home/marcosrdac/documents/tmp
+D/home/marcosrdac/.local/bin/bspwm
+	bspwm_set_monocle_gaps
+6
+D/home/marcosrdac/.local/bin
+	dmenu
+2
+D/home/marcosrdac/.local/bin/dmenu
 	..
 0
+D/home/marcosrdac/.local/bin
+	menu
+5
+D/home/marcosrdac/.local/bin/menu
+	dm_bspwm_set_monocle_gaps
+2
+D/home/marcosrdac/.local/bin
+	hard_bright_control
+16
 D/home/marcosrdac
-	tmp
-17
-D/home/marcosrdac/tmp
-	pen
+	series
+16
+D/home/marcosrdac/series
+	twin_peaks
+2
+D/home/marcosrdac/series/twin_peaks
+	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+3
+D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+	..
 0
-D/home/marcosrdac/tmp/pen
-	visualization.html
-9
-D/
-	media
-10
+D/home/marcosrdac/series/twin_peaks
+	Twin Peaks Season 3 Mp4 1080p
+2
+D/home/marcosrdac/series/twin_peaks/Twin Peaks Season 3 Mp4 1080p
+	Twin Peaks S03E01.mp4
+2
+D/home/marcosrdac/series/twin_peaks
+	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+3
+D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+	TPS02E15.mkv
+25
+D/home/marcosrdac
+	series
+16
+D/home/marcosrdac/series
+	twin_peaks
+2
+D/home/marcosrdac/series/twin_peaks
+	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+3
+D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+	TPS02E15.mkv
+25
+D/home/marcosrdac/tmp
+	vivoinv_904660276443.pdf
+26
 D/media
 	sdc1-usb-Multiple_Card_Re
 1
 D/media/sdc1-usb-Multiple_Card_Re
-	sdmo
-4
-D/media/sdc1-usb-Multiple_Card_Re/sdmo
-	image_ex.png
-8
+	tp2
+5
+D/media/sdc1-usb-Multiple_Card_Re/tp2
+	TPS02E19.mp4
+22
 D/media
 	..
 0
 D/home/marcosrdac
-	tmp
-17
+	series
+16
 D/home/marcosrdac/tmp
-	pen
+	SDMOLAGEP.pptx
+4
+D/media
+	MULTIBOOT
+1
+D/media/MULTIBOOT
+	..
 0
-D/home/marcosrdac
-	Dropbox
+D/media
+	sdd1-usb-Multiple_Card_Re
 2
-D/home/marcosrdac/Dropbox
-	pen
-5
-D/home/marcosrdac/tmp
-	pen
+D/media/sdd1-usb-Multiple_Card_Re
+	tp2
+6
+D/media/sdd1-usb-Multiple_Card_Re/tp2
+	TPS02E20.srt
+32
+D/media
+	..
 0
 D/home/marcosrdac/projects
-	accoustic_wave_modelling
+	site
+37
+D/home/marcosrdac/projects/site
+	marcosrdac.github.io
+3
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
 2
-D/home/marcosrdac/Dropbox/pictures/screenshots
-	urochordata_20191022021935_screenshot_1366x768.png
-36
-D/home/marcosrdac
-	Dropbox
-2
-D/home/marcosrdac/tmp
-	pen
-0
-D/
-	opt
-11
-D/opt
-	tlauncher
-6
-D/opt/tlauncher
-	tlauncher.jar
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
 1
-D/home/marcosrdac
-	Dropbox
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
 2
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20181012_pensando_conceitos.md
+9
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+D/home/marcosrdac/projects/site
+	drafts
+2
+D/home/marcosrdac/projects/site/drafts
+	20181110_pe_atras.md
+8
+D/home/marcosrdac/projects/site
+	marcosrdac.github.io
+3
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	content
+3
+D/home/marcosrdac/projects/site/marcosrdac.github.io/content
+	blog
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io/content/blog
+	20181110_pe_atras.html
+10
+D/home/marcosrdac/projects/site/marcosrdac.github.io/content
+	blog
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	test
+6
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	include
+2
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test/include
+	..
+0
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	lib
+3
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test/lib
+	..
+0
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	lib
+3
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test/lib
+	python3.8
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	lib64
+4
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test/lib64
+	..
+0
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	bin
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test/bin
+	activate
+2
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	bin
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	test
+6
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	bin
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test/bin
+	activate
+2
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	bin
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test/bin
+	python
+10
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	include
+2
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	test
+6
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	..
+0
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	test
+10
+D/home/marcosrdac/projects/site/marcosrdac.github.io/test
+	..
+0
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	style
+8
+D/home/marcosrdac/projects/site/marcosrdac.github.io/style
+	..
+0
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	about.md
+2
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	bin
+3
+D/home/marcosrdac/projects/site/marcosrdac.github.io/bin
+	..
+0
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	index.html
+7
+D/home/marcosrdac/projects
+	moving_std
+37
+D/home/marcosrdac/projects/moving_std
+	stdev.py
+6
 D/home/marcosrdac/wallpapers
 	favorites
-2
+3
 D/home/marcosrdac/wallpapers/favorites
-	mountains_bluish_minecraft_like.jpg
-13
-D/home/marcosrdac/tmp
-	recordings
-1
-D/home/marcosrdac/tmp/recordings
-	20200109224749_screencast.mkv
-16
-D/home/marcosrdac/.local/bin
-	minecraft
-21
+	messy_colorful_tints.jpg
+12
+D/home/marcosrdac/projects
+	moving_stdev
+37
+D/home/marcosrdac/projects/moving_stdev
+	stdev_opt_numba.py
+10
+D/home/marcosrdac
+	asus
+7
+D/home/marcosrdac/asus
+	SanDisk SD card
+2
+D/home/marcosrdac/asus/SanDisk SD card
+	tp2
+4
+D/home/marcosrdac/asus/SanDisk SD card/tp2
+	TPS02E22.mp4
+19
+D/home/marcosrdac/asus
+	..
+0
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/projects
+	accoustic_wave_modelling
+0
+D/home/marcosrdac/.local
+	share
+4
 D/home/marcosrdac/projects/linux_learning
 	packages_instalation.md
 27
-D/home/marcosrdac/.local/bin
-	exchange_prim_clip
-15
-D/home/marcosrdac/wallpapers
-	favorites
-2
-D/home/marcosrdac/wallpapers/favorites
-	crater.jpg
-0
-D/home/marcosrdac/.config
-	shell
-29
-D/home/marcosrdac/tmp
-	recordings
-1
 D/home/marcosrdac/projects
 	accoustic_wave_modelling
-2
+0
 D/home/marcosrdac/projects/accoustic_wave_modelling
-	new_tests
-3
-D/home/marcosrdac/projects
-	aivfuea
-3
-D/home/marcosrdac/projects/aivfuea
-	..
-0
-D/home/marcosrdac/projects
-	amivfuga
-4
-D/home/marcosrdac/projects/amivfuga
-	..
-0
-D/home/marcosrdac/projects
-	balanco_energetico
-9
-D/home/marcosrdac/books
-	Fowler C.M.R. - The Solid Earth_ An Introduction to Global Geophysics-Cambridge University Press.pdf
-8
-D/home/marcosrdac/tmp
-	pdfs
-12
-D/home/marcosrdac/tmp/pdfs
-	shell-graduate-programme-interactive-guide.pdf
-38
-D/home/marcosrdac/tmp
-	eage2020
-0
-D/home/marcosrdac/projects
-	eage2020aivfuea
-20
-D/home/marcosrdac/projects/eage2020aivfuea
 	..
 0
 D/home/marcosrdac/projects
 	aivfuea
-3
-D/home/marcosrdac/documents
-	journal
-6
-D/home/marcosrdac/documents/journal
-	new
-37
-D/home/marcosrdac
-	Dropbox
-2
-D/home/marcosrdac/documents
-	journal
-6
-D/home/marcosrdac/documents/journal
-	20180719 Pessoas são certas demais, fique tranquilo.md
-28
-D/home/marcosrdac/tmp
-	torrents
-15
-D/home/marcosrdac/tmp/torrents
-	Blade.Runner.1982.Directors.Cut.720p.BRRip.XviD.AC3-PsychoLogic
-3
-D/media
-	sdc1-usb-Multiple_Card_Re
 1
-D/media/sdc1-usb-Multiple_Card_Re
-	o auto da compadecida (2000).avi
-6
-D/media
-	testepena
-1
-D/home/marcosrdac
-	MEGA
-4
-D/home/marcosrdac/tmp
-	torrents
-15
-D/home/marcosrdac/tmp/torrents
-	the_godfather_(1972)
-5
-D/home/marcosrdac/tmp/torrents/the_godfather_(1972)
-	..
-0
-D/home/marcosrdac/tmp/torrents
-	the_godfather_(1972)
-5
-D/home/marcosrdac/tmp/torrents/the_godfather_(1972)
-	the_godfather_(1972).mp4
-1
-D/home/marcosrdac/.local
-	share
-4
-D/home/marcosrdac/.local/share
-	minecraft
-11
-D/home/marcosrdac/.local/share/minecraft
-	logs
-0
-D/home/marcosrdac/.local/share/minecraft/logs
-	2020-01-09-4.log.gz
-4
-D/home/marcosrdac/.local/share/minecraft
-	logs
-0
-D/home/marcosrdac/.local/share
-	minecraft
-11
-D/home/marcosrdac/.local/share/minecraft
-	saves
-2
-D/home/marcosrdac/.local/share/minecraft/saves
-	..
-0
-D/home/marcosrdac/.local/share/minecraft
-	saves
-2
-D/home/marcosrdac/.local/share
-	minecraft
-11
-D/home/marcosrdac/.local/share/minecraft
-	saves
-2
-D/home/marcosrdac/.local/share/minecraft/saves
-	..
-0
-D/home/marcosrdac
-	Acaso
-0
-D/home/marcosrdac/.local
-	share
-4
-D/home/marcosrdac/tmp
-	eage2020aivfuea.zip
-37
-D/home/marcosrdac/projects
-	aivfuea
-3
 D/home/marcosrdac/projects/aivfuea
 	aivfuea.pdf
 1
-D/home/marcosrdac/projects
-	aivfuea
-3
-D/home/marcosrdac
-	projects
-15
 D/home/marcosrdac/tmp
-	everaldo_atth_24102019 - Sheet1(1).pdf
-37
-D/home/marcosrdac/projects
-	eage2020aivfuea
-20
-D/home/marcosrdac/projects/eage2020aivfuea
-	eage2020aivfuea.zip
-9
-D/home/marcosrdac/projects
-	accoustic_wave_modelling
-2
-D/home/marcosrdac/documents
-	discussions
-2
-D/home/marcosrdac/.dotfiles
-	.gitignore
-12
+	manual_vpn_2016_v2_0.pdf
+19
+D/home/marcosrdac
+	asus
+7
 D
 
 # Command line history (oldest to newest):
-:touch stuff_with_username.md
-:touch .shrc
-:touch .aliases
-:touch .profile
-:mkdir zsh
-:mkdir bash
-:mkdir Xresources
 :mk
 :enpty
 :mkdir palettes
@@ -837,74 +830,36 @@ D
 :touch test
 :touch old
 :k
-:mkdir 
 :mkdir sg
 :touch 
 :touch test1
 :bspwm_toggle_floating
 :zathura %
 :mkdir podtest
-:wq
 :touch pomodoro
 :mkdir sdmo
 :mini
 :touch
 :mkdir eage2020aivfuea
+:mkdir t
+:mkdir y
+:wq
+:mkdir 0
+:touch keymap.json
+:mkdir 
+:mkdir cython
+:mkdir hello_world
+:touch hello.pyx test.py setup.py
 :q
 
 # Search history (oldest to newest):
-/trans
-/rices
-/theme
-/the
-/ter
-/wal
-/floa
-/flao
-/floating
-/bs
-/l
-/tmp
-/togl
-/s
-/pow
-/powe
-/dm_cho
-/sxh
-/serie
-/poçy
-/she
-/bri
-/fif
-/window
-/screen
-/re
-/fifo
-/wifi
-/scre
-/reci
-/recor
-/ffmp
-/reco
-/packa
-/gol
-/ffm
-/voo
-/som
-/eu
-/mov
-/sche
-/bsp
-/mono
 /dm_
 /dm
 /stra
-/menu
 /write
 /remain
 /dmenu
 /dme
-/st
 /men
 /pel
 /bin
@@ -921,12 +876,9 @@ D
 /vifm
 /nvim
 /rema
-/poly
 /movi
-/pro
 /tm
 /media
-/pen
 /dro
 /talu
 /opt
@@ -934,50 +886,75 @@ D
 /web
 /clip
 /exch
-/prim
 /ex
 /ar
-/pdf
 /cerj
 /borde
 /aiv
-/jou
-/new
-/jo
-/teste
 /muito
-/test
 /q
 /torr
 /mine
 /2ea
-/eage
 /rea
-/git
+/comp
+/late
+/com
+/st
+/config
+/2020
+/eage
+/evera
+/tax
+/ea
+/mono
+/twin
+/srt
+/date
+/bsp
+/toggl
+/reco
+/poly
+/pol
+/wri
+/doc
+/joi
+/jou
+/tes
+/new
+/teste
+/REQ
+/coh
+/tor
+/movie
+/prim
+/SD
+/t
+/deca
+/dec
+/ser
+/pen
+/test
+/stdev
+/std
+/pdf
+/site
+/k
+/jopl
+/des
+/jop
+/jo
+/pro
+/pytho
+/menu
+/usef
+/nv
+//as
+/seri
+/acc
+/vpn
 
 # Prompt history (oldest to newest):
-pLista_Pratica03.pdf
-pUbuntu-Mate-Radioactive-no-logo
-pGM_space.jpg
-pcolorful_tints
-pTrash
-phelix_nebula
-phelix_nebula_gc
-pmessy_colorful_tints
-parara_azul_brazil_total
-parara_azul_brazil_total_gc
-pcrab_nebula
-p000_water_drop_on_leaf
-pwater_drop_on_leaf.jpg
-preset_fav
-pplantas_casa_federacao
-pi3bar_pomodoro_new
-poutt
-poutt.jpg
-pout_legal
-p_out.jpg
-pfour
-p2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_
 p2001.a.space.odyssey.(1968)
 p2001_a_space_odyssey_(1968)_
 p2001_a_space_odyssey_(1968)
@@ -1056,11 +1033,36 @@ pshow_prim_clip
 p20200111 - Enclausurado e envenenado
 p20200111 enclausurado_e_envenenado.md
 peage2020aivfuea
+pTwin.Peaks.S02E22.1080p.BluRay.x264-REWARD
+p0_SDMO
+pmoving_stdev
+pstdevpro
+pstdevtest
+pstdev_opt.py
+pstdev.py
+pstdev_optt
+pstdev
+pstdev_opt
+pstdev_opt_numba
+pstdev_opt_numba_timeit.py
+p20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+pportfolio.md
+pportfoli.md
+pportfolio_.md
+pportfolio__
+pportfolio
+pjoplin
+pjoplin-desktop
+pTPS02E21
+pTPS02E22
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_eage2020aivfuea.zip
+""/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E21.mkv.mp4
+""/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E21.srt
+""/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E22.mkv.mp4
+""/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E22.srt
 
 # Directory stack (oldest to newest):
 
@@ -2489,6 +2491,86 @@ t/home/marcosrdac/.local/share/Trash/000_Encontro Marcado.mkv.7fed49dbac0b253f.t
 	/home/marcosrdac/.config/transmission-daemon/torrents/Encontro Marcado.mkv.7fed49dbac0b253f.torrent
 t/home/marcosrdac/.local/share/Trash/000_settings.json.bak
 	/home/marcosrdac/.config/transmission-daemon/settings.json.bak
+t/home/marcosrdac/.local/share/Trash/000_nord.jpg
+	/home/marcosrdac/wallpapers/favorites/nord.jpg
+t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_nord_2_png_dark_wal__1.1.0.json
+	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_nord_2_png_dark_wal__1.1.0.json
+t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_nord_jpg_dark_wal__1.1.0.json
+	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_nord_jpg_dark_wal__1.1.0.json
+t/home/marcosrdac/.local/share/Trash/000_20200128 oi.md
+	/home/marcosrdac/documents/journal/20200128 oi.md
+t/home/marcosrdac/.local/share/Trash/000_WWW.YTS.RE.jpg
+	/home/marcosrdac/tmp/torrents/Coherence (2013) [1080p]/WWW.YTS.RE.jpg
+t/home/marcosrdac/.local/share/Trash/000_coherence.(6047003).nfo
+	/home/marcosrdac/tmp/torrents/Coherence (2013) [1080p]/coherence.(6047003).nfo
+t/home/marcosrdac/.local/share/Trash/000_coherence..pob.1cd..zip
+	/home/marcosrdac/tmp/torrents/Coherence (2013) [1080p]/coherence..pob.1cd..zip
+t/home/marcosrdac/.local/share/Trash/000_test
+	/home/marcosrdac/projects/site/marcosrdac.github.io/test
+t/home/marcosrdac/.local/share/Trash/001_bin
+	/home/marcosrdac/projects/site/marcosrdac.github.io/bin
+t/home/marcosrdac/.local/share/Trash/001_lib
+	/home/marcosrdac/projects/site/marcosrdac.github.io/lib
+t/home/marcosrdac/.local/share/Trash/001_lib64
+	/home/marcosrdac/projects/site/marcosrdac.github.io/lib64
+t/home/marcosrdac/.local/share/Trash/001_pyvenv.cfg
+	/home/marcosrdac/projects/site/marcosrdac.github.io/pyvenv.cfg
+t/home/marcosrdac/.local/share/Trash/000_include
+	/home/marcosrdac/projects/site/marcosrdac.github.io/include
+t/home/marcosrdac/.local/share/Trash/000_site
+	/home/marcosrdac/projects/site/marcosrdac.github.io/site
+t/home/marcosrdac/.local/share/Trash/000_20181110_pe_atras.html
+	/home/marcosrdac/projects/site/marcosrdac.github.io/content/blog/20181110_pe_atras.html
+t/home/marcosrdac/.local/share/Trash/000_marcosrdac.github.io
+	/home/marcosrdac/projects/site/marcosrdac.github.io
+t/home/marcosrdac/.local/share/Trash/000_irpj 2019 everaldo.pdf
+	/home/marcosrdac/projects/moving_stdev/irpj 2019 everaldo.pdf
+t/home/marcosrdac/.local/share/Trash/000_recibo celi.pdf
+	/home/marcosrdac/projects/moving_stdev/recibo celi.pdf
+t/home/marcosrdac/.local/share/Trash/000_std.py
+	/home/marcosrdac/projects/moving_stdev/std.py
+t/home/marcosrdac/.local/share/Trash/000_stdev.py
+	/home/marcosrdac/projects/moving_stdev/stdev.py
+t/home/marcosrdac/.local/share/Trash/000_stdevfor.py
+	/home/marcosrdac/projects/moving_stdev/stdevfor.py
+t/home/marcosrdac/.local/share/Trash/000_stdevpro.py
+	/home/marcosrdac/projects/moving_stdev/stdevpro.py
+t/home/marcosrdac/.local/share/Trash/000_numba_results.pdf
+	/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/numba_results.pdf
+t/home/marcosrdac/.local/share/Trash/000_t
+	/home/marcosrdac/series/t
+t/home/marcosrdac/.local/share/Trash/000_y
+	/home/marcosrdac/series/y
+t/home/marcosrdac/.local/share/Trash/000_20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+	/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog/20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+t/home/marcosrdac/.local/share/Trash/000_20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade.html
+	/home/marcosrdac/projects/site/marcosrdac.github.io/content/blog/20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade.html
+t/home/marcosrdac/.local/share/Trash/000_20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.html
+	/home/marcosrdac/projects/site/marcosrdac.github.io/content/blog/20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.html
+t/home/marcosrdac/.local/share/Trash/000_index.html
+	/home/marcosrdac/projects/moving_stdev/index.html
+t/home/marcosrdac/.local/share/Trash/000_joplin
+	/home/marcosrdac/.config/joplin
+t/home/marcosrdac/.local/share/Trash/000_joplin-desktop
+	/home/marcosrdac/.config/joplin-desktop
+t/home/marcosrdac/.local/share/Trash/000_resources
+	/home/marcosrdac/.config/joplin/resources
+t/home/marcosrdac/.local/share/Trash/000_tmp
+	/home/marcosrdac/.config/joplin/tmp
+t/home/marcosrdac/.local/share/Trash/000_database.sqlite
+	/home/marcosrdac/.config/joplin/database.sqlite
+t/home/marcosrdac/.local/share/Trash/000_log-database.txt
+	/home/marcosrdac/.config/joplin/log-database.txt
+t/home/marcosrdac/.local/share/Trash/000_log.txt
+	/home/marcosrdac/.config/joplin/log.txt
+t/home/marcosrdac/.local/share/Trash/000_Joplin
+	/home/marcosrdac/.config/joplin/Joplin
+t/home/marcosrdac/.local/share/Trash/000_build
+	/home/marcosrdac/projects/python_learning/bibs/cython/avg/build
+t/home/marcosrdac/.local/share/Trash/000_hello.c
+	/home/marcosrdac/projects/python_learning/bibs/cython/avg/hello.c
+t/home/marcosrdac/.local/share/Trash/000_hello.cpython-38-x86_64-linux-gnu.so
+	/home/marcosrdac/projects/python_learning/bibs/cython/avg/hello.cpython-38-x86_64-linux-gnu.so
 
 # State:
 f
@@ -2497,6 +2579,6 @@ i1
 [F
 F
 I1
-].0
+].1
 ]F
 s0

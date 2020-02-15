@@ -1,54 +1,54 @@
 # settings
 
+(GimpGegl-gimp-threshold-config "2020-02-08 20:03:27"
+    (time 1581203007)
+    (channel value)
+    (low 0.49803921568627452)
+    (high 1))
+(GimpGegl-gimp-threshold-config "2020-02-08 19:33:58"
+    (time 1581201238)
+    (channel value)
+    (low 0.57647058823529407)
+    (high 1))
+(GimpGegl-gimp-threshold-config "2020-02-08 19:29:16"
+    (time 1581200956)
+    (channel value)
+    (low 0.45490196078431372)
+    (high 1))
 (GimpGegl-gimp-threshold-config "2019-10-23 21:31:06"
     (time 1571877066)
     (channel value)
-    (low 0.301961)
-    (high 1.000000))
+    (low 0.30196099999999998)
+    (high 1))
 (GimpGegl-gimp-threshold-config "2019-10-23 21:28:40"
     (time 1571876920)
     (channel value)
-    (low 0.035294)
-    (high 1.000000))
+    (low 0.035293999999999999)
+    (high 1))
 (GimpGegl-gimp-threshold-config "2019-10-22 19:49:41"
     (time 1571784581)
     (channel value)
-    (low 0.364706)
-    (high 1.000000))
+    (low 0.36470599999999997)
+    (high 1))
 (GimpGegl-gimp-threshold-config "2019-10-07 20:45:15"
     (time 1570491915)
     (channel value)
-    (low 0.847059)
-    (high 1.000000))
+    (low 0.84705900000000001)
+    (high 1))
 (GimpGegl-gimp-threshold-config "2019-10-07 20:45:00"
     (time 1570491900)
     (channel value)
-    (low 0.898039)
-    (high 1.000000))
+    (low 0.89803900000000003)
+    (high 1))
 (GimpGegl-gimp-threshold-config "2019-10-07 20:42:23"
     (time 1570491743)
     (channel value)
-    (low 0.756863)
-    (high 1.000000))
+    (low 0.75686299999999995)
+    (high 1))
 (GimpGegl-gimp-threshold-config "2019-09-26 22:40:53"
     (time 1569548453)
     (channel value)
-    (low 0.627451)
-    (high 1.000000))
-(GimpGegl-gimp-threshold-config "2019-09-26 22:40:29"
-    (time 1569548429)
-    (channel value)
-    (low 0.815686)
-    (high 1.000000))
-(GimpGegl-gimp-threshold-config "2019-09-26 22:31:46"
-    (time 1569547906)
-    (channel value)
-    (low 0.686275)
-    (high 1.000000))
-(GimpGegl-gimp-threshold-config "2019-09-26 22:14:54"
-    (time 1569546894)
-    (channel value)
-    (low 0.874510)
-    (high 1.000000))
+    (low 0.62745099999999998)
+    (high 1))
 
 # end of settings

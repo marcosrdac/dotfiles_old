@@ -19,4 +19,4 @@ done
 
 chosen=$(echo -e $choices | $dmenu_command -p "$ask")
 
-echo $chosen
+[ -z "$chosen" ] && exit 1 || echo $chosen

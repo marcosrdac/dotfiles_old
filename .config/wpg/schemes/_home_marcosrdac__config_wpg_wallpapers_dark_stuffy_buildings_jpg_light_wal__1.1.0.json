@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/dark_stuffy_buildings.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f8f2eb",
+        "foreground": "#0B0B13",
+        "cursor": "#0B0B13"
+    },
+    "colors": {
+        "color0": "#f8f2eb",
+        "color1": "#6F2934",
+        "color2": "#173949",
+        "color3": "#5A3845",
+        "color4": "#1F4858",
+        "color5": "#5B4951",
+        "color6": "#902D2F",
+        "color7": "#0B0B13",
+        "color8": "#7f684c",
+        "color9": "#6F2934",
+        "color10": "#173949",
+        "color11": "#5A3845",
+        "color12": "#1F4858",
+        "color13": "#5B4951",
+        "color14": "#902D2F",
+        "color15": "#0B0B13"
+    }
+}

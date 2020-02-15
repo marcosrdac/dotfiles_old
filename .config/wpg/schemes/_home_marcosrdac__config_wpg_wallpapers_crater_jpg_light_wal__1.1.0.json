@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/crater.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f9edf2",
+        "foreground": "#08192B",
+        "cursor": "#08192B"
+    },
+    "colors": {
+        "color0": "#f9edf2",
+        "color1": "#BF526B",
+        "color2": "#646F8F",
+        "color3": "#AC738B",
+        "color4": "#CE728F",
+        "color5": "#E77697",
+        "color6": "#7289B3",
+        "color7": "#08192B",
+        "color8": "#825265",
+        "color9": "#BF526B",
+        "color10": "#646F8F",
+        "color11": "#AC738B",
+        "color12": "#CE728F",
+        "color13": "#E77697",
+        "color14": "#7289B3",
+        "color15": "#08192B"
+    }
+}

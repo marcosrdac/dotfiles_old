@@ -3,10 +3,9 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpRectangleSelectOptions"
-        (desired-fixed-size-height 0)
-        (desired-fixed-size-width 0)
-        (tool "gimp-rect-select-tool"))
+    (tool-options "GimpHistogramOptions"
+        (tool "gimp-threshold-tool")
+        (histogram-scale logarithmic))
     (use-fg-bg no)
     (use-brush no)
     (use-dynamics no)

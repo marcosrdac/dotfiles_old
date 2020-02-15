@@ -3,13 +3,15 @@
 " --- plugin management --- "
 call plug#begin('~/.vim/plugged')
     " essential
-    Plug 'vim-syntastic/syntastic'                  " syntax checking
+    "Plug 'vim-syntastic/syntastic'                  " syntax checking
+    Plug 'dense-analysis/ale'                        " syntax checking
     Plug 'neoclide/coc.nvim', {'branch': 'release'} " intelligent completion
     Plug 'christoomey/vim-tmux-navigator'           " tmux navigation
     "Plug 'Raimondi/delimitMate'                     " closing brackets
     Plug 'tpope/vim-surround'                       " changing brackets
     Plug 'ctrlpvim/ctrlp.vim'                       " file fuzyfinder
     Plug 'scrooloose/nerdcommenter'                 " (un)comments text
+    Plug 'norcalli/nvim-colorizer.lua'              " colors become colored
     Plug 'terryma/vim-expand-region'                " expanding selection
 
     " NERDTree
@@ -96,7 +98,7 @@ endif
 "   needed options
 set hidden
 " You will have bad experience for diagnostic messages when it's default 4000.
-"set updatetime=300
+set updatetime=300
 " don't give |ins-completion-menu| messages.
 set shortmess+=c
 " Use tab for trigger completion with characters ahead and navigate.
@@ -144,6 +146,13 @@ augroup mygroup
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
+" ALE
+" Disable auto-detection of virtualenvironments
+let g:ale_virtualenv_dir_names = []
+" Environment variable ${VIRTUAL_ENV} is always used
+" nvim-colorizer.lua needs
+"set termguicolors
+"lua require'colorizer'.setup()
 " vim-tmux-navigator
 let g:tmux_navigator_no_mappings = 0
 " delimitMate

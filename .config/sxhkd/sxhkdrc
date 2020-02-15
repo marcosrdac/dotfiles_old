@@ -93,13 +93,15 @@ alt + s; {_,shift + } s
 		 menu_run    }
 
 # opeinig default software (w for window)
-{_,alt + v : } alt + w ; {v,b,shift+b,n,shift+n,m,g,k,shift+k}
+{_,alt + v : } alt + w ; {v,b,shift+b,n,shift+n,m,g,j,shift+j,k,shift+k}
 	{ ,pkill -ALRM sxhkd;} \
 	{$TERMINAL -e $EDITOR, \
 	$BROWSER,			firefox, \
 	$TERMINAL -e $FILEBROWSER,	thunar, \
 	$TERMINAL -e ncmpcpp, \
 	gimp, \
+	joplin, \
+	joplin-desktop, \
 	keepmenu, \
 	keepassx2 \
 	}
@@ -124,11 +126,12 @@ alt + c ; {r,p,shift+p,m}
 	mpc_show}
 
 # running any scripts
-alt + x ; {shift+q,r,p,u}
+alt + x ; {shift+q,r,p,u, m}
 	{dm_power_menu, \
 	 dm_recording_menu, \
 	 dm_polybar_pel, \
-	 dm_useful_menu}
+	 dm_useful_menu, \
+	 $TERMINAL -e unimatrix}
 alt + x ; w ; {w,f,j;l,l;j,j;h,h;j,k;l,l;k,k;h,h;k}
 	toggle_webcam {_,full,se,se,sw,sw,ne,ne,nw,nw}
 # other scripts
@@ -136,7 +139,7 @@ alt + {shift + g}
 	{dm_bspwm_set_monocle_gaps}
 # running any scripts
 alt + e ; {s,p,v,b}
-	{$TERMINAL -e $EDITOR ~/.config/sxhkd/sxhkdrc , \
+	{$TERMINAL -e $EDITOR ~/.config/sxhkd/sxhkdrc && kill -USR1 $(pidof sxhkd) , \
 	 $TERMINAL -e $EDITOR ~/.config/polybar/config , \
 	 $TERMINAL -e $EDITOR ~/.config/nvim/init.vim , \
 	 $TERMINAL -e $EDITOR ~/.config/bspwm/bspwmrc}
@@ -159,8 +162,8 @@ alt + {Left,Right,Down,Up}
 	 pamixer --allow-boost -i 5}
 
 # function keys
-alt + {F9,shift + F9}
-	{dm_mount_menu, dm_umount_menu}
+alt + {F5, F9,shift + F9}
+	{dm_display_menu,dm_mount_menu, dm_umount_menu}
 
 
 # --- fixed stuff --- #

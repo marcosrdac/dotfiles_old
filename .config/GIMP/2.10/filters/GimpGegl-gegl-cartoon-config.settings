@@ -1,24 +1,24 @@
 # settings
 
+(GimpGegl-gegl-cartoon-config "2020-02-08 19:33:39"
+    (time 1581201219)
+    (mask-radius 7)
+    (pct-black 0.20000000000000001))
 (GimpGegl-gegl-cartoon-config "2019-10-22 20:00:12"
     (time 1571785212)
-    (mask-radius 50.000000)
-    (pct-black 0.015000))
+    (mask-radius 50)
+    (pct-black 0.014999999999999999))
 (GimpGegl-gegl-cartoon-config "2019-10-22 19:59:05"
     (time 1571785145)
-    (mask-radius 14.149000)
-    (pct-black 0.006000))
+    (mask-radius 14.148999999999999)
+    (pct-black 0.0060000000000000001))
 (GimpGegl-gegl-cartoon-config "2019-07-13 19:50:14"
     (time 1563058214)
-    (mask-radius 1.890000)
-    (pct-black 0.372000))
-(GimpGegl-gegl-cartoon-config "2019-01-07 13:43:56"
-    (time 1546875836)
-    (mask-radius 7.000000)
-    (pct-black 0.200000))
+    (mask-radius 1.8899999999999999)
+    (pct-black 0.372))
 (GimpGegl-gegl-cartoon-config "2018-08-27 16:13:20"
     (time 1535397200)
-    (mask-radius 24.488000)
-    (pct-black 0.228000))
+    (mask-radius 24.488)
+    (pct-black 0.22800000000000001))
 
 # end of settings
