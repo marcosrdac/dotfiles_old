@@ -4,7 +4,7 @@
 # .cache
 .cache/
 
-# .cache
+# .config
 .config/keepassx/marcosrdac.kdbx
 .config/newsboat/history.search
 .config/newsboat/history.cmdline
@@ -13,6 +13,7 @@
 .config/transmission-daemon/torrents/
 .config/transmission-daemon/dht.dat
 .config/stardict/history
+.config/unique/ordered_monitors
 
 # ~/
 .calcurse

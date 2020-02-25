@@ -6,10 +6,9 @@
 
 dmenu_command=${DMENU:-'dmenu'}
 
-ask=$1
-shift
+[ $# -ge 1 ] && ask=$1 && shift
 
-[ $# -gt 1 ] && choices="$1" && shift
+[ $# -ge 1 ] && choices="$1" && shift
 
 while [ "$1" != "" ]
 do

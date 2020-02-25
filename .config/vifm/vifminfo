@@ -136,8 +136,8 @@ b/home/marcosrdac/wallpapers/
 	1570641995
 
 # TUI:
-ar
-q0
+al
+q1
 v2
 ov
 m-1
@@ -145,222 +145,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
-	20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
-8
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	services.md
-5
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	style
-5
-d/home/marcosrdac/projects/site/marcosrdac.github.io/style
-	basic_layout.html
-1
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
-	20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
-8
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
-	20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
-8
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	style
-5
-d/home/marcosrdac/projects/site/marcosrdac.github.io/style
-	basic_layout.html
-1
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	style
-5
-d/home/marcosrdac/projects/site/marcosrdac.github.io/style
-	screen.css
-2
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
-	..
-0
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
-	20181012_pensando_conceitos.md
-9
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	services.md
-6
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	portfolio_.md
-5
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	portfolio.md
-4
-d/home/marcosrdac/projects/site/marcosrdac.github.io
-	maker.py
-8
-d/home/marcosrdac/.config
-	joplin
-12
-d/home/marcosrdac/.config/joplin
-	tmp
-2
-d/home/marcosrdac/.config
-	joplin-desktop
-13
-d/home/marcosrdac/.config/joplin-desktop
-	resources
-1
-d/home/marcosrdac/.config
-	joplin
-12
-d/home/marcosrdac/.config/joplin
-	tmp
-2
-d/home/marcosrdac/.config/joplin/tmp
-	..
-0
-d/home/marcosrdac/.config/joplin
-	resources
-1
-d/home/marcosrdac/.config/joplin/resources
-	..
-0
-d/home/marcosrdac/.config/joplin
-	database.sqlite
-3
-d/home/marcosrdac/.config
-	joplin
-12
-d/home/marcosrdac/.config/joplin
-	database.sqlite
-3
-d/home/marcosrdac/.config
-	joplin-desktop
-13
-d/home/marcosrdac/.config/joplin-desktop
-	edit-5bb47fc90831420a8f23a98c77170688.md
-4
-d/home/marcosrdac/.config
-	joplin
-12
-d/home/marcosrdac/.config/joplin
-	database.sqlite
-3
-d/home/marcosrdac/.config
-	joplin-desktop
-13
-d/home/marcosrdac/.config/joplin-desktop
-	log-database.txt
-5
-d/home/marcosrdac/.config
-	joplin-desktop
-13
-d/home/marcosrdac/.config/joplin-desktop
-	resources
-1
-d/home/marcosrdac/.config
-	joplin
-12
-d/home/marcosrdac/.config/joplin
-	database.sqlite
-3
-d/home/marcosrdac/.config
-	joplin-desktop
-13
-d/home/marcosrdac/.config/joplin-desktop
-	log.txt
-6
-d/home/marcosrdac/.config
-	joplin
-12
-d/home/marcosrdac/.config/joplin
-	database.sqlite
-3
-d/home/marcosrdac/.config
-	joplin
-12
-d/home/marcosrdac/.config/joplin
-	resources
-1
-d/home/marcosrdac/.config/joplin/resources
-	..
-0
-d/home/marcosrdac/.config/joplin
-	log-database.txt
-4
-d/home/marcosrdac/.config
-	joplin
-12
-d/home/marcosrdac/.config/joplin
-	keymap.json
-4
-d/home/marcosrdac/.config
-	joplin-desktop
-13
-d/home/marcosrdac/.config/joplin-desktop
-	resources
-1
-d/home/marcosrdac/.config/joplin-desktop/resources
-	c2818af55307431b8ec0171b46671937.png
-3
-d/home/marcosrdac/.config/joplin-desktop
-	tmp
-2
-d/home/marcosrdac/.config/joplin-desktop/tmp
-	..
-0
-d/home/marcosrdac/.config/joplin-desktop
-	log-database.txt
-5
-d/home/marcosrdac/projects
-	accoustic_wave_modelling
-0
-d/home/marcosrdac/.config
-	Joplin
-0
-d/home/marcosrdac/.config/Joplin
-	Code Cache
-1
-d/home/marcosrdac/.config
-	Joplin
-4
-d/home/marcosrdac/.config/Joplin
-	GPUCache
-2
-d/home/marcosrdac/.config/Joplin/GPUCache
-	..
-0
-d/home/marcosrdac/.config/Joplin
-	Session Storage
-3
-d/home/marcosrdac/.config/Joplin/Session Storage
-	..
-0
-d/home/marcosrdac/.config/Joplin
-	blob_storage
-4
 d/home/marcosrdac/.config/Joplin/blob_storage
 	..
 0
@@ -445,322 +229,528 @@ d/home/marcosrdac/series/twin_peaks
 d/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
 	TPS02E21.srt
 32
+d/home/marcosrdac/tmp
+	analise_aula09.pdf
+4
+d/home/marcosrdac
+	movies
+34
+d/home/marcosrdac/movies
+	twin_peaks
+41
+d/home/marcosrdac/movies/twin_peaks
+	MaratonaDev3
+1
+d/home/marcosrdac/movies/twin_peaks/MaratonaDev3
+	Wallpapers
+1
+d/home/marcosrdac/movies/twin_peaks
+	Twin.Peaks.Fire.Walk.with.Me.1992.srt
+3
+d/home/marcosrdac/movies
+	eternal_sunshine_of_the_spotless_mind_(2004)
+8
+d/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)
+	eternal_sunshine_of_the_spotless_mind_(2004)_eng.srt
+3
+d/home/marcosrdac/movies
+	twin_peaks_movies
+35
+d/home/marcosrdac/movies/twin_peaks_movies
+	Twin.Peaks.FWWM.The.Missing.Pieces.1992.mkv
+1
+d/home/marcosrdac
+	documents
+11
+d/home/marcosrdac/.config
+	shell
+37
+d/home/marcosrdac/.config/shell
+	shenv
+4
+d/home/marcosrdac
+	documents
+11
+d/home/marcosrdac/.local/bin
+	vifm_ueberzug
+37
+d/home/marcosrdac/.config
+	lf
+15
+d/home/marcosrdac/.config/lf
+	lfrc
+1
+d/home/marcosrdac/projects
+	maratonadev202002
+38
+d/home/marcosrdac/projects/maratonadev202002
+	..
+0
+d/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+12
+d/home/marcosrdac
+	documents
+11
+d/home/marcosrdac/projects
+	nodejsdatabasehackernoon
+12
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	migrations
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/migrations
+	..
+0
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	migrations
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/migrations
+	20200224004022_create_user_table.js
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	migrations
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/migrations
+	20200224004022_create_user_table.js
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	node_modules
+2
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/node_modules
+	..
+0
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	public
+3
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/public
+	..
+0
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	public
+3
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/public
+	app.js
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	migrations
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/migrations
+	20200224004022_create_user_table.js
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	public
+3
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/public
+	app.js
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	public
+3
+d/home/marcosrdac/projects/nodejsdatabasehackernoon/public
+	app.js
+1
+d/home/marcosrdac/projects/nodejsdatabasehackernoon
+	store.js
+8
+d/home/marcosrdac/projects
+	nodejs_db_hackernoon
+12
+d/home/marcosrdac/projects/nodejs_db_hackernoon
+	README.md
+4
+d/home/marcosrdac/projects
+	maratonadev202002
+3
+d/home/marcosrdac/projects/maratonadev202002
+	index.html
+5
+d/home/marcosrdac
+	documents
+11
+d/home/marcosrdac/projects
+	accoustic_wave_modelling
+0
+d/home/marcosrdac/projects/linux_learning
+	git
+15
+d/home/marcosrdac/projects
+	maratonadev202002
+38
+d/home/marcosrdac/projects/maratonadev202002
+	README.md
+6
+d/home/marcosrdac/.config
+	bspwm
+0
+d/home/marcosrdac/.config/bspwm
+	bspwmrc
+1
+d/home/marcosrdac/Dropbox/dotfiles/.config
+	..
+0
+d/home/marcosrdac
+	.dotfiles
+0
+d/home/marcosrdac/.dotfiles
+	.config
+2
+d/home/marcosrdac/.dotfiles/.config
+	unique
+11
+d/home/marcosrdac/.dotfiles/.config/unique
+	ordered_monitors
+1
+d/home/marcosrdac/.config/nvim
+	init.vim
+6
+d/home/marcosrdac/.local/bin
+	polybar
+6
+d/home/marcosrdac/.local/bin/polybar
+	..
+0
+d/home/marcosrdac/.local/bin
+	bspwm
+1
+d/home/marcosrdac/.local/bin/bspwm
+	bspwm_multi_monitor.bak
+5
+d/home/marcosrdac/.local/bin
+	pel
+20
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	menu
+3
+d/home/marcosrdac/.local/bin/menu
+	dm_display_menu_new
+5
+d/home/marcosrdac/.local/bin
+	bspwm
+1
+d/home/marcosrdac/.local/bin/bspwm
+	bspwm_multi_monitor
+4
+d/home/marcosrdac/.local/bin
+	bspwm
+1
+d/home/marcosrdac/.local/bin/bspwm
+	bspwm_multi_monitor
+4
+d/home/marcosrdac/.local/bin
+	menu
+5
+d/home/marcosrdac/.local/bin/menu
+	dm_display_menu
+4
 d
 
 # Right window history (oldest to newest):
+D/home/marcosrdac/projects/maratonadev202002/public
+	logo.png
+1
+D/home/marcosrdac/projects/maratonadev202002
+	public
+4
+D/home/marcosrdac/projects/maratonadev202002/public
+	logo.png
+1
+D/home/marcosrdac/projects/maratonadev202002
+	public
+4
+D/home/marcosrdac/projects/maratonadev202002/public
+	logo.png
+1
+D/home/marcosrdac/projects/maratonadev202002
+	public
+4
+D/home/marcosrdac/projects/maratonadev202002/public
+	logo.png
+1
+D/home/marcosrdac/projects/maratonadev202002
+	node_modules
+3
+D/home/marcosrdac/projects/maratonadev202002/node_modules
+	pg
+26
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
+	lib
+1
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg/lib
+	..
+0
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
+	node_modules
+2
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg/node_modules
+	..
+0
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
+	node_modules
+2
+D/home/marcosrdac/projects/maratonadev202002/node_modules
+	pg
+26
+D/home/marcosrdac/projects/maratonadev202002
+	__MACOSX
+2
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX
+	MaratonaDev3
+1
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3/Wallpapers
+	..
+0
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX
+	MaratonaDev3
+1
+D/home/marcosrdac/projects/maratonadev202002
+	MaratonaDev3
+1
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3/Wallpapers
+	..
+0
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3/Wallpapers
+	Wallpaper MaratonaDev 3 - 2560x1080.png
+3
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002
+	server.js
+7
 D/home/marcosrdac/wallpapers
 	favorites
 3
 D/home/marcosrdac/wallpapers/favorites
-	earth_in_black.jpg
+	lonely_city_sunset.jpg
+22
+D/home/marcosrdac/wallpapers
+	favorites
 3
+D/home/marcosrdac
+	series
+17
+D/home/marcosrdac/series
+	twin_peaks
+2
+D/home/marcosrdac
+	movies
+14
+D/home/marcosrdac/movies
+	inland_empire_(2006)
+10
+D/home/marcosrdac/tmp
+	eage2020aivfuea.pdf
+7
+D/home/marcosrdac
+	movies
+14
+D/home/marcosrdac/movies
+	inland_empire_(2006)
+10
+D/home/marcosrdac/tmp
+	torrents
+0
+D/home/marcosrdac/tmp/torrents
+	Twin Peaks Fire Walk with Me - David Lynch Remastered 1992 Eng Subs 720p [H264-mp4]
+8
+D/home/marcosrdac/tmp/torrents/Twin Peaks Fire Walk with Me - David Lynch Remastered 1992 Eng Subs 720p [H264-mp4]
+	Twin Peaks Fire Walk with Me - David Lynch Remastered 1992 Eng Subs 720p [H264-mp4].mp4
+11
+D/home/marcosrdac/tmp/torrents
+	Twin.Peaks.Fire.Walk.with.Me.1992.The.Missing.Pieces.BDRip.x264-ARCHiViST[rarbg]
+9
+D/home/marcosrdac/tmp/torrents/Twin.Peaks.Fire.Walk.with.Me.1992.The.Missing.Pieces.BDRip.x264-ARCHiViST[rarbg]
+	twin.peaks.fire.walk.with.me.1992.the.missing.pieces.bdrip.x264-archivist.mkv
+3
+D/home/marcosrdac/.config
+	libreoffice
+9
+D/home/marcosrdac/.config/libreoffice
+	4
+1
+D/home/marcosrdac/.config/libreoffice/4
+	user
+1
+D/home/marcosrdac/.config/libreoffice/4/user
+	..
+0
+D/home/marcosrdac/.config/libreoffice/4
+	user
+1
+D/home/marcosrdac/.config/libreoffice
+	4
+1
+D/home/marcosrdac/.config
+	light
+9
+D/home/marcosrdac/.config/light
+	..
+0
+D/home/marcosrdac/.config
+	matplotlib
+9
+D/home/marcosrdac/.config/matplotlib
+	..
+0
+D/home/marcosrdac/.config
+	menus
+9
+D/home/marcosrdac/.config/menus
+	applications-merged
+1
+D/home/marcosrdac/.config/menus/applications-merged
+	..
+0
+D/home/marcosrdac/.config/menus
+	applications-merged
+1
+D/home/marcosrdac/.config
+	menus
+9
+D/home/marcosrdac/.config/menus
+	applications-merged
+1
+D/home/marcosrdac/.config/menus/applications-merged
+	user-chrome-apps.menu
+1
+D/home/marcosrdac/.config/menus
+	applications-merged
+1
+D/home/marcosrdac/.config
+	libfm
+8
+D/home/marcosrdac/.config/libfm
+	..
+0
+D/home/marcosrdac/.config
+	qutebrowser
+23
+D/home/marcosrdac/documents
+	..
+0
+D/home/marcosrdac/.config
+	shell
+25
+D/home/marcosrdac
+	documents
+11
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac
+	.dotfiles
+0
+D/home/marcosrdac/.dotfiles
+	..
+0
+D/home/marcosrdac
+	.dotfiles
+0
+D/home
+	marcosrdac
+3
+D/home/marcosrdac
+	.dotfiles
+0
+D/home/marcosrdac/.dotfiles
+	.config
+2
+D/home/marcosrdac/.dotfiles/.config
+	unique
+32
+D/home/marcosrdac/.dotfiles/.config/unique
+	monitors.template
+1
+D/home/marcosrdac/.dotfiles/.config
+	unique
+19
+D/home/marcosrdac/.config
+	unique
+19
+D/home/marcosrdac/.config/unique
+	monitors_template.md
+2
+D/home/marcosrdac/.config
+	polybar
+10
+D/home/marcosrdac/.config/polybar
+	config
+2
+D/home/marcosrdac/.config
+	unique
+22
+D/home/marcosrdac/.config/unique
+	monitors_template.md
+1
+D/home/marcosrdac/.config/nvim
+	init.vim
+6
 D/home/marcosrdac/.local/bin
 	bspwm
 1
 D/home/marcosrdac/.local/bin/bspwm
-	bspwm_set_monocle_gaps
-6
-D/home/marcosrdac/.local/bin
-	dmenu
-2
-D/home/marcosrdac/.local/bin/dmenu
-	..
-0
-D/home/marcosrdac/.local/bin
-	menu
-5
-D/home/marcosrdac/.local/bin/menu
-	dm_bspwm_set_monocle_gaps
-2
-D/home/marcosrdac/.local/bin
-	hard_bright_control
-16
-D/home/marcosrdac
-	series
-16
-D/home/marcosrdac/series
-	twin_peaks
-2
-D/home/marcosrdac/series/twin_peaks
-	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-3
-D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-	..
-0
-D/home/marcosrdac/series/twin_peaks
-	Twin Peaks Season 3 Mp4 1080p
-2
-D/home/marcosrdac/series/twin_peaks/Twin Peaks Season 3 Mp4 1080p
-	Twin Peaks S03E01.mp4
-2
-D/home/marcosrdac/series/twin_peaks
-	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-3
-D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-	TPS02E15.mkv
-25
-D/home/marcosrdac
-	series
-16
-D/home/marcosrdac/series
-	twin_peaks
-2
-D/home/marcosrdac/series/twin_peaks
-	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-3
-D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-	TPS02E15.mkv
-25
-D/home/marcosrdac/tmp
-	vivoinv_904660276443.pdf
-26
-D/media
-	sdc1-usb-Multiple_Card_Re
-1
-D/media/sdc1-usb-Multiple_Card_Re
-	tp2
-5
-D/media/sdc1-usb-Multiple_Card_Re/tp2
-	TPS02E19.mp4
+	bspwm_multi_monitor
+4
+D/home/marcosrdac/.config
+	shell
 22
-D/media
-	..
-0
+D/home/marcosrdac/.local/bin
+	bspwm
+1
+D/home/marcosrdac/.local/bin/bspwm
+	bspwm_multi_monitor
+4
+D/home/marcosrdac/.config
+	shell
+22
 D/home/marcosrdac
-	series
-16
-D/home/marcosrdac/tmp
-	SDMOLAGEP.pptx
-4
-D/media
-	MULTIBOOT
-1
-D/media/MULTIBOOT
-	..
+	.dotfiles
 0
-D/media
-	sdd1-usb-Multiple_Card_Re
-2
-D/media/sdd1-usb-Multiple_Card_Re
-	tp2
-6
-D/media/sdd1-usb-Multiple_Card_Re/tp2
-	TPS02E20.srt
-32
-D/media
-	..
-0
-D/home/marcosrdac/projects
-	site
-37
-D/home/marcosrdac/projects/site
-	marcosrdac.github.io
-3
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
-	20181012_pensando_conceitos.md
-9
-D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-D/home/marcosrdac/projects/site
-	drafts
-2
-D/home/marcosrdac/projects/site/drafts
-	20181110_pe_atras.md
+D/home/marcosrdac/.config
+	shell
+22
+D/home/marcosrdac/.config/shell
+	shrc
 8
-D/home/marcosrdac/projects/site
-	marcosrdac.github.io
-3
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	content
-3
-D/home/marcosrdac/projects/site/marcosrdac.github.io/content
-	blog
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io/content/blog
-	20181110_pe_atras.html
-10
-D/home/marcosrdac/projects/site/marcosrdac.github.io/content
-	blog
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	test
-6
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	include
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test/include
-	..
-0
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	lib
-3
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test/lib
-	..
-0
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	lib
-3
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test/lib
-	python3.8
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	lib64
-4
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test/lib64
-	..
-0
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	bin
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test/bin
-	activate
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	bin
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	test
-6
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	bin
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test/bin
-	activate
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	bin
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test/bin
-	python
-10
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	include
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	test
-6
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	..
-0
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	test
-10
-D/home/marcosrdac/projects/site/marcosrdac.github.io/test
-	..
-0
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	style
-8
-D/home/marcosrdac/projects/site/marcosrdac.github.io/style
-	..
-0
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	about.md
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	bin
-3
-D/home/marcosrdac/projects/site/marcosrdac.github.io/bin
-	..
-0
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	index.html
-7
-D/home/marcosrdac/projects
-	moving_std
-37
-D/home/marcosrdac/projects/moving_std
-	stdev.py
-6
 D/home/marcosrdac/wallpapers
 	favorites
 3
 D/home/marcosrdac/wallpapers/favorites
-	messy_colorful_tints.jpg
-12
-D/home/marcosrdac/projects
-	moving_stdev
-37
-D/home/marcosrdac/projects/moving_stdev
-	stdev_opt_numba.py
-10
-D/home/marcosrdac
-	asus
-7
-D/home/marcosrdac/asus
-	SanDisk SD card
-2
-D/home/marcosrdac/asus/SanDisk SD card
-	tp2
-4
-D/home/marcosrdac/asus/SanDisk SD card/tp2
-	TPS02E22.mp4
+	nord.png
 19
-D/home/marcosrdac/asus
-	..
-0
-D/home/marcosrdac/.local
-	share
-4
-D/home/marcosrdac/projects
-	accoustic_wave_modelling
-0
+D/home/marcosrdac/.config
+	shell
+22
+D/home/marcosrdac/.config/shell
+	shenv
+8
+D/home/marcosrdac
+	.local
+10
 D/home/marcosrdac/.local
 	share
 4
 D/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-27
-D/home/marcosrdac/projects
-	accoustic_wave_modelling
-0
-D/home/marcosrdac/projects/accoustic_wave_modelling
-	..
-0
-D/home/marcosrdac/projects
-	aivfuea
-1
-D/home/marcosrdac/projects/aivfuea
-	aivfuea.pdf
-1
-D/home/marcosrdac/tmp
-	manual_vpn_2016_v2_0.pdf
-19
-D/home/marcosrdac
-	asus
-7
+	shell.md
+33
 D
 
 # Command line history (oldest to newest):
-:mk
-:enpty
-:mkdir palettes
-:mkdir logos
-:!gimp 5
-:mkdir msmtp
-:touch mail.desktop
-:touch text.desktop
-:touch torrent.desktop
-:mkdir fd1
 :touch teste
 :mkdir Envy Code B
 :mkdir "Envy Code B"
@@ -846,55 +836,23 @@ D
 :wq
 :mkdir 0
 :touch keymap.json
-:mkdir 
 :mkdir cython
 :mkdir hello_world
 :touch hello.pyx test.py setup.py
+:touch bracey.vim
+:mkdir bracey.vim
+:touch scripts.js
+:mkdir twin_peaks
+:mkdir nodejsdatabasehackernoon
+:touch README.md
+:touch .gitignore
+:mkdir 
+:mkdir desk
+:mkdir unique
+:touch monitors
 :q
 
 # Search history (oldest to newest):
-/dm_
-/dm
-/stra
-/write
-/remain
-/dmenu
-/dme
-/men
-/pel
-/bin
-/bspw
-/key
-/gif
-/dot
-/lofi
-/python
-/mat
-/togg
-/loca
-/vim
-/vifm
-/nvim
-/rema
-/movi
-/tm
-/media
-/dro
-/talu
-/opt
-/rec
-/web
-/clip
-/exch
-/ex
-/ar
-/cerj
-/borde
-/aiv
-/muito
-/q
-/torr
-/mine
 /2ea
 /rea
 /comp
@@ -908,16 +866,12 @@ D
 /tax
 /ea
 /mono
-/twin
 /srt
 /date
 /bsp
 /toggl
 /reco
-/poly
-/pol
 /wri
-/doc
 /joi
 /jou
 /tes
@@ -932,9 +886,7 @@ D
 /t
 /deca
 /dec
-/ser
 /pen
-/test
 /stdev
 /std
 /pdf
@@ -946,31 +898,63 @@ D
 /jo
 /pro
 /pytho
-/menu
 /usef
 /nv
 //as
 /seri
 /acc
+/soun
+/test
+/.a
+/\.a
+/as
+/rec
+/movi
+/inla
+/vim
+/ufba
 /vpn
+/rapo
+/spri
+/dev
+/js
+/pg
+/ser
+/fire
+/twi
+/mov
+/miss
+/twin
+/torr
+/twub]
+/tras
+/ueb
+/lf
+/marato
+/gi
+/git
+/marat
+/bspw
+/doc
+/dot
+/conf
+/poly
+/uni
+/env
+/nord
+/fi
+/she
+/kkk
+/pol
+/mon
+/menu
+/dm
+/dm_dis
+/mo
+/dm_
+/dis
 
 # Prompt history (oldest to newest):
-p2001.a.space.odyssey.(1968)
-p2001_a_space_odyssey_(1968)_
-p2001_a_space_odyssey_(1968)
-pReservoir Dogs.1992.BluRay.1080p.x264.YIFY_
-pnymphomaniac_(2013)
-p2001_a_space_odyssey_(1968)_eng
-pblade_runner_2049_(2017)
-p000000000ensaio_sobre_a_cegueira_(2008)
-pthe_godfather_(1972)_en
-pUm.Corpo.Que.Cai.1958.1080p.BluRay.FORCE
-pUm.Corpo.Que.Cai.1958.1080p.BluRay.FORCED
-pblade_runner_2049_(2017)_
-pBlade Runner 2049 2017_en
-pcracha_vazio
-pcracha_
-pmarcos_conceicao_cv_20192.pdf
 pficha_maquete.png
 pPROXIMA_VEZ_densidade_px300
 pem01-fourier
@@ -1055,14 +1039,27 @@ pjoplin
 pjoplin-desktop
 pTPS02E21
 pTPS02E22
+p_.asoundrc
+p.asoundrc
+pinland_empire_(2006)_
+pinland_empire_(2006)_eng
+psprite_raposinha
+ptwin_peaks_movies
+pnodejs_db_hackernoon
+pmonitors.template
+pmon
+ptemplate_monitors.md
+pmonitors_template
+pordered_monitors
+pdm_display_menu_new
+pdm_i3_useful_menu
+pdm_display_menu_old
+pdm_display_menu
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E21.mkv.mp4
-""/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E21.srt
-""/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E22.mkv.mp4
-""/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E22.srt
+""/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor.bak
 
 # Directory stack (oldest to newest):
 
@@ -2571,6 +2568,66 @@ t/home/marcosrdac/.local/share/Trash/000_hello.c
 	/home/marcosrdac/projects/python_learning/bibs/cython/avg/hello.c
 t/home/marcosrdac/.local/share/Trash/000_hello.cpython-38-x86_64-linux-gnu.so
 	/home/marcosrdac/projects/python_learning/bibs/cython/avg/hello.cpython-38-x86_64-linux-gnu.so
+t/home/marcosrdac/.local/share/Trash/000_.asoundrc
+	/home/marcosrdac/.asoundrc
+t/home/marcosrdac/.local/share/Trash/000_inland-empire-brazilian-portuguese-yify-17818.zip
+	/home/marcosrdac/movies/inland_empire_(2006)/inland-empire-brazilian-portuguese-yify-17818.zip
+t/home/marcosrdac/.local/share/Trash/000_bracey.vim
+	/home/marcosrdac/projects/raposinha/bracey.vim
+t/home/marcosrdac/.local/share/Trash/000_scripts.js
+	/home/marcosrdac/tmp/scripts.js
+t/home/marcosrdac/.local/share/Trash/000_bracey.vim
+	/home/marcosrdac/.config/nvim/plugged/bracey.vim
+t/home/marcosrdac/.local/share/Trash/000_MaratonaDev3.zip
+	/home/marcosrdac/projects/maratonadev202002/MaratonaDev3.zip
+t/home/marcosrdac/.local/share/Trash/000___MACOSX
+	/home/marcosrdac/projects/maratonadev202002/__MACOSX
+t/home/marcosrdac/.local/share/Trash/000_MaratonaDev3
+	/home/marcosrdac/movies/twin_peaks/MaratonaDev3
+t/home/marcosrdac/.local/share/Trash/000_Twin Peaks_ The Missing Pieces.2014-www.LegendasDivx.com-.rar
+	/home/marcosrdac/movies/twin_peaks/Twin Peaks_ The Missing Pieces.2014-www.LegendasDivx.com-.rar
+t/home/marcosrdac/.local/share/Trash/000_twin.peaks.fire.walk.with.me.(1992).pob.1cd.(6611556).zip
+	/home/marcosrdac/movies/twin_peaks/twin.peaks.fire.walk.with.me.(1992).pob.1cd.(6611556).zip
+t/home/marcosrdac/.local/share/Trash/000_twin.peaks.fire.walk.with.me.(6611556).nfo
+	/home/marcosrdac/movies/twin_peaks/twin.peaks.fire.walk.with.me.(6611556).nfo
+t/home/marcosrdac/.local/share/Trash/001_mpv-shot0001.jpg
+	/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)/mpv-shot0001.jpg
+t/home/marcosrdac/.local/share/Trash/001_mpv-shot0002.jpg
+	/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)/mpv-shot0002.jpg
+t/home/marcosrdac/.local/share/Trash/000_mpv-shot0003.jpg
+	/home/marcosrdac/movies/eternal_sunshine_of_the_spotless_mind_(2004)/mpv-shot0003.jpg
+t/home/marcosrdac/.local/share/Trash/000_base.odb
+	/home/marcosrdac/projects/nodejs_db_hackernoon/base.odb
+t/home/marcosrdac/.local/share/Trash/000_server.js.bak
+	/home/marcosrdac/projects/maratonadev202002/server.js.bak
+t/home/marcosrdac/.local/share/Trash/000_server_old.js
+	/home/marcosrdac/projects/maratonadev202002/server_old.js
+t/home/marcosrdac/.local/share/Trash/000_server_working.js
+	/home/marcosrdac/projects/maratonadev202002/server_working.js
+t/home/marcosrdac/.local/share/Trash/000_donors.odb
+	/home/marcosrdac/projects/maratonadev202002/donors.odb
+t/home/marcosrdac/.local/share/Trash/000_test.pdf
+	/home/marcosrdac/projects/maratonadev202002/test.pdf
+t/home/marcosrdac/.local/share/Trash/000_old
+	/home/marcosrdac/.config/polybar/old
+t/home/marcosrdac/.local/share/Trash/000_libreoffice
+	/home/marcosrdac/.config/libreoffice
+t/home/marcosrdac/.local/share/Trash/000_light
+	/home/marcosrdac/.config/light
+t/home/marcosrdac/.local/share/Trash/000_matplotlib
+	/home/marcosrdac/.config/matplotlib
+t/home/marcosrdac/.local/share/Trash/000_menus
+	/home/marcosrdac/.config/menus
+t/home/marcosrdac/.local/share/Trash/000_teste1
+	/home/marcosrdac/teste1
+t/home/marcosrdac/.local/share/Trash/000_teste2
+	/home/marcosrdac/teste2
+t/home/marcosrdac/.local/share/Trash/001_ordered_monitors
+	/home/marcosrdac/.dotfiles/.config/unique/ordered_monitors
+t/home/marcosrdac/.local/share/Trash/000_monitors_template.md
+	/home/marcosrdac/.dotfiles/.config/unique/monitors_template.md
+t/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor.bak
+	/home/marcosrdac/.local/bin/bspwm/bspwm_multi_monitor.bak
 
 # State:
 f
@@ -2579,6 +2636,6 @@ i1
 [F
 F
 I1
-].1
+].0
 ]F
 s0

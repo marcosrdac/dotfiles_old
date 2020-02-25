@@ -1,16 +1,9 @@
 #! /bin/sh
 
 # importing colors
-. "${HOME}/.cache/wal/colors.sh"
+[ -f ~/.cache/wal/colors.sh ] && . ~/.cache/wal/colors.sh
+[ -x ~/.local/bin/bspwm/bspwm_multi_monitor ] &&  ~/.local/bin/bspwm/bspwm_multi_monitor
 
-# oppening sxhkd if it isn't running, else just reload it
-##pgrep -x polybar || polybar my_bar &
-##pgrep -x sxhkd && pkill -USR1 sxhkd || sxhkd &
-polybar standard &
-sxhkd &
-
-bspc monitor -d I II III IV V VI VII VIII IX X
-bspc config pointer_modifier mod1
 
 # --- workflow --- #
 
@@ -19,6 +12,7 @@ bspc config borderless_monocle      true
 bspc config single_monocle          false
 bspc config gapless_monocle         true
 bspc config ignore_ewmh_fullscreen  all
+bspc config pointer_modifier        mod1
 
 
 # --- colors style --- #
@@ -42,3 +36,10 @@ $TERMINAL -c dropdown_terminal     -e tmux new-session -t dropdown &
 $TERMINAL -c dropdown_calculator   -e $HOME/.virtualenvs/m/bin/python -i -c 'import numpy as np; from numpy import *' &
 $TERMINAL -c dropdown_mail         -e neomutt &
 $TERMINAL -c dropdown_music_player -e ncmpcpp &
+
+
+# running programs
+sxhkd &
+# oppening sxhkd if it isn't running, else just reload it
+##pgrep -x polybar || polybar my_bar &
+##pgrep -x sxhkd && pkill -USR1 sxhkd || sxhkd &

@@ -1,0 +1,2597 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'B
+	/home/marcosrdac/books
+	..
+1554821993
+'C
+	/home/marcosrdac/Dropbox/dotfiles/.config
+	..
+1556747808
+'D
+	/home/marcosrdac/.dotfiles
+	.gitignore
+1570209598
+'E
+	/etc
+	X11
+1576252104
+'H
+	/mnt/hdd
+	..
+1570880328
+'L
+	/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+1569538207
+'M
+	/media
+	..
+1570211065
+'P
+	/home/marcosrdac/Dropbox/pictures/screenshots
+	..
+1576204609
+'T
+	/home/marcosrdac/.local/share/Trash
+	..
+1569626493
+'W
+	/home/marcosrdac/wallpapers
+	favorites
+1554821640
+'X
+	/home/marcosrdac/.config/Xresources
+	main
+1569857121
+'a
+	/home/marcosrdac/audios
+	..
+1575125491
+'b
+	/home/marcosrdac/.local/bin
+	menu
+1571759699
+'c
+	/home/marcosrdac/.config
+	shell
+1570488537
+'d
+	/home/marcosrdac/documents
+	..
+1570209610
+'e
+	/etc
+	X11
+1576252095
+'f
+	/home/marcosrdac/.fonts
+	..
+1555499247
+'h
+	/home/marcosrdac/
+	..
+1571614727
+'i
+	/home/marcosrdac/.config/i3
+	config
+1568725097
+'j
+	/home/marcosrdac/tmp/https:/drive.google.com/drive/folders
+	2013-09-26 18.54.59.mp4
+1559589172
+'l
+	/home/marcosrdac/.local
+	share
+1569459599
+'m
+	/home/marcosrdac/audios/music
+	..
+1577641088
+'o
+	/home/marcosrdac
+	tmp
+1578503456
+'p
+	/home/marcosrdac/projects
+	accoustic_wave_modelling
+1578161406
+'q
+	/home/marcosrdac/.config/qutebrowser
+	config.py
+1555504308
+'r
+	/
+	bin
+1553421376
+'s
+	/home/marcosrdac/Dropbox/pictures/screenshots
+	..
+1554891678
+'t
+	/home/marcosrdac/tmp
+	..
+1569587862
+'u
+	/home/marcosrdac/tmp/ufba
+	metodos_eletromagneticos
+1573043270
+'v
+	/home/marcosrdac/.config/nvim
+	init.vim
+1578257104
+'w
+	/home/marcosrdac/downloads
+	..
+1554821629
+'x
+	/home/marcosrdac
+	.xinitrc
+1576849341
+
+# Bookmarks:
+b/home/marcosrdac/wallpapers/
+	oia
+	1570641995
+
+# TUI:
+ar
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	services.md
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	style
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io/style
+	basic_layout.html
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+8
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+8
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	style
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io/style
+	basic_layout.html
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	style
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io/style
+	screen.css
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	..
+0
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20181012_pensando_conceitos.md
+9
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	services.md
+6
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	portfolio_.md
+5
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+d/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	portfolio.md
+4
+d/home/marcosrdac/projects/site/marcosrdac.github.io
+	maker.py
+8
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	tmp
+2
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	resources
+1
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	tmp
+2
+d/home/marcosrdac/.config/joplin/tmp
+	..
+0
+d/home/marcosrdac/.config/joplin
+	resources
+1
+d/home/marcosrdac/.config/joplin/resources
+	..
+0
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	edit-5bb47fc90831420a8f23a98c77170688.md
+4
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	log-database.txt
+5
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	resources
+1
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	log.txt
+6
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	database.sqlite
+3
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	resources
+1
+d/home/marcosrdac/.config/joplin/resources
+	..
+0
+d/home/marcosrdac/.config/joplin
+	log-database.txt
+4
+d/home/marcosrdac/.config
+	joplin
+12
+d/home/marcosrdac/.config/joplin
+	keymap.json
+4
+d/home/marcosrdac/.config
+	joplin-desktop
+13
+d/home/marcosrdac/.config/joplin-desktop
+	resources
+1
+d/home/marcosrdac/.config/joplin-desktop/resources
+	c2818af55307431b8ec0171b46671937.png
+3
+d/home/marcosrdac/.config/joplin-desktop
+	tmp
+2
+d/home/marcosrdac/.config/joplin-desktop/tmp
+	..
+0
+d/home/marcosrdac/.config/joplin-desktop
+	log-database.txt
+5
+d/home/marcosrdac/projects
+	accoustic_wave_modelling
+0
+d/home/marcosrdac/.config
+	Joplin
+0
+d/home/marcosrdac/.config/Joplin
+	Code Cache
+1
+d/home/marcosrdac/.config
+	Joplin
+4
+d/home/marcosrdac/.config/Joplin
+	GPUCache
+2
+d/home/marcosrdac/.config/Joplin/GPUCache
+	..
+0
+d/home/marcosrdac/.config/Joplin
+	Session Storage
+3
+d/home/marcosrdac/.config/Joplin/Session Storage
+	..
+0
+d/home/marcosrdac/.config/Joplin
+	blob_storage
+4
+d/home/marcosrdac/.config/Joplin/blob_storage
+	..
+0
+d/home/marcosrdac/.config/Joplin
+	blob_storage
+4
+d/home/marcosrdac/.config
+	joplin
+30
+d/home/marcosrdac/.config/joplin
+	resources
+1
+d/home/marcosrdac/.config/joplin/resources
+	..
+0
+d/home/marcosrdac/.config/joplin
+	keymap.json
+1
+d/home/marcosrdac/.config
+	Joplin
+4
+d/home/marcosrdac/.config/Joplin
+	blob_storage
+4
+d/home/marcosrdac/.config
+	joplin
+26
+d/home/marcosrdac/.config/joplin
+	resources
+1
+d/home/marcosrdac/projects
+	python_learning
+37
+d/home/marcosrdac/projects/python_learning
+	bibs
+4
+d/home/marcosrdac/projects/python_learning/bibs
+	..
+0
+d/home/marcosrdac/projects/python_learning
+	atila
+3
+d/home/marcosrdac/projects/python_learning/atila
+	..
+0
+d/home/marcosrdac/projects/python_learning
+	bibs
+4
+d/home/marcosrdac/projects/python_learning/bibs
+	cython
+2
+d/home/marcosrdac/projects/python_learning/bibs/cython
+	hello_world
+1
+d/home/marcosrdac/projects/python_learning/bibs/cython/hello_world
+	hello.pyx
+4
+d/home/marcosrdac/.local/bin
+	menu
+5
+d/home/marcosrdac/.local/bin/menu
+	dm_useful_menu
+16
+d/home/marcosrdac/.local/bin
+	menu
+5
+d/home/marcosrdac/.config
+	nvim
+29
+d/home/marcosrdac/.config/nvim
+	init.vim
+6
+d/home/marcosrdac
+	series
+37
+d/home/marcosrdac/series
+	twin_peaks
+2
+d/home/marcosrdac/series/twin_peaks
+	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+3
+d/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+	TPS02E21.srt
+32
+d/home/marcosrdac/tmp
+	shedgabi.pdf
+27
+d
+
+# Right window history (oldest to newest):
+D/home/marcosrdac
+	asus
+7
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+27
+D/home/marcosrdac/projects
+	linux_learning
+37
+D/home/marcosrdac
+	projects
+16
+D/home/marcosrdac/projects/linux_learning
+	dtest
+13
+D/home/marcosrdac
+	.bash_history
+5
+D/home/marcosrdac/tmp
+	recordings
+0
+D/home/marcosrdac/tmp/recordings
+	20200215150514_audio.flac
+28
+D/home/marcosrdac/tmp
+	recordings
+0
+D/home/marcosrdac
+	movies
+0
+D/home/marcosrdac/movies
+	inland_empire_(2006)
+10
+D/home/marcosrdac/movies/inland_empire_(2006)
+	inland_empire_(2006)_eng.srt
+3
+D/home/marcosrdac/movies
+	eternal_sunshine_of_the_spotless_mind_(2004)
+8
+D/home/marcosrdac
+	movies
+0
+D/home/marcosrdac/movies
+	eternal_sunshine_of_the_spotless_mind_(2004)
+8
+D/home/marcosrdac
+	movies
+0
+D/home/marcosrdac/wallpapers
+	favorites
+3
+D/home/marcosrdac/wallpapers/favorites
+	jupyter_brown_turbulence.jpg
+8
+D/home/marcosrdac/.local/bin
+	menu
+5
+D/home/marcosrdac/tmp
+	recordings
+0
+D/home/marcosrdac
+	series
+3
+D/home/marcosrdac/series
+	twin_peaks
+2
+D/home/marcosrdac/series/twin_peaks
+	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+3
+D/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
+	TPS02E22.mkv
+33
+D/home/marcosrdac/wallpapers
+	favorites
+3
+D/home/marcosrdac/wallpapers/favorites
+	crater.jpg
+0
+D/home/marcosrdac/.config
+	vim
+37
+D/home/marcosrdac/.config/vim
+	..
+0
+D/home/marcosrdac/.config
+	nvim
+21
+D/home/marcosrdac/.config/nvim
+	plugged
+4
+D/home/marcosrdac/.config/nvim/plugged
+	..
+0
+D/home/marcosrdac/.config/nvim
+	autoload
+1
+D/home/marcosrdac/.config/nvim/autoload
+	..
+0
+D/home/marcosrdac/.config/nvim
+	colors
+2
+D/home/marcosrdac/.config/nvim/colors
+	..
+0
+D/home/marcosrdac/.config/nvim
+	ftplugin
+3
+D/home/marcosrdac/.config/nvim/ftplugin
+	..
+0
+D/home/marcosrdac/.config/nvim
+	spell
+5
+D/home/marcosrdac/.config/nvim/spell
+	..
+0
+D/home/marcosrdac/.config/nvim
+	plugged
+4
+D/home/marcosrdac/.config/nvim/plugged
+	goyo.vim
+1
+D/home/marcosrdac/.config/nvim/plugged/goyo.vim
+	..
+0
+D/home/marcosrdac/.config/nvim/plugged
+	limelight.vim
+2
+D/home/marcosrdac/.config/nvim/plugged/limelight.vim
+	..
+0
+D/home/marcosrdac/.config/nvim/plugged
+	syntastic
+3
+D/home/marcosrdac/.config/nvim/plugged/syntastic
+	..
+0
+D/home/marcosrdac/.config/nvim/plugged
+	limelight.vim
+2
+D/home/marcosrdac/.config/nvim/plugged/limelight.vim
+	..
+0
+D/home/marcosrdac/.config/nvim/plugged
+	limelight.vim
+2
+D/home/marcosrdac/.config/nvim
+	plugged
+4
+D/home/marcosrdac/.config/nvim/plugged
+	limelight.vim
+2
+D/home/marcosrdac/.config/nvim
+	plugged
+4
+D/home/marcosrdac/.config/nvim/plugged
+	bracey.vim
+1
+D/home/marcosrdac/.config/nvim/plugged/bracey.vim
+	server
+1
+D/home/marcosrdac/.config/nvim/plugged/bracey.vim/server
+	..
+0
+D/home/marcosrdac/.config/nvim/plugged/bracey.vim
+	server
+1
+D/home/marcosrdac/.config/nvim/plugged
+	bracey.vim
+1
+D/home/marcosrdac/.config/nvim/plugged/bracey.vim
+	server
+1
+D/home/marcosrdac/.config/nvim/plugged/bracey.vim/server
+	..
+0
+D/home/marcosrdac/.config/nvim/plugged/bracey.vim
+	server
+1
+D/home/marcosrdac/.config/nvim/plugged
+	bracey.vim
+1
+D/home/marcosrdac/.config/nvim
+	plugged
+4
+D/home/marcosrdac/.config/nvim/plugged
+	bracey.vim
+1
+D/home/marcosrdac/.config/nvim
+	plugged
+4
+D/home/marcosrdac/tmp
+	matb46.pdf
+37
+D/home/marcosrdac/projects
+	raposinha
+37
+D/home/marcosrdac/projects/raposinha
+	cora.md
+5
+D/home/marcosrdac/projects
+	maratonadev202002
+19
+D/home/marcosrdac/projects/maratonadev202002
+	style.css
+6
+D/home/marcosrdac/projects
+	maratonadev202002
+19
+D/home/marcosrdac/projects/maratonadev202002
+	public
+4
+D/home/marcosrdac/projects/maratonadev202002/public
+	logo.png
+1
+D/home/marcosrdac/projects/maratonadev202002
+	public
+4
+D/home/marcosrdac/projects/maratonadev202002/public
+	logo.png
+1
+D/home/marcosrdac/projects/maratonadev202002
+	public
+4
+D/home/marcosrdac/projects/maratonadev202002/public
+	logo.png
+1
+D/home/marcosrdac/projects/maratonadev202002
+	public
+4
+D/home/marcosrdac/projects/maratonadev202002/public
+	logo.png
+1
+D/home/marcosrdac/projects/maratonadev202002
+	node_modules
+3
+D/home/marcosrdac/projects/maratonadev202002/node_modules
+	pg
+26
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
+	lib
+1
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg/lib
+	..
+0
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
+	node_modules
+2
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg/node_modules
+	..
+0
+D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
+	node_modules
+2
+D/home/marcosrdac/projects/maratonadev202002/node_modules
+	pg
+26
+D/home/marcosrdac/projects/maratonadev202002
+	__MACOSX
+2
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX
+	MaratonaDev3
+1
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3/Wallpapers
+	..
+0
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002/__MACOSX
+	MaratonaDev3
+1
+D/home/marcosrdac/projects/maratonadev202002
+	MaratonaDev3
+1
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3/Wallpapers
+	..
+0
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3/Wallpapers
+	Wallpaper MaratonaDev 3 - 2560x1080.png
+3
+D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
+	Wallpapers
+1
+D/home/marcosrdac/projects/maratonadev202002
+	server.js
+6
+D
+
+# Command line history (oldest to newest):
+:mkdir logos
+:!gimp 5
+:mkdir msmtp
+:touch mail.desktop
+:touch text.desktop
+:touch torrent.desktop
+:mkdir fd1
+:touch teste
+:mkdir Envy Code B
+:mkdir "Envy Code B"
+:mkdir Datei Tribute
+:mkdir gaming
+:!mpv %
+:c
+:mkdir ssh.md
+:y
+:touch ssh.md
+:touch link_dropbox
+:mkdir perfilagem_geofisica_em_poco_aberto
+:realink %
+:!realink %
+:!realink %c
+:!readlink %c
+:!readlink "%"
+:!readlink %
+:bmark test
+:bmark
+:bmark oia
+:bmarks
+:mkdir studies
+:!unzip %
+:mkdir useful backgrounds
+:mkdir gimp
+:qj
+:touch reset_fav
+:git 
+:S
+:git
+:gi
+:!git pull
+:!mpv vim\ qrec-2018-03-06_16.04.57
+:mkdir nordeste
+:mkdir nymphomaniac_(2013(
+:mkdir images
+:mkdir gradiente
+:touch gradiente.py
+:mkdir congresso_ufba
+:t
+:mkdir
+:touch 0trabalho
+:touch lagrange.cpp
+:mkdir play
+:touch play
+:geo
+:mkdir report
+:sort
+:move
+:sort 
+:touch euler.cpp
+:touch richardson.cpp
+:touch test.py
+:w
+:empty
+::q
+:Q
+:mkdir bspwm
+:mkdir sxhkd
+:touch bspwmrc
+:touch sxhkdrc
+:touch colors
+:touch k
+:mkdir test
+:mkdir tp2
+:touch test
+:touch old
+:k
+:mkdir sg
+:touch 
+:touch test1
+:bspwm_toggle_floating
+:zathura %
+:mkdir podtest
+:touch pomodoro
+:mkdir sdmo
+:mini
+:touch
+:mkdir eage2020aivfuea
+:mkdir t
+:mkdir y
+:wq
+:mkdir 0
+:touch keymap.json
+:mkdir 
+:mkdir cython
+:mkdir hello_world
+:touch hello.pyx test.py setup.py
+:touch bracey.vim
+:mkdir bracey.vim
+:touch scripts.js
+:q
+
+# Search history (oldest to newest):
+/key
+/gif
+/dot
+/lofi
+/python
+/mat
+/togg
+/loca
+/vifm
+/nvim
+/rema
+/tm
+/media
+/dro
+/talu
+/opt
+/web
+/clip
+/exch
+/ex
+/ar
+/cerj
+/borde
+/aiv
+/muito
+/q
+/torr
+/mine
+/2ea
+/rea
+/comp
+/late
+/com
+/st
+/config
+/2020
+/eage
+/evera
+/tax
+/ea
+/mono
+/twin
+/srt
+/date
+/bsp
+/toggl
+/reco
+/poly
+/pol
+/wri
+/doc
+/joi
+/jou
+/tes
+/new
+/teste
+/REQ
+/coh
+/tor
+/movie
+/prim
+/SD
+/t
+/deca
+/dec
+/pen
+/stdev
+/std
+/pdf
+/site
+/k
+/jopl
+/des
+/jop
+/jo
+/pro
+/pytho
+/menu
+/usef
+/nv
+//as
+/seri
+/acc
+/soun
+/test
+/.a
+/\.a
+/as
+/rec
+/movi
+/inla
+/ser
+/vim
+/ufba
+/vpn
+/rapo
+/spri
+/dev
+/js
+/pg
+
+# Prompt history (oldest to newest):
+p2001_a_space_odyssey_(1968)_eng
+pblade_runner_2049_(2017)
+p000000000ensaio_sobre_a_cegueira_(2008)
+pthe_godfather_(1972)_en
+pUm.Corpo.Que.Cai.1958.1080p.BluRay.FORCE
+pUm.Corpo.Que.Cai.1958.1080p.BluRay.FORCED
+pblade_runner_2049_(2017)_
+pBlade Runner 2049 2017_en
+pcracha_vazio
+pcracha_
+pmarcos_conceicao_cv_20192.pdf
+pficha_maquete.png
+pPROXIMA_VEZ_densidade_px300
+pem01-fourier
+pem02-em-maxwell-intro-oplanas
+pem03-schelkunoff
+pem04-snell-fresnel
+pem05-ilimitados
+pem06-ondasplanas (1)
+pem06-ondasplanas
+p0_trabalho
+pMAT174_Aula08
+p_tmux
+pplay.md
+preport_gg
+p-_trabalho
+p0_trabalho.odt
+psimpson_richardson.cpp
+p1simpson_richardson.cpp
+plagrange_interrpol
+plagrange_interrpol.c
+plagrange_diff.cpp
+pvim
+pinit.v
+pinit.vim
+pvimrc
+p.vim
+pautoload
+p_tmux.conf
+ptmux.conf
+p.nvidia-xinitrc
+p_sxhkdrc_example
+pbspwm_window_move
+pbspwm_euclid_mover
+ppolybar_date_calendar_bak
+ptoggle_toggle_hidden
+pbspwm_toggle_hidden
+pold
+pdm_recording_menu_old
+pdm_recording_menu
+precord
+p20191229105243_jamile
+p20191229105243_jamile_feliz
+pdocuments
+ptest1.md
+pbspwm_toggle_floating
+pbspwm_toggle_mode
+pbspwm_toggle_state
+pchupangi
+pchupanji
+pdm_polybar_pel
+pREADME.md
+plof
+plofi_old
+plofi
+peage
+peage.zip
+pminecraft
+pexchange_prim_clip
+pshow_prim_clip
+p20200111 - Enclausurado e envenenado
+p20200111 enclausurado_e_envenenado.md
+peage2020aivfuea
+pTwin.Peaks.S02E22.1080p.BluRay.x264-REWARD
+p0_SDMO
+pmoving_stdev
+pstdevpro
+pstdevtest
+pstdev_opt.py
+pstdev.py
+pstdev_optt
+pstdev
+pstdev_opt
+pstdev_opt_numba
+pstdev_opt_numba_timeit.py
+p20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+pportfolio.md
+pportfoli.md
+pportfolio_.md
+pportfolio__
+pportfolio
+pjoplin
+pjoplin-desktop
+pTPS02E21
+pTPS02E22
+p_.asoundrc
+p.asoundrc
+pinland_empire_(2006)_
+pinland_empire_(2006)_eng
+psprite_raposinha
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/marcosrdac/.local/share/Trash/000_MaratonaDev3
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/marcosrdac/.local/share/Trash/000_tmux-client-60494.log
+	/home/marcosrdac/tmux-client-60494.log
+t/home/marcosrdac/.local/share/Trash/000_tmux-client-78879.log
+	/home/marcosrdac/tmux-client-78879.log
+t/home/marcosrdac/.local/share/Trash/000_tmux-server-60496.log
+	/home/marcosrdac/tmux-server-60496.log
+t/home/marcosrdac/.local/share/Trash/000_tmux-server-78881.log
+	/home/marcosrdac/tmux-server-78881.log
+t/home/marcosrdac/.local/share/Trash/000_sess
+	/home/marcosrdac/sess
+t/home/marcosrdac/.local/share/Trash/000_.steampath
+	/home/marcosrdac/.steampath
+t/home/marcosrdac/.local/share/Trash/000_.themes
+	/home/marcosrdac/.themes
+t/home/marcosrdac/.local/share/Trash/000_Desktop
+	/home/marcosrdac/Desktop
+t/home/marcosrdac/.local/share/Trash/000_.Xauthority
+	/home/marcosrdac/.Xauthority
+t/home/marcosrdac/.local/share/Trash/000_2019-12-13-102845_1366x768_scrot.png
+	/home/marcosrdac/2019-12-13-102845_1366x768_scrot.png
+t/home/marcosrdac/.local/share/Trash/000_i3bar_pomodoro
+	/home/marcosrdac/.config/i3blocks/i3bar_pomodoro
+t/home/marcosrdac/.local/share/Trash/000_i3bar_date
+	/home/marcosrdac/.config/sxhkd/i3bar_date
+t/home/marcosrdac/.local/share/Trash/000_polybar_date
+	/home/marcosrdac/.config/sxhkd/polybar_date
+t/home/marcosrdac/.local/share/Trash/000_font_awesome_5
+	/home/marcosrdac/.local/share/fonts/font_awesome_5
+t/home/marcosrdac/.local/share/Trash/000_.xinitrc
+	/home/marcosrdac/.config/bspwm/.xinitrc
+t/home/marcosrdac/.local/share/Trash/000_backlight.cpp
+	/home/marcosrdac/.local/bin/polybar/backlight.cpp
+t/home/marcosrdac/.local/share/Trash/001_polybar_bright
+	/home/marcosrdac/.local/bin/polybar/polybar_bright
+t/home/marcosrdac/.local/share/Trash/001_polybar_date
+	/home/marcosrdac/.local/bin/polybar/polybar_date
+t/home/marcosrdac/.local/share/Trash/000_polybar_bright
+	/home/marcosrdac/projects/linux_learning/polybar_bright
+t/home/marcosrdac/.local/share/Trash/000_mpc_show
+	/home/marcosrdac/.local/bin/polybar/mpc_show
+t/home/marcosrdac/.local/share/Trash/000_polybar_date2
+	/home/marcosrdac/.local/bin/polybar/polybar_date2
+t/home/marcosrdac/.local/share/Trash/000_exercicios
+	/home/marcosrdac/Dropbox/exercicios
+t/home/marcosrdac/.local/share/Trash/000_config_example
+	/home/marcosrdac/.config/polybar/config_example
+t/home/marcosrdac/.local/share/Trash/000_.Exercícios.md.un~
+	/home/marcosrdac/documents/physical exercises/.Exercícios.md.un~
+t/home/marcosrdac/.local/share/Trash/000_polybar_sxhkd
+	/home/marcosrdac/.local/bin/polybar/polybar_sxhkd
+t/home/marcosrdac/.local/share/Trash/000_2019-12-15-224218_1366x768_scrot.png
+	/home/marcosrdac/2019-12-15-224218_1366x768_scrot.png
+t/home/marcosrdac/.local/share/Trash/000_test
+	/home/marcosrdac/.config/sxhkd/test
+t/home/marcosrdac/.local/share/Trash/000_.xprofile
+	/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/.xprofile
+t/home/marcosrdac/.local/share/Trash/000_polybar_date_calendar_bak
+	/home/marcosrdac/.local/bin/polybar/polybar_date_calendar_bak
+t/home/marcosrdac/.local/share/Trash/000_20191220191157_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/20191220191157_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192001_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192001_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192144_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192144_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192709_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192709_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192710_sliceshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192710_sliceshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192749_sliceshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192749_sliceshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192835_sliceshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192835_sliceshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192839_sliceshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192839_sliceshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192839_sliceshot_1366x768_000.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192839_sliceshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192839_sliceshot_1366x768_001.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192839_sliceshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192839_sliceshot_1366x768_002.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192839_sliceshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192839_sliceshot_1366x768_003.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192839_sliceshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192839_sliceshot_1366x768_004.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192839_sliceshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192850_sliceshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192850_sliceshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192850_sliceshot_1366x768_000.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192850_sliceshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192850_sliceshot_1366x768_001.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192850_sliceshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192850_sliceshot_1366x768_002.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192850_sliceshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192850_sliceshot_1366x768_003.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192850_sliceshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192850_sliceshot_1366x768_004.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192850_sliceshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192851_sliceshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192851_sliceshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192851_sliceshot_1366x768_000.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192851_sliceshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192851_sliceshot_1366x768_001.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192851_sliceshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192851_sliceshot_1366x768_002.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192851_sliceshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192851_sliceshot_1366x768_003.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192851_sliceshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192855_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192855_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192855_screenshot_1366x768_000.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192855_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192855_screenshot_1366x768_001.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192855_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220192855_screenshot_1366x768_002.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220192855_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193033_sliceshot_455x332.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193033_sliceshot_455x332.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193054_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193054_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193054_screenshot_1366x768_000.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193054_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193054_screenshot_1366x768_001.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193054_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193057_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193057_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193100_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193100_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193100_screenshot_1366x768_000.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193100_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193100_screenshot_1366x768_001.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193100_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193100_screenshot_1366x768_002.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193100_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193107_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193107_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193108_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193108_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193108_screenshot_1366x768_000.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193108_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193108_screenshot_1366x768_001.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193108_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193108_screenshot_1366x768_002.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193108_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220193252_screenshot_1366x768.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191220193252_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191117_screenshot_1366x768.png
+	/home/marcosrdac/20191220191117_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191558_screenshot_1366x768.png
+	/home/marcosrdac/20191220191558_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191615_screenshot_1366x768.png
+	/home/marcosrdac/20191220191615_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191617_screenshot_1366x768.png
+	/home/marcosrdac/20191220191617_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191617_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191617_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191617_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191617_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191622_screenshot_1366x768.png
+	/home/marcosrdac/20191220191622_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191624_screenshot_1366x768.png
+	/home/marcosrdac/20191220191624_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191624_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191624_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191625_screenshot_1366x768.png
+	/home/marcosrdac/20191220191625_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191626_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191626_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191627_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191627_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191628_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191628_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191637_screenshot_1366x768.png
+	/home/marcosrdac/20191220191637_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191638_screenshot_1366x768.png
+	/home/marcosrdac/20191220191638_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191638_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191638_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191639_screenshot_1366x768.png
+	/home/marcosrdac/20191220191639_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191639_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191639_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191640_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191640_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191641_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191641_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191642_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191642_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191643_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191643_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191644_screenshot_1366x768.png
+	/home/marcosrdac/20191220191644_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191645_screenshot_1366x768.png
+	/home/marcosrdac/20191220191645_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191645_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191645_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191645_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191645_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191646_screenshot_1366x768.png
+	/home/marcosrdac/20191220191646_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191650_screenshot_1366x768.png
+	/home/marcosrdac/20191220191650_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191653_screenshot_1366x768.png
+	/home/marcosrdac/20191220191653_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191653_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191653_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191653_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191653_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191654_screenshot_1366x768.png
+	/home/marcosrdac/20191220191654_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191654_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191654_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191655_screenshot_1366x768.png
+	/home/marcosrdac/20191220191655_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191657_screenshot_1366x768.png
+	/home/marcosrdac/20191220191657_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191658_screenshot_1366x768.png
+	/home/marcosrdac/20191220191658_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191703_screenshot_1366x768.png
+	/home/marcosrdac/20191220191703_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191704_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191704_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191705_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191705_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191706_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191706_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191707_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191707_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191708_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191708_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191709_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191709_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191710_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191710_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191711_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191711_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191712_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191712_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191713_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191713_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191714_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191714_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191733_screenshot_1366x768.png
+	/home/marcosrdac/20191220191733_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191734_screenshot_1366x768.png
+	/home/marcosrdac/20191220191734_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191735_screenshot_1366x768.png
+	/home/marcosrdac/20191220191735_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191736_screenshot_1366x768.png
+	/home/marcosrdac/20191220191736_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191738_screenshot_1366x768.png
+	/home/marcosrdac/20191220191738_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191738_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191738_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191739_screenshot_1366x768.png
+	/home/marcosrdac/20191220191739_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191740_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191740_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191741_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191741_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191742_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191742_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191744_screenshot_1366x768.png
+	/home/marcosrdac/20191220191744_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191745_screenshot_1366x768.png
+	/home/marcosrdac/20191220191745_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191746_screenshot_1366x768.png
+	/home/marcosrdac/20191220191746_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191747_screenshot_1366x768.png
+	/home/marcosrdac/20191220191747_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191748_screenshot_1366x768.png
+	/home/marcosrdac/20191220191748_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191748_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191748_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191748_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191748_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191748_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191748_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191748_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191748_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191749_screenshot_1366x768.png
+	/home/marcosrdac/20191220191749_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191753_screenshot_1366x768.png
+	/home/marcosrdac/20191220191753_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191753_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191753_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191754_screenshot_1366x768.png
+	/home/marcosrdac/20191220191754_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191754_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191754_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191754_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191754_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191754_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191754_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191755_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191755_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_019.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_019.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_020.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_020.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_021.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_021.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_022.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_022.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191756_screenshot_1366x768_023.png
+	/home/marcosrdac/20191220191756_screenshot_1366x768_023.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_001.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_001.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_002.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_002.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_003.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_003.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_004.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_004.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_005.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_005.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_006.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_006.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_007.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_007.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_008.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_008.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_009.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_009.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_010.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_010.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_011.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_011.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_012.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_012.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_013.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_013.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_014.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_014.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_015.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_015.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_016.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_016.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_017.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_017.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191757_screenshot_1366x768_018.png
+	/home/marcosrdac/20191220191757_screenshot_1366x768_018.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191758_screenshot_1366x768.png
+	/home/marcosrdac/20191220191758_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191758_screenshot_1366x768_000.png
+	/home/marcosrdac/20191220191758_screenshot_1366x768_000.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191800_screenshot_1366x768.png
+	/home/marcosrdac/20191220191800_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191806_screenshot_1366x768.png
+	/home/marcosrdac/20191220191806_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191807_screenshot_1366x768.png
+	/home/marcosrdac/20191220191807_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191815_screenshot_1366x768.png
+	/home/marcosrdac/20191220191815_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191816_screenshot_1366x768.png
+	/home/marcosrdac/20191220191816_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_20191220191817_screenshot_1366x768.png
+	/home/marcosrdac/20191220191817_screenshot_1366x768.png
+t/home/marcosrdac/.local/share/Trash/000_bspc
+	/home/marcosrdac/.local/bin/bspwm/bspc
+t/home/marcosrdac/.local/share/Trash/000_TPS02E17.mkv.mp4
+	/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/TPS02E17.mkv.mp4
+t/home/marcosrdac/.local/share/Trash/000_OPAISSO
+	/home/marcosrdac/OPAISSO
+t/home/marcosrdac/.local/share/Trash/000_151590creenshots_folder
+	/home/marcosrdac/151590creenshots_folder
+t/home/marcosrdac/.local/share/Trash/000_emotions.ods
+	/home/marcosrdac/emotions.ods
+t/home/marcosrdac/.local/share/Trash/000_myprogram.out
+	/home/marcosrdac/myprogram.out
+t/home/marcosrdac/.local/share/Trash/000_nohup.out
+	/home/marcosrdac/nohup.out
+t/home/marcosrdac/.local/share/Trash/001_test
+	/home/marcosrdac/test
+t/home/marcosrdac/.local/share/Trash/000_youtubempv
+	/home/marcosrdac/youtubempv
+t/home/marcosrdac/.local/share/Trash/000_FlatColor
+	/home/marcosrdac/.local/share/themes/FlatColor
+t/home/marcosrdac/.local/share/Trash/000_color_other
+	/home/marcosrdac/.local/share/themes/color_other
+t/home/marcosrdac/.local/share/Trash/000_lsd_total_colorfull.jpg
+	/home/marcosrdac/wallpapers/favorites/lsd_total_colorfull.jpg
+t/home/marcosrdac/.local/share/Trash/000_Twin.Peaks.S01E01.1080p.BluRay.x264-REWARD.srt
+	/home/marcosrdac/series/twin_peaks/Twin.Peaks.S01E01.1080p.BluRay.x264-REWARD.srt
+t/home/marcosrdac/.local/share/Trash/000_toggle_webcam.pid
+	/tmp/toggle_webcam.pid
+t/home/marcosrdac/.local/share/Trash/005_toggle_webcam.pid
+	/home/marcosrdac/.local/bin/bspwm/toggle_webcam.pid
+t/home/marcosrdac/.local/share/Trash/000_20191227222558_screencast.mkv
+	/home/marcosrdac/tmp/20191227222558_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_polybar_recording_tty1.pid
+	/tmp/polybar_recording_tty1.pid
+t/home/marcosrdac/.local/share/Trash/000_20191228103701_sliceshot_363x154.png
+	/home/marcosrdac/Dropbox/pictures/screenshots/20191228103701_sliceshot_363x154.png
+t/home/marcosrdac/.local/share/Trash/000_polybar_recording
+	/home/marcosrdac/.local/bin/polybar/polybar_recording
+t/home/marcosrdac/.local/share/Trash/000_polybar_recording_almost_old
+	/home/marcosrdac/.local/bin/polybar/polybar_recording_almost_old
+t/home/marcosrdac/.local/share/Trash/000_polybar_recording_old_not_working
+	/home/marcosrdac/.local/bin/polybar/polybar_recording_old_not_working
+t/home/marcosrdac/.local/share/Trash/000_20191023095736_screencast.mkv
+	/home/marcosrdac/tmp/20191023095736_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191023100602_screencast.mkv
+	/home/marcosrdac/tmp/20191023100602_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191228121929_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20191228121929_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20190923195206_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20190923195206_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20190924001626_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20190924001626_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20190924002959_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20190924002959_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/001_20191003155458_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20191003155458_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191228130528_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20191228130528_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191228130951_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20191228130951_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191228130900_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20191228130900_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191228134104_screencast.mkv
+	/home/marcosrdac/tmp/recordings/20191228134104_screencast.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191228150808_video.mkv
+	/home/marcosrdac/tmp/recordings/20191228150808_video.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191228150857_webcamhidef.mkv
+	/home/marcosrdac/tmp/recordings/20191228150857_webcamhidef.mkv
+t/home/marcosrdac/.local/share/Trash/000_fifo
+	/home/marcosrdac/tmp/fifo
+t/home/marcosrdac/.local/share/Trash/000_20191228153052_webcam.mkv
+	/home/marcosrdac/tmp/recordings/20191228153052_webcam.mkv
+t/home/marcosrdac/.local/share/Trash/000_20191228165305_webcam2.mkv
+	/home/marcosrdac/tmp/recordings/20191228165305_webcam2.mkv
+t/home/marcosrdac/.local/share/Trash/000_record.pid
+	/tmp/record.pid
+t/home/marcosrdac/.local/share/Trash/000_record_filename
+	/tmp/record_filename
+t/home/marcosrdac/.local/share/Trash/000_output.pdf
+	/home/marcosrdac/output.pdf
+t/home/marcosrdac/.local/share/Trash/000_test.mkv
+	/home/marcosrdac/test.mkv
+t/home/marcosrdac/.local/share/Trash/000_chupanji.tex
+	/home/marcosrdac/documents/games/cpg/chupanji.tex
+t/home/marcosrdac/.local/share/Trash/000_schedgabi.pdf
+	/home/marcosrdac/tmp/schedgabi.pdf
+t/home/marcosrdac/.local/share/Trash/000_schednan.pdf
+	/home/marcosrdac/tmp/schednan.pdf
+t/home/marcosrdac/.local/share/Trash/000_polybar_write_remainder
+	/home/marcosrdac/.local/bin/polybar_write_remainder
+t/home/marcosrdac/.local/share/Trash/000_m3u.xsl
+	/home/marcosrdac/.local/bin/podcast2playlist/m3u.xsl
+t/home/marcosrdac/.local/share/Trash/000_pls.xsl
+	/home/marcosrdac/.local/bin/podcast2playlist/pls.xsl
+t/home/marcosrdac/.local/share/Trash/000_rss2playlist.sh
+	/home/marcosrdac/.local/bin/podcast2playlist/rss2playlist.sh
+t/home/marcosrdac/.local/share/Trash/000_rssfeeds.txt
+	/home/marcosrdac/.local/bin/podcast2playlist/rssfeeds.txt
+t/home/marcosrdac/.local/share/Trash/000_volumio.xsl
+	/home/marcosrdac/.local/bin/podcast2playlist/volumio.xsl
+t/home/marcosrdac/.local/share/Trash/000_.git
+	/home/marcosrdac/.local/bin/podcast2playlist/.git
+t/home/marcosrdac/.local/share/Trash/000_test.py
+	/home/marcosrdac/.local/bin/bspwm/test.py
+t/home/marcosrdac/.local/share/Trash/000_h1_100 h2_100 V1_3000 V2_4000 V3_6000 nx_200 nz_200 amll_100 amort_0.023.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/h1_100 h2_100 V1_3000 V2_4000 V3_6000 nx_200 nz_200 amll_100 amort_0.023.gif
+t/home/marcosrdac/.local/share/Trash/000_h1_100 h2_100 V1_3000 V2_4000 V3_6000 nz_200.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/h1_100 h2_100 V1_3000 V2_4000 V3_6000 nz_200.gif
+t/home/marcosrdac/.local/share/Trash/000_wave_modeling0.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/new_tests/wave_modeling0.py
+t/home/marcosrdac/.local/share/Trash/000_wave_modeling1.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/new_tests/wave_modeling1.py
+t/home/marcosrdac/.local/share/Trash/000_wave_modeling2.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/new_tests/wave_modeling2.py
+t/home/marcosrdac/.local/share/Trash/000_amort.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/amort.gif
+t/home/marcosrdac/.local/share/Trash/000_left.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/left.gif
+t/home/marcosrdac/.local/share/Trash/000_refraction_test3.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/refraction_test3.gif
+t/home/marcosrdac/.local/share/Trash/000_seis.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/seis.gif
+t/home/marcosrdac/.local/share/Trash/000_seis7.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/seis7.gif
+t/home/marcosrdac/.local/share/Trash/000_seis8.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/seis8.gif
+t/home/marcosrdac/.local/share/Trash/000_test_better_amort.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/test_better_amort.gif
+t/home/marcosrdac/.local/share/Trash/000_velocities.gif
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/velocities.gif
+t/home/marcosrdac/.local/share/Trash/000_evodiff1n
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff1n
+t/home/marcosrdac/.local/share/Trash/000_evodiff1nn
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff1nn
+t/home/marcosrdac/.local/share/Trash/000_evodiff2
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff2
+t/home/marcosrdac/.local/share/Trash/000_evodiff2nn
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff2nn
+t/home/marcosrdac/.local/share/Trash/000_evodiff2nn_
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff2nn_
+t/home/marcosrdac/.local/share/Trash/000_mpv-shot0001.jpg
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/mpv-shot0001.jpg
+t/home/marcosrdac/.local/share/Trash/000_mpv-shot0002.jpg
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/mpv-shot0002.jpg
+t/home/marcosrdac/.local/share/Trash/000_evo_results0.md
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evo_results0.md
+t/home/marcosrdac/.local/share/Trash/000_evo_results1.md
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evo_results1.md
+t/home/marcosrdac/.local/share/Trash/000_atilas.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/atilas.py
+t/home/marcosrdac/.local/share/Trash/000___pycache__
+	/home/marcosrdac/projects/accoustic_wave_modelling/__pycache__
+t/home/marcosrdac/.local/share/Trash/000_old
+	/home/marcosrdac/projects/accoustic_wave_modelling/old
+t/home/marcosrdac/.local/share/Trash/000_python
+	/home/marcosrdac/Dropbox/dotfiles/.cache/terminal/python
+t/home/marcosrdac/.local/share/Trash/000_results
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/results
+t/home/marcosrdac/.local/share/Trash/000_drawv.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/drawv.py
+t/home/marcosrdac/.local/share/Trash/000_evodiff.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/evodiff.py
+t/home/marcosrdac/.local/share/Trash/000_norm.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/norm.py
+t/home/marcosrdac/.local/share/Trash/000_opening.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/opening.py
+t/home/marcosrdac/.local/share/Trash/000_parallelplanes.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/parallelplanes.py
+t/home/marcosrdac/.local/share/Trash/000_seis.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/seis.py
+t/home/marcosrdac/.local/share/Trash/000_show_signal.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/show_signal.py
+t/home/marcosrdac/.local/share/Trash/000_test_evodiff.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/test_evodiff.py
+t/home/marcosrdac/.local/share/Trash/000_velocities.py
+	/home/marcosrdac/projects/accoustic_wave_modelling/2d_accoustic_wave_modeling/velocities.py
+t/home/marcosrdac/.local/share/Trash/000_pomodoro
+	/home/marcosrdac/.local/bin/pomodoro
+t/home/marcosrdac/.local/share/Trash/000_1a90ff3a-149a-4ffe-82a0-4a3eace2b4e1
+	/home/marcosrdac/tmp/pen/1a90ff3a-149a-4ffe-82a0-4a3eace2b4e1
+t/home/marcosrdac/.local/share/Trash/000_20200110 - Enclausurada envenenada.md
+	/home/marcosrdac/documents/journal/20200110 - Enclausurada envenenada.md
+t/home/marcosrdac/.local/share/Trash/000_asd
+	/home/marcosrdac/asd
+t/home/marcosrdac/.local/share/Trash/000_abc
+	/home/marcosrdac/abc
+t/home/marcosrdac/.local/share/Trash/000_add_programs
+	/home/marcosrdac/add_programs
+t/home/marcosrdac/.local/share/Trash/001_test.py
+	/home/marcosrdac/test.py
+t/home/marcosrdac/.local/share/Trash/000_wave_modeling.py
+	/home/marcosrdac/wave_modeling.py
+t/home/marcosrdac/.local/share/Trash/000_2.22 - Encontro Marcado 2017 [BluRay] [720p] [DUBLADO] COMANDOTORRENTS.COM.4bdf4d5cb9e7020b.torrent
+	/home/marcosrdac/.config/transmission-daemon/torrents/2.22 - Encontro Marcado 2017 [BluRay] [720p] [DUBLADO] COMANDOTORRENTS.COM.4bdf4d5cb9e7020b.torrent
+t/home/marcosrdac/.local/share/Trash/000_Encontro Marcado.mkv.7fed49dbac0b253f.torrent
+	/home/marcosrdac/.config/transmission-daemon/torrents/Encontro Marcado.mkv.7fed49dbac0b253f.torrent
+t/home/marcosrdac/.local/share/Trash/000_settings.json.bak
+	/home/marcosrdac/.config/transmission-daemon/settings.json.bak
+t/home/marcosrdac/.local/share/Trash/000_nord.jpg
+	/home/marcosrdac/wallpapers/favorites/nord.jpg
+t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_nord_2_png_dark_wal__1.1.0.json
+	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_nord_2_png_dark_wal__1.1.0.json
+t/home/marcosrdac/.local/share/Trash/000__home_marcosrdac__config_wpg_wallpapers_nord_jpg_dark_wal__1.1.0.json
+	/home/marcosrdac/.config/wpg/schemes/_home_marcosrdac__config_wpg_wallpapers_nord_jpg_dark_wal__1.1.0.json
+t/home/marcosrdac/.local/share/Trash/000_20200128 oi.md
+	/home/marcosrdac/documents/journal/20200128 oi.md
+t/home/marcosrdac/.local/share/Trash/000_WWW.YTS.RE.jpg
+	/home/marcosrdac/tmp/torrents/Coherence (2013) [1080p]/WWW.YTS.RE.jpg
+t/home/marcosrdac/.local/share/Trash/000_coherence.(6047003).nfo
+	/home/marcosrdac/tmp/torrents/Coherence (2013) [1080p]/coherence.(6047003).nfo
+t/home/marcosrdac/.local/share/Trash/000_coherence..pob.1cd..zip
+	/home/marcosrdac/tmp/torrents/Coherence (2013) [1080p]/coherence..pob.1cd..zip
+t/home/marcosrdac/.local/share/Trash/000_test
+	/home/marcosrdac/projects/site/marcosrdac.github.io/test
+t/home/marcosrdac/.local/share/Trash/001_bin
+	/home/marcosrdac/projects/site/marcosrdac.github.io/bin
+t/home/marcosrdac/.local/share/Trash/001_lib
+	/home/marcosrdac/projects/site/marcosrdac.github.io/lib
+t/home/marcosrdac/.local/share/Trash/001_lib64
+	/home/marcosrdac/projects/site/marcosrdac.github.io/lib64
+t/home/marcosrdac/.local/share/Trash/001_pyvenv.cfg
+	/home/marcosrdac/projects/site/marcosrdac.github.io/pyvenv.cfg
+t/home/marcosrdac/.local/share/Trash/000_include
+	/home/marcosrdac/projects/site/marcosrdac.github.io/include
+t/home/marcosrdac/.local/share/Trash/000_site
+	/home/marcosrdac/projects/site/marcosrdac.github.io/site
+t/home/marcosrdac/.local/share/Trash/000_20181110_pe_atras.html
+	/home/marcosrdac/projects/site/marcosrdac.github.io/content/blog/20181110_pe_atras.html
+t/home/marcosrdac/.local/share/Trash/000_marcosrdac.github.io
+	/home/marcosrdac/projects/site/marcosrdac.github.io
+t/home/marcosrdac/.local/share/Trash/000_irpj 2019 everaldo.pdf
+	/home/marcosrdac/projects/moving_stdev/irpj 2019 everaldo.pdf
+t/home/marcosrdac/.local/share/Trash/000_recibo celi.pdf
+	/home/marcosrdac/projects/moving_stdev/recibo celi.pdf
+t/home/marcosrdac/.local/share/Trash/000_std.py
+	/home/marcosrdac/projects/moving_stdev/std.py
+t/home/marcosrdac/.local/share/Trash/000_stdev.py
+	/home/marcosrdac/projects/moving_stdev/stdev.py
+t/home/marcosrdac/.local/share/Trash/000_stdevfor.py
+	/home/marcosrdac/projects/moving_stdev/stdevfor.py
+t/home/marcosrdac/.local/share/Trash/000_stdevpro.py
+	/home/marcosrdac/projects/moving_stdev/stdevpro.py
+t/home/marcosrdac/.local/share/Trash/000_numba_results.pdf
+	/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA/numba_results.pdf
+t/home/marcosrdac/.local/share/Trash/000_t
+	/home/marcosrdac/series/t
+t/home/marcosrdac/.local/share/Trash/000_y
+	/home/marcosrdac/series/y
+t/home/marcosrdac/.local/share/Trash/000_20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+	/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog/20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.md
+t/home/marcosrdac/.local/share/Trash/000_20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade.html
+	/home/marcosrdac/projects/site/marcosrdac.github.io/content/blog/20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade.html
+t/home/marcosrdac/.local/share/Trash/000_20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.html
+	/home/marcosrdac/projects/site/marcosrdac.github.io/content/blog/20180920_1_desenvolvimento_da_equacao_de_potencial_elétrico_causado_por_um_eletrodo_em_profundidade_.html
+t/home/marcosrdac/.local/share/Trash/000_index.html
+	/home/marcosrdac/projects/moving_stdev/index.html
+t/home/marcosrdac/.local/share/Trash/000_joplin
+	/home/marcosrdac/.config/joplin
+t/home/marcosrdac/.local/share/Trash/000_joplin-desktop
+	/home/marcosrdac/.config/joplin-desktop
+t/home/marcosrdac/.local/share/Trash/000_resources
+	/home/marcosrdac/.config/joplin/resources
+t/home/marcosrdac/.local/share/Trash/000_tmp
+	/home/marcosrdac/.config/joplin/tmp
+t/home/marcosrdac/.local/share/Trash/000_database.sqlite
+	/home/marcosrdac/.config/joplin/database.sqlite
+t/home/marcosrdac/.local/share/Trash/000_log-database.txt
+	/home/marcosrdac/.config/joplin/log-database.txt
+t/home/marcosrdac/.local/share/Trash/000_log.txt
+	/home/marcosrdac/.config/joplin/log.txt
+t/home/marcosrdac/.local/share/Trash/000_Joplin
+	/home/marcosrdac/.config/joplin/Joplin
+t/home/marcosrdac/.local/share/Trash/000_build
+	/home/marcosrdac/projects/python_learning/bibs/cython/avg/build
+t/home/marcosrdac/.local/share/Trash/000_hello.c
+	/home/marcosrdac/projects/python_learning/bibs/cython/avg/hello.c
+t/home/marcosrdac/.local/share/Trash/000_hello.cpython-38-x86_64-linux-gnu.so
+	/home/marcosrdac/projects/python_learning/bibs/cython/avg/hello.cpython-38-x86_64-linux-gnu.so
+t/home/marcosrdac/.local/share/Trash/000_.asoundrc
+	/home/marcosrdac/.asoundrc
+t/home/marcosrdac/.local/share/Trash/000_inland-empire-brazilian-portuguese-yify-17818.zip
+	/home/marcosrdac/movies/inland_empire_(2006)/inland-empire-brazilian-portuguese-yify-17818.zip
+t/home/marcosrdac/.local/share/Trash/000_bracey.vim
+	/home/marcosrdac/projects/raposinha/bracey.vim
+t/home/marcosrdac/.local/share/Trash/000_scripts.js
+	/home/marcosrdac/tmp/scripts.js
+t/home/marcosrdac/.local/share/Trash/000_bracey.vim
+	/home/marcosrdac/.config/nvim/plugged/bracey.vim
+t/home/marcosrdac/.local/share/Trash/000_MaratonaDev3.zip
+	/home/marcosrdac/projects/maratonadev202002/MaratonaDev3.zip
+t/home/marcosrdac/.local/share/Trash/000___MACOSX
+	/home/marcosrdac/projects/maratonadev202002/__MACOSX
+t/home/marcosrdac/.local/share/Trash/000_MaratonaDev3
+	/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0

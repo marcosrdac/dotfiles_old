@@ -34,8 +34,8 @@ alias s='sudo -s -E'
 alias x='startx'
 alias nx='nvidia-xrun'
 
-alias v='nvim'
-alias n='vifm_ueberzug'
+alias v="$EDITOR"
+alias n="$FILEBROWSER"
 
 # For programs that think $HOME is a reasonable place to put their junk
 # and don't allow the user to change those questionable choices

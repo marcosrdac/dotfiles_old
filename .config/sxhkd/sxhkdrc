@@ -100,7 +100,7 @@ alt + s; {_,shift + } s
 	$TERMINAL -e $FILEBROWSER,	thunar, \
 	$TERMINAL -e ncmpcpp, \
 	gimp, \
-	joplin, \
+	$TERMINAL -e joplin, \
 	joplin-desktop, \
 	keepmenu, \
 	keepassx2 \
@@ -162,8 +162,8 @@ alt + {Left,Right,Down,Up}
 	 pamixer --allow-boost -i 5}
 
 # function keys
-alt + {F5, F9,shift + F9}
-	{dm_display_menu,dm_mount_menu, dm_umount_menu}
+alt + {F5, shift + F5, F9,shift + F9}
+	{dm_display_menu, bspwm_multi_monitor, dm_mount_menu, dm_umount_menu}
 
 
 # --- fixed stuff --- #

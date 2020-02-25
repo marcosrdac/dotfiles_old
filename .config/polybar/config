@@ -13,36 +13,90 @@ secondary      = ${xrdb:color1  : #ff0000}
 alert          = ${xrdb:color3  : #ffff00}
 
 
-[bar/standard]
+[bar/base]
+monitor = ${env:MONITOR:}
 ; controling bar from the  outside
 enable-ipc = true
 ; geometry
 dpi = ${xrdb:dpi : 100}
-width  = 100%
-height = 22
-padding-left = 0
-padding-right = 0
-module-margin-left = 1
+width               = 100%
+height              = 22
+padding-left        = 0
+padding-right       = 0
+module-margin-left  = 1
 module-margin-right = 1
-fixed-center = true
+fixed-center        = true
 ; style
 background = ${colors.background}
 foreground = ${colors.foreground}
 font-0     = ${xrdb:font:monospace}
 font-1     = ${xrdb:symbol_font:monospace}
+; window manager
+wm-restack = bspwm
+; cursors
+cursor-click  = default
+cursor-scroll = default
+
+
+; only monitor
+[bar/1]
+inherit = bar/base
 ; modules position
 modules-left   = bspwm xkeyboard
 modules-center = mpd
 modules-right  = remainder recording wlan eth pulseaudio brightness battery pomodoro date time
 ; tray position
-tray-position = left
-tray-padding  =  2
-tray-background =
-; window manager
-wm-restack = bspwm
-; cursors
-cursor-click = default
-cursor-scroll = default
+tray-position   = left
+tray-padding    = 2
+tray-background = ${colors.background}
+
+
+; two moonitors
+[bar/21]
+inherit = bar/base
+; modules position
+modules-left   = bspwm xkeyboard
+modules-center = mpd
+modules-right  =
+; tray position
+tray-position   = left
+tray-padding    = 2
+tray-background = ${colors.background}
+
+[bar/22]
+inherit = bar/base
+; modules position
+modules-left   = bspwm
+modules-center =
+modules-right  = remainder recording wlan eth pulseaudio brightness battery pomodoro date time
+
+
+; three moonitors
+[bar/31]
+inherit = bar/base
+; modules position
+modules-left   = bspwm
+modules-center =
+modules-right  =
+; tray position
+tray-position   = left
+tray-padding    = 2
+tray-background = ${colors.background}
+
+[bar/32]
+inherit = bar/base
+; modules position
+modules-left   = bspwm xkeyboard
+modules-center = mpd
+modules-right  =
+
+
+[bar/33]
+inherit = bar/base
+; modules position
+modules-left   = bspwm
+modules-center =
+modules-right  = remainder recording wlan eth pulseaudio brightness battery pomodoro date time
 
 
 ; --- modules --- ;

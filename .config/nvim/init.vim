@@ -14,6 +14,10 @@ call plug#begin('~/.vim/plugged')
     Plug 'norcalli/nvim-colorizer.lua'              " colors become colored
     Plug 'terryma/vim-expand-region'                " expanding selection
 
+    " HTML
+    Plug 'mattn/emmet-vim'  " easy html typing
+    Plug 'turbio/bracey.vim'  " live html/style edition
+
     " NERDTree
     Plug 'scrooloose/nerdtree'                      " file system explorer
     Plug 'Xuyuanp/nerdtree-git-plugin'              " NERDTree git marks
@@ -23,6 +27,8 @@ call plug#begin('~/.vim/plugged')
     " focused writing
     Plug 'junegunn/goyo.vim'        " center text
     Plug 'junegunn/limelight.vim'   " focused writing
+
+    Plug 'VebbNix/lf-vim'                         " lfrc syntax and highlighting
 call plug#end()
 
 
@@ -82,7 +88,7 @@ autocmd BufWritePost user.cron !crontab %
 "  Add to /etc/sudoers: "Defaults rootpw"
 autocmd BufWritePost root.cron !st -e sudo crontab %
 " generate site html files after _content files edition
-" NOT WORKING IM DOING SOMETHINS STUPID
+" NOT WORKING IM DOING SOMETHING STUPID
 autocmd BufWritePost /home/marcosrdac/projects/site/marcosrdac.github.io/_content !python /home/marcosrdac/projects/site/marcosrdac.github.io/maker.py
 " st + tmux + vim with correct cursor
 if exists('$TMUX')

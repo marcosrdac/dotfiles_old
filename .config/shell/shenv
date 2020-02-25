@@ -4,11 +4,13 @@
 # Shell common environment variables and functions (BusyBox compatible)
 #
 
+export OPENER="xdg-open"
 export EDITOR="nvim"
 export VISUAL="nvim"
 export PAGER=less
 export TERMINAL="st"
 export FILEBROWSER="vifm_ueberzug"
+#export FILEBROWSER="vifm_ueberzug"
 export BROWSER="qutebrowser"
 export ALTBROWSER="firefox"
 export TRUEBROWSER="qutebrowser"
@@ -102,3 +104,15 @@ export WORKON_HOME=~/.virtualenvs
 # Seimic Unix
 export CWPROOT=/opt/SeisUnix
 appendpath "$CWPROOT/bin"
+
+
+trysource() {
+    if [ -f "$1" ]
+    then
+        . "$1"
+    else
+        return 1
+    fi
+}
+
+trysource ./lf_icons

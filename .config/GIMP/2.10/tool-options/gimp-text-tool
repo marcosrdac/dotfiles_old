@@ -1,5 +1,6 @@
 # GIMP gimp-text-tool options
 
+(foreground (color-rgb 0.64356435643564358 0.012957671606086765 0.09751189852793285))
 (palette "Grays")
 (font "URW Gothic")
 (font-size 125)

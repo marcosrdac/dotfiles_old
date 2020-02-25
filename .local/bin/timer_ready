@@ -1,0 +1,14 @@
+#!/usr/bin/sh
+
+timer=$1
+
+while [ $timer -gt 0 ]
+do
+  echo -ne "\r                            \r"
+  echo -ne   "$timer secconds remaining..."
+  sleep 1
+  let timer=timer-1
+done
+
+echo -ne "\r                            \r"
+echo -ne "Timer is finished!\n"
