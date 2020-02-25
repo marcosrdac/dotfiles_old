@@ -145,33 +145,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/.config/Joplin/blob_storage
-	..
-0
-d/home/marcosrdac/.config/Joplin
-	blob_storage
-4
-d/home/marcosrdac/.config
-	joplin
-30
-d/home/marcosrdac/.config/joplin
-	resources
-1
-d/home/marcosrdac/.config/joplin/resources
-	..
-0
-d/home/marcosrdac/.config/joplin
-	keymap.json
-1
-d/home/marcosrdac/.config
-	Joplin
-4
-d/home/marcosrdac/.config/Joplin
-	blob_storage
-4
-d/home/marcosrdac/.config
-	joplin
-26
 d/home/marcosrdac/.config/joplin
 	resources
 1
@@ -445,6 +418,33 @@ d/home/marcosrdac/.local/bin
 d/home/marcosrdac/.local/bin/menu
 	dm_display_menu
 4
+d/home/marcosrdac
+	.config
+0
+d/home/marcosrdac/.config
+	bspwm
+0
+d/home/marcosrdac
+	.dotfiles
+1
+d/home/marcosrdac/.dotfiles
+	.gitignore
+12
+d/home/marcosrdac/.local/bin
+	menu
+5
+d/home/marcosrdac/.local/bin/menu
+	dm_display_menu
+4
+d/home/marcosrdac/.local/bin
+	bspwm
+1
+d/home/marcosrdac/.local/bin/bspwm
+	bspwm_resize
+4
+d/home/marcosrdac/.local/bin
+	bspwm
+1
 d
 
 # Right window history (oldest to newest):
@@ -751,8 +751,6 @@ D/home/marcosrdac/projects/linux_learning
 D
 
 # Command line history (oldest to newest):
-:touch teste
-:mkdir Envy Code B
 :mkdir "Envy Code B"
 :mkdir Datei Tribute
 :mkdir gaming
@@ -850,6 +848,8 @@ D
 :mkdir desk
 :mkdir unique
 :touch monitors
+:git add 
+:git ad
 :q
 
 # Search history (oldest to newest):
@@ -932,7 +932,6 @@ D
 /lf
 /marato
 /gi
-/git
 /marat
 /bspw
 /doc
@@ -953,6 +952,7 @@ D
 /mo
 /dm_
 /dis
+/git
 
 # Prompt history (oldest to newest):
 pficha_maquete.png
@@ -1059,7 +1059,8 @@ pdm_display_menu
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor.bak
+""/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor
+""/home/marcosrdac/.local/share/Trash/001_bspwm_multi_monitor.bak
 
 # Directory stack (oldest to newest):
 
@@ -2628,6 +2629,8 @@ t/home/marcosrdac/.local/share/Trash/000_monitors_template.md
 	/home/marcosrdac/.dotfiles/.config/unique/monitors_template.md
 t/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor.bak
 	/home/marcosrdac/.local/bin/bspwm/bspwm_multi_monitor.bak
+t/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor
+	/home/marcosrdac/.local/bin/bspwm/bspwm_multi_monitor
 
 # State:
 f
