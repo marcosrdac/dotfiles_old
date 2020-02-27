@@ -136,7 +136,7 @@ b/home/marcosrdac/wallpapers/
 	1570641995
 
 # TUI:
-al
+ar
 q1
 v2
 ov
@@ -145,69 +145,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/marcosrdac/.config/joplin
-	resources
-1
-d/home/marcosrdac/projects
-	python_learning
-37
-d/home/marcosrdac/projects/python_learning
-	bibs
-4
-d/home/marcosrdac/projects/python_learning/bibs
-	..
-0
-d/home/marcosrdac/projects/python_learning
-	atila
-3
-d/home/marcosrdac/projects/python_learning/atila
-	..
-0
-d/home/marcosrdac/projects/python_learning
-	bibs
-4
-d/home/marcosrdac/projects/python_learning/bibs
-	cython
-2
-d/home/marcosrdac/projects/python_learning/bibs/cython
-	hello_world
-1
-d/home/marcosrdac/projects/python_learning/bibs/cython/hello_world
-	hello.pyx
-4
-d/home/marcosrdac/.local/bin
-	menu
-5
-d/home/marcosrdac/.local/bin/menu
-	dm_useful_menu
-16
-d/home/marcosrdac/.local/bin
-	menu
-5
-d/home/marcosrdac/.config
-	nvim
-29
-d/home/marcosrdac/.config/nvim
-	init.vim
-6
-d/home/marcosrdac
-	series
-37
-d/home/marcosrdac/series
-	twin_peaks
-2
-d/home/marcosrdac/series/twin_peaks
-	Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-3
-d/home/marcosrdac/series/twin_peaks/Twin.Peaks.SEASON.02.S02.COMPLETE.1080p.10bit.BluRay.6CH.x265.HEVC-PSA
-	TPS02E21.srt
-32
-d/home/marcosrdac/tmp
-	analise_aula09.pdf
-4
-d/home/marcosrdac
-	movies
-34
 d/home/marcosrdac/movies
 	twin_peaks
 41
@@ -445,243 +382,72 @@ d/home/marcosrdac/.local/bin/bspwm
 d/home/marcosrdac/.local/bin
 	bspwm
 1
+d/home/marcosrdac/.local/bin/bspwm
+	bspwm_set_monocle_gaps
+5
+d/home/marcosrdac/.local/bin
+	menu
+5
+d/home/marcosrdac/.local/bin/menu
+	dm_i3_useful_menu
+5
+d/home/marcosrdac/.local/bin
+	i3bar
+4
+d/home/marcosrdac/.local
+	bin
+1
+d/home/marcosrdac/.local/bin
+	i3bar
+4
+d/home/marcosrdac/.local/bin/i3bar
+	i3bar_battery
+1
+d/home/marcosrdac/.local/bin
+	bspwm
+1
+d/home/marcosrdac/.local/bin/bspwm
+	bspwm_display_menu
+1
+d/home/marcosrdac/tmp
+	maratonadev
+0
+d/home/marcosrdac/tmp/maratonadev
+	Finalizando o app _ MaratonaDev 3.0-zJNVnE2LImM.mkv
+1
+d/home/marcosrdac
+	.virtualenvs
+29
+d/home/marcosrdac/.virtualenvs
+	site
+2
+d/home/marcosrdac
+	.virtualenvs
+11
+d/home/marcosrdac/tmp
+	test
+0
+d/home/marcosrdac/.config
+	shell
+40
+d/home/marcosrdac
+	.virtualenvs
+11
+d/home/marcosrdac/.config
+	shell
+40
+d/home/marcosrdac
+	.config
+0
+d/home/marcosrdac/.config
+	shell
+40
+d/home/marcosrdac/.config/shell
+	shenv
+8
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/projects/maratonadev202002/public
-	logo.png
-1
-D/home/marcosrdac/projects/maratonadev202002
-	public
-4
-D/home/marcosrdac/projects/maratonadev202002/public
-	logo.png
-1
-D/home/marcosrdac/projects/maratonadev202002
-	public
-4
-D/home/marcosrdac/projects/maratonadev202002/public
-	logo.png
-1
-D/home/marcosrdac/projects/maratonadev202002
-	public
-4
-D/home/marcosrdac/projects/maratonadev202002/public
-	logo.png
-1
-D/home/marcosrdac/projects/maratonadev202002
-	node_modules
-3
-D/home/marcosrdac/projects/maratonadev202002/node_modules
-	pg
-26
-D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
-	lib
-1
-D/home/marcosrdac/projects/maratonadev202002/node_modules/pg/lib
-	..
-0
-D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
-	node_modules
-2
-D/home/marcosrdac/projects/maratonadev202002/node_modules/pg/node_modules
-	..
-0
-D/home/marcosrdac/projects/maratonadev202002/node_modules/pg
-	node_modules
-2
-D/home/marcosrdac/projects/maratonadev202002/node_modules
-	pg
-26
-D/home/marcosrdac/projects/maratonadev202002
-	__MACOSX
-2
-D/home/marcosrdac/projects/maratonadev202002/__MACOSX
-	MaratonaDev3
-1
-D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3
-	Wallpapers
-1
-D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3/Wallpapers
-	..
-0
-D/home/marcosrdac/projects/maratonadev202002/__MACOSX/MaratonaDev3
-	Wallpapers
-1
-D/home/marcosrdac/projects/maratonadev202002/__MACOSX
-	MaratonaDev3
-1
-D/home/marcosrdac/projects/maratonadev202002
-	MaratonaDev3
-1
-D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
-	Wallpapers
-1
-D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3/Wallpapers
-	..
-0
-D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
-	Wallpapers
-1
-D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3/Wallpapers
-	Wallpaper MaratonaDev 3 - 2560x1080.png
-3
-D/home/marcosrdac/projects/maratonadev202002/MaratonaDev3
-	Wallpapers
-1
-D/home/marcosrdac/projects/maratonadev202002
-	server.js
-7
-D/home/marcosrdac/wallpapers
-	favorites
-3
-D/home/marcosrdac/wallpapers/favorites
-	lonely_city_sunset.jpg
-22
-D/home/marcosrdac/wallpapers
-	favorites
-3
-D/home/marcosrdac
-	series
-17
-D/home/marcosrdac/series
-	twin_peaks
-2
-D/home/marcosrdac
-	movies
-14
-D/home/marcosrdac/movies
-	inland_empire_(2006)
-10
-D/home/marcosrdac/tmp
-	eage2020aivfuea.pdf
-7
-D/home/marcosrdac
-	movies
-14
-D/home/marcosrdac/movies
-	inland_empire_(2006)
-10
-D/home/marcosrdac/tmp
-	torrents
-0
-D/home/marcosrdac/tmp/torrents
-	Twin Peaks Fire Walk with Me - David Lynch Remastered 1992 Eng Subs 720p [H264-mp4]
-8
-D/home/marcosrdac/tmp/torrents/Twin Peaks Fire Walk with Me - David Lynch Remastered 1992 Eng Subs 720p [H264-mp4]
-	Twin Peaks Fire Walk with Me - David Lynch Remastered 1992 Eng Subs 720p [H264-mp4].mp4
-11
-D/home/marcosrdac/tmp/torrents
-	Twin.Peaks.Fire.Walk.with.Me.1992.The.Missing.Pieces.BDRip.x264-ARCHiViST[rarbg]
-9
-D/home/marcosrdac/tmp/torrents/Twin.Peaks.Fire.Walk.with.Me.1992.The.Missing.Pieces.BDRip.x264-ARCHiViST[rarbg]
-	twin.peaks.fire.walk.with.me.1992.the.missing.pieces.bdrip.x264-archivist.mkv
-3
-D/home/marcosrdac/.config
-	libreoffice
-9
-D/home/marcosrdac/.config/libreoffice
-	4
-1
-D/home/marcosrdac/.config/libreoffice/4
-	user
-1
-D/home/marcosrdac/.config/libreoffice/4/user
-	..
-0
-D/home/marcosrdac/.config/libreoffice/4
-	user
-1
-D/home/marcosrdac/.config/libreoffice
-	4
-1
-D/home/marcosrdac/.config
-	light
-9
-D/home/marcosrdac/.config/light
-	..
-0
-D/home/marcosrdac/.config
-	matplotlib
-9
-D/home/marcosrdac/.config/matplotlib
-	..
-0
-D/home/marcosrdac/.config
-	menus
-9
-D/home/marcosrdac/.config/menus
-	applications-merged
-1
-D/home/marcosrdac/.config/menus/applications-merged
-	..
-0
-D/home/marcosrdac/.config/menus
-	applications-merged
-1
-D/home/marcosrdac/.config
-	menus
-9
-D/home/marcosrdac/.config/menus
-	applications-merged
-1
-D/home/marcosrdac/.config/menus/applications-merged
-	user-chrome-apps.menu
-1
-D/home/marcosrdac/.config/menus
-	applications-merged
-1
-D/home/marcosrdac/.config
-	libfm
-8
-D/home/marcosrdac/.config/libfm
-	..
-0
-D/home/marcosrdac/.config
-	qutebrowser
-23
-D/home/marcosrdac/documents
-	..
-0
-D/home/marcosrdac/.config
-	shell
-25
-D/home/marcosrdac
-	documents
-11
-D/home/marcosrdac/.local
-	share
-4
-D/home/marcosrdac
-	.dotfiles
-0
-D/home/marcosrdac/.dotfiles
-	..
-0
-D/home/marcosrdac
-	.dotfiles
-0
-D/home
-	marcosrdac
-3
-D/home/marcosrdac
-	.dotfiles
-0
-D/home/marcosrdac/.dotfiles
-	.config
-2
-D/home/marcosrdac/.dotfiles/.config
-	unique
-32
-D/home/marcosrdac/.dotfiles/.config/unique
-	monitors.template
-1
-D/home/marcosrdac/.dotfiles/.config
-	unique
-19
-D/home/marcosrdac/.config
-	unique
-19
 D/home/marcosrdac/.config/unique
 	monitors_template.md
 2
@@ -746,12 +512,245 @@ D/home/marcosrdac/.local
 	share
 4
 D/home/marcosrdac/projects/linux_learning
-	shell.md
-33
+	calcdu.py
+6
+D/home/marcosrdac/.local/share/Trash
+	000_MaratonaDev3
+3
+D/home/marcosrdac/.local/share/Trash/000_MaratonaDev3
+	..
+0
+D/home/marcosrdac/.local/share/Trash
+	..
+0
+D/home/marcosrdac/.local
+	lib
+2
+D/home/marcosrdac/.local/lib
+	..
+0
+D/home/marcosrdac/.local
+	run
+3
+D/home/marcosrdac/.local/run
+	..
+0
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/.local/share
+	..
+0
+D/home/marcosrdac/.local
+	lib
+2
+D/home/marcosrdac/.local/lib
+	python3.7
+1
+D/home/marcosrdac/.local
+	lib
+2
+D/home/marcosrdac/.local/lib
+	python3.7
+1
+D/home/marcosrdac/.config
+	shell
+22
+D/home/marcosrdac/.config/shell
+	shenv
+8
+D/home/marcosrdac
+	.jupyter
+9
+D/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+24
+D/home/marcosrdac/projects
+	keybinder
+37
+D/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+24
+D/home/marcosrdac/projects
+	site
+37
+D/home/marcosrdac/projects/site
+	marcosrdac.github.io
+3
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20200226_pew_and_pipenv.md
+10
+D/home/marcosrdac
+	.local
+10
+D/home/marcosrdac/.local/lib/pipenvs
+	w
+2
+D/home/marcosrdac/.local/lib/pipenvs/w
+	..
+0
+D/home/marcosrdac/.local/lib/pipenvs
+	w
+2
+D/home/marcosrdac/.local/lib
+	python3.8
+3
+D/home/marcosrdac/.local/lib/python3.8
+	site-packages
+1
+D/home/marcosrdac/.local/lib/python3.8/site-packages
+	..
+0
+D/home/marcosrdac/.local/lib/python3.8
+	site-packages
+1
+D/home/marcosrdac/.local/lib
+	python3.7
+2
+D/home/marcosrdac/.local/lib/python3.7
+	site-packages
+1
+D/home/marcosrdac/.local/lib/python3.7/site-packages
+	..
+0
+D/home/marcosrdac/.local/lib/python3.7
+	site-packages
+1
+D/home/marcosrdac/.local/lib
+	pipenvs
+1
+D/home/marcosrdac/.local/lib/pipenvs
+	w
+2
+D/home/marcosrdac/.local/lib/pipenvs/w
+	lib
+3
+D/home/marcosrdac/.local/lib/pipenvs/w/lib
+	..
+0
+D/home/marcosrdac/.local/lib/pipenvs/w
+	bin
+1
+D/home/marcosrdac/.local/lib/pipenvs/w/bin
+	..
+0
+D/home/marcosrdac/.local/lib/pipenvs/w
+	bin
+1
+D/home/marcosrdac/.local/lib/pipenvs
+	w
+2
+D/home/marcosrdac/.local/lib
+	pipenvs
+1
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/.local/share
+	Steam
+1
+D/home/marcosrdac/.local/share/Steam
+	bin
+2
+D/home/marcosrdac/.local/share/Steam/bin
+	panorama
+1
+D/home/marcosrdac/.local/share/Steam/bin/panorama
+	etc
+1
+D/home/marcosrdac/.local/share/Steam/bin/panorama/etc
+	fonts
+1
+D/home/marcosrdac/.local/share/Steam/bin/panorama/etc/fonts
+	conf.d
+1
+D/home/marcosrdac/.local/share/Steam/bin/panorama/etc/fonts/conf.d
+	..
+0
+D/home/marcosrdac/.local/share/Steam/bin/panorama/etc/fonts
+	conf.d
+1
+D/home/marcosrdac/.local/share/Steam/bin/panorama/etc
+	fonts
+1
+D/home/marcosrdac/.local/share/Steam/bin/panorama
+	etc
+1
+D/home/marcosrdac/.local/share/Steam/bin
+	panorama
+1
+D/home/marcosrdac/.local/share/Steam
+	config
+4
+D/home/marcosrdac/.local/share
+	TelegramDesktop
+2
+D/home/marcosrdac/.local/share/TelegramDesktop
+	tdata
+1
+D/home/marcosrdac/.local/share/TelegramDesktop/tdata
+	..
+0
+D/home/marcosrdac/.local/share/TelegramDesktop
+	tdata
+1
+D/home/marcosrdac/.local/share
+	Trash
+3
+D/home/marcosrdac/.local/share/Trash
+	..
+0
+D/home/marcosrdac/.local/share
+	Trash
+3
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/.local/share
+	desktop-directories
+5
+D/home/marcosrdac/.local/share/desktop-directories
+	..
+0
+D/home/marcosrdac/.local/share
+	gegl-0.4
+7
+D/home/marcosrdac/.local/share/gegl-0.4
+	plug-ins
+1
+D/home/marcosrdac/.local/share/gegl-0.4/plug-ins
+	..
+0
+D/home/marcosrdac/.local/share/gegl-0.4
+	plug-ins
+1
+D/home/marcosrdac/.local/share
+	jupyter
+10
+D/home/marcosrdac/.local/share/jupyter
+	runtime
+1
+D/home/marcosrdac/.local/share/jupyter/runtime
+	..
+0
+D/home/marcosrdac/.local/share/jupyter
+	runtime
+1
+D/home/marcosrdac/.local/share
+	jupyter
+10
+D/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
+24
 D
 
 # Command line history (oldest to newest):
-:mkdir "Envy Code B"
 :mkdir Datei Tribute
 :mkdir gaming
 :!mpv %
@@ -806,7 +805,6 @@ D
 :w
 :empty
 ::q
-:Q
 :mkdir bspwm
 :mkdir sxhkd
 :touch bspwmrc
@@ -850,15 +848,11 @@ D
 :touch monitors
 :git add 
 :git ad
+:Q
 :q
+:cd $WORKON_HOME
 
 # Search history (oldest to newest):
-/2ea
-/rea
-/comp
-/late
-/com
-/st
 /config
 /2020
 /eage
@@ -890,7 +884,6 @@ D
 /stdev
 /std
 /pdf
-/site
 /k
 /jopl
 /des
@@ -904,7 +897,6 @@ D
 /seri
 /acc
 /soun
-/test
 /.a
 /\.a
 /as
@@ -932,7 +924,6 @@ D
 /lf
 /marato
 /gi
-/marat
 /bspw
 /doc
 /dot
@@ -953,6 +944,15 @@ D
 /dm_
 /dis
 /git
+/bs
+/marat
+/maraton
+/virtu
+/ppi
+/test
+/sh
+/site
+/lib
 
 # Prompt history (oldest to newest):
 pficha_maquete.png
@@ -1059,8 +1059,7 @@ pdm_display_menu
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor
-""/home/marcosrdac/.local/share/Trash/001_bspwm_multi_monitor.bak
+""/home/marcosrdac/.local/share/Trash/000_pipenvs
 
 # Directory stack (oldest to newest):
 
@@ -2631,6 +2630,58 @@ t/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor.bak
 	/home/marcosrdac/.local/bin/bspwm/bspwm_multi_monitor.bak
 t/home/marcosrdac/.local/share/Trash/000_bspwm_multi_monitor
 	/home/marcosrdac/.local/bin/bspwm/bspwm_multi_monitor
+t/home/marcosrdac/.local/share/Trash/000_dm_display_menu
+	/home/marcosrdac/.local/bin/menu/dm_display_menu
+t/home/marcosrdac/.local/share/Trash/000_bspwmrc
+	/home/marcosrdac/projects/linux_learning/bspwmrc
+t/home/marcosrdac/.local/share/Trash/000_bspwm_display_menu
+	/home/marcosrdac/projects/linux_learning/bspwm_display_menu
+t/home/marcosrdac/.local/share/Trash/000_m
+	/home/marcosrdac/.virtualenvs/m
+t/home/marcosrdac/.local/share/Trash/001_site
+	/home/marcosrdac/.virtualenvs/site
+t/home/marcosrdac/.local/share/Trash/000_get_env_details
+	/home/marcosrdac/.virtualenvs/get_env_details
+t/home/marcosrdac/.local/share/Trash/000_initialize
+	/home/marcosrdac/.virtualenvs/initialize
+t/home/marcosrdac/.local/share/Trash/000_postactivate
+	/home/marcosrdac/.virtualenvs/postactivate
+t/home/marcosrdac/.local/share/Trash/000_postdeactivate
+	/home/marcosrdac/.virtualenvs/postdeactivate
+t/home/marcosrdac/.local/share/Trash/000_postmkproject
+	/home/marcosrdac/.virtualenvs/postmkproject
+t/home/marcosrdac/.local/share/Trash/000_postmkvirtualenv
+	/home/marcosrdac/.virtualenvs/postmkvirtualenv
+t/home/marcosrdac/.local/share/Trash/000_postrmvirtualenv
+	/home/marcosrdac/.virtualenvs/postrmvirtualenv
+t/home/marcosrdac/.local/share/Trash/000_preactivate
+	/home/marcosrdac/.virtualenvs/preactivate
+t/home/marcosrdac/.local/share/Trash/000_predeactivate
+	/home/marcosrdac/.virtualenvs/predeactivate
+t/home/marcosrdac/.local/share/Trash/000_premkproject
+	/home/marcosrdac/.virtualenvs/premkproject
+t/home/marcosrdac/.local/share/Trash/000_premkvirtualenv
+	/home/marcosrdac/.virtualenvs/premkvirtualenv
+t/home/marcosrdac/.local/share/Trash/000_prermvirtualenv
+	/home/marcosrdac/.virtualenvs/prermvirtualenv
+t/home/marcosrdac/.local/share/Trash/000_m-dbWUIcsA
+	/home/marcosrdac/.virtualenvs/m-dbWUIcsA
+t/home/marcosrdac/.local/share/Trash/000_test-_xFJCH-g
+	/home/marcosrdac/.virtualenvs/test-_xFJCH-g
+t/home/marcosrdac/.local/share/Trash/000_pipenvs
+	/home/marcosrdac/.local/lib/pipenvs
+t/home/marcosrdac/.local/share/Trash/001___pycache__
+	/home/marcosrdac/.local/lib/python3.8/site-packages/__pycache__
+t/home/marcosrdac/.local/share/Trash/000_markdown2-2.3.8.dist-info
+	/home/marcosrdac/.local/lib/python3.8/site-packages/markdown2-2.3.8.dist-info
+t/home/marcosrdac/.local/share/Trash/000_markdown2.py
+	/home/marcosrdac/.local/lib/python3.8/site-packages/markdown2.py
+t/home/marcosrdac/.local/share/Trash/000_test.html
+	/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog/test.html
+t/home/marcosrdac/.local/share/Trash/001_test.pdf
+	/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog/test.pdf
+t/home/marcosrdac/.local/share/Trash/000_shrc
+	/home/marcosrdac/projects/linux_learning/shrc
 
 # State:
 f

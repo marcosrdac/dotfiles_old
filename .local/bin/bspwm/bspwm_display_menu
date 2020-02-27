@@ -28,7 +28,7 @@ auto_multi_monitors ()
     shift
   done
 
-  trap "$0 --prompt --save && exit 0" ALRM
+  trap "$0 --prompt && exit 0" ALRM
 
   # obtain monitors structure
   if [ ! -f $ordered_monitors_file ] || $prompt
@@ -62,6 +62,8 @@ auto_multi_monitors ()
   fi
 
   n_ordered=$(echo $ordered_monitors | wc -w)
+
+  #[ $n_ordered -eq $n ] || kill -ALRM $$
 
   # killing previous polybar instances
   killall -q polybar
@@ -167,11 +169,16 @@ monitors="$(xrandr -q | grep -w connected | awk '{ print $1 }')"
 # getting number of monitors
 n=$(echo $monitors | wc -w)
 
-case $n in
-  1) mirror=""; menu_monitors="" ;;
-  *) mirror="mirror"; menu_monitors="$monitors" ;;
-esac
-chosen=$(dm_choose "Display arangement" auto "auto prompt" $mirror $menu_monitors gui)
+if [ -z $1 ]
+then
+  case $n in
+    1) mirror=""; menu_monitors="$monitors" ;;
+    *) mirror="mirror"; menu_monitors="$monitors" ;;
+  esac
+  chosen=$(dm_choose "Display arangement" auto "auto prompt" $mirror $menu_monitors gui)
+else
+  chosen=$1
+fi
 
 case "$chosen" in
   "auto")        auto_multi_monitors ;;
@@ -194,4 +201,3 @@ pactl set-card-profile 0 $pulse_profile
 
 $HOME/.fehbg
 dunst_start
-

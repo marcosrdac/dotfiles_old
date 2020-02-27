@@ -98,7 +98,7 @@ prependpath "$HOME/.local/bin/menu"
 appendpath "$HOME/.local/bin/podcast2playlist"
 
 # python virtualenvwrapper
-export WORKON_HOME=~/.virtualenvs
+export WORKON_HOME="$HOME/.local/lib/pipenvs/"
 #export PIP_REQUIRE_VIRTUALENV=false
 
 # Seimic Unix

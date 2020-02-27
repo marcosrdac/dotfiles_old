@@ -163,7 +163,7 @@ alt + {Left,Right,Down,Up}
 
 # function keys
 alt + {F5, shift + F5, F9,shift + F9}
-	{dm_display_menu, bspwm_multi_monitor, dm_mount_menu, dm_umount_menu}
+	{bspwm_display_menu, bspwm_display_menu auto, dm_mount_menu, dm_umount_menu}
 
 
 # --- fixed stuff --- #
