@@ -59,13 +59,19 @@ map yf %lf -remote "send $id copy_path --path"
 map yd %lf -remote "send $id copy_path --directory"
 map yn %lf -remote "send $id copy_path --filename"
 # renaming
-map cW &lf -remote "send $id push :rename<space>"
-map C  &lf -remote "send $id push :rename<space>"
-map cw &lf -remote "send $id push :rename<space>-n<space>"
-map A  &fn=$(basename $f | sed 's/\s/<space>/g') && lf -remote "send $id push :rename<space>$fn"
-map a  &fn=$(basename $f | sed 's/\s/<space>/g') && [ $(echo $fn | grep "\." 2>/dev/null) ] && fn="${fn%.*}" && lf -remote "send $id push :rename<space>-n<space>$fn" || lf -remote "send $id push :rename<space>$fn"
-map I  &fn=$(basename $f | sed 's/\s/<space>/g') && lf -remote "send $id push :rename<space>$fn<home><right><right><right><right><right><right><right>"
-
+#map cW &lf -remote "send $id push :rename<space>"
+#map C  &lf -remote "send $id push :rename<space>"
+#map cw &lf -remote "send $id push :rename<space>-n<space>"
+#map A  &lf -remote "send $id push $(echo ":rename $(basename $f)" | sed 's/\s/<space>/g')"
+#map a  &fn=$(basename $f | sed 's/\s/<space>/g') && [ $(echo $fn | grep "\." 2>/dev/null) ] && fn="${fn%.*}" && lf -remote "send $id push :rename<space>-n<space>$fn" || lf -remote "send $id push :rename<space>$fn"
+#map I  &fn=$(basename $f | sed 's/\s/<space>/g') && lf -remote "send $id push :rename<space>$fn<home><right><right><right><right><right><right><right>"
+map cW &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename " | sed 's/\s/<space>/g')"
+map C  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename " | sed 's/\s/<space>/g')"
+#map cw &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename -n " | sed 's/\s/<space>/g')"
+map cw &lf -remote "send $id push :" && fn=$(basename $f) && ext="${fn##*.}" && go_back=0 && [ $(echo $fn | grep "\." 2>/dev/null) ] && go_back=$(echo "$ext" | wc -c) && fn="" && ext=".$ext" || ext=""; fn=$(printf "$ext" && awk 'BEGIN{for(c=0;c<'$go_back';c++) printf "<left>"}') && lf -remote "send $id push $(echo "rename $fn" | sed 's/\s/<space>/g')"
+map A  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename $(basename $f)" | sed 's/\s/<space>/g')"
+map I  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename $(basename $f)" | sed 's/\s/<space>/g')" && lf -remote "send $id push $(echo "<home>lllllll" | sed 's/l/<right>/g')"
+map a  &lf -remote "send $id push :" && fn=$(basename $f) && ext="${fn##*.}" && go_back=0 && [ $(echo $fn | grep "\." 2>/dev/null) ] && go_back=$(echo "$ext" | wc -c); fn=$(printf "$fn" && awk 'BEGIN{for(c=0;c<'$go_back';c++) printf "<left>"}') && lf -remote "send $id push $(echo "rename $fn" | sed 's/\s/<space>/g')"
 
 map <c-r> recol
 
