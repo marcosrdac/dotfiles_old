@@ -9,8 +9,8 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 export PAGER=less
 export TERMINAL="st"
-export FILEBROWSER="vifm_ueberzug"
 #export FILEBROWSER="vifm_ueberzug"
+export FILEBROWSER="lf"
 export BROWSER="qutebrowser"
 export ALTBROWSER="firefox"
 export TRUEBROWSER="qutebrowser"
@@ -30,7 +30,7 @@ export CALIBRE_USE_SYSTEM_THEME=1
 export AURMANAGER="yay"
 #export PODCASTS_RSS_FILE="$HOME/.config/mpd/podcasts_rss"
 
-direnv() {  # environment variable name, path
+direnv() {  # environment variable name, path creation
     export "$1"="$2"
     mkdir -p "$2"
 }
@@ -95,10 +95,11 @@ prependpath "$HOME/.local/bin/polybar"
 prependpath "$HOME/.local/bin/i3bar"
 prependpath "$HOME/.local/bin/bspwm"
 prependpath "$HOME/.local/bin/menu"
-appendpath "$HOME/.local/bin/podcast2playlist"
+appendpath  "$HOME/.local/bin/cp-p"
+appendpath  "$HOME/.local/bin/podcast2playlist"
 
 # python virtualenvwrapper
-export WORKON_HOME="$HOME/.local/lib/pipenvs/"
+direnv WORKON_HOME "$HOME/.local/lib/pipenvs/"
 #export PIP_REQUIRE_VIRTUALENV=false
 
 # Seimic Unix

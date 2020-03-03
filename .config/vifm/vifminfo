@@ -448,63 +448,6 @@ d/home/marcosrdac/.config/shell
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/.config/unique
-	monitors_template.md
-2
-D/home/marcosrdac/.config
-	polybar
-10
-D/home/marcosrdac/.config/polybar
-	config
-2
-D/home/marcosrdac/.config
-	unique
-22
-D/home/marcosrdac/.config/unique
-	monitors_template.md
-1
-D/home/marcosrdac/.config/nvim
-	init.vim
-6
-D/home/marcosrdac/.local/bin
-	bspwm
-1
-D/home/marcosrdac/.local/bin/bspwm
-	bspwm_multi_monitor
-4
-D/home/marcosrdac/.config
-	shell
-22
-D/home/marcosrdac/.local/bin
-	bspwm
-1
-D/home/marcosrdac/.local/bin/bspwm
-	bspwm_multi_monitor
-4
-D/home/marcosrdac/.config
-	shell
-22
-D/home/marcosrdac
-	.dotfiles
-0
-D/home/marcosrdac/.config
-	shell
-22
-D/home/marcosrdac/.config/shell
-	shrc
-8
-D/home/marcosrdac/wallpapers
-	favorites
-3
-D/home/marcosrdac/wallpapers/favorites
-	nord.png
-19
-D/home/marcosrdac/.config
-	shell
-22
-D/home/marcosrdac/.config/shell
-	shenv
-8
 D/home/marcosrdac
 	.local
 10
@@ -747,11 +690,67 @@ D/home/marcosrdac/.local/share
 10
 D/home/marcosrdac/projects/linux_learning
 	packages_instalation.md
+11
+D/home/marcosrdac/.dotfiles
+	..
+0
+D/home/marcosrdac
+	.dotfiles
+0
+D/home
+	marcosrdac
+3
+D/home/marcosrdac
+	.dotfiles
+0
+D/home/marcosrdac/.dotfiles
+	.config
+2
+D/home/marcosrdac/projects/linux_learning
+	packages_instalation.md
 24
+D/home/marcosrdac/projects
+	site
+37
+D/home/marcosrdac/projects/site
+	marcosrdac.github.io
+3
+D/home/marcosrdac/projects/site/marcosrdac.github.io
+	_content
+2
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
+	blog
+1
+D/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
+	20200226_pew_and_pipenv.md
+10
+D/home/marcosrdac/documents
+	journal
+6
+D/home/marcosrdac/tmp
+	fontawesome-free-5.12.0-desktop
+5
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/.config
+	lf
+3
+D/home/marcosrdac/.config/lf
+	lfrc
+1
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/.config
+	lf
+3
+D/home/marcosrdac/.config/lf
+	lfrc
+1
 D
 
 # Command line history (oldest to newest):
-:mkdir Datei Tribute
 :mkdir gaming
 :!mpv %
 :c
@@ -849,11 +848,11 @@ D
 :git add 
 :git ad
 :Q
-:q
 :cd $WORKON_HOME
+:cd ~/.dotfiles/
+:q
 
 # Search history (oldest to newest):
-/config
 /2020
 /eage
 /evera
@@ -921,7 +920,6 @@ D
 /twub]
 /tras
 /ueb
-/lf
 /marato
 /gi
 /bspw
@@ -951,8 +949,10 @@ D
 /ppi
 /test
 /sh
-/site
 /lib
+/site
+/jour
+/lf
 
 # Prompt history (oldest to newest):
 pficha_maquete.png

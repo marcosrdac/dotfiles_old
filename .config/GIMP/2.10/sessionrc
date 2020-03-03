@@ -12,8 +12,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
     (position 10 32)
-    (size 1334 720)
-    (monitor 1)
+    (size 1340 720)
     (open-on-exit)
     (aux-info
         (left-docks-width "58")
@@ -24,7 +23,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 0)
+            (current-page 4)
             (dockable "gimp-tool-options"
                 (tab-style preview)
                 (aux-info
@@ -76,7 +75,12 @@
             (dockable "gimp-undo-history"
                 (tab-style automatic)
                 (aux-info
-                    (show-button-bar "true"))))
+                    (show-button-bar "true")))
+            (dockable "gimp-brush-editor"
+                (tab-style automatic)
+                (aux-info
+                    (edit-active "true")
+                    (current-data "Acrylic 02"))))
         (book
             (position 344)
             (current-page 0)
@@ -129,7 +133,7 @@
     (position 24 140))
 (session-info "toplevel"
     (factory-entry "gimp-threshold-tool-dialog")
-    (position 835 143))
+    (position 116 167))
 (session-info "toplevel"
     (factory-entry "gimp-desaturate-tool-dialog")
     (position 227 179))
@@ -171,7 +175,7 @@
     (position 2 270))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 762 227))
+    (position 954 122))
 (session-info "toplevel"
     (factory-entry "gimp-unified-transform-tool-dialog")
     (position 0 0))

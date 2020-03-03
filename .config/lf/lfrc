@@ -13,60 +13,99 @@ set hidden=false
 # scrll before selecting end of list
 set scrolloff 8
 # show icons
-set icons
+set icons=false
 # ignore case
 set ignorecase true
 # custom previewer script to be used
 #set previewer ""
+# numbering files
+set number
+set relativenumber
 
 
-map f
+# Unmap the default mappings
 map r
+map <space>
+map f
+map d
+map y
+map v
+map u
+map c
+map a
 
+
+# mappings
 map f find
-
 # use enter for shell commands
 map <enter> open
 # execute current file (must be executable)
 map x $$f
 map X !$f
-
-# dedicated keys for file opener actions
-map o &mimeopen $f
-map O $mimeopen --ask $f
-
+# file selection
+map <space> toggle
+map v unselect
+map V invert
+map U clear
+# file manipulation
+map yy copy
+map dd cut
+map p paste
+map DD       trash
 map <delete> trash
-# Unmap the default mapping so the rest of the following mapping won't collide
-# Simple rename:
-map a
-map a $lf -remote "send $id push :rename<space>--no-ext<space>$f"
-# Rename with the filename on the command line
-map ra $lf -remote "send $id push :rename<space>$f"
-# Rename with the filename without the extension
-map re $lf -remote "send $id push :rename<space>$f<a-b><a-d>"
+map u trash-restore
+# copying paths
+map yf %lf -remote "send $id copy_path --path"
+map yd %lf -remote "send $id copy_path --directory"
+map yn %lf -remote "send $id copy_path --filename"
+# renaming
+map cW &lf -remote "send $id push :rename<space>"
+map C  &lf -remote "send $id push :rename<space>"
+map cw &lf -remote "send $id push :rename<space>-n<space>"
+map A  &fn=$(basename $f | sed 's/\s/<space>/g') && lf -remote "send $id push :rename<space>$fn"
+map a  &fn=$(basename $f | sed 's/\s/<space>/g') && [ $(echo $fn | grep "\." 2>/dev/null) ] && fn="${fn%.*}" && lf -remote "send $id push :rename<space>-n<space>$fn" || lf -remote "send $id push :rename<space>$fn"
+map I  &fn=$(basename $f | sed 's/\s/<space>/g') && lf -remote "send $id push :rename<space>$fn<home><right><right><right><right><right><right><right>"
 
-cmd open ${{
-    case $(file --mime-type $f -b) in
-        text/*) $EDITOR $fx;;
-        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
-    esac
-}}
 
+map <c-r> recol
 
 cmd recol %{{
-    w=$(tput cols)
-    if [ $w -le 80 ]; then
-        lf -remote "send $id set ratios 1:2"
-    elif [ $w -le 160 ]; then
-        lf -remote "send $id set ratios 1:2:3"
+  w=$(tput cols)
+  if [ $w -le 35 ]
+  then
+    lf -remote "send $id set nopreview"
+    lf -remote "send $id set ratios 1"
+  else
+    lf -remote "send $id set preview"
+    if [ $w -le 80 ]
+    then
+      lf -remote "send $id set ratios 2:3"
+    elif [ $w -le 160 ]
+    then
+      lf -remote "send $id set ratios 2:3:5"
     else
-        lf -remote "send $id set ratios 1:2:3:5"
+      lf -remote "send $id set ratios 2:3:5:8"
     fi
+  fi
 }}
 recol
 
-cmd trash % trash-put $fx
-cmd trash-restore $ trash-restore
+
+cmd copy_path %{{
+  case $1 in
+    --path)      path="$fx" && shift ;;
+    --directory) path="$(dirname  "$fx")" && shift ;;
+    --filename)  path="$(basename "$fx")" && shift ;;
+    *) exit 1;
+  esac
+  echo $path | xclip -i -selection clipboard -f | xclip -i -selection primary &&
+  echo "Copied: "$fx"."
+  exit 0
+}}
+
+cmd setwallpaper %{{
+  wal_set $f
+}}
 
 cmd mkdir %{{
   base="$(dirname "$f")"
@@ -102,71 +141,240 @@ cmd touch %{{
     touch $base/$file_name
   done
 
-  [ $# -ne 1 ] && ies=ies || ies=y
-  echo "Director$ies created: $@"
+  [ $# -ne 1 ] && s=s || s=''
+  echo "File$s created: $@"
 }}
 
 cmd q %{{
   lf -remote "send $id quit"
 }}
 
-#cmd rename %{{
-#  base="$(dirname "$f")"
-#  full_fn=$(basename -- "$f")
-#  fn="${fn%.*}"
-#  ext="${fn##*.}"
-#
-#  if [ $# -le 1 ]
+
+# rename functions
+
+cmd rename %{{
+  base="$(dirname "$f")"
+  srcfn=$(basename -- "$f")
+  srcext="${srcfn##*.}"
+  srcfn="$(basename "$f" ".$srcext")"
+  srcdot="" && [ ! -z $srcext ] && srcdot="."
+
+  filename_only="" ; extension_only=""
+  case $1 in
+    -n)
+      filename_only=true && shift
+      dst="$base/$@$srcdot$srcext" ;;
+    -e)
+      extension_only=true && shift
+      dst="$base/$srcfn$srcdot$@" ;;
+    *) dst="$base/$@" ;;
+  esac
+
+  [ $# -eq 0 ] && echo "Destination not given." && exit 1
+  [ -e "$dst" ] && printf "  Not renamed: "$dst" exists." || mv $f $dst
+}}
+
+
+### rename various files at once with editor
+#cmd bulk-rename ${{
+#  old_names=$(mktemp /tmp/lf-bulk-old.XXXXXXXXXX)
+#  new_names=$(mktemp /tmp/lf-bulk-new.XXXXXXXXXX)
+#  dirnames=$(mktemp  /tmp/lf-bulk-dirs.XXXXXXXXXX)
+#  if [ -n "$fs" ]
 #  then
-#    if [ $# -eq 0 ]
-#    then
-#      #printf "Rename $(basename $f) to: "
-#      #read ans
-#      read ans -p "Rename "$full_fn" to: "
-#      set $ans
-#    fi
-#    mv -i $f $base/$1
-#    exit 0
+#    index="$fs"
+#  else
+#    index="$(ls $(dirname "$f"))"
 #  fi
 #
-#  echo oioi
+#  for filename in $index
+#  do
+#    echo $(basename "$filename") >> $old_names
+#    echo $(dirname  "$filename") >> $dirnames
+#  done
+#  cp $old_names $new_names
+#  $EDITOR $new_names
 #
-#  case $1 in
-#    --wo-ext)  # careful if $2 left blank
-#      echo $fn $ext ;;
-#    *)
-#      ;;
-#    esac
+#  n=$(cat $old_names | wc -l)
+#  if [ $(cat $new_names | wc -l) -eq $n ]
+#  then
+#    please='' && [ ! -w . ] && please='sudo'
+#    counter=1
+#    while [ $counter -le $((n+1)) ]
+#    do
+#      old="$(cat $old_names | sed "${counter}q;d")"
+#      new="$(cat $new_names | sed "${counter}q;d")"
+#      dir="$(cat $dirnames  | sed "${counter}q;d")"
+#      counter=$(($counter+1))
+#      [ "$old" = "$new" ] && continue
+#      [ -e "$new" ] && echo "File exists: $b" && continue
+#      $please mv "$dir/$old" "$dir/$new"
+#    done
+#  else
+#    echo "Number of filenames differ."
+#  fi
+#  echo $new_names
+#  #rm $index $index_edit
 #}}
 
 
-  #if [ $# -lt 1 ]
-  #then
-  #  printf "Folder name: "
-  #  read ans
-  #  set $ans
-  #fi
+## rename various files at once with editor
+cmd bulk-rename ${{
+  case $1 in
+    -n) mode="no-exts" ;;
+    -e) mode="only-exts" ;;
+    -A) mode="all-path" ;;
+  esac
 
-  #for folder_name in "$@"
-  #do
-  #  mkdir $base/$folder_name
-  #done
+  oldnames=$(mktemp /tmp/lf-bulk-oldnames.XXXXXXXXXX)
+  newnames=$(mktemp /tmp/lf-bulk-newnames.XXXXXXXXXX)
+  dirnames=$(mktemp /tmp/lf-bulk-dirnames.XXXXXXXXXX)
+  aux=$(mktemp /tmp/lf-bulk-aux.XXXXXXXXXX)
 
-  #[ $# -ne 1 ] && ies=ies || ies=y
-  #echo "Director$ies created: $@"
+  if [ -n "$fs" ]
+  then
+    index="$fs"
+  else
+    index="$(ls $(dirname "$f"))"
+  fi
+
+  for path in $index
+  do
+    dir="$(dirname "$path")"
+    fullfilename=$(basename -- "$path")
+    filename="${fullfilename%.*}"  # must be here
+    ext="" && [ $(echo $fullfilename | grep "\." 2>/dev/null) ] && ext="${fullfilename##*.}"
+
+    [ "$mode" != "all-path" ] && echo $dir >> $dirnames
+    [ "$mode" = "" ]          && echo $fullfilename >> $oldnames
+    [ "$mode" = "all-path" ]  && echo $(realpath $path) >> $oldnames
+    if [ "$mode" = "no-exts" ]
+    then
+      echo $filename >> $oldnames
+      [ "$ext" != "" ] && echo ".$ext" >> $aux || echo "" >> $aux
+    fi
+    [ "$mode" = "only-exts" ] && echo $ext >> $oldnames && echo $filename >> $aux
+    #echo $dir $fullfilename $filename $ext
+  done
+  cp $oldnames $newnames
+  $EDITOR $newnames
+
+  n=$(cat $oldnames | wc -l)
+  if [ $(cat $newnames | wc -l) -eq $n ]
+  then
+    please='' && [ ! -w . ] && please='sudo'  # adjust it
+    counter=1
+    while [ $counter -le $((n+1)) ]
+    do
+      case $mode in
+        "no-exts")
+          dir="$(cat $dirnames | sed "${counter}q;d")"
+          old="$(cat $oldnames | sed "${counter}q;d")"
+          new="$(cat $newnames | sed "${counter}q;d")"
+          ext="$(cat $aux      | sed "${counter}q;d")"
+          old="$dir/$old$ext" ; new="$dir/$new$ext"
+        ;;
+        "all-path")
+          old="$(cat $oldnames | sed "${counter}q;d")"
+          new="$(cat $newnames | sed "${counter}q;d")"
+        ;;
+        "only-exts")
+          old="$(cat $oldnames | sed "${counter}q;d")"
+          new="$(cat $newnames | sed "${counter}q;d")"
+          filename="$(cat $aux | sed "${counter}q;d")"
+          echo $old $new
+          [ "$old" != "" ] && old=".$old"
+          [ "$new" != "" ] && new=".$new"
+          old="$dir/$filename$old"
+          new="$dir/$filename$new"
+        ;;
+        *)
+          dir="$(cat $dirnames | sed "${counter}q;d")"
+          old="$(cat $oldnames | sed "${counter}q;d")"
+          new="$(cat $newnames | sed "${counter}q;d")"
+          old="$dir/$old" ; new="$dir/$new"
+        ;;
+      esac
+      counter=$(($counter+1))
+      [ "$old" = "$new" ] && continue
+      [ -e "$new" ] && echo "File exists: $b" && continue
+      $please mv "$dir/$old" "$dir/$new"
+    done
+  else
+    echo "Number of filenames differ."
+  fi
+  rm $oldnames $newnames $dirnames $aux
 }}
 
+
+cmd paste-symlink ${{
+  load=$(lf -remote 'load')
+  mode=$(echo "$load" | sed -n '1p')
+  list=$(echo "$load" | sed '1d')
+  if [ $mode = 'copy' ]; then
+    s='' && [ ! -w . ] && s='sudo'
+    for f in $list; do
+      $s ln -s "$f" "$(pwd)/$(basename $f)"
+    done
+    lf -remote 'send load'
+    lf -remote 'send clear'
+  fi
+}}
+
+
+# pasting done right
+cmd paste %{{
+    send="while read -r line; do lf -remote \"send $id echo \$line\"; done && lf -remote 'send reload'"
+    load=$(lf -remote 'load')
+    mode=$(echo "$load" | sed -n '1p')
+    srcF=$(mktemp)
+    echo "$load" | sed '1d' > "$srcF"
+    please='' && [ ! -w . ] && please='sudo'
+    case "$mode" in
+        copy) cmd='cp-p';;
+        move) cmd='mv-p';;
+    esac
+    cmd="$cmd --new-line"
+    $please sh -c "$cmd --backup=numbered -F \"$srcF\" . | $send && rm -f \"$srcF\" &"
+    lf -remote 'send load'
+    lf -remote 'send clear'
+}}
+
+# assynchronous pasting
+cmd paste-async &{{
+    load=$(lf -remote 'load')
+    mode=$(echo "$load" | sed -n '1p')
+    list=$(echo "$load" | sed '1d')
+    if [ $mode = 'copy' ]
+    then
+        cp -rn $list .
+    elif [ $mode = 'move' ]
+    then
+        mv -n $list .
+    fi
+    lf -remote 'send load'
+    lf -remote 'send clear'
+}}
+
+
+# trash-cli commands
+cmd trash   % trash-put $fx
+cmd restore $ trash-restore
+cmd empty   % trash-empty
+
+
+# dealing with compacted data
 
 # extract the current file with the right command
 cmd extract ${{
     set -f
     case $f in
-        *.tar.bz|*.tar.bz2|*.tbz|*.tbz2) tar xjvf $f;;
-        *.tar.gz|*.tgz) tar xzvf $f;;
-        *.tar.xz|*.txz) tar xJvf $f;;
-        *.zip) unzip $f;;
-        *.rar) unrar x $f;;
-        *.7z) 7z x $f;;
+        *.tar.bz|*.tar.bz2|*.tbz|*.tbz2) tar xjvf $f ;;
+        *.tar.gz|*.tgz) tar xzvf $f ;;
+        *.tar.xz|*.txz) tar xJvf $f ;;
+        *.zip) unzip $f ;;
+        *.rar) unrar x $f ;;
+        *.7z) 7z x $f ;;
     esac
 }}
 
@@ -188,38 +396,16 @@ cmd zip ${{
     rm -rf $1
 }}
 
-cmd bulk-rename ${{
-    old=$(mktemp)
-    new=$(mktemp)
-    [ -n $fs ] && fs=$(ls)
-    printf "$fs\n" > $old
-    printf "$fs\n" > $new
-    $EDITOR $new
-    [ $(cat $new | wc -l) -ne $(cat $old | wc -l) ] && exit
-    paste $old $new | while read names; do
-        src=$(printf $names | cut -f1)
-        dst=$(printf $names | cut -f2)
-        [ $src = $dst ] && continue
-        [ -e $dst ] && continue
-        mv -i $src $dst
-    done
-    rm $old $new
-    lf -remote "send $id unselect"
+
+# Open command #
+
+cmd open ${{
+    case $(file --mime-type $f -b) in
+        text/*) $EDITOR $fx;;
+        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
+    esac
 }}
 
-## pasting done right
-#cmd paste ${{
-#    send="while read -r line; do lf -remote \"send $id echo \$line\"; done && lf -remote 'send reload'"
-#    load=$(lf -remote 'load')
-#    mode=$(echo "$load" | sed -n '1p')
-#    srcF=$(mktemp)
-#    echo "$load" | sed '1d' > "$srcF"
-#    s='' && [ ! -w . ] && s='sudo'
-#    case "$mode" in
-#        copy) cmd='cp-p';; move) cmd='mv-p';;
-#    esac
-#    cmd="$cmd --new-line"
-#    $s sh -c "$cmd --backup=numbered -F \"$srcF\" . | $send && rm -f \"$srcF\" &"
-#    lf -remote 'send load'
-#    lf -remote 'send clear'
-#}}
+# dedicated keys for file opener actions
+map o &mimeopen $f
+map O $mimeopen --ask $f

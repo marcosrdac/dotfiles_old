@@ -16,7 +16,6 @@ call plug#begin('~/.vim/plugged')
 
     " HTML
     Plug 'mattn/emmet-vim'  " easy html typing
-    Plug 'turbio/bracey.vim'  " live html/style edition
 
     " NERDTree
     Plug 'scrooloose/nerdtree'                      " file system explorer
