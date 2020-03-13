@@ -1,0 +1,475 @@
+: open
+: q
+: help
+: set hidden!
+: set hidden!
+: q
+: set hidden!
+$ ]
+: unselect 
+: unselect 
+: q
+: set hidden!
+: q
+: recol 
+: reol
+: recol
+: recol 
+: recol
+: q
+: q
+: q
+: q
+: mkdir test
+$ mkdir test
+: q
+: q
+: recol 
+: q
+: clear
+: clear
+: clear
+: q
+: q
+: q
+: q
+: reload 
+: rename teste
+: rename 
+: rename 
+: rename /mnt/hdd/tmp/cryptingT
+: q
+: q
+: quit
+: rename test
+: q
+: q
+: q
+: q
+: find
+: q
+: q
+: q
+: q
+: echo
+: echo a
+: echo $id
+: mkdir maratonadev
+: q
+: mkdir oi
+: mkdir teste
+: mkdir a
+: mkdir
+: mkdir
+: delete
+: delete
+: delete
+: delete
+: delete
+: delete
+% chmod +x timer_ready 
+$ chmod +x $fx
+: recol
+: q
+: q
+: recol
+: mkdir
+: rename
+: mkdir maratonadev
+: mkdir maratonadev
+: mkdir a ss
+: mkdir a
+: mkdir a s
+: set number
+: set relativenumber
+: mkdir 
+: mkdir
+: mkdir teste
+: q
+: mkdir test
+: mkdir t
+: mkdir t
+: mkdir a
+: mkdir sd
+: mkdir 
+: mkdir
+: mkdir 
+: mkdir 
+: mkdir teste
+: mkdir test
+: mkdir test teste
+: mkdir teste test
+: mkdir
+: rename
+: rename
+: rename
+: rename
+: rename
+: rename
+: rename
+: rename
+: rename 
+: mkdir maratonadev
+: rename
+: q
+: q
+: q
+: q
+: mkdir a
+: my_rename v
+: my_rename vv
+: my_rename 
+: touch a b c
+: touch a b c
+: touch a b c
+: mkdir teste
+: exit
+: quit
+: q
+: q
+: q
+: q
+: q
+: q
+: q
+: q
+: q
+: q
+: q
+: q
+: q
+: q
+: rename asd
+: rename a
+: rename -ne
+: rename
+: rename a
+: rename a
+: rename --we-ext asd
+: rename --wo-ext asd
+: rename --wo-ext test
+: rename --wo-ext asd
+: ename --no-ext /mnt/hdd/tmp/test/s
+: rename /mnt/hdd/tmp/test/csd
+: rename --no-ext /mnt/hdd/test/asd
+: rename
+: rename
+: q
+: recol
+: q
+: mkfile a
+: touch a
+: delete
+: recol
+: q
+: mkdir teste2
+: touch a b c
+: rename
+: delete
+: rename 
+: q
+: q
+: rename 
+: rename --ne oioi
+: rename oioi
+: rename asd
+: rename oioi
+: rename oioi
+: rename oioi
+: bulk-rename 
+: rename b.md
+: rename b.md
+: rename b.md
+: rename
+: rename -n a-new.~1~.m
+: rename -n a-new.~1~.mdasd
+: rename -n a-new.~1~.mdasd
+: rename -n a-new.~1~
+: rename a-new.~1~.mdsd
+: rename a-new.~1~.md
+: rename -n a-new
+: rename -n a-
+: rename -n a
+: trash
+: rename -n oioi
+: delete
+: rename -n oioi
+: rename -n csd
+: rename porra!
+: rename -n meu deus, funcionou!
+: rename -n oi oi oi
+: ename -n oi oi oi
+: rename oi oi oi
+: rename -n oi oi oi.md
+: rename oi oi oi
+: rename -n oi oi oi.md
+: ename -n oi oi oi
+: rename -n oi oi oi
+: rename oi oi oi
+: rename oi oi oi.md
+: rename oi oi oi
+: rename oi oi oi.md
+: rename -n oi oi
+: rename oi oi.md.md
+: rename oi oi
+: rename oi oi.md
+: ename oi oi.md.md
+: rename -n 20200228_lf_renaming.md
+: ename 20200228_lf_renaming.md
+: rename 20200228_lf_renaming.md
+$ chmod +x $f
+$ chmod +x compiler
+: recol
+: recol 
+: q
+: q
+: q
+: set number relativenumber
+: q
+: %tput cols
+: trash-restore 
+: mkdir unmaps
+: bulk-rename 
+: touch a b c
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: rename-editor 
+: rename-editor 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: w
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: q
+: q
+: q
+: bulk-rename 
+: bulk-rename 
+: q
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: touch a b c
+: bulk-rename 
+: wq
+: wq
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: q
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: touch c
+: bulk-rename 
+: bulk-rename 
+: rename asdds
+: touch unmaps
+: q
+: rename asddsasd
+: q
+: bulk-rename 
+: bulk-rename 
+: touch a b c
+: touch a b c
+: bulk-rename 
+: touch a b c
+: touch a s d
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: ename a.md
+: rename a.md
+: ename b.md
+: ename b.pdf
+: rename b.pdf
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename
+: q
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename -n
+: rename
+: rename a.md
+: bulk-rename 
+: bulk-rename -n
+: bulk-rename -n
+: rename asd.md
+: rename -n a
+: rename -n
+: bulk-rename -n
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: q
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: rename bpdf
+: rename b.pdf
+: bulk-rename -A
+: bulk-rename -A
+: bulk-rename -A
+: bulk-rename -A
+: bulk-rename -A
+: bulk-rename -A
+: bulk-rename 
+: bulk-rename -n
+: bulk-rename e
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename -n
+: bulk-rename -A
+: bulk-rename -e
+: q
+: bulk-rename -e
+: bulk-rename -e
+: bulk-rename -e
+: bulk-rename -e
+: bulk-rename -e
+: bulk-rename -e
+: bulk-rename -e
+: bulk-rename -e
+: bulk-rename -e
+: bulk-rename -e
+: rename b.pdf
+: q
+: q
+: q
+: rename -n ioi
+: rename -n ioiio
+: rename -n teste
+: recol
+: rename ioi-asd.asdsdmd
+: rename io.asdsdmd
+: rename dslkj
+: rename io.asdsdmdalksdj
+: rename io.asd
+: rename lf_
+: q
+: q
+: rename src_img.jpg
+: rename img.jpg
+: empty
+: q
+: q
+: rename time.py-new
+: rename time.py
+: rename time.py-new
+: rename time.py
+: rename time3.py-new
+: rename time3.py
+: q
+: touch README.md
+: rename times.py
+: mkdir Churchill
+: rename Ruel V. Churchill - Complex Variables and Applications, Eighth Edition .pdf
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: bulk-rename -n
+: bulk-rename 
+: bulk-rename 
+: bulk-rename 
+: delete
+: rename 20200310_renaming_for_lf.md-new
+: rename 20200310_renaming_for_lf.md
+: bulk-rename 
+: bulk-rename 
+: rename todo.md
+: rename caisas.html
+: rename novo_nome.pdf
+: rename oioioi

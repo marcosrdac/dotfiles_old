@@ -28,6 +28,7 @@ map r
 map <space>
 map f
 map d
+map e
 map y
 map v
 map u
@@ -51,6 +52,7 @@ map U clear
 map yy copy
 map dd cut
 map p paste
+map sp paste_symlink
 map DD       trash
 map <delete> trash
 map u trash-restore
@@ -59,16 +61,10 @@ map yf %lf -remote "send $id copy_path --path"
 map yd %lf -remote "send $id copy_path --directory"
 map yn %lf -remote "send $id copy_path --filename"
 # renaming
-#map cW &lf -remote "send $id push :rename<space>"
-#map C  &lf -remote "send $id push :rename<space>"
-#map cw &lf -remote "send $id push :rename<space>-n<space>"
-#map A  &lf -remote "send $id push $(echo ":rename $(basename $f)" | sed 's/\s/<space>/g')"
-#map a  &fn=$(basename $f | sed 's/\s/<space>/g') && [ $(echo $fn | grep "\." 2>/dev/null) ] && fn="${fn%.*}" && lf -remote "send $id push :rename<space>-n<space>$fn" || lf -remote "send $id push :rename<space>$fn"
-#map I  &fn=$(basename $f | sed 's/\s/<space>/g') && lf -remote "send $id push :rename<space>$fn<home><right><right><right><right><right><right><right>"
 map cW &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename " | sed 's/\s/<space>/g')"
 map C  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename " | sed 's/\s/<space>/g')"
-#map cw &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename -n " | sed 's/\s/<space>/g')"
 map cw &lf -remote "send $id push :" && fn=$(basename $f) && ext="${fn##*.}" && go_back=0 && [ $(echo $fn | grep "\." 2>/dev/null) ] && go_back=$(echo "$ext" | wc -c) && fn="" && ext=".$ext" || ext=""; fn=$(printf "$ext" && awk 'BEGIN{for(c=0;c<'$go_back';c++) printf "<left>"}') && lf -remote "send $id push $(echo "rename $fn" | sed 's/\s/<space>/g')"
+#map ecw &lf -remote "send $id push :" && fn=$(basename $f) && ext="${fn##*.}" && go_back=0 && [ $(echo $fn | grep "\." 2>/dev/null) ] && go_back=$(echo "$ext" | wc -c) && fn="" && ext=".$ext" || ext=""; fn=$(printf "$ext" && awk 'BEGIN{for(c=0;c<'$go_back';c++) printf "<left>"}') && lf -remote "send $id push $(echo "rename $fn" | sed 's/\s/<space>/g')"
 map A  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename $(basename $f)" | sed 's/\s/<space>/g')"
 map I  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename $(basename $f)" | sed 's/\s/<space>/g')" && lf -remote "send $id push $(echo "<home>lllllll" | sed 's/l/<right>/g')"
 map a  &lf -remote "send $id push :" && fn=$(basename $f) && ext="${fn##*.}" && go_back=0 && [ $(echo $fn | grep "\." 2>/dev/null) ] && go_back=$(echo "$ext" | wc -c); fn=$(printf "$fn" && awk 'BEGIN{for(c=0;c<'$go_back';c++) printf "<left>"}') && lf -remote "send $id push $(echo "rename $fn" | sed 's/\s/<space>/g')"
@@ -169,81 +165,50 @@ cmd rename %{{
   case $1 in
     -n)
       filename_only=true && shift
-      dst="$base/$@$srcdot$srcext" ;;
+      dst="$base/$1$srcdot$srcext" ;;
     -e)
       extension_only=true && shift
-      dst="$base/$srcfn$srcdot$@" ;;
-    *) dst="$base/$@" ;;
+      dst="$base/$srcfn$srcdot$1" ;;
+    *) dst="$base/$1" ;;
   esac
 
+  please=''
+  for path in $f $dst
+  do
+    [ ! -w $(dirname "$path") ] && please='sudo' && break
+  done
   [ $# -eq 0 ] && echo "Destination not given." && exit 1
-  [ -e "$dst" ] && printf "  Not renamed: "$dst" exists." || mv $f $dst
+  [ -e "$dst" ] && printf "  Not renamed: "$dst" exists." || $please mv "$f" "$dst"
 }}
-
-
-### rename various files at once with editor
-#cmd bulk-rename ${{
-#  old_names=$(mktemp /tmp/lf-bulk-old.XXXXXXXXXX)
-#  new_names=$(mktemp /tmp/lf-bulk-new.XXXXXXXXXX)
-#  dirnames=$(mktemp  /tmp/lf-bulk-dirs.XXXXXXXXXX)
-#  if [ -n "$fs" ]
-#  then
-#    index="$fs"
-#  else
-#    index="$(ls $(dirname "$f"))"
-#  fi
-#
-#  for filename in $index
-#  do
-#    echo $(basename "$filename") >> $old_names
-#    echo $(dirname  "$filename") >> $dirnames
-#  done
-#  cp $old_names $new_names
-#  $EDITOR $new_names
-#
-#  n=$(cat $old_names | wc -l)
-#  if [ $(cat $new_names | wc -l) -eq $n ]
-#  then
-#    please='' && [ ! -w . ] && please='sudo'
-#    counter=1
-#    while [ $counter -le $((n+1)) ]
-#    do
-#      old="$(cat $old_names | sed "${counter}q;d")"
-#      new="$(cat $new_names | sed "${counter}q;d")"
-#      dir="$(cat $dirnames  | sed "${counter}q;d")"
-#      counter=$(($counter+1))
-#      [ "$old" = "$new" ] && continue
-#      [ -e "$new" ] && echo "File exists: $b" && continue
-#      $please mv "$dir/$old" "$dir/$new"
-#    done
-#  else
-#    echo "Number of filenames differ."
-#  fi
-#  echo $new_names
-#  #rm $index $index_edit
-#}}
 
 
 ## rename various files at once with editor
 cmd bulk-rename ${{
   case $1 in
+    # do not query extensions for renaming
     -n) mode="no-exts" ;;
+    # only rename extensions
     -e) mode="only-exts" ;;
+    # rename entire filepaths
     -A) mode="all-path" ;;
+    # else, just rename filenames
   esac
-
+  # make tmp files
   oldnames=$(mktemp /tmp/lf-bulk-oldnames.XXXXXXXXXX)
   newnames=$(mktemp /tmp/lf-bulk-newnames.XXXXXXXXXX)
-  dirnames=$(mktemp /tmp/lf-bulk-dirnames.XXXXXXXXXX)
-  aux=$(mktemp /tmp/lf-bulk-aux.XXXXXXXXXX)
-
+  if [ "$mode" != "all-path" ]
+  then
+    dirnames=$(mktemp /tmp/lf-bulk-dirnames.XXXXXXXXXX)
+    aux=$(mktemp /tmp/lf-bulk-aux.XXXXXXXXXX)
+  fi
+  # query selected files or all files in directory
   if [ -n "$fs" ]
   then
     index="$fs"
   else
     index="$(ls $(dirname "$f"))"
   fi
-
+  # separate and save useful variables in files
   for path in $index
   do
     dir="$(dirname "$path")"
@@ -251,24 +216,28 @@ cmd bulk-rename ${{
     filename="${fullfilename%.*}"  # must be here
     ext="" && [ $(echo $fullfilename | grep "\." 2>/dev/null) ] && ext="${fullfilename##*.}"
 
-    [ "$mode" != "all-path" ] && echo $dir >> $dirnames
-    [ "$mode" = "" ]          && echo $fullfilename >> $oldnames
-    [ "$mode" = "all-path" ]  && echo $(realpath $path) >> $oldnames
-    if [ "$mode" = "no-exts" ]
-    then
-      echo $filename >> $oldnames
-      [ "$ext" != "" ] && echo ".$ext" >> $aux || echo "" >> $aux
-    fi
-    [ "$mode" = "only-exts" ] && echo $ext >> $oldnames && echo $filename >> $aux
-    #echo $dir $fullfilename $filename $ext
+    case "$mode" in
+      "all-path") echo "$(realpath "$path")" >> $oldnames ;;
+      "no-exts")
+        echo "$filename" >> $oldnames
+        [ "$ext" != "" ] && ext=".$ext"
+        echo "$ext" >> $aux
+        ;;
+      "only-exts")
+        echo "$ext" >> $oldnames
+        echo $filename >> $aux
+        ;;
+      "") echo "$fullfilename" >> $oldnames ;;
+    esac
+    [ "$mode" != "all-path" ] && echo "$dir" >> $dirnames
   done
   cp $oldnames $newnames
+  # interact with user
   $EDITOR $newnames
-
+  # run mv on each path if they were modified
   n=$(cat $oldnames | wc -l)
   if [ $(cat $newnames | wc -l) -eq $n ]
   then
-    please='' && [ ! -w . ] && please='sudo'  # adjust it
     counter=1
     while [ $counter -le $((n+1)) ]
     do
@@ -304,23 +273,38 @@ cmd bulk-rename ${{
       counter=$(($counter+1))
       [ "$old" = "$new" ] && continue
       [ -e "$new" ] && echo "File exists: $b" && continue
-      $please mv "$dir/$old" "$dir/$new"
+      # check write permission
+      please=''
+      for path in $old $new
+      do
+        [ ! -w $(dirname "$path") ] && please='sudo' && break
+      done
+      $please mv "$old" "$new"
     done
   else
     echo "Number of filenames differ."
   fi
-  rm $oldnames $newnames $dirnames $aux
+
+  # removing tmp files
+  rm $oldnames $newnames
+  if [ "$mode" != "all-path" ]
+  then
+    rm $dirnames
+    rm $aux
+  fi
 }}
 
 
-cmd paste-symlink ${{
+cmd paste_symlink %{{
   load=$(lf -remote 'load')
   mode=$(echo "$load" | sed -n '1p')
   list=$(echo "$load" | sed '1d')
-  if [ $mode = 'copy' ]; then
-    s='' && [ ! -w . ] && s='sudo'
-    for f in $list; do
-      $s ln -s "$f" "$(pwd)/$(basename $f)"
+  if [ $mode = 'copy' ]
+  then
+    please='' && [ ! -w . ] && please='sudo'
+    for f in $list
+    do
+      $please ln -s "$f" "$(pwd)/$(basename $f)"
     done
     lf -remote 'send load'
     lf -remote 'send clear'
@@ -330,20 +314,30 @@ cmd paste-symlink ${{
 
 # pasting done right
 cmd paste %{{
-    send="while read -r line; do lf -remote \"send $id echo \$line\"; done && lf -remote 'send reload'"
     load=$(lf -remote 'load')
-    mode=$(echo "$load" | sed -n '1p')
+    mode="$(echo "$load" | sed -n '1p')"
+    load="$(echo "$load" | sed '1d')"
+    [ -z $load ] && exit 1
     srcF=$(mktemp)
-    echo "$load" | sed '1d' > "$srcF"
+    echo "$load" > "$srcF"
     please='' && [ ! -w . ] && please='sudo'
     case "$mode" in
-        copy) cmd='cp-p';;
-        move) cmd='mv-p';;
+        copy) cmd='cp-p'; copying=copying;;
+        move) cmd='mv-p'; copying=moving;;
     esac
-    cmd="$cmd --new-line"
-    $please sh -c "$cmd --backup=numbered -F \"$srcF\" . | $send && rm -f \"$srcF\" &"
-    lf -remote 'send load'
-    lf -remote 'send clear'
+    cmd="$cmd --new-line --backup=numbered -F"
+    $please sh -c "$cmd \"$srcF\" . | while read -r line
+      do
+        lf -remote \"send $id echo \$line\"
+      done && lf -remote 'send reload' && rm -f \"$srcF\" &"
+    if [ $? -eq 1 ]
+    then
+      notify-send "Error $copying files" "\"$(<$srcF)\"\nto\n\"$(realpath .)/\""
+    else
+      notify-send "Done $copying files" "\"$(<$srcF)\"\nto\n\"$(realpath .)/\""
+      lf -remote 'send load'
+      lf -remote 'send clear'
+    fi
 }}
 
 # assynchronous pasting

@@ -955,7 +955,6 @@ D
 /lf
 
 # Prompt history (oldest to newest):
-pficha_maquete.png
 pPROXIMA_VEZ_densidade_px300
 pem01-fourier
 pem02-em-maxwell-intro-oplanas
@@ -1055,6 +1054,7 @@ pdm_display_menu_new
 pdm_i3_useful_menu
 pdm_display_menu_old
 pdm_display_menu
+plfrc
 
 # Local filter history (oldest to newest):
 
