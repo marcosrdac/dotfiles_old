@@ -38,14 +38,22 @@ map a
 
 # mappings
 map f find
-# use enter for shell commands
+# opening another lf wiondow inside selected folder
+map <c-n> &$TERMINAL -e $FILEBROWSER $f
+# use enter to open files
 map <enter> open
+# dedicated keys for file opener actions
+map e $$EDITOR $f
+map E &$TERMINAL -e $EDITOR $f
 # execute current file (must be executable)
 map x $$f
 map X !$f
 # file selection
 map <space> toggle
+map J toggle
+map K toggle -
 map v unselect
+map <esc> unselect
 map V invert
 map U clear
 # file manipulation
@@ -61,15 +69,16 @@ map yf %lf -remote "send $id copy_path --path"
 map yd %lf -remote "send $id copy_path --directory"
 map yn %lf -remote "send $id copy_path --filename"
 # renaming
-map cW &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename " | sed 's/\s/<space>/g')"
-map C  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename " | sed 's/\s/<space>/g')"
-map cw &lf -remote "send $id push :" && fn=$(basename $f) && ext="${fn##*.}" && go_back=0 && [ $(echo $fn | grep "\." 2>/dev/null) ] && go_back=$(echo "$ext" | wc -c) && fn="" && ext=".$ext" || ext=""; fn=$(printf "$ext" && awk 'BEGIN{for(c=0;c<'$go_back';c++) printf "<left>"}') && lf -remote "send $id push $(echo "rename $fn" | sed 's/\s/<space>/g')"
+map a  %lf -remote "send $id vim-rename append word"
+map I  %lf -remote "send $id vim-rename prepend word"
+map A  %lf -remote "send $id vim-rename append WORD"
+map cW %lf -remote "send $id vim-rename change WORD"
+map C  %lf -remote "send $id vim-rename change WORD"
+map cw %lf -remote "send $id vim-rename change word"
+map ce %lf -remote "send $id vim-rename change extension"
 #map ecw &lf -remote "send $id push :" && fn=$(basename $f) && ext="${fn##*.}" && go_back=0 && [ $(echo $fn | grep "\." 2>/dev/null) ] && go_back=$(echo "$ext" | wc -c) && fn="" && ext=".$ext" || ext=""; fn=$(printf "$ext" && awk 'BEGIN{for(c=0;c<'$go_back';c++) printf "<left>"}') && lf -remote "send $id push $(echo "rename $fn" | sed 's/\s/<space>/g')"
-map A  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename $(basename $f)" | sed 's/\s/<space>/g')"
-map I  &lf -remote "send $id push :" && lf -remote "send $id push $(echo "rename $(basename $f)" | sed 's/\s/<space>/g')" && lf -remote "send $id push $(echo "<home>lllllll" | sed 's/l/<right>/g')"
-map a  &lf -remote "send $id push :" && fn=$(basename $f) && ext="${fn##*.}" && go_back=0 && [ $(echo $fn | grep "\." 2>/dev/null) ] && go_back=$(echo "$ext" | wc -c); fn=$(printf "$fn" && awk 'BEGIN{for(c=0;c<'$go_back';c++) printf "<left>"}') && lf -remote "send $id push $(echo "rename $fn" | sed 's/\s/<space>/g')"
 
-map <c-r> recol
+map r recol
 
 cmd recol %{{
   w=$(tput cols)
@@ -156,10 +165,13 @@ cmd q %{{
 
 cmd rename %{{
   base="$(dirname "$f")"
-  srcfn=$(basename -- "$f")
-  srcext="${srcfn##*.}"
-  srcfn="$(basename "$f" ".$srcext")"
-  srcdot="" && [ ! -z $srcext ] && srcdot="."
+  srcfn="$(basename $f)"
+  if [ $(echo "$srcfn" | grep "\." 2>/dev/null) ]
+  then
+    srcdot='.'
+    srcext="${srcfn##*.}"
+  fi
+  srcfn="${srcfn%.*}"
 
   filename_only="" ; extension_only=""
   case $1 in
@@ -172,7 +184,6 @@ cmd rename %{{
     *) dst="$base/$1" ;;
   esac
 
-  please=''
   for path in $f $dst
   do
     [ ! -w $(dirname "$path") ] && please='sudo' && break
@@ -181,6 +192,38 @@ cmd rename %{{
   [ -e "$dst" ] && printf "  Not renamed: "$dst" exists." || $please mv "$f" "$dst"
 }}
 
+# vim-like renaming
+cmd vim-rename &{{
+  # entering command mode
+  lf -remote "send $id push :"
+  # setting variables
+  fn="$(basename $f)"
+  name="${fn%.*}"
+  [ $(echo "$fn" | grep "\." 2>/dev/null) ] && dot='.' && ext="${fn##*.}"
+  # reading options
+  case "$@" in
+    'change WORD') fn='' ;;
+    'change word')
+      fn=$(printf "$dot$ext")
+      go_left=0 && [ ! -z $dot ] && go_left=$(echo "$ext" | wc -c)
+      move="$(awk 'BEGIN{ for(c=0; c<'$go_left'; c++) printf "<left>" }')"
+      ;;
+    'prepend word')
+      go_right=$(echo 'rename' | wc -c)
+      move="<home>$(awk 'BEGIN{ for(c=0; c<'$go_right' ;c++) printf "<right>" }')"
+      ;;
+    'append word')
+      go_left=0
+      [ ! -z $dot ] && go_left=$(echo "$ext" | wc -c)
+      move="$(awk 'BEGIN{ for (c=0; c<'$go_left'; c++) printf "<left>" }')"
+      ;;
+    'change extension')
+      fn="$name$dot"
+      ;;
+    'append WORD') ;;
+  esac
+  lf -remote "send $id push $(echo "rename $fn$move" | sed 's/\s/<space>/g')"
+}}
 
 ## rename various files at once with editor
 cmd bulk-rename ${{
@@ -311,9 +354,12 @@ cmd paste_symlink %{{
   fi
 }}
 
+cmd test %{{
+}}
 
 # pasting done right
 cmd paste %{{
+    start_time=$(date +'%s')
     load=$(lf -remote 'load')
     mode="$(echo "$load" | sed -n '1p')"
     load="$(echo "$load" | sed '1d')"
@@ -329,12 +375,17 @@ cmd paste %{{
     $please sh -c "$cmd \"$srcF\" . | while read -r line
       do
         lf -remote \"send $id echo \$line\"
-      done && lf -remote 'send reload' && rm -f \"$srcF\" &"
+      done &&
+      lf -remote 'send reload' && rm -f \"$srcF\" &
+      wait $! && end_time=$(date +'%s')
+      interval=$(($(date +'%s')-$start_time))
+      [ $interval -gt 6 ] &&
+        notify-send \"done $copying files\" \"\"$(<$srcf)\"\nto\n\"$(realpath .)/\"\" "
     if [ $? -eq 1 ]
     then
       notify-send "Error $copying files" "\"$(<$srcF)\"\nto\n\"$(realpath .)/\""
     else
-      notify-send "Done $copying files" "\"$(<$srcF)\"\nto\n\"$(realpath .)/\""
+      notify-send "done $copying files" "\"$(<$srcf)\"\nto\n\"$(realpath .)/\""
       lf -remote 'send load'
       lf -remote 'send clear'
     fi
@@ -405,7 +456,3 @@ cmd open ${{
         *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
     esac
 }}
-
-# dedicated keys for file opener actions
-map o &mimeopen $f
-map O $mimeopen --ask $f

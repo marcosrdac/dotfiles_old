@@ -473,3 +473,36 @@ $ chmod +x compiler
 : rename caisas.html
 : rename novo_nome.pdf
 : rename oioioi
+: clr
+: clr
+: clr
+: clr
+: clr
+: select $f
+: select
+: rename oioi
+: rename caisas.html
+: rename caisas.html
+: zip 
+: zip
+: zip
+: zip
+: tar
+: zip asd
+: restore 
+: restore 
+: zip stdev
+: echoerr teste
+: echo a
+: rename E change word
+: empty
+: rename novo_nome.pdf
+: q
+: rename Easd.jar
+: rename easd.jar
+: trash 1
+: restore 1
+: restore 
+: restore 
+: vim-rename prepend word
+: q
