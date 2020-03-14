@@ -15,6 +15,9 @@
 .config/stardict/history
 .config/unique/ordered_monitors
 
+# .local
+.local/share/lf/history
+
 # ~/
 .calcurse
 # offlineimap?? --------------- look for safety here
@@ -27,5 +30,5 @@
 /.*history
 
 # look later
-.fonts/Envy Code R PR7/*
+.local/share/fonts/Envy Code R PR7/*
 #looked till fontin
