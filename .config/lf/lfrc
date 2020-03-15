@@ -47,7 +47,7 @@ map r recol
 # mappings
 map f find
 # opening another lf wiondow inside selected folder
-map L &$TERMINAL -e lf $f && wait $! && lf -remote "send recol $id"
+map L &$TERMINAL -e lf $f && lf -remote "send recol $id"
 #map H &$TERMINAL -e lf $(dirname $f) && wait $! && lf -remote "send recol $id"
 # use enter to open files
 map <enter> open
@@ -118,7 +118,7 @@ cmd copy_path %{{
     --filename)  path="$(basename "$fx")" && shift ;;
     *) exit 1;
   esac
-  echo $path | xclip -i -selection clipboard -f | xclip -i -selection primary &&
+  echo -n $path | xclip -i -selection clipboard -f | xclip -i -selection primary &&
   echo "Copied: "$fx"."
   exit 0
 }}

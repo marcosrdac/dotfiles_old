@@ -508,3 +508,10 @@ $ chmod +x compiler
 : q
 : zip
 : zip
+: zip asd
+: tar zasd
+: rename rubiks_cube.md
+: q
+: mkdir .gitignore
+: touch .gitignore
+: mkdir example
