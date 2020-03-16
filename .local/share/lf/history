@@ -515,3 +515,8 @@ $ chmod +x compiler
 : mkdir .gitignore
 : touch .gitignore
 : mkdir example
+: q
+: rename easd.jar
+: rename oio
+: rename Irving Kaplan - Nuclear Physics.pdf
+: rename Irving asd d

@@ -47,8 +47,7 @@ map r recol
 # mappings
 map f find
 # opening another lf wiondow inside selected folder
-map L &$TERMINAL -e lf $f && lf -remote "send recol $id"
-#map H &$TERMINAL -e lf $(dirname $f) && wait $! && lf -remote "send recol $id"
+map L &nohup $TERMINAL -e lf $f >/dev/null & wait $! && sleep .01 && lf -remote "send recol $id";
 # use enter to open files
 map <enter> open
 # dedicated keys for file opener actions
@@ -78,13 +77,13 @@ map yf %lf -remote "send $id copy_path --path"
 map yd %lf -remote "send $id copy_path --directory"
 map yn %lf -remote "send $id copy_path --filename"
 # renaming
-map a  %lf -remote "send $id vim-rename append word"
-map I  %lf -remote "send $id vim-rename prepend word"
-map A  %lf -remote "send $id vim-rename append WORD"
-map cW %lf -remote "send $id vim-rename change WORD"
-map C  %lf -remote "send $id vim-rename change WORD"
-map cw %lf -remote "send $id vim-rename change word"
-map ce %lf -remote "send $id vim-rename change extension"
+map a  vim-rename append word
+map I  vim-rename prepend word
+map A  vim-rename append WORD
+map C  vim-rename change WORD
+map cW vim-rename change WORD
+map cw vim-rename change word
+map cx vim-rename change extension
 
 
 
@@ -179,14 +178,14 @@ cmd rename %{{
   srcfn="${srcfn%.*}"
 
   filename_only="" ; extension_only=""
-  case $1 in
+  case $@ in
     -n)
       filename_only=true && shift
-      dst="$base/$1$srcdot$srcext" ;;
+      dst="$base/$@$srcdot$srcext" ;;
     -e)
       extension_only=true && shift
-      dst="$base/$srcfn$srcdot$1" ;;
-    *) dst="$base/$1" ;;
+      dst="$base/$srcfn$srcdot$@" ;;
+    *) dst="$base/$@" ;;
   esac
 
   for path in $f $dst

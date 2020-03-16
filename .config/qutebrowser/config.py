@@ -105,6 +105,7 @@ c.url.searchengines = {
         "gsb":
             "https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&q={}",
         "gpten": "https://translate.google.com/#pt/en/{}",
+        "gen": "http://gen.lib.rus.ec/search.php?req={}&open=0&res=25&view=simple&phrase=1&column=def",
         "wr": "https://www.wordreference.com/enpt/{}",
         "w":  "https://en.wikipedia.org/wiki/Special:Search?search={}",
         "wb":  "https://pt.wikipedia.org/wiki/Special:Search?search={}",
