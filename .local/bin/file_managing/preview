@@ -1,0 +1,22 @@
+#!/bin/sh
+
+f="$1"
+#cols=$(tput cols)
+cols=16
+
+# open by mime type
+mimetype=$(file --mime-type $f -b)
+case $mimetype in
+  image/*) img2txt -f caca -d none "$f";;
+
+  *) # open by extension
+    echo "$f" | grep -q "\." && ext="${f##*.}"
+    case "$ext" in
+      tar*) tar tf "$f" ;;
+      zip) unzip -l "$f" ;;
+      rar) unrar l "$f" ;;
+      7z) 7z l "$f" ;;
+      pdf) pdftotext "$f" - ;;
+      *) highlight -O ansi "$f" || cat "$f" ;;
+    esac ;;
+esac

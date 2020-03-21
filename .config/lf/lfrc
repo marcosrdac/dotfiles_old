@@ -26,6 +26,8 @@ set ignorecase true
 # numbering files
 set number
 set relativenumber
+# set previewer script
+set previewer "~/.local/bin/file_managing/preview"
 
 
 # Unmap the default mappings
@@ -38,20 +40,27 @@ map y
 map v
 map u
 map c
+map l
 map a
+map ;
 
 # quit
 map q quit
+cmd q quit  # for :q
+# open this config file for edition
+map ;c config
 # recalculate columns
 map r recol
 # mappings
 map f find
-# opening another lf wiondow inside selected folder
-map L &nohup $TERMINAL -e lf $f >/dev/null & wait $! && sleep .01 && lf -remote "send recol $id";
-# use enter to open files
+# use enter to open selected files
 map <enter> open
+# use l to open current file
+map l open current
+# opening another lf wiondow inside selected folder
+map L &nohup $TERMINAL -e lf $f >/dev/null & wait $! && sleep .01 && lf -remote "send $id recol";
 # dedicated keys for file opener actions
-map e $$EDITOR $f
+map e $[ -w "$f" ] || EDITOR='sudoedit'; $EDITOR "$f"
 map E &$TERMINAL -e $EDITOR $f
 # execute current file (must be executable)
 map x $$f
@@ -71,11 +80,11 @@ map p paste
 map sp paste_symlink
 map DD       trash
 map <delete> trash
-map u trash-restore
+map u        restoretrash
 # copying paths
-map yf %lf -remote "send $id copy_path --path"
-map yd %lf -remote "send $id copy_path --directory"
-map yn %lf -remote "send $id copy_path --filename"
+map yf copy_path --path
+map yd copy_path --directory
+map yn copy_path --filename
 # renaming
 map a  vim-rename append word
 map I  vim-rename prepend word
@@ -107,19 +116,23 @@ cmd recol %{{
     fi
   fi
 }}
-&lf -remote 'send recol'
+&lf -remote "send $id recol"
 
 
-cmd copy_path %{{
+cmd copy_path &{{
   case $1 in
     --path)      path="$fx" && shift ;;
     --directory) path="$(dirname  "$fx")" && shift ;;
     --filename)  path="$(basename "$fx")" && shift ;;
     *) exit 1;
   esac
-  echo -n $path | xclip -i -selection clipboard -f | xclip -i -selection primary &&
-  echo "Copied: "$fx"."
-  exit 0
+  echo -n $path | xclip -i -selection clipboard -f | xclip -i -selection primary
+  if [ $? -eq 0 ]
+  then
+    lf -remote "send $id echo Copied: $path."
+  else
+    lf -remote "send $id echoerr Could not copy: $path."
+  fi
 }}
 
 cmd setwallpaper %{{
@@ -157,7 +170,8 @@ cmd touch %{{
 
   for file_name in "$@"
   do
-    touch $base/$file_name
+    [ ! -w "$(dirname $file_name)" ] && please='sudo'
+    $please touch $base/$file_name
   done
 
   [ $# -ne 1 ] && s=s || s=''
@@ -170,7 +184,7 @@ cmd touch %{{
 cmd rename %{{
   base="$(dirname "$f")"
   srcfn="$(basename $f)"
-  if [ $(echo "$srcfn" | grep "\." 2>/dev/null) ]
+  if $(echo "$srcfn" | grep -q "\.")
   then
     srcdot='.'
     srcext="${srcfn##*.}"
@@ -203,7 +217,7 @@ cmd vim-rename &{{
   # setting variables
   fn="$(basename $f)"
   name="${fn%.*}"
-  [ $(echo "$fn" | grep "\." 2>/dev/null) ] && dot='.' && ext="${fn##*.}"
+  echo "$fn" | grep -q "\." && dot='.' && ext="${fn##*.}"
   # reading options
   case "$@" in
     'change WORD') fn='' ;;
@@ -261,7 +275,7 @@ cmd bulk-rename ${{
     dir="$(dirname "$path")"
     fullfilename=$(basename -- "$path")
     filename="${fullfilename%.*}"  # must be here
-    ext="" && [ $(echo $fullfilename | grep "\." 2>/dev/null) ] && ext="${fullfilename##*.}"
+    ext="" && echo $fullfilename | grep -q "\." && ext="${fullfilename##*.}"
 
     case "$mode" in
       "all-path") echo "$(realpath "$path")" >> $oldnames ;;
@@ -358,7 +372,13 @@ cmd paste_symlink %{{
   fi
 }}
 
+cmd config ${{
+  LFRC=$XDG_CONFIG_HOME/lf/lfrc
+  [ -f $LFRC ] && vim $LFRC || lf -remote $id echoerr no lfrc found.
+}}
+
 cmd test %{{
+  # test stuff here
 }}
 
 # pasting done right
@@ -376,23 +396,17 @@ cmd paste %{{
         move) cmd='mv-p'; copying=moving;;
     esac
     cmd="$cmd --new-line --backup=numbered -F"
-    $please sh -c "$cmd \"$srcF\" . | while read -r line
+    $please sh -c  "$cmd \"$srcF\" . | while read -r line
       do
         lf -remote \"send $id echo \$line\"
       done &&
-      lf -remote 'send reload' && rm -f \"$srcF\" &
-      wait $! && end_time=$(date +'%s')
-      interval=$(($(date +'%s')-$start_time))
-      [ $interval -gt 6 ] &&
-        notify-send \"done $copying files\" \"\"$(<$srcf)\"\nto\n\"$(realpath .)/\"\" "
-    if [ $? -eq 1 ]
-    then
-      notify-send "Error $copying files" "\"$(<$srcF)\"\nto\n\"$(realpath .)/\""
-    else
-      notify-send "done $copying files" "\"$(<$srcf)\"\nto\n\"$(realpath .)/\""
-      lf -remote 'send load'
-      lf -remote 'send clear'
-    fi
+        lf -remote 'send reload' && rm -f \"$srcF\" &"
+    lf -remote 'send load'
+    lf -remote 'send clear'
+    #wait $! && end_time=$(date +'%s')
+    #interval=$(($(date +'%s')-$start_time))
+    #[ $interval -gt 6 ] &&
+    #notify-send "done $copying files" "\"$(<$srcf)\"\nto\n\"$(realpath .)/\""
 }}
 
 # assynchronous pasting
@@ -413,10 +427,38 @@ cmd paste-async &{{
 
 
 # trash-cli commands
-cmd trash   % trash-put $fx
-cmd restore $ trash-restore
-cmd empty   % trash-empty
+cmd trash &{{
+  for f in $fx
+  do
+    msg="$(trash put $f)"
+    [ $? = 0 ] && ECHO=echo || ECHO=echoerr
+    lf -remote "send $id redraw"
+    lf -remote "send $id reload"
+    lf -remote "send $id $ECHO $msg"
+    # future: logging
+    #id="$(echo -e msg | grep -o '".*"' | sed 's/"//g')"
+    #flog trash "$f" "$id"
+    # criar linha de recuperação dos últimos arquivos
+    # ex.: 31 "files" moved to trash or 31 trash commands
+    # in order to facilidade undoing
+  done
+}}
 
+cmd restoretrash &{{
+  msg="$(trash restore last)"
+  [ $? = 0 ] && ECHO=echo || ECHO=echoerr
+  lf -remote "send $id reload"
+  lf -remote "send $id redraw"
+  lf -remote "send $id $ECHO $msg"
+}}
+
+cmd emptytrash &{{
+  msg="$(trash empty)"
+  [ $? = 0 ] && ECHO=echo || ECHO=echoerr
+  lf -remote "send $id reload"
+  lf -remote "send $id redraw"
+  lf -remote "send $id $ECHO $msg"
+}}
 
 # dealing with compacted data
 
@@ -455,8 +497,19 @@ cmd zip %{{
 # Open command #
 
 cmd open ${{
-    case $(file --mime-type $f -b) in
-        text/*) $EDITOR $fx;;
-        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
-    esac
+    [ $1 = current ] && fx="$f"
+    for f in $fx
+    do
+      [ ! -w "$f" ] && please='sudo'
+      mimetype=$(file --mime-type $(realpath $f) -b)
+      case $mimetype in
+        text/*|*/x-empty) $please $EDITOR $f ;;
+
+        *) # open by extension
+          echo "$f" | grep -q "\." && ext="${f##*.}"
+          case "$ext" in
+            *) setsid $OPENER $f >/dev/null 2>/dev/null & ;;
+          esac ;;
+      esac
+    done
 }}

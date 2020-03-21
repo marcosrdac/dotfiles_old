@@ -93,9 +93,10 @@ alt + s; {_,shift + } s
 		 menu_run    }
 
 # opeinig default software (w for window)
-{_,alt + v : } alt + w ; {v,b,shift+b,n,shift+n,m,g,j,shift+j,k,shift+k}
+{_,alt + v : } alt + w ; {w,v,b,shift+b,n,shift+n,m,g,j,shift+j,k,shift+k}
 	{ ,pkill -ALRM sxhkd;} \
-	{$TERMINAL -e $EDITOR, \
+	{choose_wallpaper, \
+	$TERMINAL -e $EDITOR, \
 	$BROWSER,			firefox, \
 	$TERMINAL -e $FILEBROWSER,	thunar, \
 	$TERMINAL -e ncmpcpp, \
@@ -138,9 +139,11 @@ alt + x ; w ; {w,f,j;l,l;j,j;h,h;j,k;l,l;k,k;h,h;k}
 alt + {shift + g}
 	{dm_bspwm_set_monocle_gaps}
 # running any scripts
-alt + e ; {s,p,v,b}
+alt + e ; {s,e,p,l,v,b}
 	{$TERMINAL -e $EDITOR ~/.config/sxhkd/sxhkdrc && kill -USR1 $(pidof sxhkd) , \
+	 $TERMINAL -e $EDITOR ~/.config/shell/shenv , \
 	 $TERMINAL -e $EDITOR ~/.config/polybar/config , \
+	 $TERMINAL -e $EDITOR ~/.config/lf/lfrc , \
 	 $TERMINAL -e $EDITOR ~/.config/nvim/init.vim , \
 	 $TERMINAL -e $EDITOR ~/.config/bspwm/bspwmrc}
 
@@ -185,9 +188,9 @@ XF86MonBrightness{Down,Up}
 
 # screenshots
 {_,shift + ,alt +} @Print
-	{scrot '%Y%m%d%H%M%S_screenshot_$wx$h.png'    -e "mv \$f $SCREENSHOTS_FOLDER && xclip -selection clipboard -t image/png -i $SCREENSHOTS_FOLDER/\$f && notify-send 'Screenshot taken' 'location: $SCREENSHOTS_FOLDER/\$f\n\nImage copied to clipboard.'" , \
-	 scrot '%Y%m%d%H%M%S_sliceshot_$wx$h.png'  -s -e "mv \$f $SCREENSHOTS_FOLDER && xclip -selection clipboard -t image/png -i $SCREENSHOTS_FOLDER/\$f && notify-send 'Sliceshot taken'  'location: $SCREENSHOTS_FOLDER/\$f\n\nImage copied to clipboard.'"  , \
-	 scrot '%Y%m%d%H%M%S_windowshot_$wx$h.png' -u -e "mv \$f $SCREENSHOTS_FOLDER && xclip -selection clipboard -t image/png -i $SCREENSHOTS_FOLDER/\$f && notify-send 'Windowshot taken' 'location: $SCREENSHOTS_FOLDER/\$f\n\nImage copied to clipboard.'" }
+	{scrot '%Y%m%d%H%M%S_screenshot_$wx$h.png'    -e "mv \$f $SCREENSHOTS && xclip -selection clipboard -t image/png -i $SCREENSHOTS/\$f && notify-send 'Screenshot taken' 'location: $SCREENSHOTS/\$f\n\nImage copied to clipboard.'" , \
+	 scrot '%Y%m%d%H%M%S_sliceshot_$wx$h.png'  -s -e "mv \$f $SCREENSHOTS && xclip -selection clipboard -t image/png -i $SCREENSHOTS/\$f && notify-send 'Sliceshot taken'  'location: $SCREENSHOTS/\$f\n\nImage copied to clipboard.'"  , \
+	 scrot '%Y%m%d%H%M%S_windowshot_$wx$h.png' -u -e "mv \$f $SCREENSHOTS && xclip -selection clipboard -t image/png -i $SCREENSHOTS/\$f && notify-send 'Windowshot taken' 'location: $SCREENSHOTS/\$f\n\nImage copied to clipboard.'" }
 
 # power button
 XF86PowerOff

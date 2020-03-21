@@ -1,6 +1,6 @@
 #!/bin/bash
 
-toggle_untoggle_hidden ()
+awaken_hidden ()
 {
  for i in "$@"
  do
@@ -18,7 +18,7 @@ else
 fi
 
 
-toggle_untoggle_hidden dropdown_terminal dropdown_mail dropdown_calculator dropdown_music_player
+awaken_hidden dropdown_terminal dropdown_mail dropdown_calculator dropdown_music_player
 wpg -a $file
 wpg -A $file
 wpg -s $file

@@ -443,17 +443,11 @@ d/home/marcosrdac/.config
 	shell
 40
 d/home/marcosrdac/.config/shell
-	shenv
-8
+	..
+0
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac
-	.local
-10
-D/home/marcosrdac/.local
-	share
-4
 D/home/marcosrdac/projects/linux_learning
 	calcdu.py
 6
@@ -748,6 +742,12 @@ D/home/marcosrdac/.config
 D/home/marcosrdac/.config/lf
 	lfrc
 1
+D/home/marcosrdac/wallpapers
+	favorites
+3
+D/home/marcosrdac/wallpapers/favorites
+	arara_azul_brazil_total_gc.jpg_wal_sample.png
+4
 D
 
 # Command line history (oldest to newest):

@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+wal_set $(sxiv -qtbor "$WALLPAPERS")

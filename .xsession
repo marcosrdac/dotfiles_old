@@ -5,7 +5,7 @@
 #
 
 # import resources
-[ -f ~/.config/Xresources/main ] && xrdb -I"$HOME" $HOME/.config/Xresources/main
+[ -f $XRESOURCES ] && xrdb -I"$HOME" $XRESOURCES
 dunst_start &
 
 # disable beep

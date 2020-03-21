@@ -23,7 +23,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 4)
+            (current-page 0)
             (dockable "gimp-tool-options"
                 (tab-style preview)
                 (aux-info
@@ -80,7 +80,7 @@
                 (tab-style automatic)
                 (aux-info
                     (edit-active "true")
-                    (current-data "Acrylic 02"))))
+                    (current-data "2. Hardness 100"))))
         (book
             (position 344)
             (current-page 0)
@@ -118,7 +118,7 @@
     (size 673 736))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 314 75))
+    (position 465 249))
 (session-info "toplevel"
     (factory-entry "gimp-color-balance-tool-dialog")
     (position 0 0))
@@ -175,7 +175,7 @@
     (position 2 270))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 954 122))
+    (position 495 320))
 (session-info "toplevel"
     (factory-entry "gimp-unified-transform-tool-dialog")
     (position 0 0))

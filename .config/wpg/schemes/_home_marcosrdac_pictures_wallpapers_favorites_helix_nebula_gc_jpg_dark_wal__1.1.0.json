@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/pictures/wallpapers/favorites/helix_nebula_gc.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#080E17",
+        "foreground": "#fffefd",
+        "cursor": "#fffefd"
+    },
+    "colors": {
+        "color0": "#080E17",
+        "color1": "#C35935",
+        "color2": "#9D6458",
+        "color3": "#D79464",
+        "color4": "#276A8F",
+        "color5": "#947C84",
+        "color6": "#4891B3",
+        "color7": "#cac8c7",
+        "color8": "#14243c",
+        "color9": "#ff6b34",
+        "color10": "#dc7762",
+        "color11": "#ffbd6d",
+        "color12": "#268dc5",
+        "color13": "#d28fa5",
+        "color14": "#4dc2f9",
+        "color15": "#fffefd"
+    }
+}

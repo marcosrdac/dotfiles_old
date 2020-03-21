@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/pictures/wallpapers/favorites/astronaut_with_coloured_jellyfish_completion.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0F161E",
+        "foreground": "#b6ffff",
+        "cursor": "#b6ffff"
+    },
+    "colors": {
+        "color0": "#0F161E",
+        "color1": "#B95052",
+        "color2": "#2DAA59",
+        "color3": "#B7A740",
+        "color4": "#32514E",
+        "color5": "#93419C",
+        "color6": "#595A59",
+        "color7": "#89e2c2",
+        "color8": "#1f2e3f",
+        "color9": "#ff565a",
+        "color10": "#2ceb6f",
+        "color11": "#fee443",
+        "color12": "#38716c",
+        "color13": "#ca46d9",
+        "color14": "#688068",
+        "color15": "#b6ffff"
+    }
+}

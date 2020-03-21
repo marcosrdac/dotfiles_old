@@ -1,0 +1,148 @@
+#!/usr/bin/env sh
+
+TRASH_DIR=${TRASH:-"$XDG_DATA_HOME/Trash"}
+TRASH_FILES=${TRASH_DIR:-"$XDG_DATA_HOME/Trash"}/files
+TRASH_INFO=${TRASH:-"$XDG_DATA_HOME/Trash"}/info
+[ -e $TRASH_FILES ] || mkdir -p $TRASH_FILES
+[ -e $TRASH_INFO ] || mkdir -p $TRASH_INFO
+INFOEXT=".tsv"
+
+
+trash_put () {
+  [ $# -lt 1 ] && echo "No path given as argument." && exit 1
+  for filepath in $@
+  do
+    src=$(realpath "$filepath")
+    basesrc=$(basename $filepath)
+    t=$(date +'%Y%m%d')  # +'%Y%m%d%H%M%S' +'%s'
+    for ((n=0;;n++))
+    do
+      id="${t}_${n}"
+      reldest="${id}_${basesrc}"
+      trash="$TRASH_FILES/$reldest"
+      infofile="$TRASH_INFO/$reldest$INFOEXT"
+      [ ! -e "$trash" ] && [ ! -e "$infofile" ] && break
+    done
+    [ ! -w "$f" ] && please='sudo'
+    $please mv $src $trash &&
+    echo -e "SOURCE_PATH\t$src\nTRASH_PATH\t$trash\n" > "$infofile"
+  done
+
+  if [ $? -eq 0 ]
+  then
+    [ $# -gt 1 ] && Files="Files" || Files="$filepath"
+    echo -e "$Files moved to trash.\nID: \"$id\"."
+  else
+    [ $# -gt 1 ] && s="s" || s=""
+    echo "Something went wrong while trashing file${s}."
+  fi
+}
+
+trash_empty () {
+  rm -r $TRASH_FILES/* $TRASH_INFO/*
+
+  if [ $? -eq 0 ]
+  then
+    echo "Trash empty."
+  else
+    echo "Something went wrong while emptying..."
+  fi
+}
+
+trash_list () {
+  infofiles=$(ls $TRASH_INFO | grep "$INFOEXT\$" | sort)
+  for infofile in $infofiles
+  do
+    infofile=$TRASH_INFO/$infofile
+    info="$(basename $infofile)"
+    t=${info%%_*} && info=${info#*_} && n=${info%%_*}
+    src=$(cat $infofile | awk -F '\t' '/^SOURCE_PATH/ { print $2 }')
+    echo -e "${t}_${n}\t${src}"
+  done
+}
+
+trash_restore_last () {
+  [ -z "$1" ] && n=1 || n="$1"
+
+  restore_list=$(ls $TRASH_INFO | grep "$INFOEXT\$" | sort | tail -n $n)
+  if [ $(echo -n $restore_list | wc -w) -eq 0 ]
+  then
+    echo "No files in trash." && exit 1
+  fi
+
+  for infofile in $restore_list
+  do
+    infofile="$TRASH_INFO/$infofile"
+    info="$(basename $infofile)"
+    t="${info%%_*}" && info="${info#*_}" && n="${info%%_*}"
+    src="$(cat $infofile | awk -F '\t' '/^SOURCE_PATH/ { print $2 }')"
+    trash="$(cat $infofile | awk -F '\t' '/^TRASH_PATH/ { print $2 }')"
+    [ ! -e "$trash" ] && echo "File already removed." && rm $infofile && continue
+
+    dest="$src"
+    srcname="${src%.*}"  # must be here
+    $(echo $src | grep -q "\.") && srcext=".${src##*.}"
+    if [ -e $dest ]
+    then
+      srcname="${srcname}_${t}_${n}"
+      dest="$srcname$srcext"
+    fi
+    [ ! -w "$trash" ] || [ ! -w "$dest" ] && please='sudo'
+    $please mv -b $trash $dest && rm $infofile
+
+    if [ $? -eq 0 ]
+    then
+      echo "\"$dest\" restored."
+    else
+      echo "Could not restore \"$dest\" from \"$trash\"." && exit 1
+    fi
+  done
+}
+
+trash_restore () {
+  id="$1"
+  infofiles=$(ls $TRASH_INFO | grep "$INFOEXT\$")
+  found=false
+  for infofile in $infofiles
+  do
+    infofile=$TRASH_INFO/$infofile
+    info="$(basename $infofile)"
+    t=${info%%_*} && info=${info#*_} && n=${info%%_*}
+    [ "$id" = "${t}_${n}" ] && found=true && break
+  done
+  ! $found && echo "Could no find such entry." && exit 1
+  src="$(cat $infofile | awk -F '\t' '/^SOURCE_PATH/ { print $2 }')"
+  trash="$(cat $infofile | awk -F '\t' '/^TRASH_PATH/ { print $2 }')"
+
+  dest="$src"
+  srcname="${src%.*}"  # must be here
+  $(echo $src | grep -q "\.") && srcext=".${src##*.}"
+  if [ -e $dest ]
+  then
+    srcname="${srcname}_${t}_${n}"
+    dest="$srcname$srcext"
+  fi
+  mv -b $trash $dest && rm $infofile
+
+  if [ $? -eq 0 ]
+  then
+    echo "File restored."
+  else
+    echo "Something went wrong while restoring file." && exit 1
+  fi
+}
+
+
+case $1 in
+  put) shift && trash_put $@ ;;
+  restore) shift
+    if [ "$1" = "last" ]
+    then
+      trash_restore_last $2
+    else
+      trash_restore $1
+    fi ;;
+  list) shift && trash_list ;;
+  empty) shift && trash_empty ;;
+  *) echo "No arguments given." ;;
+esac

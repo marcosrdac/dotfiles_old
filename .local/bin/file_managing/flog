@@ -1,0 +1,34 @@
+#!/usr/bin/env sh
+
+LOG_DIR=$XDG_RUNTIME_DIR/flog
+[ -e $LOG_DIR ] || mkdir -p $LOG_DIR
+LOGFILE="$LOG_DIR/flog"
+touch $LOGFILE
+
+
+copy_log () {
+  src="$1" && dest="$2"
+  echo "COPY\t$src\t$dest" >> $LOGFILE
+}
+
+move_log () {
+  src="$1" && dest="$2"
+
+}
+
+trash_log () {
+  src="$1" && dest="$2"
+  echo "trash" "$src" "$dest" >> $LOGFILE
+}
+
+case $1 in
+  move) shift
+    src="$1" && dest="$2"
+    echo "move\t$src\t$dest" >> $LOGFILE ;;
+  copy) shift
+    src="$1" && dest="$2"
+    echo "copy\t$src\t$dest" >> $LOGFILE ;;
+  trash) shift
+    src="$1" && dest="$2"
+    echo "trash\t$src\t$dest" >> $LOGFILE ;;
+esac

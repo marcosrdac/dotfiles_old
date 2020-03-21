@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/pictures/wallpapers/favorites/earth_in_black.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#000000",
+        "foreground": "#fffdff",
+        "cursor": "#fffdff"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#8C7675",
+        "color2": "#5F7090",
+        "color3": "#77859B",
+        "color4": "#365A97",
+        "color5": "#927F81",
+        "color6": "#6498DF",
+        "color7": "#c6c4c7",
+        "color8": "#191919",
+        "color9": "#c68a87",
+        "color10": "#6c8cca",
+        "color11": "#88a8db",
+        "color12": "#3871d1",
+        "color13": "#cf9399",
+        "color14": "#6cc2ff",
+        "color15": "#fffdff"
+    }
+}

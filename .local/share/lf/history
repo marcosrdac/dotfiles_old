@@ -520,3 +520,123 @@ $ chmod +x compiler
 : rename oio
 : rename Irving Kaplan - Nuclear Physics.pdf
 : rename Irving asd d
+: 1
+: q
+: rename git.md
+: vim a
+: e asd
+: touch wallpaper
+: rename choose_wallpaper
+: mkdir keras
+$ vim mnist.py
+! pip install keras
+: rename apple.png
+: rename apples.png
+: rename apple.png
+: rename apples.png
+: rename apple.png
+: rename todo.txt
+$ realpath $f
+$ echo $(realpath $f)
+: rename mnist.hdf5
+: mkdir my_numbers
+: rename mnist_creating_model.py
+: rename mnist_using_model.py-new
+: rename mnist_using_model.py
+: q
+: test 
+: reload
+: reload
+: test 
+: q
+: config_restart 
+: test 
+: test 
+: test 
+: test
+: reload 
+: test
+: test
+: test
+: reload 
+: test
+: reload 
+: test
+: test
+: rename novo_nome.pdf
+: config 
+: config 
+: rename novo_nome.pdf
+: empty
+: emptytrash 
+: rename easdsasd.jar
+: rename easdsasd.jar
+: touch a.md b.md c.md
+: rename a.md
+: rename a.md
+: rename novo_nome.pdf
+: rename a.md
+: rename a.md
+: rename a.md
+: touch a.md
+: rename a.md
+: rename a.md
+: rename a.md
+: rename a.md
+: rename a.md
+: emptytrash 
+: q
+: rename two.bmp
+: rename six.bmp
+: rename seven.bmp
+: rename three2.bmp
+: rename seven_big.bmp
+: mkdir mnist
+: mkdir frrapprox
+: q
+: delete
+: delete
+: delete
+: delete
+: delete
+: delete
+: delete
+: draw
+: draw
+: redraw
+: q
+: mkdir
+: mkdir
+: mkdir lf
+: rename file_managing
+: q
+: delete
+: rename trash
+: q
+: q
+: delete
+: delete
+: delete
+: rename vpnufba.bak
+: rename vpnufba.bak.bak
+: rename vpnufba.b.bak
+: rename vpnufba.bak
+: rename vpnufba.bak.bak
+: rename luis.bak
+: delete
+$ rm luis.bak 
+: touch asd
+: touch test
+: touch a
+: q
+: q
+: q
+: delete
+: delete
+: config
+: q
+: q
+: touch a
+: q
+: q
+: q

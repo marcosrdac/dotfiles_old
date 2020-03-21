@@ -16,7 +16,9 @@ export ALTBROWSER="firefox"
 export TRUEBROWSER="qutebrowser"
 export MAIL="$HOME/.local/share/mail/main"  # mutt
 export READER="zathura"
-export SCREENSHOTS_FOLDER="$HOME/pictures/screenshots"
+export SCREENSHOTS="$HOME/pictures/screenshots"
+export WALLPAPERS="$HOME/pictures/wallpapers"
+export XIMAGEVIEWER="sxiv"
 export SXHKD_FIFO=/tmp/sxhkd-fifo
 export DMENU=menu
 #export MPLBACKEND=module://my_backend
@@ -97,6 +99,7 @@ prependpath "$HOME/.local/bin/bspwm"
 prependpath "$HOME/.local/bin/menu"
 appendpath  "$HOME/.local/bin/cp-p"
 appendpath  "$HOME/.local/bin/podcast2playlist"
+appendpath  "$HOME/.local/bin/file_managing"
 
 # python virtualenvwrapper
 direnv WORKON_HOME "$HOME/.local/lib/pipenvs/"
