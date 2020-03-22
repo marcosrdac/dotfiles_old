@@ -1,4 +1,5 @@
-':/home/marcosrdac
+':/mnt/hdd/tmp
+/:/
 B:/mnt/hdd/MEGA/books
 D:/home/marcosrdac/.dotfiles
 L:/home/marcosrdac/Dropbox/projects/linux_learning
@@ -10,7 +11,7 @@ c:/home/marcosrdac/.config
 d:/home/marcosrdac/Dropbox/documents
 e:/mnt/hdd/tmp/test
 h:/home/marcosrdac
-j:/etc/ppp
+j:/mnt/hdd/tmp/test
 l:/home/marcosrdac/.local
 m:/etc/ppp
 p:/home/marcosrdac/Dropbox/projects

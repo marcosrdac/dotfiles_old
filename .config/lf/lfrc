@@ -400,7 +400,7 @@ cmd paste %{{
       do
         lf -remote \"send $id echo \$line\"
       done &&
-        lf -remote 'send reload' && rm -f \"$srcF\" &"
+        lf -remote 'send load' && rm -f \"$srcF\" &"
     lf -remote 'send load'
     lf -remote 'send clear'
     #wait $! && end_time=$(date +'%s')
@@ -430,10 +430,10 @@ cmd paste-async &{{
 cmd trash &{{
   for f in $fx
   do
-    msg="$(trash put $f)"
+    msg=$(trash "$f")
     [ $? = 0 ] && ECHO=echo || ECHO=echoerr
-    lf -remote "send $id redraw"
-    lf -remote "send $id reload"
+    lf -remote "send load"
+    lf -remote "send redraw"
     lf -remote "send $id $ECHO $msg"
     # future: logging
     #id="$(echo -e msg | grep -o '".*"' | sed 's/"//g')"
@@ -445,18 +445,18 @@ cmd trash &{{
 }}
 
 cmd restoretrash &{{
-  msg="$(trash restore last)"
+  msg="$(trash --restore)"
   [ $? = 0 ] && ECHO=echo || ECHO=echoerr
-  lf -remote "send $id reload"
-  lf -remote "send $id redraw"
+  lf -remote "send load"
+  lf -remote "send redraw"
   lf -remote "send $id $ECHO $msg"
 }}
 
 cmd emptytrash &{{
-  msg="$(trash empty)"
+  msg="$(trash --empty)"
   [ $? = 0 ] && ECHO=echo || ECHO=echoerr
-  lf -remote "send $id reload"
-  lf -remote "send $id redraw"
+  lf -remote "send load"
+  lf -remote "send redraw"
   lf -remote "send $id $ECHO $msg"
 }}
 

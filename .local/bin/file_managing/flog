@@ -1,34 +1,28 @@
 #!/usr/bin/env sh
 
-LOG_DIR=$XDG_RUNTIME_DIR/flog
-[ -e $LOG_DIR ] || mkdir -p $LOG_DIR
-LOGFILE="$LOG_DIR/flog"
+LOGDIR=$XDG_RUNTIME_DIR/flog
+[ -e $LOGDIR ] || mkdir -p $LOGDIR
+LOGFILE="$LOGDIR/flog"
 touch $LOGFILE
 
 
-copy_log () {
-  src="$1" && dest="$2"
-  echo "COPY\t$src\t$dest" >> $LOGFILE
-}
-
-move_log () {
-  src="$1" && dest="$2"
-
-}
-
-trash_log () {
-  src="$1" && dest="$2"
-  echo "trash" "$src" "$dest" >> $LOGFILE
-}
-
 case $1 in
-  move) shift
-    src="$1" && dest="$2"
-    echo "move\t$src\t$dest" >> $LOGFILE ;;
-  copy) shift
-    src="$1" && dest="$2"
-    echo "copy\t$src\t$dest" >> $LOGFILE ;;
+  mv) shift
+    src="$1" && dest="$2" && echo -e "do\tmv\t$src\t$dest" >> $LOGFILE ;;
+  cp) shift
+    src="$1" && dest="$2" && echo -e "do\tcp\t$src\t$dest" >> $LOGFILE ;;
   trash) shift
-    src="$1" && dest="$2"
-    echo "trash\t$src\t$dest" >> $LOGFILE ;;
+    src="$1" && trashid="$2" && echo -e "do\ttrash\t$src\t$trashid" >> $LOGFILE ;;
+  undo) shift
+    case $1 in
+      mv) shift
+        src="$1" && dest="$2" && echo -e "undo\tmv\t$dest\t$src" >> $LOGFILE ;;
+      cp) shift
+                                                          v
+        src="$1" && trashid="$2" && echo -e "undo\trash\tput\t$src\t$dest" >> $LOGFILE ;;
+      trash) shift
+        src="$1" && dest="$2" && echo -e "undo\ttrash\t$src\t$dest" >> $LOGFILE ;;
+    esac;;
+  --clear|-c) echo -n "" >> $LOGFILE ;;
+  *) echo "Arguments not understood." ;;
 esac

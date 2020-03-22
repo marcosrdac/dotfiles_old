@@ -640,3 +640,14 @@ $ rm luis.bak
 : q
 : q
 : q
+: touch asd
+: q
+: emptytrash 
+: q
+: cd $WORKON_HOME
+$ cd $WORKON_HOME
+: touch asd
+: load
+: load
+: q
+: q

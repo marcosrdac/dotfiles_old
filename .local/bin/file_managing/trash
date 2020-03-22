@@ -6,6 +6,7 @@ TRASH_INFO=${TRASH:-"$XDG_DATA_HOME/Trash"}/info
 [ -e $TRASH_FILES ] || mkdir -p $TRASH_FILES
 [ -e $TRASH_INFO ] || mkdir -p $TRASH_INFO
 INFOEXT=".tsv"
+IFS=$'\n'
 
 
 trash_put () {
@@ -63,7 +64,6 @@ trash_list () {
 
 trash_restore_last () {
   [ -z "$1" ] && n=1 || n="$1"
-
   restore_list=$(ls $TRASH_INFO | grep "$INFOEXT\$" | sort | tail -n $n)
   if [ $(echo -n $restore_list | wc -w) -eq 0 ]
   then
@@ -87,7 +87,15 @@ trash_restore_last () {
       srcname="${srcname}_${t}_${n}"
       dest="$srcname$srcext"
     fi
-    [ ! -w "$trash" ] || [ ! -w "$dest" ] && please='sudo'
+
+    destdir="$(dirname "$dest")"
+    if [ ! -e "$destdir" ]
+    then
+      echo "Directory does not exist. Restauring file to ${HOME}."
+    dest="$HOME/$(basename $dest)"
+    fi
+
+    please='' && ([ ! -w "$trash" ] || [ ! -w "$destdir" ]) && please='sudo'
     $please mv -b $trash $dest && rm $infofile
 
     if [ $? -eq 0 ]
@@ -122,6 +130,17 @@ trash_restore () {
     srcname="${srcname}_${t}_${n}"
     dest="$srcname$srcext"
   fi
+
+  destdir="$(dirname "$dest")"
+  if [ ! -e "$destdir" ]
+  then
+    echo "Directory does not exist. Restauring file to ${HOME}."
+    dest="$HOME/$(basename $dest)"
+  fi
+
+  please='' && ([ ! -w "$trash" ] || [ ! -w "$destdir" ]) && please='sudo'
+  $please mv -b $trash $dest && rm $infofile
+
   mv -b $trash $dest && rm $infofile
 
   if [ $? -eq 0 ]
@@ -134,15 +153,15 @@ trash_restore () {
 
 
 case $1 in
-  put) shift && trash_put $@ ;;
-  restore) shift
-    if [ "$1" = "last" ]
+  --restore|-r)
+    if [ -z "$2" ] || [ "$2" = "last" ]
     then
-      trash_restore_last $2
+      n="$3" && trash_restore_last "$n"
     else
-      trash_restore $1
+      id="$2" && trash_restore "$id"
     fi ;;
-  list) shift && trash_list ;;
-  empty) shift && trash_empty ;;
-  *) echo "No arguments given." ;;
+  --list|-l) trash_list ;;
+  --empty|-e) trash_empty ;;
+  --put|-p) shift && trash_put $@ ;;
+  *) [ ! -z "$1" ] && trash_put $@ || echo "No arguments given." ;;
 esac

@@ -7,7 +7,7 @@ cols=16
 # open by mime type
 mimetype=$(file --mime-type $f -b)
 case $mimetype in
-  image/*) img2txt -f caca -d none "$f";;
+  image/*) img2txt -d none "$f";;
 
   *) # open by extension
     echo "$f" | grep -q "\." && ext="${f##*.}"
