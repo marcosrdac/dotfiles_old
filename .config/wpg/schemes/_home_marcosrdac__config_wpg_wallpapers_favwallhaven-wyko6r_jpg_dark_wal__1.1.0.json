@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/favwallhaven-wyko6r.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d0d10",
+        "foreground": "#ded1bd",
+        "cursor": "#ded1bd"
+    },
+    "colors": {
+        "color0": "#0d0d10",
+        "color1": "#69645B",
+        "color2": "#A16843",
+        "color3": "#A68E71",
+        "color4": "#D5A76F",
+        "color5": "#728086",
+        "color6": "#A6A399",
+        "color7": "#ded1bd",
+        "color8": "#9b9284",
+        "color9": "#69645B",
+        "color10": "#A16843",
+        "color11": "#A68E71",
+        "color12": "#D5A76F",
+        "color13": "#728086",
+        "color14": "#A6A399",
+        "color15": "#ded1bd"
+    }
+}

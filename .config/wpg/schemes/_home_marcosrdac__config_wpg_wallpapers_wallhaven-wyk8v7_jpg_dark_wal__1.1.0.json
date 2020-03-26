@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/wallhaven-wyk8v7.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f0f0f",
+        "foreground": "#ead4bd",
+        "cursor": "#ead4bd"
+    },
+    "colors": {
+        "color0": "#0f0f0f",
+        "color1": "#9B8B7C",
+        "color2": "#C6A27D",
+        "color3": "#798487",
+        "color4": "#8F8E88",
+        "color5": "#B09D88",
+        "color6": "#CFAE8B",
+        "color7": "#ead4bd",
+        "color8": "#a39484",
+        "color9": "#9B8B7C",
+        "color10": "#C6A27D",
+        "color11": "#798487",
+        "color12": "#8F8E88",
+        "color13": "#B09D88",
+        "color14": "#CFAE8B",
+        "color15": "#ead4bd"
+    }
+}

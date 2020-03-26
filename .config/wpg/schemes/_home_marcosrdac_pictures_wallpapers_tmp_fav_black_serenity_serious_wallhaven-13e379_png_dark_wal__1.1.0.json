@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/pictures/wallpapers/tmp/fav_black_serenity_serious_wallhaven-13e379.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#000000",
+        "foreground": "#fffff8",
+        "cursor": "#fffff8"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#C76D5E",
+        "color2": "#9C6753",
+        "color3": "#C2985F",
+        "color4": "#5B7E8E",
+        "color5": "#D4BAAB",
+        "color6": "#A09F9B",
+        "color7": "#e3ded8",
+        "color8": "#191919",
+        "color9": "#ff8067",
+        "color10": "#da7e5c",
+        "color11": "#ffc868",
+        "color12": "#67a9c7",
+        "color13": "#ffebc5",
+        "color14": "#e4dab5",
+        "color15": "#fffff8"
+    }
+}

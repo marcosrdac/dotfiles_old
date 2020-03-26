@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/wallhaven-r2ov81.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1f3037",
+        "foreground": "#ccd4da",
+        "cursor": "#ccd4da"
+    },
+    "colors": {
+        "color0": "#1f3037",
+        "color1": "#939AA1",
+        "color2": "#93AAB6",
+        "color3": "#ABB2B8",
+        "color4": "#D1C1BB",
+        "color5": "#869EC4",
+        "color6": "#93B4CC",
+        "color7": "#ccd4da",
+        "color8": "#8e9498",
+        "color9": "#939AA1",
+        "color10": "#93AAB6",
+        "color11": "#ABB2B8",
+        "color12": "#D1C1BB",
+        "color13": "#869EC4",
+        "color14": "#93B4CC",
+        "color15": "#ccd4da"
+    }
+}

@@ -1,28 +1,36 @@
 #!/usr/bin/env sh
 
-LOGDIR=$XDG_RUNTIME_DIR/flog
+# defining place variables
+LOGDIR="$XDG_RUNTIME_DIR/flog"
+LOGFILE="$LOGDIR/flog.log"
+# making sure files exist
 [ -e $LOGDIR ] || mkdir -p $LOGDIR
-LOGFILE="$LOGDIR/flog"
-touch $LOGFILE
+[ -e $LOGFILE ] || touch $LOGFILE
+# log separator
+SEP=$'\t'
+IFS='	'
 
 
-case $1 in
-  mv) shift
-    src="$1" && dest="$2" && echo -e "do\tmv\t$src\t$dest" >> $LOGFILE ;;
-  cp) shift
-    src="$1" && dest="$2" && echo -e "do\tcp\t$src\t$dest" >> $LOGFILE ;;
-  trash) shift
-    src="$1" && trashid="$2" && echo -e "do\ttrash\t$src\t$trashid" >> $LOGFILE ;;
-  undo) shift
-    case $1 in
-      mv) shift
-        src="$1" && dest="$2" && echo -e "undo\tmv\t$dest\t$src" >> $LOGFILE ;;
-      cp) shift
-                                                          v
-        src="$1" && trashid="$2" && echo -e "undo\trash\tput\t$src\t$dest" >> $LOGFILE ;;
-      trash) shift
-        src="$1" && dest="$2" && echo -e "undo\ttrash\t$src\t$dest" >> $LOGFILE ;;
-    esac;;
-  --clear|-c) echo -n "" >> $LOGFILE ;;
-  *) echo "Arguments not understood." ;;
+# rewrite a log line
+relog () {
+  [ $# -lt 1 ] && echo "No line number got."
+  [ "$1" = 'last' ] && lognumber='$' || lognumber="$1"
+  shift
+  newlog="$(echo "$*" | sed 's_/_\\/_g')"
+  sed -i "${lognumber}s/.*/${newlog}/" "$LOGFILE"
+}
+
+
+[ -z "$1" ] && echo "No log information given." && exit 1
+case "$1" in
+  --show|-p) <"$LOGFILE";;
+  --get-logfile|-w)
+    echo "$LOGFILE" ;;
+  --get-separator|-s)
+    echo "$SEP" ;;
+  --relog)
+    lognumber="$2" && shift 2 && relog $lognumber "$*" ;;
+  --clear|-c) echo -n "" > "$LOGFILE" ;;
+  *)
+    echo "$*" >> "$LOGFILE" ;;
 esac

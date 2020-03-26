@@ -651,3 +651,52 @@ $ cd $WORKON_HOME
 : load
 : q
 : q
+: q
+: q
+: emptytrash 
+: emptytrash 
+: emptytrash 
+: rename flog.log
+: rename flog.log.bak
+: rename flog.log.bak
+: rename flog.log
+: rename flog.log
+: rename flog.lo
+: rename flog.log
+: rename flog.log
+: w
+: rename flog.log
+: rename flog.log
+: rename flog.log
+: rename flog.log
+: rename flog.log
+: rename flog.log
+: rename flog.log.bak
+: trash empty
+: emptytrash 
+: q
+: q
+: q
+: rename commandtrash-new
+: rename commandtrash
+: rename cmdtrash
+: touch 'asd sd'
+: emptytrash 
+: emptytrash 
+: q
+: q
+: rename fav_black_serenity_serious_wallhaven-13e379.png
+: rename favvaporwavefocuswallhaven-ey3jkw.png
+! cmdtrash --restore last
+: rename move
+: mkdir bin
+: rename copy
+: rename trash
+: rename move
+: rename copy
+: rename undo
+: rename redo
+: rename 2as sd
+: rename 1 s d
+: q
+: q

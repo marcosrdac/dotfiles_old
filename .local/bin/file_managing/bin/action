@@ -1,0 +1,260 @@
+#!/usr/bin/env sh
+
+# TO DO:
+#   MASS COPY/MOVE almost
+#   don't use backup, use trash and trash ids for recovering
+#   MAKE (UN)COPY COMMAND
+#   MAKE (UN)COPYLINK COMMAND
+#   LOG ERRORS IN ANOTHER FILE
+#   on new action, remove all undos and their past done momories
+#   add a fifo for scheduling file actions
+
+LOGFILE="$(flog --get-logfile)"
+SEP="$(flog --get-separator)"
+DO=do
+UNDO=undo
+IFS='	'
+
+
+move () {
+  [ $# -lt 2 ] && echo "No source or destination paths set." && exit 1
+  log=true; b='-b'
+  while [ ! -z "$1" ]
+  do
+    case "$1" in
+      '--no-backup'|'-B') b='' ;;
+      '--no-log'|'-L') log=false ;;
+      *)
+        [ -z "$srcs" ] && srcs="$dest" || srcs="$srcs$IFS$dest"
+        dest="$(realpath "$1")" ;;
+    esac && shift
+  done
+  [ -e "$dest" ] && destexists=true || destexists=false
+  mv $b $srcs "$dest"
+  if [ $? -eq 0 ] && $log
+  then
+    $destexists &&
+      flog "$DO" 'move' "$srcs$IFS$dest" ||
+      flog "$DO" 'move' "$srcs$IFS~$dest"
+  fi
+}
+
+unmove () {
+  # getting last argument
+  for dest in $@; do :; done  # include permission asking
+  [ "${dest:0:1}" = '~' ] && dest=${dest:1} &&
+    destexists=false || destexists=true
+
+  if [ -d "$dest" ]
+  then
+    while true
+    do
+      $destexists &&
+        moved="$dest/$(basename "$1")" ||
+        moved="$dest"
+      src="$1"
+      mv -b "$moved" "$src"
+      [ -z "$3" ] && break  # stop if next is last
+      shift
+    done
+  else
+      src="$1"
+      mv -b "$dest" "$src"
+  fi
+}
+
+copy () {
+  [ $# -lt 2 ] && echo "No source or destination paths set." && exit 1
+  log=true; b='-b'
+  while [ ! -z "$1" ]
+  do
+    case "$1" in
+      '--no-backup'|'-B') b='' ;;
+      '--no-log'|'-L') log=false ;;
+      *)
+        [ -z "$srcs" ] && srcs="$dest" || srcs="$srcs$IFS$dest"
+        dest="$(realpath "$1")" ;;
+    esac && shift
+  done
+  [ -e "$dest" ] && destexists=true || destexists=false
+  cp -r $b $srcs "$dest"  # REMEMBER THE r
+  if [ $? -eq 0 ] && $log
+  then
+    $destexists &&
+      flog "$DO" 'copy' "$srcs$IFS$dest" ||
+      flog "$DO" 'copy' "$srcs$IFS~$dest"
+  fi
+}
+
+uncopy () {
+  # getting last argument
+  for dest in $@; do :; done  # include permission asking
+  [ "${dest:0:1}" = '~' ] && dest=${dest:1} &&
+    destexists=false || destexists=true
+
+  if [ -d "$dest" ]
+  then
+    while true
+    do
+      $destexists &&
+        copied="$dest/$(basename "$1")" ||
+        copied="$dest"
+      cmdtrash --put "$copied"
+      [ -z "$3" ] && break  # stop if next is last
+      shift
+    done
+  else
+      cmdtrash --put "$dest"
+  fi
+}
+
+
+trash () {
+  [ $# -lt 1 ] && echo "No source paths given." && exit 1
+  log=true ; relog=false
+  trashlist=""
+  while [ ! -z "$1" ]
+  do
+    case "$1" in
+      '--no-log'|'-L') log=false; relog=false ;;
+      '--relog'|'-r')  log=false; relog=true; shift && lognumber=$1 ;;
+      *)
+        filepath="$(realpath "$1")"
+        [ -z "$trashlist" ] &&
+          trashlist="$filepath" ||
+          trashlist="$trashlist$IFS$filepath" ;;
+    esac
+    shift
+  done
+
+  fnids=''
+  errorfiles=''
+  for filepath in $trashlist
+  do
+    resp="$(cmdtrash "$filepath")"
+    if [ $? -eq 0 ]
+    then
+      id=$(echo -n "$resp" |
+                #sed 's/^.*"\([0-9]*\)".*/\1/' |
+                awk -F'\"' '{ print $4 }' |
+                tr '\n' "$SEP")
+      fnid="$filepath$IFS$id"
+      [ -z "$fnids" ] && fnids="$fnid" || fnids="$fnids$IFS$fnid"
+    else
+      [ -z "$errorfiles" ] &&
+        errorfiles="\"$filepath\"" ||
+        errorfiles="$errorfiles, \"$filepath\""
+        echo "$resp"
+    fi
+  done
+
+  $log && [ ! -z "$fnids" ] && flog "$DO" 'trash' $fnids
+  $relog && [ ! -z "$fnids" ] && flog --relog $lognumber "$DO" 'trash' $fnids
+
+  if [ ! -z "$errorfiles" ]
+  then
+    echo "Could not trash these files: $errorfiles."
+    return 1
+  else
+    return 0
+  fi
+}
+
+untrash () {
+  [ $# -lt 2 ] && echo "No trash ID's given for restoration." && exit 1
+  while [ ! -z "$1" ]
+  do
+    filename="$1" ; id="$2"
+    resp="$(cmdtrash --restore "$id")"
+    if [ $? -ne 0 ]
+    then
+      errormsg="(\"$filepath\" with ID: \"$id\")"
+      [ -z "$errorfiles" ] &&
+        errorfiles="$errormsg" ||
+        errorfiles="$errorfiles, $errormsg"
+    fi
+    shift 2
+  done
+  if [ ! -z "$errorinfo" ]
+  then
+    echo "Could not restore these files: $errorfiles." && exit 1
+  fi
+}
+
+retrash () {
+  while [ ! -z "$1" ]
+  do
+    case "$1" in
+      -n) lognumber="$2";;
+      *)
+        [ -z "$filenames" ] && filenames="$1" || filenames="$filenames$IFS$1"
+    esac
+    shift 2
+  done
+  trash --relog $lognumber $filenames
+}
+
+
+undo () {
+  doline=$(getdoline --last)
+  [ $doline -eq 0 ] && echo "Already at oldest change." && exit 1
+  set $(getdofromline $doline) && shift 1
+  action="$1" && shift
+  case "$action" in
+    *) "un$action" $@ && flog "$UNDO"
+  esac
+}
+
+redo () {
+  doline=$(getdoline --next)
+  [ $doline -eq 0 ] && echo "Already at newest change." && exit 1
+  set $(getdofromline $doline) && shift 1
+  action="$1" && shift
+  case "$action" in
+    trash) retrash -n $doline $@ && unlog --last-undo ;;
+    *) $action -L $@ && unlog --last-undo ;;
+  esac
+}
+
+getdoline () {
+  case $1 in
+    --next)   add=1 ;;
+    --last|*) add=0 ;;
+  esac && awk -v add=$add -v UNDO=$UNDO -v DO=$DO -v FS=$SEP \
+    'BEGIN { nundos=0 }  { content[i++]=$0; }
+     END {
+      for ( j=i-1; j>=0; j-- ) { if ( content[j] == UNDO ) nundos++ }
+      result=NR-2*nundos+add
+      if ( result <= NR ) print result;
+      else print 0
+     }' $LOGFILE
+}
+
+getdofromline () {
+  sed -n $1p "$LOGFILE"
+}
+
+unlog () {
+  case $1 in
+    --all-undos)
+      sed -i "/^$UNDO/d" "$LOGFILE" ;;
+    --undos-related)
+      start=$(getdoline --next)
+      sed -i "${start},\$d" "$LOGFILE" ;;
+    --last-undo) sed -i '$d' "$LOGFILE" ;;
+  esac
+}
+
+anyundos () {
+  [ $(sed -n "/${UNDO}\$/=" "$LOGFILE" | wc -c) -ne 0 ]
+}
+
+action="${1:2}" && shift
+case $action in
+  undo|redo)
+    $action $@ ;;
+  move|copy|trash|copylink)
+    anyundos && unlog --undos-related
+    $action $@ ;;
+  *) echo "No valid arguments given." && exit 1
+esac

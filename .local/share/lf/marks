@@ -1,4 +1,4 @@
-':/mnt/hdd/tmp
+':/home/marcosrdac
 /:/
 B:/mnt/hdd/MEGA/books
 D:/home/marcosrdac/.dotfiles
@@ -10,10 +10,11 @@ b:/home/marcosrdac/.dotfiles/.local/bin
 c:/home/marcosrdac/.config
 d:/home/marcosrdac/Dropbox/documents
 e:/mnt/hdd/tmp/test
+f:/home/marcosrdac/.local/run/flog
 h:/home/marcosrdac
-j:/mnt/hdd/tmp/test
+j:/home/marcosrdac/Dropbox/pictures/wallpapers/tmp
 l:/home/marcosrdac/.local
-m:/etc/ppp
+m:/home/marcosrdac/.dotfiles/.local/bin/file_managing
 p:/home/marcosrdac/Dropbox/projects
 t:/mnt/hdd/tmp
 u:/home/marcosrdac/Dropbox/ufba

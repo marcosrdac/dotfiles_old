@@ -99,8 +99,8 @@ c.keyhint.radius = 0
 c.prompt.radius = 0
 #c.spellcheck.languages = ['pt-BR', 'en-US', 'de-DE']
 c.url.searchengines = {
-        "DEFAULT": "https://www.google.com.ar/search?q={}",
-        "g":  "https://www.google.com.ar/search?q={}",
+        "DEFAULT": "https://www.google.com.br/search?q={}",
+        "g":  "https://www.google.com.br/search?q={}",
         "gs": "https://scholar.google.com/scholar?q={}",
         "gsb":
             "https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&q={}",

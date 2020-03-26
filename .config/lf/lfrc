@@ -80,7 +80,8 @@ map p paste
 map sp paste_symlink
 map DD       trash
 map <delete> trash
-map u        restoretrash
+map u        undo
+map <c-r>    redo
 # copying paths
 map yf copy_path --path
 map yd copy_path --directory
@@ -381,33 +382,58 @@ cmd test %{{
   # test stuff here
 }}
 
-# pasting done right
-cmd paste %{{
-    start_time=$(date +'%s')
-    load=$(lf -remote 'load')
-    mode="$(echo "$load" | sed -n '1p')"
-    load="$(echo "$load" | sed '1d')"
-    [ -z $load ] && exit 1
-    srcF=$(mktemp)
-    echo "$load" > "$srcF"
-    please='' && [ ! -w . ] && please='sudo'
-    case "$mode" in
-        copy) cmd='cp-p'; copying=copying;;
-        move) cmd='mv-p'; copying=moving;;
-    esac
-    cmd="$cmd --new-line --backup=numbered -F"
-    $please sh -c  "$cmd \"$srcF\" . | while read -r line
-      do
-        lf -remote \"send $id echo \$line\"
-      done &&
-        lf -remote 'send load' && rm -f \"$srcF\" &"
-    lf -remote 'send load'
-    lf -remote 'send clear'
-    #wait $! && end_time=$(date +'%s')
-    #interval=$(($(date +'%s')-$start_time))
-    #[ $interval -gt 6 ] &&
-    #notify-send "done $copying files" "\"$(<$srcf)\"\nto\n\"$(realpath .)/\""
+cmd undo %{{
+  undo
+  lf -remote "send load"
+  lf -remote "send redraw"
 }}
+
+cmd redo %{{
+  redo
+  lf -remote "send load"
+  lf -remote "send redraw"
+}}
+
+cmd paste %{{
+  load=$(lf -remote 'load')
+  mode=$(echo "$load" | sed -n '1p')
+  list=$(echo "$load" | sed '1d')
+  if [ $mode = 'copy' ]; then
+      copy $list .
+  elif [ $mode = 'move' ]; then
+      move $list .
+  fi
+  lf -remote 'send load'
+  lf -remote 'send clear'
+}}
+
+## pasting done right
+#cmd paste %{{
+#    start_time=$(date +'%s')
+#    load=$(lf -remote 'load')
+#    mode="$(echo "$load" | sed -n '1p')"
+#    load="$(echo "$load" | sed '1d')"
+#    [ -z $load ] && exit 1
+#    srcF=$(mktemp)
+#    echo "$load" > "$srcF"
+#    please='' && [ ! -w . ] && please='sudo'
+#    case "$mode" in
+#        copy) cmd='cp-p'; copying=copying;;
+#        move) cmd='mv-p'; copying=moving;;
+#    esac
+#    cmd="$cmd --new-line --backup=numbered -F"
+#    $please sh -c  "$cmd \"$srcF\" . | while read -r line
+#      do
+#        lf -remote \"send $id echo \$line\"
+#      done &&
+#        lf -remote 'send load' && rm -f \"$srcF\" &"
+#    lf -remote 'send load'
+#    lf -remote 'send clear'
+#    #wait $! && end_time=$(date +'%s')
+#    #interval=$(($(date +'%s')-$start_time))
+#    #[ $interval -gt 6 ] &&
+#    #notify-send "done $copying files" "\"$(<$srcf)\"\nto\n\"$(realpath .)/\""
+#}}
 
 # assynchronous pasting
 cmd paste-async &{{
@@ -435,17 +461,11 @@ cmd trash &{{
     lf -remote "send load"
     lf -remote "send redraw"
     lf -remote "send $id $ECHO $msg"
-    # future: logging
-    #id="$(echo -e msg | grep -o '".*"' | sed 's/"//g')"
-    #flog trash "$f" "$id"
-    # criar linha de recuperação dos últimos arquivos
-    # ex.: 31 "files" moved to trash or 31 trash commands
-    # in order to facilidade undoing
   done
 }}
 
 cmd restoretrash &{{
-  msg="$(trash --restore)"
+  msg="$(cmdtrash --restore last)"
   [ $? = 0 ] && ECHO=echo || ECHO=echoerr
   lf -remote "send load"
   lf -remote "send redraw"
@@ -453,7 +473,7 @@ cmd restoretrash &{{
 }}
 
 cmd emptytrash &{{
-  msg="$(trash --empty)"
+  msg="$(cmdtrash --empty)"
   [ $? = 0 ] && ECHO=echo || ECHO=echoerr
   lf -remote "send load"
   lf -remote "send redraw"

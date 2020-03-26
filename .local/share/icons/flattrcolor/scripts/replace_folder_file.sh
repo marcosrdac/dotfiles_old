@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 #	default color: 178984
-oldglyph=#282f3c
-newglyph=#6f4753
+oldglyph=#412b22
+newglyph=#292624
 
 #	Front
 #	default color: 36d7b7
-oldfront=#4c5973
-newfront=#be798d
+oldfront=#7c5242
+newfront=#534f48
 
 #	Back
 #	default color: 1ba39c
-oldback=#343d4f
-newback=#825361
+oldback=#55382d
+newback=#393632
 
 sed -i "s/#524954/$oldglyph/g" $1
 sed -i "s/#9b8aa0/$oldfront/g" $1
