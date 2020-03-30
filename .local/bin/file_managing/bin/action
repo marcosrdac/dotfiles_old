@@ -1,13 +1,22 @@
 #!/usr/bin/env sh
 
 # TO DO:
-#   MASS COPY/MOVE almost
+#   done! MAKE IT WORK WITH SPACES
+#   done! MAKE (UN)COPY COMMAND
+#   done! MAKE (UN)COPYLINK COMMAND
+#   done! MASS COPY/MOVE
+#   done! on new action, remove all undos and their past done momories
 #   don't use backup, use trash and trash ids for recovering
-#   MAKE (UN)COPY COMMAND
-#   MAKE (UN)COPYLINK COMMAND
 #   LOG ERRORS IN ANOTHER FILE
-#   on new action, remove all undos and their past done momories
 #   add a fifo for scheduling file actions
+# CAVEATS FOR A BETTER (UN)COPY
+#   E for existent, NE for not existent
+#   E1 --> NE2
+#     back: if $(diff NE2 E1) && rm NE2 (redo=do no log); TRASH NE2 redo=untrash
+#   E1 --> E2: E2old to trash
+#     back: if diff && rm (cp de novo) || trash (untrash)
+#   E1 --> E2, E2 directory: E2old to trash
+#     back: if diff && rm (cp de novo) || trash (untrash)
 
 LOGFILE="$(flog --get-logfile)"
 SEP="$(flog --get-separator)"

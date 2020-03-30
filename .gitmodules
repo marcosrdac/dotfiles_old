@@ -1,0 +1,3 @@
+[submodule "/home/marcosrdac/.dotfiles/.config/nvim/plugged/ale"]
+	path = /home/marcosrdac/.dotfiles/.config/nvim/plugged/ale
+	url = https://github.com/dense-analysis/ale

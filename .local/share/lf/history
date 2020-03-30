@@ -700,3 +700,37 @@ $ cd $WORKON_HOME
 : rename 1 s d
 : q
 : q
+: q
+: rename semivar2d.py
+: touch gkstat_learning.py
+: touch sampling.py
+: q
+: mkdir semivariogram
+: mkdir semivariogram_programming
+: q
+: q
+: rename fracdim.py
+: q
+: krename vims
+: rename vims
+: w
+: rename vims
+: rename vim
+: q
+: q
+: q
+: rename init.vim.bak
+: touch plugins.vim
+: mkdir vimrc.automation.vim
+: rename vimrc.automatio.vim
+: touch vimrc.automation.vim
+: mkdir init
+: rename automation.vim
+: rename settings
+: e test
+$ vim plugins.vim
+: touch semivariogram
+: rename semivariogram.py
+: touch utils.py
+: rename fracdim.bak.py
+: touch boxcounting.py

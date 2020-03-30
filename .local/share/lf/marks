@@ -1,6 +1,7 @@
 ':/home/marcosrdac
 /:/
 B:/mnt/hdd/MEGA/books
+C:/home/marcosrdac/.cache
 D:/home/marcosrdac/.dotfiles
 L:/home/marcosrdac/Dropbox/projects/linux_learning
 S:/home/marcosrdac/Dropbox/pictures/screenshots
@@ -14,8 +15,9 @@ f:/home/marcosrdac/.local/run/flog
 h:/home/marcosrdac
 j:/home/marcosrdac/Dropbox/pictures/wallpapers/tmp
 l:/home/marcosrdac/.local
-m:/home/marcosrdac/.dotfiles/.local/bin/file_managing
+m:/home/marcosrdac/Dropbox/projects/fractal_dimension
 p:/home/marcosrdac/Dropbox/projects
 t:/mnt/hdd/tmp
 u:/home/marcosrdac/Dropbox/ufba
+v:/home/marcosrdac/.dotfiles/.config/nvim
 x:/mnt/hdd/tmp/test

@@ -1,0 +1,20 @@
+# settings
+
+(GimpGegl-gegl-noise-solid-config "2020-03-28 11:15:51"
+    (time 1585404951)
+    (x-size 16)
+    (y-size 16)
+    (detail 3)
+    (tileable no)
+    (turbulent no)
+    (seed 0))
+(GimpGegl-gegl-noise-solid-config "2020-03-28 11:14:36"
+    (time 1585404876)
+    (x-size 16)
+    (y-size 16)
+    (detail 1)
+    (tileable no)
+    (turbulent no)
+    (seed 0))
+
+# end of settings
