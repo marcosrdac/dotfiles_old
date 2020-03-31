@@ -734,3 +734,14 @@ $ vim plugins.vim
 : touch utils.py
 : rename fracdim.bak.py
 : touch boxcounting.py
+: q
+: touch vim.md
+: q
+: q
+: rename variables.vim
+: cd $WORKON_HOME
+! cd $WORKON_HOME
+: rename pythona.vim
+: touch python.vim
+: q
+: q

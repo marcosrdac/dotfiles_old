@@ -4,7 +4,6 @@
 # Shell common aliases and customizations
 #
 
-
 ## COMMAND CONFIGURATION
 
 # Completion for existing commands
@@ -73,9 +72,6 @@ trysource() {
     fi
 }
 
-# python virtualenvwrapper
-#source /usr/bin/virtualenvwrapper.sh  # slows terminal start
-trysource "/usr/bin/virtualenvwrapper_lazy.sh"
 
 _i_prefer() { # executables...
     for candidate in "$@"

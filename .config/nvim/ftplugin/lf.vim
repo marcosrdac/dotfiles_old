@@ -1,3 +1,6 @@
+" Run script on python3
+nnoremap <silent> <F5> :!$TERMINAL -e lf<CR>
+
 " Insert spaces when hitting tabs
 set expandtab
 

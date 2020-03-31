@@ -1,6 +1,8 @@
 " Run script on python3
 nnoremap <silent> <F5> :!python3 %<CR>
 
+"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
 " Breaking lines with more colums than 79
 "set textwidth=79
 
