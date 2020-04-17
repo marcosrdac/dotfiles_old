@@ -1,0 +1,1 @@
+/home/marcosrdac/.dotfiles/.config/nvim/init.vim

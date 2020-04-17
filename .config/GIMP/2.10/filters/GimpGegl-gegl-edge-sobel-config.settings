@@ -1,7 +1,7 @@
 # settings
 
-(GimpGegl-gegl-edge-sobel-config "2019-05-14 19:56:52"
-    (time 1557874612)
+(GimpGegl-gegl-edge-sobel-config "2020-04-02 20:51:04"
+    (time 1585871464)
     (horizontal yes)
     (vertical yes)
     (keep-sign yes))

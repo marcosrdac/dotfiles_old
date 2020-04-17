@@ -11,12 +11,11 @@ instance=$3
 case $class in
   Gimp) echo "desktop=^5" ;;
   Zathura) echo "state=tiled" ;;
-  mpv)
+  ffplay)
     name=$(xdotool getwindowname $wid)
-    if [ "$(echo \"$name\" | grep 'video[0-9]\+ - mpv')" ]
-    then
-      echo "state=floating focus=off sticky=on locked=on border=on manage=false"
-    fi ;;
+    echo \"$name\" | grep -q 'webcam_cast' &&
+      echo "state=floating focus=off sticky=on locked=on border=on" # manage=false"
+    ;;
 
   # bar pop-up calendar
   Yad) echo "state=floating border=off" ;;

@@ -1,5 +1,37 @@
 # settings
 
+(GimpGegl-gegl-median-blur-config "2020-04-03 08:33:59"
+    (time 1585913639)
+    (neighborhood circle)
+    (radius 43)
+    (percentile 50)
+    (alpha-percentile 50)
+    (abyss-policy clamp)
+    (high-precision no))
+(GimpGegl-gegl-median-blur-config "2020-04-03 08:33:46"
+    (time 1585913626)
+    (neighborhood circle)
+    (radius 3)
+    (percentile 50)
+    (alpha-percentile 50)
+    (abyss-policy clamp)
+    (high-precision no))
+(GimpGegl-gegl-median-blur-config "2020-04-01 16:57:16"
+    (time 1585771036)
+    (neighborhood circle)
+    (radius 1)
+    (percentile 15.5)
+    (alpha-percentile 50)
+    (abyss-policy clamp)
+    (high-precision yes))
+(GimpGegl-gegl-median-blur-config "2020-04-01 16:56:32"
+    (time 1585770992)
+    (neighborhood circle)
+    (radius 2)
+    (percentile 33.630000000000003)
+    (alpha-percentile 52.630000000000003)
+    (abyss-policy clamp)
+    (high-precision no))
 (GimpGegl-gegl-median-blur-config "2020-02-08 20:08:03"
     (time 1581203283)
     (neighborhood circle)
@@ -12,14 +44,6 @@
     (time 1581203015)
     (neighborhood circle)
     (radius 2)
-    (percentile 50)
-    (alpha-percentile 50)
-    (abyss-policy clamp)
-    (high-precision no))
-(GimpGegl-gegl-median-blur-config "2020-02-08 19:30:07"
-    (time 1581201007)
-    (neighborhood circle)
-    (radius 3)
     (percentile 50)
     (alpha-percentile 50)
     (abyss-policy clamp)
@@ -56,29 +80,5 @@
     (alpha-percentile 50)
     (abyss-policy clamp)
     (high-precision yes))
-(GimpGegl-gegl-median-blur-config "2019-09-26 22:36:35"
-    (time 1569548195)
-    (neighborhood circle)
-    (radius 3)
-    (percentile 25.379999999999999)
-    (alpha-percentile 50)
-    (abyss-policy clamp)
-    (high-precision no))
-(GimpGegl-gegl-median-blur-config "2019-09-26 21:56:45"
-    (time 1569545805)
-    (neighborhood circle)
-    (radius 1)
-    (percentile 100)
-    (alpha-percentile 50)
-    (abyss-policy clamp)
-    (high-precision no))
-(GimpGegl-gegl-median-blur-config "2019-07-22 12:51:29"
-    (time 1563810689)
-    (neighborhood circle)
-    (radius 1)
-    (percentile 74.129999999999995)
-    (alpha-percentile 50)
-    (abyss-policy clamp)
-    (high-precision no))
 
 # end of settings

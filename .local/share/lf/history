@@ -745,3 +745,97 @@ $ vim plugins.vim
 : touch python.vim
 : q
 : q
+: q
+: touch test_pics
+: mkdir pics
+: q
+: rename vim
+: mkdir vim
+: mkdir vim
+: rename vimrc.vim
+: rename vimrc
+$ rm plugged/
+$ rm -r plugged
+: rename init.vim
+: touch vimrc
+: wq
+: bulk-rename 
+: rename fichas_ensaios_catolica.pdf
+: rename lista_1_indices.pdf
+: rename 1nbr6457.pdf
+: rename 3nbr6459.pdf
+: rename 2nbr7181.pdf
+: rename 4nbr7180.pdf
+: mkdir videos
+: bulk-rename 
+: rename ensaios_lim_liquidez_ind_plasticidade.wmv
+: q
+: q
+: q
+: q
+: touch shannon
+: rename shannon.py
+: q
+: extract 
+: q
+: q
+: extract
+: rename 20200403175343_windows.mkv
+: rename 20160426IR_2015_29212715591.pdf
+: bulk-rename 
+: q
+: q
+: touch .gitmodules
+: rename model_creation
+: rename 1_segmentation.py
+: mkdir block_props
+: q
+: delete
+: mkdir cora
+: mkdir boot
+: q
+: q
+: rename defaults.yaml.bak
+: rename header.tex
+: touch template.tex
+: wq
+: q
+: q
+: rename corainf.png
+: rename cora_2.png
+: rename cora_inf.png
+: q
+: q
+: touch respostas.md
+: q
+: mkdir first
+: touch andor.py
+: rename first-andor
+: q
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: mkdir listas
+: rename Lista_1.pdf
+: mkdir slides
+: rename FIS132.pdf
+: rename lista_1.pdf
+: mkdir snippets
+: touch ideas.yaml
+: rename themes.tsv
+: rename themes.csv
+: touch todo.md
+: mkdir couple
+: q
+: q
+: q
+: delete
+: mkdir everaldo
+: extract
+: extract
+: extract
+: q
+: q

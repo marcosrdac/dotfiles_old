@@ -18,7 +18,7 @@ set show-hidden true
 set link-zoom true
 
 # aesthetics
-set font "Ubuntu Mono 11"
+#set font "Fira Mono 11"
 include "zathura_dark"
 set recolor "true"
 set recolor-reverse-video "true"

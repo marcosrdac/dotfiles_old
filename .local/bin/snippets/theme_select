@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+for theme in $(wpg --theme)
+do
+  wpg --theme $theme
+  echo -e "$theme\t" >> themetag.tsv
+  vim '+normal GA' themetag.tsv
+  #read tag
+  #echo "$theme\t$tag" >> themetag.tsv
+done
+
+  echo >> themetag.tsv

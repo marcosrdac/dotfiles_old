@@ -28,9 +28,8 @@ alt + shift + {h,j,k,l}
 	bspwm_window_move {west,south,north,east} 20
 # m: send the newest marked node to the newest preselected node
 # b: swap the current node and the biggest node
-alt + shift + s; {m,b}
-	{bspc node newest.marked -n newest.!automatic, \
-	 bspc node -s biggest}
+alt + shift + s
+	bspc node newest.marked -n newest.!automatic
 # resize window
 #alt + ctrl + {h,j,k,l}
 #	bspwm_resize {west,south,north,east} 20

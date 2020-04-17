@@ -1,0 +1,14 @@
+# settings
+
+(GimpGegl-gegl-simplex-noise-config "2020-04-03 08:42:39"
+    (time 1585914159)
+    (scale 4.9119999999999999)
+    (iterations 1)
+    (seed 0))
+(GimpGegl-gegl-simplex-noise-config "2020-04-03 08:39:23"
+    (time 1585913963)
+    (scale 1)
+    (iterations 1)
+    (seed 0))
+
+# end of settings

@@ -1,47 +1,98 @@
 #!/usr/bin/env sh
 
+# This programs opens your webcam at an instance of ffplay at an extreme of the screen.
+# Use it with the "--help" or "-h" argument to get help.
+# Author: marcosrdac (Marcos Conceição)
+
+if [ $1 = "--help" ] || [ $1 = "-h" ]
+then
+  echo
+  echo "This programs opens your webcam at an instance of ffplay at an extreme of the screen."
+  echo
+  echo "USAGE:"
+  echo "  toggle_webcam [direction [quality]]"
+  echo
+  echo "  - arg. #1: a direction (i.e.: 'se', for 'south east' of the screen). The window is going to be spawnd in de screen corner of this direction. If the first argument is 'f', the window is going to we opened in full screen windowed mode;"
+  echo "  - arg. #2: 'low' for recording webcam in low resolution, or 'high' (default) for recording in high resolution."
+  echo
+  echo "Obs.: using toggle_webcam twice is going to close previous ffplay instance."
+  echo
+  echo "EXAMPLE USAGE:"
+  echo "  toggle_webcam sw"
+  echo
+  exit 0
+fi
+
 pidfile=/tmp/$(basename $0).pid
 if [ -f $pidfile ]
 then
   pid=$(cat $pidfile)
   ps -p $pid > /dev/null && kill -USR1 $pid
   rm $pidfile
-  if [ -n "$1" ]
-  then
-    $(basename $0) $1
-  fi
+  [ -n "$1" ] && $0 $1
   exit 0
 fi
 
-webcam=/dev/video0
-bar_height=22
-mpv_width=400
-mpv_autofit=25%
+
+WEBCAM=${WEBCAM-'/dev/video0'}
+BAR_HEIGHT=${BAR_HEIGHT-22}
+WINDOW_WIDTH=400
+WINDOW_HEIGHT=
+GAP=$(bspc config window_gap)
+BORDER=$(bspc config border_width)
+WINDOW_TITLE=webcam_cast
+resolution=$(xdpyinfo | grep dimensions)
+SCREEN_WIDTH=$(echo $resolution | sed -r 's/^[^0-9]*([0-9]+)x([0-9]+).*$/\1/')
+SCREEN_HEIGHT=$(echo $resolution | sed -r 's/^[^0-9]*([0-9]+)x([0-9]+).*$/\2/')
+unset resolution
 
 
 open_webcam ()
 {
-  # geometry and position setup
   dir=$1
+  quality=$2
+  # cam resolution
+  if [ $quality = low ]
+  then
+    webcam_width=640
+    webcam_height=480
+  else
+    webcam_width=1920
+    webcam_height=1080
+  fi
+  let WINDOW_HEIGHT=webcam_height*WINDOW_WIDTH/webcam_width
+  # geometry and position setup
   if [ $dir != full ]
   then
-    common=$(( $(bspc config window_gap) + $(bspc config border_width) ))
     case $dir in
-      s*) dy=-$common ;;
-      n*) dy=+$(($common+$bar_height)) ;;
+      s*) let top=SCREEN_HEIGHT-GAP-BORDER-WINDOW_HEIGHT;;
+      n*) let top=BAR_HEIGHT+GAP+BORDER;;
     esac
     case $dir in
-      *e) dx=-$common ;;
-      *w) dx=+$common ;;
+      *e) let left=SCREEN_WIDTH-GAP-BORDER-WINDOW_WIDTH;;
+      *w) let left=GAP+BORDER;;
     esac
-
-    gnp="--geometry=$mpv_width$dx$dy --autofit=$mpv_autofit"
   else
-    gnp="--geometry=$(xrandr|grep '*'|awk -F' ' '{print $1}')"
+    WINDOW_HEIGHT=$SCREEN_HEIGHT
+    WINDOW_WIDTH=$SCREEN_WIDTH
   fi
 
-  mpv $gnp --input-default-bindings=no --no-osc --demuxer-lavf-format video4linux2 --demuxer-lavf-o-set input_format=mjpeg av://v4l2:$webcam & echo $! > $pidfile
+
+  ffplay -f v4l2 \
+          -input_format mjpeg \
+          -i $WEBCAM \
+          -video_size ${webcam_width}x${webcam_height} \
+          -preset ultrafast \
+          -x $WINDOW_WIDTH \
+          -y $WINDOW_HEIGHT \
+          -top $((top-3)) \
+          -left $((left-3)) \
+          -window_title $WINDOW_TITLE \
+          &
+  echo $! > $pidfile
 }
 
 
-open_webcam ${1-'se'}
+dir=${1-'se'}
+quality=$2
+open_webcam $dir $quality

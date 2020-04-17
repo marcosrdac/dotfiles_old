@@ -11,8 +11,8 @@
     (size 1340 720))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 10 32)
-    (size 1340 720)
+    (position 0 22)
+    (size 1360 740)
     (open-on-exit)
     (aux-info
         (left-docks-width "58")
@@ -80,7 +80,7 @@
                 (tab-style automatic)
                 (aux-info
                     (edit-active "true")
-                    (current-data "2. Hardness 100"))))
+                    (current-data "Chalk 01"))))
         (book
             (position 357)
             (current-page 0)
@@ -96,8 +96,8 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 0 134)
-    (size 817 629))
+    (position 264 33)
+    (size 832 695))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
     (position 343 13)
@@ -133,13 +133,13 @@
     (position 24 140))
 (session-info "toplevel"
     (factory-entry "gimp-threshold-tool-dialog")
-    (position 116 167))
+    (position 495 209))
 (session-info "toplevel"
     (factory-entry "gimp-desaturate-tool-dialog")
     (position 227 179))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 841 104)
+    (position 481 104)
     (size 398 554))
 (session-info "toplevel"
     (factory-entry "gimp-palette-import-dialog")
@@ -175,7 +175,7 @@
     (position 2 270))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 495 302))
+    (position 495 250))
 (session-info "toplevel"
     (factory-entry "gimp-unified-transform-tool-dialog")
     (position 0 0))
@@ -193,6 +193,9 @@
     (factory-entry "gimp-action-search-dialog")
     (position 600 356)
     (size 160 26))
+(session-info "toplevel"
+    (factory-entry "gimp-offset-tool-dialog")
+    (position 495 163))
 
 (hide-docks no)
 (single-window-mode yes)

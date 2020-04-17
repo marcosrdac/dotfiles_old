@@ -18,7 +18,7 @@ set hidden=false
 # scrll before selecting end of list
 set scrolloff 8
 # show icons
-set icons=false
+set icons=true
 # ignore case
 set ignorecase true
 # custom previewer script to be used

@@ -19,6 +19,7 @@ export READER="zathura"
 export SCREENSHOTS="$HOME/pictures/screenshots"
 export WALLPAPERS="$HOME/pictures/wallpapers"
 export XIMAGEVIEWER="sxiv"
+export WEBCAM="/dev/video0"
 export SXHKD_FIFO=/tmp/sxhkd-fifo
 export DMENU=menu
 #export MPLBACKEND=module://my_backend
@@ -31,6 +32,11 @@ export CALIBRE_USE_SYSTEM_THEME=1
 # my preferences
 export AURMANAGER="yay"
 #export PODCASTS_RSS_FILE="$HOME/.config/mpd/podcasts_rss"
+
+# android sdk (for flutter)
+export ANDROID_SDK_ROOT=/opt/android-sdk
+export ANDROID_HOME=$ANDROID_SDK_ROOT
+export CHROME_EXECUTABLE=google-chrome-stable
 
 direnv() {  # environment variable name, path creation
     export "$1"="$2"
@@ -100,6 +106,7 @@ prependpath "$HOME/.local/bin/menu"
 appendpath  "$HOME/.local/bin/cp-p"
 appendpath  "$HOME/.local/bin/podcast2playlist"
 appendpath  "$HOME/.local/bin/file_managing"
+appendpath  "/opt/flutter/bin"
 
 # python virtualenvwrapper
 direnv WORKON_HOME "$HOME/.local/lib/pipenvs/"
