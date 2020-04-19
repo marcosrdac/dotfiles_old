@@ -185,11 +185,7 @@ cmd touch %{{
 cmd rename %{{
   base="$(dirname "$f")"
   srcfn="$(basename $f)"
-  if $(echo "$srcfn" | grep -q "\.")
-  then
-    srcdot='.'
-    srcext="${srcfn##*.}"
-  fi
+  echo "$srcfn" | grep -q "\." && srcdot='.' && srcext="${srcfn##*.}"
   srcfn="${srcfn%.*}"
 
   filename_only="" ; extension_only=""
@@ -203,7 +199,7 @@ cmd rename %{{
     *) dst="$base/$@" ;;
   esac
 
-  for path in $f $dst
+  for path in "$f" "$dst"
   do
     [ ! -w $(dirname "$path") ] && please='sudo' && break
   done

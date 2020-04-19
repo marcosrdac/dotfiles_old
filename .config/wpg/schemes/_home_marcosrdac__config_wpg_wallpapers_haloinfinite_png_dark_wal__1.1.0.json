@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/marcosrdac/.config/wpg/wallpapers/haloinfinite.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0D130C",
+        "foreground": "#fcffff",
+        "cursor": "#fcffff"
+    },
+    "colors": {
+        "color0": "#0D130C",
+        "color1": "#906630",
+        "color2": "#7A8366",
+        "color3": "#8D8D48",
+        "color4": "#686B5D",
+        "color5": "#BCC6BD",
+        "color6": "#99A29C",
+        "color7": "#e0e4e4",
+        "color8": "#21321e",
+        "color9": "#c78631",
+        "color10": "#a4b975",
+        "color11": "#c5c54f",
+        "color12": "#8e986b",
+        "color13": "#dbffe1",
+        "color14": "#b2e6c4",
+        "color15": "#fcffff"
+    }
+}

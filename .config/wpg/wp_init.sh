@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -rs 'cora_2.png' 'cora_2.png'
+wpg -rs '/home/marcosrdac/pictures/wallpapers/favorites/boats_happy_sunrise.jpg' '/home/marcosrdac/pictures/wallpapers/favorites/boats_happy_sunrise.jpg'

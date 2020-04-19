@@ -7,5 +7,6 @@
 (hint-style slight)
 (language "c")
 (justify center)
+(box-mode fixed)
 
 # end of gimp-text-tool options
