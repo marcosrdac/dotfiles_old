@@ -126,8 +126,9 @@ alt + c ; {r,p,shift+p,m}
 	mpc_show}
 
 # running any scripts
-alt + x ; {shift+q,r,p,u, m}
+alt + x ; {shift+q,e,r,p,u, m}
 	{dm_power_menu, \
+	 emolog, \
 	 dm_recording_menu, \
 	 dm_polybar_pel, \
 	 dm_useful_menu, \
@@ -157,7 +158,7 @@ alt + Escape
 # --- almost fixed stuff --- #
 
 # alt + arrows for brightness and volume
-alt + {Left,Right,Down,Up}
+alt + shift + {Left,Right,Down,Up}
 	{brightnessctl s 5%-; kill -USR1 $(cat /tmp/polybar_brightness$\{XDG_VTNR\}.pid) , \
 	 brightnessctl s +5%; kill -USR1 $(cat /tmp/polybar_brightness$\{XDG_VTNR\}.pid) , \
 	 pamixer --allow-boost -d 5 , \

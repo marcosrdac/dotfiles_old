@@ -364,8 +364,8 @@ cmd paste_symlink %{{
     do
       $please ln -s "$f" "$(pwd)/$(basename $f)"
     done
-    lf -remote 'send load'
     lf -remote 'send clear'
+    lf -remote 'send load'
   fi
 }}
 

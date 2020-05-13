@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uninstall
+Exec=env WINEPREFIX="/home/marcosrdac/.local/share/wineprefix/default" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/marcosrdac/.local/share/wineprefix/default/dosdevices/c:/users/marcosrdac/Start\\ Menu/Programs/FormatFactory/Uninstall.lnk
+Type=Application
+StartupNotify=true
+Path=/home/marcosrdac/.local/share/wineprefix/default/dosdevices/c:/Program Files/FormatFactory
+Icon=C561_uninst.0
+StartupWMClass=uninst.exe

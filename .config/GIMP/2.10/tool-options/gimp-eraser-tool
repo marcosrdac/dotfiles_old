@@ -1,7 +1,6 @@
 # GIMP gimp-eraser-tool options
 
-(foreground (color-rgb 1 1 1))
-(background (color-rgb 0 0 0))
+(foreground (color-rgb 0.49665846552467746 0.48093132733229432 0.89573459715639814))
 (brush "Chalk 01")
 (dynamics "Dynamics Off")
 (palette "Grays")

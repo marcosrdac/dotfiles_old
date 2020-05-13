@@ -839,3 +839,53 @@ $ rm -r plugged
 : extract
 : q
 : q
+: mkdir cythontests
+: rename stdev_cython.pyx
+: mkdir
+: rename emolog
+: q
+: q
+: q
+: q
+: mkdir spectral_decomposition
+: touch specdecomp.py
+: q
+: mkdir pics
+: mkdir refferences
+: rename refs
+: rename reffs
+: rename ref
+: touch stds1d.py
+: extract
+: mkdir felipe
+: extract
+: extract
+: q
+: touch stds2d.py
+: touch pure.py
+: touch numba.py
+: touch utils.py
+: q
+: touch trash.py
+: touch pure.sh
+$ chmod +x pure.sh 
+: reload
+: q
+: touch all_results.csv
+: rename results.csv
+: rename result.csv
+: touch results.py
+: rename results.csv
+: rename all_result.csv
+: rename all_results.csv
+: rename swsd2dreal.py
+: rename swsd1d.py
+: rename swsd2d.py
+: rename swsd2d_real.pdf
+: rename swsd2d_real.py
+: rename swsd2d_numba.pdf
+: rename swsd2d_numba.py
+: touch swsd2d_pure.py
+: touch video.desktop
+: q
+: bulk-rename 

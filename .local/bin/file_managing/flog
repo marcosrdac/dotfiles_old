@@ -30,7 +30,8 @@ case "$1" in
     echo "$SEP" ;;
   --relog)
     lognumber="$2" && shift 2 && relog $lognumber "$*" ;;
-  --clear|-c) echo -n "" > "$LOGFILE" ;;
+  --clear|-c)
+    echo -n "" > "$LOGFILE" ;;
   *)
     echo "$*" >> "$LOGFILE" ;;
 esac

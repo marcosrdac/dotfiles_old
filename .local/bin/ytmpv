@@ -1,0 +1,41 @@
+#!/usr/bin/env sh
+
+LOGFILE="$HOME/.cache/ytmpv/urls.log"
+[ -d "$(dirname "$LOGFILE")" ] || mkdir -p "$(dirname "$LOGFILE")"
+[ -e "$LOGFILE" ] || touch "$LOGFILE"
+
+# getting url
+url=$(xclip -o -selection clipboard)
+# search for a youtube video instead youtube
+search=$(dm_choose search "$url")
+
+# getting quality to be fetched
+#fps="[fps<=?30]"
+height=$(dm_choose height 480 720 1080 240)
+quality="bestvideo[height<=$height]$fps+bestaudio/best[height<=$height]"
+#quality="worstvideo+bestaudio"
+
+[ "$url" != "$search" ] &&
+  url=$(youtube-dl -g "ytsearch1:$search")
+  #url=$(youtube-dl --add-metadata --prefer-insecure -g "ytsearch1:$search")
+echo "$(date +'%Y%m%d%H%M%S') $url" >> "$LOGFILE"
+
+
+
+# talking to user
+notify-send "Playing video" "$url"
+
+# streamming video
+mpvtitle='ytmpv - ${NAME:video}'
+mpv -ytdl-format="$quality" -title="$title" $url
+
+# talking to user if any errors occurred
+[ $? -eq 0 ] || notify-send "Error" "An error occurred while fetching URL."
+
+
+# past stuff
+#youtube-dl -f $quality $url -o - 2>/dev/null |
+#  ffplay -i - #2>/dev/null
+#  #mpv -
+#  #2>/dev/null &
+#  #ffplay -i - #2>/dev/null

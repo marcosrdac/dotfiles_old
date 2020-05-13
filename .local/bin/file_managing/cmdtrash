@@ -9,30 +9,30 @@ TRASH_INFO=${TRASH:-"$XDG_DATA_HOME/Trash"}/info
 [ -e $TRASH_INFO ] || mkdir -p $TRASH_INFO
 INFOEXT=".tsv"
 IFS=$'\n'
+HERE=$(pwd)
 
 
 trash_put () {
   [ $# -lt 1 ] && echo "No path given as argument." && exit 1
-  for filepath in $@
+  for src in $@
   do
-    src=$(realpath "$filepath")
-    [ ! -e "$src" ] && echo "\"$filepath\" does not exist." && exit 1
-    basesrc=$(basename "$filepath")
+    [ ! -e "$src" ] && echo "\"$src\" does not exist." && exit 1
+    [ ${src:0:1} == '/' ] && fullsrc=$src || fullsrc=$HERE/$src
+    basesrc=$(basename "$src")
     # get last trash id to calculate the new one's
     lastid="$(ls $TRASH_INFO | egrep -o '^[0-9]+' | sort -g | tail -n 1)"
     [ -z "$lastid" ] && id=0 || id=$((lastid+1))
     trash="$TRASH_FILES/${id}_${basesrc}"
     infofile="$TRASH_INFO/${id}_${basesrc}$INFOEXT"
-    info="SOURCE_PATH\t$src\nTRASH_PATH\t$trash"
-    please='' && [ ! -w "$filepath" ] && please='sudo'
-    $please mv $src $trash &&
-    echo -e "$info" > "$infofile"
+    info="SOURCE_PATH\t$fullsrc\nTRASH_PATH\t$trash"
+    please='' && [ ! -w "$src" ] && please='sudo'
+    $please mv "$src" "$trash" && echo -e "$info" > "$infofile"
 
     if [ $? -eq 0 ]
     then
-      echo -e "\"$filepath\" moved to trash with ID: \"$id\"."
+      echo -e "\"$basesrc\" moved to trash with ID: \"$id\"."
     else
-      echo -e "Could not trash \"$filepath\"."
+      echo -e "Could not trash \"$basesrc\"."
       exit 1
     fi
   done
@@ -70,51 +70,6 @@ trash_list () {
   done
 }
 
-trash_restore_last () {
-  [ -z "$1" ] && n=1 || n="$1"
-  #restore_list=$(ls -d "$TRASH_INFO"/* | grep "$INFOEXT\$" | sort -g | tail -n $n)
-  restore_list=$(ls $TRASH_INFO | grep "$INFOEXT\$" | sort -g | tail -n $n)
-  if [ $(echo -n $restore_list | wc -w) -eq 0 ]
-  then
-    echo "No files in trash." && exit 1
-  fi
-
-  atleastonefail=false
-  for infofile in $restore_list
-  do
-    infofile="$TRASH_INFO/$infofile"
-    info="$(basename $infofile)"
-    id="${info%%_*}"
-    src="$(cat $infofile | awk -F '\t' '/^SOURCE_PATH/ { print $2 }')"
-    trash="$(cat $infofile | awk -F '\t' '/^TRASH_PATH/ { print $2 }')"
-    [ ! -e "$trash" ] && echo "File already removed." &&
-      rm $infofile && atleastonefail=true && continue
-
-    dest="$src" && while [ -e "$dest" ]
-    do
-      dest="$src.bak"
-    done
-
-    destdir="$(dirname "$dest")"
-    if [ ! -e "$destdir" ]
-    then
-      echo "Directory does not exist. File restored to \"$HOME\"."
-      dest="$HOME/$(basename $dest)"
-    fi
-
-    please='' && ([ ! -w "$trash" ] || [ ! -w "$destdir" ]) && please='sudo'
-    $please mv -b $trash $dest && rm $infofile
-
-    if [ $? -eq 0 ]
-    then
-      echo "\"$dest\" restored."
-      $atleastonefail && exit 1
-    else
-      echo "Could not restore \"$dest\" from \"$trash\"." && exit 1
-    fi
-  done
-}
-
 trash_restore () {
   [ -z "$1" ] && echo "No trash ID's given as argument." && exit 1 || id="$1"
   infofiles=$(ls "$TRASH_INFO" | grep "$INFOEXT\$")
@@ -125,31 +80,38 @@ trash_restore () {
     info="$(basename $infofile)"
     [ $id -eq ${info%%_*} ] && found=true && break
   done
+
   ! $found && echo "Could no find such entry number $id." && exit 1
   src="$(cat $infofile | awk -F '\t' '/^SOURCE_PATH/ { print $2 }')"
   trash="$(cat $infofile | awk -F '\t' '/^TRASH_PATH/ { print $2 }')"
 
-  dest="$src" && while [ -e "$dest" ]
-  do
-    dest="$src.bak"
-  done
-
-  destdir="$(dirname "$dest")"
-  if [ ! -e "$destdir" ]
+  srcdir="$(dirname "$src")"
+  if [ ! -e "$srcdir" ]
   then
     echo "Directory does not exist. Restoring file to \"$HOME\"."
-    dest="$HOME/$(basename $dest)"
+    src="$HOME/$(basename $src)"
   fi
 
-  please='' && ([ ! -w "$trash" ] || [ ! -w "$destdir" ]) && please='sudo'
-  $please mv -b "$trash" "$dest" && rm "$infofile"
+  while [ -e "$src" ]
+  do
+    src="$src.bak"
+  done
+
+  
+  please='' && ([ ! -w "$trash" ] || [ ! -w "$srcdir" ]) && please='sudo'
+  $please mv -b "$trash" "$src" && rm "$infofile"
 
   if [ $? -eq 0 ]
   then
-    echo "\"$dest\" restored."
+    echo "\"$src\" restored."
   else
-    echo "Could not restore \"$dest\" from \"$trash\"." && exit 1
+    echo "Could not restore \"$src\" from \"$trash\"." && exit 1
   fi
+}
+
+trash_restore_last () {
+  lastid=$(trash_list | tail -n 1 | awk '{print $1}')
+  trash_restore $lastid
 }
 
 

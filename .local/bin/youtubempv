@@ -1,5 +1,0 @@
-#!/bin/sh
-
-xdotool type 'yy'
-sleep .1
-mpv "$(xclip -o -selection clipboard)"

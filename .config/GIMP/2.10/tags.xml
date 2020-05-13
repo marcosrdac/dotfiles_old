@@ -1178,7 +1178,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="699f071cf8d3f823776fc900613a2934">
+  <resource identifier="gimp-palette-color-history" checksum="0a48caa513177b56a505f1825df4e3ee">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/[dog_boy_rosed_eyes_sunset]-(imported)-3.gpl" checksum="e097a9d1eb0b4fb14e8f4d26fb16fb25">

@@ -1,9 +1,12 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 ## pra facilitar processos de debug
 #set "2020/3/24"
 #set "2020/3/24" "2021/4/2"
 #set "2020/2/24" "2020/3/3"
+
+
+PYTHON=$WORKON_HOME/martinho/bin/python
 
 if [ $# -eq 0 ]
 then
@@ -19,6 +22,8 @@ then
   exit 1
 fi
 [ $# -eq 1 ] && set "$1" "$1"
+
+
 
 
  diasmes ()
@@ -81,7 +86,7 @@ do
       echo
       echo BAIXANDO DATA: $dia/$mes/$ano
       echo
-      #python gen_hycom.py $ano $mes $dia
+      $PYTHON gen_hycom.py $ano $mes $dia
     done
   done
 done

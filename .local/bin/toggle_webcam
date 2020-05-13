@@ -83,6 +83,7 @@ open_webcam ()
           -i $WEBCAM \
           -video_size ${webcam_width}x${webcam_height} \
           -preset ultrafast \
+          -framedrop \
           -x $WINDOW_WIDTH \
           -y $WINDOW_HEIGHT \
           -top $((top-3)) \

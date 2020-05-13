@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=FormatFactory
+Exec=env WINEPREFIX="/home/marcosrdac/.local/share/wineprefix/default" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/marcosrdac/.local/share/wineprefix/default/dosdevices/c:/users/marcosrdac/Start\\ Menu/Programs/FormatFactory/FormatFactory.lnk
+Type=Application
+StartupNotify=true
+Path=/home/marcosrdac/.local/share/wineprefix/default/dosdevices/c:/Program Files/FormatFactory
+Icon=A03D_FormatFactory.0
+StartupWMClass=formatfactory.exe

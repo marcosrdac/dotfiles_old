@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Screen Record
+Exec=env WINEPREFIX="/home/marcosrdac/.local/share/wineprefix/default" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/marcosrdac/.local/share/wineprefix/default/dosdevices/c:/users/marcosrdac/Start\\ Menu/Programs/FormatFactory/Screen\\ Record.lnk
+Type=Application
+StartupNotify=true
+Path=/home/marcosrdac/.local/share/wineprefix/default/dosdevices/c:/Program Files/FormatFactory
+Icon=B1E4_QRecord.0
+StartupWMClass=qrecord.exe

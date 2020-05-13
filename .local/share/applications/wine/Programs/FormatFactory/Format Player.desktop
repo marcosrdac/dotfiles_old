@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Format Player
+Exec=env WINEPREFIX="/home/marcosrdac/.local/share/wineprefix/default" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/marcosrdac/.local/share/wineprefix/default/dosdevices/c:/users/marcosrdac/Start\\ Menu/Programs/FormatFactory/Format\\ Player.lnk
+Type=Application
+StartupNotify=true
+Path=/home/marcosrdac/.local/share/wineprefix/default/dosdevices/c:/Program Files/FormatFactory
+Icon=AEA8_FormatPlayer.0
+StartupWMClass=formatplayer.exe

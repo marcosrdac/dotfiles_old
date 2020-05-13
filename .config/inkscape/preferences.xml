@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="0"
-         height="0"
+         width="46.467"
+         height="46.467"
          rx="0"
          ry="0" />
       <eventcontext
@@ -168,9 +168,12 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="0"
-         start="0"
-         usecurrent="1" />
+         end="197.314"
+         start="329.525"
+         usecurrent="1"
+         rx="8.57143"
+         ry="8.57143"
+         open="1" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -202,24 +205,27 @@
          mode="drag"
          selcue="1"
          style="stroke-width:1px;"
-         usecurrent="0" />
+         usecurrent="1"
+         freehand-mode="0"
+         shape="0" />
     </group>
     <eventcontext
        id="calligraphic"
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="2"
+       mass="1"
        angle="30"
-       width="15"
-       thinning="10"
-       flatness="90"
+       width="4"
+       thinning="0"
+       flatness="0"
        cap_rounding="0"
        usecurrent="1"
        tracebackground="0"
        usepressure="1"
-       usetilt="0"
+       usetilt="1"
        keep_selected="1"
        tremor="0"
-       wiggle="0">
+       wiggle="0"
+       selcue="0">
       <group
          id="preset">
         <group
@@ -324,7 +330,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -332,11 +338,12 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
-       selcue="1">
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       selcue="1"
+       align_mode="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -347,7 +354,7 @@
        pathflash_unselected="0"
        pathflash_timeout="500"
        show_handles="1"
-       show_outline="0"
+       show_outline="1"
        sculpting_profile="1"
        single_node_transform_handles="0"
        show_transform_handles="0"
@@ -356,8 +363,8 @@
        show_helperpath="0"
        x="0"
        y="0"
-       edit_clipping_paths="0"
-       edit_masks="0" />
+       edit_clipping_paths="1"
+       edit_masks="1" />
     <eventcontext
        id="tweak"
        selcue="0"
@@ -372,7 +379,8 @@
        doh="1"
        dos="1"
        dol="1"
-       doo="1" />
+       doo="1"
+       mode="0" />
     <eventcontext
        id="spray"
        selcue="1"
@@ -412,22 +420,25 @@
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
        selcue="1"
-       curvature="3"
+       curvature="0"
        length="100" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1"
-       threshold="5"
-       offset="0"
-       offsetunits="cm" />
+       threshold="0"
+       offset="0.377953"
+       offsetunits="px"
+       autogap="0" />
     <group
-       unit="mm"
-       offset="5"
-       scale="100"
-       precision="2"
+       id="measure"
        fontsize="10"
-       id="measure" />
+       precision="2"
+       scale="100"
+       offset="5"
+       unit="px"
+       measure-start="0,0"
+       measure-end="0,0" />
   </group>
   <group
      id="palette">
@@ -548,7 +559,7 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -565,16 +576,55 @@
     <group
        id="toolbox" />
     <group
-       id="fillstroke" />
+       id="fillstroke"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="0"
+       x="0"
+       y="0"
+       w="314"
+       h="378"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="filtereffects" />
     <group
-       id="textandfont" />
+       id="textandfont"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="320"
+       h="304"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="transformation"
        applyseparately="0" />
     <group
-       id="align" />
+       id="align"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="246"
+       h="380"
+       visible="0"
+       state="2"
+       placement="1"
+       align-to="1"
+       sel-as-groups="0" />
     <group
        id="xml" />
     <group
@@ -587,10 +637,31 @@
        ignorenumbers="1" />
     <group
        id="documentoptions"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="761"
+       y="587"
+       w="583"
+       h="762"
+       visible="0"
+       placement="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="13"
+       x="0"
+       y="0"
+       w="1366"
+       h="768" />
     <group
        id="gradienteditor" />
     <group
@@ -599,18 +670,32 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="335"
+       h="441"
+       visible="0"
+       state="2"
+       placement="1">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="selection" />
       <group
-         id="defaultxdpi" />
+         id="defaultxdpi"
+         value="300" />
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/home/marcosrdac/Dropbox/projects/conslidev/pics"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -621,7 +706,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/home/marcosrdac/Dropbox/projects/conslidev/pics/" />
     <group
        id="import"
        enable_preview="1"
@@ -635,7 +720,27 @@
     <group
        id="clonetiler" />
     <group
-       id="gridtiler" />
+       id="gridtiler"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       SpacingType="20"
+       NoOfCols="1"
+       YPad="20"
+       VertAlign="1"
+       HorizAlign="1"
+       XPad="20"
+       AutoColSize="-20"
+       AutoRowSize="-20"
+       x="0"
+       y="0"
+       w="275"
+       h="402"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="extension-error"
        show-on-startup="0" />
@@ -653,7 +758,19 @@
        id="treeeditor" />
     <group
        id="layers"
-       maxDepth="20" />
+       maxDepth="20"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="236"
+       h="193"
+       visible="1"
+       state="2"
+       placement="1" />
     <group
        id="extensioneditor" />
     <group
@@ -672,6 +789,20 @@
        on-focus="1.0"
        on-blur="0.50"
        animate-time="100" />
+    <group
+       id="symbols"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="465"
+       h="266"
+       visible="0"
+       state="2"
+       placement="1" />
   </group>
   <group
      id="printing">
@@ -959,18 +1090,65 @@
        id="rendering" />
   </group>
   <group
-     id="extensions" />
+     id="extensions"
+     org.inkscape.effect.funcplot.xstart="0"
+     org.inkscape.effect.funcplot.xend="1"
+     org.inkscape.effect.funcplot.ybottom="0"
+     org.inkscape.effect.funcplot.ytop="1"
+     org.inkscape.effect.funcplot.samples="8"
+     grid.cartesian.border_th="0.3"
+     grid.cartesian.x_divs="5"
+     grid.cartesian.dx="100"
+     grid.cartesian.x_subdivs="1"
+     grid.cartesian.x_subsubdivs="1"
+     grid.cartesian.x_half_freq="4"
+     grid.cartesian.x_divs_th="2"
+     grid.cartesian.x_subdivs_th="1"
+     grid.cartesian.x_subsubdivs_th="0.3"
+     grid.cartesian.y_divs="5"
+     grid.cartesian.dy="100"
+     grid.cartesian.y_subdivs="1"
+     grid.cartesian.y_subsubdivs="1"
+     grid.cartesian.y_half_freq="4"
+     grid.cartesian.y_divs_th="2"
+     grid.cartesian.y_subdivs_th="1"
+     grid.cartesian.y_subsubdivs_th="0.3"
+     grid.cartesian.__live_effect__="0"
+     grid.cartesian.x_log="0"
+     grid.cartesian.tab="x_tab"
+     org.inkscape.effect.grid.lineWidth="1"
+     org.inkscape.effect.grid.xspacing="20"
+     org.inkscape.effect.grid.yspacing="20"
+     org.inkscape.effect.grid.xoffset="0"
+     org.inkscape.effect.grid.yoffset="0"
+     org.inkscape.effect.grid.__live_effect__="0"
+     org.inkscape.filter.nicechart.col_key="0"
+     org.inkscape.filter.nicechart.col_val="1"
+     org.inkscape.filter.nicechart.font-size="10"
+     org.inkscape.filter.nicechart.bar-height="100"
+     org.inkscape.filter.nicechart.bar-width="10"
+     org.inkscape.filter.nicechart.pie-radius="100"
+     org.inkscape.filter.nicechart.bar-offset="5"
+     org.inkscape.filter.nicechart.stroke-width="1"
+     org.inkscape.filter.nicechart.text-offset="5"
+     org.inkscape.filter.nicechart.heading-offset="50"
+     org.inkscape.filter.nicechart.colors="default"
+     org.inkscape.filter.nicechart.type="bar"
+     org.inkscape.filter.nicechart.input_sections="value_settings"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.output.pdf.cairorenderer.resolution="96"
+     org.inkscape.output.pdf.cairorenderer.bleed="0" />
   <group
      id="desktop"
-     style="line-height:1.25">
+     style="line-height:1.25;stroke:#000000;fill-rule:nonzero;fill-opacity:1;fill:#f2f2f2;stroke-width:1.13385827;stroke-miterlimit:4;stroke-dasharray:none;font-size:13.33333333px;text-anchor:middle;text-align:center;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke">
     <group
-       width="677"
+       width="541"
        height="740"
-       x="683"
+       x="819"
        y="22"
        fullscreen="0"
        id="geometry"
-       maximized="1" />
+       maximized="0" />
     <group
        id="XYfront" />
     <group
@@ -1067,4 +1245,10 @@
   <group
      id="ui"
      language="" />
+  <group
+     id="live_effect">
+    <group
+       width="-0.815624"
+       id="power_stroke" />
+  </group>
 </inkscape>

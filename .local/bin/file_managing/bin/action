@@ -23,6 +23,7 @@ SEP="$(flog --get-separator)"
 DO=do
 UNDO=undo
 IFS='	'
+HERE=$(pwd)
 
 
 move () {
@@ -35,7 +36,8 @@ move () {
       '--no-log'|'-L') log=false ;;
       *)
         [ -z "$srcs" ] && srcs="$dest" || srcs="$srcs$IFS$dest"
-        dest="$(realpath "$1")" ;;
+        [ ${1:0:1} == '/' ] && fulldest=$1 || fulldest=$HERE/$1
+        dest=$fulldest ;;
     esac && shift
   done
   [ -e "$dest" ] && destexists=true || destexists=false
@@ -82,7 +84,8 @@ copy () {
       '--no-log'|'-L') log=false ;;
       *)
         [ -z "$srcs" ] && srcs="$dest" || srcs="$srcs$IFS$dest"
-        dest="$(realpath "$1")" ;;
+        [ ${1:0:1} == '/' ] && fulldest=$1 || fulldest=$HERE/$1
+        dest=$fulldest ;;
     esac && shift
   done
   [ -e "$dest" ] && destexists=true || destexists=false
@@ -128,7 +131,7 @@ trash () {
       '--no-log'|'-L') log=false; relog=false ;;
       '--relog'|'-r')  log=false; relog=true; shift && lognumber=$1 ;;
       *)
-        filepath="$(realpath "$1")"
+        filepath="$1"
         [ -z "$trashlist" ] &&
           trashlist="$filepath" ||
           trashlist="$trashlist$IFS$filepath" ;;

@@ -11,19 +11,19 @@
     (size 1340 720))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 56 41)
-    (size 1248 702)
+    (position 10 32)
+    (size 1340 720)
     (open-on-exit)
     (aux-info
         (left-docks-width "58")
-        (right-docks-width "280")
+        (right-docks-width "206")
         (maximized "no"))
     (gimp-toolbox
         (side left))
     (gimp-dock
         (side right)
         (book
-            (current-page 0)
+            (current-page 10)
             (dockable "gimp-tool-options"
                 (tab-style preview)
                 (aux-info
@@ -82,7 +82,7 @@
                     (edit-active "true")
                     (current-data "Chalk 01"))))
         (book
-            (position 357)
+            (position 382)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
@@ -104,7 +104,7 @@
     (size 673 736))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 465 203))
+    (position 456 194))
 (session-info "toplevel"
     (factory-entry "gimp-scale-tool-dialog")
     (position 0 0))
@@ -175,7 +175,7 @@
     (position 2 270))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 495 250))
+    (position 145 121))
 (session-info "toplevel"
     (factory-entry "gimp-unified-transform-tool-dialog")
     (position 0 0))

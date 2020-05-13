@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=FormatPlayer
+MimeType=application/vnd.ms-asf;
+Exec=env WINEPREFIX="/home/marcosrdac/.local/share/wineprefix/default" /usr/bin/wine start /ProgIDOpen FormatPlayer.asf %f
+NoDisplay=true
+StartupNotify=true
+Icon=AEA8_FormatPlayer.0
