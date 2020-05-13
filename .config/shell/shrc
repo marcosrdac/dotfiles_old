@@ -14,6 +14,15 @@ alias cp="cp -i"
 alias mv="mv -iv"
 alias free='free -h'
 alias df='df -h'
+alias du='du -h'
+alias shutdown='sudo shutdown'
+alias reboot='sudo reboot'
+alias poweroff='sudo poweroff'
+alias suspend='sudo systemctl suspend'
+alias mount='sudo mount'
+alias umount='sudo umount'
+alias unmount='sudo umount'
+alias halt='sudo halt'
 
 alias ffmpeg='ffmpeg -hide_banner'
 alias ffprobe='ffprobe -hide_banner'

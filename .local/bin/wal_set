@@ -25,4 +25,5 @@ wpg -s $file
 dunst_start
 qutebrowser_reload.py
 #wal_steam -w
+echo $file > $XDG_CONFIG_HOME/wallpaper
 notify-send "New theme set!"

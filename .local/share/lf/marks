@@ -1,4 +1,4 @@
-':/home/marcosrdac/Dropbox/projects
+':/mnt/hdd/tmp/test/_resources
 /:/
 B:/mnt/hdd/MEGA/books
 C:/home/marcosrdac/.cache
@@ -9,6 +9,7 @@ P:/home/marcosrdac/Dropbox/pictures
 S:/home/marcosrdac/Dropbox/pictures/screenshots
 T:/home/marcosrdac/.local/share/Trash
 W:/home/marcosrdac/Dropbox/pictures/wallpapers/favorites
+X:/home/marcosrdac/.dotfiles/.config/Xresources
 b:/home/marcosrdac/.dotfiles/.local/bin
 c:/home/marcosrdac/.config
 d:/home/marcosrdac/Dropbox/documents

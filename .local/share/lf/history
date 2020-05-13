@@ -891,3 +891,5 @@ $ chmod +x pure.sh
 : bulk-rename 
 : q
 : q
+: rename nvidia-xrun-test
+: q

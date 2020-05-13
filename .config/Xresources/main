@@ -25,6 +25,7 @@
 *symbol_font_size: SYMBOL_FONT_SIZE
 *symbol_font: SYMBOL_FONT_NAME:size=SYMBOL_FONT_SIZE:antialias=true:autohint=true;1
 
+! some will talk about 96, idk
 *dpi: 100
 Xft.dpi: 100
 

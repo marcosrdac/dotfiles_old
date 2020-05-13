@@ -139,9 +139,10 @@ alt + x ; w ; {w,f,j;l,l;j,j;h,h;j,k;l,l;k,k;h,h;k}
 alt + {shift + g}
 	{dm_bspwm_set_monocle_gaps}
 # running any scripts
-alt + e ; {s,e,p,l,v,b}
+alt + e ; {s,e,r,p,l,v,b}
 	{$TERMINAL -e $EDITOR ~/.config/sxhkd/sxhkdrc && kill -USR1 $(pidof sxhkd) , \
 	 $TERMINAL -e $EDITOR ~/.config/shell/shenv , \
+	 $TERMINAL -e $EDITOR ~/.config/shell/shrc , \
 	 $TERMINAL -e $EDITOR ~/.config/polybar/config , \
 	 $TERMINAL -e $EDITOR ~/.config/lf/lfrc , \
 	 $TERMINAL -e $EDITOR ~/.config/nvim/init.vim , \

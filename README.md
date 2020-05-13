@@ -12,7 +12,7 @@ or, better, for ssh cloning (remember to create your SSH keys and add them to Gi
 git clone git@github.com:marcosrdac/dotfiles.git $HOME/.dotfiles
 ```
 
-and basically symlink all the files to their places inside ~/ (what is really easy to do from *vifm*, so I don't believe I'm ever going to make script for that). There are also some symlinks I make in order for my GTK2 themes to work (I hate to have to make this extra step):
+and basically symlink all the files to their places inside ~/ (what is really easy to do from *vifm*, so I don't believe I'm ever going to make script for that). There are also some symlinks I make in order for my GTK2 themes to work (I hate having to make this extra step):
 
 ```shell
 ln -s ~/.local/share/themes ~/.themes
@@ -21,7 +21,7 @@ ln -s ~/.local/share/icons ~/.icons
 
 Then I select the FlatColor theme in *lxappearance*, and themes will be working fine (sadly, it creates the "~/.gtkrc-2.0", which seems to be needed for gtk2 theming...).
 
-It's important to make the packages inside "~/.local/bin/st" and "~/.local/bin/dmenu" with:
+It's important to make the packages inside "\~/.local/bin/st" and "\~/.local/bin/dmenu" with:
 
 ```shell
 cd ~/.local/bin/dmenu
@@ -33,16 +33,16 @@ make
 sudo make install
 ```
 
-Then I set *zsh* to my user's default shell:
+So that you have a terminal and the menu program I use. Then I set *zsh* to my user's default shell:
 
 ```shell
 chsh -s $(which zsh)
 ```
 
-I also give permissions for me to shutdown my PC without password, putting the next line in "/etc/sudoers" --- analyze it later:
+I also give permissions for me to shutdown my PC without password, putting the next line in "/etc/sudoers":
 
 ```
-%wheel  ALL=NOPASSWD: /sbin/shutdown, /sbin/poweroff, /sbin/halt, /sbin/reboot, /bin/systemctl suspend, /sbin/mount, /sbin/umount
+%wheel ALL=(ALL) NOPASSWD: /sbin/shutdown, /sbin/poweroff, /sbin/halt, /sbin/reboot, /bin/systemctl suspend, /sbin/mount, /sbin/umount
 ```
 
 Set udev rules for backlight in the file "/etc/udev/rules.d/90-backlight.rules":
@@ -67,31 +67,52 @@ There are programs that I need Installed in order for my configs to work correct
 ### From Arch Oficial Repositories
 
 ```
-mlocate
-udevil
-zsh zsh-syntax-highlighting
-feh
-xorg xorg-server xorg-xinit xorg-apps
-lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings  # not really necessary
-alsa alsa-utils alsa-tools pulseaudio-alsa
-mpd mpc ncmpcpp
-bspwm polybar yad networkmanager-dmenu sox
-compton unclutter redshift scrot acpi brightnessctl mpv
-libnotify dunst
-wget curl git
-openssh
-xclip xsel xdotool
-zip unzip unrar
-texlive
-unclutter
-scrot
+# terminal multiplexer
 tmux
+# getting locate
+mlocate
+# mounting drives
+udevil
+# gettinh zsh
+zsh zsh-syntax-highlighting
+# alsa and pulse (pulse is on AUR bellow)
+alsa alsa-utils alsa-tools pulseaudio-alsa
+# X
+xorg xorg-server xorg-xinit xorg-apps
+# window manager
+bspwm polybar yad networkmanager-dmenu
+compton sox unclutter redshift scrot acpi brightnessctl mpv
+# wallpaper setting
+xwallpaper
+# file managers
 vifm thunar
-zathura zathura-cb zathura-djvu zathura-pdf-mupdf zathura-ps
-youtube-dl
-urlscan
+# browsers
 qutebrowser firefox
+# music
+mpd mpc ncmpcpp
+# neomutt
+neomutt urlscan
+libnotify dunst
+# web downloaders
+wget curl git youtube-dl
+# ssh client
+openssh
+# dealing with clipboard
+xclip xsel xdotool
+# file compression
+zip unzip unrar
+# latex
+texlive
+# making mouse cursor disappear
+unclutter
+# printscreen
+scrot
+# e-reader
+zathura zathura-cb zathura-djvu zathura-pdf-mupdf zathura-ps
+# torrents
 transmission-cli
+# lightdm: needed for using teamviewer
+lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 ```
 
 
@@ -99,20 +120,23 @@ transmission-cli
 
 ```
 yay
+# getting pulseaudio
 pulseaudio pamixer
+# view images from inside terminals
 python-ueberzug
+# making lightdm use xinit
 xinit-xsession
+# dropbox
 dropbox dropbox-cli
+# security
 keepassx2 python-keepmenu
-python-ueberzug
+# making themes from pictures
 wpgtk
+# torrent visualizer
 tremc
 ```
 
 
 ## To-do
 
-  * make init.vim from nvim compatible to vim; and
   * see if I can securely upload my offlineimaprc.
-
-

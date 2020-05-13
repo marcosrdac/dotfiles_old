@@ -1,8 +1,9 @@
 #!/usr/bin/env sh
 
-echo test test test
+# This file is meant to be run on TTY start
+# Keep in mind zsh won't read this file, just zprofile
+
 . $HOME/.config/shell/shenv
 . $HOME/.config/shell/shrc
 
-startup
-PATH="/usr/sbin:/sbin:/bin:/usr/games:$PATH"
+ttystartup

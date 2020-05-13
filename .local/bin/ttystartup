@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# I use this file so that both profile and zprofile can run the same commands, as zsh does not run profile at start
+
+# make dropbox run
+dropbox >/dev/null 2>&1 &
+# make mpd run
+mpd </dev/null >/dev/null 2>&1 &
