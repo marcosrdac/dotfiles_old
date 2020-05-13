@@ -889,3 +889,5 @@ $ chmod +x pure.sh
 : touch video.desktop
 : q
 : bulk-rename 
+: q
+: q

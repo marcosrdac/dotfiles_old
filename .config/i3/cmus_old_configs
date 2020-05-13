@@ -1,9 +1,0 @@
-# cmus
-set $pause --no-startup-id cmus-remote -u
-set $next --no-startup-id cmus-remote -n
-set $prev --no-startup-id cmus-remote -r
-set $lilfor --no-startup-id cmus-remote -k +10
-set $bigfor --no-startup-id cmus-remote -k +120
-set $lilbak --no-startup-id cmus-remote -k -10
-set $bigbak --no-startup-id cmus-remote -k -120
-set $beg --no-startup-id cmus-remote -k 00:00:00
