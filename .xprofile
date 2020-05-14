@@ -6,7 +6,7 @@ setxkbmap -layout br -option caps:swapescape
 xinput --set-prop "ELAN0501:01 04F3:3060 Touchpad" "libinput Tapping Enabled" 1
 xsetroot -cursor_name left_ptr
 pkill -x redshift >/dev/null; redshift -l -12.98:-36.52 &
-xwallpaper --focus $(<$XDG_CONFIG_HOME/wallpaper)
+xwallpaper --zoom "$(<$XDG_CONFIG_HOME/wallpaper)"
 unclutter -idle 1 -root &
 # reload dropbox for 
 #dropbox running &

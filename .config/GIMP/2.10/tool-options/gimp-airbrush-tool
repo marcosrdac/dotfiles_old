@@ -1,6 +1,5 @@
 # GIMP gimp-airbrush-tool options
 
-(foreground (color-rgb 0.49665846552467746 0.48093132733229432 0.89573459715639814))
 (brush "Chalk 01")
 (dynamics "Dynamics Off")
 (gradient "Abstract 1")

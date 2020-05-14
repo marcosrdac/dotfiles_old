@@ -53,6 +53,8 @@
 (toolbox-wilber no)
 (theme "System")
 (icon-size small)
+(image-convert-indexed-palette-type mono)
+(image-convert-indexed-max-colors 2)
 (layer-new-name "formqr")
 (layer-add-mask-type black)
 (fill-options

@@ -11,12 +11,12 @@
     (size 1340 720))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 10 32)
-    (size 1340 720)
+    (position 0 0)
+    (size 1366 768)
     (open-on-exit)
     (aux-info
         (left-docks-width "58")
-        (right-docks-width "206")
+        (right-docks-width "245")
         (maximized "no"))
     (gimp-toolbox
         (side left))
@@ -82,7 +82,7 @@
                     (edit-active "true")
                     (current-data "Chalk 01"))))
         (book
-            (position 382)
+            (position 493)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
@@ -110,12 +110,12 @@
     (position 0 0))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 343 26)
-    (size 673 710))
+    (position 343 3)
+    (size 673 756))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 343 13)
-    (size 673 736))
+    (position 343 3)
+    (size 673 756))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
     (position 462 239))
@@ -188,7 +188,7 @@
     (position 468 254))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-location-dialog")
-    (position 452 319))
+    (position 452 315))
 (session-info "toplevel"
     (factory-entry "gimp-action-search-dialog")
     (position 600 356)

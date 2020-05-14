@@ -1,8 +1,7 @@
 # GIMP user context
 
-(tool "gimp-measure-tool")
-(paint-info "gimp-paintbrush")
-(foreground (color-rgb 0.49665846552467746 0.48093132733229432 0.89573459715639814))
+(tool "gimp-heal-tool")
+(paint-info "gimp-heal")
 (brush "Chalk 01")
 (dynamics "Dynamics Off")
 (mybrush "Standard")

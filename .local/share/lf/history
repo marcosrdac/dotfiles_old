@@ -893,3 +893,8 @@ $ chmod +x pure.sh
 : q
 : rename nvidia-xrun-test
 : q
+: touch ttystartup
+$ chmod +x ttystartup 
+: q
+$ ffprobe $f
+: touch audio.desktop

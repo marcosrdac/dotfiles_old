@@ -25,6 +25,8 @@ export SXHKD_FIFO=/tmp/sxhkd-fifo
 export DMENU=menu
 #export MPLBACKEND=module://my_backend
 
+export CAMOBI="10.129.64.41"
+
 export INIT=$HOME/.config/nvim/init.vim
 
 # Program-specific
