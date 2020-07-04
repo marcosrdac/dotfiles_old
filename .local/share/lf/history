@@ -1,5 +1,3 @@
-: mkdir
-: mkdir 
 : mkdir 
 : mkdir teste
 : mkdir test
@@ -998,3 +996,5 @@ $ vim user-dirs.dirs
 : rename 20180719_dancing_king_crimson.mp4
 : rename 20180525_exercise.mp4
 : rename 20180826_meditation.mp4
+: rename BACKUP
+: reload 
