@@ -1,9 +1,9 @@
-':/mnt/hdd/tmp/test/_resources
+':/mnt/hdd/tmp
 /:/
 B:/mnt/hdd/MEGA/books
 C:/home/marcosrdac/.cache
 D:/home/marcosrdac/.dotfiles
-L:/home/marcosrdac/Dropbox/projects/linux_learning
+L:/home/marcosrdac/cld/Dropbox/prj/linux_learning
 M:/media
 P:/home/marcosrdac/Dropbox/pictures
 S:/home/marcosrdac/Dropbox/pictures/screenshots
@@ -20,7 +20,7 @@ j:/home/marcosrdac/Dropbox/pictures/wallpapers/tmp
 l:/home/marcosrdac/.local
 m:/mnt/hdd/tmp/flutter
 o:/opt
-p:/home/marcosrdac/Dropbox/projects
+p:/home/marcosrdac/cld/Dropbox/prj
 s:/home/marcosrdac/.dotfiles/.config/shell
 t:/mnt/hdd/tmp
 u:/home/marcosrdac/Dropbox/ufba

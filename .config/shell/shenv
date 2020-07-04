@@ -25,6 +25,15 @@ export SXHKD_FIFO=/tmp/sxhkd-fifo
 export DMENU=menu
 #export MPLBACKEND=module://my_backend
 
+# coloring man pages
+export LESS_TERMCAP_mb=$'\E[01;31m'
+export LESS_TERMCAP_md=$'\E[01;31m'
+export LESS_TERMCAP_me=$'\E[0m'
+export LESS_TERMCAP_se=$'\E[0m'
+export LESS_TERMCAP_so=$'\E[01;44;33m'
+export LESS_TERMCAP_ue=$'\E[0m'
+export LESS_TERMCAP_us=$'\E[01;32m'
+
 export CAMOBI="10.129.64.41"
 
 export INIT=$HOME/.config/nvim/init.vim
@@ -50,7 +59,8 @@ direnv() {  # environment variable name, path creation
 direnv CCACHE_BASEDIR "$HOME/.cache/ccache"
 export CCACHE_CONFIGPATH="$HOME/.config/ccache.conf"
 direnv GNUPGHOME "$HOME/.config/gnupg"
-direnv GOPATH "$HOME/.cache/go"
+direnv GOPATH "$HOME/.cache/go/go_path"
+direnv GOROOT "$HOME/.cache/go/go_root"
 export INPUTRC="$HOME/.config/inputrc"
 export LESSHISTFILE="$HOME/.cache/lesshst"
 direnv npm_config_cache "$HOME/.cache/npm"
@@ -113,8 +123,12 @@ appendpath  "$HOME/.local/bin/emolog"
 appendpath  "/opt/flutter/bin"
 
 # python virtualenvwrapper
-direnv WORKON_HOME "$HOME/.local/lib/pipenvs/"
+direnv WORKON_HOME "$XDG_DATA_HOME/python_envs"
 #export PIP_REQUIRE_VIRTUALENV=false
+
+# julia
+direnv JULIA_DEPOT_PATH "$XDG_DATA_HOME/julia_depot"
+direnv JULIA_NUM_THREADS 4
 
 # Seimic Unix
 export CWPROOT=/opt/SeisUnix

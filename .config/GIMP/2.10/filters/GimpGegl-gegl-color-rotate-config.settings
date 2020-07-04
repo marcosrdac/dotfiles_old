@@ -1,5 +1,17 @@
 # settings
 
+(GimpGegl-gegl-color-rotate-config "2020-06-15 18:15:44"
+    (time 1592255744)
+    (src-clockwise no)
+    (src-from 0)
+    (src-to 359.9994270422049)
+    (dest-clockwise no)
+    (dest-from 109.56712909805321)
+    (dest-to 109.56655614025811)
+    (threshold 0)
+    (gray-mode change-to)
+    (hue 0)
+    (saturation 0))
 (GimpGegl-gegl-color-rotate-config "2020-04-24 13:28:25"
     (time 1587745705)
     (src-clockwise no)

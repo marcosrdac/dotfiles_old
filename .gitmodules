@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = .config/nvim
 	url = https://github.com/marcosrdac/nvim
+[submodule ".local/share/fonts/xkcd-font"]
+	path = .local/share/fonts/xkcd-font
+	url = https://github.com/ipython/xkcd-font

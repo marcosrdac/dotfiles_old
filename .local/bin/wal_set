@@ -10,20 +10,22 @@ awaken_hidden ()
 }
 
 
-if [ \( -L "$1" \) ]
-then
-    file=$(readlink $1)
-else
-    file=$1
-fi
+#if [ \( -L "$1" \) ]
+#then
+#    file=$(readlink $1)
+#else
+#    file=$1
+#fi
+file="$(realpath "$1")"
 
 
 awaken_hidden dropdown_terminal dropdown_mail dropdown_calculator dropdown_music_player
-wpg -a $file
-wpg -A $file
-wpg -s $file
+wpg -a "$file"
+wpg -A "$file"
+wpg -s "$file"  # don't know if set_wallpaper false works
 dunst_start
 qutebrowser_reload.py
 #wal_steam -w
+xwallpaper --zoom "$file"
 echo $file > $XDG_CONFIG_HOME/wallpaper
 notify-send "New theme set!"

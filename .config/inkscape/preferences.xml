@@ -7,7 +7,7 @@
      id="window">
     <group
        id="task"
-       taskset="2" />
+       taskset="1" />
     <group
        id="menu"
        state="1" />
@@ -31,15 +31,16 @@
        state="1" />
     <group
        id="rulers"
-       state="1" />
+       state="0" />
     <group
        id="scrollbars"
-       state="1" />
+       state="0" />
   </group>
   <group
      id="fullscreen">
     <group
-       id="task" />
+       id="task"
+       taskset="0" />
     <group
        id="menu"
        state="1" />
@@ -132,14 +133,15 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="22208"
-         height="17077.7"
+         width="169.717"
+         height="76.2361"
          rx="0"
-         ry="0" />
+         ry="22.6163" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1">
+         usecurrent="1"
+         persp="perspective833">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -168,18 +170,19 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="197.314"
-         start="329.525"
+         end="0"
+         start="0"
          usecurrent="1"
-         rx="8.57143"
-         ry="8.57143"
-         open="1" />
+         rx="82.546"
+         ry="41.2732"
+         open="1"
+         arc_type="0" />
       <eventcontext
          id="star"
          magnitude="5"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.5"
+         proportion="0.411659"
          rounded="0"
          randomized="0" />
       <eventcontext
@@ -187,8 +190,8 @@
          style="fill:none;stroke:black"
          expansion="1"
          usecurrent="0"
-         revolution="3"
-         t0="0" />
+         revolution="3.03899"
+         t0="0.963023" />
     </group>
     <group
        id="freehand"
@@ -199,7 +202,9 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         average_all_sketches="1" />
+         average_all_sketches="1"
+         pressure="0"
+         freehand-mode="2" />
       <eventcontext
          id="pen"
          mode="drag"
@@ -214,7 +219,7 @@
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="1"
        angle="30"
-       width="4"
+       width="5"
        thinning="0"
        flatness="0"
        cap_rounding="0"
@@ -330,7 +335,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -338,18 +343,18 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       use_svg2="1"
+       style="font-family:sans-serif;font-size:16px;line-height:0;letter-spacing:0px;word-spacing:0px"
        selcue="1"
        align_mode="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
        selcue="1"
        gradientdrag="1"
-       highlight_color="4278190335"
        pathflash_enabled="1"
        pathflash_unselected="0"
        pathflash_timeout="500"
@@ -361,10 +366,11 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="915.397"
+       y="1255.02"
        edit_clipping_paths="1"
-       edit_masks="1" />
+       edit_masks="1"
+       highlight_color="4278190335" />
     <eventcontext
        id="tweak"
        selcue="0"
@@ -427,18 +433,18 @@
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1"
        threshold="0"
-       offset="0.377953"
-       offsetunits="px"
+       offset="0.1"
+       offsetunits="mm"
        autogap="0" />
     <group
-       measure-end="0,0"
-       measure-start="0,0"
-       unit="px"
-       offset="5"
-       scale="100"
-       precision="2"
+       id="measure"
        fontsize="10"
-       id="measure" />
+       precision="2"
+       scale="100"
+       offset="5"
+       unit="mm"
+       measure-start="0,0"
+       measure-end="0,0" />
   </group>
   <group
      id="palette">
@@ -559,7 +565,7 @@
   </group>
   <group
      id="colorselector"
-     page="1" />
+     page="2" />
   <group
      id="embedded">
     <group
@@ -585,11 +591,11 @@
        page="0"
        x="0"
        y="0"
-       w="337"
-       h="376"
+       w="344"
+       h="432"
        visible="1"
        state="2"
-       placement="1" />
+       placement="5" />
     <group
        id="filtereffects" />
     <group
@@ -601,8 +607,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="320"
-       h="304"
+       w="474"
+       h="267"
        visible="0"
        state="2"
        placement="1" />
@@ -618,37 +624,46 @@
        panel_border="0"
        x="0"
        y="0"
-       w="246"
-       h="380"
+       w="496"
+       h="360"
        visible="0"
        state="2"
-       placement="1"
+       placement="5"
        align-to="1"
-       sel-as-groups="0" />
+       sel-as-groups="0"
+       align-nodes-to="0" />
     <group
-       id="xml" />
+       id="xml"
+       panedpos="144"
+       x="0"
+       y="0"
+       w="340"
+       h="260"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="find" />
     <group
        id="spellcheck"
        w="200"
        h="250"
-       lang="en_US"
-       ignorenumbers="1" />
+       ignorenumbers="1"
+       lang="en_US" />
     <group
        id="documentoptions"
-       state="1"
+       state="2"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="553"
-       y="425"
-       w="583"
-       h="828"
+       x="0"
+       y="0"
+       w="660"
+       h="628"
        visible="0"
-       placement="1" />
+       placement="5" />
     <group
        id="preferences"
        state="1"
@@ -658,10 +673,12 @@
        panel_wrap="0"
        panel_border="0"
        page="13"
-       x="0"
-       y="0"
-       w="1366"
-       h="768" />
+       x="412"
+       y="25"
+       w="541"
+       h="740"
+       visible="0"
+       placement="1" />
     <group
        id="gradienteditor" />
     <group
@@ -676,16 +693,16 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="0"
-       y="0"
-       w="335"
-       h="441"
-       visible="1"
-       state="2"
+       x="364"
+       y="48"
+       w="527"
+       h="720"
+       visible="0"
+       state="1"
        placement="1">
       <group
          id="exportarea"
-         value="selection" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="300" />
@@ -695,7 +712,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/marcosrdac/1_jpeg"
+       path="/home/marcosrdac/projects/raposinha"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -705,21 +722,40 @@
        path="" />
     <group
        id="open"
-       enable_preview="1"
-       path="/home/marcosrdac/1_jpeg/" />
+       enable_preview="0"
+       path="/home/marcosrdac/tmp/gabi/" />
     <group
        id="import"
        enable_preview="1"
-       path=""
+       path="/home/marcosrdac/projects/riooss/"
        ask="1"
+       ask_svg="1"
        link="link"
        scale="optimizeSpeed"
-       forcexdpi="0" />
+       forcexdpi="0"
+       import_mode_svg="link" />
     <group
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler" />
+       id="clonetiler"
+       jmax="2"
+       imax="2"
+       dotrace="0"
+       pick="0"
+       pick_to_color="1"
+       pick_to_size="1"
+       pick_to_presence="0"
+       fillwidth="164.583"
+       fillheight="164.583"
+       x="0"
+       y="0"
+       w="569"
+       h="540"
+       fillrect="1"
+       visible="0"
+       state="2"
+       placement="2" />
     <group
        id="gridtiler"
        panel_size="1"
@@ -767,11 +803,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="335"
-       h="193"
+       w="344"
+       h="432"
        visible="1"
        state="2"
-       placement="2" />
+       placement="5" />
     <group
        id="extensioneditor" />
     <group
@@ -791,19 +827,41 @@
        on-blur="0.50"
        animate-time="100" />
     <group
-       placement="1"
+       id="symbols"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="465"
+       h="266"
+       visible="0"
+       state="2"
+       placement="1" />
+    <group
+       placement="5"
        state="2"
        visible="0"
-       h="266"
-       w="465"
+       h="481"
+       w="340"
        y="0"
        x="0"
-       panel_border="0"
-       panel_wrap="0"
-       panel_mode="1"
-       panel_ratio="100"
-       panel_size="1"
-       id="symbols" />
+       dialogmode="0"
+       id="livepatheffect" />
+    <group
+       placement="4"
+       state="2"
+       visible="0"
+       h="475"
+       w="336"
+       y="0"
+       x="0"
+       id="objects" />
+    <group
+       asbitmap="0"
+       id="printing" />
   </group>
   <group
      id="printing">
@@ -814,10 +872,12 @@
        add-label-comments="0" />
   </group>
   <group
-     id="options">
+     id="options"
+     yaxisdown="0"
+     onimport="0">
     <group
        id="renderingcache"
-       size="64" />
+       size="100" />
     <group
        id="useoldpdfexporter"
        value="0" />
@@ -871,7 +931,7 @@
        uri="" />
     <group
        id="savewindowgeometry"
-       value="1" />
+       value="2" />
     <group
        id="defaultoffsetwidth"
        value="2px" />
@@ -939,14 +999,14 @@
     <group
        id="dock"
        cancenterdock="1"
-       dockbarstyle="2"
-       switcherstyle="2" />
+       dockbarstyle="0"
+       switcherstyle="1" />
     <group
        id="dialogsskiptaskbar"
        value="1" />
     <group
        id="defaultwindowsize"
-       value="2" />
+       value="0" />
     <group
        id="arenatilescachesize"
        value="8192" />
@@ -967,7 +1027,7 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
+       stroke="0"
        rectcorners="1"
        pattern="1"
        gradient="1" />
@@ -993,7 +1053,7 @@
        value="0" />
     <group
        id="filterquality"
-       value="1" />
+       value="0" />
     <group
        id="showfiltersinfobox"
        value="1" />
@@ -1050,7 +1110,7 @@
        value="1" />
     <group
        id="iconrender"
-       named_nodelay="0" />
+       named_nodelay="1" />
     <group
        id="autosave"
        enable="0"
@@ -1067,10 +1127,10 @@
          origin_y="0.0"
          spacing_x="1.0"
          spacing_y="1.0"
-         color="1061158688"
-         empcolor="1061158720"
          empspacing="5"
-         dotted="0" />
+         dotted="0"
+         color="1061158688"
+         empcolor="1061158720" />
       <group
          id="axonom"
          units="mm"
@@ -1079,9 +1139,9 @@
          spacing_y="1.0"
          angle_x="30.0"
          angle_z="30.0"
+         empspacing="5"
          color="1061158688"
-         empcolor="1061158720"
-         empspacing="5" />
+         empcolor="1061158720" />
     </group>
     <group
        id="workarounds"
@@ -1089,6 +1149,18 @@
        partialdynamic="0" />
     <group
        id="rendering" />
+    <group
+       id="svgeditor"
+       value="inkscape" />
+    <group
+       id="dash"
+       scale="1" />
+    <group
+       unitType="2"
+       id="font" />
+    <group
+       shortcutfile="default.xml"
+       id="kbshortcuts" />
   </group>
   <group
      id="extensions"
@@ -1140,18 +1212,30 @@
      org.inkscape.output.pdf.cairorenderer.resolution="96"
      org.inkscape.output.pdf.cairorenderer.bleed="0"
      org.inkscape.input.gdkpixbuf.jpg.link="link"
-     org.inkscape.input.gdkpixbuf.jpg.scale="optimizeSpeed" />
+     org.inkscape.input.gdkpixbuf.jpg.scale="optimizeQuality"
+     org.inkscape.meshes.path_to_mesh.tab="about_tab"
+     org.inkscape.effect.filter.Electrize.type="table"
+     org.ekips.filter.interp.dup="0"
+     org.ekips.filter.interp.method="2"
+     org.ekips.filter.interp.steps="28"
+     org.greygreen.inkscape.effects.extrude.mode="Lines"
+     org.inkscape.input.svg.scale="optimizeSpeed"
+     org.inkscape.input.svg.import_mode_svg="link"
+     org.ekips.filter.interp.style="1"
+     org.ekips.filter.interp.__live_effect__="0"
+     org.ekips.filter.interp.exponent="1.3" />
   <group
      id="desktop"
-     style="line-height:1.25;stroke:none;fill-rule:nonzero;fill-opacity:1;fill:#000000;stroke-width:1.13385827;stroke-miterlimit:4;stroke-dasharray:none;font-size:13.33333333px;text-anchor:middle;text-align:center;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke">
+     style="line-height:1.25;fill:none;stroke-width:3.77952756;font-size:64px;text-anchor:middle;text-align:center;-inkscape-font-specification:'Tale of Hawks';font-family:'Tale of Hawks';writing-mode:lr;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;stroke-opacity:0.53031766;stroke:#000000"
+     xrayactive="0">
     <group
-       width="541"
-       height="740"
-       x="819"
-       y="22"
+       width="1340"
+       height="720"
+       x="10"
+       y="32"
        fullscreen="0"
        id="geometry"
-       maximized="1" />
+       maximized="0" />
     <group
        id="XYfront" />
     <group
@@ -1175,7 +1259,7 @@
     <group
        id="tools"
        icononly="1"
-       small="0" />
+       small="1" />
   </group>
   <group
      id="iconpreview"
@@ -1251,7 +1335,47 @@
   <group
      id="live_effect">
     <group
-       id="power_stroke"
-       width="-0.815624" />
+       width="-0.815624"
+       id="power_stroke" />
+  </group>
+  <group
+     menuIcons_objects="0"
+     menuIcons_layers="0"
+     menuIcons_canvas="0"
+     iconTheme="flattrcolor-dark"
+     gtkTheme="FlatColor"
+     defaultIconTheme="flattrcolor-dark"
+     defaultTheme="FlatColor"
+     id="theme"
+     darkTheme="1"
+     symbolicIcons="1"
+     menuIcons="-1">
+    <group
+       id="flattrcolor-dark"
+       symbolicBaseColor="4294963711"
+       symbolicSuccessColor="1403600895"
+       symbolicWarningColor="4118348031"
+       symbolicErrorColor="4112777471" />
+    <group
+       id="multicolor"
+       symbolicBaseColor="3958107135"
+       symbolicSuccessColor="10029823"
+       symbolicWarningColor="4279865599"
+       symbolicErrorColor="10086143" />
+    <group
+       id="hicolor"
+       symbolicBaseColor="3907649535"
+       symbolicSuccessColor="1403600895"
+       symbolicWarningColor="4118348031"
+       symbolicErrorColor="4112777471" />
+  </group>
+  <group
+     id="live_effects">
+    <group
+       width="-0.538601"
+       id="pap" />
+    <group
+       width="57.9151"
+       id="powerstroke" />
   </group>
 </inkscape>

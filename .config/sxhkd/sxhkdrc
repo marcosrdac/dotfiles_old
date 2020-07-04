@@ -26,6 +26,7 @@ alt + v : alt + v
 # move node#/window
 alt + shift + {h,j,k,l}
 	bspwm_window_move {west,south,north,east} 20
+  	#bspc node -s {west,south,north,east}
 # m: send the newest marked node to the newest preselected node
 # b: swap the current node and the biggest node
 alt + shift + s
@@ -119,8 +120,10 @@ alt + z ; {z,x,m,c}
 # --- scripts --- #
 
 # notifying scripts
-alt + c ; {r,p,shift+p,m}
-	{dm_bar_write_remainder, \
+alt + c ; {e,shift+e,r,p,shift+p,m}
+	{networkmanager_dmenu, \
+	$TERMINAL -e nmtui, \
+	dm_bar_write_remainder, \
 	show_prim_clip, \
 	exchange_prim_clip; show_prim_clip, \
 	mpc_show}
@@ -196,3 +199,8 @@ XF86MonBrightness{Down,Up}
 # power button
 XF86PowerOff
 	dm_power_menu
+
+
+# temporary
+alt + F2
+	xrdb ~/.config/Xresources/mAin

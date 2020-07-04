@@ -3,6 +3,8 @@
 !#define FONT_SIZE 10
 #define FONT_NAME Envy Code R
 #define FONT_SIZE 10
+!#define FONT_NAME 
+!#define FONT_SIZE 11
 !Hurmit Nerd Font     Why so buggy?
 !Hermit               SO FLUFFY OPEN COOL!
 !Envy Code B 10pt     10, cool, good, best!

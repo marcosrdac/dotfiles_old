@@ -1,0 +1,197 @@
+
+# Stack traces obtained from PID 2406873 - Thread 2406873 #
+
+[New LWP 2406874]
+[New LWP 2406875]
+[New LWP 2406876]
+[New LWP 2406890]
+[New LWP 2406891]
+[New LWP 2406892]
+[New LWP 2406893]
+[New LWP 2406894]
+[New LWP 2406895]
+[New LWP 2406896]
+[New LWP 2406897]
+[New LWP 2406898]
+[New LWP 2406899]
+[New LWP 2406929]
+[New LWP 2407403]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007f5b3043b87c in read () from /usr/lib/libpthread.so.0
+  Id   Target Id                                         Frame 
+* 1    Thread 0x7f5b2f840500 (LWP 2406873) "gimp"        0x00007f5b3043b87c in read () from /usr/lib/libpthread.so.0
+  2    Thread 0x7f5b2f2ba700 (LWP 2406874) "worker"      0x00007f5b3035b71d in syscall () from /usr/lib/libc.so.6
+  3    Thread 0x7f5b2eab9700 (LWP 2406875) "worker"      0x00007f5b3035b71d in syscall () from /usr/lib/libc.so.6
+  4    Thread 0x7f5b2e2b8700 (LWP 2406876) "worker"      0x00007f5b3035b71d in syscall () from /usr/lib/libc.so.6
+  5    Thread 0x7f5b2cd46700 (LWP 2406890) "gmain"       0x00007f5b3035605f in poll () from /usr/lib/libc.so.6
+  6    Thread 0x7f5b1ffff700 (LWP 2406891) "gdbus"       0x00007f5b3035605f in poll () from /usr/lib/libc.so.6
+  7    Thread 0x7f5b0338e700 (LWP 2406892) "gimp"        0x00007f5b3035605f in poll () from /usr/lib/libc.so.6
+  8    Thread 0x7f5b02b8d700 (LWP 2406893) "gimp"        0x00007f5b30438158 in pthread_cond_timedwait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+  9    Thread 0x7f5b01e11700 (LWP 2406894) "gimp"        0x00007f5b3043a8f4 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+  10   Thread 0x7f5b01610700 (LWP 2406895) "gimp"        0x00007f5b3043a8f4 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+  11   Thread 0x7f5b00e0f700 (LWP 2406896) "gimp"        0x00007f5b3043a8f4 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+  12   Thread 0x7f5aebfff700 (LWP 2406897) "gimp"        0x00007f5b3043a8f4 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+  13   Thread 0x7f5aeb7fe700 (LWP 2406898) "gimp"        0x00007f5b3043a8f4 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+  14   Thread 0x7f5ae7e34700 (LWP 2406899) "async"       0x00007f5b3035b71d in syscall () from /usr/lib/libc.so.6
+  15   Thread 0x7f5ae6e32700 (LWP 2406929) "threaded-ml" 0x00007f5b3035605f in poll () from /usr/lib/libc.so.6
+  16   Thread 0x7f5ae7633700 (LWP 2407403) "swap writer" 0x00007f5b3035b71d in syscall () from /usr/lib/libc.so.6
+
+Thread 16 (Thread 0x7f5ae7633700 (LWP 2407403)):
+#0  0x00007f5b3035b71d in syscall () at /usr/lib/libc.so.6
+#1  0x00007f5b3062b101 in g_cond_wait () at /usr/lib/libglib-2.0.so.0
+#2  0x00007f5b30c175fe in  () at /usr/lib/libgegl-0.4.so.0
+#3  0x00007f5b3060b511 in  () at /usr/lib/libglib-2.0.so.0
+#4  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#5  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 15 (Thread 0x7f5ae6e32700 (LWP 2406929)):
+#0  0x00007f5b3035605f in poll () at /usr/lib/libc.so.6
+#1  0x00007f5b00043c14 in  () at /usr/lib/libpulse.so.0
+#2  0x00007f5b00051059 in pa_mainloop_poll () at /usr/lib/libpulse.so.0
+#3  0x00007f5b0005b301 in pa_mainloop_iterate () at /usr/lib/libpulse.so.0
+#4  0x00007f5b0005b3b1 in pa_mainloop_run () at /usr/lib/libpulse.so.0
+#5  0x00007f5b0004b61e in  () at /usr/lib/libpulse.so.0
+#6  0x00007f5ae61cbd1c in  () at /usr/lib/pulseaudio/libpulsecommon-13.0.so
+#7  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#8  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 14 (Thread 0x7f5ae7e34700 (LWP 2406899)):
+#0  0x00007f5b3035b71d in syscall () at /usr/lib/libc.so.6
+#1  0x00007f5b3062b101 in g_cond_wait () at /usr/lib/libglib-2.0.so.0
+#2  0x0000555899a65f98 in  ()
+#3  0x00007f5b3060b511 in  () at /usr/lib/libglib-2.0.so.0
+#4  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#5  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 13 (Thread 0x7f5aeb7fe700 (LWP 2406898)):
+#0  0x00007f5b3043a8f4 in do_futex_wait.constprop () at /usr/lib/libpthread.so.0
+#1  0x00007f5b3043a9f8 in __new_sem_wait_slow.constprop.0 () at /usr/lib/libpthread.so.0
+#2  0x00007f5b04810017 in  () at /usr/lib/libnvidia-opencl.so.1
+#3  0x00007f5b046d7bbd in  () at /usr/lib/libnvidia-opencl.so.1
+#4  0x00007f5b04812048 in  () at /usr/lib/libnvidia-opencl.so.1
+#5  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#6  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 12 (Thread 0x7f5aebfff700 (LWP 2406897)):
+#0  0x00007f5b3043a8f4 in do_futex_wait.constprop () at /usr/lib/libpthread.so.0
+#1  0x00007f5b3043a9f8 in __new_sem_wait_slow.constprop.0 () at /usr/lib/libpthread.so.0
+#2  0x00007f5b04810017 in  () at /usr/lib/libnvidia-opencl.so.1
+#3  0x00007f5b046d7b96 in  () at /usr/lib/libnvidia-opencl.so.1
+#4  0x00007f5b04812048 in  () at /usr/lib/libnvidia-opencl.so.1
+#5  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#6  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 11 (Thread 0x7f5b00e0f700 (LWP 2406896)):
+#0  0x00007f5b3043a8f4 in do_futex_wait.constprop () at /usr/lib/libpthread.so.0
+#1  0x00007f5b3043a9f8 in __new_sem_wait_slow.constprop.0 () at /usr/lib/libpthread.so.0
+#2  0x00007f5b04810017 in  () at /usr/lib/libnvidia-opencl.so.1
+#3  0x00007f5b046d7b96 in  () at /usr/lib/libnvidia-opencl.so.1
+#4  0x00007f5b04812048 in  () at /usr/lib/libnvidia-opencl.so.1
+#5  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#6  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 10 (Thread 0x7f5b01610700 (LWP 2406895)):
+#0  0x00007f5b3043a8f4 in do_futex_wait.constprop () at /usr/lib/libpthread.so.0
+#1  0x00007f5b3043a9f8 in __new_sem_wait_slow.constprop.0 () at /usr/lib/libpthread.so.0
+#2  0x00007f5b04810017 in  () at /usr/lib/libnvidia-opencl.so.1
+#3  0x00007f5b046d7b96 in  () at /usr/lib/libnvidia-opencl.so.1
+#4  0x00007f5b04812048 in  () at /usr/lib/libnvidia-opencl.so.1
+#5  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#6  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 9 (Thread 0x7f5b01e11700 (LWP 2406894)):
+#0  0x00007f5b3043a8f4 in do_futex_wait.constprop () at /usr/lib/libpthread.so.0
+#1  0x00007f5b3043a9f8 in __new_sem_wait_slow.constprop.0 () at /usr/lib/libpthread.so.0
+#2  0x00007f5b04810017 in  () at /usr/lib/libnvidia-opencl.so.1
+#3  0x00007f5b046d7b96 in  () at /usr/lib/libnvidia-opencl.so.1
+#4  0x00007f5b04812048 in  () at /usr/lib/libnvidia-opencl.so.1
+#5  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#6  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 8 (Thread 0x7f5b02b8d700 (LWP 2406893)):
+#0  0x00007f5b30438158 in pthread_cond_timedwait@@GLIBC_2.3.2 () at /usr/lib/libpthread.so.0
+#1  0x00007f5b04812dc7 in  () at /usr/lib/libnvidia-opencl.so.1
+#2  0x00007f5b047b16a7 in  () at /usr/lib/libnvidia-opencl.so.1
+#3  0x00007f5b04812048 in  () at /usr/lib/libnvidia-opencl.so.1
+#4  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#5  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 7 (Thread 0x7f5b0338e700 (LWP 2406892)):
+#0  0x00007f5b3035605f in poll () at /usr/lib/libc.so.6
+#1  0x00007f5b0480f9c3 in  () at /usr/lib/libnvidia-opencl.so.1
+#2  0x00007f5b048bd8aa in  () at /usr/lib/libnvidia-opencl.so.1
+#3  0x00007f5b04812048 in  () at /usr/lib/libnvidia-opencl.so.1
+#4  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#5  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 6 (Thread 0x7f5b1ffff700 (LWP 2406891)):
+#0  0x00007f5b3035605f in poll () at /usr/lib/libc.so.6
+#1  0x00007f5b30630f38 in  () at /usr/lib/libglib-2.0.so.0
+#2  0x00007f5b305e1c03 in g_main_loop_run () at /usr/lib/libglib-2.0.so.0
+#3  0x00007f5b308121a8 in  () at /usr/lib/libgio-2.0.so.0
+#4  0x00007f5b3060b511 in  () at /usr/lib/libglib-2.0.so.0
+#5  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#6  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 5 (Thread 0x7f5b2cd46700 (LWP 2406890)):
+#0  0x00007f5b3035605f in poll () at /usr/lib/libc.so.6
+#1  0x00007f5b30630f38 in  () at /usr/lib/libglib-2.0.so.0
+#2  0x00007f5b305e2221 in g_main_context_iteration () at /usr/lib/libglib-2.0.so.0
+#3  0x00007f5b305e2272 in  () at /usr/lib/libglib-2.0.so.0
+#4  0x00007f5b3060b511 in  () at /usr/lib/libglib-2.0.so.0
+#5  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#6  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 4 (Thread 0x7f5b2e2b8700 (LWP 2406876)):
+#0  0x00007f5b3035b71d in syscall () at /usr/lib/libc.so.6
+#1  0x00007f5b3062b101 in g_cond_wait () at /usr/lib/libglib-2.0.so.0
+#2  0x00007f5b30bdd154 in  () at /usr/lib/libgegl-0.4.so.0
+#3  0x00007f5b3060b511 in  () at /usr/lib/libglib-2.0.so.0
+#4  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#5  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 3 (Thread 0x7f5b2eab9700 (LWP 2406875)):
+#0  0x00007f5b3035b71d in syscall () at /usr/lib/libc.so.6
+#1  0x00007f5b3062b101 in g_cond_wait () at /usr/lib/libglib-2.0.so.0
+#2  0x00007f5b30bdd154 in  () at /usr/lib/libgegl-0.4.so.0
+#3  0x00007f5b3060b511 in  () at /usr/lib/libglib-2.0.so.0
+#4  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#5  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 2 (Thread 0x7f5b2f2ba700 (LWP 2406874)):
+#0  0x00007f5b3035b71d in syscall () at /usr/lib/libc.so.6
+#1  0x00007f5b3062b101 in g_cond_wait () at /usr/lib/libglib-2.0.so.0
+#2  0x00007f5b30bdd154 in  () at /usr/lib/libgegl-0.4.so.0
+#3  0x00007f5b3060b511 in  () at /usr/lib/libglib-2.0.so.0
+#4  0x00007f5b30431422 in start_thread () at /usr/lib/libpthread.so.0
+#5  0x00007f5b30360bf3 in clone () at /usr/lib/libc.so.6
+
+Thread 1 (Thread 0x7f5b2f840500 (LWP 2406873)):
+#0  0x00007f5b3043b87c in read () at /usr/lib/libpthread.so.0
+#1  0x00007f5b3145262c in gimp_stack_trace_print () at /usr/lib/libgimpbase-2.0.so.0
+#2  0x000055589974d5e4 in  ()
+#3  0x000055589974da48 in  ()
+#4  0x000055589974e0db in  ()
+#5  0x00007f5b3043c960 in <signal handler called> () at /usr/lib/libpthread.so.0
+#6  0x00007f5b30c2c802 in  () at /usr/lib/libgegl-0.4.so.0
+#7  0x00007f5b30c08744 in gegl_buffer_iterator_next () at /usr/lib/libgegl-0.4.so.0
+#8  0x00007f5b1c054e93 in  () at /usr/lib/gegl-0.4/gegl-common-cxx.so
+#9  0x00007f5b30bdc3dd in  () at /usr/lib/libgegl-0.4.so.0
+#10 0x00007f5b30be1ddf in gegl_parallel_distribute () at /usr/lib/libgegl-0.4.so.0
+#11 0x00007f5b30be25ef in gegl_parallel_distribute_area () at /usr/lib/libgegl-0.4.so.0
+#12 0x00007f5b1c054be2 in  () at /usr/lib/gegl-0.4/gegl-common-cxx.so
+#13 0x00007f5b30c374b3 in gegl_operation_process () at /usr/lib/libgegl-0.4.so.0
+#14 0x00007f5b30c3afc9 in gegl_graph_process () at /usr/lib/libgegl-0.4.so.0
+#15 0x00007f5b30c3b43c in gegl_eval_manager_apply () at /usr/lib/libgegl-0.4.so.0
+#16 0x00007f5b30c2362e in gegl_node_blit_buffer () at /usr/lib/libgegl-0.4.so.0
+#17 0x0000555899bc75ca in gimp_tile_handler_validate_validate ()
+#18 0x0000555899b2d382 in  ()
+#19 0x0000555899b2d43e in  ()
+#20 0x0000555899b2d489 in  ()
+#21 0x00007f5b305e3340 in g_main_context_dispatch () at /usr/lib/libglib-2.0.so.0
+#22 0x00007f5b30630fa9 in  () at /usr/lib/libglib-2.0.so.0
+#23 0x00007f5b305e1c03 in g_main_loop_run () at /usr/lib/libglib-2.0.so.0
+#24 0x000055589974cd2e in app_run ()
+#25 0x000055589974c5ca in main ()
+[Inferior 1 (process 2406873) detached]

@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Office Suite
+Exec=/usr/bin/env libreoffice %u

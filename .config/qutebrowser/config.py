@@ -79,7 +79,6 @@ except:
     base_font = "11pt Monospace"
 
 c.fonts.hints = 'bold ' + base_font
-c.fonts.tabs = base_font
 c.fonts.downloads = base_font
 c.fonts.completion.entry = base_font
 c.fonts.completion.category = 'bold ' + base_font
@@ -90,7 +89,8 @@ c.fonts.messages.info = base_font
 c.fonts.messages.warning = base_font
 c.fonts.prompts = base_font
 c.fonts.statusbar = base_font
-c.fonts.tabs = base_font
+c.fonts.tabs.selected = base_font
+c.fonts.tabs.unselected = base_font
 
 c.new_instance_open_target = 'window'
 c.tabs.title.format = '{index} {current_title}'

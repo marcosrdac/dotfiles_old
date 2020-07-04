@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml>
+  <body>
+    <outline text="TED Radio Hour" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=510298" />
+    <outline text="TED Radio Hour" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=510298" htmlUrl="http://www.npr.org/programs/ted-radio-hour/" />
+    <outline text="Mamilos" type="rss" xmlUrl="http://feeds.feedburner.com/mamilos" htmlUrl="http://www.brainstorm9.com.br/mamilos" />
+    <outline text="AntiCast" type="rss" xmlUrl="http://feeds.feedburner.com/anticastdesign" htmlUrl="http://www.anticast.com.br" />
+    <outline text="Radiolab" type="rss" xmlUrl="http://feeds.wnyc.org/radiolab" htmlUrl="http://www.radiolab.org/series/podcasts/" />
+    <outline text="Rádiofobia Podcast Network" type="rss" xmlUrl="http://radiofobia.com.br/podcast/category/podcast/feed/" htmlUrl="http://radiofobia.com.br/podcast/category/podcast/" />
+    <outline text="Talk the Talk" type="rss" xmlUrl="http://danielmidgley.com/talkthetalk/talk.xml" htmlUrl="http://www.talkthetalkpodcast.com" />
+    <outline text="Projeto Humanos" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:142144128/sounds.rss" htmlUrl="http://soundcloud.com/projetohumanos" />
+    <outline text="A Voz de Delirium" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:133821066/sounds.rss" htmlUrl="http://feeds.feedburner.com/avozdedelirium" />
+    <outline text="Não Obstante" type="rss" xmlUrl="http://feeds.feedburner.com/naoobstante" htmlUrl="http://www.naoobstante.com/" />
+    <outline text="Ficções" type="rss" xmlUrl="https://www.marcosramon.net/ficcoes?format=rss" htmlUrl="https://www.marcosramon.net/ficcoes/" />
+    <outline text="NerdCast" type="rss" xmlUrl="https://jovemnerd.com.br/feed-nerdcast/" htmlUrl="https://jovemnerd.com.br/feed-nerdcast/" />
+    <outline text="Bibotalk – Teologia é nosso esporte!" type="rss" xmlUrl="http://bibotalk.com/feed/podcast" htmlUrl="http://bibotalk.com" />
+    <outline text="BBC Radio Podcasts" type="include" url="http://www.bbc.co.uk/podcasts.opml" />
+    <outline text="Braincast" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:2604591/sounds.rss" htmlUrl="http://www.brainstorm9.com.br" />
+    <outline text="English as a Second Language (ESL) Podcast - Learn English Online" type="rss" xmlUrl="http://eslpod.com/feed.xml" htmlUrl="http://www.eslpod.com" />
+    <outline text="Grammar Girl Quick and Dirty Tips for Better Writing" type="rss" xmlUrl="http://www.quickanddirtytips.com/grammar.xml" htmlUrl="http://www.quickanddirtytips.com/grammar-girl" />
+    <outline text="Uma nêspera no cu" type="rss" xmlUrl="http://feeds.feedburner.com/nnc123456nespera" htmlUrl="https://nesperanocu.wordpress.com" />
+    <outline text="Welcome to Night Vale" type="rss" xmlUrl="http://nightvale.libsyn.com/rss" htmlUrl="http://welcometonightvale.com" />
+    <outline text="Xadrez Verbal" type="rss" xmlUrl="http://www.central3.com.br/category/podcasts/xadrez-verbal/feed/" htmlUrl="http://www.central3.com.br/programa/xadrez-verbal" />
+    <outline text="Zing" type="rss" xmlUrl="http://feeds.feedburner.com/soundcloud/KhQN" htmlUrl="http://www.alexmaron.com.br" />
+    <outline text="Upvoted by Reddit" type="rss" xmlUrl="http://upvoted.libsyn.com/rss" htmlUrl="http://www.reddit.com/r/Upvoted" />
+    <outline text="Três Páginas" type="rss" xmlUrl="http://feeds.feedburner.com/trespaginas" htmlUrl="http://www.trespaginas.com.br" />
+    <outline text="Salvo Melhor Juízo" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:187785133/sounds.rss" htmlUrl="http://www.salvomelhorjuizo.com" />
+    <outline text="Osmozzy" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:143028187/sounds.rss" htmlUrl="http://soundcloud.com/osmozzy" />
+    <outline text="O Norte" type="rss" xmlUrl="http://www.blubrry.com/feeds/onorte.xml" htmlUrl="http://www.blubrry.com/onorte/" />
+    <outline text="Mixórdia de Temáticas - Rádio Comercial" type="rss" xmlUrl="http://feeds.feedburner.com/mixordiadetematicas" htmlUrl="http://radiocomercial.iol.pt/player/mixordia-de-tematicas" />
+    <outline text="Mitografias" type="rss" xmlUrl="http://www.mitografias.com.br/feed/" htmlUrl="http://www.mitografias.com.br" />
+    <outline text="MCMP – Philosophy of Mathematics" type="rss" xmlUrl="https://deimos.apple.com/WebObjects/Core.woa/GetRSS/lmu.de-dz.24543373213.024543373215?U=https%3A%2F%2Fcast.itunes.uni-muenchen.de%2Fvod%2Fplaylists%2FFnhQA4VVSh%2Fquicktime.rss" htmlUrl="https://cast.itunes.uni-muenchen.de/vod/playlists/FnhQA4VVSh.html" />
+    <outline text="MCMP – Mathematical Philosophy (Archive 2011/12)" type="rss" xmlUrl="https://deimos.apple.com/WebObjects/Core.woa/GetRSS/lmu.de-dz.7985560812.07985560814?U=https%3A%2F%2Fcast.itunes.uni-muenchen.de%2Fvod%2Fplaylists%2FXTmjGCoKQp%2Fquicktime.rss" htmlUrl="https://cast.itunes.uni-muenchen.de/vod/playlists/XTmjGCoKQp.html" />
+    <outline text="Marcos Conceição" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:244068162/sounds.rss" htmlUrl="http://soundcloud.com/marcos-conceicao-139445598" />
+    <outline text="Fronteiras da Ciência" type="rss" xmlUrl="http://www.if.ufrgs.br/~arenzon/fronteirasdaciencia.xml" htmlUrl="http://frontdaciencia.ufrgs.br" />
+    <outline text="Caustic Soda" type="rss" xmlUrl="https://causticsodapodcast.com/feed/" htmlUrl="https://causticsodapodcast.com" />
+    <outline text="99Vidas" type="rss" xmlUrl="http://feeds.feedburner.com/99vidaspodcast" htmlUrl="http://99vidas.com.br/?p=" />
+  </body>
+</opml>

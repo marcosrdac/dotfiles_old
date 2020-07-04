@@ -1,0 +1,59 @@
+#!/bin/bash
+
+font='Font Awesome 5 Free Solid 11'
+foreground=$(xrdb -query | grep ^'*foreground' | awk '{print $NF}')
+background=$(xrdb -query | grep ^'*background' | awk '{print $NF}')
+label=""
+fg=$background
+bg=$foreground
+sp=" "
+full_text=""
+short_text=""
+
+status=$(dropbox-cli status)
+status=${status##*"
+"}
+
+if [[ $status = *"Up to date"* ]]
+then
+  fg=$foreground
+  bg=$background
+  sp=""
+else
+    if [[ $status = *"Uploading"* ]]
+    then
+        label=
+    elif [[ $status = *"Downloading"* ]]
+    then
+        label=
+    fi
+    status=${status% (*}
+    status=${status/Connecting.../}
+    status=${status/Syncing.../}
+    status=${status/Indexing/}
+    status=${status/Uploading/}
+    status=${status/Downloading/}
+    status=${status/"Dropbox isn't running!"/" Not running"}
+    status=${status/"Starting..."/}
+    status=${status/...}
+    status=${status/\"}
+    status=${status/\"}
+    status=${status/...}
+    full_text=$status
+fi
+
+if [[ "$bg" = "$foreground" ]]
+then
+    prespc=" "
+else
+    prespc=""
+fi
+
+echo "<span background=\""$bg"\" foreground=\""$fg"\">$prespc<span font=\""$font"\">$label</span>$full_text$prespc</span>"
+echo "<span background=\""$bg"\" foreground=\""$fg"\">$prespc<span font=\""$font"\">$label</span>$short_text$prespc</span>"
+
+case $BLOCK_BUTTON in
+  3) urxvt -e ranger ~/Dropbox ;;  # right click, mute/unmute
+  4) dropbox start ;; # scroll up, increase
+  5) dropbox stop ;; # scroll down, decrease
+esac

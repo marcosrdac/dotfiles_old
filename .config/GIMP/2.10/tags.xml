@@ -950,7 +950,7 @@
   <resource identifier="${gimp_data_dir}/patterns/Wood/wood1.pat" checksum="0c055f250ddbccc1b32d05f8c0ad7012">
   </resource>
 
-  <resource identifier="gimp-gradient-custom" checksum="4a878c6cfae0b0e03c0834723daadf92">
+  <resource identifier="gimp-gradient-custom" checksum="ecf036b8d4e14c21521abdd1cb471112">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="f3a21fae99695a8feac84cee0ddd716a">
@@ -1178,7 +1178,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="70b76cadff5130c953f3c668d52fb2af">
+  <resource identifier="gimp-palette-color-history" checksum="8069dc6829c27a9ff6db5b329cd4c0d6">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/[dog_boy_rosed_eyes_sunset]-(imported)-3.gpl" checksum="e097a9d1eb0b4fb14e8f4d26fb16fb25">
@@ -1397,6 +1397,9 @@
   <resource identifier="Alien Mushrooms" checksum="(null)">
   </resource>
 
+  <resource identifier="Almendra Display" checksum="(null)">
+  </resource>
+
   <resource identifier="Andale Mono" checksum="(null)">
   </resource>
 
@@ -1469,6 +1472,12 @@
   <resource identifier="Asana Math" checksum="(null)">
   </resource>
 
+  <resource identifier="Astloch" checksum="(null)">
+  </resource>
+
+  <resource identifier="Astloch Bold" checksum="(null)">
+  </resource>
+
   <resource identifier="AurulentSansMono Nerd Font" checksum="(null)">
   </resource>
 
@@ -1476,6 +1485,78 @@
   </resource>
 
   <resource identifier="AurulentSansMono NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="Averia Gruesa Libre" checksum="(null)">
+  </resource>
+
+  <resource identifier="Averia Serif Libre" checksum="(null)">
+  </resource>
+
+  <resource identifier="Averia Serif Libre Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Averia Serif Libre Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Averia Serif Libre Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Averia Serif Libre Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Averia Serif Libre Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bahiana" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhai 2," checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhai 2 Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhai 2 Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhai 2 Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhai 2 Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhaina 2," checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhaina 2 Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhaina 2 Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhaina 2 Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Bhaina 2 Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Tammudu 2," checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Tammudu 2 Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Tammudu 2 Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Tammudu 2 Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baloo Tammudu 2 Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bebas Neue" checksum="(null)">
   </resource>
 
   <resource identifier="Beccaria" checksum="(null)">
@@ -1535,6 +1616,18 @@
   <resource identifier="Bulgaria Moderna V3" checksum="(null)">
   </resource>
 
+  <resource identifier="Bungee Hairline" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bungee Inline" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bungee Outline" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bungee Shade" checksum="(null)">
+  </resource>
+
   <resource identifier="C059" checksum="(null)">
   </resource>
 
@@ -1545,6 +1638,12 @@
   </resource>
 
   <resource identifier="C059 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cabin Sketch" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cabin Sketch Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Cantarell" checksum="(null)">
@@ -1574,6 +1673,12 @@
   <resource identifier="Cantarell Ultra-Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Carton" checksum="(null)">
+  </resource>
+
+  <resource identifier="Carton Tall Caps" checksum="(null)">
+  </resource>
+
   <resource identifier="Caviar Dreams" checksum="(null)">
   </resource>
 
@@ -1584,6 +1689,15 @@
   </resource>
 
   <resource identifier="Caviar Dreams Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cinzel Decorative" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cinzel Decorative Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cinzel Decorative Heavy" checksum="(null)">
   </resource>
 
   <resource identifier="CodeNewRoman Nerd Font" checksum="(null)">
@@ -1611,6 +1725,21 @@
   </resource>
 
   <resource identifier="CodeNewRoman NF Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Prime" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Prime Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Prime Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Prime Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cute Font" checksum="(null)">
   </resource>
 
   <resource identifier="D050000L" checksum="(null)">
@@ -1694,6 +1823,9 @@
   <resource identifier="DejaVu Serif Semi-Condensed" checksum="(null)">
   </resource>
 
+  <resource identifier="Diamond" checksum="(null)">
+  </resource>
+
   <resource identifier="DreamOnly" checksum="(null)">
   </resource>
 
@@ -1704,6 +1836,21 @@
   </resource>
 
   <resource identifier="DroidSansMono NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="Envious" checksum="(null)">
+  </resource>
+
+  <resource identifier="Envious Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Envious Bold," checksum="(null)">
+  </resource>
+
+  <resource identifier="Envious Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Envious Italic," checksum="(null)">
   </resource>
 
   <resource identifier="Envy Code B 10pt" checksum="(null)">
@@ -1805,6 +1952,9 @@
   <resource identifier="FreeSerif Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Fruktur" checksum="(null)">
+  </resource>
+
   <resource identifier="FuraCode Nerd Font" checksum="(null)">
   </resource>
 
@@ -1877,6 +2027,9 @@
   <resource identifier="FuraMono NF Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="Germania One" checksum="(null)">
+  </resource>
+
   <resource identifier="GohuFont Nerd Font Medium" checksum="(null)">
   </resource>
 
@@ -1908,6 +2061,12 @@
   </resource>
 
   <resource identifier="Gohu GohuFont Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Graduate" checksum="(null)">
+  </resource>
+
+  <resource identifier="Gugi" checksum="(null)">
   </resource>
 
   <resource identifier="Hack Nerd Font Bold" checksum="(null)">
@@ -2120,6 +2279,12 @@
   <resource identifier="Hurmit NF Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="HyperFont" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iceland" checksum="(null)">
+  </resource>
+
   <resource identifier="Icons" checksum="(null)">
   </resource>
 
@@ -2147,7 +2312,7 @@
   <resource identifier="Inconsolata NF Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Latin Modern Math" checksum="(null)">
+  <resource identifier="Kumar One Outline" checksum="(null)">
   </resource>
 
   <resource identifier="Latin Modern Math" checksum="(null)">
@@ -2217,6 +2382,18 @@
   </resource>
 
   <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Latin Modern Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Letter Gothic Std" checksum="(null)">
+  </resource>
+
+  <resource identifier="Letter Gothic Std Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Letter Gothic Std Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Liberation Mono for Powerline" checksum="(null)">
@@ -2229,6 +2406,21 @@
   </resource>
 
   <resource identifier="Liberation Mono for Powerline Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lily Script One" checksum="(null)">
+  </resource>
+
+  <resource identifier="Magic5" checksum="(null)">
+  </resource>
+
+  <resource identifier="Magic5 Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Magic5 Bold," checksum="(null)">
+  </resource>
+
+  <resource identifier="Major Mono Display" checksum="(null)">
   </resource>
 
   <resource identifier="MathJax_AMS" checksum="(null)">
@@ -2297,10 +2489,19 @@
   <resource identifier="MathJax_Vector Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="Medula One" checksum="(null)">
+  </resource>
+
+  <resource identifier="Megrim Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Misery Loves Company" checksum="(null)">
   </resource>
 
   <resource identifier="MobiriseIcons" checksum="(null)">
+  </resource>
+
+  <resource identifier="Modak" checksum="(null)">
   </resource>
 
   <resource identifier="Modern Pictograms" checksum="(null)">
@@ -2328,6 +2529,9 @@
   </resource>
 
   <resource identifier="Monospace Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monoton" checksum="(null)">
   </resource>
 
   <resource identifier="mplus Nerd Font" checksum="(null)">
@@ -2831,6 +3035,18 @@
   <resource identifier="Nineteen Ninety Seven" checksum="(null)">
   </resource>
 
+  <resource identifier="OCRB" checksum="(null)">
+  </resource>
+
+  <resource identifier="OCRB" checksum="(null)">
+  </resource>
+
+  <resource identifier="OCRB" checksum="(null)">
+  </resource>
+
+  <resource identifier="Odibee Sans" checksum="(null)">
+  </resource>
+
   <resource identifier="Old printing press_FREE-version" checksum="(null)">
   </resource>
 
@@ -2915,6 +3131,15 @@
   <resource identifier="OpenDyslexic NF Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Overpass Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Overpass Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Overpass Mono Light" checksum="(null)">
+  </resource>
+
   <resource identifier="OverpassMono Nerd Font" checksum="(null)">
   </resource>
 
@@ -2949,6 +3174,9 @@
   </resource>
 
   <resource identifier="OverpassMono NF Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Overpass Mono Semi-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Overpass Nerd Font" checksum="(null)">
@@ -3095,6 +3323,27 @@
   <resource identifier="Overpass NF Ultra-Light Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Oxanium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Oxanium Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Oxanium Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Oxanium Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Oxanium Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Oxanium Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Oxanium Ultra-Light" checksum="(null)">
+  </resource>
+
   <resource identifier="Oxlade Demo" checksum="(null)">
   </resource>
 
@@ -3140,13 +3389,25 @@
   <resource identifier="Presley Press Italic, Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Press Start 2P" checksum="(null)">
+  </resource>
+
   <resource identifier="Press Style Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="ProFontWindows" checksum="(null)">
   </resource>
 
   <resource identifier="PUNKBABE" checksum="(null)">
   </resource>
 
+  <resource identifier="Raleway Dots" checksum="(null)">
+  </resource>
+
   <resource identifier="Rio2016 Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Saira Stencil One" checksum="(null)">
   </resource>
 
   <resource identifier="Sans-serif" checksum="(null)">
@@ -3176,6 +3437,18 @@
   <resource identifier="Serif Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Share" checksum="(null)">
+  </resource>
+
+  <resource identifier="Share Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Share Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Share Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="SH Pinscher Condensed" checksum="(null)">
   </resource>
 
@@ -3189,6 +3462,9 @@
   </resource>
 
   <resource identifier="Silkscreen Expanded, Expanded" checksum="(null)">
+  </resource>
+
+  <resource identifier="Snowburst One" checksum="(null)">
   </resource>
 
   <resource identifier="Something Strange" checksum="(null)">
@@ -3282,6 +3558,12 @@
   </resource>
 
   <resource identifier="Source Code Variable Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Srisakdi" checksum="(null)">
+  </resource>
+
+  <resource identifier="Srisakdi Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Standard Symbols PS" checksum="(null)">
@@ -3599,6 +3881,78 @@
   <resource identifier="TeX Gyre Termes Math" checksum="(null)">
   </resource>
 
+  <resource identifier="Tomorrow" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow weight=250" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow weight=250 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow weight=275" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tomorrow weight=275 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Turret Road" checksum="(null)">
+  </resource>
+
+  <resource identifier="Turret Road Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Turret Road Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Turret Road Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Turret Road Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Turret Road weight=275" checksum="(null)">
+  </resource>
+
   <resource identifier="Ubuntu" checksum="(null)">
   </resource>
 
@@ -3677,7 +4031,25 @@
   <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
   </resource>
 
+  <resource identifier="xkcd" checksum="(null)">
+  </resource>
+
+  <resource identifier="xkcd Script" checksum="(null)">
+  </resource>
+
   <resource identifier="Z003 Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZCOOL KuaiLe" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZX Palm" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZX Palm Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="ZX Palm Bold," checksum="(null)">
   </resource>
 
   <resource identifier="${gimp_data_dir}/tool-presets/Crop/16_10.gtp" checksum="(null)">

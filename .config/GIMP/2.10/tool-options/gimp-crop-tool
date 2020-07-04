@@ -4,8 +4,6 @@
 (aspect-numerator 16)
 (desired-fixed-size-height 0)
 (desired-fixed-size-width 0)
-(fixed-center yes)
-(fixed-rule-active yes)
 (guide golden)
 (overridden-fixed-aspect yes)
 

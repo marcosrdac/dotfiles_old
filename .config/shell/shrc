@@ -15,6 +15,7 @@ alias mv="mv -iv"
 alias free='free -h'
 alias df='df -h'
 alias du='du -h'
+alias duh="du -Sh | sort -h -r | more"
 alias shutdown='sudo shutdown'
 alias reboot='sudo reboot'
 alias poweroff='sudo poweroff'
@@ -109,3 +110,12 @@ _i_prefer gopass pass
 _i_prefer wakeonlan wol
 _i_prefer neomutt mutt
 unset _i_prefer
+
+
+# Replace every cd with cd+ls
+echo "$-" | grep -q "i" && cd() {
+    builtin cd "$@" && ls
+}
+
+#fortune 2>/dev/null
+

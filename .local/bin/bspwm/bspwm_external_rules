@@ -10,6 +10,15 @@ instance=$3
 
 case $class in
   Gimp) echo "desktop=^5" ;;
+  Inkscape)
+    #verify if tiling: future
+    echo "desktop=^6 state=tiled"
+    name=$(xdotool getwindowname $wid)
+    case $name in
+      *Inkscape) echo "locked=on" ;;
+      *) ;;
+    esac
+    ;;
   Zathura) echo "state=tiled" ;;
   ffplay)
     name=$(xdotool getwindowname $wid)

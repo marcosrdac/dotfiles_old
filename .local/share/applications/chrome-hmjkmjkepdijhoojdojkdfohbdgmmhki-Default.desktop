@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Google Keep - notes and lists
+Name=Google Keep - Notes and Lists
 Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=hmjkmjkepdijhoojdojkdfohbdgmmhki
 Icon=chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default
 StartupWMClass=crx_hmjkmjkepdijhoojdojkdfohbdgmmhki

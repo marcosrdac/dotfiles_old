@@ -1,97 +1,3 @@
-: open
-: q
-: help
-: set hidden!
-: set hidden!
-: q
-: set hidden!
-$ ]
-: unselect 
-: unselect 
-: q
-: set hidden!
-: q
-: recol 
-: reol
-: recol
-: recol 
-: recol
-: q
-: q
-: q
-: q
-: mkdir test
-$ mkdir test
-: q
-: q
-: recol 
-: q
-: clear
-: clear
-: clear
-: q
-: q
-: q
-: q
-: reload 
-: rename teste
-: rename 
-: rename 
-: rename /mnt/hdd/tmp/cryptingT
-: q
-: q
-: quit
-: rename test
-: q
-: q
-: q
-: q
-: find
-: q
-: q
-: q
-: q
-: echo
-: echo a
-: echo $id
-: mkdir maratonadev
-: q
-: mkdir oi
-: mkdir teste
-: mkdir a
-: mkdir
-: mkdir
-: delete
-: delete
-: delete
-: delete
-: delete
-: delete
-% chmod +x timer_ready 
-$ chmod +x $fx
-: recol
-: q
-: q
-: recol
-: mkdir
-: rename
-: mkdir maratonadev
-: mkdir maratonadev
-: mkdir a ss
-: mkdir a
-: mkdir a s
-: set number
-: set relativenumber
-: mkdir 
-: mkdir
-: mkdir teste
-: q
-: mkdir test
-: mkdir t
-: mkdir t
-: mkdir a
-: mkdir sd
-: mkdir 
 : mkdir
 : mkdir 
 : mkdir 
@@ -898,3 +804,197 @@ $ chmod +x ttystartup
 : q
 $ ffprobe $f
 : touch audio.desktop
+: rename pres.md
+: touch julia.vim
+: q
+: q
+: q
+: q
+: q
+: rename python_envs
+: q
+: rename results_.csv
+: rename results.csv
+: emptytrash 
+: touch data.yaml
+: q
+: touch 2020052515
+: rename 2020052515.png
+: mkdir tmp
+: rename 20200524.png
+: rename 2020052515.png
+: load
+: reload
+: sxiv $fs
+! sxiv $fs
+: rename 2020052400.png
+: rename 2020052600_.png
+: touch testconvolve.py
+: rename 2020052711.png
+: sxiv $fs
+! sxiv $fs
+: rename 2020052800.png
+! sxiv $fs
+: rename 2020052800.png
+! qutebrowser $f
+: mkdir ufbatmp
+: touch segmodel.py
+: rename 2020052900.png
+: rename 2020060300.png
+! sxiv $fs
+: mkdir mpi4py
+: touch test0.py
+: touch mpi.py
+: rename mpi0.py
+! cp mpi0.py mpi1.py 
+: touch integral.py
+: rename integral_send_recv.py
+! cp integral_send_recv.py integral_bcast_reduce.py 
+: mkdir mpi_convolve.py
+: touch mpi_convolve.py
+: q
+: rename mpi4pyfft.py
+: rename mpi_convolve.py
+: mkdir wave_modeling
+: touch test.jl
+: q
+: rename test_modify_arg.jl
+: rename test_oldfunctions.jl
+: rename refference.jl
+: rename reff.jl
+: rename functions.jl
+: touch alch.md
+: q
+: q
+: rename libsuperlu.so.5_
+: q
+: q
+: touch new_reff.jl
+: touch propagate_new.jl
+: rename segmodel_5_2_1_5_10_0.png
+: wq
+: q
+: q
+: mkdir semantic2
+: rename style_.css
+: touch style.css
+: rename basic.css
+: rename cver
+: touch layout2.html 
+: rename todo.md
+: touch read.py
+: rename written
+: rename write_read.jl
+: rename stringtest.jl
+: rename string_test
+: rename string_test.jl
+: mkdir serialize
+: mkdir raw_write_read
+: rename raw
+: mkdir string_file
+: rename read_ascii
+: q
+: rename segmentation_variables.svg
+: testsegmentations
+: mkdir segmentation_tests
+: rename 2020062000.png
+: rename 2020062200.png
+: reload
+: touch testconvolve.py
+: rename frente.jpg
+: rename verso.jpg
+: extract 
+: q
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: extract 
+: q
+: rename minecraft
+: rename Minecraft
+: q
+: q
+: emptytrash 
+: rename expenses_example.yaml
+: rename incomes_example.yaml
+$ chmod +x $fs
+: reload
+: redraw
+: load
+: load
+: draw
+$ chmod +x $f
+: reload
+& rm -r zips/
+: rename fracdim_block
+: mkdir los
+: rename wave_propagation_data
+: rename youtube-dl
+: rename youtube-music
+: mkdir big_files
+: rename big
+: rename ufba
+: rename articles
+: rename flutter_apps
+: rename test_fs
+: rename About undignity.wav
+: mkdir inkscape_learning
+: rename before_block_deixar_felipe_a_par.md
+: rename colors-meaning-circle.jpg
+: rename colors-meaning-table.jpg
+: q
+$ vim user-dirs.dirs
+: reload
+: load
+: load
+: reaload
+: reload
+: q
+& audios
+& rm audios
+: rename mus
+: rename bux
+: rename dox
+: rename pix
+: rename prj
+& rm documents pictures projects
+& rm wallpapers
+: rename tpt
+! readlink $f
+! readlink $f
+: rename templates
+: emptytrash 
+: rename mov
+: rename srs
+: rename crs
+& rm dox
+: load
+& rm todo.md
+& rm pix
+: mkdir cld
+: rename cld_PORMEGAAQUI
+: mkdir pub
+: mkdir res
+: mkdir folders.mdd
+: touch folders.md
+& rm -r books
+: rename art
+: mkdir home
+: rename 20180829_exercise.mp4
+: rename 201805251848_exercises.mp4
+: rename 20180719_dancing_king_crimson.mp4
+: rename 20180525_exercise.mp4
+: rename 20180826_meditation.mp4

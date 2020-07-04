@@ -16,14 +16,14 @@
     (open-on-exit)
     (aux-info
         (left-docks-width "58")
-        (right-docks-width "245")
+        (right-docks-width "246")
         (maximized "no"))
     (gimp-toolbox
         (side left))
     (gimp-dock
         (side right)
         (book
-            (current-page 10)
+            (current-page 1)
             (dockable "gimp-tool-options"
                 (tab-style preview)
                 (aux-info
@@ -69,7 +69,7 @@
                 (aux-info
                     (show-button-bar "true")
                     (edit-active "true")
-                    (current-data "Abstract 1")))
+                    (current-data "Aneurism")))
             (dockable "gimp-histogram-editor"
                 (tab-style automatic))
             (dockable "gimp-undo-history"
@@ -82,7 +82,7 @@
                     (edit-active "true")
                     (current-data "Chalk 01"))))
         (book
-            (position 493)
+            (position 416)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
@@ -100,22 +100,22 @@
     (size 832 695))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 343 13)
-    (size 673 736))
+    (position 0 6)
+    (size 1365 749))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 456 194))
+    (position 469 210))
 (session-info "toplevel"
     (factory-entry "gimp-scale-tool-dialog")
     (position 0 0))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 343 3)
-    (size 673 756))
+    (position 0 6)
+    (size 1365 749))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 343 3)
-    (size 673 756))
+    (position 0 6)
+    (size 1365 749))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
     (position 462 239))
@@ -133,14 +133,14 @@
     (position 24 140))
 (session-info "toplevel"
     (factory-entry "gimp-threshold-tool-dialog")
-    (position 495 209))
+    (position 495 199))
 (session-info "toplevel"
     (factory-entry "gimp-desaturate-tool-dialog")
     (position 227 179))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 476 101)
-    (size 408 559))
+    (position 476 87)
+    (size 408 587))
 (session-info "toplevel"
     (factory-entry "gimp-palette-import-dialog")
     (position 730 20)
@@ -150,8 +150,8 @@
     (position 495 246))
 (session-info "toplevel"
     (factory-entry "gimp-levels-tool-dialog")
-    (position 774 152)
-    (size 428 547))
+    (position 466 104)
+    (size 428 553))
 (session-info "toplevel"
     (factory-entry "gimp-palette-editor-color-dialog")
     (position 0 0))
@@ -175,7 +175,7 @@
     (position 2 270))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 145 121))
+    (position 495 255))
 (session-info "toplevel"
     (factory-entry "gimp-unified-transform-tool-dialog")
     (position 0 0))

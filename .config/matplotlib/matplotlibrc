@@ -1,0 +1,4 @@
+#backend : Agg     # use wxpython with antigrain (agg) rendering
+#backend : Qt5Agg  # use wxpython with antigrain (agg) rendering
+#backend : TkAgg   # use wxpython with antigrain (agg) rendering
+backend : WXAgg    # use wxpython with antigrain (agg) rendering

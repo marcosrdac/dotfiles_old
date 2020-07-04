@@ -1,8 +1,11 @@
 #!/bin/bash
 
-if [ $(bspc query -N -n focused.$1) ]
+prev=tiled
+new=$1
+
+if [ $(bspc query -N -n focused.$new) ]
 then
-  bspc node -t tiled
+  bspc node -t $prev
 else
-  bspc node -t $1
+  bspc node -t $new
 fi
