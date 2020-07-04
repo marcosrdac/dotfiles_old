@@ -1,9 +1,0 @@
-#!/usr/bin/env sh
-
-drives="$(lsblk -nrpo "name,size,rm,fstype,mountpoint" | awk '$3=="1" && $5!="" {printf "%s (%s)\n", $1,$2}')"
-[ -z "$drives" ] && exit
-
-chosen=$(echo "$drives" | menu -p "unmount drive:" | awk '{print $1}')
-[ -z "$chosen" ] && exit
-
-udevil umount "$chosen" && pgrep -x dunst && notify-send "$chosen unmounted."
