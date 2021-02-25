@@ -44,7 +44,7 @@ inherit = bar/base
 ; modules position
 modules-left   = bspwm xkeyboard
 modules-center = mpd
-modules-right  = remainder recording wlan eth pulseaudio brightness battery pomodoro date time
+modules-right  = remainder recording wlan eth pulseaudio brightness battery timer date time
 ; tray position
 tray-position   = left
 tray-padding    = 2
@@ -68,7 +68,7 @@ inherit = bar/base
 ; modules position
 modules-left   = bspwm
 modules-center =
-modules-right  = remainder recording wlan eth pulseaudio brightness battery pomodoro date time
+modules-right  = remainder recording wlan eth pulseaudio brightness battery timer date time
 
 
 ; three moonitors
@@ -96,7 +96,7 @@ inherit = bar/base
 ; modules position
 modules-left   = bspwm
 modules-center =
-modules-right  = remainder recording wlan eth pulseaudio brightness battery pomodoro date time
+modules-right  = remainder recording wlan eth pulseaudio brightness battery timer date time
 
 
 ; --- modules --- ;
@@ -116,12 +116,12 @@ label-focused-padding  = 2
 label-occupied-padding = 2
 label-urgent-padding   = 2
 ; modes
-label-monocle   = " %{T1}%{T-} "
-label-floating  = " %{T1}%{T-} "
-label-locked    = " %{T1}%{T-} "
-label-sticky    = " %{T1}%{T-} "
-label-private   = " %{T1}%{T-} "
-label-marked    = " %{T1}%{T-} "
+label-monocle   = " %{T2}%{T-} "
+label-floating  = " %{T2}%{T-} "
+label-locked    = " %{T2}%{T-} "
+label-sticky    = " %{T2}%{T-} "
+label-private   = " %{T2}%{T-} "
+label-marked    = " %{T2}%{T-} "
 ; states formating
 label-focused-background = ${colors.foreground}
 label-focused-foreground = ${colors.background}
@@ -149,7 +149,7 @@ exec = polybar_read_remainder
 tail = true
 label = " %output% "
 label-background = ${colors.primary}
-label-foreground = ${colors.foreground}
+label-foreground = ${colors.background}
 format = <label>
 click-left = dm_bar_write_remainder
 click-middle = polybar_write_remainder -r
@@ -195,8 +195,8 @@ type = internal/mpd
 enable-scroll = true
 label-song-maxlen = 70
 label-song-ellipsis = true
-;label-song = " %{T1}%{T-} %title% - %artist% "
-label-song = " %{T1}%{T-} %title% "
+;label-song = " %{T2}%{T-} %title% - %artist% "
+label-song = " %{T2}%{T-} %title% "
 format-online  = %{A1:mpc toggle:}%{A6:mpc_show:}%{A2:mpc stop:}%{A3:bspwm_toggle_hidden dropdown_music_player:}%{A4:mpc prev:}%{A5:mpc next:} <label-song> %{A}%{A}%{A}%{A}%{A}%{A}
 format-stopped =
 
@@ -208,7 +208,7 @@ tail = true
 label = " %output% "
 label-background = ${colors.secondary}
 label-foreground = ${colors.background}
-format = %{T1}<label>%{T-}
+format = %{T2}<label>%{T-}
 format-background = ${colors.foreground}
 format-foreground = ${colors.background}
 click-left = dm_recording_menu
@@ -221,9 +221,9 @@ interval = 5.0
 
 label-disconnected-foreground = ${colors.alert}
 label-connected = "%{A1:networkmanager_dmenu &:}%essid%%{A}"
-label-disconnected = "%{A1:networkmanager_dmenu &:}%{T1} %{T-}%{A}"
+label-disconnected = "%{A1:networkmanager_dmenu &:}%{T2} %{T-}%{A}"
 
-ramp-signal-0 = %{T1}%{T-}
+ramp-signal-0 = %{T2}%{T-}
 ;ramp-signal-foreground = ${colors.foreground-alt}
 format-connected = <ramp-signal> <label-connected>
 format-disconnected = <label-disconnected>
@@ -231,11 +231,24 @@ click-left = networkmanager_dmenu &
 click-right = networkmanager_dmenu &
 
 
+[module/timer]
+type = custom/script
+exec = show_timer
+tail = true
+label = "%output%"
+format-prefix = " %{T2}%{T-} "
+format = " <label> "
+;format-background = ${colors.secondary}
+;format-foreground = ${colors.foreground}
+format-background = ${colors.alert}
+format-foreground = ${colors.background}
+
+
 [module/eth]
 type = internal/network
 interval = 5.0
 interface = enp2s0f1
-format-connected-prefix = "%{T1}%{T-} "
+format-connected-prefix = "%{T2}%{T-} "
 format-disconnected =
 
 
@@ -244,18 +257,18 @@ type = internal/pulseaudio
 format-volume = <ramp-volume> <label-volume>
 ;format-prefix-foreground = ${colors.foreground-alt}
 label-muted-foreground = ${colors.alert}
-ramp-volume-0 = %{T1}%{T-}
-ramp-volume-1 = %{T1}%{T-}
-ramp-volume-2 = %{T1}%{T-}
-ramp-volume-3 = %{T1}%{T-}
-ramp-volume-4 = %{T1}%{T-}
-ramp-volume-5 = %{T1}%{T-}
-ramp-volume-6 = %{T1}%{T-}
-ramp-volume-7 = %{T1}%{T-}
-ramp-volume-8 = %{T1}%{T-}
+ramp-volume-0 = %{T2}%{T-}
+ramp-volume-1 = %{T2}%{T-}
+ramp-volume-2 = %{T2}%{T-}
+ramp-volume-3 = %{T2}%{T-}
+ramp-volume-4 = %{T2}%{T-}
+ramp-volume-5 = %{T2}%{T-}
+ramp-volume-6 = %{T2}%{T-}
+ramp-volume-7 = %{T2}%{T-}
+ramp-volume-8 = %{T2}%{T-}
 ramp-volume-8-foreground = ${colors.secondary}
 label-volume = %percentage%
-label-muted = %{T1}%{T-} %percentage%
+label-muted = %{T2}%{T-} %percentage%
 
 
 [module/brightness]
@@ -264,7 +277,7 @@ type = internal/backlight
 card = intel_backlight
 label = %percentage%
 format = %{A1:brightnessctl s 1%:}%{A2:brightnessctl s 30%:}%{A3:brightnessctl s 100%:}%{A4:brightnessctl s +5%:}%{A5:brightnessctl s 5%-:}<ramp> <label>%{A}%{A}%{A}%{A}%{A}
-ramp-0 = "%{T1}%{T-}"
+ramp-0 = "%{T2}%{T-}"
 
 
 [module/battery]
@@ -278,32 +291,28 @@ format-charging    = <animation-charging> <label-charging>
 label-discharging = %percentage%
 label-charging    = %percentage%
 ; ramp icons
-ramp-capacity-0 = "%{T1}%{T-}"
-ramp-capacity-1 = "%{T1}%{T-}"
-ramp-capacity-2 = "%{T1}%{T-}"
-ramp-capacity-3 = "%{T1}%{T-}"
-ramp-capacity-4 = "%{T1}%{T-}"
+ramp-capacity-0 = "%{T2}%{T-}"
+ramp-capacity-1 = "%{T2}%{T-}"
+ramp-capacity-2 = "%{T2}%{T-}"
+ramp-capacity-3 = "%{T2}%{T-}"
+ramp-capacity-4 = "%{T2}%{T-}"
 ; ramp formating
 ramp-capacity-1-foreground = ${colors.alert}
 ramp-capacity-0-foreground = ${colors.secondary}
 ; animation
 animation-charging-framerate = 750
-animation-charging-0 = "%{T1}%{T-}"
-animation-charging-1 = "%{T1}%{T-}"
-animation-charging-2 = "%{T1}%{T-}"
-animation-charging-3 = "%{T1}%{T-}"
-animation-charging-4 = "%{T1}%{T-}"
-
-
-[module/pomodoro]
-type = custom/script
+animation-charging-0 = "%{T2}%{T-}"
+animation-charging-1 = "%{T2}%{T-}"
+animation-charging-2 = "%{T2}%{T-}"
+animation-charging-3 = "%{T2}%{T-}"
+animation-charging-4 = "%{T2}%{T-}"
 
 
 [module/date]
 type = custom/script
 interval = 1
 exec = ~/.local/bin/polybar/polybar_date_calendar
-format-prefix = "%{T1}%{T-} "
+format-prefix = "%{T2}%{T-} "
 click-left = ~/.local/bin/polybar/polybar_date_calendar --popup &
 
 
@@ -312,9 +321,23 @@ type = internal/date
 interval = 1
 time = "%H%M%S"
 ;format-prefix-foreground = "${colors.foreground-alt}"
-format-prefix = "%{T1}%{T-} "
+format-prefix = "%{T2}%{T-} "
 label = "%time%"
 click-right = "st -e vim &"
+
+
+;[module/example]
+;type = custom/script
+;exec = show_timer
+;tail = true
+;;format-prefix-foreground = "${colors.foreground-alt}"
+;format-prefix = "%{T2}%{T-} "
+;label = "%output%"
+;label-background = ${colors.secondary}
+;label-foreground = ${colors.background}
+;format-background = ${colors.foreground}
+;format-foreground = ${colors.background}
+;format = "<label>"
 
 
 ; --- other settings --- ;

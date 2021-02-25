@@ -1,0 +1,185 @@
+#!/usr/bin/env bash
+
+case "$EDITOR" in
+  *vi*) VIMEDITOR=1 ;;
+  *)    VIMEDITOR=0 ;;
+esac
+
+XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-"$HOME/.local/run"}"
+RUN="$XDG_RUNTIME_DIR/$(basename $0)"
+[ -d "$RUN" ] || mkdir -p "$RUN"
+TMPFILES=
+please=
+
+editarray()
+{
+  VIM=${VIM:-vim}
+  OLDNAMES="$(mktemp "$RUN/oldnames.XXX")"
+  NEWNAMES="$(mktemp "$RUN/newnames.XXX")"
+
+  TMPFILES="$TMPFILES $OLDNAMES $NEWNAMES"
+
+  # initializing tmp files
+  for filename in "$@"
+  do
+    echo "$filename" >> "$OLDNAMES"
+  done 
+  cp "$OLDNAMES" "$NEWNAMES"
+
+  if [ "$VIMEDITOR" -eq 1 ]
+  then
+    $EDITOR -O "$NEWNAMES" \
+      -c "vert sview $OLDNAMES" \
+      -c "wincmd x" \
+      -c ":au BufWritePost $NEWNAMES :au BufLeave $NEWNAMES :qa"
+  else
+    $EDITOR "$NEWNAMES"
+  fi
+
+  [ "$(wc -l <"$NEWNAMES")" -eq $# ] || return 1
+  EDITED="$(<"$NEWNAMES")"
+}
+
+trap 'rm 2>/dev/null $TMPFILES; exit' EXIT
+trap 'rm 2>/dev/null $TMPFILES; kill -s INT $$' INT
+
+[ $# -eq 0 ] && set *
+[ -e "$1" ] || exit 1
+
+# re-edit files until number of files match
+declare -a old
+for ((i=0; i<$#; i=i+1))
+do let j=i+1
+  [ -w "${!j}" ] || please="sudo "
+  old[$i]="$(echo "${!j}" | sed -e ':a' -e 'N' -e '$!ba' \
+                                -e 's/\n/'\$\'\\\\n\''/g')"
+done
+
+# editing array
+while :
+do
+  editarray "${old[@]}" && break
+done
+IFS=$'\n'
+  declare -a new=($(echo "$EDITED"))
+unset IFS
+
+firstorduplicates=1
+while [ $firstorduplicates -eq 1 ]
+do
+  firstorduplicates=0
+  declare -a modified=($(for ((i=0; i<$#; i++)); do echo 0; done))
+  declare -a oldduplicate=($(for ((i=0; i<$#; i++)); do echo 0; done))
+  declare -a newduplicate=($(for ((i=0; i<$#; i++)); do echo 0; done))
+
+  for ((i=0; i<$#; i++))
+  do
+    [ "${new[i]}" != "${old[i]}" ] && modified[$i]=1
+    for ((j=0; j<$#; j++))
+    do
+      if [ $i -ne $j ]
+      then
+        [ "${new[i]}" = "${old[j]}" ] && oldduplicate[$i]=1 && oldduplicate[$j]=1
+        [ "${new[i]}" = "${new[j]}" ] && newduplicate[$i]=1
+      fi
+    done
+  done
+
+  #                         | modified | oldduplicate | newduplicate
+  # ----------------------- | -------- | ------------ | ------------
+  # newdup                  |     *    |      1       |      1      
+  # exchange                |     1    |      1       |      0      
+  # exchange+1 modification |     1    |      1       |      0
+  # modified                |     1    |      0       |      0      
+  # nothing                 |     0    |      0       |      0      
+
+  declare -a modes=()
+  declare -a duplicates=()
+  declare -a duplicatesidx=()
+  declare -a exchangesidx=()
+
+  for ((i=0; i<$#; i++))
+  do
+    if [ "${newduplicate[$i]}" -eq 1 ]   # duplicates
+    then
+      modes[$i]='d'
+      duplicatesidx+=("$i")
+      duplicates+=("${old[$i]}")
+    elif [ "${oldduplicate[$i]}" -eq 1 ] # exchange
+    then modes[$i]='e'
+      exchangesidx+=($i)
+    elif [ "${modified[$i]}" -eq 1 ]     # simply modified
+    then modes[$i]='m'
+    else
+      modes[$i]='n'
+    fi
+  done
+
+  if [ ${#duplicates} -ne 0 ]
+  then
+    while :
+    do
+      editarray "${duplicates[@]}" && break
+    done
+
+    IFS=$'\n'
+      declare -a duplicates=($(echo "$EDITED"))
+    unset IFS
+
+    for ((j=0; j<${#duplicates[@]}; j++))
+    do
+      let i=${duplicatesidx[$j]}
+      new[$i]=${duplicates[$j]}
+    done
+
+    #duplicates=()
+    #duplicatesidx=()
+    # greater loop just to make sure there are no problems with other old/new
+    firstorduplicates=1
+  fi
+done
+
+# CHECK IF THERE ARE ANY CHANGES, ELSE EXIT
+anythingmustbedone=0
+for ((i=0; i<${#modes[@]}; i++))
+do
+  [ "${modes[$i]}" != 'n' ] && anythingmustbedone=1
+done
+[ "${anythingmustbedone}" -eq 0 ] && exit 0
+
+
+# ASK FOR CONFIRMATION
+echo "CHANGES"
+echo "-------"
+for ((i=0; i<${#old[@]}; i++))
+do
+  [ "${modes[$i]}" != 'n' ] && echo "${old[$i]}	-->	${new[$i]}"
+done
+
+printf "%s" "accept changes? y/[n] "
+read accept
+if ! [ "$accept" = "y" -o  "$accept" = "Y" ]
+then
+  rm $TMPFILES
+  echo "No changes were done."
+  exit 0
+fi
+
+
+# user interaction ended
+# exchanged
+for ((j=0; j<${#exchangesidx[@]}; j++))
+do
+  let i=${exchangesidx[$j]}
+  exchangetmp="$(mktemp ${old[$i]}_tmp.XXXXXXX)"
+  TMPFILES="$TMPFILES $exchangetmp"
+  eval $please mv "${old[$i]}" "${exchangetmp}"
+  old[$i]="${exchangetmp}"
+done
+
+for ((i=0; i<${#old[@]}; i++))
+do
+  [ "${modes[$i]}" != 'n' ] && eval $please mv ${old[$i]} "${new[$i]}"
+done
+
+rm $TMPFILES 2>/dev/null

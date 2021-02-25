@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/tokyo_lights.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#022937",
+        "foreground": "#92c8c6",
+        "cursor": "#92c8c6"
+    },
+    "colors": {
+        "color0": "#022937",
+        "color1": "#8A3279",
+        "color2": "#8D497B",
+        "color3": "#3A9C6C",
+        "color4": "#2F628E",
+        "color5": "#A5338B",
+        "color6": "#B35499",
+        "color7": "#92c8c6",
+        "color8": "#668c8a",
+        "color9": "#8A3279",
+        "color10": "#8D497B",
+        "color11": "#3A9C6C",
+        "color12": "#2F628E",
+        "color13": "#A5338B",
+        "color14": "#B35499",
+        "color15": "#92c8c6"
+    }
+}

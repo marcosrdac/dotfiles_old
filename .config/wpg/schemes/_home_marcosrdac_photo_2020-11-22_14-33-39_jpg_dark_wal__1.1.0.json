@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/photo_2020-11-22_14-33-39.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0C10",
+        "foreground": "#eee1de",
+        "cursor": "#eee1de"
+    },
+    "colors": {
+        "color0": "#0A0C10",
+        "color1": "#B58975",
+        "color2": "#78708B",
+        "color3": "#788689",
+        "color4": "#B0A0A6",
+        "color5": "#D7B0A3",
+        "color6": "#E3C4BA",
+        "color7": "#eee1de",
+        "color8": "#a69d9b",
+        "color9": "#B58975",
+        "color10": "#78708B",
+        "color11": "#788689",
+        "color12": "#B0A0A6",
+        "color13": "#D7B0A3",
+        "color14": "#E3C4BA",
+        "color15": "#eee1de"
+    }
+}

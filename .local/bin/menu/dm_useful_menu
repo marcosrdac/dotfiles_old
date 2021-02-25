@@ -1,9 +1,12 @@
 #!/bin/sh
 
-chosen=$(dm_choose "system menu" 'restart bspwm' 'set keyboard' 'reload sxhkd' 'restart polybar' 'source .Xresources')
+chosen=$(dm_choose "system menu" 'set international keyboard' 'set brazilian keyboard' 'restart bspwm' 'reload sxhkd' 'restart polybar' 'source .Xresources')
 
 case "$chosen" in
-  "set keyboard")
+  "set international keyboard")
+    xdotool key Caps_Lock
+    setxkbmap -layout us -variant intl -option caps:swapescape ;;
+  "set brazilian keyboard")
     xdotool key Caps_Lock
     setxkbmap -layout br -option caps:swapescape ;;
   "restart bspwm")      bspc wm -r ;;

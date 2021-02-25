@@ -1,5 +1,5 @@
 # GIMP gimp-handle-transform-tool options
 
-(background (color-rgb 0.66666666666666674 0.66666666666666674 0.66666666666666674))
+(background (color-rgb 0 0 0))
 
 # end of gimp-handle-transform-tool options

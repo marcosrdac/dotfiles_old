@@ -1,0 +1,20 @@
+#!/bin/sh
+
+for filename in *.pdf
+do
+  case "${filename:0:1}" in
+    [0-9]) continue ;;
+  esac
+
+  newfilenamefile="/tmp/${filename:0:4}.fn"
+  touch "$newfilenamefile"
+  pdftotext "$filename" "$newfilenamefile"
+  vim "$newfilenamefile"
+
+  newfilename="$(sed 1q $newfilenamefile)"
+
+  [ -n "$newfilename" ] && mv "$filename" "${newfilename}.pdf"
+  lf -remote 'send reload'
+  rm "$newfilenamefile"
+done
+

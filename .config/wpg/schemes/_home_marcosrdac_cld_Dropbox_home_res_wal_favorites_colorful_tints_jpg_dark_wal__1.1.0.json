@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/colorful_tints.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b2b37",
+        "foreground": "#a2bfee",
+        "cursor": "#a2bfee"
+    },
+    "colors": {
+        "color0": "#0b2b37",
+        "color1": "#B447AC",
+        "color2": "#DD63AA",
+        "color3": "#906DDD",
+        "color4": "#DA65CB",
+        "color5": "#079AA8",
+        "color6": "#23AFD5",
+        "color7": "#a2bfee",
+        "color8": "#7185a6",
+        "color9": "#B447AC",
+        "color10": "#DD63AA",
+        "color11": "#906DDD",
+        "color12": "#DA65CB",
+        "color13": "#079AA8",
+        "color14": "#23AFD5",
+        "color15": "#a2bfee"
+    }
+}

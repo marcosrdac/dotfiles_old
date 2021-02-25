@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for i in / /home /boot /efi
+do
+	sudo fstrim -v "$i"
+done

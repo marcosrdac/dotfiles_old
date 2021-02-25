@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/vaporwave_chess_greek_statue_in_pink.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#091210",
+        "foreground": "#e9c4e9",
+        "cursor": "#e9c4e9"
+    },
+    "colors": {
+        "color0": "#091210",
+        "color1": "#1FA292",
+        "color2": "#46AEA9",
+        "color3": "#A696B3",
+        "color4": "#D893D8",
+        "color5": "#DA9FDF",
+        "color6": "#DF97E0",
+        "color7": "#e9c4e9",
+        "color8": "#a389a3",
+        "color9": "#1FA292",
+        "color10": "#46AEA9",
+        "color11": "#A696B3",
+        "color12": "#D893D8",
+        "color13": "#DA9FDF",
+        "color14": "#DF97E0",
+        "color15": "#e9c4e9"
+    }
+}

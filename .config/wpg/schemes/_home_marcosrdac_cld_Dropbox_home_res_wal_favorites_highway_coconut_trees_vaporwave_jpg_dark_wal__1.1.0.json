@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/highway_coconut_trees_vaporwave.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#242131",
+        "foreground": "#dab0de",
+        "cursor": "#dab0de"
+    },
+    "colors": {
+        "color0": "#242131",
+        "color1": "#454FAD",
+        "color2": "#7148A7",
+        "color3": "#6C58C5",
+        "color4": "#9150AD",
+        "color5": "#9159CB",
+        "color6": "#A660CE",
+        "color7": "#dab0de",
+        "color8": "#987b9b",
+        "color9": "#454FAD",
+        "color10": "#7148A7",
+        "color11": "#6C58C5",
+        "color12": "#9150AD",
+        "color13": "#9159CB",
+        "color14": "#A660CE",
+        "color15": "#dab0de"
+    }
+}

@@ -44,7 +44,7 @@ fi
 
 
 case $BLOCK_BUTTON in
-    1) echo $((now+break_time))    > /tmp/$alarm_file ;;     # left click
+    1) echo $((now+break_time))    > /tmp/$alarm_file ;;  # left click
     3) echo $((now+pomodoro_time)) > /tmp/$alarm_file ;;  # right click
     4) echo $((pomodoro_end+5*60)) > /tmp/$alarm_file ;;  # scroll
     5) echo $((pomodoro_end-5*60)) > /tmp/$alarm_file ;;  # scroll

@@ -11,10 +11,11 @@ alt + {h,j,k,l}
 	bspc node -f {west,south,north,east}
 # focus the next/previous node in the current desktop
 alt + {p,n}
-	bspc node -f {prev,next}.local
+	bspc node -f {next,prev}.local.!hidden.window
 # focus the last node/desktop CHANGE THE GRAVE
-alt + {apostrophe,Tab}
+alt + {dead_grave,Tab}
 	bspc {node,desktop} -f last
+#alt + {apostrophe,Tab}
 # focus or send to the given desktop
 alt + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
@@ -37,7 +38,7 @@ alt + shift + s
 # expand a window by moving one of its side outward
 alt + ctrl + {h,j,k,l}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
-# contract a window by moving one of its side inward
+# contract a window by moving one of its sides inward
 alt + ctrl + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
@@ -45,9 +46,10 @@ alt + ctrl + shift + {h,j,k,l}
 # --- misc --- #
 
 # gaps management
-#alt + r : {1-9,0}
-#	bspc config window_gap $(( 5 * {0-9} ))
-
+#supper + r : {1-9,0}
+	#bspc config window_gap $(( 5 * {0-9} ))
+super + bracket{left,right}
+	VAL=3; STEP={-$VAL,+$VAL}; GAP=$((`bspc config window_gap` + $STEP )); bspc config window_gap $GAP
 
 # --- modes --- #
 
@@ -120,20 +122,22 @@ alt + z ; {z,x,m,c}
 # --- scripts --- #
 
 # notifying scripts
-alt + c ; {e,shift+e,r,p,shift+p,m}
+alt + c ; {e,shift+e,r,p,shift+p,alt+c,m, n}
 	{networkmanager_dmenu, \
 	$TERMINAL -e nmtui, \
 	dm_bar_write_remainder, \
 	show_prim_clip, \
 	exchange_prim_clip; show_prim_clip, \
+	pickcolor, \
 	mpc_show}
 
 # running any scripts
-alt + x ; {shift+q,e,r,p,u, m}
+alt + x ; {shift+q,e,r,t,p,u, m}
 	{dm_power_menu, \
 	 emolog, \
 	 dm_recording_menu, \
-	 dm_polybar_pel, \
+	 toinbox, \
+	 dm_pomodoro, \
 	 dm_useful_menu, \
 	 $TERMINAL -e unimatrix}
 alt + x ; w ; {w,f,j;l,l;j,j;h,h;j,k;l,l;k,k;h,h;k}
@@ -142,14 +146,20 @@ alt + x ; w ; {w,f,j;l,l;j,j;h,h;j,k;l,l;k,k;h,h;k}
 alt + {shift + g}
 	{dm_bspwm_set_monocle_gaps}
 # running any scripts
-alt + e ; {s,e,r,p,l,v,b}
-	{$TERMINAL -e $EDITOR ~/.config/sxhkd/sxhkdrc && kill -USR1 $(pidof sxhkd) , \
-	 $TERMINAL -e $EDITOR ~/.config/shell/shenv , \
-	 $TERMINAL -e $EDITOR ~/.config/shell/shrc , \
-	 $TERMINAL -e $EDITOR ~/.config/polybar/config , \
-	 $TERMINAL -e $EDITOR ~/.config/lf/lfrc , \
-	 $TERMINAL -e $EDITOR ~/.config/nvim/init.vim , \
-	 $TERMINAL -e $EDITOR ~/.config/bspwm/bspwmrc}
+alt + e ; {s,e,r,t,u,p,l,c,v,b,n}
+	$TERMINAL -e $EDITOR \
+	{$XDG_CONFIG_HOME/sxhkd/sxhkdrc && kill -USR1 $(pidof sxhkd) , \
+	$XDG_CONFIG_HOME/shell/shenv , \
+	$XDG_CONFIG_HOME/shell/shrc , \
+	$XDG_DOCUMENTS_DIR/tmp/todo/index.md , \
+	$XDG_DOCUMENTS_DIR/pro/ufba/index.md , \
+	$XDG_CONFIG_HOME/polybar/config , \
+	$XDG_CONFIG_HOME/lf/lfrc , \
+	$XDG_CONFIG_HOME/cron/user.cron , \
+	$XDG_CONFIG_HOME/nvim/init.vim , \
+	$XDG_CONFIG_HOME/bspwm/bspwmrc , \
+	-c VimwikiIndex
+	}
 
 # call an useful menu
 alt + Caps_Lock
@@ -192,9 +202,7 @@ XF86MonBrightness{Down,Up}
 
 # screenshots
 {_,shift + ,alt +} @Print
-	{scrot '%Y%m%d%H%M%S_screenshot_$wx$h.png'    -e "mv \$f $SCREENSHOTS && xclip -selection clipboard -t image/png -i $SCREENSHOTS/\$f && notify-send 'Screenshot taken' 'location: $SCREENSHOTS/\$f\n\nImage copied to clipboard.'" , \
-	 scrot '%Y%m%d%H%M%S_sliceshot_$wx$h.png'  -s -e "mv \$f $SCREENSHOTS && xclip -selection clipboard -t image/png -i $SCREENSHOTS/\$f && notify-send 'Sliceshot taken'  'location: $SCREENSHOTS/\$f\n\nImage copied to clipboard.'"  , \
-	 scrot '%Y%m%d%H%M%S_windowshot_$wx$h.png' -u -e "mv \$f $SCREENSHOTS && xclip -selection clipboard -t image/png -i $SCREENSHOTS/\$f && notify-send 'Windowshot taken' 'location: $SCREENSHOTS/\$f\n\nImage copied to clipboard.'" }
+	screenshot {_, --slice, --slice}
 
 # power button
 XF86PowerOff

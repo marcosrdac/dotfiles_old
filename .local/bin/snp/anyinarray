@@ -1,0 +1,10 @@
+anyinarray() {
+  local e match="$1"
+  shift
+  for e
+  do 
+    #[[ "$e" == "$match" ]] && return 0  # strings
+    [[ "$e" -eq "$match" ]] && return 0  # numbers
+  done
+  return 1
+}

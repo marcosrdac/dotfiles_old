@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/dog_boy_rosed_eyes_sunset.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100301",
+        "foreground": "#f5bf9b",
+        "cursor": "#f5bf9b"
+    },
+    "colors": {
+        "color0": "#100301",
+        "color1": "#CA2F19",
+        "color2": "#D94922",
+        "color3": "#E95526",
+        "color4": "#E26F3B",
+        "color5": "#F36F34",
+        "color6": "#FC913C",
+        "color7": "#f5bf9b",
+        "color8": "#ab856c",
+        "color9": "#CA2F19",
+        "color10": "#D94922",
+        "color11": "#E95526",
+        "color12": "#E26F3B",
+        "color13": "#F36F34",
+        "color14": "#FC913C",
+        "color15": "#f5bf9b"
+    }
+}

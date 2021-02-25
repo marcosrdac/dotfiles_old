@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/jupyter_brown_turbulence.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d170f",
+        "foreground": "#b3b9bb",
+        "cursor": "#b3b9bb"
+    },
+    "colors": {
+        "color0": "#1d170f",
+        "color1": "#906737",
+        "color2": "#C6702C",
+        "color3": "#8D734E",
+        "color4": "#937C5A",
+        "color5": "#A58C65",
+        "color6": "#CDA462",
+        "color7": "#b3b9bb",
+        "color8": "#7d8182",
+        "color9": "#906737",
+        "color10": "#C6702C",
+        "color11": "#8D734E",
+        "color12": "#937C5A",
+        "color13": "#A58C65",
+        "color14": "#CDA462",
+        "color15": "#b3b9bb"
+    }
+}

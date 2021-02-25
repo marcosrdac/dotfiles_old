@@ -1,0 +1,48 @@
+#!/usr/bin/env python
+
+import numpy as np
+from numpy import int32, int64, float32, float64
+import sys
+import matplotlib.pyplot as plt
+
+n1 = h = w = aspect = title = None
+dtype = float32
+
+for arg in sys.argv[1:]:
+    if arg[:2] == 'n1':
+        n1 = int(arg[3:])
+    elif arg[:4] == 'hbox':
+        h = int(arg[5:])
+    elif arg[:4] == 'wbox':
+        w = int(arg[5:])
+    elif arg[:5] == 'title':
+        title = arg[6:]
+    if arg[:5] == 'dtype':
+        dtype = eval(arg[6:])
+
+if not n1:
+    raise Exception("argument `n1=VALUE` must be given.")
+if h and w:
+    aspect = w/h
+
+stdin = sys.stdin.buffer
+arr = np.fromfile(stdin, dtype=dtype).reshape((n1, -1))
+
+
+# modified
+plt.figure(figsize=(8,8), dpi=300)
+# modified
+
+
+plt.imshow(arr, aspect=w/w, cmap='Greys_r')
+plt.title(title)
+
+
+# save
+from datetime import datetime
+#now = datetime.now().strftime("%d/%m/%Y_%H:%M:%S")
+now = datetime.now().strftime('%s')
+plt.savefig(f'{now}_{title}.png')
+
+
+plt.show()

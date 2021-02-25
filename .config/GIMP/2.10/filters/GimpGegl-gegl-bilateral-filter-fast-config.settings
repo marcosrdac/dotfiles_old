@@ -1,0 +1,8 @@
+# settings
+
+(GimpGegl-gegl-bilateral-filter-fast-config "2020-07-15 16:35:25"
+    (time 1594841725)
+    (r-sigma 50)
+    (s-sigma 8))
+
+# end of settings

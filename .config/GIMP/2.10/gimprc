@@ -31,7 +31,7 @@
     (padding-color (color-rgb 1 1 1))
     (padding-in-show-all no))
 (default-fullscreen-view
-    (show-menubar yes)
+    (show-menubar no)
     (show-statusbar yes)
     (show-rulers yes)
     (show-scrollbars yes)
@@ -54,7 +54,9 @@
 (theme "System")
 (icon-size small)
 (image-convert-indexed-palette-type mono)
-(image-convert-indexed-max-colors 2)
+(image-convert-indexed-max-colors 22)
+(image-convert-indexed-dither-type fs)
+(image-convert-indexed-dither-alpha yes)
 (layer-new-name "formqr")
 (layer-add-mask-type black)
 (fill-options

@@ -1,50 +1,32 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-IFS=$'\n'
+DMENU=${DMENU:-'dmenu'}
+LOGDIR="${XDG_DOCUMENTS_DIR:="$HOME/Documents"}/psn/log"
+LOGFILE="$LOGDIR/emotion.csv"
+# making sure paths exist
+[ -e $LOGDIR ] || mkdir -p $LOGDIR
+[ -e $LOGFILE ] || touch $LOGFILE
 
-sensitivity_axis="\
--3 terror
--2 fear
--1 apprehension
- 0 neutral
- 1 annoyance
- 2 anger
- 3 rage"
-
-attention_axis="\
--3 amazement
--2 surprise
--1 distraction
- 0 neutral
- 1 interest
- 2 anticipation
- 3 vigilance"
-
-pleasantness_axis="\
--3 grief
--2 sadness
--1 pensiveness
- 0 neutral
- 1 serenity
- 2 joy
- 3 extasy"
-
-aptitude_axis="\
--3 loathing
--2 disgust
--1 boredom
- 0 neutral
- 1 acceptance
- 2 trust
- 3 admiration"
-
-
-time=$(date +'%Y%m%d%H%M%S') &&
-sensitivity=$(dm_choose sensitivity $sensitivity_axis | awk '{print $1}') &&
-attention=$(dm_choose attention $attention_axis | awk '{print $1}') &&
-pleasantness=$(dm_choose pleasantness $pleasantness_axis | awk '{print $1}') &&
-aptitude=$(dm_choose aptitude $aptitude_axis | awk '{print $1}') &&
-{
-  stimulus=$(dm_choose stimulus)
-  sh emologger $time $sensitivity $attention $pleasantness $aptitude $stimulus
+get_axis_value() {
+  axis="$1" && shift
+  emotions=("$@")
+  value="$(for ((i=0; i<$#; i++))
+  do
+    echo "${values[$i]} ${emotions[$i]}"
+  done | $DMENU -p "$axis" | awk '{ print $1 }')"
+  [ -n "$value" ] && eval "$axis"="$value" || return 1
 }
+
+values=('-3' '-2' '-1' ' 0' ' 1' ' 2' ' 3')
+sensitivity=(terror fear apprehension neutral annoyance anger rage)
+attention=(amazement surprise distraction neutral interest anticipation vigilance)
+pleasantness=(grief sadness pensiveness neutral serenity joy extasy)
+aptitude=(loathing disgust boredom neutral acceptance trust admiration)
+
+get_axis_value 'sensitivity'  "${sensitivity[@]}"  || exit 1
+get_axis_value 'attention'    "${attention[@]}"    || exit 1
+get_axis_value 'pleasantness' "${pleasantness[@]}" || exit 1
+get_axis_value 'aptitude'     "${aptitude[@]}"     || exit 1
+stimulus=$(echo | $DMENU -p "stimulus")            || exit 1
+time=$(date +'%Y%m%d%H%M%S')
+echo -e "$time\t$sensitivity\t$attention\t$pleasantness\t$aptitude\t$stimulus" >> "$LOGFILE"

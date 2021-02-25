@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/out_maneiro.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0D0D",
+        "foreground": "#bea6a6",
+        "cursor": "#bea6a6"
+    },
+    "colors": {
+        "color0": "#0C0D0D",
+        "color1": "#4D2D2A",
+        "color2": "#2B4922",
+        "color3": "#514F2A",
+        "color4": "#1E214B",
+        "color5": "#4B3C4D",
+        "color6": "#615655",
+        "color7": "#bea6a6",
+        "color8": "#857474",
+        "color9": "#4D2D2A",
+        "color10": "#2B4922",
+        "color11": "#514F2A",
+        "color12": "#1E214B",
+        "color13": "#4B3C4D",
+        "color14": "#615655",
+        "color15": "#bea6a6"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/pink_sunset_electric.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#031316",
+        "foreground": "#f6cbcd",
+        "cursor": "#f6cbcd"
+    },
+    "colors": {
+        "color0": "#031316",
+        "color1": "#9B5158",
+        "color2": "#EC6059",
+        "color3": "#FD8E51",
+        "color4": "#EA7992",
+        "color5": "#F68F9B",
+        "color6": "#FF97A8",
+        "color7": "#f6cbcd",
+        "color8": "#ac8e8f",
+        "color9": "#9B5158",
+        "color10": "#EC6059",
+        "color11": "#FD8E51",
+        "color12": "#EA7992",
+        "color13": "#F68F9B",
+        "color14": "#FF97A8",
+        "color15": "#f6cbcd"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/red_night_street_void_urgence.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0217",
+        "foreground": "#e8ccbd",
+        "cursor": "#e8ccbd"
+    },
+    "colors": {
+        "color0": "#0A0217",
+        "color1": "#F4264D",
+        "color2": "#9E5E5B",
+        "color3": "#E46260",
+        "color4": "#BFA56C",
+        "color5": "#E99B6F",
+        "color6": "#968389",
+        "color7": "#e8ccbd",
+        "color8": "#a28e84",
+        "color9": "#F4264D",
+        "color10": "#9E5E5B",
+        "color11": "#E46260",
+        "color12": "#BFA56C",
+        "color13": "#E99B6F",
+        "color14": "#968389",
+        "color15": "#e8ccbd"
+    }
+}

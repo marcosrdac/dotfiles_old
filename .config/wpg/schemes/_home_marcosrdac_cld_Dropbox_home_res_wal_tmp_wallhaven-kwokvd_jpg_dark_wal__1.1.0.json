@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp/wallhaven-kwokvd.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#09161F",
+        "foreground": "#b8d57a",
+        "cursor": "#b8d57a"
+    },
+    "colors": {
+        "color0": "#09161F",
+        "color1": "#386927",
+        "color2": "#A26631",
+        "color3": "#358B26",
+        "color4": "#519017",
+        "color5": "#5BA017",
+        "color6": "#71AF0E",
+        "color7": "#b8d57a",
+        "color8": "#809555",
+        "color9": "#386927",
+        "color10": "#A26631",
+        "color11": "#358B26",
+        "color12": "#519017",
+        "color13": "#5BA017",
+        "color14": "#71AF0E",
+        "color15": "#b8d57a"
+    }
+}

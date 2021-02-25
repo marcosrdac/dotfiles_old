@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp/wallhaven-q6y157.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1c0c2e",
+        "foreground": "#efe4ec",
+        "cursor": "#efe4ec"
+    },
+    "colors": {
+        "color0": "#1c0c2e",
+        "color1": "#A41E93",
+        "color2": "#D63BC6",
+        "color3": "#2790AF",
+        "color4": "#49B0C1",
+        "color5": "#C5C7BB",
+        "color6": "#F6A7EB",
+        "color7": "#efe4ec",
+        "color8": "#a79fa5",
+        "color9": "#A41E93",
+        "color10": "#D63BC6",
+        "color11": "#2790AF",
+        "color12": "#49B0C1",
+        "color13": "#C5C7BB",
+        "color14": "#F6A7EB",
+        "color15": "#efe4ec"
+    }
+}

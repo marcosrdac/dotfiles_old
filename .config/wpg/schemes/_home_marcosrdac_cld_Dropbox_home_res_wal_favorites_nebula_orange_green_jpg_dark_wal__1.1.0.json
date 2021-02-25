@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/nebula_orange_green.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0a0b",
+        "foreground": "#a9c7bc",
+        "cursor": "#a9c7bc"
+    },
+    "colors": {
+        "color0": "#0c0a0b",
+        "color1": "#54625B",
+        "color2": "#9B5D2B",
+        "color3": "#9A7146",
+        "color4": "#659471",
+        "color5": "#7DC27C",
+        "color6": "#B29F52",
+        "color7": "#a9c7bc",
+        "color8": "#768b83",
+        "color9": "#54625B",
+        "color10": "#9B5D2B",
+        "color11": "#9A7146",
+        "color12": "#659471",
+        "color13": "#7DC27C",
+        "color14": "#B29F52",
+        "color15": "#a9c7bc"
+    }
+}

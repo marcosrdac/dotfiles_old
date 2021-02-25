@@ -8,7 +8,7 @@ set ssl_force_tls = yes
 set editor = $EDITOR
 
 set mbox_type = Maildir
-set folder =    "$MAIL"
+set folder =    "$XDG_MAIL_DIR"
 set spoolfile = "+INBOX"
 set mbox =      "+INBOX"
 set postponed = "+Drafts"

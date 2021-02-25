@@ -1,54 +1,18 @@
 #!/bin/sh
 
-alarm_file=alarm_end
+DMENU=${DMENU:-dmenu}
 
-# calls dmenu for user to set the alarm
-choices="pomodoro\nbreak\nhard break\nasoidjas"
-chosen=$(echo -e "$choices" | menu -p 'set alarm:')
+# choices
+choices="pomodoro\nbreak\nhard break\nkill"
+chosen=$(echo -e "$choices" | $DMENU -p 'set alarm:')
+[ -z "$chosen" ] && exit 0
 
-# choices meaning
-pomodoro=$((25*60))
-break=$((5*60))
-hard_break=$((30*60))
+case "$chosen" in
+    "pomodoro")   $((interval=25*60)) ;;
+    "break")      $((interval=5*60)) ;;
+    "hard break") $((interval=30*60)) ;;
+    "kill")       killall timer; exit 0 ;;
+    *)            $((interval=chosen)) ;;
+esac
 
-if test $chosen != ""
-then
-    # search for another instance of pomodoro and kill it
-    script_name=${BASH_SOURCE[0]}
-    for pid in $(pidof -x $script_name)
-    do
-        if [ $pid != $$ ]
-        then
-            kill -9 $pid
-        fi
-    done
-
-    # analyse the choice made, set interval
-    case "$chosen" in
-        "pomodoro")   interval=$pomodoro ;;
-        "break")      interval=$break ;;
-        "hard break") interval=$hard_break ;;
-        *)            interval=$((chosen)) ;;
-    esac
-
-    # set alarm at $alarm_file
-    now=$(date '+%s')
-    echo $((now+interval)) > /tmp/$alarm_file
-
-    # updates i3blocks' alarm script every seccond until the the alarm
-    counter=0
-    while [ $counter -le $interval ]
-    do
-        pkill -RTMIN+4 i3blocks
-        sleep 1
-        let counter=counter+1
-    done
-
-    # beep
-    mpv --really-quiet ~/audios/resources/bleep_high.mp3 &
-
-    # remove
-    echo "-1" > /tmp/$alarm_file
-    sleep 1
-    pkill -RTMIN+4 i3blocks
-fi
+timer "$interval"

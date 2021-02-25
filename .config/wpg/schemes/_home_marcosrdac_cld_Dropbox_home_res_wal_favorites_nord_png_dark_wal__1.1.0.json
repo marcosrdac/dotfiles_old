@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/nord.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1B25",
+        "foreground": "#d2e5ea",
+        "cursor": "#d2e5ea"
+    },
+    "colors": {
+        "color0": "#0E1B25",
+        "color1": "#467686",
+        "color2": "#528799",
+        "color3": "#6FA9B5",
+        "color4": "#7CB4C1",
+        "color5": "#A6D5DF",
+        "color6": "#ABD8E1",
+        "color7": "#d2e5ea",
+        "color8": "#93a0a3",
+        "color9": "#467686",
+        "color10": "#528799",
+        "color11": "#6FA9B5",
+        "color12": "#7CB4C1",
+        "color13": "#A6D5DF",
+        "color14": "#ABD8E1",
+        "color15": "#d2e5ea"
+    }
+}

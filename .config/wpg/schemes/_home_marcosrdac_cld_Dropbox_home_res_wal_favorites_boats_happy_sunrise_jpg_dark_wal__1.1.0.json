@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/boats_happy_sunrise.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B2A21",
+        "foreground": "#c4cfde",
+        "cursor": "#c4cfde"
+    },
+    "colors": {
+        "color0": "#0B2A21",
+        "color1": "#3E728C",
+        "color2": "#649298",
+        "color3": "#5B95BE",
+        "color4": "#A0A89D",
+        "color5": "#BFBFAB",
+        "color6": "#DECFA3",
+        "color7": "#c4cfde",
+        "color8": "#89909b",
+        "color9": "#3E728C",
+        "color10": "#649298",
+        "color11": "#5B95BE",
+        "color12": "#A0A89D",
+        "color13": "#BFBFAB",
+        "color14": "#DECFA3",
+        "color15": "#c4cfde"
+    }
+}

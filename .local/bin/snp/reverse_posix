@@ -1,0 +1,17 @@
+#!/usr/bin/env dash
+
+set "z e r o"  11 22 33 44 55 66
+
+reverse () {
+  i=$#; while [ $i -gt 0 ]
+  do
+    ordered="${ordered} \"\$$i\""
+    let i=i-1
+  done
+  eval "set -- $ordered"
+  echo $7  # test
+}
+
+echo $@
+set -- $(reverse "$@")
+echo $@

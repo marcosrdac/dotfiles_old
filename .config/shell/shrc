@@ -7,6 +7,7 @@
 ## COMMAND CONFIGURATION
 
 # Completion for existing commands
+#alias cdf='cd $(find -H * .* 2>/dev/null -maxdepth 1 -type d | fzy -p "cd " | (read f && echo ${f:-'.'}))' maybe awk if . as arg to find
 alias ls='ls -h --color=auto'
 alias mkdir='mkdir -v'
 alias rmdir='rmdir -v'
@@ -29,6 +30,7 @@ alias ffmpeg='ffmpeg -hide_banner'
 alias ffprobe='ffprobe -hide_banner'
 alias ffplay='ffplay -hide_banner'
 alias activate='source bin/activate'
+alias m=". $WORKON_HOME/m/bin/activate"
 
 
 # ALIASES
@@ -119,3 +121,10 @@ echo "$-" | grep -q "i" && cd() {
 
 #fortune 2>/dev/null
 
+mkcd() {
+  mkdir "$1" && cd "$1"
+}
+
+cdf() {  # needs adjusting
+  cd $(find -H * 2>/dev/null -maxdepth 1 -type d | fzy -p "cd " | (read f && echo ${f:-'.'}))
+}

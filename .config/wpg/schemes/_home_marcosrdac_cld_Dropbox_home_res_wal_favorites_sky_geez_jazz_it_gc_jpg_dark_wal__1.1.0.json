@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/sky_geez_jazz_it_gc.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121520",
+        "foreground": "#cabd9c",
+        "cursor": "#cabd9c"
+    },
+    "colors": {
+        "color0": "#121520",
+        "color1": "#4B4F44",
+        "color2": "#6C5D45",
+        "color3": "#8C493F",
+        "color4": "#9E6443",
+        "color5": "#C77744",
+        "color6": "#7A844C",
+        "color7": "#cabd9c",
+        "color8": "#8d846d",
+        "color9": "#4B4F44",
+        "color10": "#6C5D45",
+        "color11": "#8C493F",
+        "color12": "#9E6443",
+        "color13": "#C77744",
+        "color14": "#7A844C",
+        "color15": "#cabd9c"
+    }
+}

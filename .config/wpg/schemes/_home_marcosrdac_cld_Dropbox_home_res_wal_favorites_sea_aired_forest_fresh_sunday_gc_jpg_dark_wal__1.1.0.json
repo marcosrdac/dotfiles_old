@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/sea_aired_forest_fresh_sunday_gc.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101310",
+        "foreground": "#e5dfce",
+        "cursor": "#e5dfce"
+    },
+    "colors": {
+        "color0": "#101310",
+        "color1": "#508D5C",
+        "color2": "#9AA940",
+        "color3": "#9C9862",
+        "color4": "#456B94",
+        "color5": "#59A888",
+        "color6": "#AFB695",
+        "color7": "#e5dfce",
+        "color8": "#a09c90",
+        "color9": "#508D5C",
+        "color10": "#9AA940",
+        "color11": "#9C9862",
+        "color12": "#456B94",
+        "color13": "#59A888",
+        "color14": "#AFB695",
+        "color15": "#e5dfce"
+    }
+}

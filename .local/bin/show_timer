@@ -1,0 +1,12 @@
+#!/usr/bin/sh
+
+RUN="$HOME/.local/run/polybar_timer/"
+FIFO="$RUN/timer.fifo"
+
+[ -d "$RUN" ] || mkdir -p "$RUN"
+[ -p "$FIFO" ] || mkfifo "$FIFO"
+
+tail -f "$FIFO" | while read seconds
+do
+  [ -n "$seconds" ] && date -u +'%H%M%S' -d @$seconds || echo
+done

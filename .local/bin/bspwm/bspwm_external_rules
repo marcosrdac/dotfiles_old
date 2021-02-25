@@ -7,19 +7,25 @@ instance=$3
 # Debug
 #notify-send "new window" "id: $wid\nclass: $class\ninstance: $instance\nname: $name"
 
+#desktop=$(bspc query -D -d --names)
+#bspc rule -a "$class" desktop="^$desktop"
 
-case $class in
+
+case "$class" in
   Gimp) echo "desktop=^5" ;;
-  Inkscape)
-    #verify if tiling: future
-    echo "desktop=^6 state=tiled"
-    name=$(xdotool getwindowname $wid)
-    case $name in
-      *Inkscape) echo "locked=on" ;;
-      *) ;;
-    esac
-    ;;
+
+  #Inkscape)
+    ##verify if tiling: future
+    #echo "desktop=^6 state=tiled"
+    #name=$(xdotool getwindowname $wid)
+    #case $name in
+      #*Inkscape) echo "locked=on" ;;
+      #*) ;;
+    #esac
+    #;;
+
   Zathura) echo "state=tiled" ;;
+
   ffplay)
     name=$(xdotool getwindowname $wid)
     echo \"$name\" | grep -q 'webcam_cast' &&

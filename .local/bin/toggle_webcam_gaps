@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# inner+outer+border1+border2+10
-# 8    +4    +3      +5      +10
-disp=30
-gaps=428
-webcam=/dev/video0
-
-(pkill -f /dev/video && i3-msg gaps right current minus $gaps ) || (i3-msg gaps right current plus $gaps && mpv --geometry=400-+$disp-+$disp --autofit=25% $webcam)

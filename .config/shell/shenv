@@ -1,31 +1,170 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
-#
-# Shell common environment variables and functions (BusyBox compatible)
-#
+# default programs
 
 export OPENER="xdg-open"
 export EDITOR="nvim"
 export VISUAL="nvim"
 export PAGER="less"
 export TERMINAL="st"
-#export FILEBROWSER="vifm_ueberzug"
 export FILEBROWSER="lf"
 export VIDEOPLAYER="mpv"
 export BROWSER="qutebrowser"
 export ALTBROWSER="firefox"
 export TRUEBROWSER="qutebrowser"
-export MAIL="$HOME/.local/share/mail/main"  # mutt
 export READER="zathura"
-export SCREENSHOTS="$HOME/pictures/screenshots"
-export WALLPAPERS="$HOME/pictures/wallpapers"
 export XIMAGEVIEWER="sxiv"
 export WEBCAM="/dev/video0"
-export SXHKD_FIFO=/tmp/sxhkd-fifo
-export DMENU=menu
-#export MPLBACKEND=module://my_backend
+export DMENU="menu"
+export AURMANAGER="yay"
 
-# coloring man pages
+
+# user defined variables
+
+export PERSONALMAIL="marcosrdac@gmail.com"
+export PUBKEYID="FEBD0BDE418119F66D48C6A989B7DF5E14172055"
+export CAMOBI="10.129.64.41"
+
+mkxprt() {
+    export "$1"="$2"
+    mkdir -p "$2"
+}
+
+
+# XDG directory defaults
+
+mkxprt XDG_DATA_HOME "$HOME/.local/share"             # XDG
+mkxprt XDG_CONFIG_HOME "$HOME/.config"                # XDG
+export XDG_BIN_HOME="$HOME/.local/bin"                # custom
+export XDG_DATA_DIRS="/usr/local/share:/usr/share"    # XDG
+export XDG_CONFIG_DIRS="/etc/xdg"                     # XDG
+mkxprt XDG_CACHE_HOME "$HOME/.cache"                  # XDG
+mkxprt XDG_RUNTIME_DIR "$HOME/.local/run"             # XDG
+chmod 0700 "$XDG_RUNTIME_DIR"                         # XDG must!
+mkxprt XDG_RESOURCES_DIR "$HOME/res"                  # custom
+mkxprt XDG_WALLPAPERS_DIR "$XDG_RESOURCES_DIR/wal"    # custom
+mkxprt XDG_TMP_DIR "$HOME/tmp"                        # custom
+mkxprt XDG_DOCUMENTS_DIR "$HOME/dox"                  # XDG
+mkxprt XDG_MUSIC_DIR "$HOME/mus"                      # XDG
+mkxprt XDG_PICTURES_DIR "$HOME/pix"                   # XDG
+mkxprt XDG_PROJECTS_DIR "$HOME/pro"                   # custom
+mkxprt XDG_PUBLICSHARE_DIR "$HOME/pub"                # XDG
+mkxprt XDG_TEMPLATES_DIR "$XDG_RESOURCES_DIR/tpt"     # XDG
+mkxprt XDG_VIDEOS_DIR "$HOME/vid"                     # XDG
+mkxprt XDG_DOWNLOAD_DIR "$XDG_TMP_DIR/tmp"            # XDG
+mkxprt XDG_DESKTOP_DIR "$XDG_TMP_DIR/desktop"         # XDG
+mkxprt XDG_SCREENSHOTS_DIR "$XDG_PICTURES_DIR/scr"    # custom
+mkxprt XDG_MAIL_DIR "$XDG_DATA_HOME/mail"             # custom
+
+
+addpath() {
+  # adds directories to PATH: -a for appending, -p for prepending
+  mode="$1" && shift
+  [ "$mode" != '-a' ] && [ "$mode" != '-p' ] && exit 1
+
+  if [ "$mode" = '-p' ] # reverse args if preppending
+  then
+    i=$#; while [ $i -gt 0 ]
+    do
+      ordered="${ordered} \"\$$i\""
+      i=$((i-1))
+    done
+    eval "set -- $ordered"
+  fi
+
+  # adds folder to path it it isn't yet already there
+  for folder in "$@"
+  do
+    [ -d "$folder" ] || continue
+    case ":$PATH:" in
+      *:"$folder":*) ;;
+      *) [ "$mode" = '-p' ] &&
+           PATH="$folder${PATH:+:$PATH}" ||
+           PATH="${PATH:+$PATH:}$folder" ;;
+    esac
+  done
+  export PATH
+}
+
+addpathsin () {
+  for folder in "$@"
+  do
+    for subfolder in "$folder"/*
+    do
+      [ -d "$subfolder" ] && addpath -a "$subfolder"
+    done
+  done
+}
+
+trysource() {  # used in other scripts
+  [ -f "$1" ] && . "$1" || return 1
+}
+
+# specifics
+## PATH
+addpath -p "$HOME/.local/bin" "$HOME/.local/bin/tintedbin" "$HOME/.local/bin/polybar" "$HOME/.local/bin/bspwm" "$HOME/.local/bin/menu"
+addpath -a  "$HOME/.local/bin/cp-p" 
+addpathsin "$HOME/.local/bin" 
+## lf
+LF_ICONS_FILE="$XDG_CONFIG_HOME/lf/icons"
+trysource $LF_ICONS_FILE
+## mutt
+export MAIN_MAIL_DIR="$XDG_MAIL_DIR/main"
+## vim
+export MYVIMRC="$HOME/.config/vim/vimrc"
+## neovim
+export INIT=$XDG_CONFIG_HOME/nvim/init.vim
+## calibre
+export CALIBRE_USE_SYSTEM_THEME=1
+## rss2playlist
+# export PODCASTS_RSS_FILE="$XDG_CONFIG_HOME/mpd/podcasts_rss"
+## flutter
+addpath -a "/opt/flutter/bin"
+## android sdk (flutter)
+export ANDROID_SDK_ROOT=/opt/android-sdk
+export ANDROID_HOME=$ANDROID_SDK_ROOT
+export CHROME_EXECUTABLE=google-chrome-stable
+## go (go env tels you important things)
+mkxprt GOPATH "$HOME/.cache/go"
+## less
+export LESSHISTFILE="$HOME/.cache/lesshst"
+## javascript
+mkxprt npm_config_cache "$HOME/.cache/npm"
+## Xresources
+export XRESOURCES=$HOME/.config/Xresources/main
+## Xauthority
+#export XAUTHORITY="$HOME/.config/Xauthority"  # seems not to work with lightdm
+## python
+export PYTHONSTARTUP="$HOME/.config/pythonstartup.py"
+mkxprt WORKON_HOME "$XDG_DATA_HOME/python_envs"
+export PIP_REQUIRE_VIRTUALENV=false
+# matplotlib
+#export MPLBACKEND=module://my_backend
+## tensorflow
+#
+# julia
+export JULIA_NUM_THREADS=4
+mkxprt JULIA_DEPOT_PATH "$XDG_DATA_HOME/julia_depot"
+# Seimic Unix
+export CWPROOT=/opt/SeisUnix
+addpath -a "$CWPROOT/bin"
+## sqlite
+export SQLITE_HISTFILE="$HOME/.cache/sqlite_history"
+## wine
+mkxprt WINEPREFIX "$HOME/.local/share/wineprefix/default"
+## task
+#export TASKRC="$HOME/.config/taskrc"
+#mkxprt TASKDATA "$HOME/.config/task"
+#mkxprt TIMEWARRIORDB "$HOME/.config/timewarrior"
+## ccache
+mkxprt CCACHE_BASEDIR "$HOME/.cache/ccache"
+export CCACHE_CONFIGPATH="$HOME/.config/ccache.conf"
+## gnupg
+mkxprt GNUPGHOME "$HOME/.config/gnupg"
+export INPUTRC="$HOME/.config/inputrc"
+## vim-gnupg
+export GPG_TTY=`tty`
+## man (colors)
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
 export LESS_TERMCAP_me=$'\E[0m'
@@ -33,115 +172,5 @@ export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
-
-export CAMOBI="10.129.64.41"
-
-export INIT=$HOME/.config/nvim/init.vim
-
-# Program-specific
-export CALIBRE_USE_SYSTEM_THEME=1
-
-# my preferences
-export AURMANAGER="yay"
-#export PODCASTS_RSS_FILE="$HOME/.config/mpd/podcasts_rss"
-
-# android sdk (for flutter)
-export ANDROID_SDK_ROOT=/opt/android-sdk
-export ANDROID_HOME=$ANDROID_SDK_ROOT
-export CHROME_EXECUTABLE=google-chrome-stable
-
-direnv() {  # environment variable name, path creation
-    export "$1"="$2"
-    mkdir -p "$2"
-}
-
-# Get out of my $HOME!
-direnv CCACHE_BASEDIR "$HOME/.cache/ccache"
-export CCACHE_CONFIGPATH="$HOME/.config/ccache.conf"
-direnv GNUPGHOME "$HOME/.config/gnupg"
-direnv GOPATH "$HOME/.cache/go/go_path"
-direnv GOROOT "$HOME/.cache/go/go_root"
-export INPUTRC="$HOME/.config/inputrc"
-export LESSHISTFILE="$HOME/.cache/lesshst"
-direnv npm_config_cache "$HOME/.cache/npm"
-export XRESOURCES=$HOME/.config/Xresources/main
-export PYTHONSTARTUP="$HOME/.config/pythonstartup.py"
-export SQLITE_HISTFILE="$HOME/.cache/sqlite_history"
-export MYVIMRC="$HOME/.config/vim/vimrc"
-#export VIMINIT="source $MYVIMRC"
-direnv WINEPREFIX "$HOME/.local/share/wineprefix/default"
-#export TASKRC="$HOME/.config/taskrc"
-#direnv TASKDATA "$HOME/.config/task"
-#direnv TIMEWARRIORDB "$HOME/.config/timewarrior"
-#export XAUTHORITY="$HOME/.config/Xauthority"  # seems not to work with lightdm
-
-# And for the rest, see aliases
-direnv JUNKHOME "$HOME/.cache/junkhome"
-
-# For software that did not understand that XDG variables have defaults
-direnv XDG_DATA_HOME "$HOME/.local/share"
-direnv XDG_CONFIG_HOME "$HOME/.config"
-export XDG_DATA_DIRS="/usr/local/share/:/usr/share/"
-export XDG_CONFIG_DIRS="/etc/xdg"
-direnv XDG_CACHE_HOME "$HOME/.cache"
-direnv XDG_RUNTIME_DIR "$HOME/.local/run"
-chmod 0700 "$XDG_RUNTIME_DIR"
-
-
-# $PATH
-
-# Function stolen from Arch Linux /etc/profile
-appendpath() {
-    if [ ! -d "$1" ]; then
-        return
-    fi
-    case ":$PATH:" in
-        *:"$1":*) ;;
-        *) export PATH="${PATH:+$PATH:}$1" ;;
-    esac
-}
-
-prependpath() {
-    if [ ! -d "$1" ]; then
-        return
-    fi
-    case ":$PATH:" in
-        *:"$1":*) ;;
-        *) export PATH="$1${PATH:+:$PATH}" ;;
-    esac
-}
-
-prependpath "$HOME/.local/bin"
-prependpath "$HOME/.local/bin/polybar"
-prependpath "$HOME/.local/bin/i3bar"
-prependpath "$HOME/.local/bin/bspwm"
-prependpath "$HOME/.local/bin/menu"
-appendpath  "$HOME/.local/bin/cp-p"
-appendpath  "$HOME/.local/bin/podcast2playlist"
-appendpath  "$HOME/.local/bin/file_managing"
-appendpath  "$HOME/.local/bin/emolog"
-appendpath  "/opt/flutter/bin"
-
-# python virtualenvwrapper
-direnv WORKON_HOME "$XDG_DATA_HOME/python_envs"
-#export PIP_REQUIRE_VIRTUALENV=false
-
-# julia
-direnv JULIA_DEPOT_PATH "$XDG_DATA_HOME/julia_depot"
-direnv JULIA_NUM_THREADS 4
-
-# Seimic Unix
-export CWPROOT=/opt/SeisUnix
-appendpath "$CWPROOT/bin"
-
-
-trysource() {
-    if [ -f "$1" ]
-    then
-        . "$1"
-    else
-        return 1
-    fi
-}
-
-trysource ./lf_icons
+## setting a basement for messy software... (you better behave!)
+mkxprt JUNKHOME "$HOME/.cache/junkhome"

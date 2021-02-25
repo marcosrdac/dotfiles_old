@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp/wallhaven-wy7gr6.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a1513",
+        "foreground": "#c9dee3",
+        "cursor": "#c9dee3"
+    },
+    "colors": {
+        "color0": "#0a1513",
+        "color1": "#8F976D",
+        "color2": "#116D8D",
+        "color3": "#218EAF",
+        "color4": "#5BA7BD",
+        "color5": "#A7AC9F",
+        "color6": "#B1C1BB",
+        "color7": "#c9dee3",
+        "color8": "#8c9b9e",
+        "color9": "#8F976D",
+        "color10": "#116D8D",
+        "color11": "#218EAF",
+        "color12": "#5BA7BD",
+        "color13": "#A7AC9F",
+        "color14": "#B1C1BB",
+        "color15": "#c9dee3"
+    }
+}

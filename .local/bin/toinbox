@@ -1,0 +1,17 @@
+#!/bin/sh
+
+DMENU=${DMENU:-'dmenu'}
+LOGDIR="${XDG_DOCUMENTS_DIR:="$HOME/Documents"}/tmp"
+LOGFILE="$LOGDIR/inbox.md"
+# making sure paths exist
+[ -d $LOGDIR ] || mkdir -p $LOGDIR
+[ -f $LOGFILE ] || touch $LOGFILE
+
+note=$(printf "" | $DMENU -p "note") || exit 1
+time=$(date +'%Y%m%d%H%M%S')
+echo -e "${time}\t${note}" >> "$LOGFILE"
+
+#echo -e "| ${time} | $note |" >> "$LOGFILE"
+#echo -e "${time} | $note" >> "$LOGFILE"
+#echo -e "  - $note ($time)" >> "$LOGFILE"
+#echo -e "$time\t$note" >> "$LOGFILE"

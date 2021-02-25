@@ -4,21 +4,24 @@
 
 
 # interpreter for shell commands (needs to be POSIX compatible)
-set shell sh
+set shell bash
 # shell behaviour
 set shellopts '-e'
 # internal filed separator
+#set filesep "\r"
 set ifs "\n"
 # find stops when there is only one file left
 set findlen 0
+set noachorfind
 # borders around
 set drawbox=false
 # show hiden files
 set hidden=false
+set hiddenfiles .*:__pycache__:*.pyc:*.o:node_modules
 # scrll before selecting end of list
 set scrolloff 8
 # show icons
-set icons=true
+set icons true
 # ignore case
 set ignorecase true
 # custom previewer script to be used
@@ -43,16 +46,19 @@ map c
 map l
 map a
 map ;
+map <bs2>
 
 # quit
+map <bs2> updir
 map q quit
 cmd q quit  # for :q
 # open this config file for edition
 map ;c config
 # recalculate columns
-map r recol
+map r :recol; reload
 # mappings
-map f find
+#map f find
+map f fzy
 # use enter to open selected files
 map <enter> open
 # use l to open current file
@@ -67,8 +73,8 @@ map x $$f
 map X !$f
 # file selection
 map <space> toggle
-#map J toggle
-#map K &lf -remote "send $id toggle" && lf -remote "send $id push <up><up>"
+map J :toggle; down
+map K :toggle; up
 map v unselect
 map <esc> unselect
 map V invert
@@ -94,13 +100,14 @@ map C  vim-rename change WORD
 map cW vim-rename change WORD
 map cw vim-rename change word
 map cx vim-rename change extension
-
+# setting wallpaper to file
+map gw &wal_set $f
 
 
 cmd recol %{{
   [ -z $1 ] || id=$1
   w=$(tput cols)
-  if [ $w -le 35 ]
+  if [ $w -le 52 ]
   then
     lf -remote "send $id set nopreview"
     lf -remote "send $id set ratios 1"
@@ -118,6 +125,14 @@ cmd recol %{{
   fi
 }}
 &lf -remote "send $id recol"
+
+
+cmd fzy ${{
+  path=$(ls -a1 | fzy -p "" -l "$(( $(tput lines) - 1 ))")
+  [ -z "$path" ] && exit
+  [ -d "$path" ] && cmd='cd' || cmd='select'
+  lf -remote "send $id $cmd '$path'"
+}}
 
 
 cmd copy_path &{{
@@ -240,118 +255,7 @@ cmd vim-rename &{{
   lf -remote "send $id push $(echo "rename $fn$move" | sed 's/\s/<space>/g')"
 }}
 
-## rename various files at once with editor
-cmd bulk-rename ${{
-  case $1 in
-    # do not query extensions for renaming
-    -n) mode="no-exts" ;;
-    # only rename extensions
-    -e) mode="only-exts" ;;
-    # rename entire filepaths
-    -A) mode="all-path" ;;
-    # else, just rename filenames
-  esac
-  # make tmp files
-  oldnames=$(mktemp /tmp/lf-bulk-oldnames.XXXXXXXXXX)
-  newnames=$(mktemp /tmp/lf-bulk-newnames.XXXXXXXXXX)
-  if [ "$mode" != "all-path" ]
-  then
-    dirnames=$(mktemp /tmp/lf-bulk-dirnames.XXXXXXXXXX)
-    aux=$(mktemp /tmp/lf-bulk-aux.XXXXXXXXXX)
-  fi
-  # query selected files or all files in directory
-  if [ -n "$fs" ]
-  then
-    index="$fs"
-  else
-    index="$(ls $(dirname "$f"))"
-  fi
-  # separate and save useful variables in files
-  for path in $index
-  do
-    dir="$(dirname "$path")"
-    fullfilename=$(basename -- "$path")
-    filename="${fullfilename%.*}"  # must be here
-    ext="" && echo $fullfilename | grep -q "\." && ext="${fullfilename##*.}"
-
-    case "$mode" in
-      "all-path") echo "$(realpath "$path")" >> $oldnames ;;
-      "no-exts")
-        echo "$filename" >> $oldnames
-        [ "$ext" != "" ] && ext=".$ext"
-        echo "$ext" >> $aux
-        ;;
-      "only-exts")
-        echo "$ext" >> $oldnames
-        echo $filename >> $aux
-        ;;
-      "") echo "$fullfilename" >> $oldnames ;;
-    esac
-    [ "$mode" != "all-path" ] && echo "$dir" >> $dirnames
-  done
-  cp $oldnames $newnames
-  # interact with user
-  $EDITOR $newnames
-  # run mv on each path if they were modified
-  n=$(cat $oldnames | wc -l)
-  if [ $(cat $newnames | wc -l) -eq $n ]
-  then
-    counter=1
-    while [ $counter -le $((n+1)) ]
-    do
-      case $mode in
-        "no-exts")
-          dir="$(cat $dirnames | sed "${counter}q;d")"
-          old="$(cat $oldnames | sed "${counter}q;d")"
-          new="$(cat $newnames | sed "${counter}q;d")"
-          ext="$(cat $aux      | sed "${counter}q;d")"
-          old="$dir/$old$ext" ; new="$dir/$new$ext"
-        ;;
-        "all-path")
-          old="$(cat $oldnames | sed "${counter}q;d")"
-          new="$(cat $newnames | sed "${counter}q;d")"
-        ;;
-        "only-exts")
-          old="$(cat $oldnames | sed "${counter}q;d")"
-          new="$(cat $newnames | sed "${counter}q;d")"
-          filename="$(cat $aux | sed "${counter}q;d")"
-          echo $old $new
-          [ "$old" != "" ] && old=".$old"
-          [ "$new" != "" ] && new=".$new"
-          old="$dir/$filename$old"
-          new="$dir/$filename$new"
-        ;;
-        *)
-          dir="$(cat $dirnames | sed "${counter}q;d")"
-          old="$(cat $oldnames | sed "${counter}q;d")"
-          new="$(cat $newnames | sed "${counter}q;d")"
-          old="$dir/$old" ; new="$dir/$new"
-        ;;
-      esac
-      counter=$(($counter+1))
-      [ "$old" = "$new" ] && continue
-      [ -e "$new" ] && echo "File exists: $b" && continue
-      # check write permission
-      please=''
-      for path in $old $new
-      do
-        [ ! -w $(dirname "$path") ] && please='sudo' && break
-      done
-      $please mv "$old" "$new"
-    done
-  else
-    echo "Number of filenames differ."
-  fi
-
-  # removing tmp files
-  rm $oldnames $newnames
-  if [ "$mode" != "all-path" ]
-  then
-    rm $dirnames
-    rm $aux
-  fi
-}}
-
+cmd bkrn $bkrn $fs
 
 cmd paste_symlink %{{
   load=$(lf -remote 'load')

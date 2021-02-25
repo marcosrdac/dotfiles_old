@@ -1,1000 +1,202 @@
-: mkdir 
-: mkdir teste
-: mkdir test
-: mkdir test teste
-: mkdir teste test
-: mkdir
-: rename
-: rename
-: rename
-: rename
-: rename
-: rename
-: rename
-: rename
-: rename 
-: mkdir maratonadev
-: rename
+: rename 20210126_prob_maps_
+: rename 20210126_prob_maps_morning
+: vim int.py
+: mkdir campos
+: rename 20210126_prob_maps_photoshop
+: rename 20210126_prob_maps_ps
+: rename 20210126_prob_maps
+: rename 20210126_prob_maps_ps
+: rename 20210126_prob_maps_pss
+: rename 20210126_prob_maps_pcs
+: rename 20210126_prob_maps_ps
+: rename 20210126_prob_maps
+: rename 20210126_prob_maps_morning
+% cp /home/marcosrdac/article_los/campos/mask.py /home/marcosrdac/article_los/campos/interpolation.py
+: mkdir downloading
+& rm $fs
+: mkdir 20210127_data
+: rename 0_manual_vpn_2016_v2_0.pdf
+& rm $fs
+& rm $fs
+: mkdir pablicio
+: extract 
+: rename pseudoanalysis_mare.py
+: rename mare.xls
+: mkdir svd
+: rename points__.png
+: rename points.png
+: rename points_ok.png
+: rename song_creator.py
+: bkrn 
+: rename classification_masks_
+: mkdir classification_masks
+: rename classification_masks__
+: rename classification_masks_
+: rename classification_masks
+: mkdir from_lentinis
+: rename classification_model_features_old
+: mkdir classification_model_features
+: mkdir classification_model_features
+: rename oil_proba_.png
+: rename oil_proba_.xcf
+: rename original__
+: mkdir original
+: mkdir backup
+: rename original
+: reload
+& rm $f
+: rename rf_2_very_good.bin~
+: rename rf_2_very_good.bin
+: rename Comprovante0.pdf
+: rename Comprovante1.pdf
+: rename Comprovante2.pdf
+: rename contracheque1.pdf
+: bkrn 
+: rename contrachequejan1.pdf
+: rename contracheque.pdfabr
+: rename contracheque.pdfdez
+: rename contracheque.pdffev
+: rename contracheque.pdfjan
+: rename contrachequenov.pdf
+: rename contracheque.pdfmaio
+: rename contracheque.pdfmar
+: bkrn 
+: bkrn 
+: rename classification_rf_7.py
+: rename rf_7.bin
+: rename P_REM_FDM.gif
 : q
-: q
-: q
-: q
-: mkdir a
-: my_rename v
-: my_rename vv
-: my_rename 
-: touch a b c
-: touch a b c
-: touch a b c
-: mkdir teste
-: exit
-: quit
-: q
-: q
-: q
-: q
-: q
-: q
-: q
-: q
-: q
-: q
-: q
-: q
-: q
-: q
-: rename asd
-: rename a
-: rename -ne
-: rename
-: rename a
-: rename a
-: rename --we-ext asd
-: rename --wo-ext asd
-: rename --wo-ext test
-: rename --wo-ext asd
-: ename --no-ext /mnt/hdd/tmp/test/s
-: rename /mnt/hdd/tmp/test/csd
-: rename --no-ext /mnt/hdd/test/asd
-: rename
-: rename
-: q
-: recol
-: q
-: mkfile a
-: touch a
-: delete
-: recol
-: q
-: mkdir teste2
-: touch a b c
-: rename
-: delete
-: rename 
-: q
-: q
-: rename 
-: rename --ne oioi
-: rename oioi
-: rename asd
-: rename oioi
-: rename oioi
-: rename oioi
-: bulk-rename 
-: rename b.md
-: rename b.md
-: rename b.md
-: rename
-: rename -n a-new.~1~.m
-: rename -n a-new.~1~.mdasd
-: rename -n a-new.~1~.mdasd
-: rename -n a-new.~1~
-: rename a-new.~1~.mdsd
-: rename a-new.~1~.md
-: rename -n a-new
-: rename -n a-
-: rename -n a
-: trash
-: rename -n oioi
-: delete
-: rename -n oioi
-: rename -n csd
-: rename porra!
-: rename -n meu deus, funcionou!
-: rename -n oi oi oi
-: ename -n oi oi oi
-: rename oi oi oi
-: rename -n oi oi oi.md
-: rename oi oi oi
-: rename -n oi oi oi.md
-: ename -n oi oi oi
-: rename -n oi oi oi
-: rename oi oi oi
-: rename oi oi oi.md
-: rename oi oi oi
-: rename oi oi oi.md
-: rename -n oi oi
-: rename oi oi.md.md
-: rename oi oi
-: rename oi oi.md
-: ename oi oi.md.md
-: rename -n 20200228_lf_renaming.md
-: ename 20200228_lf_renaming.md
-: rename 20200228_lf_renaming.md
-$ chmod +x $f
-$ chmod +x compiler
-: recol
-: recol 
-: q
-: q
-: q
-: set number relativenumber
-: q
-: %tput cols
-: trash-restore 
-: mkdir unmaps
-: bulk-rename 
-: touch a b c
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: rename-editor 
-: rename-editor 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: w
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: q
-: q
-: q
-: bulk-rename 
-: bulk-rename 
-: q
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: touch a b c
-: bulk-rename 
-: wq
-: wq
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: q
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: touch c
-: bulk-rename 
-: bulk-rename 
-: rename asdds
-: touch unmaps
-: q
-: rename asddsasd
-: q
-: bulk-rename 
-: bulk-rename 
-: touch a b c
-: touch a b c
-: bulk-rename 
-: touch a b c
-: touch a s d
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: ename a.md
-: rename a.md
-: ename b.md
-: ename b.pdf
-: rename b.pdf
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename
-: q
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename -n
-: rename
-: rename a.md
-: bulk-rename 
-: bulk-rename -n
-: bulk-rename -n
-: rename asd.md
-: rename -n a
-: rename -n
-: bulk-rename -n
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: q
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: rename bpdf
-: rename b.pdf
-: bulk-rename -A
-: bulk-rename -A
-: bulk-rename -A
-: bulk-rename -A
-: bulk-rename -A
-: bulk-rename -A
-: bulk-rename 
-: bulk-rename -n
-: bulk-rename e
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename -n
-: bulk-rename -A
-: bulk-rename -e
-: q
-: bulk-rename -e
-: bulk-rename -e
-: bulk-rename -e
-: bulk-rename -e
-: bulk-rename -e
-: bulk-rename -e
-: bulk-rename -e
-: bulk-rename -e
-: bulk-rename -e
-: bulk-rename -e
-: rename b.pdf
-: q
-: q
-: q
-: rename -n ioi
-: rename -n ioiio
-: rename -n teste
-: recol
-: rename ioi-asd.asdsdmd
-: rename io.asdsdmd
-: rename dslkj
-: rename io.asdsdmdalksdj
-: rename io.asd
-: rename lf_
-: q
-: q
-: rename src_img.jpg
-: rename img.jpg
-: empty
-: q
-: q
-: rename time.py-new
-: rename time.py
-: rename time.py-new
-: rename time.py
-: rename time3.py-new
-: rename time3.py
-: q
-: touch README.md
-: rename times.py
-: mkdir Churchill
-: rename Ruel V. Churchill - Complex Variables and Applications, Eighth Edition .pdf
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: bulk-rename -n
-: bulk-rename 
-: bulk-rename 
-: bulk-rename 
-: delete
-: rename 20200310_renaming_for_lf.md-new
-: rename 20200310_renaming_for_lf.md
-: bulk-rename 
-: bulk-rename 
-: rename todo.md
-: rename caisas.html
-: rename novo_nome.pdf
-: rename oioioi
-: clr
-: clr
-: clr
-: clr
-: clr
-: select $f
-: select
-: rename oioi
-: rename caisas.html
-: rename caisas.html
-: zip 
-: zip
-: zip
-: zip
-: tar
-: zip asd
-: restore 
-: restore 
-: zip stdev
-: echoerr teste
-: echo a
-: rename E change word
-: empty
-: rename novo_nome.pdf
-: q
-: rename Easd.jar
-: rename easd.jar
-: trash 1
-: restore 1
-: restore 
-: restore 
-: vim-rename prepend word
-: q
-: zip
-: zip
-: zip asd
-: tar zasd
-: rename rubiks_cube.md
-: q
-: mkdir .gitignore
-: touch .gitignore
-: mkdir example
-: q
-: rename easd.jar
-: rename oio
-: rename Irving Kaplan - Nuclear Physics.pdf
-: rename Irving asd d
-: 1
-: q
-: rename git.md
-: vim a
-: e asd
-: touch wallpaper
-: rename choose_wallpaper
-: mkdir keras
-$ vim mnist.py
-! pip install keras
-: rename apple.png
-: rename apples.png
-: rename apple.png
-: rename apples.png
-: rename apple.png
-: rename todo.txt
-$ realpath $f
-$ echo $(realpath $f)
-: rename mnist.hdf5
-: mkdir my_numbers
-: rename mnist_creating_model.py
-: rename mnist_using_model.py-new
-: rename mnist_using_model.py
-: q
-: test 
+: rename P_exp.gif
+: rename erro_bonito_pseudo.gif
+: rename P_NEW_REM.gif
+: rename P_REM_PSEUDO.gif
+: rename P_FDM_FDM.gif
+: rename atila_20200827160208_screencast.mkv
+: rename cicero_amanda_20201122093005_audio.flac
 : reload
 : reload
-: test 
-: q
-: config_restart 
-: test 
-: test 
-: test 
-: test
 : reload 
-: test
-: test
-: test
 : reload 
-: test
-: reload 
-: test
-: test
-: rename novo_nome.pdf
-: config 
-: config 
-: rename novo_nome.pdf
-: empty
-: emptytrash 
-: rename easdsasd.jar
-: rename easdsasd.jar
-: touch a.md b.md c.md
-: rename a.md
-: rename a.md
-: rename novo_nome.pdf
-: rename a.md
-: rename a.md
-: rename a.md
-: touch a.md
-: rename a.md
-: rename a.md
-: rename a.md
-: rename a.md
-: rename a.md
-: emptytrash 
-: q
-: rename two.bmp
-: rename six.bmp
-: rename seven.bmp
-: rename three2.bmp
-: rename seven_big.bmp
-: mkdir mnist
-: mkdir frrapprox
-: q
-: delete
-: delete
-: delete
-: delete
-: delete
-: delete
-: delete
-: draw
-: draw
-: redraw
-: q
-: mkdir
-: mkdir
-: mkdir lf
-: rename file_managing
-: q
-: delete
-: rename trash
-: q
-: q
-: delete
-: delete
-: delete
-: rename vpnufba.bak
-: rename vpnufba.bak.bak
-: rename vpnufba.b.bak
-: rename vpnufba.bak
-: rename vpnufba.bak.bak
-: rename luis.bak
-: delete
-$ rm luis.bak 
-: touch asd
-: touch test
-: touch a
-: q
-: q
-: q
-: delete
-: delete
-: config
-: q
-: q
-: touch a
-: q
-: q
-: q
-: touch asd
-: q
-: emptytrash 
-: q
-: cd $WORKON_HOME
-$ cd $WORKON_HOME
-: touch asd
-: load
-: load
-: q
-: q
-: q
-: q
-: emptytrash 
-: emptytrash 
-: emptytrash 
-: rename flog.log
-: rename flog.log.bak
-: rename flog.log.bak
-: rename flog.log
-: rename flog.log
-: rename flog.lo
-: rename flog.log
-: rename flog.log
-: w
-: rename flog.log
-: rename flog.log
-: rename flog.log
-: rename flog.log
-: rename flog.log
-: rename flog.log
-: rename flog.log.bak
-: trash empty
-: emptytrash 
-: q
-: q
-: q
-: rename commandtrash-new
-: rename commandtrash
-: rename cmdtrash
-: touch 'asd sd'
-: emptytrash 
-: emptytrash 
-: q
-: q
-: rename fav_black_serenity_serious_wallhaven-13e379.png
-: rename favvaporwavefocuswallhaven-ey3jkw.png
-! cmdtrash --restore last
-: rename move
-: mkdir bin
-: rename copy
-: rename trash
-: rename move
-: rename copy
-: rename undo
-: rename redo
-: rename 2as sd
-: rename 1 s d
-: q
-: q
-: q
-: rename semivar2d.py
-: touch gkstat_learning.py
-: touch sampling.py
-: q
-: mkdir semivariogram
-: mkdir semivariogram_programming
-: q
-: q
-: rename fracdim.py
-: q
-: krename vims
-: rename vims
-: w
-: rename vims
-: rename vim
-: q
-: q
-: q
-: rename init.vim.bak
-: touch plugins.vim
-: mkdir vimrc.automation.vim
-: rename vimrc.automatio.vim
-: touch vimrc.automation.vim
-: mkdir init
-: rename automation.vim
-: rename settings
-: e test
-$ vim plugins.vim
-: touch semivariogram
-: rename semivariogram.py
-: touch utils.py
-: rename fracdim.bak.py
-: touch boxcounting.py
-: q
-: touch vim.md
-: q
-: q
-: rename variables.vim
-: cd $WORKON_HOME
-! cd $WORKON_HOME
-: rename pythona.vim
-: touch python.vim
-: q
-: q
-: q
-: touch test_pics
-: mkdir pics
-: q
-: rename vim
-: mkdir vim
-: mkdir vim
-: rename vimrc.vim
-: rename vimrc
-$ rm plugged/
-$ rm -r plugged
-: rename init.vim
-: touch vimrc
-: wq
-: bulk-rename 
-: rename fichas_ensaios_catolica.pdf
-: rename lista_1_indices.pdf
-: rename 1nbr6457.pdf
-: rename 3nbr6459.pdf
-: rename 2nbr7181.pdf
-: rename 4nbr7180.pdf
-: mkdir videos
-: bulk-rename 
-: rename ensaios_lim_liquidez_ind_plasticidade.wmv
-: q
-: q
-: q
-: q
-: touch shannon
-: rename shannon.py
-: q
-: extract 
-: q
-: q
-: extract
-: rename 20200403175343_windows.mkv
-: rename 20160426IR_2015_29212715591.pdf
-: bulk-rename 
-: q
-: q
-: touch .gitmodules
-: rename model_creation
-: rename 1_segmentation.py
-: mkdir block_props
-: q
-: delete
-: mkdir cora
-: mkdir boot
-: q
-: q
-: rename defaults.yaml.bak
-: rename header.tex
-: touch template.tex
-: wq
-: q
-: q
-: rename corainf.png
-: rename cora_2.png
-: rename cora_inf.png
-: q
-: q
-: touch respostas.md
-: q
-: mkdir first
-: touch andor.py
-: rename first-andor
-: q
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: mkdir listas
-: rename Lista_1.pdf
-: mkdir slides
-: rename FIS132.pdf
-: rename lista_1.pdf
-: mkdir snippets
-: touch ideas.yaml
-: rename themes.tsv
-: rename themes.csv
-: touch todo.md
-: mkdir couple
-: q
-: q
-: q
-: delete
-: mkdir everaldo
-: extract
-: extract
-: extract
-: q
-: q
-: mkdir cythontests
-: rename stdev_cython.pyx
-: mkdir
-: rename emolog
-: q
-: q
-: q
-: q
-: mkdir spectral_decomposition
-: touch specdecomp.py
-: q
-: mkdir pics
-: mkdir refferences
-: rename refs
-: rename reffs
-: rename ref
-: touch stds1d.py
-: extract
-: mkdir felipe
-: extract
-: extract
-: q
-: touch stds2d.py
-: touch pure.py
-: touch numba.py
-: touch utils.py
-: q
-: touch trash.py
-: touch pure.sh
-$ chmod +x pure.sh 
-: reload
-: q
-: touch all_results.csv
-: rename results.csv
-: rename result.csv
-: touch results.py
-: rename results.csv
-: rename all_result.csv
-: rename all_results.csv
-: rename swsd2dreal.py
-: rename swsd1d.py
-: rename swsd2d.py
-: rename swsd2d_real.pdf
-: rename swsd2d_real.py
-: rename swsd2d_numba.pdf
-: rename swsd2d_numba.py
-: touch swsd2d_pure.py
-: touch video.desktop
-: q
-: bulk-rename 
-: q
-: q
-: rename nvidia-xrun-test
-: q
-: touch ttystartup
-$ chmod +x ttystartup 
-: q
-$ ffprobe $f
-: touch audio.desktop
-: rename pres.md
-: touch julia.vim
-: q
-: q
-: q
-: q
-: q
-: rename python_envs
-: q
-: rename results_.csv
-: rename results.csv
-: emptytrash 
-: touch data.yaml
-: q
-: touch 2020052515
-: rename 2020052515.png
-: mkdir tmp
-: rename 20200524.png
-: rename 2020052515.png
-: load
-: reload
 : sxiv $fs
-! sxiv $fs
-: rename 2020052400.png
-: rename 2020052600_.png
-: touch testconvolve.py
-: rename 2020052711.png
-: sxiv $fs
-! sxiv $fs
-: rename 2020052800.png
-! sxiv $fs
-: rename 2020052800.png
-! qutebrowser $f
-: mkdir ufbatmp
-: touch segmodel.py
-: rename 2020052900.png
-: rename 2020060300.png
-! sxiv $fs
-: mkdir mpi4py
-: touch test0.py
-: touch mpi.py
-: rename mpi0.py
-! cp mpi0.py mpi1.py 
-: touch integral.py
-: rename integral_send_recv.py
-! cp integral_send_recv.py integral_bcast_reduce.py 
-: mkdir mpi_convolve.py
-: touch mpi_convolve.py
+& sxiv $fs
 : q
-: rename mpi4pyfft.py
-: rename mpi_convolve.py
-: mkdir wave_modeling
-: touch test.jl
-: q
-: rename test_modify_arg.jl
-: rename test_oldfunctions.jl
-: rename refference.jl
-: rename reff.jl
-: rename functions.jl
-: touch alch.md
-: q
-: q
-: rename libsuperlu.so.5_
-: q
-: q
-: touch new_reff.jl
-: touch propagate_new.jl
-: rename segmodel_5_2_1_5_10_0.png
-: wq
-: q
-: q
-: mkdir semantic2
-: rename style_.css
-: touch style.css
-: rename basic.css
-: rename cver
-: touch layout2.html 
-: rename todo.md
-: touch read.py
-: rename written
-: rename write_read.jl
-: rename stringtest.jl
-: rename string_test
-: rename string_test.jl
-: mkdir serialize
-: mkdir raw_write_read
-: rename raw
-: mkdir string_file
-: rename read_ascii
-: q
-: rename segmentation_variables.svg
-: testsegmentations
-: mkdir segmentation_tests
-: rename 2020062000.png
-: rename 2020062200.png
+: touch import matplotlib.pyplot as plt
+: rename viewing_results.py
+: rename viewing_map_results.py
+: rename view_map_results.py
+: rename 1996_solberg_a_large_scale_evaluation_of_features_for_automatic_detection_of_oil_spills_in_ers_sar_images.pdf
+: reload 
+: reload 
 : reload
-: touch testconvolve.py
-: rename frente.jpg
-: rename verso.jpg
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: extract
+: extract
+: extract
+: extract
+: extract
+: extract
+: extract
+: extract
+: extract
+: reload 
+: reload 
+: reload 
+: reload 
 : extract 
-: q
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: extract 
-: q
-: rename minecraft
-: rename Minecraft
-: q
+: rename 2020
+: mkdir holz_lembranca
+: mkdir dmdann
+: mkdir ravel.py
+: rm ravel.py/
+: rmdir ravel
+& rmdir ravel.py/
+: touch ravel.py
+: rename dmdann.pdf
+: rename adahess.pdf
+: rename dmdann.pdf
+: rename yao_adahess.pdf
+: rename 2020_yao_adahess.pdf
+: rename 2020_yao_adahessian.pdf
+: mkdir potential_methods
+: rename 2020_haghighata_sciann_pinn_in_keras.pdf
+: rename 2007_peel_updated_koppen_geiger_climate_classification.pdf
+: rename 2016_ann_black_box538020a.pdf
+: rename 2016_ann_black_box.pdf
+: rename 2020_tano_dmdann.pdf
+: mkdir ann
+: rename geophysics
+: rename 31_2-64-64-64-64-64-64-1.png
+: rename 03_2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename 1_2_2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename 0_3_2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename 2_2-64-64-64-64-64-64-1.png
+: rename 0_2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename 1_2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename 1_2splitarch_2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename 3_2-40-40-40-40-40-40-1.png
+: rename 4_2-40-40-40-40-40-40-1.png
+: rename __2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename _2-64-64-64-64-64-64-1.png
+: rename 3_2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename 2_2-8-8-8-8-8-8-8-8-8-8-1.png
+: rename 1_2-64-64-64-64-64-64-1.png
+: rename 5_2-40-40-40-40-40-40-1.png
 : q
 : emptytrash 
-: rename expenses_example.yaml
-: rename incomes_example.yaml
-$ chmod +x $fs
-: reload
-: redraw
-: load
-: load
-: draw
-$ chmod +x $f
-: reload
-& rm -r zips/
-: rename fracdim_block
+: rename 2006_aharon_ksvd.pdf
+: rename 2007_total_robust_svd.pdf
+: mkdir dictionary
+: rename ksvd
+: touch dict.py
+: rename dict.py
+: mkdir power_methods.py
+: rename power_methods
+: touch eigendecomposition.py
+: mkdir conj_grad
+: rename grad
+: touch grad.py
+: mkdir 3d
+: extract 
+& sxiv $fs
+: rename fortran_ementa.pdf
+: rename logo_new.svh
+: rename logo_new.svg
+: touch calc_feats.py
+: export
+: export
+: extract 
+: mkdir local
+& sxiv $fs
+: touch ksvd.py
+: mkdir new
+: rename perfis-cerb.csv
+: rename perfis-cerb.xlsx
+: touch alex_dicas.md
+: rename future_ksvd.py
+: rename omp.py
+: ytrename omp_as_article.py
+: rename omp_as_article.py
+: mkdir backup
+: rename omp_onp.py
+: rename dict_sparse_omp.py
+: rename dict_sparse_l1.py
+: rename dict_sparse_l0_omp.py
+: rename dict_sparse_l0.py
+: mkdir done.md
+: touch done.md
+: q
 : mkdir los
-: rename wave_propagation_data
-: rename youtube-dl
-: rename youtube-music
-: mkdir big_files
-: rename big
-: rename ufba
-: rename articles
-: rename flutter_apps
-: rename test_fs
-: rename About undignity.wav
-: mkdir inkscape_learning
-: rename before_block_deixar_felipe_a_par.md
-: rename colors-meaning-circle.jpg
-: rename colors-meaning-table.jpg
-: q
-$ vim user-dirs.dirs
-: reload
-: load
-: load
-: reaload
-: reload
-: q
-& audios
-& rm audios
-: rename mus
-: rename bux
-: rename dox
-: rename pix
-: rename prj
-& rm documents pictures projects
-& rm wallpapers
-: rename tpt
-! readlink $f
-! readlink $f
-: rename templates
-: emptytrash 
-: rename mov
-: rename srs
-: rename crs
-& rm dox
-: load
-& rm todo.md
-& rm pix
-: mkdir cld
-: rename cld_PORMEGAAQUI
-: mkdir pub
-: mkdir res
-: mkdir folders.mdd
-: touch folders.md
-& rm -r books
-: rename art
-: mkdir home
-: rename 20180829_exercise.mp4
-: rename 201805251848_exercises.mp4
-: rename 20180719_dancing_king_crimson.mp4
-: rename 20180525_exercise.mp4
-: rename 20180826_meditation.mp4
-: rename BACKUP
-: reload 

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/apple.png",
+    "alpha": "100",
+    "special": {
+        "background": "#030303",
+        "foreground": "#f2ebdd",
+        "cursor": "#f2ebdd"
+    },
+    "colors": {
+	"color0": "#030303",
+	"color1": "#DF393D",
+	"color2": "#60BA45",
+	"color3": "#FCB726",
+	"color4": "#6F55A9",
+	"color5": "#953C96",
+	"color6": "#009CDB",
+	"color7": "#EBDDC2",
+	"color8": "#3D3D3D",
+	"color9": "#EF4D53",
+	"color10": "#86ED61",
+	"color11": "#EFEF32",
+	"color12": "#9D75ED",
+	"color13": "#E758EA",
+	"color14": "#0DE9F1",
+	"color15": "#EDEDED"
+    }
+}

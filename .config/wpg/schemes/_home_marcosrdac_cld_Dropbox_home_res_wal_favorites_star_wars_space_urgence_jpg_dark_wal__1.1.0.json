@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/star_wars_space_urgence.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#020406",
+        "foreground": "#a3c7dd",
+        "cursor": "#a3c7dd"
+    },
+    "colors": {
+        "color0": "#020406",
+        "color1": "#BF531F",
+        "color2": "#8C697A",
+        "color3": "#EDB54D",
+        "color4": "#1C5CA1",
+        "color5": "#2263A6",
+        "color6": "#1D94D9",
+        "color7": "#a3c7dd",
+        "color8": "#728b9a",
+        "color9": "#BF531F",
+        "color10": "#8C697A",
+        "color11": "#EDB54D",
+        "color12": "#1C5CA1",
+        "color13": "#2263A6",
+        "color14": "#1D94D9",
+        "color15": "#a3c7dd"
+    }
+}

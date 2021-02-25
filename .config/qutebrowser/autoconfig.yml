@@ -6,9 +6,48 @@
 
 config_version: 2
 settings:
-  fonts.statusbar:
-    global: 10pt Envy Code R
-  fonts.tabs.selected:
-    global: 10pt Envy Code R
-  fonts.tabs.unselected:
-    global: 10pt Envy Code R
+  aliases:
+    global:
+      q: close
+      qa: quit
+      w: session-save
+      wq: quit --save
+      wqa: quit --save
+  backend:
+    global: webkit
+  completion.open_categories:
+    global:
+    - searchengines
+    - quickmarks
+    - bookmarks
+    - history
+  downloads.location.directory:
+    global: ~/tmp
+  fonts.completion.category:
+    global: bold default_size default_family
+  new_instance_open_target:
+    global: tab
+  tabs.title.format:
+    global: '{index} {current_title}'
+  url.default_page:
+    global: about:blank
+  url.searchengines:
+    global:
+      DEFAULT: https://duckduckgo.com/?q={}
+      aw: https://wiki.archlinux.org/?search={}
+      dd: https://duckduckgo.com/?q={}
+      doi: http://gen.lib.rus.ec/scimag/?q={}
+      enpt: https://translate.google.com/#view=home&op=translate&sl=en&tl=pt&text={}
+      g: https://www.google.com.br/search?q={}
+      gd: https://drive.google.com/drive/search?q={}
+      gen: http://gen.lib.rus.ec/search.php?req={}&open=0&res=25&view=simple&phrase=1&column=def
+      gpten: https://translate.google.com/#pt/en/{}
+      gs: https://scholar.google.com/scholar?q={}
+      gsb: https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&q={}
+      pten: https://translate.google.com/#view=home&op=translate&sl=pt&tl=en&text={}
+      sc: https://soundcloud.com/search?q={}
+      w: https://en.wikipedia.org/wiki/Special:Search?search={}
+      wb: https://pt.wikipedia.org/wiki/Special:Search?search={}
+      wh: https://alpha.wallhaven.cc/search?q={}
+      wr: https://www.wordreference.com/enpt/{}
+      yt: https://www.youtube.com/results?search_query={}

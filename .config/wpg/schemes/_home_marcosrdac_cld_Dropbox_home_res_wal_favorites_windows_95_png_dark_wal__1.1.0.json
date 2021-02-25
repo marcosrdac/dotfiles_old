@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/windows_95.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121314",
+        "foreground": "#bac7c4",
+        "cursor": "#bac7c4"
+    },
+    "colors": {
+        "color0": "#121314",
+        "color1": "#E3C52B",
+        "color2": "#517B87",
+        "color3": "#95758B",
+        "color4": "#3C8688",
+        "color5": "#458588",
+        "color6": "#70939A",
+        "color7": "#bac7c4",
+        "color8": "#828b89",
+        "color9": "#E3C52B",
+        "color10": "#517B87",
+        "color11": "#95758B",
+        "color12": "#3C8688",
+        "color13": "#458588",
+        "color14": "#70939A",
+        "color15": "#bac7c4"
+    }
+}

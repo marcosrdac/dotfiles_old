@@ -1,0 +1,6 @@
+#!/bin/sh
+
+LF_ICONS_FILE="${XDG_CONFIG_HOME:="$HOME/.config"}/lf/icons"
+echo $LF_ICONS_FILE
+[ -f "$ICONS_FILE" ] && . "$LF_ICONS_FILE" && notify-send "oi"
+lf

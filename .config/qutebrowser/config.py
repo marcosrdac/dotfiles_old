@@ -20,7 +20,7 @@ def read_xresources(prefix):
 # --- colors --- #
 
 with (config.configdir / 'qutebrowser_colors.yml').open() as f:
-    yaml_data = yaml.load(f)
+    yaml_data = yaml.safe_load(f)
 
 
 def dict_attrs(obj, path=''):
@@ -73,6 +73,8 @@ c.editor.command = ['st', '-e', os.environ.get('EDITOR'), '{}']
 xresources = read_xresources('*')
 try:
     font_name = xresources['*font_name']
+    if ':' in font_name:
+        font_name = font_name.split(':')[0]
     font_size = xresources['*font_size']
     base_font = font_size + 'pt ' + font_name
 except:
@@ -104,7 +106,8 @@ c.keyhint.radius = 0
 c.prompt.radius = 0
 #c.spellcheck.languages = ['pt-BR', 'en-US', 'de-DE']
 c.url.searchengines = {
-    "DEFAULT": "https://www.google.com.br/search?q={}",
+    # "DEFAULT": "https://www.google.com.br/search?q={}",
+    "DEFAULT": "https://duckduckgo.com/?q={}",
     "g":  "https://www.google.com.br/search?q={}",
     "gs": "https://scholar.google.com/scholar?q={}",
     "gsb":
@@ -115,6 +118,7 @@ c.url.searchengines = {
         "w":  "https://en.wikipedia.org/wiki/Special:Search?search={}",
         "wb":  "https://pt.wikipedia.org/wiki/Special:Search?search={}",
         "wh": "https://alpha.wallhaven.cc/search?q={}",
+        "doi": "http://gen.lib.rus.ec/scimag/?q={}",
         "dd":  "https://duckduckgo.com/?q={}",
         "gd":  "https://drive.google.com/drive/search?q={}",
         "yt":  "https://www.youtube.com/results?search_query={}",

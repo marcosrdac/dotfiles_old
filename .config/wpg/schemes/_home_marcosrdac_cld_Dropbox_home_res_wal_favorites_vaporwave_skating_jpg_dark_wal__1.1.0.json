@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/vaporwave_skating.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#18040b",
+        "foreground": "#9bd9ee",
+        "cursor": "#9bd9ee"
+    },
+    "colors": {
+        "color0": "#18040b",
+        "color1": "#4E4C59",
+        "color2": "#AF3857",
+        "color3": "#342B9B",
+        "color4": "#3D49BF",
+        "color5": "#717899",
+        "color6": "#4F60E9",
+        "color7": "#9bd9ee",
+        "color8": "#6c97a6",
+        "color9": "#4E4C59",
+        "color10": "#AF3857",
+        "color11": "#342B9B",
+        "color12": "#3D49BF",
+        "color13": "#717899",
+        "color14": "#4F60E9",
+        "color15": "#9bd9ee"
+    }
+}

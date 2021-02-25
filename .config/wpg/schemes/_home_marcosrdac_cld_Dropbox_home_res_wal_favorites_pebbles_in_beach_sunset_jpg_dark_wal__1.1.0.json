@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/pebbles_in_beach_sunset.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#131315",
+        "foreground": "#c5c2c2",
+        "cursor": "#c5c2c2"
+    },
+    "colors": {
+        "color0": "#131315",
+        "color1": "#E5A95A",
+        "color2": "#EC9D62",
+        "color3": "#36708C",
+        "color4": "#5A7888",
+        "color5": "#8C7C83",
+        "color6": "#658A9B",
+        "color7": "#c5c2c2",
+        "color8": "#898787",
+        "color9": "#E5A95A",
+        "color10": "#EC9D62",
+        "color11": "#36708C",
+        "color12": "#5A7888",
+        "color13": "#8C7C83",
+        "color14": "#658A9B",
+        "color15": "#c5c2c2"
+    }
+}

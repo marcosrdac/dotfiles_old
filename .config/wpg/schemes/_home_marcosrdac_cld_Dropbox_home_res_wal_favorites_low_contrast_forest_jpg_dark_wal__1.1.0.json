@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/low_contrast_forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#03333C",
+        "foreground": "#dfd4c4",
+        "cursor": "#dfd4c4"
+    },
+    "colors": {
+        "color0": "#03333C",
+        "color1": "#5D6558",
+        "color2": "#8E7761",
+        "color3": "#C07C63",
+        "color4": "#778468",
+        "color5": "#A18B6F",
+        "color6": "#C79C7A",
+        "color7": "#dfd4c4",
+        "color8": "#9c9489",
+        "color9": "#5D6558",
+        "color10": "#8E7761",
+        "color11": "#C07C63",
+        "color12": "#778468",
+        "color13": "#A18B6F",
+        "color14": "#C79C7A",
+        "color15": "#dfd4c4"
+    }
+}

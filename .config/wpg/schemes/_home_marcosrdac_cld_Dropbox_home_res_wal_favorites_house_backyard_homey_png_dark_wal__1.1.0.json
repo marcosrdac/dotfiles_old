@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/house_backyard_homey.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1216",
+        "foreground": "#e4dad2",
+        "cursor": "#e4dad2"
+    },
+    "colors": {
+        "color0": "#0d1216",
+        "color1": "#738676",
+        "color2": "#A08C74",
+        "color3": "#717985",
+        "color4": "#74948F",
+        "color5": "#A09C96",
+        "color6": "#CEB5A8",
+        "color7": "#e4dad2",
+        "color8": "#9f9893",
+        "color9": "#738676",
+        "color10": "#A08C74",
+        "color11": "#717985",
+        "color12": "#74948F",
+        "color13": "#A09C96",
+        "color14": "#CEB5A8",
+        "color15": "#e4dad2"
+    }
+}

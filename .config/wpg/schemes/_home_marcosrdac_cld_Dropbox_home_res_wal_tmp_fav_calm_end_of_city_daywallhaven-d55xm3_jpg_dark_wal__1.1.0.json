@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp/fav_calm_end_of_city_daywallhaven-d55xm3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1e39",
+        "foreground": "#edceea",
+        "cursor": "#edceea"
+    },
+    "colors": {
+        "color0": "#1c1e39",
+        "color1": "#B36EC2",
+        "color2": "#5F89CE",
+        "color3": "#D9A5A7",
+        "color4": "#AB99E8",
+        "color5": "#F495EC",
+        "color6": "#DEA8E3",
+        "color7": "#edceea",
+        "color8": "#a590a3",
+        "color9": "#B36EC2",
+        "color10": "#5F89CE",
+        "color11": "#D9A5A7",
+        "color12": "#AB99E8",
+        "color13": "#F495EC",
+        "color14": "#DEA8E3",
+        "color15": "#edceea"
+    }
+}

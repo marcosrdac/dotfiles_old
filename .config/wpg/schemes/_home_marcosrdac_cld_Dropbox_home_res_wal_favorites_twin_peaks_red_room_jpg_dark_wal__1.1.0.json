@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/twin_peaks_red_room.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0204",
+        "foreground": "#c6c3ca",
+        "cursor": "#c6c3ca"
+    },
+    "colors": {
+        "color0": "#0c0204",
+        "color1": "#826060",
+        "color2": "#8A7574",
+        "color3": "#7A827C",
+        "color4": "#91817E",
+        "color5": "#907D82",
+        "color6": "#948486",
+        "color7": "#c6c3ca",
+        "color8": "#8a888d",
+        "color9": "#826060",
+        "color10": "#8A7574",
+        "color11": "#7A827C",
+        "color12": "#91817E",
+        "color13": "#907D82",
+        "color14": "#948486",
+        "color15": "#c6c3ca"
+    }
+}

@@ -12,8 +12,7 @@ bspc config borderless_monocle      true
 bspc config single_monocle          false
 bspc config gapless_monocle         true
 bspc config ignore_ewmh_fullscreen  all
-bspc config pointer_modifier        mod1
-
+bspc config pointer_modifier        mod1  # mod3
 
 # --- colors style --- #
 
@@ -33,7 +32,8 @@ bspc config external_rules_command ~/.local/bin/bspwm/bspwm_external_rules
 
 # starting terminals (programs are only run when you first unhidden the windows)
 $TERMINAL -c dropdown_terminal     -e tmux new-session -t dropdown &
-$TERMINAL -c dropdown_calculator   -e $WORKON_HOME/m/bin/python -i -c 'import numpy as np; from numpy import *' &
+#$TERMINAL -c dropdown_calculator   -e $WORKON_HOME/m/bin/python -i -c 'import numpy as np; from numpy import *' &
+$TERMINAL -c dropdown_calculator   -e julia --banner no &
 $TERMINAL -c dropdown_mail         -e neomutt &
 $TERMINAL -c dropdown_music_player -e ncmpcpp &
 

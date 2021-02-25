@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/bridge_red_green.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090c04",
+        "foreground": "#f6f6f5",
+        "cursor": "#f6f6f5"
+    },
+    "colors": {
+        "color0": "#090c04",
+        "color1": "#6C9158",
+        "color2": "#AC9C35",
+        "color3": "#979F69",
+        "color4": "#7B9085",
+        "color5": "#C5CBA3",
+        "color6": "#F1F0D1",
+        "color7": "#f6f6f5",
+        "color8": "#acacab",
+        "color9": "#6C9158",
+        "color10": "#AC9C35",
+        "color11": "#979F69",
+        "color12": "#7B9085",
+        "color13": "#C5CBA3",
+        "color14": "#F1F0D1",
+        "color15": "#f6f6f5"
+    }
+}

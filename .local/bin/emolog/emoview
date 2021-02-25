@@ -1,0 +1,4 @@
+#!/bin/sh
+
+BASEDIR="$(dirname "$0")"
+"$WORKON_HOME/m/bin/python" "$BASEDIR/emoview.py"

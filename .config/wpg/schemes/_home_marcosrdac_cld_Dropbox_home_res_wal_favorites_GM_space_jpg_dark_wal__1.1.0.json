@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/GM_space.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060C0A",
+        "foreground": "#bbd09f",
+        "cursor": "#bbd09f"
+    },
+    "colors": {
+        "color0": "#060C0A",
+        "color1": "#2C534D",
+        "color2": "#366454",
+        "color3": "#4D7149",
+        "color4": "#4C6C50",
+        "color5": "#678B3A",
+        "color6": "#679751",
+        "color7": "#bbd09f",
+        "color8": "#82916f",
+        "color9": "#2C534D",
+        "color10": "#366454",
+        "color11": "#4D7149",
+        "color12": "#4C6C50",
+        "color13": "#678B3A",
+        "color14": "#679751",
+        "color15": "#bbd09f"
+    }
+}

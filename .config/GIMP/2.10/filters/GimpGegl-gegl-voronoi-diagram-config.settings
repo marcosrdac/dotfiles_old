@@ -1,0 +1,18 @@
+# settings
+
+(GimpGegl-gegl-voronoi-diagram-config "2020-07-15 16:34:18"
+    (time 1594841658)
+    (metric euclidean)
+    (mask (color-rgba 0.76923076923076916 0 0 0))
+    (invert no)
+    (seed-edges no)
+    (abyss-policy none))
+(GimpGegl-gegl-voronoi-diagram-config "2020-07-15 16:33:57"
+    (time 1594841637)
+    (metric euclidean)
+    (mask (color-rgba 0 0 0 0))
+    (invert no)
+    (seed-edges no)
+    (abyss-policy none))
+
+# end of settings

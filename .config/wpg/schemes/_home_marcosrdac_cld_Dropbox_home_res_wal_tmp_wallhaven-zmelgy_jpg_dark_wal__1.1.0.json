@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp/wallhaven-zmelgy.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D1015",
+        "foreground": "#e3d7d6",
+        "cursor": "#e3d7d6"
+    },
+    "colors": {
+        "color0": "#0D1015",
+        "color1": "#656773",
+        "color2": "#727885",
+        "color3": "#837C85",
+        "color4": "#9B929A",
+        "color5": "#B7A7AC",
+        "color6": "#CAB6B6",
+        "color7": "#e3d7d6",
+        "color8": "#9e9695",
+        "color9": "#656773",
+        "color10": "#727885",
+        "color11": "#837C85",
+        "color12": "#9B929A",
+        "color13": "#B7A7AC",
+        "color14": "#CAB6B6",
+        "color15": "#e3d7d6"
+    }
+}

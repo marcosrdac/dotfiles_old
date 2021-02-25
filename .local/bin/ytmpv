@@ -16,18 +16,26 @@ quality="bestvideo[height<=$height]$fps+bestaudio/best[height<=$height]"
 #quality="worstvideo+bestaudio"
 
 [ "$url" != "$search" ] &&
-  url=$(youtube-dl -g "ytsearch1:$search")
-  #url=$(youtube-dl --add-metadata --prefer-insecure -g "ytsearch1:$search")
+  searched=1 && firstline=1 &&
+  ytdlres=$(youtube-dl --add-metadata --prefer-insecure -g "ytsearch1:$search") &&
+  vid=${ytdlres%$'\n'*} && aud=${ytdlres#*$'\n'*} &&
 echo "$(date +'%Y%m%d%H%M%S') $url" >> "$LOGFILE"
 
-
+echo $vid
+echo
+echo $aud
 
 # talking to user
 notify-send "Playing video" "$url"
 
 # streamming video
 mpvtitle='ytmpv - ${NAME:video}'
-mpv -ytdl-format="$quality" -title="$title" $url
+if [ $searched -ne 1 ]
+then
+  mpv -title="$mpvtitle" -ytdl-format="$quality" $url
+else                    
+  mpv -title="$mpvtitle" -ytdl-format="$quality" "$vid" --audio-file="$aud"
+fi
 
 # talking to user if any errors occurred
 [ $? -eq 0 ] || notify-send "Error" "An error occurred while fetching URL."

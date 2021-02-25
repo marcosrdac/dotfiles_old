@@ -1,0 +1,54 @@
+# settings
+
+(GimpGegl-gegl-segment-kmeans-config "2020-08-31 22:06:44"
+    (time 1598922404)
+    (n-clusters 3)
+    (max-iterations 1)
+    (seed 2379185541))
+(GimpGegl-gegl-segment-kmeans-config "2020-08-31 22:01:54"
+    (time 1598922114)
+    (n-clusters 4)
+    (max-iterations 1)
+    (seed 1883198722))
+(GimpGegl-gegl-segment-kmeans-config "2020-08-06 14:44:40"
+    (time 1596735880)
+    (n-clusters 3)
+    (max-iterations 1)
+    (seed 3984586521))
+(GimpGegl-gegl-segment-kmeans-config "2020-08-06 14:28:47"
+    (time 1596734927)
+    (n-clusters 3)
+    (max-iterations 1)
+    (seed 915399991))
+(GimpGegl-gegl-segment-kmeans-config "2020-07-18 00:58:09"
+    (time 1595044689)
+    (n-clusters 6)
+    (max-iterations 1)
+    (seed 3677087454))
+(GimpGegl-gegl-segment-kmeans-config "2020-07-18 00:54:46"
+    (time 1595044486)
+    (n-clusters 6)
+    (max-iterations 1)
+    (seed 3989496605))
+(GimpGegl-gegl-segment-kmeans-config "2020-07-18 00:44:58"
+    (time 1595043898)
+    (n-clusters 5)
+    (max-iterations 1)
+    (seed 472487068))
+(GimpGegl-gegl-segment-kmeans-config "2020-07-18 00:33:42"
+    (time 1595043222)
+    (n-clusters 2)
+    (max-iterations 5)
+    (seed 0))
+(GimpGegl-gegl-segment-kmeans-config "2020-07-18 00:22:56"
+    (time 1595042576)
+    (n-clusters 4)
+    (max-iterations 1)
+    (seed 1587162248))
+(GimpGegl-gegl-segment-kmeans-config "2020-07-16 20:27:40"
+    (time 1594942060)
+    (n-clusters 3)
+    (max-iterations 5)
+    (seed 1989446880))
+
+# end of settings

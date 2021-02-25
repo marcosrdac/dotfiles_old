@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/white_tiger_chun_lo.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1834",
+        "foreground": "#e8dfeb",
+        "cursor": "#e8dfeb"
+    },
+    "colors": {
+        "color0": "#1b1834",
+        "color1": "#58659F",
+        "color2": "#4C64AC",
+        "color3": "#7E77BC",
+        "color4": "#D347A3",
+        "color5": "#B2A2BC",
+        "color6": "#A2A5D9",
+        "color7": "#e8dfeb",
+        "color8": "#a29ca4",
+        "color9": "#58659F",
+        "color10": "#4C64AC",
+        "color11": "#7E77BC",
+        "color12": "#D347A3",
+        "color13": "#B2A2BC",
+        "color14": "#A2A5D9",
+        "color15": "#e8dfeb"
+    }
+}

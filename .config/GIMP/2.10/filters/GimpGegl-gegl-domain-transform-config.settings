@@ -1,0 +1,9 @@
+# settings
+
+(GimpGegl-gegl-domain-transform-config "2020-07-15 16:46:43"
+    (time 1594842403)
+    (n-iterations 3)
+    (spatial-factor 30)
+    (edge-preservation 0.46300000000000002))
+
+# end of settings

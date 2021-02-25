@@ -138,7 +138,7 @@ b/home/marcosrdac/wallpapers/
 # TUI:
 ar
 q1
-v2
+v1
 ov
 m-1
 l2
@@ -448,162 +448,6 @@ d/home/marcosrdac/.config/shell
 d
 
 # Right window history (oldest to newest):
-D/home/marcosrdac/projects/linux_learning
-	calcdu.py
-6
-D/home/marcosrdac/.local/share/Trash
-	000_MaratonaDev3
-3
-D/home/marcosrdac/.local/share/Trash/000_MaratonaDev3
-	..
-0
-D/home/marcosrdac/.local/share/Trash
-	..
-0
-D/home/marcosrdac/.local
-	lib
-2
-D/home/marcosrdac/.local/lib
-	..
-0
-D/home/marcosrdac/.local
-	run
-3
-D/home/marcosrdac/.local/run
-	..
-0
-D/home/marcosrdac/.local
-	share
-4
-D/home/marcosrdac/.local/share
-	..
-0
-D/home/marcosrdac/.local
-	lib
-2
-D/home/marcosrdac/.local/lib
-	python3.7
-1
-D/home/marcosrdac/.local
-	lib
-2
-D/home/marcosrdac/.local/lib
-	python3.7
-1
-D/home/marcosrdac/.config
-	shell
-22
-D/home/marcosrdac/.config/shell
-	shenv
-8
-D/home/marcosrdac
-	.jupyter
-9
-D/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-24
-D/home/marcosrdac/projects
-	keybinder
-37
-D/home/marcosrdac/projects/linux_learning
-	packages_instalation.md
-24
-D/home/marcosrdac/projects
-	site
-37
-D/home/marcosrdac/projects/site
-	marcosrdac.github.io
-3
-D/home/marcosrdac/projects/site/marcosrdac.github.io
-	_content
-2
-D/home/marcosrdac/projects/site/marcosrdac.github.io/_content
-	blog
-1
-D/home/marcosrdac/projects/site/marcosrdac.github.io/_content/blog
-	20200226_pew_and_pipenv.md
-10
-D/home/marcosrdac
-	.local
-10
-D/home/marcosrdac/.local/lib/pipenvs
-	w
-2
-D/home/marcosrdac/.local/lib/pipenvs/w
-	..
-0
-D/home/marcosrdac/.local/lib/pipenvs
-	w
-2
-D/home/marcosrdac/.local/lib
-	python3.8
-3
-D/home/marcosrdac/.local/lib/python3.8
-	site-packages
-1
-D/home/marcosrdac/.local/lib/python3.8/site-packages
-	..
-0
-D/home/marcosrdac/.local/lib/python3.8
-	site-packages
-1
-D/home/marcosrdac/.local/lib
-	python3.7
-2
-D/home/marcosrdac/.local/lib/python3.7
-	site-packages
-1
-D/home/marcosrdac/.local/lib/python3.7/site-packages
-	..
-0
-D/home/marcosrdac/.local/lib/python3.7
-	site-packages
-1
-D/home/marcosrdac/.local/lib
-	pipenvs
-1
-D/home/marcosrdac/.local/lib/pipenvs
-	w
-2
-D/home/marcosrdac/.local/lib/pipenvs/w
-	lib
-3
-D/home/marcosrdac/.local/lib/pipenvs/w/lib
-	..
-0
-D/home/marcosrdac/.local/lib/pipenvs/w
-	bin
-1
-D/home/marcosrdac/.local/lib/pipenvs/w/bin
-	..
-0
-D/home/marcosrdac/.local/lib/pipenvs/w
-	bin
-1
-D/home/marcosrdac/.local/lib/pipenvs
-	w
-2
-D/home/marcosrdac/.local/lib
-	pipenvs
-1
-D/home/marcosrdac/.local
-	share
-4
-D/home/marcosrdac/.local/share
-	Steam
-1
-D/home/marcosrdac/.local/share/Steam
-	bin
-2
-D/home/marcosrdac/.local/share/Steam/bin
-	panorama
-1
-D/home/marcosrdac/.local/share/Steam/bin/panorama
-	etc
-1
-D/home/marcosrdac/.local/share/Steam/bin/panorama/etc
-	fonts
-1
 D/home/marcosrdac/.local/share/Steam/bin/panorama/etc/fonts
 	conf.d
 1
@@ -748,6 +592,162 @@ D/home/marcosrdac/wallpapers
 D/home/marcosrdac/wallpapers/favorites
 	arara_azul_brazil_total_gc.jpg_wal_sample.png
 4
+D/home/marcosrdac
+	.cache
+0
+D/home/marcosrdac/.cache
+	go
+13
+D/home/marcosrdac/.cache/go
+	pkg
+1
+D/home/marcosrdac/.cache
+	go
+13
+D/home/marcosrdac
+	.local
+23
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac/.local/share
+	lf
+14
+D/home/marcosrdac/.local/share/lf
+	..
+0
+D/home/marcosrdac/.local/share
+	lf
+14
+D/home/marcosrdac/.local/share/lf
+	..
+0
+D/home/marcosrdac/.local/share
+	go
+14
+D/home/marcosrdac/.local/share/go
+	go_root
+2
+D/home/marcosrdac/.local/share/go/go_root
+	..
+0
+D/home/marcosrdac/.local/share/go
+	go_path
+1
+D/home/marcosrdac/.local/share/go/go_path
+	..
+0
+D/home/marcosrdac/.local/share/go
+	go_path
+1
+D/home/marcosrdac/.local/share
+	Google
+0
+D/home/marcosrdac/.local/share/Google
+	consentOptions
+1
+D/home/marcosrdac/.local/share/Google/consentOptions
+	accepted
+1
+D/home/marcosrdac/.local/share/Google
+	consentOptions
+1
+D/home/marcosrdac/.local/share
+	Google
+0
+D/home/marcosrdac/.local
+	share
+4
+D/home/marcosrdac
+	..
+0
+D/home
+	marcosrdac
+2
+D/
+	home
+5
+D/home/marcosrdac
+	dox
+4
+D/home/marcosrdac/dox
+	res
+7
+D/home/marcosrdac/dox/res
+	..
+0
+D/home/marcosrdac/dox
+	psn
+5
+D/home/marcosrdac/dox/psn
+	fnd
+2
+D/home/marcosrdac/dox/psn/fnd
+	milena_leite
+4
+D/home/marcosrdac/dox/psn/fnd/milena_leite
+	..
+0
+D/home/marcosrdac/dox/psn/fnd
+	lais
+3
+D/home/marcosrdac/dox/psn/fnd/lais
+	..
+0
+D/home/marcosrdac/dox/psn/fnd
+	joao_eduardo
+2
+D/home/marcosrdac/dox/psn/fnd/joao_eduardo
+	..
+0
+D/home/marcosrdac/dox/psn/fnd
+	amandinha
+1
+D/home/marcosrdac/dox/psn/fnd/amandinha
+	amandinha.csv.gpg
+1
+D/home/marcosrdac/dox/psn/fnd
+	index.md
+6
+D/home/marcosrdac/dox/psn
+	fnd
+2
+D/home/marcosrdac/dox
+	_psn
+3
+D/home/marcosrdac/dox/_psn
+	signature
+9
+D/home/marcosrdac
+	pro
+8
+D/home/marcosrdac/pro
+	cora
+15
+D/home/marcosrdac/pro/cora
+	..
+0
+D/home/marcosrdac/pro
+	raposinha
+34
+D/home/marcosrdac/pro/raposinha
+	raposinha_whatsapp_20181026_20190312.csv
+18
+D/home/marcosrdac/pro
+	raposinha
+34
+D/home/marcosrdac/pro/raposinha
+	raposinha_whatsapp_20181026_20190312.csv
+18
+D/home/marcosrdac
+	pix
+7
+D/home/marcosrdac/pix
+	scr
+4
+D/home/marcosrdac/pix/scr
+	20200831151526_screenshot_1366x768_000.png
+32
 D
 
 # Command line history (oldest to newest):
@@ -853,14 +853,6 @@ D
 :q
 
 # Search history (oldest to newest):
-/2020
-/eage
-/evera
-/tax
-/ea
-/mono
-/srt
-/date
 /bsp
 /toggl
 /reco
@@ -905,7 +897,6 @@ D
 /vim
 /ufba
 /vpn
-/rapo
 /spri
 /dev
 /js
@@ -952,7 +943,16 @@ D
 /lib
 /site
 /jour
+/cache
+//
 /lf
+/loc
+/l
+/go
+/ra
+/rapo
+/wha
+/pix
 
 # Prompt history (oldest to newest):
 pPROXIMA_VEZ_densidade_px300
@@ -1059,7 +1059,7 @@ plfrc
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/marcosrdac/.local/share/Trash/000_pipenvs
+""/home/marcosrdac/pro/raposinha/raposinha_whatsapp_20181026_20190312.csv
 
 # Directory stack (oldest to newest):
 
@@ -2690,6 +2690,6 @@ i1
 [F
 F
 I1
-].0
+].1
 ]F
 s0

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/beach_pastel.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f252d",
+        "foreground": "#c8c7c7",
+        "cursor": "#c8c7c7"
+    },
+    "colors": {
+        "color0": "#1f252d",
+        "color1": "#398AA1",
+        "color2": "#698898",
+        "color3": "#5290A5",
+        "color4": "#6F99A9",
+        "color5": "#8B9CA5",
+        "color6": "#93A5AD",
+        "color7": "#c8c7c7",
+        "color8": "#8c8b8b",
+        "color9": "#398AA1",
+        "color10": "#698898",
+        "color11": "#5290A5",
+        "color12": "#6F99A9",
+        "color13": "#8B9CA5",
+        "color14": "#93A5AD",
+        "color15": "#c8c7c7"
+    }
+}

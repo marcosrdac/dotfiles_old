@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/mountains_bluish_minecraft_like.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#091B2A",
+        "foreground": "#cedde5",
+        "cursor": "#cedde5"
+    },
+    "colors": {
+        "color0": "#091B2A",
+        "color1": "#507698",
+        "color2": "#3785AE",
+        "color3": "#5D90B0",
+        "color4": "#6EA4C8",
+        "color5": "#AFB0AB",
+        "color6": "#90B6CF",
+        "color7": "#cedde5",
+        "color8": "#909aa0",
+        "color9": "#507698",
+        "color10": "#3785AE",
+        "color11": "#5D90B0",
+        "color12": "#6EA4C8",
+        "color13": "#AFB0AB",
+        "color14": "#90B6CF",
+        "color15": "#cedde5"
+    }
+}

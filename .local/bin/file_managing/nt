@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+EDITOR=${EDITOR:-'vim'}
+
+# get current date
+D=$(date +'%Y%m%d')
+#T=$(date +'%H%M%S')
+
+# set title
+[ -z "${@+1}" ] && printf "title: " && read title || title="$@"
+title=$(echo "$title" | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
+
+# set filename
+filename="${D}_${title}.md"
+
+# edit file
+$EDITOR "$filename"

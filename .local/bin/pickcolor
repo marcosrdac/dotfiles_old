@@ -1,0 +1,10 @@
+#!/bin/sh
+# Get hex rgb color under mouse cursor, put it into clipboard and create a
+# notification.
+
+eval $(xdotool getmouselocation --shell)
+IMAGE=`import -window root -depth 8 -crop 1x1+$X+$Y txt:-`
+COLOR=`echo $IMAGE | grep -om1 '#\w\+'`
+echo -n $COLOR | xclip -i -selection CLIPBOARD
+notify-send "Color under mouse cursor" \
+  "$COLOR\n<span background='$COLOR' foreground='#000000'>$COLOR</span>\t<b><span foreground='$COLOR' background='#000000'>$COLOR</span></b>\n<span background='$COLOR' foreground='#FFFFFF'>$COLOR</span>\t<b><span foreground='$COLOR' background='#FFFFFF'>$COLOR</span></b>"

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/traffic_light_gc.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#081216",
+        "foreground": "#a8c6ca",
+        "cursor": "#a8c6ca"
+    },
+    "colors": {
+        "color0": "#081216",
+        "color1": "#185061",
+        "color2": "#B54244",
+        "color3": "#E8AC5A",
+        "color4": "#1F728A",
+        "color5": "#B67A81",
+        "color6": "#2D9BAD",
+        "color7": "#a8c6ca",
+        "color8": "#758a8d",
+        "color9": "#185061",
+        "color10": "#B54244",
+        "color11": "#E8AC5A",
+        "color12": "#1F728A",
+        "color13": "#B67A81",
+        "color14": "#2D9BAD",
+        "color15": "#a8c6ca"
+    }
+}

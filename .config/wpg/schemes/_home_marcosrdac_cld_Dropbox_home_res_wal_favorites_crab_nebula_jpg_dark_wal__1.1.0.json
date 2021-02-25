@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/crab_nebula.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060304",
+        "foreground": "#ccd9da",
+        "cursor": "#ccd9da"
+    },
+    "colors": {
+        "color0": "#060304",
+        "color1": "#9C9964",
+        "color2": "#BAA361",
+        "color3": "#4D7A86",
+        "color4": "#67989C",
+        "color5": "#75AFCC",
+        "color6": "#9CAC9B",
+        "color7": "#ccd9da",
+        "color8": "#8e9798",
+        "color9": "#9C9964",
+        "color10": "#BAA361",
+        "color11": "#4D7A86",
+        "color12": "#67989C",
+        "color13": "#75AFCC",
+        "color14": "#9CAC9B",
+        "color15": "#ccd9da"
+    }
+}

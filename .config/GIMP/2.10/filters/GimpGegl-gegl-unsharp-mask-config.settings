@@ -1,29 +1,49 @@
 # settings
 
+(GimpGegl-gegl-unsharp-mask-config "2020-09-29 17:10:33"
+    (time 1601410233)
+    (std-dev 1.2729999999999999)
+    (scale 2.2109999999999999)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "2020-09-29 17:05:54"
+    (time 1601409954)
+    (std-dev 1.3440000000000001)
+    (scale 15.025)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "2020-08-30 23:00:30"
+    (time 1598839230)
+    (std-dev 3)
+    (scale 0.5)
+    (threshold 0))
+(GimpGegl-gegl-unsharp-mask-config "2020-08-30 22:56:47"
+    (time 1598839007)
+    (std-dev 1.829)
+    (scale 4.3680000000000003)
+    (threshold 0))
 (GimpGegl-gegl-unsharp-mask-config "2019-06-14 06:49:00"
     (time 1560505740)
-    (std-dev 4.814000)
-    (scale 0.759000)
-    (threshold 0.000000))
+    (std-dev 4.8140000000000001)
+    (scale 0.75900000000000001)
+    (threshold 0))
 (GimpGegl-gegl-unsharp-mask-config "2018-09-17 04:38:47"
     (time 1537169927)
-    (std-dev 15.516000)
-    (scale 0.138000)
-    (threshold 0.000000))
+    (std-dev 15.516)
+    (scale 0.13800000000000001)
+    (threshold 0))
 (GimpGegl-gegl-unsharp-mask-config "2018-09-17 04:31:29"
     (time 1537169489)
-    (std-dev 60.234000)
-    (scale 1.254000)
-    (threshold 0.000000))
+    (std-dev 60.234000000000002)
+    (scale 1.254)
+    (threshold 0))
 (GimpGegl-gegl-unsharp-mask-config "2018-08-27 16:43:26"
     (time 1535399006)
-    (std-dev 2.353000)
-    (scale 5.865000)
-    (threshold 0.000000))
+    (std-dev 2.3530000000000002)
+    (scale 5.8650000000000002)
+    (threshold 0))
 (GimpGegl-gegl-unsharp-mask-config "2018-08-26 17:33:42"
     (time 1535315622)
-    (std-dev 2.281000)
-    (scale 7.775000)
-    (threshold 0.000000))
+    (std-dev 2.2810000000000001)
+    (scale 7.7750000000000004)
+    (threshold 0))
 
 # end of settings

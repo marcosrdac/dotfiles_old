@@ -1,0 +1,48 @@
+#!/usr/bin/sh
+
+# help and exit if no arguments
+[ -z "$1" ] &&
+    echo -e "USAGE:\n\tSet timer seconds as the first argument." &&
+    exit 1
+
+# use this part to turn this program into a general timer function with getopt
+
+# defining paths 
+
+RUN="${XDG_RUNTIME_DIR:=$HOME/.local/run}/polybar_timer/"
+FIFO="${RUN:-$HOME/.local/run}/timer.fifo"
+#BEEP="$HOME/res/aud/beep_high.wav"
+BEEP="/usr/share/sounds/freedesktop/stereo/complete.oga"
+LOG="${XDG_DOCUMENTS_DIR:-$HOME/Documents}/psn/log/timer.csv"
+LOGDIR="$(dirname "$LOG")"
+
+# clean fifo if receives SIGINT
+trap "echo > \"$FIFO\" && exit 1" SIGINT
+
+# making sure they exist
+[ -d "$RUN" ] || mkdir -p "$RUN"
+[ -p "$FIFO" ] || mkfifo "$FIFO"
+[ -d "$LOGDIR" ] || mkdir -p"$LOGDIR"
+
+# getting title for log
+[ -z "$LOG"] || title=$(echo | ${DMENU:-dmenu} -p "timer title")
+
+# starting the program
+timer=$1
+echo $timer > "$FIFO"
+
+while [ $timer -gt 0 ]
+do
+  sleep 1
+  let timer=timer-1
+  echo $timer > "$FIFO"
+done
+
+# playing beep
+play "$BEEP" > "/dev/null" 2> "/dev/null" &
+
+# logging spent time
+[ -z "$title"] || echo -e "$1\t$title" >> "$LOG"
+
+# closing polybar widget
+echo > "$FIFO"

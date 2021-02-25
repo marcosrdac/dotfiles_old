@@ -1,0 +1,8 @@
+#!/bin/sh
+
+MAXDEPTH=1
+
+path=$(find -H .?* -maxdepth $MAXDEPTH | fzy -p "" -l "$(( $(tput lines) - 1 ))")
+[ -z "$path" ] && exit
+cd "$path"
+

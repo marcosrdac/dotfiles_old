@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/mnt/hdd/home/tmp/2017-02-09 (1).png",
+    "alpha": "100",
+    "special": {
+        "background": "#16130d",
+        "foreground": "#d9e6ea",
+        "cursor": "#d9e6ea"
+    },
+    "colors": {
+        "color0": "#16130d",
+        "color1": "#356946",
+        "color2": "#5A6C4B",
+        "color3": "#8F714D",
+        "color4": "#718743",
+        "color5": "#AE9B51",
+        "color6": "#C8C7AB",
+        "color7": "#d9e6ea",
+        "color8": "#97a1a3",
+        "color9": "#356946",
+        "color10": "#5A6C4B",
+        "color11": "#8F714D",
+        "color12": "#718743",
+        "color13": "#AE9B51",
+        "color14": "#C8C7AB",
+        "color15": "#d9e6ea"
+    }
+}

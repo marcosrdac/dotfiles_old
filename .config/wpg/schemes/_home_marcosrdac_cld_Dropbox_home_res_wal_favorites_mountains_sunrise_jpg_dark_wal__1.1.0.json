@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/mountains_sunrise.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#061D3E",
+        "foreground": "#dad4cb",
+        "cursor": "#dad4cb"
+    },
+    "colors": {
+        "color0": "#061D3E",
+        "color1": "#DE9975",
+        "color2": "#7B7883",
+        "color3": "#948485",
+        "color4": "#B8B9B7",
+        "color5": "#D5B390",
+        "color6": "#E9B081",
+        "color7": "#dad4cb",
+        "color8": "#98948e",
+        "color9": "#DE9975",
+        "color10": "#7B7883",
+        "color11": "#948485",
+        "color12": "#B8B9B7",
+        "color13": "#D5B390",
+        "color14": "#E9B081",
+        "color15": "#dad4cb"
+    }
+}

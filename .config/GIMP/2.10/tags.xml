@@ -16,6 +16,15 @@
   <resource identifier="gimp-brush-clipboard-mask" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
+  <resource identifier="${gimp_dir}/brushes/512px_Bc.gih" checksum="b587c531ca848b2cec092218a43d98fb">
+  </resource>
+
+  <resource identifier="${gimp_dir}/brushes/512px_block_center.vbr" checksum="a85469304b2b118926c0a9955aea18c5">
+  </resource>
+
+  <resource identifier="${gimp_dir}/brushes/Untitled.vbr" checksum="fcae96b6d3ddbadd5fa1fec1b3902eee">
+  </resource>
+
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
   </resource>
 
@@ -55,7 +64,7 @@
   <resource identifier="${gimp_data_dir}/brushes/Media/Acrylic-04.gih" checksum="11311bde958533f3b7ada598af5c6d46">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Media/Acrylic-05.gih" checksum="69d6b269dffc2db6a6f44b380aaf1e5e">
+  <resource identifier="${gimp_data_dir}/brushes/Media/Acrylic-05.gih" checksum="50cfa85464d38b04c719770e045f4e3c">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Legacy/confetti.gih" checksum="d136b60fdd9cf41693a485a329b32e95">
@@ -1178,13 +1187,16 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="8069dc6829c27a9ff6db5b329cd4c0d6">
+  <resource identifier="gimp-palette-color-history" checksum="949bba8237a57f7f98360c18c6fdebb9">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/[dog_boy_rosed_eyes_sunset]-(imported)-3.gpl" checksum="e097a9d1eb0b4fb14e8f4d26fb16fb25">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/[house_backyard_homey]-(imported)-5.gpl" checksum="22d30931617162bc1cb04e427a88adcf">
+  </resource>
+
+  <resource identifier="${gimp_dir}/palettes/los_sar.gpl" checksum="9645cd82c5aed4499f090fec7cdaa655">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/sgf.gpl" checksum="cbb8e2e9aa240323a904ddb3865d5e7b">
@@ -1334,64 +1346,13 @@
   <resource identifier="3270SemiNarrow NF Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Adobe Courier" checksum="(null)">
+  <resource identifier="agave Nerd Font" checksum="(null)">
   </resource>
 
-  <resource identifier="Adobe Courier Bold" checksum="(null)">
+  <resource identifier="agave Nerd Font Mono" checksum="(null)">
   </resource>
 
-  <resource identifier="Adobe Courier Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Courier Medium Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Helvetica" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Helvetica Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Helvetica Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Helvetica Medium Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe New Century Schoolbook" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe New Century Schoolbook Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe New Century Schoolbook Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe New Century Schoolbook Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Times" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Times Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Times Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Times Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Utopia" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Utopia Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Utopia Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Adobe Utopia Medium Italic" checksum="(null)">
+  <resource identifier="agave NF" checksum="(null)">
   </resource>
 
   <resource identifier="Alien Mushrooms" checksum="(null)">
@@ -1401,6 +1362,42 @@
   </resource>
 
   <resource identifier="Andale Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arimo NF Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Asana Math" checksum="(null)">
@@ -1562,46 +1559,22 @@
   <resource identifier="Beccaria" checksum="(null)">
   </resource>
 
-  <resource identifier="B&amp;H Lucida Bold" checksum="(null)">
+  <resource identifier="BigBlue_Terminal_437TT Nerd Font" checksum="(null)">
   </resource>
 
-  <resource identifier="B&amp;H Lucida Bold Italic" checksum="(null)">
+  <resource identifier="BigBlue_Terminal_437TT Nerd Font Mono" checksum="(null)">
   </resource>
 
-  <resource identifier="B&amp;H LucidaBright" checksum="(null)">
+  <resource identifier="BigBlue_Terminal_437TT NF" checksum="(null)">
   </resource>
 
-  <resource identifier="B&amp;H LucidaBright Medium Italic" checksum="(null)">
+  <resource identifier="BigBlue_TerminalPlus Nerd Font" checksum="(null)">
   </resource>
 
-  <resource identifier="B&amp;H Lucida Medium" checksum="(null)">
+  <resource identifier="BigBlue_TerminalPlus Nerd Font Mono" checksum="(null)">
   </resource>
 
-  <resource identifier="B&amp;H Lucida Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="B&amp;H LucidaTypewriter Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="B&amp;H LucidaTypewriter Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Charter" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Charter Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Charter Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Charter Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Terminal" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Terminal Bold" checksum="(null)">
+  <resource identifier="BigBlue_TerminalPlus NF" checksum="(null)">
   </resource>
 
   <resource identifier="Brilliant Signature" checksum="(null)">
@@ -1739,22 +1712,61 @@
   <resource identifier="Courier Prime Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Cousine Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine NF Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Cute Font" checksum="(null)">
   </resource>
 
   <resource identifier="D050000L" checksum="(null)">
   </resource>
 
+  <resource identifier="DaddyTimeMono Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="DaddyTimeMono Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="DaddyTimeMono NF" checksum="(null)">
+  </resource>
+
   <resource identifier="Datel Replay" checksum="(null)">
   </resource>
 
   <resource identifier="Datel Tribute" checksum="(null)">
-  </resource>
-
-  <resource identifier="DEC Terminal" checksum="(null)">
-  </resource>
-
-  <resource identifier="DEC Terminal Bold" checksum="(null)">
   </resource>
 
   <resource identifier="DejaVu Math TeX Gyre" checksum="(null)">
@@ -1881,6 +1893,42 @@
   </resource>
 
   <resource identifier="Fantasque Sans Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FantasqueSansMono NF Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Fira Mono" checksum="(null)">
@@ -2312,6 +2360,384 @@
   <resource identifier="Inconsolata NF Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="Iosevka" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Heavy Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Term Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Thin Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Iosevka Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="Kumar One Outline" checksum="(null)">
   </resource>
 
@@ -2387,6 +2813,33 @@
   <resource identifier="Latin Modern Math" checksum="(null)">
   </resource>
 
+  <resource identifier="Lekton Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lekton Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lekton Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lekton Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lekton Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lekton Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lekton NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lekton NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lekton NF Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Letter Gothic Std" checksum="(null)">
   </resource>
 
@@ -2394,6 +2847,15 @@
   </resource>
 
   <resource identifier="Letter Gothic Std Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Bold Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Liberation Mono for Powerline" checksum="(null)">
@@ -2406,6 +2868,33 @@
   </resource>
 
   <resource identifier="Liberation Mono for Powerline Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Liberation Serif Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Lily Script One" checksum="(null)">
@@ -2495,6 +2984,222 @@
   <resource identifier="Megrim Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="MesloLGLDZ Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGLDZ NF Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGL NF Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGMDZ NF Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGM NF Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGSDZ NF Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MesloLGS NF Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Misery Loves Company" checksum="(null)">
   </resource>
 
@@ -2507,6 +3212,33 @@
   <resource identifier="Modern Pictograms" checksum="(null)">
   </resource>
 
+  <resource identifier="Monofurbold Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monofurbold Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monofurbold NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monofuritalic Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monofuritalic Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monofuritalic NF Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monofur Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monofur Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Monofur NF" checksum="(null)">
+  </resource>
+
   <resource identifier="Monoid Bold Semi-Condensed" checksum="(null)">
   </resource>
 
@@ -2517,6 +3249,42 @@
   </resource>
 
   <resource identifier="Monoid Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki Nerd Font Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki NF" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="mononoki NF Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Monospace" checksum="(null)">
@@ -3131,6 +3899,45 @@
   <resource identifier="OpenDyslexic NF Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Open Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Condensed, Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Condensed, Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Condensed, Light Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Overpass Mono" checksum="(null)">
   </resource>
 
@@ -3452,6 +4259,15 @@
   <resource identifier="SH Pinscher Condensed" checksum="(null)">
   </resource>
 
+  <resource identifier="ShureTechMono Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="ShureTechMono Nerd Font Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="ShureTechMono NF" checksum="(null)">
+  </resource>
+
   <resource identifier="Silkscreen" checksum="(null)">
   </resource>
 
@@ -3735,6 +4551,42 @@
   </resource>
 
   <resource identifier="Tale of Hawks" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF Nerd Font Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF Nerd Font Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF Nerd Font Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF Nerd Font Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF Nerd Font Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF Nerd Font Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF Nerd Font Mono Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF Nerd Font Mono Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF NF Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF NF Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF NF Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="TerminessTTF NF Medium Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Terminus" checksum="(null)">

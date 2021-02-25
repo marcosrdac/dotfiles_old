@@ -4,7 +4,7 @@
 
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-align-tool")
+    (active-tool "gimp-move-tool")
     (children
         (GimpToolInfo "gimp-move-tool"
             (icon-name "gimp-tool-move")
@@ -24,7 +24,7 @@
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-iscissors-tool")
+    (active-tool "gimp-free-select-tool")
     (children
         (GimpToolInfo "gimp-free-select-tool"
             (icon-name "gimp-tool-free-select")
@@ -37,7 +37,7 @@
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-by-color-select-tool")
+    (active-tool "gimp-fuzzy-select-tool")
     (children
         (GimpToolInfo "gimp-fuzzy-select-tool"
             (icon-name "gimp-tool-fuzzy-select")
@@ -78,7 +78,7 @@
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-cage-tool")
+    (active-tool "gimp-warp-tool")
     (children
         (GimpToolInfo "gimp-warp-tool"
             (icon-name "gimp-tool-warp")
@@ -160,20 +160,24 @@
         (GimpToolInfo "gimp-measure-tool"
             (icon-name "gimp-tool-measure")
             (visible yes))))
+(GimpToolGroup "tool group"
+    (visible yes)
+    (active-tool "gimp-curves-tool")
+    (children
+        (GimpToolInfo "gimp-threshold-tool"
+            (icon-name "gimp-tool-threshold")
+            (visible yes))
+        (GimpToolInfo "gimp-levels-tool"
+            (icon-name "gimp-tool-levels")
+            (visible yes))
+        (GimpToolInfo "gimp-brightness-contrast-tool"
+            (icon-name "gimp-tool-brightness-contrast")
+            (visible yes))
+        (GimpToolInfo "gimp-curves-tool"
+            (icon-name "gimp-tool-curves")
+            (visible yes))))
 (GimpToolInfo "gimp-zoom-tool"
     (icon-name "gimp-tool-zoom")
-    (visible yes))
-(GimpToolInfo "gimp-brightness-contrast-tool"
-    (icon-name "gimp-tool-brightness-contrast")
-    (visible yes))
-(GimpToolInfo "gimp-threshold-tool"
-    (icon-name "gimp-tool-threshold")
-    (visible yes))
-(GimpToolInfo "gimp-levels-tool"
-    (icon-name "gimp-tool-levels")
-    (visible yes))
-(GimpToolInfo "gimp-curves-tool"
-    (icon-name "gimp-tool-curves")
     (visible yes))
 (GimpToolInfo "gimp-offset-tool"
     (icon-name "gimp-tool-offset")

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp/7Cq1DIw.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#271923",
+        "foreground": "#dbd2da",
+        "cursor": "#dbd2da"
+    },
+    "colors": {
+        "color0": "#271923",
+        "color1": "#6B7188",
+        "color2": "#AB758C",
+        "color3": "#778999",
+        "color4": "#A299A0",
+        "color5": "#D6A6A1",
+        "color6": "#E5CCB4",
+        "color7": "#dbd2da",
+        "color8": "#999398",
+        "color9": "#6B7188",
+        "color10": "#AB758C",
+        "color11": "#778999",
+        "color12": "#A299A0",
+        "color13": "#D6A6A1",
+        "color14": "#E5CCB4",
+        "color15": "#dbd2da"
+    }
+}

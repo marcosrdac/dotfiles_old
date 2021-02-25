@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/nasa_20180329.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#160a0e",
+        "foreground": "#bebed0",
+        "cursor": "#bebed0"
+    },
+    "colors": {
+        "color0": "#160a0e",
+        "color1": "#653151",
+        "color2": "#35426F",
+        "color3": "#5A4A62",
+        "color4": "#AC3C5E",
+        "color5": "#5F5E94",
+        "color6": "#C06593",
+        "color7": "#bebed0",
+        "color8": "#858591",
+        "color9": "#653151",
+        "color10": "#35426F",
+        "color11": "#5A4A62",
+        "color12": "#AC3C5E",
+        "color13": "#5F5E94",
+        "color14": "#C06593",
+        "color15": "#bebed0"
+    }
+}
