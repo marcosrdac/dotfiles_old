@@ -133,8 +133,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="5078.32"
-         height="1780.39"
+         width="274179"
+         height="25432.6"
          rx="0"
          ry="0" />
       <eventcontext
@@ -173,8 +173,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="1566.02"
-         ry="1566.02"
+         rx="22370.3"
+         ry="22370.3"
          open="1"
          arc_type="0" />
       <eventcontext
@@ -675,7 +675,7 @@
        x="0"
        y="0"
        w="556"
-       h="589"
+       h="587"
        visible="0"
        placement="5" />
     <group
@@ -711,8 +711,8 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="30"
-       y="68"
+       x="0"
+       y="0"
        w="665"
        h="700"
        visible="0"
@@ -741,7 +741,7 @@
     <group
        id="open"
        enable_preview="0"
-       path="/home/marcosrdac/article_los/lentini/" />
+       path="/home/marcosrdac/pro/los/article_los/lentini/" />
     <group
        id="import"
        enable_preview="1"
@@ -1290,13 +1290,13 @@
      org.ekips.output.dxf_outlines.layer_option="all" />
   <group
      id="desktop"
-     style="line-height:0;font-size:12px;-inkscape-font-specification:sans-serif;font-family:sans-serif;text-decoration:none;text-decoration-color:#000000;stop-color:#000000;paint-order:markers stroke fill;fill:#000000;stroke-linejoin:round;stroke:#ffffff;letter-spacing:0px;word-spacing:0px;stroke-width:0.99999997;"
+     style="line-height:0;font-size:12px;-inkscape-font-specification:sans-serif;font-family:sans-serif;text-decoration:none;text-decoration-color:#000000;stop-color:#000000;paint-order:markers stroke fill;fill:#000000;stroke-linejoin:round;stroke:#ffffff;letter-spacing:0px;word-spacing:0px;stroke-width:0.99999997"
      xrayactive="0">
     <group
-       width="527"
-       height="720"
-       x="823"
-       y="32"
+       width="1334"
+       height="714"
+       x="13"
+       y="35"
        fullscreen="0"
        id="geometry"
        maximized="0" />

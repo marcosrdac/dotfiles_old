@@ -8,6 +8,7 @@
 .config/keepassx/marcosrdac.kdbx
 .config/newsboat/history.search
 .config/newsboat/history.cmdline
+.config/qutebrowser/bookmarks/
 .config/nvim/.netrwhist
 .config/transmission-daemon/resume/
 .config/transmission-daemon/torrents/

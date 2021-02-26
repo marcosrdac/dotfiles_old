@@ -200,3 +200,10 @@
 : touch done.md
 : q
 : mkdir los
+: mkdir compton
+: mkdir comton.conf
+: touch compton.conf
+: mkdir picom
+: touch picom.conf
+: w
+: q
