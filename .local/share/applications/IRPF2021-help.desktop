@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ajuda do IRPF2021
+Exec=/mnt/hdd/home/tmp/irpf2021/xdg-open /mnt/hdd/home/tmp/irpf2021/help/AjudaIRPF.pdf
+Icon=/mnt/hdd/home/tmp/irpf2021/RFB.png

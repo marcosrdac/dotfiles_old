@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# verify if there is a wal cache
+[ ! -f "$HOME/.cache/wal/colors.sh" ] && dmenu "$@" && exit
+# import colors from wal
+. "$HOME/.cache/wal/colors.sh"
+# import font from Xresources
+font=`xrdb -query | awk -F'\t' '$1~/^*font:$/{print $2}'`
+
+default_args="-b -l 15 -fn $font -nb $background -nf $foreground -sb $foreground -sf $background"
+secret_args="-b -l 15 -fn $font -nb $background -nf $background -sb $foreground -sf $background"
+
+kpmenu --argsEntry "$default_args" --argsPassword "$secret_args" --argsField "$default_args" --argsMenu "$default_args"

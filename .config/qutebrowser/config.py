@@ -46,11 +46,11 @@ config.bind('<Ctrl-k>', 'zoom-in')
 config.bind('<Ctrl-j>', 'zoom-out')
 config.bind('<Ctrl-=>', 'zoom')
 config.bind('<Ctrl-r>', 'config-source')
-config.bind('<Ctrl-Esc>', 'enter-mode passthrough', mode='normal')
-config.bind('<Ctrl-Esc>', 'enter-mode passthrough', mode='insert')
-config.bind('<Ctrl-Esc>', 'leave-mode', mode='passthrough')
+config.bind('<Ctrl-Esc>', 'mode-enter passthrough', mode='normal')
+config.bind('<Ctrl-Esc>', 'mode-enter passthrough', mode='insert')
+config.bind('<Ctrl-Esc>', 'mode-leave', mode='passthrough')
 
-#config.bind('<Ctrl-q>', 'leave-mode', mode='passthrough')
+#config.bind('<Ctrl-q>', 'mode-leave', mode='passthrough')
 # don't know whys it's not working
 # tabs
 config.bind('<Ctrl-1>', 'tab-focus 1')
@@ -96,8 +96,10 @@ c.fonts.tabs.unselected = base_font
 
 c.new_instance_open_target = 'window'
 c.tabs.title.format = '{index} {current_title}'
-c.url.default_page = '~/.config/qutebrowser/blank_page.html'
-c.url.start_pages = '~/.config/qutebrowser/blank_page.html'
+c.url.default_page = 'about:blank'
+c.url.start_pages = 'about:blank'
+# c.url.default_page = '~/.config/qutebrowser/blank.html'
+# c.url.start_pages = '~/.config/qutebrowser/blank.html'
 c.confirm_quit = ["downloads"]
 c.downloads.location.directory = '~/tmp/'
 c.downloads.position = 'bottom'
@@ -106,8 +108,8 @@ c.keyhint.radius = 0
 c.prompt.radius = 0
 #c.spellcheck.languages = ['pt-BR', 'en-US', 'de-DE']
 c.url.searchengines = {
-    # "DEFAULT": "https://www.google.com.br/search?q={}",
-    "DEFAULT": "https://duckduckgo.com/?q={}",
+    "DEFAULT": "https://www.google.com.br/search?q={}",
+    # "DEFAULT": "https://duckduckgo.com/?q={}",
     "g":  "https://www.google.com.br/search?q={}",
     "gs": "https://scholar.google.com/scholar?q={}",
     "gsb":
@@ -143,5 +145,7 @@ c.url.searchengines = {
 # https://qutebrowser.org/doc/install.html#_debian_testing_ubuntu_18_04
 
 # c.content.host_blocking.lists = \
-c.content.host_blocking.enabled = True
+# c.content.host_blocking.enabled = True
 #c.content.host_blocking.whitelist = ['*www.linkedin.com/*']
+
+config.load_autoconfig(False)

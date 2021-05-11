@@ -1,5 +1,9 @@
 # settings
 
+(GimpGegl-gegl-snn-mean-config "2021-03-15 18:14:25"
+    (time 1615842865)
+    (radius 1)
+    (pairs 1))
 (GimpGegl-gegl-snn-mean-config "2020-09-29 17:09:43"
     (time 1601410183)
     (radius 2)

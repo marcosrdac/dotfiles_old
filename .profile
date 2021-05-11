@@ -6,4 +6,4 @@
 . $HOME/.config/shell/shenv
 . $HOME/.config/shell/shrc
 
-ttystartup
+ttystartup 2>/dev/null

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp_20210315/wallhaven-wygg8r.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B101A",
+        "foreground": "#d1dbd9",
+        "cursor": "#d1dbd9"
+    },
+    "colors": {
+        "color0": "#0B101A",
+        "color1": "#97A91D",
+        "color2": "#B9BC4D",
+        "color3": "#4B758A",
+        "color4": "#52B1C2",
+        "color5": "#AEA89A",
+        "color6": "#D1CEB0",
+        "color7": "#d1dbd9",
+        "color8": "#929997",
+        "color9": "#97A91D",
+        "color10": "#B9BC4D",
+        "color11": "#4B758A",
+        "color12": "#52B1C2",
+        "color13": "#AEA89A",
+        "color14": "#D1CEB0",
+        "color15": "#d1dbd9"
+    }
+}

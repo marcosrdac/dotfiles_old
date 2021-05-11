@@ -9,7 +9,7 @@
 
 # defining paths 
 
-RUN="${XDG_RUNTIME_DIR:=$HOME/.local/run}/polybar_timer/"
+RUN="${XDG_RUNTIME_DIR:-/tmp}/polybar_timer/"
 FIFO="${RUN:-$HOME/.local/run}/timer.fifo"
 #BEEP="$HOME/res/aud/beep_high.wav"
 BEEP="/usr/share/sounds/freedesktop/stereo/complete.oga"

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp_20210315/wallhaven-nky99d.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07090D",
+        "foreground": "#9dc4db",
+        "cursor": "#9dc4db"
+    },
+    "colors": {
+        "color0": "#07090D",
+        "color1": "#F1A45C",
+        "color2": "#2A6597",
+        "color3": "#5C619A",
+        "color4": "#607CC2",
+        "color5": "#9C6494",
+        "color6": "#D86E8D",
+        "color7": "#9dc4db",
+        "color8": "#6d8999",
+        "color9": "#F1A45C",
+        "color10": "#2A6597",
+        "color11": "#5C619A",
+        "color12": "#607CC2",
+        "color13": "#9C6494",
+        "color14": "#D86E8D",
+        "color15": "#9dc4db"
+    }
+}

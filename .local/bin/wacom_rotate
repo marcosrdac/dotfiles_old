@@ -1,0 +1,7 @@
+#!/bin/sh
+
+wacom_ids=`xsetwacom list devices | awk -F'\t' '{print $2}' | awk -F' ' '{print $2}'`
+
+for i in $wacom_ids
+do xsetwacom --set $i rotate half
+done

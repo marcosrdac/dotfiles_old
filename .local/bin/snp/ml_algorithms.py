@@ -2,26 +2,27 @@ import numpy as np
 
 
 def sigmoid(z):
-    return 1/(1+np.exp(-z))
+    return 1 / (1 + np.exp(-z))
 
 
 def log_reg(w, x):
     return sigmoid(np.dot(w, x))
 
 
-def gradient_descent(uX_train, y_train, epochs=30, step=0.1):
+def gradient_descent(uX_train, y_train, epochs=30, step=0.1, w0=None):
     '''
     Gradient descent method for training logistic regression coeficients.
     uX_train is X_train concatenated with u, a vector of ones.
     '''
     N, M = uX_train.shape
-    w = np.empty(M)
+    w = w0 or np.empty(M)
     for epoch in range(epochs):
-        for k in range(N):
-            x, y = uX_train[k], y_train[k]
+        for i in range(N):
+            x, y = uX_train[i], y_train[i]
             ŷ = log_reg(w, x)
-            loss_grad = np.dot(x, ŷ-y)
-            w -= step*loss_grad*x
+            res = ŷ - y
+            gradient = np.dot(x, res) * x
+            w = w - step * gradient 
     return w
 
 
@@ -41,11 +42,11 @@ def knn(X_train, y_train, X_test, k=3, classify=True):
 
         nearest = np.argsort(dists)[:k]
         labels = y_train[nearest]
-        proba[1, i] = np.sum(labels)/k
+        proba[1, i] = np.sum(labels) / k
         proba[0, i] = 1.0 - proba[1, i]
 
     if classify:
-        return 1*(proba[1, :] > .50)
+        return 1 * (proba[1, :] > .50)
     else:
         return proba
 
@@ -63,7 +64,7 @@ def weighted_knn(X_train, y_train, X_test, k=3, classify=True):
         zero_idx = None
         for j in range(N_train):
             pj = X_train[j]
-            dists[j] = np.linalg.norm(pj-pi)
+            dists[j] = np.linalg.norm(pj - pi)
             if dists[j] == 0.:
                 zero_idx = j
                 break
@@ -72,14 +73,14 @@ def weighted_knn(X_train, y_train, X_test, k=3, classify=True):
             proba[1, i] = y_train[zero_idx]
         else:
             nearest = np.argsort(dists)[:k]
-            w[:] = 1./dists[nearest]
+            w[:] = 1. / dists[nearest]
             w /= w.sum()
             y = y_train[nearest]
             proba[1, i] = np.dot(w, y)
         proba[0, i] = 1.0 - proba[1, i]
 
     if classify:
-        return 1*(proba[1, :] > .50)
+        return 1 * (proba[1, :] > .50)
     else:
         return proba
 
@@ -92,6 +93,6 @@ def kmeans(X, k=2, n_iter=3):
     for t in range(n_iter):
         for i in range(k):
             c[i] = np.mean(X[y == i], axis=0)
-            dists[:, i] = np.linalg.norm(X-c[i], axis=1)
+            dists[:, i] = np.linalg.norm(X - c[i], axis=1)
         y = np.argmin(dists, axis=1)
-    return y, c
+    return c, y

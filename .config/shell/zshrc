@@ -1,9 +1,15 @@
 # Enable colors
-
 autoload -U colors && colors
-#PROMPT='%F{green}%n%f@%F{magenta}%m%f %F{blue}%B%~%b%f %# '
-PROMPT="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-RPROMPT='[%F{yellow}%?%f]'
+
+autoload -Uz vcs_info
+setopt prompt_subst
+short_pwd() { echo "${PWD/$HOME/~}" | perl -F/ -ane 'print join( "/", map { $i++ < @F - 2 ? substr $_,0,1 : $_ } @F)' }
+PROMPT='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}$(short_pwd)%{$reset_color%}$(task_indicator)%{$fg[red]%}]%{$reset_color%}%b '
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+RPROMPT='$vcs_info_msg_0_ [%F{yellow}%?%f]'
+zstyle ':vcs_info:git:*' formats "%{$fg_bold[magenta]%}%b<%r%f"
+zstyle ':vcs_info:*' enable git
 
 # History in cache directory
 HISTSIZE="10000000000"

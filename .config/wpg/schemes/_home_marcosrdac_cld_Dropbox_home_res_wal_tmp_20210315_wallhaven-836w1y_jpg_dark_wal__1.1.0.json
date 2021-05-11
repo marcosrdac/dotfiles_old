@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp_20210315/wallhaven-836w1y.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151516",
+        "foreground": "#b8b8c7",
+        "cursor": "#b8b8c7"
+    },
+    "colors": {
+        "color0": "#151516",
+        "color1": "#D96613",
+        "color2": "#9F6159",
+        "color3": "#CB6145",
+        "color4": "#ED9512",
+        "color5": "#D3973F",
+        "color6": "#505CA1",
+        "color7": "#b8b8c7",
+        "color8": "#80808b",
+        "color9": "#D96613",
+        "color10": "#9F6159",
+        "color11": "#CB6145",
+        "color12": "#ED9512",
+        "color13": "#D3973F",
+        "color14": "#505CA1",
+        "color15": "#b8b8c7"
+    }
+}

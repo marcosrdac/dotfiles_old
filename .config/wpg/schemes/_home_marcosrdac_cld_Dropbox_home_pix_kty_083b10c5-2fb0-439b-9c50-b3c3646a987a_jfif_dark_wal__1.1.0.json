@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/pix/kty/083b10c5-2fb0-439b-9c50-b3c3646a987a.jfif",
+    "alpha": "100",
+    "special": {
+        "background": "#070F05",
+        "foreground": "#dcccd9",
+        "cursor": "#dcccd9"
+    },
+    "colors": {
+        "color0": "#070F05",
+        "color1": "#8D7359",
+        "color2": "#9C8E6F",
+        "color3": "#CDA66E",
+        "color4": "#A860BB",
+        "color5": "#A5A49F",
+        "color6": "#DDCBB0",
+        "color7": "#dcccd9",
+        "color8": "#9a8e97",
+        "color9": "#8D7359",
+        "color10": "#9C8E6F",
+        "color11": "#CDA66E",
+        "color12": "#A860BB",
+        "color13": "#A5A49F",
+        "color14": "#DDCBB0",
+        "color15": "#dcccd9"
+    }
+}

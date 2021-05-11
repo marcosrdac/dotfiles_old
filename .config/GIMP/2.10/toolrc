@@ -24,7 +24,7 @@
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-free-select-tool")
+    (active-tool "gimp-iscissors-tool")
     (children
         (GimpToolInfo "gimp-free-select-tool"
             (icon-name "gimp-tool-free-select")
@@ -37,7 +37,7 @@
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-fuzzy-select-tool")
+    (active-tool "gimp-by-color-select-tool")
     (children
         (GimpToolInfo "gimp-fuzzy-select-tool"
             (icon-name "gimp-tool-fuzzy-select")
@@ -50,7 +50,7 @@
     (visible yes))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-rotate-tool")
+    (active-tool "gimp-scale-tool")
     (children
         (GimpToolInfo "gimp-unified-transform-tool"
             (icon-name "gimp-tool-unified-transform")
@@ -162,7 +162,7 @@
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-curves-tool")
+    (active-tool "gimp-levels-tool")
     (children
         (GimpToolInfo "gimp-threshold-tool"
             (icon-name "gimp-tool-threshold")

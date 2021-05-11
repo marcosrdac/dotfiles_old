@@ -18,11 +18,11 @@ set show-hidden true
 set link-zoom true
 
 # aesthetics
-##set font "Fira Mono 11"
-#include "zathura_dark"
-#set recolor "true"
-#set recolor-reverse-video "true"
-#set recolor-keephue "false"
+#set font "Fira Mono 11"
+include "zathura_dark"
+set recolor "true"
+set recolor-reverse-video "true"
+set recolor-keephue "false"
 
 ## mappings
 map i recolor

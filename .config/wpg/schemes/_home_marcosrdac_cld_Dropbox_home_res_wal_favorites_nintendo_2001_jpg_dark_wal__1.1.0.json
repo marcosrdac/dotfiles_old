@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/nintendo_2001.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1115",
+        "foreground": "#bcc6c6",
+        "cursor": "#bcc6c6"
+    },
+    "colors": {
+        "color0": "#0E1115",
+        "color1": "#465358",
+        "color2": "#576569",
+        "color3": "#69787A",
+        "color4": "#AF3A3A",
+        "color5": "#697E81",
+        "color6": "#72898A",
+        "color7": "#bcc6c6",
+        "color8": "#838a8a",
+        "color9": "#465358",
+        "color10": "#576569",
+        "color11": "#69787A",
+        "color12": "#AF3A3A",
+        "color13": "#697E81",
+        "color14": "#72898A",
+        "color15": "#bcc6c6"
+    }
+}

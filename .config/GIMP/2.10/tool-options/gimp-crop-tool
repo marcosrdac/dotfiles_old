@@ -4,6 +4,9 @@
 (desired-fixed-size-width 0)
 (guide golden)
 (overridden-fixed-aspect yes)
+(foreground (color-rgb 0.19543973941368076 0.19543973941368076 0.19543973941368076))
+(background (color-rgb 0 0 0))
+(pattern "Stripes")
 (highlight-opacity 0.48999999999999999)
 
 # end of gimp-crop-tool options

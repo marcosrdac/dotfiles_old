@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 
-RUN="$HOME/.local/run/polybar_timer/"
+RUN="${XDG_RUNTIME_DIR:-/tmp}/polybar_timer/"
 FIFO="$RUN/timer.fifo"
 
 [ -d "$RUN" ] || mkdir -p "$RUN"

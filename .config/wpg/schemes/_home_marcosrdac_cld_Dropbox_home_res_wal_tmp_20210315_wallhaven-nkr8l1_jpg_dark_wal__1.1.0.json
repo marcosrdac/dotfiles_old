@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp_20210315/wallhaven-nkr8l1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#212b24",
+        "foreground": "#cce4ee",
+        "cursor": "#cce4ee"
+    },
+    "colors": {
+        "color0": "#212b24",
+        "color1": "#67AABC",
+        "color2": "#11A2D6",
+        "color3": "#66AEDD",
+        "color4": "#0FCCEE",
+        "color5": "#A5AAAC",
+        "color6": "#8EC5EB",
+        "color7": "#cce4ee",
+        "color8": "#8e9fa6",
+        "color9": "#67AABC",
+        "color10": "#11A2D6",
+        "color11": "#66AEDD",
+        "color12": "#0FCCEE",
+        "color13": "#A5AAAC",
+        "color14": "#8EC5EB",
+        "color15": "#cce4ee"
+    }
+}

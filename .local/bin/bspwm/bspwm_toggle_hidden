@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 ids=$(xdotool search --class $1)
-echo $ids
 
 if [ "$ids" != "" ]
 then

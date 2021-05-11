@@ -5,12 +5,10 @@ pidof dunst && killall dunst
 font_name="$(xrdb -query | grep ^'*font_name' | awk '{$1=""; print $0}')"
 font_size="$(xrdb -query | grep ^'*font_size' | awk '{$1=""; print $0}')"
 
-
 # in case of FontName:Regular, remove the ":"
 echo "$font_name" | grep -q : && font_name=$(echo "$font_name" | sed 's/\(.*\):/\1 /')
 
 nohup dunst -fn "$font_name $font_size" &>/dev/null &
-
 
 #source "${HOME}/.cache/wal/colors.sh"
 #

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/favorites/messy_colorful_tints.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101e28",
+        "foreground": "#79e2c7",
+        "cursor": "#79e2c7"
+    },
+    "colors": {
+        "color0": "#101e28",
+        "color1": "#439E79",
+        "color2": "#D0AD51",
+        "color3": "#EEDD4A",
+        "color4": "#FDD246",
+        "color5": "#38AF8A",
+        "color6": "#0AD39E",
+        "color7": "#79e2c7",
+        "color8": "#549e8b",
+        "color9": "#439E79",
+        "color10": "#D0AD51",
+        "color11": "#EEDD4A",
+        "color12": "#FDD246",
+        "color13": "#38AF8A",
+        "color14": "#0AD39E",
+        "color15": "#79e2c7"
+    }
+}

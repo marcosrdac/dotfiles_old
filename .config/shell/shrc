@@ -30,7 +30,8 @@ alias ffmpeg='ffmpeg -hide_banner'
 alias ffprobe='ffprobe -hide_banner'
 alias ffplay='ffplay -hide_banner'
 alias activate='source bin/activate'
-alias m=". $WORKON_HOME/m/bin/activate"
+alias m='. $WORKON_HOME/m/bin/activate'
+alias mbsync='mbsync -c "$MBSYNC_CONFIG"'
 
 
 # ALIASES
@@ -47,6 +48,11 @@ alias nx='nvidia-xrun'
 
 alias v="$EDITOR"
 alias n="$FILEBROWSER"
+alias t="$TASK"
+alias ta="$TASK add"
+alias tbd="$TASK burndown.daily"
+alias tbw="$TASK burndown.weekly"
+alias tbm="$TASK burndown.monthly"
 
 # For programs that think $HOME is a reasonable place to put their junk
 # and don't allow the user to change those questionable choices
@@ -65,8 +71,8 @@ alias wpa_cli='HOME=$JUNKHOME wpa_cli'
 alias bower='bower --config.storage.packages=~/.cache/bower/packages --config.storage.registry=~/.cache/bower/registry --config.storage.links=~/.cache/bower/links'
 alias gdb='gdb -x $HOME/.config/gdbinit'
 alias iftop='iftop -c $HOME/.config/iftoprc'
-alias lmms='lmms --config $HOME/.config/lmmsrc.xml'
-alias tmux='tmux -f $HOME/.config/tmux/tmux.conf'
+alias lmms='lmms --config $XDG_CONFIG_HOME/lmmsrc.xml'
+alias tmux='tmux -f $XDG_CONFIG_HOME/tmux/tmux.conf'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -76,12 +82,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # FUNCTIONS
 trysource() {
-    if [ -f "$1" ]
-    then
-        . "$1"
-    else
-        return 1
-    fi
+    [ -f "$1" ] && . "$1" || return 1
 }
 
 
@@ -127,4 +128,19 @@ mkcd() {
 
 cdf() {  # needs adjusting
   cd $(find -H * 2>/dev/null -maxdepth 1 -type d | fzy -p "cd " | (read f && echo ${f:-'.'}))
+}
+
+task_indicator() {
+  # symbols: ×○·‼
+  if [ `task +READY +OVERDUE count` -gt 0 ]
+    then echo ' ×'
+  elif [ `task +READY +DUETODAY count` -gt 0 ]
+    then echo ' ○'
+  elif [ `task +READY +TOMORROW count` -gt 0 ]
+    then echo ''
+  elif [ `task +READY +URGENT count` -gt 0 ]
+    then echo ' ‼'
+  else
+    echo '$'
+  fi
 }

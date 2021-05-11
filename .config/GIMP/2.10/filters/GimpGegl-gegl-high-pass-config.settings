@@ -1,5 +1,9 @@
 # settings
 
+(GimpGegl-gegl-high-pass-config "2021-03-15 18:09:47"
+    (time 1615842587)
+    (std-dev 1)
+    (contrast 2.5870000000000002))
 (GimpGegl-gegl-high-pass-config "2020-08-30 23:00:22"
     (time 1598839222)
     (std-dev 4)

@@ -1,7 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=A Wine application
+Name=wscript
 MimeType=text/vbscript;
 Exec=env WINEPREFIX="/home/marcosrdac/.local/share/wineprefix/default" /usr/bin/wine start /ProgIDOpen VBSFile %f
 NoDisplay=true
 StartupNotify=true
+Icon=B13E_wscript.0

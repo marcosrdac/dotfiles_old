@@ -1,1 +1,22 @@
-/home/marcosrdac/.cache/wal/zathura_light
+# wal colors for zathura
+
+set default-bg "#0F161E"
+set default-fg "#89e2c2"
+set statusbar-fg "#0F161E"
+set statusbar-bg "#89e2c2"
+set inputbar-bg "#89e2c2"
+set inputbar-fg "#0F161E"
+set notification-error-bg "#595A59"
+set notification-error-fg "#89e2c2"
+set notification-warning-bg "#B95052"
+set notification-warning-fg "#89e2c2"
+set highlight-color "#89e2c2"
+set highlight-active-color "#B95052"
+set completion-highlight-fg "#0F161E"
+set completion-highlight-bg "#89e2c2"
+set completion-bg "#0F161E"
+set completion-fg "#89e2c2"
+set notification-bg "#0F161E"
+set notification-fg "#89e2c2"
+set recolor-lightcolor "#89e2c2"
+set recolor-darkcolor "#0F161E"

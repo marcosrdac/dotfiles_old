@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/twin_peaks/255635-download-twin-peaks-wallpaper-1920x1080-for-retina.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0a0a",
+        "foreground": "#bdb4ba",
+        "cursor": "#bdb4ba"
+    },
+    "colors": {
+        "color0": "#0e0a0a",
+        "color1": "#71603F",
+        "color2": "#483C41",
+        "color3": "#705B49",
+        "color4": "#914A39",
+        "color5": "#8E6E59",
+        "color6": "#A68975",
+        "color7": "#bdb4ba",
+        "color8": "#847d82",
+        "color9": "#71603F",
+        "color10": "#483C41",
+        "color11": "#705B49",
+        "color12": "#914A39",
+        "color13": "#8E6E59",
+        "color14": "#A68975",
+        "color15": "#bdb4ba"
+    }
+}

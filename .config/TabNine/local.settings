@@ -20,7 +20,9 @@
       "omit_prefix_suggestions": false
     },
     "tune": {
-      "enable_power_saving_mode": false
+      "enable_power_saving_mode": false,
+      "override_beams": null,
+      "override_context_length": null
     }
   }
 }

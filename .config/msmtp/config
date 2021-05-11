@@ -5,9 +5,10 @@ auth on
 tls on
 tls_nocertcheck
 
-account main
+account psn
 from marcosrdac@gmail.com
 user marcosrdac@gmail.com
-passwordeval  "gpg --quiet --for-your-eyes-only --no-tty --decrypt ~/.dotfiles/.config/msmtp/credentials/msmtp_credentials.gpg"
+auth oauthbearer
+passwordeval "oauth2get isync marcosrdac@gmail.com"
 host smtp.gmail.com
 port 587

@@ -5,7 +5,8 @@
 #
 
 # import resources
-[ -f $XRESOURCES ] && xrdb -I"$HOME" $XRESOURCES
+[ -f "$XRESOURCES" ] && xrdb "$XRESOURCES"
+[ -f "$XDG_CACHE_HOME/wal/colors.Xresources" ] && xrdb -merge "$XDG_CACHE_HOME/wal/colors.Xresources"
 dunst_start &
 
 # disable beep

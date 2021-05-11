@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Handwritten document editor
+Exec=/usr/bin/env write_stylus %u

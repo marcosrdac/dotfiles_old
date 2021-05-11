@@ -1,1 +1,122 @@
-/home/marcosrdac/.cache/wal/qutebrowser_colors.yml
+colors:
+    statusbar:
+        caret:
+            bg: "#0F161E"
+            fg: "#89e2c2"
+        passthrough:
+            bg: "#0F161E"
+            fg: "#89e2c2"
+        command:
+            bg: "#89e2c2"
+            fg: "#0F161E"
+            private:
+                bg: "white"
+                fg: "black"
+        insert:
+            bg: "#89e2c2"
+            fg: "#0F161E"
+        normal:
+            bg: "#0F161E"
+            fg: "#89e2c2"
+        private:
+            bg: "black"
+            fg: "white"
+        progress:
+            bg: "#89e2c2"
+        url:
+            fg: "#B7A740"
+            error:
+                fg: "#B95052"
+            hover:
+                fg: "#89e2c2"
+            success:
+                http:
+                    fg: "#89e2c2"
+                https:
+                    fg: "#595A59"
+            warn:
+                fg: "#B95052"
+    tabs:
+        bar:
+            bg: "#0F161E"
+        even:
+            fg: "#89e2c2"
+            bg: "#0F161E"
+        odd:
+            fg: "#89e2c2"
+            bg: "#0F161E"
+        selected:
+            even:
+                fg: "#0F161E"
+                bg: "#89e2c2"
+            odd:
+                fg: "#0F161E"
+                bg: "#89e2c2"
+    completion:
+        category:
+            bg: "#89e2c2"
+            fg: "#0F161E"
+            border:
+                bottom: "#89e2c2"
+                top: "#89e2c2"
+        even:
+            bg: "#0F161E"
+        odd:
+            bg: "#0F161E"
+        item:
+            selected:
+                bg: "#89e2c2"
+                fg: "#0F161E"
+                border:
+                    bottom: "#0F161E"
+                    top:    "#0F161E"
+        match:
+            fg: "#595A59"
+        scrollbar:
+            bg: "#89e2c2"
+            fg: "#0F161E"
+    downloads:
+        bar:
+            bg: "#0F161E"
+        error:
+            fg: "#89e2c2"
+            bg: "#595A59"
+        start:
+            fg: "#89e2c2"
+            bg: "#0F161E"
+        stop:
+            fg: "#89e2c2"
+            bg: "#B95052"
+    hints:
+        fg: "#89e2c2"
+        bg: "#0F161E"
+        match:
+            fg: "#595A59"
+    keyhint:
+        fg: "#89e2c2"
+        bg: "#0F161E"
+        suffix:
+            fg: "#B95052"
+    messages:
+        error:
+            fg: "#0F161E"
+            bg: "#B95052"
+            border: "#B95052"
+        info:
+            fg: "#0F161E"
+            bg: "#89e2c2"
+            border: "#89e2c2"
+        warning:
+            fg: "#89e2c2"
+            bg: "#B95052"
+            border: "#B95052"
+    prompts:
+        fg: "#89e2c2"
+        bg: "#0F161E"
+        border: "#0F161E"
+        selected:
+            bg: "#B95052"
+    webpage:
+        bg: "#89e2c2"
+hints:
+    border: "1px solid #89e2c2"

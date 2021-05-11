@@ -1,0 +1,4 @@
+#!/bin/sh
+
+file="$(sxiv -qtbor "$XDG_WALLPAPER_DIR")"
+#[ -n "$file" ] && wal_set "$file"

@@ -20,7 +20,7 @@ enable-ipc = true
 ; geometry
 dpi = ${xrdb:dpi : 100}
 width               = 100%
-height              = 22
+height              = ${env:BAR_HEIGHT:22}
 padding-left        = 0
 padding-right       = 0
 module-margin-left  = 1

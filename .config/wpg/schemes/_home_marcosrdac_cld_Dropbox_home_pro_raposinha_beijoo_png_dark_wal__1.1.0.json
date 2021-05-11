@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/pro/raposinha/beijoo.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080906",
+        "foreground": "#e1cec0",
+        "cursor": "#e1cec0"
+    },
+    "colors": {
+        "color0": "#080906",
+        "color1": "#904539",
+        "color2": "#9A6855",
+        "color3": "#3F863B",
+        "color4": "#53905A",
+        "color5": "#B38E73",
+        "color6": "#7A9A84",
+        "color7": "#e1cec0",
+        "color8": "#9d9086",
+        "color9": "#904539",
+        "color10": "#9A6855",
+        "color11": "#3F863B",
+        "color12": "#53905A",
+        "color13": "#B38E73",
+        "color14": "#7A9A84",
+        "color15": "#e1cec0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp_20210315/wallhaven-48loz2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b0e0a",
+        "foreground": "#eae8c7",
+        "cursor": "#eae8c7"
+    },
+    "colors": {
+        "color0": "#1b0e0a",
+        "color1": "#649C45",
+        "color2": "#E69F19",
+        "color3": "#C5B34F",
+        "color4": "#6B749B",
+        "color5": "#BA549D",
+        "color6": "#B5ABA7",
+        "color7": "#eae8c7",
+        "color8": "#a3a28b",
+        "color9": "#649C45",
+        "color10": "#E69F19",
+        "color11": "#C5B34F",
+        "color12": "#6B749B",
+        "color13": "#BA549D",
+        "color14": "#B5ABA7",
+        "color15": "#eae8c7"
+    }
+}

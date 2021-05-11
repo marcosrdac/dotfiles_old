@@ -2,19 +2,20 @@
 
 set realname = "Marcos Reinan de Assis Conceição"
 set from =     "marcosrdac@gmail.com"
-set sendmail = "/usr/bin/msmtp -a main"
+set sendmail = "/usr/bin/msmtp -a psn"
 set ssl_starttls = yes
 set ssl_force_tls = yes
 set editor = $EDITOR
 
 set mbox_type = Maildir
-set folder =    "$XDG_MAIL_DIR"
+set folder =    "$XDG_MAIL_DIR/psn"
 set spoolfile = "+INBOX"
 set mbox =      "+INBOX"
-set postponed = "+Drafts"
+set postponed = "+draft"
 #set header_cache = "cache/headers"
 #set message_cachedir = "cache/bodies"
 #set certificate_file = "certificates"
+mailboxes =INBOX =draft =sent =trash =spam
 
 set copy = no
 #set record = "~/.mail/main/Sent Mail"
@@ -76,6 +77,10 @@ bind index,pager D delete-message
 bind index U undelete-message
 bind index,browser F search
 bind index,pager R group-reply
+
+macro index,pager r '! mbsync -c $MBSYNC_CONFIG -a 1>/dev/null 2>&1 &<enter>' "Refresh mail boxes."
+#macro index,pager r '!mbsync -c $MBSYNC_CONFIG -a<enter>' "Refresh mail boxes."
+
 
 # urlscan
 #macro pager U "<pipe-message> urlscan -c --run 'echo {} | link_handler'<Enter>" "call urlscan to extract URLs out of a message"

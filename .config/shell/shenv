@@ -16,6 +16,7 @@ export READER="zathura"
 export XIMAGEVIEWER="sxiv"
 export WEBCAM="/dev/video0"
 export DMENU="menu"
+export TASK="task"
 export AURMANAGER="yay"
 
 
@@ -26,36 +27,42 @@ export PUBKEYID="FEBD0BDE418119F66D48C6A989B7DF5E14172055"
 export CAMOBI="10.129.64.41"
 
 mkxprt() {
-    export "$1"="$2"
+  if [ "$1" = '-f' ]
+    then shift && mkdir -p `dirname "$2"` && touch "$2"
+  else
     mkdir -p "$2"
+  fi
+  export "$1"="$2"
 }
 
 
 # XDG directory defaults
 
-mkxprt XDG_DATA_HOME "$HOME/.local/share"             # XDG
-mkxprt XDG_CONFIG_HOME "$HOME/.config"                # XDG
-export XDG_BIN_HOME="$HOME/.local/bin"                # custom
-export XDG_DATA_DIRS="/usr/local/share:/usr/share"    # XDG
-export XDG_CONFIG_DIRS="/etc/xdg"                     # XDG
-mkxprt XDG_CACHE_HOME "$HOME/.cache"                  # XDG
-mkxprt XDG_RUNTIME_DIR "$HOME/.local/run"             # XDG
-chmod 0700 "$XDG_RUNTIME_DIR"                         # XDG must!
-mkxprt XDG_RESOURCES_DIR "$HOME/res"                  # custom
-mkxprt XDG_WALLPAPERS_DIR "$XDG_RESOURCES_DIR/wal"    # custom
-mkxprt XDG_TMP_DIR "$HOME/tmp"                        # custom
-mkxprt XDG_DOCUMENTS_DIR "$HOME/dox"                  # XDG
-mkxprt XDG_MUSIC_DIR "$HOME/mus"                      # XDG
-mkxprt XDG_PICTURES_DIR "$HOME/pix"                   # XDG
-mkxprt XDG_PROJECTS_DIR "$HOME/pro"                   # custom
-mkxprt XDG_PUBLICSHARE_DIR "$HOME/pub"                # XDG
-mkxprt XDG_TEMPLATES_DIR "$XDG_RESOURCES_DIR/tpt"     # XDG
-mkxprt XDG_VIDEOS_DIR "$HOME/vid"                     # XDG
-mkxprt XDG_DOWNLOAD_DIR "$XDG_TMP_DIR/tmp"            # XDG
-mkxprt XDG_DESKTOP_DIR "$XDG_TMP_DIR/desktop"         # XDG
-mkxprt XDG_SCREENSHOTS_DIR "$XDG_PICTURES_DIR/scr"    # custom
-mkxprt XDG_MAIL_DIR "$XDG_DATA_HOME/mail"             # custom
+mkxprt XDG_DATA_HOME "$HOME/.local/share"           # XDG
+mkxprt XDG_CONFIG_HOME "$HOME/.config"              # XDG
+export XDG_BIN_HOME="$HOME/.local/bin"              # custom
+export XDG_DATA_DIRS="/usr/local/share:/usr/share"  # XDG
+export XDG_CONFIG_DIRS="/etc/xdg"                   # XDG
+mkxprt XDG_CACHE_HOME "$HOME/.cache"                # XDG
+mkxprt XDG_RUNTIME_DIR "/run/user/$UID"             # XDG
+#chmod 0700 "$XDG_RUNTIME_DIR"                      # do if XDG_RUNTIME_DIR is not system defined
+mkxprt XDG_RESOURCES_DIR "$HOME/res"                # custom
+mkxprt XDG_WALLPAPER_DIR "$XDG_RESOURCES_DIR/wal"   # custom
+mkxprt XDG_TMP_DIR "$HOME/tmp"                      # custom
+mkxprt XDG_DOCUMENTS_DIR "$HOME/dox"                # XDG
+mkxprt XDG_MUSIC_DIR "$HOME/mus"                    # XDG
+mkxprt XDG_PICTURES_DIR "$HOME/pix"                 # XDG
+mkxprt XDG_PROJECTS_DIR "$HOME/pro"                 # custom
+mkxprt XDG_PUBLICSHARE_DIR "$HOME/pub"              # XDG
+mkxprt XDG_TEMPLATES_DIR "$XDG_RESOURCES_DIR/tpt"   # XDG
+mkxprt XDG_VIDEOS_DIR "$HOME/vid"                   # XDG
+mkxprt XDG_DOWNLOAD_DIR "$XDG_TMP_DIR/tmp"          # XDG
+mkxprt XDG_DESKTOP_DIR "$XDG_TMP_DIR/desktop"       # XDG
+mkxprt XDG_SCREENSHOTS_DIR "$XDG_PICTURES_DIR/scr"  # custom
+mkxprt XDG_MAIL_DIR "$XDG_DATA_HOME/mail"           # custom
 
+# SAVED CONFIGS
+export WALLPAPER="$XDG_DATA_HOME/wallpaper"
 
 addpath() {
   # adds directories to PATH: -a for appending, -p for prepending
@@ -105,9 +112,15 @@ trysource() {  # used in other scripts
 addpath -p "$HOME/.local/bin" "$HOME/.local/bin/tintedbin" "$HOME/.local/bin/polybar" "$HOME/.local/bin/bspwm" "$HOME/.local/bin/menu"
 addpath -a  "$HOME/.local/bin/cp-p" 
 addpathsin "$HOME/.local/bin" 
+## bspwm
+export WINDOW_GAP=22
+## polybar
+export BAR_HEIGHT=$WINDOW_GAP
 ## lf
 LF_ICONS_FILE="$XDG_CONFIG_HOME/lf/icons"
 trysource $LF_ICONS_FILE
+# isync
+export MBSYNC_CONFIG="$XDG_CONFIG_HOME/isync/mbsyncrc"
 ## mutt
 export MAIN_MAIL_DIR="$XDG_MAIL_DIR/main"
 ## vim
@@ -153,9 +166,10 @@ export SQLITE_HISTFILE="$HOME/.cache/sqlite_history"
 ## wine
 mkxprt WINEPREFIX "$HOME/.local/share/wineprefix/default"
 ## task
-#export TASKRC="$HOME/.config/taskrc"
-#mkxprt TASKDATA "$HOME/.config/task"
-#mkxprt TIMEWARRIORDB "$HOME/.config/timewarrior"
+export TASKRC="$XDG_CONFIG_HOME/task/taskrc"
+#mkxprt -f TASKRC "$XDG_CONFIG_HOME/task/taskrc"
+mkxprt TASKDATA "$XDG_DOCUMENTS_DIR/tmp/task"
+mkxprt TIMEWARRIORDB "$XDG_DOCUMENTS_DIR/time"
 ## ccache
 mkxprt CCACHE_BASEDIR "$HOME/.cache/ccache"
 export CCACHE_CONFIGPATH="$HOME/.config/ccache.conf"

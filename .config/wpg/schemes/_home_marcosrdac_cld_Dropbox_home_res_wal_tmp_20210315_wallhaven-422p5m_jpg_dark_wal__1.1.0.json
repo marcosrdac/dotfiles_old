@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp_20210315/wallhaven-422p5m.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0C12",
+        "foreground": "#dcd0c6",
+        "cursor": "#dcd0c6"
+    },
+    "colors": {
+        "color0": "#0B0C12",
+        "color1": "#655B54",
+        "color2": "#7B7D5E",
+        "color3": "#947245",
+        "color4": "#AD9936",
+        "color5": "#A7905D",
+        "color6": "#D6A86D",
+        "color7": "#dcd0c6",
+        "color8": "#9a918a",
+        "color9": "#655B54",
+        "color10": "#7B7D5E",
+        "color11": "#947245",
+        "color12": "#AD9936",
+        "color13": "#A7905D",
+        "color14": "#D6A86D",
+        "color15": "#dcd0c6"
+    }
+}

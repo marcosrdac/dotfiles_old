@@ -1,209 +1,316 @@
-: rename 20210126_prob_maps_
-: rename 20210126_prob_maps_morning
-: vim int.py
-: mkdir campos
-: rename 20210126_prob_maps_photoshop
-: rename 20210126_prob_maps_ps
-: rename 20210126_prob_maps
-: rename 20210126_prob_maps_ps
-: rename 20210126_prob_maps_pss
-: rename 20210126_prob_maps_pcs
-: rename 20210126_prob_maps_ps
-: rename 20210126_prob_maps
-: rename 20210126_prob_maps_morning
-% cp /home/marcosrdac/article_los/campos/mask.py /home/marcosrdac/article_los/campos/interpolation.py
-: mkdir downloading
-& rm $fs
-: mkdir 20210127_data
-: rename 0_manual_vpn_2016_v2_0.pdf
-& rm $fs
-& rm $fs
-: mkdir pablicio
-: extract 
-: rename pseudoanalysis_mare.py
-: rename mare.xls
-: mkdir svd
-: rename points__.png
-: rename points.png
-: rename points_ok.png
-: rename song_creator.py
-: bkrn 
-: rename classification_masks_
-: mkdir classification_masks
-: rename classification_masks__
-: rename classification_masks_
-: rename classification_masks
-: mkdir from_lentinis
-: rename classification_model_features_old
-: mkdir classification_model_features
-: mkdir classification_model_features
-: rename oil_proba_.png
-: rename oil_proba_.xcf
-: rename original__
-: mkdir original
-: mkdir backup
-: rename original
-: reload
-& rm $f
-: rename rf_2_very_good.bin~
-: rename rf_2_very_good.bin
-: rename Comprovante0.pdf
-: rename Comprovante1.pdf
-: rename Comprovante2.pdf
-: rename contracheque1.pdf
-: bkrn 
-: rename contrachequejan1.pdf
-: rename contracheque.pdfabr
-: rename contracheque.pdfdez
-: rename contracheque.pdffev
-: rename contracheque.pdfjan
-: rename contrachequenov.pdf
-: rename contracheque.pdfmaio
-: rename contracheque.pdfmar
-: bkrn 
-: bkrn 
-: rename classification_rf_7.py
-: rename rf_7.bin
-: rename P_REM_FDM.gif
 : q
-: rename P_exp.gif
-: rename erro_bonito_pseudo.gif
-: rename P_NEW_REM.gif
-: rename P_REM_PSEUDO.gif
-: rename P_FDM_FDM.gif
-: rename atila_20200827160208_screencast.mkv
-: rename cicero_amanda_20201122093005_audio.flac
-: reload
-: reload
-: reload 
-: reload 
-: sxiv $fs
-& sxiv $fs
-: q
-: touch import matplotlib.pyplot as plt
-: rename viewing_results.py
-: rename viewing_map_results.py
-: rename view_map_results.py
-: rename 1996_solberg_a_large_scale_evaluation_of_features_for_automatic_detection_of_oil_spills_in_ers_sar_images.pdf
-: reload 
-: reload 
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: reload
-: extract
-: extract
-: extract
-: extract
-: extract
-: extract
-: extract
-: extract
-: extract
-: reload 
-: reload 
-: reload 
-: reload 
+: rename sato_eage_enrollment_letter.pdf
+: rename S1A_IW_SLC__1SDV_20200721T083131_20200721T083159_033550_03E347_3D1C_split_Cal_Orb_deb_ML_dB.png
+: rename S1A_IW_SLC__1SDV_20200901T091218_20200901T091248_034163_03F7E9_8FF5_split_Cal_Orb_deb_ML_dB.png
+: rename subset_0_of_S1A_IW_SLC__1SDV_20181009T171427_20181009T171454_024062_02A131_CCBB_Cal_Orb_Deb_ML_dB.png
+$ rm $f
+$ rm $f
+$ rm $f
+$ rm $f
 : extract 
-: rename 2020
-: mkdir holz_lembranca
-: mkdir dmdann
-: mkdir ravel.py
-: rm ravel.py/
-: rmdir ravel
-& rmdir ravel.py/
-: touch ravel.py
-: rename dmdann.pdf
-: rename adahess.pdf
-: rename dmdann.pdf
-: rename yao_adahess.pdf
-: rename 2020_yao_adahess.pdf
-: rename 2020_yao_adahessian.pdf
-: mkdir potential_methods
-: rename 2020_haghighata_sciann_pinn_in_keras.pdf
-: rename 2007_peel_updated_koppen_geiger_climate_classification.pdf
-: rename 2016_ann_black_box538020a.pdf
-: rename 2016_ann_black_box.pdf
-: rename 2020_tano_dmdann.pdf
-: mkdir ann
-: rename geophysics
-: rename 31_2-64-64-64-64-64-64-1.png
-: rename 03_2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename 1_2_2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename 0_3_2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename 2_2-64-64-64-64-64-64-1.png
-: rename 0_2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename 1_2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename 1_2splitarch_2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename 3_2-40-40-40-40-40-40-1.png
-: rename 4_2-40-40-40-40-40-40-1.png
-: rename __2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename _2-64-64-64-64-64-64-1.png
-: rename 3_2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename 2_2-8-8-8-8-8-8-8-8-8-8-1.png
-: rename 1_2-64-64-64-64-64-64-1.png
-: rename 5_2-40-40-40-40-40-40-1.png
-: q
-: emptytrash 
-: rename 2006_aharon_ksvd.pdf
-: rename 2007_total_robust_svd.pdf
-: mkdir dictionary
-: rename ksvd
-: touch dict.py
-: rename dict.py
-: mkdir power_methods.py
-: rename power_methods
-: touch eigendecomposition.py
-: mkdir conj_grad
-: rename grad
-: touch grad.py
-: mkdir 3d
+: rename micharten.zip
 : extract 
-& sxiv $fs
-: rename fortran_ementa.pdf
-: rename logo_new.svh
-: rename logo_new.svg
-: touch calc_feats.py
-: export
-: export
-: extract 
-: mkdir local
-& sxiv $fs
-: touch ksvd.py
-: mkdir new
-: rename perfis-cerb.csv
-: rename perfis-cerb.xlsx
-: touch alex_dicas.md
-: rename future_ksvd.py
-: rename omp.py
-: ytrename omp_as_article.py
-: rename omp_as_article.py
-: mkdir backup
-: rename omp_onp.py
-: rename dict_sparse_omp.py
-: rename dict_sparse_l1.py
-: rename dict_sparse_l0_omp.py
-: rename dict_sparse_l0.py
-: mkdir done.md
-: touch done.md
+: mkdir rm
+: rename zbc.png
+: rename zp.png
+: rename zbc.bin
+: rename zp.png
+: rename zp.bin
+$ rm -r $f
+: rename micharten.sh
+: rename micharten.bin
+$ rm micharten
+$ rmdir micharten
+: rename grade.jpeg
+: rename ufba_
+: reload 
+$ rm $f
+: mkdir gitstuff
 : q
-: mkdir los
-: mkdir compton
-: mkdir comton.conf
-: touch compton.conf
-: mkdir picom
-: touch picom.conf
+: rename lista_prova_2_outro.pdf
+: rename 2019_sun_rnn_fwi.pdf
+: rename 2019_hughes_rnn_awm.pdf
+: rename medsker_Effects_of_Liquid_and_Encapsulated_Lacti.pdf
+: rename 2001_medsker_rnn_design_application.pdf
+: rename 2011_virieux_spec_pseudospec_fd_awm.pdf
+: rename 2020_hu_tdom_em_awm_w_autodiff.pdf
+: rename 2020_nguyen_neural_ode_exploration_and_implementation.pdf
+: rename 2018_jia_freq_domain_element_free_awm_rtm.pdf
+: rename tcc_2014_eduarda_rego.pdf
+: rename bfp_2014_eduarda_rego.pdf
+: rename 2016_proctor_dmd_w_control.pdf
+: rename 2013_tu_dmd_theory_applications.pdf1312.0041.pdf
+: rename 2013_tu_dmd_theory_applications.pdf
+: rename 2011_schmid_dmd_applications.pdf
+: rename marcos.png
+: rename marcos_conceicao.png
+: mkdir python_stuff
+: rename automation
+: mkdir past
+: touch variables.tex
+: touch individual.tex
+: rename out.tex
+: rename document.tex
+: reload 
+: rename individual_pages.tex
+: rename individualpages.tex
+: rename projectinfo.tex
+: rename info.tex
+: rename pages.tex
+: rename body.tex
+: rename sum.tex
+: rename summary.tex
+: q
+: rename automation_0
+: rename splitting_docs
+: rename split
+: touch gen_info.tex
+: rename gen_info.py
+: mkdir tex_generator
+: touch gen_body.py
+: touch view.py
+: q
+: touch main.py
+: rename generator
+: rename generator.py
+: rename utils.py
+& chmod +x main.py 
+$ ./$f
+: reload 
+: mkdir array_0
+: touch l1-dotprod.f08
+: rename dotprod.f08
+: rename array_2d.f08
+: touch message.txt
+: rename in
+: touch in.txt
+: mkdir texto
+: mkdir dotprod
+: mkdir dotpro
+: mkdir parameter
+: rename text
+: mkdir matmul
+: rename matmull
+: mkdir matmul
+: rename matmul
+: mkdir a
+: rename a.f08
+: rename readwritefile
+: rename readwritetext
+: rename main.f08
+: rename main.f08
+: rename main.f08
+: rename readwritefile_forall
+: mkdir automation_test
+: q
+: rename newcommands.tex
+: rename commands.tex
+$ vim style.tex
+: rename pagestyles.tex
+: touch style.tex
+: rename vars.tex
+: rename pgstl.tex
+: rename sum.tex
+: rename summary.tex
+: rename cmds.tex
+: rename main.tex
+: rename generate_tex_info.py
+: rename gen_info.py
+: mkdir tex
+: mkdir gen
 : w
+: rename var.tex
+: mkdir genutils
+: rename gen.py
+: rename generated
+: rename gen
+: rename gen_aux_files.py
+: rename generator
+: rename texgen.py
+: rename texgen
+: rename main.tex_
+: mkdir aux
+: mkdir out
+& sxiv $fs
+: rename 20210417161917.png
+: rename 20210417161917_scr.png
+: rename 20210417161919_scr.png
+: rename 20210417161919_scr_better.png
+: rename 20210417161917_scr_other.png
+: rename automation
+: touch cmd.tex
+: rename cmd.tex
+: reload 
+: rename main.tex
+: rename genpdf.py
+: rename automated
+: rename kmeans_modify.md
+: mkdir ucs
 : q
+: mkdir discarray_fortran
+: q
+: q
+: rename rnn.py
+: q
+: rename telegram_
+& sxiv $fs
+: touch atila.f08
+: mkdir mmap
+: touch map.f08
+: mkdir open_test
+: touch open_test.f08
+: rename 2014_gandolfo_na_via_refracao.pdf
+: bkrn 
+: rename marcos_anomalias_bacias.png
+: rename marcos_anomalias_bacias.svg
+: rename open_discarray.f08
+: mkdir rioss
+: mkdir rioss_lim
+: rename rioss_total
+: rename rioss_limited
+: rename rioss_pure
+: rename rioss_mine
+: rename rioss_pure
+: reload 
+: rename other
+: reload 
+: rename view_maps.py
+: mkdir teste2
+: rename rnn_working.py
+: rename 2012_topouzelis_oil_spill_feat_sel_w_decision_tree.pdf
+: mkdir sandwich_myth
+: reload 
+: rename 20210418_cluster_analysis_class.png
+: rename 20210107_cronograma_semestre.md
+: rename 20201225_kmedias.md
+: rename 20201225_kmeans_br.md
+: rename tmp
+: mkdir testrnn.py
+: touch testrnn.py
+: rename test_rnn.py
+: test_lstm.py
+: touch test_lstm.py
+: rename rnn_old.py
+: mkdir anomalias
+: touch anomalias.py
+: extract 
+: touch rev1.md
+: touch rev2.md
+: touch rev3.md
+: touch notes.md
+: rename tests
+: rename 1.png
+: rename 9.png
+: rename 8.png
+: rename 7.png
+: rename 9.png
+: rename 8.png
+: rename 9.png
+: rename 19.png
+: rename 10.png
+: mkdir pix
+: rename maps.svg
+: mkdir ucs
+: extract 
+: bkrn 
+: extract 
+: mkdir maleficent
+: q
+: mkdir parasite
+: rename maleficent_2014.mp4
+: rename maleficent_2014.srt
+: extract 
+: reload
+: reload
+: reload
+: reload
+: reload
+: reload
+: rename bfp_rnn_awm_fwi.svgz
+: rename setup.bat.bak
+: w
+: rename setup.bat.bak.bak
+: rename setup.bat.bak
+: reload 
+: toux wacom_rotate
+: toucx wacom_rotate
+: touhx wacom_rotate
+: touchx wacom_rotate
+: touch wacom_rotate
+$ chmod +x wacom_rotate
+: rename vlf_mapeamento_monitoramento.PDF
+: rename gpr_curtume.pdf
+: rename 20210504_ucs_pdfs
+: rename 20201222193201_screencast_botelho.mkv
+: reload 
+: reload 
+: reload 
+: reload 
+: reload 
+: reload 
+: reload 
+: reload 
+: reload 
+: reload 
+: reload 
+: reload 
+: rename te_tm.svgz
+: mkdir joelson
+: rename mt
+: touch cmd.md
+: mkdir bak
+: rename 20210506_ucs_pdfs
+& sxiv $fs
+& sxiv $fs
+: touch mod.py
+: mkdir share
+: rename sar_images.zip
+: touch readme.md
+: mkdir sar_images
+$ ncdu
+: mkdir wrk
+: touch links
+: rename links.md
+: rename perfis.csv
+: rename amanda
+: mkdir mari
+: rename 20210508_ucs_pdfs
+: mkdir test_run_bat.bat
+: touch test_run_bat.bat
+: mkdir torrent
+: wq
+: q
+: touch handwritten.desktop
+: rename storage_folders.svgz
+: reload 
+: touch doubts.md
+: rename Ativador Windows 10
+: rename readme.txt
+: rename reloader.exe
+: rename activator.exe
+: rename win_activator.zip
+: q
+: q
+: reload 
+: extract 
+: reload 
+: rename readme.txt
+: rename win_activ.exe
+: touch windows_config.md
+: mkdir installers
+: mkdir os
+: rename programs
+: rename 7zip.exe
+: rename firefox.exe
+: rename oasis_montaj.exe
+: rename transmission.msi
+: extract 
+: zip
+: rename Re-LoaderByR@1n_.exe
+: extract 
+: rename reloader_rain.zip
+: rename Office16.X64.en-US.iso
+: rename Office16.X64.en-US.md5
+: rename Office16.X64.en-US.sfv
+: rename Office16.X64.en-US.sha
+: mkdir win_installers

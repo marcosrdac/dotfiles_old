@@ -31,7 +31,7 @@
        state="1" />
     <group
        id="rulers"
-       state="0" />
+       state="1" />
     <group
        id="scrollbars"
        state="0" />
@@ -64,10 +64,10 @@
        state="1" />
     <group
        id="rulers"
-       state="0" />
+       state="1" />
     <group
        id="scrollbars"
-       state="1" />
+       state="0" />
   </group>
   <group
      id="focus">
@@ -133,8 +133,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="274179"
-         height="25432.6"
+         width="1088.96"
+         height="795.715"
          rx="0"
          ry="0" />
       <eventcontext
@@ -173,8 +173,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="22370.3"
-         ry="22370.3"
+         rx="155.426"
+         ry="82.2465"
          open="1"
          arc_type="0" />
       <eventcontext
@@ -182,10 +182,10 @@
          magnitude="3"
          style="fill:yellow;"
          usecurrent="1"
-         proportion="0.411659"
-         rounded="0"
+         proportion="0.5"
+         rounded="-0.03"
          randomized="0"
-         isflatsided="1" />
+         isflatsided="0" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -220,8 +220,8 @@
        style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
        mass="1"
        angle="30"
-       width="5"
-       thinning="0"
+       width="1"
+       thinning="44"
        flatness="0"
        cap_rounding="0"
        usecurrent="1"
@@ -336,7 +336,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -345,7 +345,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="font-family:'Andale Mono';font-size:24px;line-height:0;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Andale Mono'"
+       style="font-family:sans-serif;font-size:24px;line-height:0;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:sans-serif"
        selcue="1"
        align_mode="1">
       <group
@@ -363,12 +363,12 @@
        show_outline="1"
        sculpting_profile="1"
        single_node_transform_handles="0"
-       show_transform_handles="0"
+       show_transform_handles="1"
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="887.36"
-       y="0"
+       x="137.5"
+       y="204.5"
        edit_clipping_paths="1"
        edit_masks="1"
        highlight_color="4278190335" />
@@ -393,12 +393,12 @@
        selcue="1"
        gradientdrag="0"
        usepressure="1"
-       width="15"
+       width="53"
        population="70"
        mode="0"
        rotation_variation="0"
        scale_variation="0"
-       standard_deviation="70"
+       standard_deviation="80"
        mean="0"
        offset="100" />
     <eventcontext
@@ -420,7 +420,7 @@
        id="dropper"
        selcue="1"
        gradientdrag="1"
-       pick="1"
+       pick="0"
        setalpha="1"
        onetimepick="0" />
     <eventcontext
@@ -440,8 +440,8 @@
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1"
        threshold="0"
-       offset="0.377953"
-       offsetunits="px"
+       offset="0.1"
+       offsetunits="mm"
        autogap="1" />
     <group
        id="measure"
@@ -602,7 +602,7 @@
        h="454"
        visible="0"
        state="2"
-       placement="5" />
+       placement="1" />
     <group
        id="filtereffects" />
     <group
@@ -635,10 +635,10 @@
        h="348"
        visible="0"
        state="2"
-       placement="1"
+       placement="5"
        align-to="0"
        sel-as-groups="0"
-       align-nodes-to="0" />
+       align-nodes-to="2" />
     <group
        id="xml"
        panedpos="144"
@@ -653,8 +653,8 @@
        id="find"
        x="0"
        y="0"
-       w="316"
-       h="438"
+       w="312"
+       h="348"
        visible="0"
        state="2"
        placement="5" />
@@ -686,11 +686,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="30"
+       page="18"
        x="419"
        y="35"
-       w="527"
-       h="720"
+       w="816"
+       h="655"
        visible="0"
        placement="1" />
     <group
@@ -700,7 +700,7 @@
        x="0"
        y="0"
        w="278"
-       h="400" />
+       h="308" />
     <group
        id="export"
        default=""
@@ -711,7 +711,7 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="0"
+       x="701"
        y="0"
        w="665"
        h="700"
@@ -723,29 +723,29 @@
          value="page" />
       <group
          id="defaultxdpi"
-         value="600" />
+         value="300" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/marcosrdac/article_los/lentini"
+       path="/home/marcosrdac"
        use_current_dir="1" />
     <group
        id="save_copy"
-       default=""
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="" />
+       path="/home/marcosrdac/cld/Dropbox/home/pro/los/site" />
     <group
        id="open"
        enable_preview="0"
-       path="/home/marcosrdac/pro/los/article_los/lentini/" />
+       path="/home/marcosrdac/pro/student_chapter/logo/" />
     <group
        id="import"
        enable_preview="1"
-       path="/home/marcosrdac/projects/riooss/"
+       path="/home/marcosrdac/tmp/people/everaldo/"
        ask="1"
        ask_svg="1"
        link="link"
@@ -812,8 +812,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="556"
-       h="587"
+       w="312"
+       h="51"
        visible="0"
        state="2"
        placement="5" />
@@ -843,8 +843,8 @@
     <group
        id="trace"
        state="1"
-       x="444"
-       y="186"
+       x="317"
+       y="0"
        w="477"
        h="396"
        visible="0"
@@ -913,6 +913,28 @@
        y="0"
        w="312"
        h="400" />
+    <group
+       id="objectattr"
+       y="0"
+       w="226"
+       h="195"
+       x="0"
+       visible="0"
+       state="2"
+       placement="1">
+      <group
+         id=""
+         x="0" />
+    </group>
+    <group
+       id="glyphs"
+       x="255"
+       y="230"
+       w="483"
+       h="485"
+       visible="0"
+       state="1"
+       placement="1" />
   </group>
   <group
      id="printing">
@@ -1078,10 +1100,10 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
-       rectcorners="1"
-       pattern="1"
-       gradient="1" />
+       stroke="0"
+       rectcorners="0"
+       pattern="0"
+       gradient="0" />
     <group
        id="kbselection"
        inlayer="1"
@@ -1287,16 +1309,20 @@
      org.inkscape.input.gdkpixbuf.png.link="link"
      org.ekips.output.dxf_outlines.units="72./96"
      org.ekips.output.dxf_outlines.encoding="latin_1"
-     org.ekips.output.dxf_outlines.layer_option="all" />
+     org.ekips.output.dxf_outlines.layer_option="all"
+     org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed"
+     com.nerdson.text_split.splittype="line"
+     com.nerdson.text_split.preserve="0"
+     org.inkscape.input.gdkpixbuf.jpeg.link="link" />
   <group
      id="desktop"
-     style="line-height:0;font-size:12px;-inkscape-font-specification:sans-serif;font-family:sans-serif;text-decoration:none;text-decoration-color:#000000;stop-color:#000000;paint-order:markers stroke fill;fill:#000000;stroke-linejoin:round;stroke:#ffffff;letter-spacing:0px;word-spacing:0px;stroke-width:0.99999997"
+     style="line-height:2;font-size:48px;-inkscape-font-specification:'Share Bold';font-family:Share;text-decoration:none;text-decoration-color:#000000;stop-color:#000000;fill:#955a14;letter-spacing:0px;word-spacing:0px;stroke-width:1.8897599;text-align:center;text-anchor:middle;font-weight:bold;stroke-linejoin:round;stroke:#ff0000"
      xrayactive="0">
     <group
-       width="1334"
-       height="714"
-       x="13"
-       y="35"
+       width="510"
+       height="696"
+       x="828"
+       y="44"
        fullscreen="0"
        id="geometry"
        maximized="0" />
@@ -1418,7 +1444,7 @@
      menuIcons="-1">
     <group
        id="flattrcolor-dark"
-       symbolicBaseColor="3317875455"
+       symbolicBaseColor="2044905471"
        symbolicSuccessColor="1403600895"
        symbolicWarningColor="4118348031"
        symbolicErrorColor="4112777471" />

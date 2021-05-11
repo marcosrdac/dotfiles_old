@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp_20210315/wallhaven-j3339m.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0a0a",
+        "foreground": "#efd9bf",
+        "cursor": "#efd9bf"
+    },
+    "colors": {
+        "color0": "#0b0a0a",
+        "color1": "#FDC07E",
+        "color2": "#7C7481",
+        "color3": "#8B7C82",
+        "color4": "#A68C88",
+        "color5": "#D2A28A",
+        "color6": "#EBB389",
+        "color7": "#efd9bf",
+        "color8": "#a79785",
+        "color9": "#FDC07E",
+        "color10": "#7C7481",
+        "color11": "#8B7C82",
+        "color12": "#A68C88",
+        "color13": "#D2A28A",
+        "color14": "#EBB389",
+        "color15": "#efd9bf"
+    }
+}

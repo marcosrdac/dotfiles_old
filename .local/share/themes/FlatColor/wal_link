@@ -1,0 +1,7 @@
+#!/bin/sh
+
+WAL_TEMPLATES="${XDG_CONFIG_HOME:-"$HOME/.config"}/wal/templates"
+
+ln -s "gtk-3.20/gtk.css.base" "$WAL_TEMPLATES/gtk32.css.base"
+ln -s "gtk-3.0/gtk.css.base"  "$WAL_TEMPLATES/gtk3.css.base"
+ln -s "gtk-2.0/gtkrc.base"    "$WAL_TEMPLATES/gtkrc.base"

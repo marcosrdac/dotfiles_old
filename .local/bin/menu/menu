@@ -1,8 +1,12 @@
 #!/bin/sh
 
-# Import the colors
-. "${HOME}/.cache/wal/colors.sh"
+# verify if there is a wal cache
+[ ! -f "$HOME/.cache/wal/colors.sh" ] && dmenu "$@" && exit
+# import colors from wal
+. "$HOME/.cache/wal/colors.sh"
+# import font from Xresources
+font=`xrdb -query | awk -F'\t' '$1~/^*font:$/{print $2}'`
 
 # call dmenu with custom settings
-#dmenu -h 18 -y 22 -l 15 -i -fn "$(xrdb -query | awk '$1~/^*font:$/{$1=""; print $0}')" -nb "$background" -nf "$foreground" -sb "$foreground" -sf "$background" "$@"
-dmenu -i  -b -l 15 -fn "$(xrdb -query | awk '$1~/^*font:$/{$1=""; print $0}')" -nb "$background" -nf "$foreground" -sb "$foreground" -sf "$background" "$@"
+#dmenu -h 18 -y 22 -l 15 ...
+dmenu -i  -b -l 15 -fn "$font" -nb $background -nf $foreground -sb $foreground -sf $background "$@"

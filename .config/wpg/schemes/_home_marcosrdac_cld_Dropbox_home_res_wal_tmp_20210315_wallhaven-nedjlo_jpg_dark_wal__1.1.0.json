@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/tmp_20210315/wallhaven-nedjlo.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#152123",
+        "foreground": "#e0decc",
+        "cursor": "#e0decc"
+    },
+    "colors": {
+        "color0": "#152123",
+        "color1": "#9B7072",
+        "color2": "#85827F",
+        "color3": "#958979",
+        "color4": "#AAA194",
+        "color5": "#C6B59E",
+        "color6": "#BFC3B4",
+        "color7": "#e0decc",
+        "color8": "#9c9b8e",
+        "color9": "#9B7072",
+        "color10": "#85827F",
+        "color11": "#958979",
+        "color12": "#AAA194",
+        "color13": "#C6B59E",
+        "color14": "#BFC3B4",
+        "color15": "#e0decc"
+    }
+}

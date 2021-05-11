@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcosrdac/cld/Dropbox/home/res/wal/twin_peaks/KErRqxp.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060606",
+        "foreground": "#dedede",
+        "cursor": "#dedede"
+    },
+    "colors": {
+        "color0": "#060606",
+        "color1": "#575757",
+        "color2": "#676767",
+        "color3": "#777777",
+        "color4": "#878787",
+        "color5": "#979797",
+        "color6": "#AFAFAF",
+        "color7": "#dedede",
+        "color8": "#9b9b9b",
+        "color9": "#575757",
+        "color10": "#676767",
+        "color11": "#777777",
+        "color12": "#878787",
+        "color13": "#979797",
+        "color14": "#AFAFAF",
+        "color15": "#dedede"
+    }
+}

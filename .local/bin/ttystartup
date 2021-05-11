@@ -2,7 +2,14 @@
 
 # I use this file so that both profile and zprofile can run the same commands, as zsh does not run profile at start
 
+# set wal colors to tty
+#[ -f "$XDG_CACHE_HOME/wal/colors-tty.sh" ] && sh "$XDG_CACHE_HOME/wal/colors-tty.sh"
+
 # make dropbox run
 dropbox >/dev/null 2>&1 &
+
 # make mpd run
 mpd </dev/null >/dev/null 2>&1 &
+
+# read your fortune 
+which fortune >/dev/null 2>&1 && echo -e \\nFortune:\\n`fortune`\\n
